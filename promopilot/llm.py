@@ -14,6 +14,7 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable, Optional, Protocol
+from urllib.parse import urlsplit
 
 from pydantic import BaseModel, Field
 
@@ -21,10 +22,111 @@ RETRYABLE_STATUS = {429, 500, 502, 503, 504}
 
 PROVIDER_REGISTRY = {
     "gemini": {"base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
-               "key_env": "GEMINI_API_KEY", "model_env": "GEMINI_MODEL", "base_url_env": "GEMINI_BASE_URL"},
+               "key_env": "GEMINI_API_KEY", "model_env": "GEMINI_MODEL", "base_url_env": "GEMINI_BASE_URL",
+               "default_judge_model": "gemini-3.5-flash-lite"},
     "groq": {"base_url": "https://api.groq.com/openai/v1",
              "key_env": "GROQ_API_KEY", "model_env": "GROQ_MODEL", "base_url_env": "GROQ_BASE_URL"},
 }
+DEFAULT_JUDGE_PROVIDER = "gemini"
+MAX_TOKENS_PARAMS = ("max_tokens", "max_completion_tokens", "none")
+_PROVIDER_NAME_RE = re.compile(r"^[a-z][a-z0-9_-]{0,31}$")
+
+
+def env_prefix(name: str) -> str:
+    return re.sub(r"[^A-Z0-9]", "_", name.upper())
+
+
+def provider_registry() -> dict[str, dict]:
+    """Built-in providers plus any declared in PROMOPILOT_PROVIDERS (comma-separated names). A declared provider
+    NAME reads NAME_BASE_URL (required), NAME_MODEL, and its key from NAME_API_KEY, or from the variable named
+    by NAME_API_KEY_ENV. Built-in names cannot be redefined."""
+    registry = {k: dict(v) for k, v in PROVIDER_REGISTRY.items()}
+    for raw in os.environ.get("PROMOPILOT_PROVIDERS", "").split(","):
+        name = raw.strip().lower()
+        if not name or name in registry:
+            continue
+        if not _PROVIDER_NAME_RE.match(name):
+            raise ConfigError(f"invalid provider name {raw.strip()!r} in PROMOPILOT_PROVIDERS")
+        p = env_prefix(name)
+        registry[name] = {"base_url": None, "base_url_env": f"{p}_BASE_URL", "model_env": f"{p}_MODEL",
+                          "key_env": os.environ.get(f"{p}_API_KEY_ENV", "").strip() or f"{p}_API_KEY"}
+    return registry
+
+
+def _env_flag(name: str, default: bool) -> bool:
+    value = os.environ.get(name, "").strip().lower()
+    if not value:
+        return default
+    if value in ("1", "true", "yes", "on"):
+        return True
+    if value in ("0", "false", "no", "off"):
+        return False
+    raise ConfigError(f"{name} must be true or false")
+
+
+def request_capabilities(name: str) -> dict:
+    """Which optional request parameters an endpoint accepts, from NAME_JSON_MODE, NAME_SEND_TEMPERATURE and
+    NAME_MAX_TOKENS_PARAM (max_tokens | max_completion_tokens | none). Defaults match the original requests."""
+    p = env_prefix(name)
+    tokens = os.environ.get(f"{p}_MAX_TOKENS_PARAM", "").strip().lower() or "max_tokens"
+    if tokens not in MAX_TOKENS_PARAMS:
+        raise ConfigError(f"{p}_MAX_TOKENS_PARAM must be one of {', '.join(MAX_TOKENS_PARAMS)}")
+    return {"json_mode": _env_flag(f"{p}_JSON_MODE", True), "temperature": _env_flag(f"{p}_SEND_TEMPERATURE", True),
+            "max_tokens_param": tokens}
+
+
+DEFAULT_CAPABILITIES = {"json_mode": True, "temperature": True, "max_tokens_param": "max_tokens"}
+
+
+def endpoint_label(base_url: str) -> str:
+    """Host and path of an endpoint, without credentials, query string or fragment."""
+    parts = urlsplit(base_url.strip())
+    host = parts.hostname or ""
+    if parts.port:
+        host = f"{host}:{parts.port}"
+    return f"{parts.scheme}://{host}{parts.path.rstrip('/')}"
+
+
+def endpoint_identity(name: str) -> Optional[str]:
+    """None for a built-in provider on its default URL with default request parameters (the identity is implied
+    by the provider name, which keeps existing cache keys and output folders valid); otherwise a stable string
+    naming the endpoint and any non-default request parameters. Needs no API key."""
+    registry = provider_registry()
+    if name not in registry:
+        raise ConfigError(f"unknown LLM provider {name!r}; expected one of {sorted(registry)}")
+    spec = registry[name]
+    base_url = os.environ.get(spec["base_url_env"], "").strip() or spec["base_url"]
+    if not base_url:
+        raise ConfigError(f"{spec['base_url_env']} is not set in .env")
+    caps = request_capabilities(name)
+    if spec["base_url"] and endpoint_label(base_url) == endpoint_label(spec["base_url"]) \
+            and caps == DEFAULT_CAPABILITIES:
+        return None
+    changed = {k: v for k, v in caps.items() if DEFAULT_CAPABILITIES[k] != v}
+    return endpoint_label(base_url) + ("" if not changed else " " + json.dumps(changed, sort_keys=True))
+
+
+def resolve_judge(provider: Optional[str] = None, model: Optional[str] = None) -> tuple[str, str]:
+    """Judge provider and model. Provider: --provider, else PROMOPILOT_JUDGE_PROVIDER, else gemini. Model:
+    --model; else PROMOPILOT_JUDGE_MODEL when the provider is the configured judge provider; else NAME_JUDGE_MODEL;
+    else the provider's registry default; else NAME_MODEL."""
+    env_provider = os.environ.get("PROMOPILOT_JUDGE_PROVIDER", "").strip().lower()
+    name = (provider or "").strip().lower() or env_provider or DEFAULT_JUDGE_PROVIDER
+    if model and model.strip():
+        return name, model.strip()
+    env_model = os.environ.get("PROMOPILOT_JUDGE_MODEL", "").strip()
+    if env_model and name == (env_provider or DEFAULT_JUDGE_PROVIDER):
+        return name, env_model
+    registry = provider_registry()
+    if name not in registry:
+        raise ConfigError(f"unknown LLM provider {name!r}; expected one of {sorted(registry)}")
+    spec = registry[name]
+    chosen = (os.environ.get(f"{env_prefix(name)}_JUDGE_MODEL", "").strip() or spec.get("default_judge_model")
+              or os.environ.get(spec["model_env"], "").strip())
+    if not chosen:
+        raise ConfigError(f"no judge model for provider {name!r}: pass --model, or set PROMOPILOT_JUDGE_MODEL, "
+                          f"{env_prefix(name)}_JUDGE_MODEL or {spec['model_env']}")
+    return name, chosen
 
 
 class ConfigError(Exception):
@@ -136,22 +238,32 @@ class OpenAICompatibleProvider:
     """Any endpoint speaking the OpenAI chat-completions protocol (Gemini and Groq both do)."""
 
     def __init__(self, name: str, base_url: str, api_key: str, model: str, timeout_s: float = 120,
-                 client: Any = None):
+                 client: Any = None, endpoint: Optional[str] = None, capabilities: Optional[dict] = None):
         self.name = name
         self.model = model
+        self.endpoint = endpoint
+        self.capabilities = dict(capabilities or DEFAULT_CAPABILITIES)
         self._secrets = [api_key]
         if client is None:
             from openai import OpenAI
             client = OpenAI(base_url=base_url, api_key=api_key, max_retries=0, timeout=timeout_s)
         self._client = client
 
+    def request_params(self, request: LLMRequest) -> dict[str, Any]:
+        caps = self.capabilities
+        params: dict[str, Any] = {"model": self.model, "messages": request.messages}
+        if caps["temperature"]:
+            params["temperature"] = request.temperature
+        if caps["max_tokens_param"] != "none":
+            params[caps["max_tokens_param"]] = request.max_tokens
+        if request.json_mode and caps["json_mode"]:
+            params["response_format"] = {"type": "json_object"}
+        return params
+
     def complete(self, request: LLMRequest) -> LLMResponse:
         import openai
 
-        params: dict[str, Any] = {"model": self.model, "messages": request.messages,
-                                  "temperature": request.temperature, "max_tokens": request.max_tokens}
-        if request.json_mode:
-            params["response_format"] = {"type": "json_object"}
+        params = self.request_params(request)
         started = time.perf_counter()
         try:
             raw = self._client.chat.completions.with_raw_response.create(**params)
@@ -195,9 +307,11 @@ def get_provider(name: Optional[str] = None, *, model: Optional[str] = None, tim
     """Build a provider from environment variables. Raises ConfigError without revealing secrets.
     `model` overrides the provider's *_MODEL variable (used for a separately configured judge model)."""
     name = (name or os.environ.get("LLM_PROVIDER", "")).strip().lower()
-    if name not in PROVIDER_REGISTRY:
-        raise ConfigError(f"unknown LLM provider {name!r}; expected one of {sorted(PROVIDER_REGISTRY)}")
-    spec = PROVIDER_REGISTRY[name]
+    registry = provider_registry()
+    if name not in registry:
+        raise ConfigError(f"unknown LLM provider {name!r}; expected one of {sorted(registry)}")
+    spec = registry[name]
+    endpoint = endpoint_identity(name)
     api_key = os.environ.get(spec["key_env"], "").strip()
     model = (model or os.environ.get(spec["model_env"], "")).strip()
     if not api_key:
@@ -205,7 +319,8 @@ def get_provider(name: Optional[str] = None, *, model: Optional[str] = None, tim
     if not model:
         raise ConfigError(f"{spec['model_env']} is not set in .env")
     base_url = os.environ.get(spec["base_url_env"], "").strip() or spec["base_url"]
-    return OpenAICompatibleProvider(name, base_url, api_key, model, timeout_s=timeout_s, client=client)
+    return OpenAICompatibleProvider(name, base_url, api_key, model, timeout_s=timeout_s, client=client,
+                                    endpoint=endpoint, capabilities=request_capabilities(name))
 
 
 def call_with_retry(provider: Provider, request: LLMRequest, *, max_attempts: int = 5, base_delay_s: float = 2,
@@ -239,9 +354,13 @@ class ResponseCache:
         self.root = Path(root)
 
     @staticmethod
-    def key(provider: str, model: str, prompt_version: str, request: LLMRequest) -> str:
+    def key(provider: str, model: str, prompt_version: str, request: LLMRequest,
+            endpoint: Optional[str] = None) -> str:
+        """endpoint=None (a built-in provider on its default URL and parameters) keeps the original key format."""
         payload = {"provider": provider, "model": model, "prompt_version": prompt_version,
                    "request": request.model_dump()}
+        if endpoint is not None:
+            payload["endpoint"] = endpoint
         blob = json.dumps(payload, sort_keys=True, ensure_ascii=False)
         return hashlib.sha256(blob.encode("utf-8")).hexdigest()
 
@@ -310,7 +429,8 @@ class LLMClient:
         self.cache_hits = 0
 
     def complete(self, request: LLMRequest, *, prompt_version: str, stage: str, item_id: str) -> CallResult:
-        key = ResponseCache.key(self.provider.name, self.provider.model, prompt_version, request)
+        key = ResponseCache.key(self.provider.name, self.provider.model, prompt_version, request,
+                                endpoint=getattr(self.provider, "endpoint", None))
         if not self.bypass_cache:
             cached = self.cache.get(key)
             if cached is not None:
@@ -342,8 +462,8 @@ class LLMClient:
         finally:
             self._last_call = self._clock()
         self.cache.put(key, {"provider": self.provider.name, "model": self.provider.model,
-                             "prompt_version": prompt_version, "stage": stage, "item_id": item_id,
-                             "request": request.model_dump(),
+                             "endpoint": getattr(self.provider, "endpoint", None), "prompt_version": prompt_version,
+                             "stage": stage, "item_id": item_id, "request": request.model_dump(),
                              "created_at": datetime.now(timezone.utc).isoformat()}, response)
         result = CallResult(response=response, cache_key=key, cache_hit=False, retries=retries)
         self._log(stage, item_id, prompt_version, "ok", result=result)
@@ -356,6 +476,8 @@ class LLMClient:
         entry = {"time": datetime.now(timezone.utc).isoformat(), "provider": self.provider.name,
                  "model": self.provider.model, "prompt_version": prompt_version, "stage": stage,
                  "item_id": item_id, "status": status, **self.log_extra}
+        if getattr(self.provider, "endpoint", None):
+            entry["endpoint"] = self.provider.endpoint
         if result is not None:
             entry.update(result.summary(stage))
             entry["retry_log"] = result.retries

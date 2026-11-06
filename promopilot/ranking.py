@@ -17,7 +17,7 @@ from typing import Optional
 
 from . import config
 from .judge import WEIGHTED, _archive, effective_judgement
-from .schemas import Judgement, QualityDecision, Reassessment
+from .schemas import Block, Candidate, Episode, EpisodeGeneration, Judgement, QualityDecision, Reassessment
 from .timecode import format_timestamp
 
 OVERLAP_LIMIT = 0.5
@@ -63,7 +63,12 @@ def _span(d: QualityDecision) -> tuple[int, int]:
 def rank(decisions: list[QualityDecision], *, weights: Optional[dict] = None, overlap_limit: float = OVERLAP_LIMIT,
          max_per_archetype: int = MAX_PER_ARCHETYPE) -> dict:
     """Order eligible clips, suppress near-duplicates within an episode, then select at most one clip per
-    episode and `max_per_archetype` per primary archetype."""
+    episode and `max_per_archetype` per primary archetype.
+
+    `ordered` is the complete catalogue: every eligible clip, each with a sequential `catalogue_rank`, including
+    near-duplicates (marked with `suppressed_by` and `overlap`) and clips the editorial caps did not select.
+    `shortlist` is the editorial selection; its `rank` is the publishing order and its rows carry the same
+    `catalogue_rank`."""
     weights = weights or config.JUDGE_WEIGHTS
     eligible = [d for d in decisions if d.verdict == "eligible" and d.eligible]
 
@@ -73,10 +78,10 @@ def rank(decisions: list[QualityDecision], *, weights: Optional[dict] = None, ov
 
     rows = []
     kept: dict[str, list[dict]] = defaultdict(list)
-    for d in sorted(eligible, key=key):
+    for position, d in enumerate(sorted(eligible, key=key), 1):
         row = {"candidate_id": d.candidate_id, "episode_id": d.episode_id, "score": score(d, weights),
                "archetype": d.archetype or "unclassified", "start_ms": _span(d)[0], "end_ms": _span(d)[1],
-               "status": None, "suppressed_by": None, "overlap": None, "rank": None}
+               "status": None, "suppressed_by": None, "overlap": None, "rank": None, "catalogue_rank": position}
         dup = next(((k, overlap_ratio(_span(d), (k["start_ms"], k["end_ms"]))) for k in kept[d.episode_id]
                     if overlap_ratio(_span(d), (k["start_ms"], k["end_ms"])) > overlap_limit), None)
         if dup:
@@ -134,6 +139,112 @@ def sensitivity(decisions: list[QualityDecision], primary: dict) -> dict:
     }
 
 
+# --- deliverable fields -----------------------------------------------------------------------------
+
+EXPLANATION_SOURCES = {
+    "judge_appeal": "the blind judge's one-line Promo DNA appeal (model-written, not human-reviewed)",
+    "generator_why_it_works": "the generator's why_it_works line (model-written, not human-reviewed)",
+}
+
+
+def _beat_fields(prefix: str, label: str, block_id: Optional[str], episode: Optional[Episode],
+                 span: tuple[Optional[int], Optional[int]], issues: list[str]) -> tuple[dict, Optional[Block]]:
+    row = {f"{prefix}_block_id": block_id or "", f"{prefix}_timestamp": "", f"{prefix}_block_type": "",
+           f"{prefix}_speaker": "", f"{prefix}_text": ""}
+    if not block_id:
+        issues.append(f"no {label} evidence in the judgement")
+        return row, None
+    if episode is None:
+        issues.append(f"{label}: parsed episode not available")
+        return row, None
+    if not episode.has_block(block_id):
+        issues.append(f"{label} block {block_id} is not in {episode.episode_id}")
+        return row, None
+    block = episode.get_block(block_id)
+    if not block.has_valid_time:
+        issues.append(f"{label} block {block_id} has no valid time")
+        return row, None
+    if None not in span and not block.intersects(*span):
+        issues.append(f"{label} block {block_id} is outside the clip")
+    row.update({f"{prefix}_timestamp": f"{format_timestamp(block.start_ms)}-{format_timestamp(block.end_ms)}",
+                f"{prefix}_block_type": block.block_type.value, f"{prefix}_speaker": block.speaker or "",
+                f"{prefix}_text": block.text})
+    return row, block
+
+
+def deliverable(d: QualityDecision, judgement: Optional[Judgement], episode: Optional[Episode],
+                generated: Optional[Candidate]) -> dict:
+    """Hook, suspense beat and explanation for one clip, quoted verbatim from the parsed source blocks the
+    (effective) judgement selected. Missing or invalid evidence leaves the field empty and is listed in
+    `evidence_issues`; nothing is inferred."""
+    issues: list[str] = []
+    span = (d.validation.start_ms, d.validation.end_ms) if d.validation else (None, None)
+    if judgement is None:
+        issues.append("no judgement file")
+    elif judgement.status != "valid":
+        issues.append("judgement is not valid")
+    dims = judgement.dimensions if judgement and judgement.status == "valid" else {}
+    hook, cliff = dims.get("hook"), dims.get("cliffhanger")
+    out, hook_block = _beat_fields("hook", "hook", hook.block_id if hook else None, episode, span, issues)
+    out["hook_offset_s"] = round((hook_block.start_ms - span[0]) / 1000, 2) if hook_block and span[0] is not None \
+        else ""
+    beat, beat_block = _beat_fields("cliffhanger", "suspense beat", cliff.suspense_beat_id if cliff else None,
+                                    episode, span, issues)
+    out.update(beat)
+    out["cliffhanger_end_gap_s"] = round((span[1] - beat_block.end_ms) / 1000, 2) \
+        if beat_block and span[1] is not None else ""
+    out["open_question"] = (cliff.open_question or "") if cliff else ""
+    appeal = ((judgement.promo_dna.appeal if judgement and judgement.promo_dna else None) or "").strip()
+    why = ((generated.why_it_works if generated else None) or "").strip()
+    if appeal:
+        explanation, source = appeal, "judge_appeal"
+    elif why:
+        explanation, source = why, "generator_why_it_works"
+    else:
+        explanation, source = "", ""
+        issues.append("no explanation recorded")
+    out.update({"explanation": explanation, "explanation_source": source, "judge_appeal": appeal,
+                "generator_why_it_works": why, "evidence_issues": "; ".join(issues)})
+    return out
+
+
+def load_generated(run_dir: Path, decisions: list[QualityDecision]) -> dict[str, Candidate]:
+    """Generator records by candidate ID: originals from candidates/, repairs from the judge decisions."""
+    out: dict[str, Candidate] = {}
+    for p in sorted((Path(run_dir) / "candidates").glob("EP*.json")):
+        try:
+            gen = EpisodeGeneration.model_validate_json(p.read_text(encoding="utf-8"))
+        except ValueError:
+            continue
+        out.update({c.candidate_id: c for c in gen.candidates})
+    for d in decisions:
+        if d.repaired_candidate:
+            out.setdefault(d.repaired_candidate.candidate_id, d.repaired_candidate)
+    return out
+
+
+def catalogue_rows(primary: dict, decisions: list[QualityDecision], judgements: dict[str, Judgement],
+                   episodes: dict[str, Episode], generated: dict[str, Candidate]) -> list[dict]:
+    by_id = {d.candidate_id: d for d in decisions}
+    rows = []
+    for r in primary["ordered"]:
+        d = by_id[r["candidate_id"]]
+        s = d.dimension_scores
+        rows.append({
+            "catalogue_rank": r["catalogue_rank"], "candidate_id": r["candidate_id"], "episode_id": r["episode_id"],
+            "start": format_timestamp(r["start_ms"]), "end": format_timestamp(r["end_ms"]),
+            "duration_s": round((r["end_ms"] - r["start_ms"]) / 1000, 2), "score": r["score"],
+            "hook_score": s.get("hook"), "cliffhanger_score": s.get("cliffhanger"),
+            "context_independence_score": s.get("context_independence"),
+            "emotional_impact_score": s.get("emotional_impact"), "archetype": r["archetype"],
+            "ranking_status": r["status"], "shortlist_rank": r["rank"], "duplicate_of": r["suppressed_by"],
+            "duplicate_overlap": r["overlap"], "repaired_from": d.repaired_from, "needs_review": bool(d.review_flags),
+            **deliverable(d, judgements.get(d.candidate_id), episodes.get(d.episode_id),
+                          generated.get(d.candidate_id) or generated.get(d.repaired_from or "")),
+        })
+    return rows
+
+
 # --- report data ------------------------------------------------------------------------------------
 
 def _repairs(decisions: list[QualityDecision]) -> list[dict]:
@@ -173,10 +284,13 @@ def _api_usage(log_paths: list[Path]) -> dict:
     }
 
 
-def build_report(run_dir: Path, judge_dir: Path) -> dict:
+def build_report(run_dir: Path, judge_dir: Path, episodes: Optional[dict] = None) -> dict:
+    """episodes: the run's parsed episodes (keyed by number or ID), used to quote hook and suspense-beat text.
+    Without them the quote fields stay empty and `evidence_issues` says why."""
     run_dir, judge_dir = Path(run_dir), Path(judge_dir)
     decisions = load_decisions(judge_dir / "decisions")
     judgements = load_effective_judgements(judge_dir)
+    episodes_by_id = {e.episode_id: e for e in (episodes or {}).values()}
     manifest_path = run_dir / "manifest.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.exists() else {}
     requested = manifest.get("requested") or sorted({d.episode_id for d in decisions})
@@ -274,26 +388,35 @@ def build_report(run_dir: Path, judge_dir: Path) -> dict:
             "soft_rejections": ";".join(d.soft_rejection_codes), "review_flags": " | ".join(d.review_flags),
             "reassessment": d.reassessment_status, "note": d.note or "",
         })
+    catalogue = catalogue_rows(primary, decisions, judgements, episodes_by_id, load_generated(run_dir, decisions))
+    by_rank = {c["candidate_id"]: c for c in catalogue}
     shortlist = []
     for r in primary["shortlist"]:
         d, j = by_id[r["candidate_id"]], judgements.get(r["candidate_id"])
         dims = j.dimensions if j else {}
-        shortlist.append({**r, "start": format_timestamp(r["start_ms"]), "end": format_timestamp(r["end_ms"]),
-                          "duration_s": round((r["end_ms"] - r["start_ms"]) / 1000, 2),
-                          "hook_block_id": dims["hook"].block_id if dims else None,
-                          "suspense_beat_id": dims["cliffhanger"].suspense_beat_id if dims else None,
-                          "cliffhanger_mechanism": dims["cliffhanger"].mechanism if dims else None,
-                          "appeal": j.promo_dna.appeal if j and j.promo_dna else None,
-                          "dimension_scores": d.dimension_scores, "review_flags": d.review_flags,
-                          "repaired_from": d.repaired_from})
+        row = {**r, "start": format_timestamp(r["start_ms"]), "end": format_timestamp(r["end_ms"]),
+               "duration_s": round((r["end_ms"] - r["start_ms"]) / 1000, 2),
+               "hook_block_id": dims["hook"].block_id if dims else None,
+               "suspense_beat_id": dims["cliffhanger"].suspense_beat_id if dims else None,
+               "cliffhanger_mechanism": dims["cliffhanger"].mechanism if dims else None,
+               "appeal": j.promo_dna.appeal if j and j.promo_dna else None,
+               "dimension_scores": d.dimension_scores, "review_flags": d.review_flags,
+               "repaired_from": d.repaired_from}
+        row.update({k: v for k, v in by_rank[r["candidate_id"]].items() if k not in row})
+        shortlist.append(row)
+    counts["catalogue_size"] = len(catalogue)
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(), "run": run_dir.name, "judge_dir": judge_dir.name,
         "disclaimer": "Scores come from one LLM judge (same model family as the generator). They are an initial "
                       "model-based evaluation, not objective quality.",
         "settings": {"weights": config.JUDGE_WEIGHTS, "gate_minimums": config.JUDGE_GATE_MIN,
                      "overlap_limit": OVERLAP_LIMIT, "max_per_archetype": MAX_PER_ARCHETYPE,
-                     "uncapped_archetypes": sorted(UNCAPPED_ARCHETYPES), "max_per_episode": 1},
-        "counts": counts, "episodes": episodes, "ranking": primary, "sensitivity": sens, "shortlist": shortlist,
+                     "uncapped_archetypes": sorted(UNCAPPED_ARCHETYPES), "max_per_episode": 1,
+                     "explanation_sources": EXPLANATION_SOURCES,
+                     "quotes": "hook_text and cliffhanger_text are the verbatim text of the parsed source block the "
+                               "judge selected; timestamps are episode time"},
+        "counts": counts, "episodes": episodes, "ranking": primary, "sensitivity": sens, "catalogue": catalogue,
+        "shortlist": shortlist,
         "repairs": _repairs(decisions), "rejections": rejections, "dna": dna, "baseline": baseline,
         "api_usage": _api_usage([judge_dir / "llm_calls.jsonl", judge_dir / "baseline" / "llm_calls.jsonl"]),
         "table": table,
@@ -318,6 +441,13 @@ def _md_table(header: list[str], rows: list[list]) -> list[str]:
            ["| " + " | ".join("" if v is None else str(v) for v in r) + " |" for r in rows]
 
 
+def _quote(speaker: Optional[str], text: Optional[str]) -> str:
+    if not text:
+        return "not available"
+    text = text.replace("|", "\\|")
+    return f"{speaker}: {text}" if speaker else text
+
+
 def render_markdown(rep: dict) -> str:
     c, L = rep["counts"], []
     L += [f"# PromoPilot ranking report: run `{rep['run']}`", "",
@@ -331,21 +461,46 @@ def render_markdown(rep: dict) -> str:
         ["Quality fail", c["quality_fail"]], ["Excluded: technical (hard-rule) failure", c["excluded_technical_failure"]],
         ["Not judged (provider error or budget)", c["not_judged_provider_or_budget"]],
         ["Invalid judge output", c["judge_invalid_output"]], ["Marked for review", c["marked_for_review"]]])
-    L += ["", "## Ranked shortlist (one per episode, at most "
-          f"{rep['settings']['max_per_archetype']} per archetype)", ""]
-    L += _md_table(["Rank", "Candidate", "Span", "Score", "Hook/Cliff/Context/Emotion", "Archetype", "Appeal", "Review"],
-                   [[s["rank"], s["candidate_id"], f"{s['start']}-{s['end']} ({s['duration_s']}s)", s["score"],
-                     "/".join(str(s["dimension_scores"][k]) for k in WEIGHTED), s["archetype"], s["appeal"],
+    L += ["", "## Editorial shortlist (one per episode, at most "
+          f"{rep['settings']['max_per_archetype']} per archetype, near-duplicates suppressed)", "",
+          "A recommended publishing order drawn from the complete catalogue below; the catalogue rank shows where "
+          "each pick sits before the diversity rules.", ""]
+    L += _md_table(["Rank", "Catalogue rank", "Candidate", "Span", "Score", "Hook/Cliff/Context/Emotion", "Archetype",
+                    "Review"],
+                   [[s["rank"], s.get("catalogue_rank"), s["candidate_id"],
+                     f"{s['start']}-{s['end']} ({s['duration_s']}s)", s["score"],
+                     "/".join(str(s["dimension_scores"][k]) for k in WEIGHTED), s["archetype"],
                      "yes" if s["review_flags"] else ""] for s in rep["shortlist"]])
+    sources = rep["settings"].get("explanation_sources", EXPLANATION_SOURCES)
+    for s in rep["shortlist"]:
+        L += ["", f"**#{s['rank']} {s['candidate_id']}** ({s['episode_id']} {s['start']}-{s['end']})", "",
+              f"- Hook ({s.get('hook_block_id') or 'none'}, {s.get('hook_timestamp') or 'n/a'}): "
+              f"{_quote(s.get('hook_speaker'), s.get('hook_text'))}",
+              f"- Cliffhanger ({s.get('cliffhanger_block_id') or 'none'}, {s.get('cliffhanger_timestamp') or 'n/a'}): "
+              f"{_quote(s.get('cliffhanger_speaker'), s.get('cliffhanger_text'))}",
+              f"- Why: {s.get('explanation') or 'none recorded'}"
+              + (f" _(source: {sources.get(s.get('explanation_source'), s.get('explanation_source'))})_"
+                 if s.get("explanation_source") else "")]
+        if s.get("evidence_issues"):
+            L.append(f"- Evidence issues: {s['evidence_issues']}")
     L += ["", "## Best promo per episode", ""]
     L += _md_table(["Episode", "Result", "Best", "Score", "Candidates", "Eligible", "Not judged"],
                    [[e, v["status"] + (" (incomplete)" if v["incomplete"] else ""), v["best"], v["best_score"],
                      v["candidates"], v["eligible"], v["not_judged"]] for e, v in rep["episodes"].items()])
-    L += ["", "## All eligible clips, ordered", ""]
-    L += _md_table(["Order", "Candidate", "Score", "Status", "Suppressed by (overlap)"],
-                   [[i + 1, r["candidate_id"], r["score"], r["status"],
-                     f"{r['suppressed_by']} ({r['overlap']})" if r["suppressed_by"] else ""]
-                    for i, r in enumerate(rep["ranking"]["ordered"])])
+    catalogue = rep.get("catalogue") or [
+        {"catalogue_rank": i + 1, "candidate_id": r["candidate_id"], "episode_id": r["episode_id"], "score": r["score"],
+         "ranking_status": r["status"], "duplicate_of": r["suppressed_by"], "duplicate_overlap": r["overlap"]}
+        for i, r in enumerate(rep["ranking"]["ordered"])]
+    L += ["", "## Complete ranked catalogue", "",
+          "Every clip that passed the hard rules and all quality gates, ranked by score with no per-episode or "
+          "archetype limit. Near-duplicates keep their rank and name the better clip they overlap. Full hook, "
+          "cliffhanger and explanation text is in catalogue.csv.", ""]
+    L += _md_table(["Rank", "Candidate", "Span", "Score", "Hook", "Suspense beat", "Status", "Duplicate of (overlap)"],
+                   [[c["catalogue_rank"], c["candidate_id"],
+                     f"{c['start']}-{c['end']}" if c.get("start") else "", c["score"],
+                     c.get("hook_block_id") or "", c.get("cliffhanger_block_id") or "", c["ranking_status"],
+                     f"{c['duplicate_of']} ({c['duplicate_overlap']})" if c.get("duplicate_of") else ""]
+                    for c in catalogue])
     s = rep["sensitivity"]
     L += ["", "## Weight sensitivity (equal weights 25/25/25/25 vs approved 30/25/30/15)", "",
           f"- Spearman rank correlation over eligible clips: {s['spearman_rho']}",
@@ -392,17 +547,20 @@ def render_markdown(rep: dict) -> str:
           "- Scores cluster at 3-4 and moved by one point between near-identical clips; treat differences below "
           "about 0.5 as noise.",
           "- Diversity caps can only choose among the candidates the generator proposed for these episodes.",
+          "- Hook and suspense beats are the judge's selections; explanations are model-written (judge appeal, or "
+          "the generator's why_it_works when the judge gave none). None of it has been reviewed by a person.",
           "- Episodes marked incomplete have candidates that the provider never judged (HTTP 503).", ""]
     return "\n".join(L)
 
 
-def write_report(run_dir: Path, judge_dir: Path) -> Path:
-    rep = build_report(run_dir, judge_dir)
+def write_report(run_dir: Path, judge_dir: Path, episodes: Optional[dict] = None) -> Path:
+    rep = build_report(run_dir, judge_dir, episodes)
     out = Path(run_dir) / "ranking" / Path(judge_dir).name
     out.mkdir(parents=True, exist_ok=True)
     files = {"ranking.json": json.dumps(rep, indent=2, default=str), "candidates.csv": _csv(rep["table"]),
              "shortlist.csv": _csv([{k: v for k, v in s.items() if k not in ("start_ms", "end_ms")}
                                     for s in rep["shortlist"]]),
+             "catalogue.csv": _csv(rep["catalogue"]),
              "report.md": render_markdown(rep)}
     for name, text in files.items():
         _archive(out / name)

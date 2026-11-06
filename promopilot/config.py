@@ -28,7 +28,9 @@ def output_dir() -> Path:
 
 
 def parsed_dir() -> Path:
-    return output_dir() / "parsed"
+    """Default parsed dataset: PROMOPILOT_PARSED_DIR if set, else <output dir>/parsed."""
+    value = os.environ.get("PROMOPILOT_PARSED_DIR", "").strip()
+    return Path(value) if value else output_dir() / "parsed"
 
 
 def runs_dir() -> Path:
@@ -62,11 +64,20 @@ JUDGE_WEIGHTS = {"hook": 0.30, "cliffhanger": 0.25, "context_independence": 0.30
 JUDGE_GATE_MIN = {"hook": 3, "cliffhanger": 3, "context_independence": 3}
 
 
-def judge_settings() -> dict:
+def judge_settings(provider: str | None = None, model: str | None = None) -> dict:
+    """Judge configuration; provider/model precedence is documented in `llm.resolve_judge`. `model` is None when
+    no model can be resolved for the provider (the judge command then reports a configuration error)."""
+    from .llm import ConfigError, resolve_judge
+
+    try:
+        provider, model = resolve_judge(provider, model)
+    except ConfigError:
+        provider = (provider or os.environ.get("PROMOPILOT_JUDGE_PROVIDER", "")).strip().lower() or "gemini"
+        model = None
     return {
-        "provider": os.environ.get("PROMOPILOT_JUDGE_PROVIDER", "").strip().lower() or "gemini",
-                "model": os.environ.get("PROMOPILOT_JUDGE_MODEL", "").strip() or "gemini-3.5-flash-lite",
-                "prompt_version": os.environ.get("PROMOPILOT_JUDGE_PROMPT_VERSION", "").strip() or "judge-v1",
+        "provider": provider,
+        "model": model,
+        "prompt_version": os.environ.get("PROMOPILOT_JUDGE_PROMPT_VERSION", "").strip() or "judge-v1",
         "temperature": _env_number("PROMOPILOT_JUDGE_TEMPERATURE", 0.0),
         "max_tokens": int(_env_number("PROMOPILOT_JUDGE_MAX_TOKENS", 4096)),
         "max_requests_per_run": int(_env_number("PROMOPILOT_JUDGE_MAX_REQUESTS_PER_RUN", 60)),

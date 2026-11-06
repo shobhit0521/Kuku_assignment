@@ -16,6 +16,7 @@ from typing import Optional
 
 from pydantic import BaseModel, ConfigDict, ValidationError
 
+from . import dataset
 from .llm import LLMClient, LLMRequest, ProviderError, QuotaExhausted, RequestCapReached
 from .schemas import Candidate, CandidateStatus, Episode, EpisodeGeneration, Reason
 from .timecode import format_timestamp
@@ -214,7 +215,8 @@ def generate_for_episode(episode: Episode, previous_logline: Optional[str], clie
                 {"role": "user", "content": render_episode(episode, previous_logline)}]
     version = f"{PROMPT_VERSION}:{prompt_sha[:12]}"
     gen = EpisodeGeneration(episode_id=episode.episode_id, status="in_progress", provider=client.provider.name,
-                            model=client.provider.model, prompt_version=PROMPT_VERSION, prompt_sha256=prompt_sha)
+                            model=client.provider.model, endpoint=getattr(client.provider, "endpoint", None),
+                            prompt_version=PROMPT_VERSION, prompt_sha256=prompt_sha)
 
     request = LLMRequest(messages=messages, temperature=temperature, max_tokens=max_tokens)
     result = client.complete(request, prompt_version=version, stage="generate", item_id=episode.episode_id)
@@ -248,12 +250,25 @@ def _parse_or_raise(response) -> tuple[list, list[str]]:
 
 
 def load_parsed_episodes(parsed_dir: Path) -> dict[int, Episode]:
-    episodes_dir = Path(parsed_dir) / "episodes"
-    files = sorted(episodes_dir.glob("EP*.json"))
-    if not files:
-        raise FileNotFoundError(f"no parsed episodes in {episodes_dir}; run the parse stage first")
-    episodes = [Episode.model_validate_json(f.read_text(encoding="utf-8")) for f in files]
-    return {e.episode_number: e for e in episodes}
+    """Checked load of one parsed dataset (see `dataset.load`); raises DatasetError on mixed or stale data."""
+    return dataset.load(parsed_dir)[0]
+
+
+def _episode_key(eid: str) -> tuple[int, str]:
+    digits = eid[2:]
+    return (int(digits), eid) if digits.isdigit() else (10 ** 9, eid)
+
+
+def bind_dataset(manifest: dict, info: dict, run_dir: Path) -> None:
+    """Record the dataset a run is generated from; refuse to continue a run on a different dataset."""
+    bound = manifest.get("dataset")
+    if bound and bound.get("fingerprint") != info["fingerprint"]:
+        raise dataset.DatasetError(
+            f"run {Path(run_dir).name} was generated from parsed dataset {bound.get('fingerprint', '')[:12]} "
+            f"({bound.get('parsed_dir')}); the current dataset is {info['fingerprint'][:12]} "
+            f"({info['parsed_dir']}). Use a new --run name for a different dataset.")
+    manifest["dataset"] = {"parsed_dir": info["parsed_dir"], "fingerprint": info["fingerprint"],
+                           "episode_count": info["episode_count"]}
 
 
 def _write_json(path: Path, model: BaseModel | dict) -> None:
@@ -266,15 +281,21 @@ def _write_json(path: Path, model: BaseModel | dict) -> None:
 
 def run_generation(episode_numbers: list[int], *, parsed_dir: Path, run_dir: Path, client: LLMClient,
                    n_candidates: int, temperature: float, max_tokens: int, refresh: bool = False) -> dict:
-    """Generate candidates per episode, resumably. Completed episodes with the same model and prompt are
-    skipped unless refresh=True; cached responses are reused either way unless the client bypasses cache."""
-    episodes = load_parsed_episodes(parsed_dir)
+    """Generate candidates per episode, resumably. Completed episodes with the same model, endpoint and prompt are
+    skipped unless refresh=True; cached responses are reused either way unless the client bypasses cache.
+    `requested` in the manifest is the union over every invocation of this run; `last_requested` is this one."""
+    episodes, info = dataset.load(parsed_dir)
     _, prompt_sha = load_prompt()
+    endpoint = getattr(client.provider, "endpoint", None)
     manifest_path = Path(run_dir) / "manifest.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.exists() else {"episodes": {}}
-    manifest.update({"provider": client.provider.name, "model": client.provider.model,
+    manifest.setdefault("episodes", {})
+    bind_dataset(manifest, info, run_dir)
+    now = list(dict.fromkeys(f"EP{n:03d}" for n in episode_numbers))
+    manifest.update({"provider": client.provider.name, "model": client.provider.model, "endpoint": endpoint,
                      "prompt_version": PROMPT_VERSION, "prompt_sha256": prompt_sha,
-                     "requested": [f"EP{n:03d}" for n in episode_numbers]})
+                     "requested": sorted(set(manifest.get("requested") or []) | set(now), key=_episode_key),
+                     "last_requested": now})
     stop_reason = None
 
     for n in episode_numbers:
@@ -289,7 +310,8 @@ def run_generation(episode_numbers: list[int], *, parsed_dir: Path, run_dir: Pat
         if out_path.exists() and not refresh:
             prior = EpisodeGeneration.model_validate_json(out_path.read_text(encoding="utf-8"))
             if (prior.status == "complete" and prior.model == client.provider.model
-                    and prior.provider == client.provider.name and prior.prompt_sha256 == prompt_sha):
+                    and prior.provider == client.provider.name and prior.prompt_sha256 == prompt_sha
+                    and prior.endpoint == endpoint):
                 manifest["episodes"][eid] = {"status": "complete", "resumed": True,
                                              "candidates": len(prior.candidates)}
                 continue
@@ -307,7 +329,7 @@ def run_generation(episode_numbers: list[int], *, parsed_dir: Path, run_dir: Pat
             continue
         except ProviderError as exc:
             gen = EpisodeGeneration(episode_id=eid, status="provider_error", provider=client.provider.name,
-                                    model=client.provider.model, prompt_version=PROMPT_VERSION,
+                                    model=client.provider.model, endpoint=endpoint, prompt_version=PROMPT_VERSION,
                                     prompt_sha256=prompt_sha, response_errors=[str(exc)])
         _write_json(out_path, gen)
         manifest["episodes"][eid] = {"status": gen.status, "resumed": False, "candidates": len(gen.candidates)}

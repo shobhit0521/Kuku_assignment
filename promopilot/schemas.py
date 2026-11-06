@@ -206,6 +206,7 @@ class EpisodeGeneration(BaseModel):
     model: str
     prompt_version: str
     prompt_sha256: str
+    endpoint: Optional[str] = None  # None: the provider's built-in default endpoint
     candidates: list[Candidate] = Field(default_factory=list)
     response_errors: list[str] = Field(default_factory=list)
     calls: list[dict] = Field(default_factory=list)

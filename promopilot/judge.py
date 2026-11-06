@@ -856,9 +856,13 @@ def model_slug(provider: str, model: str) -> str:
     return re.sub(r"[^A-Za-z0-9._-]+", "_", f"{provider}__{model}")
 
 
-def judge_dir(run_dir: Path, provider: str, model: str, prompt_version: str = PROMPT_VERSION) -> Path:
-    """judge-v1 outputs keep their original location; other prompt versions get their own folder."""
+def judge_dir(run_dir: Path, provider: str, model: str, prompt_version: str = PROMPT_VERSION,
+              endpoint: Optional[str] = None) -> Path:
+    """judge-v1 outputs keep their original location; other prompt versions get their own folder. A non-default
+    endpoint (see `llm.endpoint_identity`) adds a short endpoint hash, so outputs from two endpoints never mix."""
     slug = model_slug(provider, model)
+    if endpoint:
+        slug += "__ep-" + hashlib.sha256(endpoint.encode("utf-8")).hexdigest()[:8]
     return Path(run_dir) / "judge" / (slug if prompt_version == "judge-v1" else f"{slug}__{prompt_version}")
 
 
@@ -895,7 +899,7 @@ class JudgeRun:
         self.refresh = refresh
         self.prompt_version = prompt_version
         self.out_dir = Path(out_dir) if out_dir else judge_dir(run_dir, client.provider.name, client.provider.model,
-                                                               prompt_version)
+                                                               prompt_version, getattr(client.provider, "endpoint", None))
         self.new_judgements = new_judgements
         self.do_reassess = reassess
         self.allow_repair = allow_repair
@@ -1018,6 +1022,7 @@ class JudgeRun:
         with run_lock(self.out_dir, self.invocation_id):
             decisions_dir = self.out_dir / "decisions"
             summary = {"provider": self.client.provider.name, "model": self.client.provider.model,
+                       "endpoint": getattr(self.client.provider, "endpoint", None),
                        "prompt_version": self.prompt_version, "prompt_sha256": self.prompt_sha,
                        "checker_version": CHECKER_VERSION, "invocation_id": self.invocation_id,
                        "weights": config.JUDGE_WEIGHTS, "gate_minimums": config.JUDGE_GATE_MIN,
