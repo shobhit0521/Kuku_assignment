@@ -1,246 +1,190 @@
 # PromoPilot
 
-Finds promo clips (20–60 s, hook in the first 3 s, cliffhanger ending) in microdrama screenplays.
-Code owns timestamps and validation; the LLM only points at block IDs.
+**Finds the best promo clips in microdrama screenplays, ranks them, and shows where it gets things wrong.**
 
-Status: Phase 4D — parser, LLM candidate generation, deterministic validation/repair, a blind quality
-judge with Promo DNA and consistency checks, and ranking/reporting. Judge scores are model opinions.
+Built for the Kuku AI Generalist assignment, Problem 1: *Find the Promos*.
 
-## Setup
+**Live app:** _add the Streamlit link here_ · **Full command reference:** [docs/REFERENCE.md](docs/REFERENCE.md)
 
-```
-pip install -r requirements.txt
-copy .env.example .env      # set PROMOPILOT_INPUT_DIR and PROMOPILOT_OUTPUT_DIR
-```
+---
 
-The input pack is confidential: it is read in place and never copied into this repo.
-Outputs contain screenplay text, so they go to `PROMOPILOT_OUTPUT_DIR` (keep it outside synced
-folders); if unset they fall back to `./outputs`, which is gitignored.
+## The problem
 
-## Run
+Today an editor watches every episode and picks promo moments by hand, one show at a time, while new shows are
+released every week. A good promo is a 20 to 60-second clip from the show that:
 
-```
-python -m promopilot.pipeline parse                 # uses the two .env paths
-python -m promopilot.pipeline parse --input DIR --out DIR
-python -m pytest                                    # real-pack tests skip if no input folder is set
-```
+- **opens on a hook**: something in the first 3 seconds that stops a scrolling viewer;
+- **ends on a cliffhanger**: it cuts at an unresolved moment;
+- **makes sense on its own** to someone who has never seen the show.
 
-Outputs in `<PROMOPILOT_OUTPUT_DIR>/parsed/` (or `PROMOPILOT_PARSED_DIR`, or `--out`):
+PromoPilot reads the screenplays (which carry a timestamp for every line and action), proposes promo clips, checks
+them, scores them and returns a ranked list an editor can act on.
 
-- `episodes/EPnnn.json` — scenes and blocks (`EPnnn_Bnnn` IDs in file order, times as original strings and integer ms, speaker, delivery notes, off-screen tag, verbatim text, source line) plus anomalies and timeline stats.
-- `pack_summary.json` — counts, anomaly totals, speaker inventory per episode.
-- `anomalies.csv` — every recorded source anomaly. Anomalies are reported, never corrected.
-- `dataset.json` — the source file name and SHA-256 of every parsed episode, and a fingerprint of the set.
+## What you get
 
-### New input packs
+For every promo, PromoPilot gives exactly what the brief asks for:
 
-One folder holds one dataset. Parsing a different pack into a folder that already holds one is refused,
-so episodes from two packs never mix. Either parse into a new folder, or pass `--replace` to move the old
-dataset into `<folder>/history/<time>/` first (nothing is deleted):
-
-```
-python -m promopilot.pipeline parse --input D:\new_pack --out D:\kuku\parsed_new_pack
-python -m promopilot.pipeline generate --episodes 1-10 --run new_pack --parsed D:\kuku\parsed_new_pack
-python -m promopilot.pipeline validate --run new_pack        # later stages reuse the run's dataset
-```
-
-A run records the dataset it was generated from (`manifest.json` → `dataset`); validate, judge,
-compare-judges and rank read that folder unless `--parsed` is given, and refuse a different dataset. Use a
-new `--run` name for a new pack. Loading refuses files whose name and content disagree, duplicate episode
-numbers, and episodes the dataset record does not list (stale leftovers). Before generating, the parsed
-episodes are compared with the input pack (file names and hashes; `--input DIR` to name it,
-`--no-input-check` to skip): a changed, added or removed screenplay stops the run until it is re-parsed.
-
-## LLM providers
-
-Both providers are free tiers reached through their OpenAI-compatible endpoints. Set in `.env`:
-
-| Variable | Purpose |
+| Field | Example (promo #1) |
 |---|---|
-| `LLM_PROVIDER` | `gemini` (candidate generation) or `groq` |
-| `GEMINI_API_KEY`, `GEMINI_MODEL` | e.g. `gemini-3.5-flash` |
-| `GROQ_API_KEY`, `GROQ_MODEL` | e.g. `openai/gpt-oss-120b` (reserved for independent evaluation) |
+| Episode | Episode 1 |
+| Segment | 00:39.00 → 01:18.50 (39.5 s) |
+| Hook | 00:39.10 · LADY IN GOLD GOWN: "Because he is marrying me." |
+| Cliffhanger | 01:15.00 · LADY IN GOLD GOWN: "Long enough to know he was never going to marry you." |
+| Why it works | Witness the ultimate betrayal when a sister steals the bride's groom at the altar. |
+| Why this rank | Weighted score 5.00 of 5, ahead of #2 (4.60). |
 
-Other OpenAI-compatible endpoints (for example a local server) can be declared without code changes.
-Nothing here is configured by default:
+Hook and cliffhanger lines are quoted verbatim from the screenplay, and every timestamp comes from the screenplay
+itself, never from the model. It also reports **where the tool picks badly**, with the concrete reason for each
+rejected clip.
 
-| Variable | Purpose |
+## Results on the 50-episode input pack
+
+| | |
 |---|---|
-| `PROMOPILOT_PROVIDERS` | comma-separated extra provider names, e.g. `local` (built-in names cannot be redefined) |
-| `NAME_BASE_URL` | required, e.g. `LOCAL_BASE_URL=http://127.0.0.1:8000/v1` |
-| `NAME_MODEL`, `NAME_JUDGE_MODEL` | generation model and optional judge model |
-| `NAME_API_KEY` or `NAME_API_KEY_ENV` | the key, or the name of the variable that holds it |
-| `NAME_JSON_MODE`, `NAME_SEND_TEMPERATURE` | `false` if the endpoint rejects `response_format` / `temperature` |
-| `NAME_MAX_TOKENS_PARAM` | `max_tokens` (default), `max_completion_tokens` or `none` |
+| Episodes analysed | 50 |
+| Candidate clips proposed | 147 (141 from the generator, 6 repaired versions) |
+| Broke a hard rule (bad boundaries) | 9 |
+| Failed a quality gate (too weak to post) | 28 |
+| Eligible clips | 110 |
+| **Promos on the final shortlist** | **25**, durations 20.7 to 57.5 s |
+| Episodes with at least one eligible promo | 48 of 50 (EP006 and EP038 have none) |
 
-`NAME` is the provider name in capitals (`-` becomes `_`). The capability variables and `NAME_BASE_URL`
-also apply to `gemini` and `groq`. A built-in provider on its default URL and parameters keeps its existing
-cache keys and output folders; any other endpoint is part of the cache key (host and path only, never keys
-or query strings), is recorded in `manifest.json`, `llm_calls.jsonl` and judge summaries, and adds
-`__ep-<hash>` to the judge folder name, so two endpoints serving the same model name never share results.
+The shortlist is ordered by a weighted score, then diversified: at most one promo per episode, at most three per
+story archetype, and near-duplicates (more than 50% overlap) are removed.
 
-Optional tuning (defaults in `promopilot/config.py`): `PROMOPILOT_MAX_REQUESTS_PER_RUN`,
-`PROMOPILOT_MIN_REQUEST_INTERVAL_S`, `PROMOPILOT_RETRY_MAX_ATTEMPTS`, `PROMOPILOT_RETRY_BASE_DELAY_S`,
-`PROMOPILOT_RETRY_MAX_DELAY_S`, `PROMOPILOT_REQUEST_TIMEOUT_S`, `PROMOPILOT_GEN_TEMPERATURE`,
-`PROMOPILOT_GEN_MAX_TOKENS`, `PROMOPILOT_GEN_CANDIDATES`.
+**Robustness check:** re-ranking with equal weights keeps 24 of the 25 shortlisted promos (one swap), with a rank
+correlation of 0.97 across all eligible clips. The ranking does not hinge on the exact weights chosen.
 
-```
-python -m promopilot.pipeline check-providers                      # one tiny request per provider
-python -m promopilot.pipeline generate --episodes 1,4,6 --run pilot
-python -m promopilot.pipeline generate --episodes 1-10 --run r1 --provider groq
-python -m promopilot.pipeline generate --episodes 1,4 --run demo --max-requests 0   # cache only
-```
+## How it works
 
-Outputs in `<PROMOPILOT_OUTPUT_DIR>/runs/<run>/`: `candidates/EPnnn.json` (grounded and rejected
-candidates with reasons, plus the calls made), `manifest.json` and `llm_calls.jsonl` (model, prompt
-version, tokens including hidden reasoning tokens, latency, cache hits, retries, errors; never keys).
-Raw responses are cached in `<PROMOPILOT_OUTPUT_DIR>/llm_cache/`, so re-runs and resumes cost no
-requests. Runs stop cleanly on daily-quota errors and on the request budget, leaving unfinished
-episodes `pending`; re-running the same command resumes them. There is no automatic provider fallback.
-A run can be built in batches (`--episodes 1-20`, then `21-40`, ...): `manifest.json` → `requested` is
-every episode asked for across invocations, `last_requested` the latest batch, and `episodes` keeps each
-episode's latest status; completed episodes are skipped unless the model, endpoint or prompt changed.
-
-## Validation (no API calls)
-
-```
-python -m promopilot.pipeline validate --run pilot                            # objective rules only
-python -m promopilot.pipeline validate --run pilot --suspense-beats beats.json
-python -m promopilot.pipeline validate --run pilot --preview-generator-beats  # provisional what-if
+```mermaid
+flowchart LR
+    A[Screenplay .txt] --> B[Parser<br/><i>code</i>]
+    B --> C[Generator<br/><i>Gemini</i>]
+    C --> D[Hard-rule validator<br/>+ one repair<br/><i>code</i>]
+    D --> E[Blind judge<br/><i>Gemini</i>]
+    E --> F[Evidence, gate and<br/>consistency checks<br/><i>code</i>]
+    F --> G[Ranking and<br/>diversity rules<br/><i>code</i>]
+    G --> H[Shortlist, reports,<br/>dashboard]
 ```
 
-Writes `runs/<run>/validation/EPnnn.json` (or `validation_preview/`) and `summary.json`; candidate files
-are never modified. Hard rules (limits in `.env`, inclusive): valid IDs in the episode, start before end,
-20–60 s, hook within 3 s, no dialogue block cut by a boundary, no transition-only ending, and, once a
-suspense-bearing beat is supplied, that beat inside the clip, not a transition, with at most 2 s after it.
-The suspense beat is a semantic input (judge or human); without it those rules stay `pending`. Repairs
-are one deterministic attempt (trim to the beat or past a transition tail, expand for cut dialogue,
-extend the start backwards while the hook stays in its window), saved as `<id>_R1` with provenance.
+1. **Parse** (code). Each episode becomes scenes and timed blocks (dialogue, action, camera, sound), each with a
+   stable ID such as `EP001_B027`. Format problems are recorded, never silently fixed.
+2. **Generate** (AI). Gemini proposes candidate clips, but it can only point at block IDs. It never writes a
+   timestamp, so it cannot invent a moment that is not in the script.
+3. **Validate** (code). Python enforces the objective rules: 20 to 60 seconds, hook within the first 3 seconds, no
+   line of dialogue cut mid-sentence, no ending on a bare transition, and the clip ends within 2 seconds of its
+   suspense beat. A failing clip gets one deterministic repair attempt (for example, trimming to the beat), and
+   the repaired clip is checked again from scratch.
+4. **Judge** (AI). A separate Gemini call scores each clip on six dimensions: hook, narrative tension,
+   cliffhanger, context independence, curiosity gap and emotional impact. The judge is **blind**. It sees only the
+   clip's own lines, under neutral IDs, and never the generator's reasoning or the rest of the episode. That is
+   also how it tests whether the clip makes sense on its own.
+5. **Check the judge** (code). Every score must cite blocks inside the clip, and Python verifies each citation.
+   Gates require hook, cliffhanger and context scores of at least 3 and an unresolved ending. When a score
+   contradicts the judge's own explanation, the clip gets one targeted reassessment. If the contradiction
+   persists, the clip is flagged for a human and the verdict is not changed.
+6. **Rank** (code). Weighted score: hook 30%, context independence 30%, cliffhanger 25%, emotional impact 15%. Ties
+   are broken by cliffhanger, then hook, then context score. Then the diversity rules above are applied.
 
-## Blind judge
+### Who does what
 
-```
-python -m promopilot.pipeline judge --run pilot [--episodes 1,4] [--max-requests 20]
-```
+| AI (Gemini) | Code (Python) | Human |
+|---|---|---|
+| Proposes candidate clips, as block IDs | Parses screenplays and owns every timestamp | Reviews the shortlist before posting |
+| Scores each clip blind, citing evidence | Enforces hard rules; the judge cannot override them | Resolves clips flagged for review |
+| Writes the one-line "why it works" | Verifies citations, applies gates, ranks, deduplicates | Decides the final weights and gates |
 
-Judge provider: `--provider`, else `PROMOPILOT_JUDGE_PROVIDER`, else `gemini`. Judge model, first match
-wins: `--model`; `PROMOPILOT_JUDGE_MODEL` (only for the provider named by `PROMOPILOT_JUDGE_PROVIDER`, or
-gemini when that is unset); `NAME_JUDGE_MODEL`; the provider's built-in judge default (gemini:
-`gemini-3.5-flash-lite`; groq has none); `NAME_MODEL`. So `--provider groq` alone judges with `GROQ_MODEL`,
-never a Gemini model. The judge sees only the clip's blocks under neutral IDs (K01…),
-clip-relative times and masked text; never the generator's hook, cliffhanger, reasoning or the episode.
-It picks the hook (first 3 s) and final suspense beat (last 8 s), scores six dimensions with block-ID
-evidence, and returns Promo DNA and soft rejections. Python checks every cited ID, re-runs the hard rules
-with the judge's beats (hard failures are final), applies the gates (hook, cliffhanger, context ≥ 3; hook
-and beat valid; ending not resolved), and computes the score from hook 30 / cliffhanger 25 / context 30 /
-emotion 15. A failing clip gets one repair and the repair is judged from scratch. Outputs:
-`runs/<run>/judge/<provider>__<model>/{judgements,decisions}/`, `summary.json`, `llm_calls.jsonl`.
-Re-running resumes; clips the provider failed to answer are retried.
+## How we know it's good, and where it fails
 
-Consistency (Phase 4C.1): Python flags contradictions between a score and its reasons (resolved ending
-with a passing cliffhanger, listed confusions with a high context score, high emotion with thin evidence,
-etc.). Each flagged judgement gets at most one targeted reassessment, stored in `reassessments/` beside
-the untouched raw judgement. A revision counts only if it does not raise the flagged score or drop listed
-confusions; otherwise the original stands and the dimension is marked for review. Options:
-`--prompt-version judge-v1|judge-v2` (v1 is the default and the pilot benchmark; v2 = tightened anchors,
-separate output folder and cache namespace), `--select IDS --out-subdir NAME` (judge only these existing
-candidates, including stored repairs), `--stop-on-error`, `--new-judgements
-none|IDS` (limit new judge calls), `--max-attempts N`, `--no-reassess`, `--baseline` (last ~30 s per
-episode). A lock file refuses a second concurrent run on the same folder; replaced files go to `history/`.
+**What is checked automatically**
+- Every hard rule is enforced in code, on the final boundaries. Failures are facts, not opinions: 4 clips cut a line
+  of dialogue and 5 ended too long after their suspense beat.
+- Quality-gate failures carry the judge's own reasons. Of the 28 clips that failed, 19 had a weak cliffhanger
+  score, 13 depended too much on context, 8 ended on a resolved moment, and 1 had a weak hook (a clip can fail more
+  than one gate).
+- The consistency checker requested 33 reassessments. 3 clips are still flagged and shown for human review.
+- 413 automated tests cover the parser, validator, repairs, judge checks, ranking and every page of the app.
 
-Rubric comparison (no API calls; writes `runs/<run>/comparisons/<base>_vs_<new>/`):
+**Known limitations**
+- **One AI judge, not viewers.** Scores are a model's opinion, and the judge is from the same model family as the
+  generator. Without human review or audience data, a shortlisted clip can still be a weak promo.
+- **No baseline comparison yet.** The pipeline can score a naive "last 30 seconds of each episode" baseline with
+  the same judge, but that comparison has not been run on the full pack.
+- **Single continuous clips only.** The brief allows promos stitched from several moments; PromoPilot only finds
+  one continuous stretch from one episode.
+- **"Why it works" is model-written** and has not been reviewed by a person.
+- **Screenplay, not video.** It judges what the script says will happen on screen, not the actual footage,
+  performance or music.
 
-```
-python -m promopilot.pipeline compare-judges --run pilot --ids EP001_C03,EP004_C02 --base judge-v1 --new judge-v2
-```
+## Using the app
 
-## Ranking (no API calls)
+**Promos to post first** (the default page) shows the ranked promos and a short "where the tool picks badly"
+summary. Everything else is in the sidebar:
 
-```
-python -m promopilot.pipeline rank --run pilot --prompt-version judge-v1
-```
+- **Full candidate analysis**: every clip with its scores, the judge's reasoning, cited evidence highlighted in the
+  screenplay, every hard-rule check, repairs and provenance.
+- **Where it picks badly**: every rejected or flagged clip, grouped by what went wrong.
+- **Scores and ranking rules**: all scores, eligible clips left out by the diversity rules, and the weights, gates
+  and sensitivity check.
+- **Repairs**: what each automatic repair changed and whether it worked.
+- **Downloads**: the raw outputs (`shortlist.csv`, `candidates.csv`, `catalogue.csv`, `report.md`, `ranking.json`).
 
-Ranks only eligible clips (hard rules pass, valid judgement, all gates pass) by 30/25/30/15 (ties: higher
-cliffhanger, hook, context, then ID). Two outputs:
+**Analyse your own screenplays** runs the same pipeline on new input. Upload one or more `.txt` episode files in
+the same format as the pack, or a `.zip` of them. Each file is checked as it is uploaded, then the analysis runs
+with live progress and shows the results on the same page. It makes real Gemini calls, so it is capped: up to
+5 files of 100 KB each per analysis, one analysis at a time, and a daily request limit.
 
-- **Complete catalogue** (`catalogue.csv`): every eligible clip with a sequential `catalogue_rank`, with no
-  per-episode or archetype limit. Clips overlapping a better one in the same episode by more than 50% (of
-  the shorter clip) keep their rank, with `duplicate_of` and `duplicate_overlap`.
-- **Editorial shortlist** (`shortlist.csv`): from that order, near-duplicates suppressed, at most one clip
-  per episode and three per archetype; each row also carries its `catalogue_rank`.
+## Run it locally
 
-Both CSVs include clip start/end, the hook and the suspense (cliffhanger) beat — block ID, episode
-timestamp and the verbatim text of the parsed source block the judge selected — and a one-line
-`explanation`. The explanation is model-written: the judge's Promo DNA appeal (`explanation_source =
-judge_appeal`), or the generator's `why_it_works` when the judge gave none; nobody has reviewed it.
-Missing or invalid evidence leaves a field empty and is listed in `evidence_issues`. The report also covers
-best per episode ("no strong promo" when none qualifies), equal-weight sensitivity, Promo DNA, rejection
-reasons, repairs, the baseline and API usage. Writes
-`runs/<run>/ranking/<judge folder>/{ranking.json,catalogue.csv,candidates.csv,shortlist.csv,report.md}`.
-
-Promos are single continuous spans of one episode; montages stitched from separate moments are out of
-scope.
-
-## Interface
+Requires Python 3.12 and a free [Gemini API key](https://aistudio.google.com/apikey).
 
 ```
 pip install -r requirements-ui.txt
-python -m promopilot_ui                 # http://localhost:8501
-python -m promopilot_ui --server.port 8601
+copy .env.example .env
 ```
 
-`python -m promopilot_ui` binds to localhost with usage telemetry disabled.
+In `.env`, set `GEMINI_API_KEY`, `PROMOPILOT_INPUT_DIR` (the folder of screenplay `.txt` files) and
+`PROMOPILOT_OUTPUT_DIR`. Then:
 
-**Kuku 50-episode analysis** (read-only). The default page, "Promos to post first", shows only what the brief
-asks for. Each ranked promo shows its episode, segment timestamps, hook, cliffhanger, one line on why it works, and
-why it holds its rank (from the stored scores and the ranking's own tie-break order). Below the promos is a short
-"where the tool picks badly" summary with real examples. The "Details" pages in the sidebar hold everything else:
-Full candidate analysis, Where it picks badly, Scores and ranking rules, Repairs and Downloads. All of them read the
-persisted outputs in `PROMOPILOT_DASHBOARD_DIR` (default `PROMOPILOT_OUTPUT_DIR`). These pages
-only read files; they never call a model, re-rank or write anywhere. They always use the judge-v1 outputs (the
-rubric environment variable is ignored), and experimental rubric folders are listed but never mixed in. Use
-"Reload data" after re-running a pipeline step.
+```
+python -m promopilot.pipeline parse
+python -m promopilot.pipeline generate --run my-run --episodes 1-50
+python -m promopilot.pipeline validate --run my-run
+python -m promopilot.pipeline judge --run my-run
+python -m promopilot.pipeline rank --run my-run
+python -m promopilot_ui                 # opens the dashboard at http://localhost:8501
+python -m pytest                        # the test suite
+```
 
-**Analyse your own screenplays** (`/analyse`): a visitor uploads one or more `.txt` episode files in the same
-format as the pack. Each file is checked with the parser as soon as it is uploaded. "Start analysis" then runs
-the unchanged pipeline (parse, generate, validate, judge with judge-v1, rank) in a background worker
-(`python -m promopilot.live JOBDIR`). The worker uses an isolated job folder under `PROMOPILOT_LIVE_DIR`, so it
-cannot read or write the 50-episode outputs. A stage is marked done only once its output files exist. The
-ranked clips and the full per-candidate analysis appear on the same page, with downloads.
+Every model reply is cached, so re-running a step costs nothing, and an interrupted run resumes where it stopped.
+To view the published 50-episode results without running anything, set
+`PROMOPILOT_DASHBOARD_DIR=published/fullpack` and start the dashboard.
 
-This page makes real model calls on the configured key. Its limits are set with the `PROMOPILOT_LIVE_*`
-settings (see `.env.example`):
-- files per upload;
-- size per file;
-- requests per file for generation and for judging;
-- one analysis at a time;
-- a daily request cap.
+## Cost and scale
 
-The daily cap is a soft limit and is not a billing limit; set a budget alert on the provider account as well.
-Jobs are deleted on "Start over" or after `PROMOPILOT_LIVE_JOB_TTL_MIN` minutes.
+On the 50-episode pack, generation used 54 recorded requests (about 267k prompt and 34k completion tokens). The
+judge stage made 181 requests: 147 judgements, 33 reassessments and 1 judgement of a repaired clip. That came to
+about 494k prompt and 148k completion tokens, with a median of 3.8 seconds per request. All of it ran on
+Gemini's free tier.
 
-### Hosting (Streamlit Community Cloud)
+Cost grows linearly with the number of episodes, and each show is independent, so shows can be processed in
+parallel. The model is a setting, not code: any OpenAI-compatible model can be swapped in through environment
+variables (see the [reference](docs/REFERENCE.md#llm-providers)), so a stronger model can replace the free one
+without touching the pipeline.
 
-`published/fullpack/` holds a copy of the 50-episode outputs that the hosted dashboard reads: the parsed
-episodes and `runs/fullpack-v1-20261106` without call logs or history. It contains screenplay text and
-quotes, and is published deliberately.
+## Repository layout
 
-To deploy:
-1. Set the entrypoint to `promopilot_ui/app.py`. Dependencies come from `promopilot_ui/requirements.txt`.
-2. Choose Python 3.12.
-3. Add these secrets:
+```
+promopilot/            the pipeline: parser, generator, validator, judge, ranking, LLM providers
+  prompts/             the generator and judge prompts
+promopilot_ui/         the Streamlit app: dashboard pages and the upload page
+published/fullpack/    outputs of the 50-episode run that the hosted dashboard reads
+tests/                 automated tests (fixtures only, no API calls)
+docs/REFERENCE.md      every command, setting and output file
+```
 
-   ```toml
-   GEMINI_API_KEY = "..."
-   GEMINI_MODEL = "gemini-3.5-flash"
-   LLM_PROVIDER = "gemini"
-   PROMOPILOT_DASHBOARD_DIR = "published/fullpack"
-   ```
+## Built with
 
-Community Cloud forces usage telemetry on. The app sleeps after a period without visitors. A restart removes
-running upload jobs, and the page reports that the job was lost.
-
-Free-tier limits are tight: in testing the Gemini free tier allowed 20 requests per day for the
-flash model, and failed 503 attempts appeared to count against it. A paid model (for example a larger
-Gemini or GPT model) could be used for production by changing `*_MODEL`, or by adding one registry
-entry in `promopilot/llm.py` for another OpenAI-compatible endpoint. Nothing in the pipeline depends on it.
+Python 3.12, Pydantic, Streamlit, and Google Gemini (`gemini-3.5-flash` to generate, `gemini-3.5-flash-lite` to
+judge) through its OpenAI-compatible API. Developed with AI assistance in Cursor.
