@@ -1,0 +1,296 @@
+{
+  "candidate_id": "EP007_C01",
+  "episode_id": "EP007",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "b274d42d53ea82cbb5d98a286ca756bbeb7c09abcffc40a7d8c7bc862982af50",
+  "clip_start_ms": 22000,
+  "clip_end_ms": 68500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP007_B009",
+    "EP007_B010",
+    "EP007_B011"
+  ],
+  "eligible_beat_ids": [
+    "EP007_B027",
+    "EP007_B028",
+    "EP007_B029",
+    "EP007_B030",
+    "EP007_B031",
+    "EP007_B032"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The aristocratic woman's mocking question immediately establishes social condescension and an antagonistic dynamic.",
+      "evidence": [
+        "EP007_B009"
+      ],
+      "issues": [],
+      "block_id": "EP007_B009",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "The insults escalate from mocking her living conditions to Gerald making an explicit physical threat at the end, though the middle consists of back-and-forth verbal sparring.",
+      "evidence": [
+        "EP007_B015",
+        "EP007_B026",
+        "EP007_B032"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP007_B015",
+        "EP007_B026",
+        "EP007_B032"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "Gerald's aggressive physical lunge and threatening line cut off right at the peak of confrontation, leaving the immediate physical danger open.",
+      "evidence": [
+        "EP007_B032",
+        "EP007_B031"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP007_B032",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Will Gerald act on his threat to make Juliana's partner disappear, and how will she defend herself?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The viewer understands the core conflict (rich people mocking a fallen aristocrat who chose love over wealth), but the exact history between Gerald and Juliana is missing.",
+      "evidence": [
+        "EP007_B011",
+        "EP007_B026"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "An aristocratic woman and a man named Gerald mock Juliana for living in a poor woodland cottage after choosing a penniless soldier over a life of comfort. Juliana stands her ground with pride and orders them to leave, prompting Gerald to threaten her.",
+      "confusions": [
+        {
+          "issue": "The backstory involving Juliana's former life, the 'scarred beggar', and Gerald's relationship to her is unstated.",
+          "block_ids": [
+            "EP007_B011",
+            "EP007_B026",
+            "EP007_B028"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip establishes the emotional stakes and interpersonal hostility clearly while cutting off right as physical intimidation escalates.",
+      "evidence": [
+        "EP007_B028",
+        "EP007_B032"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana chose a poor life and a soldier over wealth",
+        "Gerald and the aristocratic woman despise her current state"
+      ],
+      "withheld": [
+        "What Gerald's actual influence can do",
+        "Whether Juliana and her partner can survive the threat"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana's unyielding dignity in the face of cruel mockery evokes strong sympathy and admiration from the viewer.",
+      "evidence": [
+        "EP007_B012",
+        "EP007_B019",
+        "EP007_B023",
+        "EP007_B028"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "defiant pride against injustice",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP007_B011",
+        "EP007_B015",
+        "EP007_B030",
+        "EP007_B032"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP007_B009"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP007_B015",
+        "EP007_B017",
+        "EP007_B026",
+        "EP007_B032"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A proud former lady living in poverty faces malicious harassment and threats from her wealthy former associates.",
+      "evidence": [
+        "EP007_B011",
+        "EP007_B022",
+        "EP007_B032"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP007_B032"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "The identity of the 'scarred beggar'",
+      "Why Gerald and the aristocratic woman care enough to visit her in the woods"
+    ],
+    "curiosity_revealed": [
+      "Juliana chose a poor life and a soldier over wealth",
+      "Gerald and the aristocratic woman despise her current state"
+    ],
+    "curiosity_withheld": [
+      "What Gerald's actual influence can do",
+      "Whether Juliana and her partner can survive the threat"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A proud fallen aristocrat refuses to bow to her cruel former peers, sparking a dangerous clash.",
+    "supporting_block_ids": [
+      "EP007_B011",
+      "EP007_B015",
+      "EP007_B030",
+      "EP007_B032",
+      "EP007_B009",
+      "EP007_B017",
+      "EP007_B026",
+      "EP007_B022"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"An aristocratic woman and a man named Gerald mock Juliana for living in a poor woodland cottage after choosing a penniless soldier over a life of comfort. Juliana stands her ground with pride and orders them to leave, prompting Gerald to threaten her.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The backstory involving Juliana's former life, the 'scarred beggar', and Gerald's relationship to her is unstated.\",\n      \"block_ids\": [\"K04\", \"K19\", \"K21\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"The aristocratic woman's mocking question immediately establishes social condescension and an antagonistic dynamic.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K08\", \"K19\", \"K25\"],\n    \"reason\": \"The insults escalate from mocking her living conditions to Gerald making an explicit physical threat at the end, though the middle consists of back-and-forth verbal sparring.\",\n    \"evidence\": [\"K08\", \"K19\", \"K25\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K25\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Gerald act on his threat to make Juliana's partner disappear, and how will she defend herself?\",\n    \"score\": 4,\n    \"reason\": \"Gerald's aggressive physical lunge and threatening line cut off right at the peak of confrontation, leaving the immediate physical danger open.\",\n    \"evidence\": [\"K24\", \"K25\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The viewer understands the core conflict (rich people mocking a fallen aristocrat who chose love over wealth), but the exact history between Gerald and Juliana is missing.\",\n    \"evidence\": [\"K04\", \"K19\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"Juliana chose a poor life and a soldier over wealth\", \"Gerald and the aristocratic woman despise her current state\"],\n    \"withheld\": [\"What Gerald's actual influence can do\", \"Whether Juliana and her partner can survive the threat\"],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip establishes the emotional stakes and interpersonal hostility clearly while cutting off right as physical intimidation escalates.\",\n    \"evidence\": [\"K21\", \"K25\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"defiant pride against injustice\",\n    \"score\": 4,\n    \"reason\": \"Juliana's unyielding dignity in the face of cruel mockery evokes strong sympathy and admiration from the viewer.\",\n    \"evidence\": [\"K05\", \"K12\", \"K16\", \"K21\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K04\", \"K08\", \"K23\", \"K25\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K08\", \"K10\", \"K19\", \"K25\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A proud former lady living in poverty faces malicious harassment and threats from her wealthy former associates.\",\n      \"evidence\": [\"K04\", \"K15\", \"K25\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"The identity of the 'scarred beggar'\",\n        \"Why Gerald and the aristocratic woman care enough to visit her in the woods\"\n      ]\n    },\n    \"appeal\": \"A proud fallen aristocrat refuses to bow to her cruel former peers, sparking a dangerous clash.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "356c2787ef7b20e271f3d4fba2ff09530fe5d1ca9b552e0959be25a278a6c21a",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3899,
+      "prompt_tokens": 2959,
+      "completion_tokens": 1020,
+      "total_tokens": 3979,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:00:31.433304+00:00"
+}

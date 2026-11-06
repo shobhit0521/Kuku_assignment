@@ -1,0 +1,298 @@
+{
+  "candidate_id": "EP050_C02",
+  "episode_id": "EP050",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "0012b70a5d99",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "8646bead93d9a66aa2014c7c0d430b0a0cfce7cf2cf7067ad1ae4b488c677198",
+  "clip_start_ms": 0,
+  "clip_end_ms": 42500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP050_B001",
+    "EP050_B002",
+    "EP050_B004",
+    "EP050_B003"
+  ],
+  "eligible_beat_ids": [
+    "EP050_B016",
+    "EP050_B017",
+    "EP050_B018",
+    "EP050_B019",
+    "EP050_B020",
+    "EP050_B021"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The line immediately hooks the viewer by revealing an illicit relationship between a woman and a man in a religious collar.",
+      "evidence": [
+        "EP050_B004"
+      ],
+      "issues": [],
+      "block_id": "EP050_B004",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension escalates steadily from a secret liaison into a cold, calculated negotiation over power and territory, ending on a grave condition.",
+      "evidence": [
+        "EP050_B009",
+        "EP050_B013",
+        "EP050_B017",
+        "EP050_B021"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP050_B009",
+        "EP050_B011",
+        "EP050_B013",
+        "EP050_B017",
+        "EP050_B021"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "Father Thomas's final grave line leaves open the fragility of their dangerous pact right at the cut.",
+      "evidence": [
+        "EP050_B021",
+        "EP050_B020"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP050_B021",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "How long will their dangerous alliance hold, and what will happen when it breaks?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core conflict—a secret affair turning into a corrupt political bargain—is entirely self-contained and easy to follow.",
+      "evidence": [
+        "EP050_B004",
+        "EP050_B011",
+        "EP050_B013",
+        "EP050_B017"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Catherine is in bed with a priest named Father Thomas, and they quickly pivot from a romantic liaison into a high-stakes bribery negotiation. Father Thomas demands control over a lucrative tax territory in exchange for his discretion, leading to a tense standoff.",
+      "confusions": [
+        {
+          "issue": "The backstory of Catherine and Father Thomas's relationship and why his discretion matters to her is entirely unknown.",
+          "block_ids": [
+            "EP050_B004",
+            "EP050_B009"
+          ]
+        },
+        {
+          "issue": "The exact power or political situation surrounding 'the west territory' is unspecified.",
+          "block_ids": [
+            "EP050_B013"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip successfully shows the setup of a corrupt bargain while leaving the ultimate outcome and consequences entirely withheld.",
+      "evidence": [
+        "EP050_B013",
+        "EP050_B017",
+        "EP050_B021"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Catherine and Father Thomas are having an affair.",
+        "Father Thomas is leveraging his discretion for control over the west territory's taxes."
+      ],
+      "withheld": [
+        "What secret they are hiding from whom.",
+        "Whether Catherine will ultimately agree to his steep terms."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The interaction evokes a cool, calculating wariness between two people who distrust each other even as they conspire.",
+      "evidence": [
+        "EP050_B009",
+        "EP050_B013",
+        "EP050_B017"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "deception_secret_identity",
+      "evidence": [
+        "EP050_B004",
+        "EP050_B013",
+        "EP050_B017"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP050_B004"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP050_B009",
+        "EP050_B017",
+        "EP050_B021"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A corrupt priest blackmails his lover for total control of a region's tax collection in exchange for his silence.",
+      "evidence": [
+        "EP050_B013",
+        "EP050_B017"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP050_B021"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "Catherine and Father Thomas are having an affair.",
+      "Father Thomas is leveraging his discretion for control over the west territory's taxes."
+    ],
+    "curiosity_withheld": [
+      "What secret they are hiding from whom.",
+      "Whether Catherine will ultimately agree to his steep terms."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A forbidden affair turns into a ruthless game of blackmail when a priest demands a fortune for his silence.",
+    "supporting_block_ids": [
+      "EP050_B004",
+      "EP050_B013",
+      "EP050_B017",
+      "EP050_B009",
+      "EP050_B021"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Catherine is in bed with a priest named Father Thomas, and they quickly pivot from a romantic liaison into a high-stakes bribery negotiation. Father Thomas demands control over a lucrative tax territory in exchange for his discretion, leading to a tense standoff.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The backstory of Catherine and Father Thomas's relationship and why his discretion matters to her is entirely unknown.\",\n      \"block_ids\": [\"K03\", \"K09\"]\n    },\n    {\n      \"issue\": \"The exact power or political situation surrounding 'the west territory' is unspecified.\",\n      \"block_ids\": [\"K13\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 4,\n    \"reason\": \"The line immediately hooks the viewer by revealing an illicit relationship between a woman and a man in a religious collar.\",\n    \"evidence\": [\"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K09\", \"K11\", \"K13\", \"K17\", \"K21\"],\n    \"reason\": \"Tension escalates steadily from a secret liaison into a cold, calculated negotiation over power and territory, ending on a grave condition.\",\n    \"evidence\": [\"K09\", \"K13\", \"K17\", \"K21\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K21\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How long will their dangerous alliance hold, and what will happen when it breaks?\",\n    \"score\": 4,\n    \"reason\": \"Father Thomas's final grave line leaves open the fragility of their dangerous pact right at the cut.\",\n    \"evidence\": [\"K20\", \"K21\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core conflict—a secret affair turning into a corrupt political bargain—is entirely self-contained and easy to follow.\",\n    \"evidence\": [\"K03\", \"K11\", \"K13\", \"K17\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Catherine and Father Thomas are having an affair.\",\n      \"Father Thomas is leveraging his discretion for control over the west territory's taxes.\"\n    ],\n    \"withheld\": [\n      \"What secret they are hiding from whom.\",\n      \"Whether Catherine will ultimately agree to his steep terms.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip successfully shows the setup of a corrupt bargain while leaving the ultimate outcome and consequences entirely withheld.\",\n    \"evidence\": [\"K13\", \"K17\", \"K21\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion\",\n    \"score\": 3,\n    \"reason\": \"The interaction evokes a cool, calculating wariness between two people who distrust each other even as they conspire.\",\n    \"evidence\": [\"K09\", \"K13\", \"K17\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"deception_secret_identity\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K03\", \"K13\", \"K17\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K03\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\"K09\", \"K17\", \"K21\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A corrupt priest blackmails his lover for total control of a region's tax collection in exchange for his silence.\",\n      \"evidence\": [\"K13\", \"K17\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"A forbidden affair turns into a ruthless game of blackmail when a priest demands a fortune for his silence.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "f3f193c45e9569fbc55e64524064c7c7706086ce5e87e6b262812c7c0bb6969e",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3493,
+      "prompt_tokens": 2853,
+      "completion_tokens": 1027,
+      "total_tokens": 3880,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:10:41.302979+00:00"
+}

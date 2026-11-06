@@ -1,0 +1,285 @@
+{
+  "candidate_id": "EP018_C02",
+  "episode_id": "EP018",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "243e0f71fab51b7e7e40cc39ab50a275d2325a5d432679f85433032ad8145aa8",
+  "clip_start_ms": 145800,
+  "clip_end_ms": 192000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP018_B071"
+  ],
+  "eligible_beat_ids": [
+    "EP018_B080",
+    "EP018_B081"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana asks an emotional question about an unseen disaster, creating mild intrigue, though it lacks immediate context.",
+      "evidence": [
+        "EP018_B071"
+      ],
+      "issues": [],
+      "block_id": "EP018_B071",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds from sorrow over a lost home into a cold, dangerous vow of retribution, though the conflict remains one-sided against an unseen enemy.",
+      "evidence": [
+        "EP018_B074",
+        "EP018_B078",
+        "EP018_B081"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP018_B074",
+        "EP018_B078",
+        "EP018_B081"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's direct question about what he will do leaves an open hook for his impending revenge, though it relies on a standard dramatic pause rather than a high-stakes twist.",
+      "evidence": [
+        "EP018_B080",
+        "EP018_B081"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP018_B080",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "What extreme actions is Alexander going to take to retaliate?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "Viewers understand they are a displaced couple facing tragedy, but the identity of the antagonists and the background of Alexander's combat scars are entirely missing.",
+      "evidence": [
+        "EP018_B074",
+        "EP018_B077",
+        "EP018_B078"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A devastated woman named Juliana laments their ruined home and lack of shelter to Alexander, who holds her and vows lethal vengeance against whoever targeted them. The clip ends on Alexander's grim profile staring into the fire as he prepares to retaliate.",
+      "confusions": [
+        {
+          "issue": "Who 'they' are and why they burned down the home is completely unexplained.",
+          "block_ids": [
+            "EP018_B074",
+            "EP018_B078"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip establishes the emotional devastation and the promise of brutal retaliation without revealing who is responsible or how they will strike back.",
+      "evidence": [
+        "EP018_B074",
+        "EP018_B078",
+        "EP018_B080"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Their home has been destroyed",
+        "Alexander is a dangerous, vengeful protector"
+      ],
+      "withheld": [
+        "Who destroyed their home",
+        "What Alexander's plan of vengeance is"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana's weeping delivery combined with Alexander's chilling transformation into lethal fury creates a strong emotional arc.",
+      "evidence": [
+        "EP018_B071",
+        "EP018_B075",
+        "EP018_B078"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "despair turning into cold rage",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP018_B074",
+        "EP018_B078",
+        "EP018_B081"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "danger_threat",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP018_B071"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP018_B074",
+        "EP018_B078"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A displaced couple loses their home to malicious enemies, and a hardened man vows deadly revenge.",
+      "evidence": [
+        "EP018_B074",
+        "EP018_B075",
+        "EP018_B078"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP018_B080"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Identity of the perpetrators",
+      "Alexander's backstory and combat background"
+    ],
+    "curiosity_revealed": [
+      "Their home has been destroyed",
+      "Alexander is a dangerous, vengeful protector"
+    ],
+    "curiosity_withheld": [
+      "Who destroyed their home",
+      "What Alexander's plan of vengeance is"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A hardened protector vows bloody vengeance after mysterious enemies burn down his home.",
+    "supporting_block_ids": [
+      "EP018_B074",
+      "EP018_B078",
+      "EP018_B081",
+      "EP018_B071",
+      "EP018_B075",
+      "EP018_B080"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A devastated woman named Juliana laments their ruined home and lack of shelter to Alexander, who holds her and vows lethal vengeance against whoever targeted them. The clip ends on Alexander's grim profile staring into the fire as he prepares to retaliate.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who 'they' are and why they burned down the home is completely unexplained.\",\n      \"block_ids\": [\n        \"K05\",\n        \"K09\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Juliana asks an emotional question about an unseen disaster, creating mild intrigue, though it lacks immediate context.\",\n    \"evidence\": [\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\n      \"K05\",\n      \"K09\",\n      \"K12\"\n    ],\n    \"reason\": \"Tension builds from sorrow over a lost home into a cold, dangerous vow of retribution, though the conflict remains one-sided against an unseen enemy.\",\n    \"evidence\": [\n      \"K05\",\n      \"K09\",\n      \"K12\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K11\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What extreme actions is Alexander going to take to retaliate?\",\n    \"score\": 3,\n    \"reason\": \"Juliana's direct question about what he will do leaves an open hook for his impending revenge, though it relies on a standard dramatic pause rather than a high-stakes twist.\",\n    \"evidence\": [\n      \"K11\",\n      \"K12\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"Viewers understand they are a displaced couple facing tragedy, but the identity of the antagonists and the background of Alexander's combat scars are entirely missing.\",\n    \"evidence\": [\n      \"K05\",\n      \"K08\",\n      \"K09\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Their home has been destroyed\",\n      \"Alexander is a dangerous, vengeful protector\"\n    ],\n    \"withheld\": [\n      \"Who destroyed their home\",\n      \"What Alexander's plan of vengeance is\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip establishes the emotional devastation and the promise of brutal retaliation without revealing who is responsible or how they will strike back.\",\n    \"evidence\": [\n      \"K05\",\n      \"K09\",\n      \"K11\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"despair turning into cold rage\",\n    \"score\": 4,\n    \"reason\": \"Juliana's weeping delivery combined with Alexander's chilling transformation into lethal fury creates a strong emotional arc.\",\n    \"evidence\": [\n      \"K02\",\n      \"K06\",\n      \"K09\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"danger_threat\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K05\",\n        \"K09\",\n        \"K12\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\n        \"K05\",\n        \"K09\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A displaced couple loses their home to malicious enemies, and a hardened man vows deadly revenge.\",\n      \"evidence\": [\n        \"K05\",\n        \"K06\",\n        \"K09\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Identity of the perpetrators\",\n        \"Alexander's backstory and combat background\"\n      ]\n    },\n    \"appeal\": \"A hardened protector vows bloody vengeance after mysterious enemies burn down his home.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "b6bf3247338a42f154b89d86c9c32a91e99f5333633f5efc48a7364fa54c37c7",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3576,
+      "prompt_tokens": 2352,
+      "completion_tokens": 1095,
+      "total_tokens": 3447,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:56:35.752934+00:00"
+}

@@ -1,0 +1,295 @@
+{
+  "candidate_id": "EP007_C02",
+  "episode_id": "EP007",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "d07f4c9cbdcc00048903a7a2dde0c4058764b2ef0989567a265d4137e9f4863f",
+  "clip_start_ms": 50800,
+  "clip_end_ms": 88000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP007_B025",
+    "EP007_B026"
+  ],
+  "eligible_beat_ids": [
+    "EP007_B040",
+    "EP007_B041",
+    "EP007_B042",
+    "EP007_B043",
+    "EP007_B044"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Gerald's bitter sneer insulting her choice of a scarred beggar immediately establishes dramatic conflict and tension.",
+      "evidence": [
+        "EP007_B026"
+      ],
+      "issues": [],
+      "block_id": "EP007_B026",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds from verbal threats to the arrival of the formidable husband, culminating in Gerald's sudden fear.",
+      "evidence": [
+        "EP007_B032",
+        "EP007_B036",
+        "EP007_B042",
+        "EP007_B043"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP007_B032",
+        "EP007_B036",
+        "EP007_B042",
+        "EP007_B043"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip cuts away on Gerald's sheer terror as the husband towers over him, leaving the immediate confrontation unresolved.",
+      "evidence": [
+        "EP007_B043",
+        "EP007_B041",
+        "EP007_B042",
+        "EP007_B044"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP007_B043",
+      "mechanism": "reaction_hold",
+      "outcome": "unresolved",
+      "open_question": "What will the towering husband do to Gerald now that he has arrived?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic of a proud ex-suitor threatening a woman and her humble husband is clear, even if specific backstory details are missing.",
+      "evidence": [
+        "EP007_B026",
+        "EP007_B028",
+        "EP007_B032",
+        "EP007_B036"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman defies an arrogant man who insults her choice of husband and threatens a beggar. The husband, a towering and scarred man, arrives menacingly and strikes terror into the arrogant man.",
+      "confusions": [
+        {
+          "issue": "The exact past relationship and history between Juliana and Gerald are unstated.",
+          "block_ids": [
+            "EP007_B026",
+            "EP007_B028"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The setup of the conflict and the arrival of the formidable husband are shown, while withholding the outcome of the confrontation.",
+      "evidence": [
+        "EP007_B026",
+        "EP007_B032",
+        "EP007_B036",
+        "EP007_B043"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana rejected Gerald for a scarred man",
+        "Gerald threatens them with his influence",
+        "The scarred husband is large, intimidating, and arriving to confront Gerald"
+      ],
+      "withheld": [
+        "Who the scarred husband actually is and what he will do to Gerald"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana's bold defiance and Gerald's sudden terror upon the husband's arrival create strong engaging emotions.",
+      "evidence": [
+        "EP007_B028",
+        "EP007_B030",
+        "EP007_B042",
+        "EP007_B043"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "defiance and intimidation",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP007_B026",
+        "EP007_B030",
+        "EP007_B042",
+        "EP007_B043"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP007_B026"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP007_B026",
+        "EP007_B032"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Gerald threatens to use his influence to destroy Juliana and her chosen husband.",
+      "evidence": [
+        "EP007_B032",
+        "EP007_B035"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP007_B043"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Prior relationship details between Juliana and Gerald"
+    ],
+    "curiosity_revealed": [
+      "Juliana rejected Gerald for a scarred man",
+      "Gerald threatens them with his influence",
+      "The scarred husband is large, intimidating, and arriving to confront Gerald"
+    ],
+    "curiosity_withheld": [
+      "Who the scarred husband actually is and what he will do to Gerald"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "An arrogant man threatens a defiant woman and her poor husband—until the husband arrives and turns the tables.",
+    "supporting_block_ids": [
+      "EP007_B026",
+      "EP007_B030",
+      "EP007_B042",
+      "EP007_B043",
+      "EP007_B032",
+      "EP007_B035"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman defies an arrogant man who insults her choice of husband and threatens a beggar. The husband, a towering and scarred man, arrives menacingly and strikes terror into the arrogant man.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact past relationship and history between Juliana and Gerald are unstated.\",\n      \"block_ids\": [\"K02\", \"K04\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Gerald's bitter sneer insulting her choice of a scarred beggar immediately establishes dramatic conflict and tension.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K08\", \"K12\", \"K18\", \"K19\"],\n    \"reason\": \"Tension builds from verbal threats to the arrival of the formidable husband, culminating in Gerald's sudden fear.\",\n    \"evidence\": [\"K08\", \"K12\", \"K18\", \"K19\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K19\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What will the towering husband do to Gerald now that he has arrived?\",\n    \"score\": 4,\n    \"reason\": \"The clip cuts away on Gerald's sheer terror as the husband towers over him, leaving the immediate confrontation unresolved.\",\n    \"evidence\": [\"K17\", \"K18\", \"K19\", \"K20\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic of a proud ex-suitor threatening a woman and her humble husband is clear, even if specific backstory details are missing.\",\n    \"evidence\": [\"K02\", \"K04\", \"K08\", \"K12\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana rejected Gerald for a scarred man\",\n      \"Gerald threatens them with his influence\",\n      \"The scarred husband is large, intimidating, and arriving to confront Gerald\"\n    ],\n    \"withheld\": [\n      \"Who the scarred husband actually is and what he will do to Gerald\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The setup of the conflict and the arrival of the formidable husband are shown, while withholding the outcome of the confrontation.\",\n    \"evidence\": [\"K02\", \"K08\", \"K12\", \"K19\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"defiance and intimidation\",\n    \"score\": 4,\n    \"reason\": \"Juliana's bold defiance and Gerald's sudden terror upon the husband's arrival create strong engaging emotions.\",\n    \"evidence\": [\"K04\", \"K06\", \"K18\", \"K19\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K02\", \"K06\", \"K18\", \"K19\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K02\", \"K08\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Gerald threatens to use his influence to destroy Juliana and her chosen husband.\",\n      \"evidence\": [\"K08\", \"K10\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\"Prior relationship details between Juliana and Gerald\"]\n    },\n    \"appeal\": \"An arrogant man threatens a defiant woman and her poor husband—until the husband arrives and turns the tables.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "0aa69f0efc00f36e5880e4aa1d2e3995bbeeb1e0ee860ac1816ae1359bc4bf3f",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3532,
+      "prompt_tokens": 2761,
+      "completion_tokens": 992,
+      "total_tokens": 3753,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:00:38.964499+00:00"
+}

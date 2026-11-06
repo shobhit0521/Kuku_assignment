@@ -1,0 +1,296 @@
+{
+  "candidate_id": "EP002_C02",
+  "episode_id": "EP002",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "e44a7f41188d04416d8867527d2b2b6e51a070d20459e75fadb5d47f16168451",
+  "clip_start_ms": 0,
+  "clip_end_ms": 44700,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP002_B002",
+    "EP002_B001",
+    "EP002_B003",
+    "EP002_B004"
+  ],
+  "eligible_beat_ids": [
+    "EP002_B025",
+    "EP002_B026",
+    "EP002_B027",
+    "EP002_B028",
+    "EP002_B030",
+    "EP002_B029"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 5,
+      "valid": true,
+      "reason": "An immediate, shocking altar rejection hits the viewer right at the first frame with unmistakable stakes.",
+      "evidence": [
+        "EP002_B002"
+      ],
+      "issues": [],
+      "block_id": "EP002_B002",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds as the groom heaps insults on the bride, and escalates further when she turns to her father only to be cruelly rebuffed.",
+      "evidence": [
+        "EP002_B006",
+        "EP002_B017",
+        "EP002_B028",
+        "EP002_B030"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP002_B006",
+        "EP002_B017",
+        "EP002_B028",
+        "EP002_B030"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "Cutting off on the father's harsh command leaves the protagonist completely isolated with zero allies left in the room.",
+      "evidence": [
+        "EP002_B030",
+        "EP002_B028",
+        "EP002_B029"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP002_B030",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "How will Juliana survive total abandonment by both her fiancé and her own family after such public humiliation?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 5,
+      "valid": true,
+      "reason": "The setting (a wedding altar), the conflict (jilted bride), and the character dynamics (cruel groom, gloating rival, cold father) are instantly transparent.",
+      "evidence": [
+        "EP002_B002",
+        "EP002_B001",
+        "EP002_B016",
+        "EP002_B028"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A groom publicly rejects his bride at the altar in favor of another woman, while the bride's own father refuses to defend her and tells her not to cause a disgrace. The clip establishes an extreme public betrayal and familial abandonment.",
+      "confusions": [
+        {
+          "issue": "The exact prior relationship and social standing of Clarissa versus Juliana are not fully explained.",
+          "block_ids": [
+            "EP002_B001",
+            "EP002_B019"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "It clearly sets up the unbearable injustice and humiliation while leaving the audience desperate for her revenge or redemption arc.",
+      "evidence": [
+        "EP002_B002",
+        "EP002_B021",
+        "EP002_B030"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The groom is abandoning Juliana at the altar for Clarissa",
+        "The father refuses to support his humiliated daughter"
+      ],
+      "withheld": [
+        "How Juliana will retaliate or seek revenge",
+        "What happens next after being totally cast out"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 5,
+      "valid": true,
+      "reason": "The combination of public abandonment, cruel insults, and paternal betrayal generates strong empathetic outrage.",
+      "evidence": [
+        "EP002_B004",
+        "EP002_B006",
+        "EP002_B026",
+        "EP002_B030"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage and heartbreak",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "betrayal_humiliation",
+      "evidence": [
+        "EP002_B002",
+        "EP002_B006",
+        "EP002_B028",
+        "EP002_B030"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP002_B002"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP002_B006",
+        "EP002_B017",
+        "EP002_B030"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Public social ruin, severe emotional devastation, and complete abandonment by family and lover.",
+      "evidence": [
+        "EP002_B006",
+        "EP002_B026",
+        "EP002_B030"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP002_B030"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "The groom is abandoning Juliana at the altar for Clarissa",
+      "The father refuses to support his humiliated daughter"
+    ],
+    "curiosity_withheld": [
+      "How Juliana will retaliate or seek revenge",
+      "What happens next after being totally cast out"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Witness a brutally jilted bride abandoned by everyone she trusted—waiting for her ultimate revenge.",
+    "supporting_block_ids": [
+      "EP002_B002",
+      "EP002_B006",
+      "EP002_B028",
+      "EP002_B030",
+      "EP002_B017",
+      "EP002_B026"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A groom publicly rejects his bride at the altar in favor of another woman, while the bride's own father refuses to defend her and tells her not to cause a disgrace. The clip establishes an extreme public betrayal and familial abandonment.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact prior relationship and social standing of Clarissa versus Juliana are not fully explained.\",\n      \"block_ids\": [\n        \"K02\",\n        \"K19\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K01\",\n    \"score\": 5,\n    \"reason\": \"An immediate, shocking altar rejection hits the viewer right at the first frame with unmistakable stakes.\",\n    \"evidence\": [\n      \"K01\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K06\",\n      \"K17\",\n      \"K28\",\n      \"K29\"\n    ],\n    \"reason\": \"Tension builds as the groom heaps insults on the bride, and escalates further when she turns to her father only to be cruelly rebuffed.\",\n    \"evidence\": [\n      \"K06\",\n      \"K17\",\n      \"K28\",\n      \"K29\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K29\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Juliana survive total abandonment by both her fiancé and her own family after such public humiliation?\",\n    \"score\": 4,\n    \"reason\": \"Cutting off on the father's harsh command leaves the protagonist completely isolated with zero allies left in the room.\",\n    \"evidence\": [\n      \"K28\",\n      \"K29\",\n      \"K30\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 5,\n    \"reason\": \"The setting (a wedding altar), the conflict (jilted bride), and the character dynamics (cruel groom, gloating rival, cold father) are instantly transparent.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\",\n      \"K16\",\n      \"K28\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The groom is abandoning Juliana at the altar for Clarissa\",\n      \"The father refuses to support his humiliated daughter\"\n    ],\n    \"withheld\": [\n      \"How Juliana will retaliate or seek revenge\",\n      \"What happens next after being totally cast out\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"It clearly sets up the unbearable injustice and humiliation while leaving the audience desperate for her revenge or redemption arc.\",\n    \"evidence\": [\n      \"K01\",\n      \"K21\",\n      \"K29\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage and heartbreak\",\n    \"score\": 5,\n    \"reason\": \"The combination of public abandonment, cruel insults, and paternal betrayal generates strong empathetic outrage.\",\n    \"evidence\": [\n      \"K04\",\n      \"K06\",\n      \"K26\",\n      \"K29\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"betrayal_humiliation\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K01\",\n        \"K06\",\n        \"K28\",\n        \"K29\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\n        \"K01\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\n        \"K06\",\n        \"K17\",\n        \"K29\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"Public social ruin, severe emotional devastation, and complete abandonment by family and lover.\",\n      \"evidence\": [\n        \"K06\",\n        \"K26\",\n        \"K29\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"Witness a brutally jilted bride abandoned by everyone she trusted—waiting for her ultimate revenge.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "0ccead8fd8c299d191ff99492ffcd3e4cb4ef964c6fbdccf4382ba5d54010f90",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4005,
+      "prompt_tokens": 3210,
+      "completion_tokens": 1116,
+      "total_tokens": 4326,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T09:59:18.631611+00:00"
+}

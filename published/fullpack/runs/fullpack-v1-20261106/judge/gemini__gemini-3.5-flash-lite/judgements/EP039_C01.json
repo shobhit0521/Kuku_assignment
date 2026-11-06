@@ -1,0 +1,303 @@
+{
+  "candidate_id": "EP039_C01",
+  "episode_id": "EP039",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "d4328e251dd2a3e999956d740dddbf2662c76bc503f52bb246c773ba3df358a6",
+  "clip_start_ms": 61200,
+  "clip_end_ms": 98410,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP039_B038",
+    "EP039_B040",
+    "EP039_B039",
+    "EP039_B041"
+  ],
+  "eligible_beat_ids": [
+    "EP039_B053",
+    "EP039_B056",
+    "EP039_B058",
+    "EP039_B057",
+    "EP039_B059"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Alexander's intense declaration 'Enough hiding' paired with his scarred face and mirror reflection immediately sets up a vengeful return.",
+      "evidence": [
+        "EP039_B040",
+        "EP039_B039",
+        "EP039_B041"
+      ],
+      "issues": [],
+      "block_id": "EP039_B040",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension escalates steadily from his personal resolve in the cabin to commanding loyalist troops in the snow and marching purposefully toward his goal.",
+      "evidence": [
+        "EP039_B042",
+        "EP039_B047",
+        "EP039_B050",
+        "EP039_B058"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP039_B042",
+        "EP039_B047",
+        "EP039_B050",
+        "EP039_B058"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The final vow to bring his wife home combined with the push-in on his fierce gaze creates a strong forward pull toward his impending confrontation.",
+      "evidence": [
+        "EP039_B058",
+        "EP039_B057",
+        "EP039_B059"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP039_B058",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "What will happen when Alexander storms the chapel to take back his house and wife?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core premise is entirely self-evident: a powerful, scarred man thought to be dead is returning to reclaim his status, his estate, and his wife.",
+      "evidence": [
+        "EP039_B041",
+        "EP039_B045",
+        "EP039_B055",
+        "EP039_B058"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A scarred man named Alexander reclaims his identity as a duke after being buried for three years, ordering his men to secure a chapel as he marches to take back his house and his wife. The clip ends on his fierce vow before cutting to black.",
+      "confusions": [
+        {
+          "issue": "Who buried him and why he had to hide for three years is unexplained.",
+          "block_ids": [
+            "EP039_B041"
+          ]
+        },
+        {
+          "issue": "What happened to his wife and who currently holds his house remains unknown.",
+          "block_ids": [
+            "EP039_B055",
+            "EP039_B058"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip clearly establishes the protagonist's mission and stakes while leaving the obstacles and immediate confrontation entirely unseen.",
+      "evidence": [
+        "EP039_B041",
+        "EP039_B055",
+        "EP039_B058"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander is alive",
+        "He is a duke returning for his house and wife"
+      ],
+      "withheld": [
+        "Who usurped him",
+        "The current situation of his wife"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The transformation and confident march of the protagonist evoke a strong sense of impending justice and powerful retribution.",
+      "evidence": [
+        "EP039_B039",
+        "EP039_B045",
+        "EP039_B056",
+        "EP039_B058"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "triumph",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP039_B041",
+        "EP039_B055",
+        "EP039_B058"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP039_B040",
+        "EP039_B041"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "triumph",
+      "evidence": [
+        "EP039_B042",
+        "EP039_B056",
+        "EP039_B058"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A presumed-dead duke returns from exile to reclaim his stolen title, estate, and wife.",
+      "evidence": [
+        "EP039_B041",
+        "EP039_B055",
+        "EP039_B058"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP039_B058"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "Alexander is alive",
+      "He is a duke returning for his house and wife"
+    ],
+    "curiosity_withheld": [
+      "Who usurped him",
+      "The current situation of his wife"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A scarred duke returns from the dead to take back his empire and his wife.",
+    "supporting_block_ids": [
+      "EP039_B041",
+      "EP039_B055",
+      "EP039_B058",
+      "EP039_B040",
+      "EP039_B042",
+      "EP039_B056"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A scarred man named Alexander reclaims his identity as a duke after being buried for three years, ordering his men to secure a chapel as he marches to take back his house and his wife. The clip ends on his fierce vow before cutting to black.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who buried him and why he had to hide for three years is unexplained.\",\n      \"block_ids\": [\"K04\"]\n    },\n    {\n      \"issue\": \"What happened to his wife and who currently holds his house remains unknown.\",\n      \"block_ids\": [\"K18\", \"K20\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Alexander's intense declaration 'Enough hiding' paired with his scarred face and mirror reflection immediately sets up a vengeful return.\",\n    \"evidence\": [\"K02\", \"K03\", \"K04\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K05\", \"K10\", \"K13\", \"K20\"],\n    \"reason\": \"Tension escalates steadily from his personal resolve in the cabin to commanding loyalist troops in the snow and marching purposefully toward his goal.\",\n    \"evidence\": [\"K05\", \"K10\", \"K13\", \"K20\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K20\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What will happen when Alexander storms the chapel to take back his house and wife?\",\n    \"score\": 4,\n    \"reason\": \"The final vow to bring his wife home combined with the push-in on his fierce gaze creates a strong forward pull toward his impending confrontation.\",\n    \"evidence\": [\"K20\", \"K21\", \"K22\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core premise is entirely self-evident: a powerful, scarred man thought to be dead is returning to reclaim his status, his estate, and his wife.\",\n    \"evidence\": [\"K04\", \"K08\", \"K18\", \"K20\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"Alexander is alive\", \"He is a duke returning for his house and wife\"],\n    \"withheld\": [\"Who usurped him\", \"The current situation of his wife\"],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip clearly establishes the protagonist's mission and stakes while leaving the obstacles and immediate confrontation entirely unseen.\",\n    \"evidence\": [\"K04\", \"K18\", \"K20\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"triumph\",\n    \"score\": 4,\n    \"reason\": \"The transformation and confident march of the protagonist evoke a strong sense of impending justice and powerful retribution.\",\n    \"evidence\": [\"K03\", \"K08\", \"K19\", \"K20\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K04\", \"K18\", \"K20\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K02\", \"K04\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"triumph\",\n      \"evidence\": [\"K05\", \"K19\", \"K20\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A presumed-dead duke returns from exile to reclaim his stolen title, estate, and wife.\",\n      \"evidence\": [\"K04\", \"K18\", \"K20\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"A scarred duke returns from the dead to take back his empire and his wife.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "3de8826020f9c12633d0c3271b8a732c01f7f5d2ace1d42bb0c5869cd0ea1255",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3124,
+      "prompt_tokens": 2833,
+      "completion_tokens": 1022,
+      "total_tokens": 3855,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:06:00.180774+00:00"
+}

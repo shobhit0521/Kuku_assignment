@@ -1,0 +1,303 @@
+{
+  "candidate_id": "EP018_C03",
+  "episode_id": "EP018",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "96c8286970cfed3ac947547e623da7ba8d06cf8adf17be7199b6aa14ede15925",
+  "clip_start_ms": 20100,
+  "clip_end_ms": 68000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP018_B013",
+    "EP018_B014",
+    "EP018_B015"
+  ],
+  "eligible_beat_ids": [
+    "EP018_B035",
+    "EP018_B036",
+    "EP018_B037",
+    "EP018_B038"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Alexander bursting through a burning doorway and shouting an urgent command immediately establishes high stakes and physical danger.",
+      "evidence": [
+        "EP018_B014",
+        "EP018_B013"
+      ],
+      "issues": [],
+      "block_id": "EP018_B014",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension consistently mounts as obstacles escalate from a simple wakeup to blocked exits, a dangerous attachment to a burning book, and finally a collapsing ceiling.",
+      "evidence": [
+        "EP018_B018",
+        "EP018_B025",
+        "EP018_B032",
+        "EP018_B038"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP018_B018",
+        "EP018_B025",
+        "EP018_B032",
+        "EP018_B038"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip cuts off right as the ceiling is splitting apart and Alexander warns Juliana of the immediate life-or-death danger.",
+      "evidence": [
+        "EP018_B038",
+        "EP018_B036",
+        "EP018_B037"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP018_B038",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Will Alexander and Juliana escape the cottage before the burning ceiling completely collapses on top of them?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core situation is a straightforward life-or-death rescue from a sudden fire; prior backstory is not required to understand the immediate mortal peril.",
+      "evidence": [
+        "EP018_B014",
+        "EP018_B018",
+        "EP018_B025",
+        "EP018_B038"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A man named Alexander bursts into a burning cottage to rescue a woman named Juliana, dragging her through smoke and flames as their escape routes collapse. When Juliana desperately tries to save an antique ledger from the fire, Alexander forcefully pulls her away just as the ceiling begins to cave in.",
+      "confusions": [
+        {
+          "issue": "The significance of the herbal ledger is completely unexplained, making Juliana's desperate attempt to save it lack narrative weight.",
+          "block_ids": [
+            "EP018_B030",
+            "EP018_B032"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It delivers high-octane survival action and immediate peril while cutting off right before their fate is resolved, though the exact importance of the ledger remains a minor dangling question.",
+      "evidence": [
+        "EP018_B025",
+        "EP018_B032",
+        "EP018_B038"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander is trying to rescue Juliana from a rapidly spreading fire.",
+        "Exits are blocked and the building is structurally failing."
+      ],
+      "withheld": [
+        "Whether they successfully escape the burning building alive.",
+        "What is special about the ledger Juliana tried to save."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The combination of roaring fire sound effects, frantic dialogue, and physical struggle effectively conveys panic and life-threatening danger.",
+      "evidence": [
+        "EP018_B024",
+        "EP018_B025",
+        "EP018_B035",
+        "EP018_B038"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "fear and panic",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "danger_threat",
+      "evidence": [
+        "EP018_B013",
+        "EP018_B019",
+        "EP018_B023",
+        "EP018_B036",
+        "EP018_B038"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": null,
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "visual_event",
+      "evidence": [
+        "EP018_B013",
+        "EP018_B014"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "fear",
+      "evidence": [
+        "EP018_B025",
+        "EP018_B035",
+        "EP018_B038"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Surviving a catastrophic fire that is rapidly trapping and destroying their home.",
+      "evidence": [
+        "EP018_B023",
+        "EP018_B028",
+        "EP018_B036",
+        "EP018_B038"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP018_B038"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Why the fire started",
+      "The significance of the herbal ledger"
+    ],
+    "curiosity_revealed": [
+      "Alexander is trying to rescue Juliana from a rapidly spreading fire.",
+      "Exits are blocked and the building is structurally failing."
+    ],
+    "curiosity_withheld": [
+      "Whether they successfully escape the burning building alive.",
+      "What is special about the ledger Juliana tried to save."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "High-stakes survival action as a man desperately tries to pull a woman out of an exploding, burning building.",
+    "supporting_block_ids": [
+      "EP018_B013",
+      "EP018_B019",
+      "EP018_B023",
+      "EP018_B036",
+      "EP018_B038",
+      "EP018_B014",
+      "EP018_B025",
+      "EP018_B035",
+      "EP018_B028"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A man named Alexander bursts into a burning cottage to rescue a woman named Juliana, dragging her through smoke and flames as their escape routes collapse. When Juliana desperately tries to save an antique ledger from the fire, Alexander forcefully pulls her away just as the ceiling begins to cave in.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The significance of the herbal ledger is completely unexplained, making Juliana's desperate attempt to save it lack narrative weight.\",\n      \"block_ids\": [\"K19\", \"K21\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 4,\n    \"reason\": \"Alexander bursting through a burning doorway and shouting an urgent command immediately establishes high stakes and physical danger.\",\n    \"evidence\": [\"K02\", \"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K07\", \"K14\", \"K21\", \"K27\"],\n    \"reason\": \"Tension consistently mounts as obstacles escalate from a simple wakeup to blocked exits, a dangerous attachment to a burning book, and finally a collapsing ceiling.\",\n    \"evidence\": [\"K07\", \"K14\", \"K21\", \"K27\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K27\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Alexander and Juliana escape the cottage before the burning ceiling completely collapses on top of them?\",\n    \"score\": 4,\n    \"reason\": \"The clip cuts off right as the ceiling is splitting apart and Alexander warns Juliana of the immediate life-or-death danger.\",\n    \"evidence\": [\"K25\", \"K26\", \"K27\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core situation is a straightforward life-or-death rescue from a sudden fire; prior backstory is not required to understand the immediate mortal peril.\",\n    \"evidence\": [\"K03\", \"K07\", \"K14\", \"K27\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"Alexander is trying to rescue Juliana from a rapidly spreading fire.\", \"Exits are blocked and the building is structurally failing.\"],\n    \"withheld\": [\"Whether they successfully escape the burning building alive.\", \"What is special about the ledger Juliana tried to save.\"],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It delivers high-octane survival action and immediate peril while cutting off right before their fate is resolved, though the exact importance of the ledger remains a minor dangling question.\",\n    \"evidence\": [\"K14\", \"K21\", \"K27\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"fear and panic\",\n    \"score\": 4,\n    \"reason\": \"The combination of roaring fire sound effects, frantic dialogue, and physical struggle effectively conveys panic and life-threatening danger.\",\n    \"evidence\": [\"K13\", \"K14\", \"K24\", \"K27\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"danger_threat\",\n      \"other_label\": null,\n      \"secondary\": null,\n      \"confidence\": \"high\",\n      \"evidence\": [\"K02\", \"K08\", \"K12\", \"K25\", \"K27\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"visual_event\",\n      \"evidence\": [\"K02\", \"K03\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"fear\",\n      \"evidence\": [\"K14\", \"K24\", \"K27\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Surviving a catastrophic fire that is rapidly trapping and destroying their home.\",\n      \"evidence\": [\"K12\", \"K17\", \"K25\", \"K27\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Why the fire started\",\n        \"The significance of the herbal ledger\"\n      ]\n    },\n    \"appeal\": \"High-stakes survival action as a man desperately tries to pull a woman out of an exploding, burning building.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "698b84034d246f97f7c4f7b1f4232869ed2ce02712349508b88eb14e3220a322",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 5444,
+      "prompt_tokens": 3031,
+      "completion_tokens": 1043,
+      "total_tokens": 4074,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:56:35.767935+00:00"
+}

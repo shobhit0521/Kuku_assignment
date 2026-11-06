@@ -1,0 +1,313 @@
+{
+  "candidate_id": "EP019_C01",
+  "episode_id": "EP019",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "c05191831852de0996cf8d0713df9fd09a7a5468270b8f4df20e1ea1d3c74e9a",
+  "clip_start_ms": 44300,
+  "clip_end_ms": 88900,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP019_B028",
+    "EP019_B029",
+    "EP019_B030"
+  ],
+  "eligible_beat_ids": [
+    "EP019_B044",
+    "EP019_B045",
+    "EP019_B046",
+    "EP019_B047",
+    "EP019_B048",
+    "EP019_B049",
+    "EP019_B050"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The formal bow and immediate address of 'Your Grace' establishes a high-status protagonist and an obedient operative instantly, though it requires a beat to understand the context.",
+      "evidence": [
+        "EP019_B028",
+        "EP019_B027"
+      ],
+      "issues": [],
+      "block_id": "EP019_B028",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily as the informant details the extent of the betrayal at the estate, culminating in Alexander's lethal vow to let them keep believing he is dead until he strikes.",
+      "evidence": [
+        "EP019_B031",
+        "EP019_B037",
+        "EP019_B047",
+        "EP019_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP019_B031",
+        "EP019_B037",
+        "EP019_B047"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip ends on a resolute vow of vengeance that sets up a massive impending retaliation against the usurpers, though it serves more as a thematic button than a cliffhanger question.",
+      "evidence": [
+        "EP019_B050",
+        "EP019_B047"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP019_B050",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "How will Alexander execute his vengeance and take back Ashburg once he has the proof?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "While the core premise of a presumed-dead lord returning to reclaim his usurped estate from a traitor is clear, specific names like Lord Sterling, Lady Catherine, and Rupert lack prior context.",
+      "evidence": [
+        "EP019_B031",
+        "EP019_B033",
+        "EP019_B035"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A scarred man named Alexander returns from an apparent disappearance and learns from an informant that a usurper named Lord Sterling has taken over his estate and imprisoned his mother. Alexander decides to maintain the illusion of his death a little longer while plotting a devastating revenge.",
+      "confusions": [
+        {
+          "issue": "Unexplained backstory regarding Alexander's disappearance, his father, and Lord Sterling's rise to power.",
+          "block_ids": [
+            "EP019_B031",
+            "EP019_B033",
+            "EP019_B045"
+          ]
+        },
+        {
+          "issue": "Unclear identity of 'Lady Catherine' and her specific relationship to Alexander.",
+          "block_ids": [
+            "EP019_B035",
+            "EP019_B037"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip successfully lays out the high-stakes injustice and the protagonist's secret advantage, leaving the audience eager to see his retribution.",
+      "evidence": [
+        "EP019_B031",
+        "EP019_B047",
+        "EP019_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander is alive",
+        "Lord Sterling has usurped his estate and imprisoned his mother",
+        "Alexander plans to let them think he is dead while he gathers proof"
+      ],
+      "withheld": [
+        "What proof they are waiting for",
+        "How Alexander will reclaim his title and punish the traitors"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Alexander's clenched fists, tightened jaw, and cold fury effectively communicate deep emotional pain over his mother's imprisonment and righteous anger toward the betrayal.",
+      "evidence": [
+        "EP019_B032",
+        "EP019_B038",
+        "EP019_B043",
+        "EP019_B047"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage_injustice",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP019_B031",
+        "EP019_B043",
+        "EP019_B047",
+        "EP019_B050"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "in_medias_res",
+      "evidence": [
+        "EP019_B027",
+        "EP019_B028"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP019_B031",
+        "EP019_B037",
+        "EP019_B043",
+        "EP019_B047"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A presumed-dead lord must reclaim his usurped estate and free his imprisoned mother from a treacherous rival.",
+      "evidence": [
+        "EP019_B031",
+        "EP019_B033",
+        "EP019_B043",
+        "EP019_B045"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP019_B050"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "How Alexander disappeared",
+      "The exact relationship of Lady Catherine and Rupert to the estate"
+    ],
+    "curiosity_revealed": [
+      "Alexander is alive",
+      "Lord Sterling has usurped his estate and imprisoned his mother",
+      "Alexander plans to let them think he is dead while he gathers proof"
+    ],
+    "curiosity_withheld": [
+      "What proof they are waiting for",
+      "How Alexander will reclaim his title and punish the traitors"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A betrayed lord plays dead while plotting a brutal reckoning against the traitors who stole his home.",
+    "supporting_block_ids": [
+      "EP019_B031",
+      "EP019_B043",
+      "EP019_B047",
+      "EP019_B050",
+      "EP019_B027",
+      "EP019_B028",
+      "EP019_B037",
+      "EP019_B033",
+      "EP019_B045"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A scarred man named Alexander returns from an apparent disappearance and learns from an informant that a usurper named Lord Sterling has taken over his estate and imprisoned his mother. Alexander decides to maintain the illusion of his death a little longer while plotting a devastating revenge.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Unexplained backstory regarding Alexander's disappearance, his father, and Lord Sterling's rise to power.\",\n      \"block_ids\": [\"K05\", \"K06\", \"K19\"]\n    },\n    {\n      \"issue\": \"Unclear identity of 'Lady Catherine' and her specific relationship to Alexander.\",\n      \"block_ids\": [\"K09\", \"K11\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"The formal bow and immediate address of 'Your Grace' establishes a high-status protagonist and an obedient operative instantly, though it requires a beat to understand the context.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K05\", \"K11\", \"K21\"],\n    \"reason\": \"Tension builds steadily as the informant details the extent of the betrayal at the estate, culminating in Alexander's lethal vow to let them keep believing he is dead until he strikes.\",\n    \"evidence\": [\"K05\", \"K11\", \"K21\", \"K24\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K24\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Alexander execute his vengeance and take back Ashburg once he has the proof?\",\n    \"score\": 4,\n    \"reason\": \"The clip ends on a resolute vow of vengeance that sets up a massive impending retaliation against the usurpers, though it serves more as a thematic button than a cliffhanger question.\",\n    \"evidence\": [\"K21\", \"K24\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"While the core premise of a presumed-dead lord returning to reclaim his usurped estate from a traitor is clear, specific names like Lord Sterling, Lady Catherine, and Rupert lack prior context.\",\n    \"evidence\": [\"K05\", \"K06\", \"K09\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"Alexander is alive\", \"Lord Sterling has usurped his estate and imprisoned his mother\", \"Alexander plans to let them think he is dead while he gathers proof\"],\n    \"withheld\": [\"What proof they are waiting for\", \"How Alexander will reclaim his title and punish the traitors\"],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip successfully lays out the high-stakes injustice and the protagonist's secret advantage, leaving the audience eager to see his retribution.\",\n    \"evidence\": [\"K05\", \"K21\", \"K24\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage_injustice\",\n    \"score\": 4,\n    \"reason\": \"Alexander's clenched fists, tightened jaw, and cold fury effectively communicate deep emotional pain over his mother's imprisonment and righteous anger toward the betrayal.\",\n    \"evidence\": [\"K07\", \"K12\", \"K17\", \"K21\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K05\", \"K17\", \"K21\", \"K24\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"in_medias_res\",\n      \"evidence\": [\"K01\", \"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K05\", \"K11\", \"K17\", \"K21\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A presumed-dead lord must reclaim his usurped estate and free his imprisoned mother from a treacherous rival.\",\n      \"evidence\": [\"K05\", \"K06\", \"K17\", \"K19\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"How Alexander disappeared\",\n        \"The exact relationship of Lady Catherine and Rupert to the estate\"\n      ]\n    },\n    \"appeal\": \"A betrayed lord plays dead while plotting a brutal reckoning against the traitors who stole his home.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "dcd9e63c118a7d1029b8692cbdce5372b7c076cba6838adc9979e19f7327c7d7",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4370,
+      "prompt_tokens": 2988,
+      "completion_tokens": 1142,
+      "total_tokens": 4130,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:56:44.089636+00:00"
+}

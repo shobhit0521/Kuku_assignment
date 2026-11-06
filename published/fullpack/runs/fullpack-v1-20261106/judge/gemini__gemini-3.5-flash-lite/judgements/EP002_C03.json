@@ -1,0 +1,299 @@
+{
+  "candidate_id": "EP002_C03",
+  "episode_id": "EP002",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "3b5bb173b2fda08e67fc3f64ab0dfaf61a49c5ee3f46d965e94234750716d6bb",
+  "clip_start_ms": 47600,
+  "clip_end_ms": 82800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP002_B033",
+    "EP002_B034"
+  ],
+  "eligible_beat_ids": [
+    "EP002_B054",
+    "EP002_B055",
+    "EP002_B056",
+    "EP002_B057",
+    "EP002_B058",
+    "EP002_B059",
+    "EP002_B060"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The line starts the scene with an immediate mocking insult towards a weeping character, but lacks deep context to fully understand the stakes right away.",
+      "evidence": [
+        "EP002_B034",
+        "EP002_B033"
+      ],
+      "issues": [],
+      "block_id": "EP002_B034",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension steadily builds from passive bullying and insults by the bride and family members to Juliana's emotional breaking point and subsequent powerful retaliation.",
+      "evidence": [
+        "EP002_B038",
+        "EP002_B045",
+        "EP002_B052",
+        "EP002_B057",
+        "EP002_B059"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP002_B039",
+        "EP002_B045",
+        "EP002_B052",
+        "EP002_B057"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip cuts away on Gerald's uneasy reaction right after a devastating public accusation, leaving a strong sense of impending fallout.",
+      "evidence": [
+        "EP002_B060",
+        "EP002_B058",
+        "EP002_B059"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP002_B060",
+      "mechanism": "reaction_hold",
+      "outcome": "unresolved",
+      "open_question": "How will Gerald and the wedding guests respond to Juliana's public exposure of his greed?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic of a jilted woman standing up to her ex-groom and his new bride at a wedding is universally understood without prior episodes.",
+      "evidence": [
+        "EP002_B034",
+        "EP002_B052",
+        "EP002_B057",
+        "EP002_B059"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Juliana is publicly humiliated and mocked at a wedding by her sister Clarissa and her former groom Gerald, before suddenly shifting from tears to a defiant accusation. She stands tall and calls out Gerald for abandoning her for a wealthier woman.",
+      "confusions": [
+        {
+          "issue": "The exact relationship between Juliana, Clarissa, and Gerald is not fully explained beyond general hostility.",
+          "block_ids": [
+            "EP002_B034",
+            "EP002_B043",
+            "EP002_B052"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It satisfies the viewer with a satisfying character turn while leaving the ultimate consequence of her accusation open.",
+      "evidence": [
+        "EP002_B054",
+        "EP002_B057",
+        "EP002_B059",
+        "EP002_B060"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana was dumped by Gerald for Clarissa.",
+        "Juliana is refusing to slink away quietly and is fighting back."
+      ],
+      "withheld": [
+        "What evidence or further power Juliana holds to disrupt the wedding permanently."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The emotional swing from pathetic, teardrenched misery to a sharp, commanding public takedown is highly engaging.",
+      "evidence": [
+        "EP002_B039",
+        "EP002_B054",
+        "EP002_B057",
+        "EP002_B059"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "humiliation shifting to triumphant defiance",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP002_B034",
+        "EP002_B052",
+        "EP002_B057",
+        "EP002_B059"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP002_B034"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP002_B038",
+        "EP002_B039",
+        "EP002_B057"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Public humiliation at a high-society wedding turns into a dangerous public exposure of a disloyal groom.",
+      "evidence": [
+        "EP002_B038",
+        "EP002_B052",
+        "EP002_B057",
+        "EP002_B059"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP002_B060"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "Juliana was dumped by Gerald for Clarissa.",
+      "Juliana is refusing to slink away quietly and is fighting back."
+    ],
+    "curiosity_withheld": [
+      "What evidence or further power Juliana holds to disrupt the wedding permanently."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a humiliated jilted bride turn the tables and expose her ex-fiance in front of all wedding guests.",
+    "supporting_block_ids": [
+      "EP002_B034",
+      "EP002_B052",
+      "EP002_B057",
+      "EP002_B059",
+      "EP002_B038",
+      "EP002_B039",
+      "EP002_B060"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Juliana is publicly humiliated and mocked at a wedding by her sister Clarissa and her former groom Gerald, before suddenly shifting from tears to a defiant accusation. She stands tall and calls out Gerald for abandoning her for a wealthier woman.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact relationship between Juliana, Clarissa, and Gerald is not fully explained beyond general hostility.\",\n      \"block_ids\": [\"K02\", \"K11\", \"K20\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"The line starts the scene with an immediate mocking insult towards a weeping character, but lacks deep context to fully understand the stakes right away.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K07\",\n      \"K13\",\n      \"K20\",\n      \"K25\"\n    ],\n    \"reason\": \"Tension steadily builds from passive bullying and insults by the bride and family members to Juliana's emotional breaking point and subsequent powerful retaliation.\",\n    \"evidence\": [\n      \"K06\",\n      \"K13\",\n      \"K20\",\n      \"K25\",\n      \"K27\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K28\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Gerald and the wedding guests respond to Juliana's public exposure of his greed?\",\n    \"score\": 4,\n    \"reason\": \"The clip cuts away on Gerald's uneasy reaction right after a devastating public accusation, leaving a strong sense of impending fallout.\",\n    \"evidence\": [\n      \"K26\",\n      \"K27\",\n      \"K28\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic of a jilted woman standing up to her ex-groom and his new bride at a wedding is universally understood without prior episodes.\",\n    \"evidence\": [\n      \"K02\",\n      \"K20\",\n      \"K25\",\n      \"K27\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana was dumped by Gerald for Clarissa.\",\n      \"Juliana is refusing to slink away quietly and is fighting back.\"\n    ],\n    \"withheld\": [\n      \"What evidence or further power Juliana holds to disrupt the wedding permanently.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It satisfies the viewer with a satisfying character turn while leaving the ultimate consequence of her accusation open.\",\n    \"evidence\": [\n      \"K22\",\n      \"K25\",\n      \"K27\",\n      \"K28\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"humiliation shifting to triumphant defiance\",\n    \"score\": 4,\n    \"reason\": \"The emotional swing from pathetic, teardrenched misery to a sharp, commanding public takedown is highly engaging.\",\n    \"evidence\": [\n      \"K07\",\n      \"K22\",\n      \"K25\",\n      \"K27\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K02\",\n        \"K20\",\n        \"K25\",\n        \"K27\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\n        \"K06\",\n        \"K07\",\n        \"K25\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"Public humiliation at a high-society wedding turns into a dangerous public exposure of a disloyal groom.\",\n      \"evidence\": [\n        \"K06\",\n        \"K20\",\n        \"K25\",\n        \"K27\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"Watch a humiliated jilted bride turn the tables and expose her ex-fiance in front of all wedding guests.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "dcd0d907b535168f558144e1e4bf212e0509b1ffe142afda84fa57020f7fc490",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3972,
+      "prompt_tokens": 3154,
+      "completion_tokens": 1159,
+      "total_tokens": 4313,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T09:59:32.279901+00:00"
+}

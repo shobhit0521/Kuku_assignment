@@ -1,0 +1,289 @@
+{
+  "candidate_id": "EP027_C01",
+  "episode_id": "EP027",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "e3ff5d65ce24da0fb3b1159b0fc2bb3d042a97cb63d12102da9ce0f7b6966955",
+  "clip_start_ms": 0,
+  "clip_end_ms": 51500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP027_B001",
+    "EP027_B002",
+    "EP027_B003"
+  ],
+  "eligible_beat_ids": [
+    "EP027_B023",
+    "EP027_B024",
+    "EP027_B025",
+    "EP027_B026",
+    "EP027_B027",
+    "EP027_B028",
+    "EP027_B029"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The duchess's trembling focus on the ring and breathless line instantly establish a mystery about its origin.",
+      "evidence": [
+        "EP027_B002",
+        "EP027_B001"
+      ],
+      "issues": [],
+      "block_id": "EP027_B002",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily from the duchess's inquiry about the ring to the revelation of the Ashbourne crest, culminating in the urgent question of the husband's identity and the violent interruption.",
+      "evidence": [
+        "EP027_B004",
+        "EP027_B012",
+        "EP027_B016",
+        "EP027_B025",
+        "EP027_B028"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP027_B004",
+        "EP027_B012",
+        "EP027_B016",
+        "EP027_B025",
+        "EP027_B028"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The violent intrusion cuts off the exact moment before the husband's identity is revealed, creating an immediate, high-stakes interruption.",
+      "evidence": [
+        "EP027_B028",
+        "EP027_B026",
+        "EP027_B029"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP027_B028",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Who are the intruders, and what will happen now that the duchess is about to discover her lost son's identity?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic—a wealthy noblewoman recognizing a family heirloom on a poor maid's husband—is entirely self-contained, though the intruders' identities require future context.",
+      "evidence": [
+        "EP027_B006",
+        "EP027_B012",
+        "EP027_B016",
+        "EP027_B028"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A dying duchess notices a ring on a maid's hand and realizes it belongs to her long-lost son, suggesting the maid's humble husband is actually noble. Just as the duchess asks for the husband's name, violent pounding interrupts them as hostile aristocrats burst into the room.",
+      "confusions": [
+        {
+          "issue": "The identity and motives of the Blond Nobleman and Lady Catherine bursting in at the end are completely unknown.",
+          "block_ids": [
+            "EP027_B028"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "It clearly sets up the identity puzzle and major family secret while cutting off right before the answer is spoken.",
+      "evidence": [
+        "EP027_B012",
+        "EP027_B016",
+        "EP027_B025",
+        "EP027_B028"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The maid's husband wears a ring bearing the Ashbourne crest.",
+        "The duchess lost a son at war who wore that exact ring."
+      ],
+      "withheld": [
+        "The husband's actual name and identity.",
+        "The identity and intentions of the intruders."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The duchess's grief-stricken realization and the sudden violent interruption create a strong sense of anxious anticipation.",
+      "evidence": [
+        "EP027_B016",
+        "EP027_B026",
+        "EP027_B028"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspenseful anticipation",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "unclassified",
+      "evidence": [],
+      "note": "archetype 'mystery_relevation' is not in the taxonomy"
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "unclassified",
+      "evidence": [],
+      "note": "hook mechanism 'revealed' is not in the taxonomy"
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP027_B016",
+        "EP027_B028"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A poor maid's husband may be the duchess's long-lost aristocratic son, but hostile nobles are closing in.",
+      "evidence": [
+        "EP027_B012",
+        "EP027_B016",
+        "EP027_B028"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP027_B028"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Exact relationship between the intruders and the duchess"
+    ],
+    "curiosity_revealed": [
+      "The maid's husband wears a ring bearing the Ashbourne crest.",
+      "The duchess lost a son at war who wore that exact ring."
+    ],
+    "curiosity_withheld": [
+      "The husband's actual name and identity.",
+      "The identity and intentions of the intruders."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A dying duchess discovers her lost heir is married to a maid—just as enemies arrive to stop her.",
+    "supporting_block_ids": [
+      "EP027_B016",
+      "EP027_B028",
+      "EP027_B012"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A dying duchess notices a ring on a maid's hand and realizes it belongs to her long-lost son, suggesting the maid's humble husband is actually noble. Just as the duchess asks for the husband's name, violent pounding interrupts them as hostile aristocrats burst into the room.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The identity and motives of the Blond Nobleman and Lady Catherine bursting in at the end are completely unknown.\",\n      \"block_ids\": [\"K28\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"The duchess's trembling focus on the ring and breathless line instantly establish a mystery about its origin.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K04\",\n      \"K12\",\n      \"K16\",\n      \"K25\",\n      \"K28\"\n    ],\n    \"reason\": \"Tension builds steadily from the duchess's inquiry about the ring to the revelation of the Ashbourne crest, culminating in the urgent question of the husband's identity and the violent interruption.\",\n    \"evidence\": [\"K04\", \"K12\", \"K16\", \"K25\", \"K28\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K28\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Who are the intruders, and what will happen now that the duchess is about to discover her lost son's identity?\",\n    \"score\": 5,\n    \"reason\": \"The violent intrusion cuts off the exact moment before the husband's identity is revealed, creating an immediate, high-stakes interruption.\",\n    \"evidence\": [\"K26\", \"K28\", \"K29\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic—a wealthy noblewoman recognizing a family heirloom on a poor maid's husband—is entirely self-contained, though the intruders' identities require future context.\",\n    \"evidence\": [\"K06\", \"K12\", \"K16\", \"K28\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The maid's husband wears a ring bearing the Ashbourne crest.\",\n      \"The duchess lost a son at war who wore that exact ring.\"\n    ],\n    \"withheld\": [\n      \"The husband's actual name and identity.\",\n      \"The identity and intentions of the intruders.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"It clearly sets up the identity puzzle and major family secret while cutting off right before the answer is spoken.\",\n    \"evidence\": [\"K12\", \"K16\", \"K25\", \"K28\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspenseful anticipation\",\n    \"score\": 4,\n    \"reason\": \"The duchess's grief-stricken realization and the sudden violent interruption create a strong sense of anxious anticipation.\",\n    \"evidence\": [\"K16\", \"K26\", \"K28\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"mystery_relevation\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K12\",\n        \"K16\",\n        \"K28\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"revealed\",\n      \"evidence\": [\n        \"K02\",\n        \"K12\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\n        \"K16\",\n        \"K28\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A poor maid's husband may be the duchess's long-lost aristocratic son, but hostile nobles are closing in.\",\n      \"evidence\": [\n        \"K12\",\n        \"K16\",\n        \"K28\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Exact relationship between the intruders and the duchess\"\n      ]\n    },\n    \"appeal\": \"A dying duchess discovers her lost heir is married to a maid—just as enemies arrive to stop her.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "6bbe8a6c2497cd6fef47084673d35743927242834f6516ffc37bc4dd7cb1efad",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3913,
+      "prompt_tokens": 3199,
+      "completion_tokens": 1129,
+      "total_tokens": 4328,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:59:36.517560+00:00"
+}

@@ -1,0 +1,285 @@
+{
+  "candidate_id": "EP023_C02",
+  "episode_id": "EP023",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "9de15df1ea438d4e74bba6941b306399730445cfb065fdd3e4706735bde75db5",
+  "clip_start_ms": 40800,
+  "clip_end_ms": 88000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP023_B020",
+    "EP023_B021",
+    "EP023_B022"
+  ],
+  "eligible_beat_ids": [
+    "EP023_B039",
+    "EP023_B040",
+    "EP023_B042",
+    "EP023_B041",
+    "EP023_B043",
+    "EP023_B044",
+    "EP023_B045"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Lady Juliana firmly declaring 'This is not simply old age' provides mild medical intrigue, though it lacks an immediate high-stakes explosion or confrontation.",
+      "evidence": [
+        "EP023_B022"
+      ],
+      "issues": [],
+      "block_id": "EP023_B022",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension steadily builds from the realization of symptoms in the journal to the shocking accusation of poisoning and the final naming of the toxin.",
+      "evidence": [
+        "EP023_B026",
+        "EP023_B032",
+        "EP023_B040",
+        "EP023_B045"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP023_B026",
+        "EP023_B032",
+        "EP023_B040",
+        "EP023_B045"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "Dropping the specific poison 'Arsenic' right at the final frame leaves a chilling, definitive question open about the killer's identity.",
+      "evidence": [
+        "EP023_B045",
+        "EP023_B044"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP023_B045",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "Who is poisoning the Duchess with arsenic, and how will Juliana retaliate?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "While exact familial relationships require slight assumption, the core medical mystery and the accusation of murder are entirely self-contained.",
+      "evidence": [
+        "EP023_B040",
+        "EP023_B045"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Lady Juliana examines a worn journal by her mother's bedside and discovers evidence that her mother's failing health is not natural. She diagnoses her mother with poisoning, specifically identifying arsenic as the cause.",
+      "confusions": [
+        {
+          "issue": "The relationship between Lady Juliana, Prudence, and the bedridden Duchess is not explicitly established.",
+          "block_ids": [
+            "EP023_B031",
+            "EP023_B040"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip successfully answers what is happening to the mother while completely withholding who the murderer is.",
+      "evidence": [
+        "EP023_B040",
+        "EP023_B045"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The Duchess is being deliberately poisoned.",
+        "The specific poison is arsenic."
+      ],
+      "withheld": [
+        "Who administered the poison.",
+        "How Juliana plans to uncover or punish the culprit."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The transition from medical discovery to the cold, venomous realization of murder creates a strong sense of righteous fury.",
+      "evidence": [
+        "EP023_B040",
+        "EP023_B044",
+        "EP023_B045"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Suspicion and outrage",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "mystery_revelation",
+      "evidence": [
+        "EP023_B022",
+        "EP023_B040",
+        "EP023_B045"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP023_B022"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP023_B040",
+        "EP023_B045"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Uncovering a calculated murder within an aristocratic household before it claims a life.",
+      "evidence": [
+        "EP023_B040",
+        "EP023_B045"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP023_B045"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "The Duchess is being deliberately poisoned.",
+      "The specific poison is arsenic."
+    ],
+    "curiosity_withheld": [
+      "Who administered the poison.",
+      "How Juliana plans to uncover or punish the culprit."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A period mystery where a sharp-witted woman uncovers a deadly plot against her family.",
+    "supporting_block_ids": [
+      "EP023_B022",
+      "EP023_B040",
+      "EP023_B045"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Lady Juliana examines a worn journal by her mother's bedside and discovers evidence that her mother's failing health is not natural. She diagnoses her mother with poisoning, specifically identifying arsenic as the cause.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The relationship between Lady Juliana, Prudence, and the bedridden Duchess is not explicitly established.\",\n      \"block_ids\": [\n        \"K14\",\n        \"K22\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K04\",\n    \"score\": 3,\n    \"reason\": \"Lady Juliana firmly declaring 'This is not simply old age' provides mild medical intrigue, though it lacks an immediate high-stakes explosion or confrontation.\",\n    \"evidence\": [\n      \"K04\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K08\",\n      \"K13\",\n      \"K22\",\n      \"K27\"\n    ],\n    \"reason\": \"Tension steadily builds from the realization of symptoms in the journal to the shocking accusation of poisoning and the final naming of the toxin.\",\n    \"evidence\": [\n      \"K08\",\n      \"K13\",\n      \"K22\",\n      \"K27\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K27\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Who is poisoning the Duchess with arsenic, and how will Juliana retaliate?\",\n    \"score\": 5,\n    \"reason\": \"Dropping the specific poison 'Arsenic' right at the final frame leaves a chilling, definitive question open about the killer's identity.\",\n    \"evidence\": [\n      \"K26\",\n      \"K27\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"While exact familial relationships require slight assumption, the core medical mystery and the accusation of murder are entirely self-contained.\",\n    \"evidence\": [\n      \"K22\",\n      \"K27\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The Duchess is being deliberately poisoned.\",\n      \"The specific poison is arsenic.\"\n    ],\n    \"withheld\": [\n      \"Who administered the poison.\",\n      \"How Juliana plans to uncover or punish the culprit.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip successfully answers what is happening to the mother while completely withholding who the murderer is.\",\n    \"evidence\": [\n      \"K22\",\n      \"K27\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Suspicion and outrage\",\n    \"score\": 4,\n    \"reason\": \"The transition from medical discovery to the cold, venomous realization of murder creates a strong sense of righteous fury.\",\n    \"evidence\": [\n      \"K22\",\n      \"K26\",\n      \"K27\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"mystery_revelation\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K04\",\n        \"K22\",\n        \"K27\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K04\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\n        \"K22\",\n        \"K27\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"Uncovering a calculated murder within an aristocratic household before it claims a life.\",\n      \"evidence\": [\n        \"K22\",\n        \"K27\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"A period mystery where a sharp-witted woman uncovers a deadly plot against her family.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "b355a81292b5bf6dac3279b1909fa5b230e67e85de7c53234abd05ea0f7e0810",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3622,
+      "prompt_tokens": 3031,
+      "completion_tokens": 1044,
+      "total_tokens": 4075,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:58:00.354482+00:00"
+}

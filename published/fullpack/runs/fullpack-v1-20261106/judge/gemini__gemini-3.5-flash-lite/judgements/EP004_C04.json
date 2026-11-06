@@ -1,0 +1,299 @@
+{
+  "candidate_id": "EP004_C04",
+  "episode_id": "EP004",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "1f7d628ad3e5c70839ecbb69098ef33634ae7259ade7867d73ca91e286f259d1",
+  "clip_start_ms": 102200,
+  "clip_end_ms": 151400,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP004_B075",
+    "EP004_B076",
+    "EP004_B077",
+    "EP004_B078"
+  ],
+  "eligible_beat_ids": [
+    "EP004_B105",
+    "EP004_B106",
+    "EP004_B107",
+    "EP004_B108",
+    "EP004_B110",
+    "EP004_B109"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The man vows protection in a solemn tone, creating mild intrigue about their situation, though it lacks immediate shock value.",
+      "evidence": [
+        "EP004_B076"
+      ],
+      "issues": [],
+      "block_id": "EP004_B076",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension escalates steadily from a secret wedding vows exchange to family outrage, public disowning, and a defiant exit.",
+      "evidence": [
+        "EP004_B087",
+        "EP004_B093",
+        "EP004_B099",
+        "EP004_B109"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP004_B087",
+        "EP004_B093",
+        "EP004_B099",
+        "EP004_B109"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "The wedding and exit conclude the immediate scene, but leave open the broader consequences of her defiance and her husband's identity.",
+      "evidence": [
+        "EP004_B109"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP004_B109",
+      "mechanism": "interrupted_action",
+      "outcome": "partly_resolved",
+      "open_question": "How will Juliana survive being disowned by her powerful family, and who is her mysterious new husband really?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core conflict—a woman defying her family to marry an outsider and getting disowned—is easy to grasp without prior episodes.",
+      "evidence": [
+        "EP004_B089",
+        "EP004_B093",
+        "EP004_B099"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Juliana marries a mysterious man in a chapel despite the furious objections of her family, who promptly disown her. She and her new husband walk out together into the sunlight, leaving her relatives behind.",
+      "confusions": [
+        {
+          "issue": "The exact relationship between Gerald, Lady Ashcroft, Clarissa, and Juliana is not explicitly stated beyond familial disapproval.",
+          "block_ids": [
+            "EP004_B087",
+            "EP004_B089",
+            "EP004_B097",
+            "EP004_B099",
+            "EP004_B106"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip shows the complete dramatic act of the rebellion and disownment, while leaving the larger narrative stakes wide open.",
+      "evidence": [
+        "EP004_B080",
+        "EP004_B099",
+        "EP004_B109"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana marries a mysterious man",
+        "Her family disowns her for it",
+        "She walks away with him"
+      ],
+      "withheld": [
+        "The true identity of the bearded man",
+        "What kind of power or trouble he represents",
+        "How the family will retaliate"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Strong emotional contrast between family venom/outrage and Juliana's cold, prideful defiance.",
+      "evidence": [
+        "EP004_B093",
+        "EP004_B099",
+        "EP004_B101"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "defiance and outrage",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP004_B093",
+        "EP004_B099",
+        "EP004_B109"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "romance_devotion",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP004_B076"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP004_B089",
+        "EP004_B099"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A woman chooses a despised marriage over submission to her wealthy family, risking complete destitution and ostracization.",
+      "evidence": [
+        "EP004_B089",
+        "EP004_B093",
+        "EP004_B099"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "interrupted_action",
+      "evidence": [
+        "EP004_B109"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Exact social standing of Ashcroft Manor",
+      "The background of the mysterious bearded man"
+    ],
+    "curiosity_revealed": [
+      "Juliana marries a mysterious man",
+      "Her family disowns her for it",
+      "She walks away with him"
+    ],
+    "curiosity_withheld": [
+      "The true identity of the bearded man",
+      "What kind of power or trouble he represents",
+      "How the family will retaliate"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "She chose a penniless nobody over her family's control. Now she's disowned—and walking right into a secret power.",
+    "supporting_block_ids": [
+      "EP004_B093",
+      "EP004_B099",
+      "EP004_B109",
+      "EP004_B076",
+      "EP004_B089"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Juliana marries a mysterious man in a chapel despite the furious objections of her family, who promptly disown her. She and her new husband walk out together into the sunlight, leaving her relatives behind.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact relationship between Gerald, Lady Ashcroft, Clarissa, and Juliana is not explicitly stated beyond familial disapproval.\",\n      \"block_ids\": [\"K13\", \"K15\", \"K23\", \"K25\", \"K32\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"The man vows protection in a solemn tone, creating mild intrigue about their situation, though it lacks immediate shock value.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K13\", \"K19\", \"K25\", \"K36\"],\n    \"reason\": \"Tension escalates steadily from a secret wedding vows exchange to family outrage, public disowning, and a defiant exit.\",\n    \"evidence\": [\"K13\", \"K19\", \"K25\", \"K36\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K36\",\n    \"mechanism\": \"interrupted_action\",\n    \"outcome\": \"partly_resolved\",\n    \"open_question\": \"How will Juliana survive being disowned by her powerful family, and who is her mysterious new husband really?\",\n    \"score\": 3,\n    \"reason\": \"The wedding and exit conclude the immediate scene, but leave open the broader consequences of her defiance and her husband's identity.\",\n    \"evidence\": [\"K36\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core conflict—a woman defying her family to marry an outsider and getting disowned—is easy to grasp without prior episodes.\",\n    \"evidence\": [\"K15\", \"K19\", \"K25\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"Juliana marries a mysterious man\", \"Her family disowns her for it\", \"She walks away with him\"],\n    \"withheld\": [\"The true identity of the bearded man\", \"What kind of power or trouble he represents\", \"How the family will retaliate\"],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip shows the complete dramatic act of the rebellion and disownment, while leaving the larger narrative stakes wide open.\",\n    \"evidence\": [\"K05\", \"K25\", \"K36\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"defiance and outrage\",\n    \"score\": 4,\n    \"reason\": \"Strong emotional contrast between family venom/outrage and Juliana's cold, prideful defiance.\",\n    \"evidence\": [\"K19\", \"K25\", \"K27\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"romance_devotion\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K19\", \"K25\", \"K36\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K15\", \"K25\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A woman chooses a despised marriage over submission to her wealthy family, risking complete destitution and ostracization.\",\n      \"evidence\": [\"K15\", \"K19\", \"K25\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Exact social standing of Ashcroft Manor\",\n        \"The background of the mysterious bearded man\"\n      ]\n    },\n    \"appeal\": \"She chose a penniless nobody over her family's control. Now she's disowned—and walking right into a secret power.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "b4b4954db5f2b3fe672caa8b8d3b3a739cf3461e505f0a507664eb6c60266f19",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3470,
+      "prompt_tokens": 3422,
+      "completion_tokens": 1021,
+      "total_tokens": 4443,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:00:01.466959+00:00"
+}

@@ -9,7 +9,25 @@ import pytest
 
 import ui_fixtures as fx
 from promopilot_ui import data
-from promopilot_ui.status import selection_note
+from promopilot_ui.status import rank_reason, selection_note
+
+
+def _row(rank, score, cliff=4, hook=4, context=4):
+    return {"rank": rank, "score": score,
+            "dimension_scores": {"cliffhanger": cliff, "hook": hook, "context_independence": context}}
+
+
+def test_rank_reason_follows_the_rankings_own_sort_order():
+    rows = [_row(1, 5.0), _row(2, 4.6, cliff=5), _row(3, 4.6, cliff=4, hook=5), _row(4, 4.6, cliff=4, hook=5),
+            _row(5, 4.6, cliff=4, hook=5), _row(6, 4.2)]
+    rows[4]["dimension_scores"]["context_independence"] = 3
+    assert rank_reason(rows, 0) == "Weighted score 5.00 of 5, ahead of #2 (4.60)."
+    assert rank_reason(rows, 1) == "Weighted score 4.60 of 5, level with #3; placed above it on the cliffhanger " \
+                                   "tie-break (5 vs 4)."
+    assert rank_reason(rows, 2).endswith("level with #4 on every tie-break score; ordered by candidate ID.")
+    assert rank_reason(rows, 3).endswith("context independence tie-break (4 vs 3).")
+    assert rank_reason(rows, 5) == "Weighted score 4.20 of 5, behind #5 (4.60); last of the 6 shortlisted clips."
+    assert rank_reason(rows[:1], 0) == "Weighted score 5.00 of 5; the only clip on the shortlist."
 
 
 @pytest.fixture(scope="session")
@@ -160,6 +178,19 @@ def test_decision_newer_than_ranking_is_stale(out):
     os.utime(path, (later, later))
     rd = load(out)
     assert rd.staleness.status == "stale" and "after the ranking" in rd.staleness.reasons[0]
+
+
+def test_published_snapshot_ignores_checkout_mtimes_but_not_content(out, monkeypatch):
+    monkeypatch.setenv("PROMOPILOT_DASHBOARD_DIR", str(out))
+    path = out / "runs" / fx.RUN / "judge" / fx.V1 / "decisions" / "EP009.json"
+    later = (out / "runs" / fx.RUN / "ranking" / fx.V1 / "ranking.json").stat().st_mtime + 60
+    os.utime(path, (later, later))
+    assert load(out).staleness.status == "current"
+    rpath = out / "runs" / fx.RUN / "ranking" / fx.V1 / "ranking.json"
+    rep = json.loads(rpath.read_text("utf-8"))
+    next(r for r in rep["table"] if r["candidate_id"] == "EP009_C04")["verdict"] = "eligible"
+    rpath.write_text(json.dumps(rep), encoding="utf-8")
+    assert load(out).staleness.status == "stale"
 
 
 def test_ranking_that_disagrees_with_decisions_is_stale_even_with_newer_mtime(out):

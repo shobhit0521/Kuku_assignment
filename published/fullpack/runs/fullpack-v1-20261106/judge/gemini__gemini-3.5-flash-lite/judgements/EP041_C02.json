@@ -1,0 +1,291 @@
+{
+  "candidate_id": "EP041_C02",
+  "episode_id": "EP041",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "33a8f0d56eb3bc308749136bf9dba047492035668a110f0d5c4d833b87bebb8a",
+  "clip_start_ms": 4900,
+  "clip_end_ms": 63500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP041_B005"
+  ],
+  "eligible_beat_ids": [
+    "EP041_B031",
+    "EP041_B032",
+    "EP041_B033",
+    "EP041_B034",
+    "EP041_B035",
+    "EP041_B036"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Catherine's opening line establishes immediate public malice, but it relies on standard soap opera villain tropes rather than an instant, gripping surprise.",
+      "evidence": [
+        "EP041_B005"
+      ],
+      "issues": [],
+      "block_id": "EP041_B005",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds as the prisoner is brought in and mocked by the crowd, culminating in her sharp verbal retaliation against Catherine, though the power dynamic remains lopsided.",
+      "evidence": [
+        "EP041_B010",
+        "EP041_B013",
+        "EP041_B034"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP041_B010",
+        "EP041_B013",
+        "EP041_B034"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "Catherine's cold final remark acknowledges Juliana's unbroken spirit, leaving an open question about how the power struggle will escalate next.",
+      "evidence": [
+        "EP041_B036"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP041_B036",
+      "mechanism": "reaction_hold",
+      "outcome": "unresolved",
+      "open_question": "How will Catherine retaliate against Juliana's continued defiance?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The viewer understands that Catherine is a malicious bride/hostile figure and Juliana is a captive rival, but the specific history and stakes require prior knowledge.",
+      "evidence": [
+        "EP041_B007",
+        "EP041_B013",
+        "EP041_B034"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Catherine publicly humiliates a chained prisoner named Juliana in a grand cathedral before the gathered aristocracy. Despite her captivity and shackles, Juliana remains completely defiant and unfazed by Catherine's taunts.",
+      "confusions": [
+        {
+          "issue": "The backstory between Catherine and Juliana, and why Juliana is in prison shackles, is completely unexplained.",
+          "block_ids": [
+            "EP041_B007",
+            "EP041_B013",
+            "EP041_B014"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip clearly sets up the humiliating spectacle and the heroine's unyielding pride, leaving the viewer wanting to see how she turns the tables.",
+      "evidence": [
+        "EP041_B013",
+        "EP041_B014",
+        "EP041_B034"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Catherine is triumphant and cruel.",
+        "Juliana has been imprisoned and brought to the cathedral in chains.",
+        "Juliana refuses to be broken."
+      ],
+      "withheld": [
+        "Why Juliana was imprisoned.",
+        "What happened between them prior to this scene."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The arrogant cruelty of the aristocrats and Catherine evokes slight outrage, balanced by satisfaction at Juliana's defiant comeback.",
+      "evidence": [
+        "EP041_B023",
+        "EP041_B030",
+        "EP041_B034"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "indignation and defiance",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP041_B007",
+        "EP041_B013",
+        "EP041_B034"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP041_B005"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP041_B013",
+        "EP041_B030"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A disgraced noblewoman faces public humiliation from her rival in front of high society, risking her dignity or life.",
+      "evidence": [
+        "EP041_B007",
+        "EP041_B013",
+        "EP041_B030"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP041_B036"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "How Juliana ended up in prison shackles",
+      "The exact relationship between Catherine, Rupert, and Juliana"
+    ],
+    "curiosity_revealed": [
+      "Catherine is triumphant and cruel.",
+      "Juliana has been imprisoned and brought to the cathedral in chains.",
+      "Juliana refuses to be broken."
+    ],
+    "curiosity_withheld": [
+      "Why Juliana was imprisoned.",
+      "What happened between them prior to this scene."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a resilient captive heroine refuse to break under her rival's public humiliation.",
+    "supporting_block_ids": [
+      "EP041_B007",
+      "EP041_B013",
+      "EP041_B034",
+      "EP041_B005",
+      "EP041_B030",
+      "EP041_B036"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Catherine publicly humiliates a chained prisoner named Juliana in a grand cathedral before the gathered aristocracy. Despite her captivity and shackles, Juliana remains completely defiant and unfazed by Catherine's taunts.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The backstory between Catherine and Juliana, and why Juliana is in prison shackles, is completely unexplained.\",\n      \"block_ids\": [\"K03\", \"K10\", \"K11\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Catherine's opening line establishes immediate public malice, but it relies on standard soap opera villain tropes rather than an instant, gripping surprise.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K07\", \"K10\", \"K31\"],\n    \"reason\": \"Tension builds as the prisoner is brought in and mocked by the crowd, culminating in her sharp verbal retaliation against Catherine, though the power dynamic remains lopsided.\",\n    \"evidence\": [\"K07\", \"K10\", \"K31\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K33\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Catherine retaliate against Juliana's continued defiance?\",\n    \"score\": 3,\n    \"reason\": \"Catherine's cold final remark acknowledges Juliana's unbroken spirit, leaving an open question about how the power struggle will escalate next.\",\n    \"evidence\": [\"K33\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The viewer understands that Catherine is a malicious bride/hostile figure and Juliana is a captive rival, but the specific history and stakes require prior knowledge.\",\n    \"evidence\": [\"K03\", \"K10\", \"K31\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Catherine is triumphant and cruel.\",\n      \"Juliana has been imprisoned and brought to the cathedral in chains.\",\n      \"Juliana refuses to be broken.\"\n    ],\n    \"withheld\": [\n      \"Why Juliana was imprisoned.\",\n      \"What happened between them prior to this scene.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip clearly sets up the humiliating spectacle and the heroine's unyielding pride, leaving the viewer wanting to see how she turns the tables.\",\n    \"evidence\": [\"K10\", \"K11\", \"K31\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"indignation and defiance\",\n    \"score\": 3,\n    \"reason\": \"The arrogant cruelty of the aristocrats and Catherine evokes slight outrage, balanced by satisfaction at Juliana's defiant comeback.\",\n    \"evidence\": [\"K20\", \"K27\", \"K31\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K03\", \"K10\", \"K31\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K10\", \"K27\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A disgraced noblewoman faces public humiliation from her rival in front of high society, risking her dignity or life.\",\n      \"evidence\": [\"K03\", \"K10\", \"K27\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"How Juliana ended up in prison shackles\",\n        \"The exact relationship between Catherine, Rupert, and Juliana\"\n      ]\n    },\n    \"appeal\": \"Watch a resilient captive heroine refuse to break under her rival's public humiliation.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "12fa7e76c26b65a1f6e21d11f36d939f8c2f965ba8b9ce3f72074daade00a633",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3613,
+      "prompt_tokens": 3410,
+      "completion_tokens": 1012,
+      "total_tokens": 4422,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:06:45.844010+00:00"
+}

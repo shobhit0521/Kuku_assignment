@@ -1,0 +1,307 @@
+{
+  "candidate_id": "EP030_C02",
+  "episode_id": "EP030",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "c2847334cbb7a372cf51c9a11d4cf96f8447ac476dfc21ff6a817ebcbcd3fbed",
+  "clip_start_ms": 51000,
+  "clip_end_ms": 93400,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP030_B026",
+    "EP030_B027"
+  ],
+  "eligible_beat_ids": [
+    "EP030_B040",
+    "EP030_B042",
+    "EP030_B043",
+    "EP030_B044",
+    "EP030_B045",
+    "EP030_B046",
+    "EP030_B047"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The line establishes a sinister conspiracy immediately, though it lacks specific context on who is being targeted.",
+      "evidence": [
+        "EP030_B027"
+      ],
+      "issues": [],
+      "block_id": "EP030_B027",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "The plot to frame someone escalates from a legal charge to a capital charge of witchcraft, ending on a chilling confirmation.",
+      "evidence": [
+        "EP030_B035",
+        "EP030_B039",
+        "EP030_B043",
+        "EP030_B047"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP030_B035",
+        "EP030_B039",
+        "EP030_B043",
+        "EP030_B047"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "It lands on a cold, definitive confirmation of a deadly frame-up, though it feels more like a thematic button than an open-ended narrative question.",
+      "evidence": [
+        "EP030_B047",
+        "EP030_B046"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP030_B047",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "Will they succeed in executing their ruthless plot to frame the victim for witchcraft?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The core dynamic of a malicious plot is clear, but the identity of the target and the motive remain entirely unknown.",
+      "evidence": [
+        "EP030_B027",
+        "EP030_B031",
+        "EP030_B035"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "An elder nobleman and a woman named Catherine plot to frame someone by turning an innocent maid into an accused poisoner and witch using manipulated laws. When Rupert expresses shock that witchcraft is a capital charge, the nobleman confirms it without remorse.",
+      "confusions": [
+        {
+          "issue": "Who 'she' is and what specific past conflict or grievance exists between them is never explained.",
+          "block_ids": [
+            "EP030_B027",
+            "EP030_B031",
+            "EP030_B035",
+            "EP030_B039"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 3,
+      "valid": true,
+      "reason": "It sets up the evil scheme clearly while leaving the target and outcome unknown.",
+      "evidence": [
+        "EP030_B035",
+        "EP030_B039",
+        "EP030_B043"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The villains are planning to frame someone using fabricated evidence and false charges of witchcraft."
+      ],
+      "withheld": [
+        "Who the target is and whether they will escape the plot."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The cold calculation of the villains evokes a strong sense of injustice and malice.",
+      "evidence": [
+        "EP030_B027",
+        "EP030_B031",
+        "EP030_B043",
+        "EP030_B047"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "deception_secret_identity",
+      "evidence": [
+        "EP030_B031",
+        "EP030_B035",
+        "EP030_B039",
+        "EP030_B043"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP030_B027"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP030_B035",
+        "EP030_B039",
+        "EP030_B043",
+        "EP030_B045"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An innocent person's life is at risk as powerful nobles plot to frame them for a capital crime.",
+      "evidence": [
+        "EP030_B039",
+        "EP030_B043",
+        "EP030_B045"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP030_B047"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Identity of the target",
+      "Reason for targeting her"
+    ],
+    "curiosity_revealed": [
+      "The villains are planning to frame someone using fabricated evidence and false charges of witchcraft."
+    ],
+    "curiosity_withheld": [
+      "Who the target is and whether they will escape the plot."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch powerful aristocrats coldly plot to execute an innocent woman through fabricated witchcraft charges.",
+    "supporting_block_ids": [
+      "EP030_B031",
+      "EP030_B035",
+      "EP030_B039",
+      "EP030_B043",
+      "EP030_B027",
+      "EP030_B045",
+      "EP030_B047"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "EXCESSIVE_EXPOSITION",
+      "severity": "minor",
+      "explanation": "A large portion of the clip consists of characters explaining their elaborate plotting steps to each other.",
+      "block_ids": [
+        "EP030_B035",
+        "EP030_B039"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"An elder nobleman and a woman named Catherine plot to frame someone by turning an innocent maid into an accused poisoner and witch using manipulated laws. When Rupert expresses shock that witchcraft is a capital charge, the nobleman confirms it without remorse.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who 'she' is and what specific past conflict or grievance exists between them is never explained.\",\n      \"block_ids\": [\"K02\", \"K06\", \"K10\", \"K14\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"The line establishes a sinister conspiracy immediately, though it lacks specific context on who is being targeted.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K10\", \"K14\", \"K18\", \"K22\"],\n    \"reason\": \"The plot to frame someone escalates from a legal charge to a capital charge of witchcraft, ending on a chilling confirmation.\",\n    \"evidence\": [\"K10\", \"K14\", \"K18\", \"K22\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K22\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will they succeed in executing their ruthless plot to frame the victim for witchcraft?\",\n    \"score\": 3,\n    \"reason\": \"It lands on a cold, definitive confirmation of a deadly frame-up, though it feels more like a thematic button than an open-ended narrative question.\",\n    \"evidence\": [\"K21\", \"K22\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The core dynamic of a malicious plot is clear, but the identity of the target and the motive remain entirely unknown.\",\n    \"evidence\": [\"K02\", \"K06\", \"K10\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The villains are planning to frame someone using fabricated evidence and false charges of witchcraft.\"\n    ],\n    \"withheld\": [\n      \"Who the target is and whether they will escape the plot.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 3,\n    \"reason\": \"It sets up the evil scheme clearly while leaving the target and outcome unknown.\",\n    \"evidence\": [\"K10\", \"K14\", \"K18\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion\",\n    \"score\": 3,\n    \"reason\": \"The cold calculation of the villains evokes a strong sense of injustice and malice.\",\n    \"evidence\": [\"K02\", \"K06\", \"K18\", \"K22\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"deception_secret_identity\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K06\", \"K10\", \"K14\", \"K18\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K10\", \"K14\", \"K18\", \"K20\"]\n    },\n    \"stakes\": {\n      \"summary\": \"An innocent person's life is at risk as powerful nobles plot to frame them for a capital crime.\",\n      \"evidence\": [\"K14\", \"K18\", \"K20\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Identity of the target\",\n        \"Reason for targeting her\"\n      ]\n    },\n    \"appeal\": \"Watch powerful aristocrats coldly plot to execute an innocent woman through fabricated witchcraft charges.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"EXCESSIVE_EXPOSITION\",\n      \"severity\": \"minor\",\n      \"explanation\": \"A large portion of the clip consists of characters explaining their elaborate plotting steps to each other.\",\n      \"block_ids\": [\"K10\", \"K14\"]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "34d9473f184f8fe11cdc284ad40772e5b8f89b2acf28d8b37cba60d9dc0f6134",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3729,
+      "prompt_tokens": 2818,
+      "completion_tokens": 1059,
+      "total_tokens": 3877,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:01:01.862332+00:00"
+}

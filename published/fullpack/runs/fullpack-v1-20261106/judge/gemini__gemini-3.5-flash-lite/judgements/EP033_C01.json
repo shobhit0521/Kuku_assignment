@@ -1,0 +1,294 @@
+{
+  "candidate_id": "EP033_C01",
+  "episode_id": "EP033",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "fe422bfb0343b7d64f1bce653624247babc2aa178551676909070b24b142c35e",
+  "clip_start_ms": 64200,
+  "clip_end_ms": 111500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP033_B039",
+    "EP033_B040"
+  ],
+  "eligible_beat_ids": [
+    "EP033_B061",
+    "EP033_B062",
+    "EP033_B063",
+    "EP033_B064",
+    "EP033_B065",
+    "EP033_B066"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The Lord immediately threatens a seven-year-old child with imprisonment before sunrise, creating instant high-stakes dramatic tension.",
+      "evidence": [
+        "EP033_B040",
+        "EP033_B039"
+      ],
+      "issues": [],
+      "block_id": "EP033_B040",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension steadily escalates as the Lord psychologically corners and forces the distraught maid to corroborate his scripted narrative against her will.",
+      "evidence": [
+        "EP033_B040",
+        "EP033_B047",
+        "EP033_B058",
+        "EP033_B066"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP033_B040",
+        "EP033_B047",
+        "EP033_B058",
+        "EP033_B066"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The Lord's final manipulative question leaves the outcome of the interrogation hanging right as the maid's desperate defense is twisted against her.",
+      "evidence": [
+        "EP033_B066",
+        "EP033_B064",
+        "EP033_B065"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP033_B066",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "Will the maid fully submit to the Lord's false framing of the prayer as dark chanting, and what will happen to the child?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The power dynamic and immediate coercion are clear, but the identities of the accused woman and the child, as well as the motivation behind framing them, remain unknown.",
+      "evidence": [
+        "EP033_B043",
+        "EP033_B050",
+        "EP033_B062"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A ruthless Lord coerces a terrified, weeping maid into falsely incriminating someone by feeding her answers about rituals and chanting involving a young child. The clip ends with the Lord smugly trapping her interpretation of events.",
+      "confusions": [
+        {
+          "issue": "Who is the seven-year-old boy and who is the woman ('she') being accused of performing rituals?",
+          "block_ids": [
+            "EP033_B043",
+            "EP033_B050",
+            "EP033_B062"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip clearly establishes the vile coercion and stakes while leaving the broader conspiracy and final outcome completely unknown.",
+      "evidence": [
+        "EP033_B040",
+        "EP033_B043",
+        "EP033_B066"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The Lord is blackmailing the maid using a seven-year-old child to fabricate evidence of witchcraft or forbidden rituals."
+      ],
+      "withheld": [
+        "Who the accused woman is, what the ultimate goal of the Lord's frame-up is, and whether the maid will completely break."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The helpless despair of the maid combined with the cold, calculated cruelty of the Lord successfully elicits strong feelings of injustice and sympathy.",
+      "evidence": [
+        "EP033_B041",
+        "EP033_B043",
+        "EP033_B046",
+        "EP033_B047"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Outrage and sympathy",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP033_B040",
+        "EP033_B050",
+        "EP033_B058",
+        "EP033_B066"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "deception_secret_identity",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "threat",
+      "evidence": [
+        "EP033_B040"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP033_B040",
+        "EP033_B043",
+        "EP033_B047"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A young child's freedom and an innocent woman's fate hang on whether a terrified maid can resist a powerful Lord's extortion.",
+      "evidence": [
+        "EP033_B040",
+        "EP033_B043",
+        "EP033_B066"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP033_B066"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Identity of the woman and child",
+      "The background of the conflict between the Lord and the accused"
+    ],
+    "curiosity_revealed": [
+      "The Lord is blackmailing the maid using a seven-year-old child to fabricate evidence of witchcraft or forbidden rituals."
+    ],
+    "curiosity_withheld": [
+      "Who the accused woman is, what the ultimate goal of the Lord's frame-up is, and whether the maid will completely break."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a ruthless Lord mentally torture a terrified maid into framing an innocent woman to save a child.",
+    "supporting_block_ids": [
+      "EP033_B040",
+      "EP033_B050",
+      "EP033_B058",
+      "EP033_B066",
+      "EP033_B043",
+      "EP033_B047"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A ruthless Lord coerces a terrified, weeping maid into falsely incriminating someone by feeding her answers about rituals and chanting involving a young child. The clip ends with the Lord smugly trapping her interpretation of events.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who is the seven-year-old boy and who is the woman ('she') being accused of performing rituals?\",\n      \"block_ids\": [\"K05\", \"K12\", \"K24\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"The Lord immediately threatens a seven-year-old child with imprisonment before sunrise, creating instant high-stakes dramatic tension.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K02\", \"K09\", \"K20\", \"K28\"],\n    \"reason\": \"Tension steadily escalates as the Lord psychologically corners and forces the distraught maid to corroborate his scripted narrative against her will.\",\n    \"evidence\": [\"K02\", \"K09\", \"K20\", \"K28\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K28\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will the maid fully submit to the Lord's false framing of the prayer as dark chanting, and what will happen to the child?\",\n    \"score\": 4,\n    \"reason\": \"The Lord's final manipulative question leaves the outcome of the interrogation hanging right as the maid's desperate defense is twisted against her.\",\n    \"evidence\": [\"K26\", \"K27\", \"K28\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The power dynamic and immediate coercion are clear, but the identities of the accused woman and the child, as well as the motivation behind framing them, remain unknown.\",\n    \"evidence\": [\"K05\", \"K12\", \"K24\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The Lord is blackmailing the maid using a seven-year-old child to fabricate evidence of witchcraft or forbidden rituals.\"\n    ],\n    \"withheld\": [\n      \"Who the accused woman is, what the ultimate goal of the Lord's frame-up is, and whether the maid will completely break.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip clearly establishes the vile coercion and stakes while leaving the broader conspiracy and final outcome completely unknown.\",\n    \"evidence\": [\"K02\", \"K05\", \"K28\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Outrage and sympathy\",\n    \"score\": 4,\n    \"reason\": \"The helpless despair of the maid combined with the cold, calculated cruelty of the Lord successfully elicits strong feelings of injustice and sympathy.\",\n    \"evidence\": [\"K03\", \"K05\", \"K08\", \"K09\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"deception_secret_identity\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K02\", \"K12\", \"K20\", \"K28\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"threat\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K02\", \"K05\", \"K09\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A young child's freedom and an innocent woman's fate hang on whether a terrified maid can resist a powerful Lord's extortion.\",\n      \"evidence\": [\"K02\", \"K05\", \"K28\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Identity of the woman and child\",\n        \"The background of the conflict between the Lord and the accused\"\n      ]\n    },\n    \"appeal\": \"Watch a ruthless Lord mentally torture a terrified maid into framing an innocent woman to save a child.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "5b61dd4f0e0b6358fc59926692d10d522206bc81fd1bec733e050303568af3cf",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3641,
+      "prompt_tokens": 2991,
+      "completion_tokens": 1067,
+      "total_tokens": 4058,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:02:46.924644+00:00"
+}

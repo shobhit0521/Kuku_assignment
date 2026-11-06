@@ -1,0 +1,305 @@
+{
+  "candidate_id": "EP019_C02",
+  "episode_id": "EP019",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "382ad9a073f519b6aabc393f931c575db663f664eae9d95515823d84eded3b05",
+  "clip_start_ms": 97400,
+  "clip_end_ms": 119630,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP019_B055",
+    "EP019_B056",
+    "EP019_B057"
+  ],
+  "eligible_beat_ids": [
+    "EP019_B062",
+    "EP019_B063"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "An emotional declaration of total loss opens the clip, providing mild intrigue though lacking specific stakes.",
+      "evidence": [
+        "EP019_B055"
+      ],
+      "issues": [],
+      "block_id": "EP019_B055",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 2,
+      "valid": true,
+      "reason": "Tension shifts smoothly from utter despair to emotional comfort and a spark of resilience, but lacks high-stakes dramatic pressure.",
+      "evidence": [
+        "EP019_B057",
+        "EP019_B059",
+        "EP019_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP019_B057",
+        "EP019_B059"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 2,
+      "valid": true,
+      "reason": "The final shot provides a tender, settling moment with a hint of future conflict in Alexander's gaze, but lacks an urgent open question.",
+      "evidence": [
+        "EP019_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP019_B063",
+      "mechanism": "reaction_hold",
+      "outcome": "partly_resolved",
+      "open_question": "How will Alexander reclaim what was stolen and what challenges await them?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The characters' relationship and current predicament of destitution are clear, but the backstory of what they lost or who stole it is missing.",
+      "evidence": [
+        "EP019_B055",
+        "EP019_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Juliana weeps after losing everything in a disaster, expressing despair over their future. Alexander comforts her with a blanket and words of reassurance, leading to a tender moment of shared resolve in an abandoned barn.",
+      "confusions": [
+        {
+          "issue": "The nature of what was lost or stolen is completely unmentioned beyond 'everything'.",
+          "block_ids": [
+            "EP019_B055",
+            "EP019_B063"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 3,
+      "valid": true,
+      "reason": "It establishes the emotional dynamic and sets up a revenge/recovery arc, but lacks a sharp hook or urgent question.",
+      "evidence": [
+        "EP019_B055",
+        "EP019_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana and Alexander have lost everything.",
+        "Alexander is fiercely protective and determined to rebuild."
+      ],
+      "withheld": [
+        "What disaster caused their loss",
+        "Who stole from them and how they plan to recover"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's despair followed by Alexander's comforting presence evokes empathy and a warm romantic/supportive tone.",
+      "evidence": [
+        "EP019_B053",
+        "EP019_B056",
+        "EP019_B059"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "sympathy and emotional warmth",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "romance_devotion",
+      "evidence": [
+        "EP019_B059",
+        "EP019_B062",
+        "EP019_B063"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "reversal",
+    "archetype_confidence": "medium",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP019_B055"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP019_B053",
+        "EP019_B056",
+        "EP019_B057"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Reclaiming everything that was stolen after losing their livelihood.",
+      "evidence": [
+        "EP019_B063"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP019_B063"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "What was stolen",
+      "Who stole it"
+    ],
+    "curiosity_revealed": [
+      "Juliana and Alexander have lost everything.",
+      "Alexander is fiercely protective and determined to rebuild."
+    ],
+    "curiosity_withheld": [
+      "What disaster caused their loss",
+      "Who stole from them and how they plan to recover"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "When you lose everything, true devotion helps you find the strength to begin again.",
+    "supporting_block_ids": [
+      "EP019_B059",
+      "EP019_B062",
+      "EP019_B063",
+      "EP019_B055",
+      "EP019_B053",
+      "EP019_B056",
+      "EP019_B057"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "RESOLVED_ENDING",
+      "severity": "minor",
+      "explanation": "The clip ends on a calm, comforting embrace rather than an unresolved cliffhanger.",
+      "block_ids": [
+        "EP019_B062",
+        "EP019_B063"
+      ],
+      "source": "judge"
+    },
+    {
+      "code": "LOW_TENSION",
+      "severity": "minor",
+      "explanation": "The scene focuses on emotional recovery rather than active conflict or escalating danger.",
+      "block_ids": [
+        "EP019_B058",
+        "EP019_B059",
+        "EP019_B062"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Juliana weeps after losing everything in a disaster, expressing despair over their future. Alexander comforts her with a blanket and words of reassurance, leading to a tender moment of shared resolve in an abandoned barn.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The nature of what was lost or stolen is completely unmentioned beyond 'everything'.\",\n      \"block_ids\": [\"K03\", \"K11\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 3,\n    \"reason\": \"An emotional declaration of total loss opens the clip, providing mild intrigue though lacking specific stakes.\",\n    \"evidence\": [\"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 2,\n    \"escalation_beats\": [\"K05\", \"K07\"],\n    \"reason\": \"Tension shifts smoothly from utter despair to emotional comfort and a spark of resilience, but lacks high-stakes dramatic pressure.\",\n    \"evidence\": [\"K05\", \"K07\", \"K11\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K11\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"partly_resolved\",\n    \"open_question\": \"How will Alexander reclaim what was stolen and what challenges await them?\",\n    \"score\": 2,\n    \"reason\": \"The final shot provides a tender, settling moment with a hint of future conflict in Alexander's gaze, but lacks an urgent open question.\",\n    \"evidence\": [\"K11\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The characters' relationship and current predicament of destitution are clear, but the backstory of what they lost or who stole it is missing.\",\n    \"evidence\": [\"K03\", \"K11\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana and Alexander have lost everything.\",\n      \"Alexander is fiercely protective and determined to rebuild.\"\n    ],\n    \"withheld\": [\n      \"What disaster caused their loss\",\n      \"Who stole from them and how they plan to recover\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 3,\n    \"reason\": \"It establishes the emotional dynamic and sets up a revenge/recovery arc, but lacks a sharp hook or urgent question.\",\n    \"evidence\": [\"K03\", \"K11\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"sympathy and emotional warmth\",\n    \"score\": 3,\n    \"reason\": \"Juliana's despair followed by Alexander's comforting presence evokes empathy and a warm romantic/supportive tone.\",\n    \"evidence\": [\"K01\", \"K04\", \"K07\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"romance_devotion\",\n      \"other_label\": null,\n      \"secondary\": \"reversal\",\n      \"confidence\": \"medium\",\n      \"evidence\": [\"K07\", \"K10\", \"K11\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K03\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\"K01\", \"K04\", \"K05\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Reclaiming everything that was stolen after losing their livelihood.\",\n      \"evidence\": [\"K11\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"What was stolen\",\n        \"Who stole it\"\n      ]\n    },\n    \"appeal\": \"When you lose everything, true devotion helps you find the strength to begin again.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"RESOLVED_ENDING\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The clip ends on a calm, comforting embrace rather than an unresolved cliffhanger.\",\n      \"block_ids\": [\"K10\", \"K11\"]\n    },\n    {\n      \"code\": \"LOW_TENSION\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The scene focuses on emotional recovery rather than active conflict or escalating danger.\",\n      \"block_ids\": [\"K06\", \"K07\", \"K10\"]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "1cebb85ed75ca4f6bf35c2b9dfada3b6a1320947ac3254a119a26fd463b9b19b",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3642,
+      "prompt_tokens": 2344,
+      "completion_tokens": 1062,
+      "total_tokens": 3406,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:56:51.728470+00:00"
+}

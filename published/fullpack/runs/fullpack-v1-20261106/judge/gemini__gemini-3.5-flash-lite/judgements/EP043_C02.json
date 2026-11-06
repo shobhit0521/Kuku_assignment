@@ -1,0 +1,300 @@
+{
+  "candidate_id": "EP043_C02",
+  "episode_id": "EP043",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "9a0b7d1027aada0414dbf7d85adc0c9fb929149cef4d0df1cdce30c30e57d4a3",
+  "clip_start_ms": 57000,
+  "clip_end_ms": 114960,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP043_B047",
+    "EP043_B048",
+    "EP043_B049"
+  ],
+  "eligible_beat_ids": [
+    "EP043_B083",
+    "EP043_B084",
+    "EP043_B085",
+    "EP043_B086",
+    "EP043_B087"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Alexander's cold demand to 'Read the names' immediately sets up a public confrontation and shaming.",
+      "evidence": [
+        "EP043_B048",
+        "EP043_B047"
+      ],
+      "issues": [],
+      "block_id": "EP043_B048",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension steadily escalates from the public reading of names to the exposure of treason, panic, and an attempted escape that gets blocked.",
+      "evidence": [
+        "EP043_B050",
+        "EP043_B057",
+        "EP043_B072",
+        "EP043_B080",
+        "EP043_B085",
+        "EP043_B087"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP043_B050",
+        "EP043_B057",
+        "EP043_B072",
+        "EP043_B080",
+        "EP043_B085"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The cut lands squarely on the trapped villain's terrified face as his escape is intercepted, leaving his immediate reckoning hanging.",
+      "evidence": [
+        "EP043_B087",
+        "EP043_B085",
+        "EP043_B086"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP043_B087",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "How will Lord Sterling escape or face justice now that his exit is blocked?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core conflict—a wronged, presumed-dead man returning to expose corrupt nobles who stole his life—is easy to grasp without prior episodes.",
+      "evidence": [
+        "EP043_B057",
+        "EP043_B064",
+        "EP043_B070",
+        "EP043_B072"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A presumed-dead lord named Alexander returns to a cathedral to publicly expose the nobles who betrayed him and stole his title. As his conspirators panic and try to flee, they find all escape routes blocked by the authorities.",
+      "confusions": [
+        {
+          "issue": "Exact pre-existing relationships and military betrayal details are implied but not fully explained.",
+          "block_ids": [
+            "EP043_B057",
+            "EP043_B061",
+            "EP043_B064"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip delivers a satisfying sequence of public exposure while leaving the ultimate reckoning and fallout open.",
+      "evidence": [
+        "EP043_B057",
+        "EP043_B072",
+        "EP043_B087"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander is alive",
+        "Rupert and Lord Sterling conspired against him and took his title",
+        "The conspiracy is being publicly laid bare"
+      ],
+      "withheld": [
+        "What specific punishment Alexander will inflict",
+        "How deep the conspiracy goes with other guests"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Watching corrupt conspirators squirm and panic as their crimes are exposed creates a strong sense of poetic justice.",
+      "evidence": [
+        "EP043_B053",
+        "EP043_B058",
+        "EP043_B073",
+        "EP043_B087"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage and vindication",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP043_B048",
+        "EP043_B057",
+        "EP043_B064",
+        "EP043_B072",
+        "EP043_B087"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP043_B048"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP043_B057",
+        "EP043_B072"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A betrayed noble returns from the dead to reclaim his stolen title and exact vengeance on the conspirators.",
+      "evidence": [
+        "EP043_B057",
+        "EP043_B064",
+        "EP043_B072"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP043_B087"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "Alexander is alive",
+      "Rupert and Lord Sterling conspired against him and took his title",
+      "The conspiracy is being publicly laid bare"
+    ],
+    "curiosity_withheld": [
+      "What specific punishment Alexander will inflict",
+      "How deep the conspiracy goes with other guests"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a presumed-dead lord return to expose and destroy the traitors who stole his title.",
+    "supporting_block_ids": [
+      "EP043_B048",
+      "EP043_B057",
+      "EP043_B064",
+      "EP043_B072",
+      "EP043_B087"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A presumed-dead lord named Alexander returns to a cathedral to publicly expose the nobles who betrayed him and stole his title. As his conspirators panic and try to flee, they find all escape routes blocked by the authorities.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Exact pre-existing relationships and military betrayal details are implied but not fully explained.\",\n      \"block_ids\": [\"K11\", \"K15\", \"K18\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Alexander's cold demand to 'Read the names' immediately sets up a public confrontation and shaming.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K04\", \"K11\", \"K26\", \"K34\", \"K39\"],\n    \"reason\": \"Tension steadily escalates from the public reading of names to the exposure of treason, panic, and an attempted escape that gets blocked.\",\n    \"evidence\": [\"K04\", \"K11\", \"K26\", \"K34\", \"K39\", \"K41\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K41\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Lord Sterling escape or face justice now that his exit is blocked?\",\n    \"score\": 4,\n    \"reason\": \"The cut lands squarely on the trapped villain's terrified face as his escape is intercepted, leaving his immediate reckoning hanging.\",\n    \"evidence\": [\"K39\", \"K40\", \"K41\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core conflict—a wronged, presumed-dead man returning to expose corrupt nobles who stole his life—is easy to grasp without prior episodes.\",\n    \"evidence\": [\"K11\", \"K18\", \"K24\", \"K26\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"Alexander is alive\", \"Rupert and Lord Sterling conspired against him and took his title\", \"The conspiracy is being publicly laid bare\"],\n    \"withheld\": [\"What specific punishment Alexander will inflict\", \"How deep the conspiracy goes with other guests\"],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip delivers a satisfying sequence of public exposure while leaving the ultimate reckoning and fallout open.\",\n    \"evidence\": [\"K11\", \"K26\", \"K41\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage and vindication\",\n    \"score\": 4,\n    \"reason\": \"Watching corrupt conspirators squirm and panic as their crimes are exposed creates a strong sense of poetic justice.\",\n    \"evidence\": [\"K07\", \"K12\", \"K27\", \"K41\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K02\", \"K11\", \"K18\", \"K26\", \"K41\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K11\", \"K26\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A betrayed noble returns from the dead to reclaim his stolen title and exact vengeance on the conspirators.\",\n      \"evidence\": [\"K11\", \"K18\", \"K26\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"Watch a presumed-dead lord return to expose and destroy the traitors who stole his title.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "dcbd358f5a912dfbf75cba9627395fcf5528e26acd2a6e016c23d87eeac67ebb",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3731,
+      "prompt_tokens": 3614,
+      "completion_tokens": 1008,
+      "total_tokens": 4622,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:07:30.377508+00:00"
+}

@@ -1,0 +1,317 @@
+{
+  "candidate_id": "EP004_C03",
+  "episode_id": "EP004",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "015a561f3263a6f7afafb986367a070aaff085b02b6474edb448bbefd3928451",
+  "clip_start_ms": 52800,
+  "clip_end_ms": 94500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP004_B039",
+    "EP004_B040",
+    "EP004_B041"
+  ],
+  "eligible_beat_ids": [
+    "EP004_B064",
+    "EP004_B065",
+    "EP004_B066",
+    "EP004_B067",
+    "EP004_B068"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana's defiant rejection of pity and her ring immediately establishes high emotional stakes and pride under pressure.",
+      "evidence": [
+        "EP004_B040",
+        "EP004_B039"
+      ],
+      "issues": [],
+      "block_id": "EP004_B040",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds through the progressive commitment of the marriage, moving from rejection of pity to the mysterious vow, the acceptance, and the priest's final hesitant agreement.",
+      "evidence": [
+        "EP004_B040",
+        "EP004_B042",
+        "EP004_B054",
+        "EP004_B063",
+        "EP004_B068"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP004_B040",
+        "EP004_B042",
+        "EP004_B054",
+        "EP004_B063",
+        "EP004_B068"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "The priest's resigned agreement to proceed moves the ceremony forward, leaving the viewer wondering about the consequences of this union.",
+      "evidence": [
+        "EP004_B068",
+        "EP004_B067"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP004_B068",
+      "mechanism": "interrupted_action",
+      "outcome": "partly_resolved",
+      "open_question": "What happens now that the unconventional wedding ceremony is officially proceeding despite everyone's shock?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core situation—a proud woman making a desperate or defiant marriage pact in front of a hostile family and a hesitant priest—is easy to grasp without prior episodes.",
+      "evidence": [
+        "EP004_B040",
+        "EP004_B042",
+        "EP004_B049",
+        "EP004_B054",
+        "EP004_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A rejected noblewoman named Juliana defiantly accepts a mysterious scarred man's vow of marriage at an altar in front of her cold family. Despite the priest's hesitation, she firmly proceeds with the ceremony.",
+      "confusions": [
+        {
+          "issue": "The relationship between Juliana and her seated family (Lady Ashcroft, Clarissa, and Lord Ashcroft) is implied as estranged or cold, but the specific reason for their rejection is unstated.",
+          "block_ids": [
+            "EP004_B049",
+            "EP004_B051",
+            "EP004_B064"
+          ]
+        },
+        {
+          "issue": "The identity and background of the Mysterious Bearded Man are entirely unknown.",
+          "block_ids": [
+            "EP004_B043",
+            "EP004_B044",
+            "EP004_B046",
+            "EP004_B048"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip sets up a compelling romantic/dramatic alliance while withholding the identities and the fallout of the wedding.",
+      "evidence": [
+        "EP004_B046",
+        "EP004_B048",
+        "EP004_B049",
+        "EP004_B068"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is marrying a mysterious stranger out of defiance or desperation",
+        "her family is watching coldly",
+        "the priest is reluctant"
+      ],
+      "withheld": [
+        "who the bearded man is",
+        "why Juliana's family turned away from her",
+        "what the consequences of this marriage will be"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana's transition from heartbreak and pride to a firm, resolute acceptance creates a strong emotional resonance.",
+      "evidence": [
+        "EP004_B040",
+        "EP004_B042",
+        "EP004_B054",
+        "EP004_B066"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "defiant resolve",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "romance_devotion",
+      "evidence": [
+        "EP004_B046",
+        "EP004_B054",
+        "EP004_B057",
+        "EP004_B059"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP004_B040"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP004_B040",
+        "EP004_B042",
+        "EP004_B049"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A proud, rejected woman weds a mysterious stranger to spite her cold family and reclaim her dignity.",
+      "evidence": [
+        "EP004_B040",
+        "EP004_B042",
+        "EP004_B049",
+        "EP004_B054"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "interrupted_action",
+      "evidence": [
+        "EP004_B068"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Exact backstory of family estrangement"
+    ],
+    "curiosity_revealed": [
+      "Juliana is marrying a mysterious stranger out of defiance or desperation",
+      "her family is watching coldly",
+      "the priest is reluctant"
+    ],
+    "curiosity_withheld": [
+      "who the bearded man is",
+      "why Juliana's family turned away from her",
+      "what the consequences of this marriage will be"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Rejected by her family, a proud noblewoman defies them all by marrying a mysterious, scarred stranger.",
+    "supporting_block_ids": [
+      "EP004_B046",
+      "EP004_B054",
+      "EP004_B057",
+      "EP004_B059",
+      "EP004_B040",
+      "EP004_B042",
+      "EP004_B049",
+      "EP004_B068"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A rejected noblewoman named Juliana defiantly accepts a mysterious scarred man's vow of marriage at an altar in front of her cold family. Despite the priest's hesitation, she firmly proceeds with the ceremony.\",\n  \"confusions\": [\n    {\"issue\": \"The relationship between Juliana and her seated family (Lady Ashcroft, Clarissa, and Lord Ashcroft) is implied as estranged or cold, but the specific reason for their rejection is unstated.\", \"block_ids\": [\"K11\", \"K13\", \"K26\"]},\n    {\"issue\": \"The identity and background of the Mysterious Bearded Man are entirely unknown.\", \"block_ids\": [\"K05\", \"K06\", \"K08\", \"K10\"]}\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Juliana's defiant rejection of pity and her ring immediately establishes high emotional stakes and pride under pressure.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K02\", \"K04\", \"K16\", \"K24\", \"K30\"],\n    \"reason\": \"Tension builds through the progressive commitment of the marriage, moving from rejection of pity to the mysterious vow, the acceptance, and the priest's final hesitant agreement.\",\n    \"evidence\": [\"K02\", \"K04\", \"K16\", \"K24\", \"K30\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K30\",\n    \"mechanism\": \"interrupted_action\",\n    \"outcome\": \"partly_resolved\",\n    \"open_question\": \"What happens now that the unconventional wedding ceremony is officially proceeding despite everyone's shock?\",\n    \"score\": 3,\n    \"reason\": \"The priest's resigned agreement to proceed moves the ceremony forward, leaving the viewer wondering about the consequences of this union.\",\n    \"evidence\": [\"K29\", \"K30\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core situation—a proud woman making a desperate or defiant marriage pact in front of a hostile family and a hesitant priest—is easy to grasp without prior episodes.\",\n    \"evidence\": [\"K02\", \"K04\", \"K11\", \"K16\", \"K24\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"Juliana is marrying a mysterious stranger out of defiance or desperation\", \"her family is watching coldly\", \"the priest is reluctant\"],\n    \"withheld\": [\"who the bearded man is\", \"why Juliana's family turned away from her\", \"what the consequences of this marriage will be\"],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip sets up a compelling romantic/dramatic alliance while withholding the identities and the fallout of the wedding.\",\n    \"evidence\": [\"K08\", \"K10\", \"K11\", \"K30\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"defiant resolve\",\n    \"score\": 4,\n    \"reason\": \"Juliana's transition from heartbreak and pride to a firm, resolute acceptance creates a strong emotional resonance.\",\n    \"evidence\": [\"K02\", \"K04\", \"K16\", \"K28\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"romance_devotion\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K08\", \"K16\", \"K19\", \"K21\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\"K02\", \"K04\", \"K11\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A proud, rejected woman weds a mysterious stranger to spite her cold family and reclaim her dignity.\",\n      \"evidence\": [\"K02\", \"K04\", \"K11\", \"K16\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\"Exact backstory of family estrangement\"]\n    },\n    \"appeal\": \"Rejected by her family, a proud noblewoman defies them all by marrying a mysterious, scarred stranger.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "e3069a2ab15a219e69356113e99d72d34bbc023f4ee5c91e5f5e74e878ece92d",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3761,
+      "prompt_tokens": 3108,
+      "completion_tokens": 1102,
+      "total_tokens": 4210,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:00:01.451432+00:00"
+}

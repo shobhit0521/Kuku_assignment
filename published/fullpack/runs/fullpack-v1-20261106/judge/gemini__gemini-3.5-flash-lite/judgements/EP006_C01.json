@@ -1,0 +1,313 @@
+{
+  "candidate_id": "EP006_C01",
+  "episode_id": "EP006",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "013a8c7acfb050226ace4caa6e5c1b81a8124b94ffc905df3aec8d9098fb9e76",
+  "clip_start_ms": 30100,
+  "clip_end_ms": 73200,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP006_B028",
+    "EP006_B029",
+    "EP006_B030"
+  ],
+  "eligible_beat_ids": [
+    "EP006_B057",
+    "EP006_B058",
+    "EP006_B059",
+    "EP006_B060",
+    "EP006_B061",
+    "EP006_B062",
+    "EP006_B063",
+    "EP006_B064"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's defiant line establishes a contrast between her past humiliation and her current escape, offering mild intrigue.",
+      "evidence": [
+        "EP006_B029"
+      ],
+      "issues": [],
+      "block_id": "EP006_B029",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 2,
+      "valid": true,
+      "reason": "The clip maintains a quiet, low-stakes atmosphere that only briefly hints at emotional distress near the very end.",
+      "evidence": [
+        "EP006_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP006_B063"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 2,
+      "valid": true,
+      "reason": "The final line reveals her emotional vulnerability, but it functions more as a character beat than a sharp narrative cliffhanger.",
+      "evidence": [
+        "EP006_B063",
+        "EP006_B064"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP006_B063",
+      "mechanism": "unanswered_question",
+      "outcome": "resolved",
+      "open_question": "What exactly did she lose, and how will they cope in this cabin?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The viewer can easily understand that a woman has left comfort to live with a man in a cabin, but her backstory, bridal attire, and the source of her loss remain unexplained.",
+      "evidence": [
+        "EP006_B040",
+        "EP006_B043",
+        "EP006_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Juliana leaves behind a life of comfort to escape humiliation, arriving at a barren woodland cabin with a mysterious bearded man. Despite the stark conditions and her hidden grief, she accepts her new life and starts cleaning to keep her painful thoughts at bay.",
+      "confusions": [
+        {
+          "issue": "What specific humiliation Juliana is escaping from and why she is wearing a bridal dress in the woods.",
+          "block_ids": [
+            "EP006_B029",
+            "EP006_B043"
+          ]
+        },
+        {
+          "issue": "The true identity of the Mysterious Bearded Man and his relationship to Juliana.",
+          "block_ids": [
+            "EP006_B030",
+            "EP006_B037"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 2,
+      "valid": true,
+      "reason": "The clip is gentle and atmospheric, but lacks a sharp conflict or mystery to compel a viewer to find out what happens next.",
+      "evidence": [
+        "EP006_B043",
+        "EP006_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is willing to leave comfort behind to live humbly with the man.",
+        "She uses work to distract herself from immense grief."
+      ],
+      "withheld": [
+        "What Juliana lost.",
+        "Who the man is and why she is in a bridal gown."
+      ],
+      "balance": "too_little",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's quiet resilience and final vulnerable admission create a mild sense of sympathy.",
+      "evidence": [
+        "EP006_B050",
+        "EP006_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "melancholic acceptance",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "vulnerability",
+      "evidence": [
+        "EP006_B041",
+        "EP006_B063"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "romance_devotion",
+    "archetype_confidence": "medium",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP006_B029"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP006_B029",
+        "EP006_B063"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Adjusting to a drastically reduced standard of living while coping with deep personal loss.",
+      "evidence": [
+        "EP006_B040",
+        "EP006_B041",
+        "EP006_B063"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP006_B063"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Why Juliana was facing humiliation",
+      "The history between Juliana and the mysterious man"
+    ],
+    "curiosity_revealed": [
+      "Juliana is willing to leave comfort behind to live humbly with the man.",
+      "She uses work to distract herself from immense grief."
+    ],
+    "curiosity_withheld": [
+      "What Juliana lost.",
+      "Who the man is and why she is in a bridal gown."
+    ],
+    "curiosity_balance": "too_little",
+    "appeal": "A disgraced bride finds unexpected solace and humble romance in a rustic cabin.",
+    "supporting_block_ids": [
+      "EP006_B041",
+      "EP006_B063",
+      "EP006_B029",
+      "EP006_B040"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "LOW_TENSION",
+      "severity": "minor",
+      "explanation": "The clip consists mostly of quiet domestic interactions and lacks active conflict or rising tension.",
+      "block_ids": [
+        "EP006_B038",
+        "EP006_B045",
+        "EP006_B057"
+      ],
+      "source": "judge"
+    },
+    {
+      "code": "WEAK_CLIFFHANGER",
+      "severity": "minor",
+      "explanation": "Ending on a soft emotional confession does not create a strong, plot-driven question for the viewer.",
+      "block_ids": [
+        "EP006_B063",
+        "EP006_B064"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Juliana leaves behind a life of comfort to escape humiliation, arriving at a barren woodland cabin with a mysterious bearded man. Despite the stark conditions and her hidden grief, she accepts her new life and starts cleaning to keep her painful thoughts at bay.\",\n  \"confusions\": [\n    {\n      \"issue\": \"What specific humiliation Juliana is escaping from and why she is wearing a bridal dress in the woods.\",\n      \"block_ids\": [\"K03\", \"K17\"]\n    },\n    {\n      \"issue\": \"The true identity of the Mysterious Bearded Man and his relationship to Juliana.\",\n      \"block_ids\": [\"K04\", \"K11\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 3,\n    \"reason\": \"Juliana's defiant line establishes a contrast between her past humiliation and her current escape, offering mild intrigue.\",\n    \"evidence\": [\"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 2,\n    \"escalation_beats\": [\"K37\"],\n    \"reason\": \"The clip maintains a quiet, low-stakes atmosphere that only briefly hints at emotional distress near the very end.\",\n    \"evidence\": [\"K37\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K37\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"resolved\",\n    \"open_question\": \"What exactly did she lose, and how will they cope in this cabin?\",\n    \"score\": 2,\n    \"reason\": \"The final line reveals her emotional vulnerability, but it functions more as a character beat than a sharp narrative cliffhanger.\",\n    \"evidence\": [\"K37\", \"K38\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The viewer can easily understand that a woman has left comfort to live with a man in a cabin, but her backstory, bridal attire, and the source of her loss remain unexplained.\",\n    \"evidence\": [\"K14\", \"K17\", \"K37\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"Juliana is willing to leave comfort behind to live humbly with the man.\", \"She uses work to distract herself from immense grief.\"],\n    \"withheld\": [\"What Juliana lost.\", \"Who the man is and why she is in a bridal gown.\"],\n    \"balance\": \"too_little\",\n    \"score\": 2,\n    \"reason\": \"The clip is gentle and atmospheric, but lacks a sharp conflict or mystery to compel a viewer to find out what happens next.\",\n    \"evidence\": [\"K17\", \"K37\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"melancholic acceptance\",\n    \"score\": 3,\n    \"reason\": \"Juliana's quiet resilience and final vulnerable admission create a mild sense of sympathy.\",\n    \"evidence\": [\"K24\", \"K37\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"vulnerability\",\n      \"other_label\": null,\n      \"secondary\": \"romance_devotion\",\n      \"confidence\": \"medium\",\n      \"evidence\": [\"K15\", \"K37\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K03\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\"K03\", \"K37\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Adjusting to a drastically reduced standard of living while coping with deep personal loss.\",\n      \"evidence\": [\"K14\", \"K15\", \"K37\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Why Juliana was facing humiliation\",\n        \"The history between Juliana and the mysterious man\"\n      ]\n    },\n    \"appeal\": \"A disgraced bride finds unexpected solace and humble romance in a rustic cabin.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"LOW_TENSION\",\n      \"severity\": \"minor\",\n    \"explanation\": \"The clip consists mostly of quiet domestic interactions and lacks active conflict or rising tension.\",\n    \"block_ids\": [\"K12\", \"K19\", \"K31\"]\n  },\n  {\n    \"code\": \"WEAK_CLIFFHANGER\",\n    \"severity\": \"minor\",\n    \"explanation\": \"Ending on a soft emotional confession does not create a strong, plot-driven question for the viewer.\",\n    \"block_ids\": [\"K37\", \"K38\"]\n  }\n]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "c15618cddfc796e7434dc84f1b46be473249b3002194a406ee704f1288ac7414",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4050,
+      "prompt_tokens": 3554,
+      "completion_tokens": 1122,
+      "total_tokens": 4676,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:00:23.548681+00:00"
+}

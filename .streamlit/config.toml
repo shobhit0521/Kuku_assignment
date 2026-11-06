@@ -1,11 +1,10 @@
-# Local-only: the screenplay pack is confidential. Do not deploy this app to any public host.
+# `python -m promopilot_ui` binds to localhost with telemetry off (see promopilot_ui/__main__.py). No server
+# address is fixed here so the same app can run on a hosting service, which sets its own address.
 [server]
-address = "localhost"
 headless = true
 runOnSave = false
 
 [browser]
-serverAddress = "localhost"
 gatherUsageStats = false
 
 [client]

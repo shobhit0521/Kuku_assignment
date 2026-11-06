@@ -1,0 +1,305 @@
+{
+  "candidate_id": "EP034_C02",
+  "episode_id": "EP034",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "82c1d07ea889d7480dd3ea537e6afab2f7c1f0ab57c513e42d78d8a5c3c60998",
+  "clip_start_ms": 142200,
+  "clip_end_ms": 190000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP034_B090",
+    "EP034_B091"
+  ],
+  "eligible_beat_ids": [
+    "EP034_B112",
+    "EP034_B113",
+    "EP034_B114",
+    "EP034_B115",
+    "EP034_B116"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The judge instantly presents a high-stakes ultimatum demanding the defendant renounce her practices to save herself.",
+      "evidence": [
+        "EP034_B091"
+      ],
+      "issues": [],
+      "block_id": "EP034_B091",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension steadily escalates from initial defiance through a passionate speech defending healing against fearful powers, culminating in the judge rising to deliver a formal sentence.",
+      "evidence": [
+        "EP034_B094",
+        "EP034_B102",
+        "EP034_B106",
+        "EP034_B114",
+        "EP034_B116"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP034_B094",
+        "EP034_B102",
+        "EP034_B106",
+        "EP034_B114",
+        "EP034_B116"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip cuts off right as the judge raises his hand to pronounce the final sentence, leaving her ultimate fate hanging.",
+      "evidence": [
+        "EP034_B116",
+        "EP034_B115"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP034_B116",
+      "mechanism": "pending_decision",
+      "outcome": "unresolved",
+      "open_question": "What is the final sentence or punishment handed down to Lady Juliana Ashcroft?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core conflict—a proud woman standing trial for witchcraft who refuses to recant—is entirely clear on its own, even if the backstory of the healing grimoire is unknown.",
+      "evidence": [
+        "EP034_B091",
+        "EP034_B094",
+        "EP034_B100",
+        "EP034_B106",
+        "EP034_B114"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Lady Juliana stands trial before a stern judge on accusations of witchcraft involving healing practices. Refusing to renounce her actions or show fear, she faces imminent sentencing as the judge raises his hand to deliver the final verdict.",
+      "confusions": [
+        {
+          "issue": "What specific healing practices are being judged as witchcraft is not explained.",
+          "block_ids": [
+            "EP034_B091",
+            "EP034_B100",
+            "EP034_B106"
+          ]
+        },
+        {
+          "issue": "The relationship between Lady Juliana and the weeping woman named Prudence is unstated.",
+          "block_ids": [
+            "EP034_B103",
+            "EP034_B104"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip establishes strong character resolve and narrative stakes while cutting off right before the verdict is spoken.",
+      "evidence": [
+        "EP034_B102",
+        "EP034_B106",
+        "EP034_B116"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Lady Juliana's defiance against the witchcraft charges",
+        "Her refusal to back down despite the judge's warnings"
+      ],
+      "withheld": [
+        "The exact penalty or sentence the judge is about to pronounce",
+        "The outcome of the trial"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Lady Juliana's unyielding stance against oppressive authority paired with Prudence's grief evokes strong sympathy and admiration for the accused.",
+      "evidence": [
+        "EP034_B094",
+        "EP034_B102",
+        "EP034_B104",
+        "EP034_B106"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Defiance and injustice",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP034_B091",
+        "EP034_B100",
+        "EP034_B106",
+        "EP034_B114"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP034_B091"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP034_B100",
+        "EP034_B106",
+        "EP034_B114"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A woman stands trial for witchcraft, facing severe punishment for defending healing practices against fearful authorities.",
+      "evidence": [
+        "EP034_B091",
+        "EP034_B100",
+        "EP034_B106",
+        "EP034_B114"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "pending_decision",
+      "evidence": [
+        "EP034_B116"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Specific nature of the healing practices"
+    ],
+    "curiosity_revealed": [
+      "Lady Juliana's defiance against the witchcraft charges",
+      "Her refusal to back down despite the judge's warnings"
+    ],
+    "curiosity_withheld": [
+      "The exact penalty or sentence the judge is about to pronounce",
+      "The outcome of the trial"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a fearless woman defy a corrupt court and risk everything for what is right.",
+    "supporting_block_ids": [
+      "EP034_B091",
+      "EP034_B100",
+      "EP034_B106",
+      "EP034_B114",
+      "EP034_B116"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Lady Juliana stands trial before a stern judge on accusations of witchcraft involving healing practices. Refusing to renounce her actions or show fear, she faces imminent sentencing as the judge raises his hand to deliver the final verdict.\",\n  \"confusions\": [\n    {\n      \"issue\": \"What specific healing practices are being judged as witchcraft is not explained.\",\n      \"block_ids\": [\n        \"K02\",\n        \"K11\",\n        \"K17\"\n      ]\n    },\n    {\n      \"issue\": \"The relationship between Lady Juliana and the weeping woman named Prudence is unstated.\",\n      \"block_ids\": [\n        \"K14\",\n        \"K15\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"The judge instantly presents a high-stakes ultimatum demanding the defendant renounce her practices to save herself.\",\n    \"evidence\": [\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K05\",\n      \"K13\",\n      \"K17\",\n      \"K25\",\n      \"K27\"\n    ],\n    \"reason\": \"Tension steadily escalates from initial defiance through a passionate speech defending healing against fearful powers, culminating in the judge rising to deliver a formal sentence.\",\n    \"evidence\": [\n      \"K05\",\n      \"K13\",\n      \"K17\",\n      \"K25\",\n      \"K27\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K27\",\n    \"mechanism\": \"pending_decision\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What is the final sentence or punishment handed down to Lady Juliana Ashcroft?\",\n    \"score\": 4,\n    \"reason\": \"The clip cuts off right as the judge raises his hand to pronounce the final sentence, leaving her ultimate fate hanging.\",\n    \"evidence\": [\n      \"K26\",\n      \"K27\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core conflict—a proud woman standing trial for witchcraft who refuses to recant—is entirely clear on its own, even if the backstory of the healing grimoire is unknown.\",\n    \"evidence\": [\n      \"K02\",\n      \"K05\",\n      \"K11\",\n      \"K17\",\n      \"K25\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Lady Juliana's defiance against the witchcraft charges\",\n      \"Her refusal to back down despite the judge's warnings\"\n    ],\n    \"withheld\": [\n      \"The exact penalty or sentence the judge is about to pronounce\",\n      \"The outcome of the trial\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip establishes strong character resolve and narrative stakes while cutting off right before the verdict is spoken.\",\n    \"evidence\": [\n      \"K13\",\n      \"K17\",\n      \"K27\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Defiance and injustice\",\n    \"score\": 4,\n    \"reason\": \"Lady Juliana's unyielding stance against oppressive authority paired with Prudence's grief evokes strong sympathy and admiration for the accused.\",\n    \"evidence\": [\n      \"K05\",\n      \"K13\",\n      \"K15\",\n      \"K17\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K02\",\n        \"K11\",\n        \"K17\",\n        \"K25\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\n        \"K11\",\n        \"K17\",\n        \"K25\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A woman stands trial for witchcraft, facing severe punishment for defending healing practices against fearful authorities.\",\n      \"evidence\": [\n        \"K02\",\n        \"K11\",\n        \"K17\",\n        \"K25\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Specific nature of the healing practices\"\n      ]\n    },\n    \"appeal\": \"Watch a fearless woman defy a corrupt court and risk everything for what is right.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "1bf6e81e8f434ef868634ae781ddc92f9aa82611321b3288c51702831f588db9",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3894,
+      "prompt_tokens": 3026,
+      "completion_tokens": 1215,
+      "total_tokens": 4241,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:03:23.268177+00:00"
+}

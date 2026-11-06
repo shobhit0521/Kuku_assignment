@@ -1,0 +1,320 @@
+{
+  "candidate_id": "EP014_C03",
+  "episode_id": "EP014",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "a5289ffe9d8e49776fdb86b8b2830c8d415bede75abd5758ce373b8e9697cbc6",
+  "clip_start_ms": 23000,
+  "clip_end_ms": 54000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP014_B016",
+    "EP014_B017",
+    "EP014_B018"
+  ],
+  "eligible_beat_ids": [
+    "EP014_B028",
+    "EP014_B029",
+    "EP014_B030",
+    "EP014_B031",
+    "EP014_B032",
+    "EP014_B033",
+    "EP014_B034"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The line expresses immediate sorrow and concern over wounds, but lacks specific context to make a stranger fully understand the stakes right away.",
+      "evidence": [
+        "EP014_B017",
+        "EP014_B016"
+      ],
+      "issues": [],
+      "block_id": "EP014_B017",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 2,
+      "valid": true,
+      "reason": "The clip transitions smoothly from a rescue to a tender tending of wounds, but emotional melodrama replaces rising narrative conflict.",
+      "evidence": [
+        "EP014_B023",
+        "EP014_B029",
+        "EP014_B034"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP014_B022",
+        "EP014_B029",
+        "EP014_B034"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 2,
+      "valid": true,
+      "reason": "It ends on an emotional sentiment rather than an open plot question or impending threat, acting more as a romantic button.",
+      "evidence": [
+        "EP014_B034",
+        "EP014_B033"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP014_B034",
+      "mechanism": "reaction_hold",
+      "outcome": "partly_resolved",
+      "open_question": "What extreme sacrifices did Juliana make for Alexander, and will their sanctuary hold against whoever hurt her?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 2,
+      "valid": true,
+      "reason": "A stranger can see that Alexander is rescuing Juliana, but why she was tortured, who 'they' are, and what Alexander's role is remain completely unknown.",
+      "evidence": [
+        "EP014_B019",
+        "EP014_B024"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A man named Alexander rescues a severely injured and bleeding woman named Juliana, carrying her away from a hostile estate. He takes her to a secluded cottage to tend to her wounds, where she expresses devotion despite her pain.",
+      "confusions": [
+        {
+          "issue": "Who 'they' are that inflicted Juliana's wounds and what they were promised is entirely unexplained.",
+          "block_ids": [
+            "EP014_B019"
+          ]
+        },
+        {
+          "issue": "Why Juliana had to bleed for Alexander and the nature of their past relationship or debt is unclear.",
+          "block_ids": [
+            "EP014_B024"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 2,
+      "valid": true,
+      "reason": "The clip focuses entirely on emotional and romantic healing rather than leaving a compelling narrative mystery or hook for new viewers.",
+      "evidence": [
+        "EP014_B019",
+        "EP014_B024",
+        "EP014_B034"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander deeply cares for Juliana and rescues her",
+        "Juliana suffered severe injuries to her hands for Alexander's sake"
+      ],
+      "withheld": [
+        "Who harmed Juliana",
+        "What the broader conflict or power struggle is"
+      ],
+      "balance": "too_little",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The dialogue and close-ups convey deep mutual care and suffering, though it relies heavily on melodramatic styling.",
+      "evidence": [
+        "EP014_B017",
+        "EP014_B024",
+        "EP014_B032",
+        "EP014_B034"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Devotion and sorrow",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "romance_devotion",
+      "evidence": [
+        "EP014_B024",
+        "EP014_B029",
+        "EP014_B034"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "vulnerability",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP014_B017"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "longing_romance",
+      "evidence": [
+        "EP014_B024",
+        "EP014_B034"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Surviving severe physical punishment and remaining loyal to each other despite powerful enemies.",
+      "evidence": [
+        "EP014_B019",
+        "EP014_B024",
+        "EP014_B032"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP014_B034"
+      ],
+      "note": null
+    },
+    "context_dependency": "high",
+    "missing_context": [
+      "Identity of antagonists",
+      "Reason for Juliana's torture",
+      "Backstory of Alexander and Juliana"
+    ],
+    "curiosity_revealed": [
+      "Alexander deeply cares for Juliana and rescues her",
+      "Juliana suffered severe injuries to her hands for Alexander's sake"
+    ],
+    "curiosity_withheld": [
+      "Who harmed Juliana",
+      "What the broader conflict or power struggle is"
+    ],
+    "curiosity_balance": "too_little",
+    "appeal": "Witness a fierce, protective romance where a woman suffers physical pain just to keep her loved one safe.",
+    "supporting_block_ids": [
+      "EP014_B024",
+      "EP014_B029",
+      "EP014_B034",
+      "EP014_B017",
+      "EP014_B019",
+      "EP014_B032"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "LOW_TENSION",
+      "severity": "minor",
+      "explanation": "The clip transitions quickly from a tense rescue into a calm, quiet scene of bandaging wounds, flattening the dramatic momentum before the cut.",
+      "block_ids": [
+        "EP014_B028",
+        "EP014_B029",
+        "EP014_B030"
+      ],
+      "source": "judge"
+    },
+    {
+      "code": "RESOLVED_ENDING",
+      "severity": "major",
+      "explanation": "The final beat is a tender romantic affirmation ('But I didn't lose you') rather than an unresolved cliffhanger or dangerous threat.",
+      "block_ids": [
+        "EP014_B034"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A man named Alexander rescues a severely injured and bleeding woman named Juliana, carrying her away from a hostile estate. He takes her to a secluded cottage to tend to her wounds, where she expresses devotion despite her pain.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who 'they' are that inflicted Juliana's wounds and what they were promised is entirely unexplained.\",\n      \"block_ids\": [\"K04\"]\n    },\n    {\n      \"issue\": \"Why Juliana had to bleed for Alexander and the nature of their past relationship or debt is unclear.\",\n      \"block_ids\": [\"K09\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"The line expresses immediate sorrow and concern over wounds, but lacks specific context to make a stranger fully understand the stakes right away.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 2,\n    \"escalation_beats\": [\"K07\", \"K14\", \"K19\"],\n    \"reason\": \"The clip transitions smoothly from a rescue to a tender tending of wounds, but emotional melodrama replaces rising narrative conflict.\",\n    \"evidence\": [\"K08\", \"K14\", \"K19\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K19\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"partly_resolved\",\n    \"open_question\": \"What extreme sacrifices did Juliana make for Alexander, and will their sanctuary hold against whoever hurt her?\",\n    \"score\": 2,\n    \"reason\": \"It ends on an emotional sentiment rather than an open plot question or impending threat, acting more as a romantic button.\",\n    \"evidence\": [\"K18\", \"K19\"]\n  },\n  \"context_independence\": {\n    \"score\": 2,\n    \"reason\": \"A stranger can see that Alexander is rescuing Juliana, but why she was tortured, who 'they' are, and what Alexander's role is remain completely unknown.\",\n    \"evidence\": [\"K04\", \"K09\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Alexander deeply cares for Juliana and rescues her\",\n      \"Juliana suffered severe injuries to her hands for Alexander's sake\"\n    ],\n    \"withheld\": [\n      \"Who harmed Juliana\",\n      \"What the broader conflict or power struggle is\"\n    ],\n    \"balance\": \"too_little\",\n    \"score\": 2,\n    \"reason\": \"The clip focuses entirely on emotional and romantic healing rather than leaving a compelling narrative mystery or hook for new viewers.\",\n    \"evidence\": [\"K04\", \"K09\", \"K19\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Devotion and sorrow\",\n    \"score\": 3,\n    \"reason\": \"The dialogue and close-ups convey deep mutual care and suffering, though it relies heavily on melodramatic styling.\",\n    \"evidence\": [\"K02\", \"K09\", \"K17\", \"K19\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"romance_devotion\",\n      \"other_label\": null,\n      \"secondary\": \"vulnerability\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K09\", \"K14\", \"K19\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"longing_romance\",\n      \"evidence\": [\"K09\", \"K19\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Surviving severe physical punishment and remaining loyal to each other despite powerful enemies.\",\n      \"evidence\": [\"K04\", \"K09\", \"K17\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"high\",\n      \"missing_context\": [\n        \"Identity of antagonists\",\n        \"Reason for Juliana's torture\",\n        \"Backstory of Alexander and Juliana\"\n      ]\n    },\n    \"appeal\": \"Witness a fierce, protective romance where a woman suffers physical pain just to keep her loved one safe.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"LOW_TENSION\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The clip transitions quickly from a tense rescue into a calm, quiet scene of bandaging wounds, flattening the dramatic momentum before the cut.\",\n      \"block_ids\": [\"K13\", \"K14\", \"K15\"]\n    },\n    {\n      \"code\": \"RESOLVED_ENDING\",\n      \"severity\": \"major\",\n      \"explanation\": \"The final beat is a tender romantic affirmation ('But I didn't lose you') rather than an unresolved cliffhanger or dangerous threat.\",\n      \"block_ids\": [\"K19\"]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "38f98c4bec3a09ff22bd71d8b2463312239fca197f0ece2333a19c184d9fb30c",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4488,
+      "prompt_tokens": 2720,
+      "completion_tokens": 1188,
+      "total_tokens": 3908,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:55:15.470413+00:00"
+}

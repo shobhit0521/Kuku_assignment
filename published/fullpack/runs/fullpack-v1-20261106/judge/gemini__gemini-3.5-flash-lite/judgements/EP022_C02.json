@@ -1,0 +1,298 @@
+{
+  "candidate_id": "EP022_C02",
+  "episode_id": "EP022",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "b3058d27479fa87eb87ebe9eb572b66a11942c5b24b674e8e9d11161cfd888c6",
+  "clip_start_ms": 43000,
+  "clip_end_ms": 88000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP022_B024",
+    "EP022_B025",
+    "EP022_B026",
+    "EP022_B028",
+    "EP022_B027"
+  ],
+  "eligible_beat_ids": [
+    "EP022_B048",
+    "EP022_B049",
+    "EP022_B050",
+    "EP022_B051",
+    "EP022_B052",
+    "EP022_B053",
+    "EP022_B054"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The sharp, sudden call out 'Prudence' immediately establishes a tense power dynamic and captures attention.",
+      "evidence": [
+        "EP022_B024",
+        "EP022_B026"
+      ],
+      "issues": [],
+      "block_id": "EP022_B024",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily as the housekeeper interrogates and sizes up the disguised noblewoman, culminating in her dangerous mission to find the West Wing.",
+      "evidence": [
+        "EP022_B030",
+        "EP022_B043",
+        "EP022_B052",
+        "EP022_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP022_B030",
+        "EP022_B043",
+        "EP022_B052"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The warning that few servants go there establishes a forbidden objective right as the clip cuts off.",
+      "evidence": [
+        "EP022_B054",
+        "EP022_B052"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP022_B054",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "What is in the West Wing, and why is Lady Juliana risking everything to go where servants aren't allowed?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "Viewers understand the immediate conflict (surviving the interview), but the larger backstory of why Lady Juliana is undercover remains a mystery.",
+      "evidence": [
+        "EP022_B028",
+        "EP022_B052"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A noblewoman disguised as a maid enters a manor and undergoes a harsh interrogation by the head housekeeper. After passing the test, she immediately asks for directions to the restricted West Wing.",
+      "confusions": [
+        {
+          "issue": "Why Lady Juliana is disguised as a servant and infiltrating the manor is completely unexplained.",
+          "block_ids": [
+            "EP022_B028",
+            "EP022_B033",
+            "EP022_B052"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It sets up a clear undercover mission with immediate stakes while hiding the ultimate goal.",
+      "evidence": [
+        "EP022_B028",
+        "EP022_B052",
+        "EP022_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Lady Juliana is hiding her identity to work as a servant in Ashbury Manor",
+        "The housekeeper is strict and suspicious of new help"
+      ],
+      "withheld": [
+        "Why a lady of high status is doing servant labor",
+        "What is hidden in the West Wing"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "Creates a steady sense of undercover peril and caution.",
+      "evidence": [
+        "EP022_B043",
+        "EP022_B050",
+        "EP022_B051",
+        "EP022_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspense",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "deception_secret_identity",
+      "evidence": [
+        "EP022_B028",
+        "EP022_B043",
+        "EP022_B052"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP022_B024",
+        "EP022_B026"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP022_B030",
+        "EP022_B043"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A noblewoman must fool a ruthless housekeeper to sneak into a forbidden part of the manor.",
+      "evidence": [
+        "EP022_B028",
+        "EP022_B043",
+        "EP022_B054"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP022_B054"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Why Lady Juliana needs to infiltrate this specific manor"
+    ],
+    "curiosity_revealed": [
+      "Lady Juliana is hiding her identity to work as a servant in Ashbury Manor",
+      "The housekeeper is strict and suspicious of new help"
+    ],
+    "curiosity_withheld": [
+      "Why a lady of high status is doing servant labor",
+      "What is hidden in the West Wing"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "An undercover noblewoman bluffs her way past a strict housekeeper to infiltrate a forbidden wing.",
+    "supporting_block_ids": [
+      "EP022_B028",
+      "EP022_B043",
+      "EP022_B052",
+      "EP022_B024",
+      "EP022_B026",
+      "EP022_B030",
+      "EP022_B054"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A noblewoman disguised as a maid enters a manor and undergoes a harsh interrogation by the head housekeeper. After passing the test, she immediately asks for directions to the restricted West Wing.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Why Lady Juliana is disguised as a servant and infiltrating the manor is completely unexplained.\",\n      \"block_ids\": [\"K04\", \"K09\", \"K29\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K01\",\n    \"score\": 4,\n    \"reason\": \"The sharp, sudden call out 'Prudence' immediately establishes a tense power dynamic and captures attention.\",\n    \"evidence\": [\"K01\", \"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K07\", \"K20\", \"K29\"],\n    \"reason\": \"Tension builds steadily as the housekeeper interrogates and sizes up the disguised noblewoman, culminating in her dangerous mission to find the West Wing.\",\n    \"evidence\": [\"K07\", \"K20\", \"K29\", \"K31\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K31\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What is in the West Wing, and why is Lady Juliana risking everything to go where servants aren't allowed?\",\n    \"score\": 4,\n    \"reason\": \"The warning that few servants go there establishes a forbidden objective right as the clip cuts off.\",\n    \"evidence\": [\"K29\", \"K31\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"Viewers understand the immediate conflict (surviving the interview), but the larger backstory of why Lady Juliana is undercover remains a mystery.\",\n    \"evidence\": [\"K04\", \"K29\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Lady Juliana is hiding her identity to work as a servant in Ashbury Manor\",\n      \"The housekeeper is strict and suspicious of new help\"\n    ],\n    \"withheld\": [\n      \"Why a lady of high status is doing servant labor\",\n      \"What is hidden in the West Wing\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It sets up a clear undercover mission with immediate stakes while hiding the ultimate goal.\",\n    \"evidence\": [\"K04\", \"K29\", \"K31\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspense\",\n    \"score\": 3,\n    \"reason\": \"Creates a steady sense of undercover peril and caution.\",\n    \"evidence\": [\"K20\", \"K27\", \"K28\", \"K31\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"deception_secret_identity\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K04\", \"K20\", \"K29\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K01\", \"K03\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\"K07\", \"K20\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A noblewoman must fool a ruthless housekeeper to sneak into a forbidden part of the manor.\",\n      \"evidence\": [\"K04\", \"K20\", \"K31\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Why Lady Juliana needs to infiltrate this specific manor\"\n      ]\n    },\n    \"appeal\": \"An undercover noblewoman bluffs her way past a strict housekeeper to infiltrate a forbidden wing.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "32b05d2b45eee908c59fce889517b3957ab10db575a460696b8e276a3b98017f",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3703,
+      "prompt_tokens": 3207,
+      "completion_tokens": 972,
+      "total_tokens": 4179,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:57:45.070087+00:00"
+}

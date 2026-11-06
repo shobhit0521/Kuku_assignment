@@ -1,0 +1,307 @@
+{
+  "candidate_id": "EP009_C03",
+  "episode_id": "EP009",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "24e8f89c9b07e957ddc7c20609c2ece47ea3e0a54ff47208c2f47c745c5d444f",
+  "clip_start_ms": 52500,
+  "clip_end_ms": 83800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP009_B041",
+    "EP009_B042",
+    "EP009_B043",
+    "EP009_B044"
+  ],
+  "eligible_beat_ids": [
+    "EP009_B058",
+    "EP009_B059",
+    "EP009_B060",
+    "EP009_B061",
+    "EP009_B062",
+    "EP009_B063",
+    "EP009_B064",
+    "EP009_B065"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The mother's desperate question opens with mild intrigue about a failing treatment, though it lacks high-stakes urgency.",
+      "evidence": [
+        "EP009_B042",
+        "EP009_B041"
+      ],
+      "issues": [],
+      "block_id": "EP009_B042",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension shifts smoothly from the medical crisis of the child to a social/political conflict between Juliana and Alexander over the risks of being noticed.",
+      "evidence": [
+        "EP009_B047",
+        "EP009_B050",
+        "EP009_B059",
+        "EP009_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP009_B047",
+        "EP009_B050",
+        "EP009_B059",
+        "EP009_B063"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "It offers an emotionally resolute romantic/partnership button rather than an open question of high suspense.",
+      "evidence": [
+        "EP009_B065",
+        "EP009_B064"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP009_B065",
+      "mechanism": "pending_decision",
+      "outcome": "partly_resolved",
+      "open_question": "How will they face the looming danger from the village together?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core situation (healing a child, secret identity or hidden presence risk) is easy to follow, though the exact danger remains undefined.",
+      "evidence": [
+        "EP009_B047",
+        "EP009_B050",
+        "EP009_B059"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A healer named Juliana successfully cures a sick peasant child, earning the mother's immense gratitude. Afterward, a companion named Alexander warns her that attracting too much attention from the village is dangerous, but Juliana remains steadfast.",
+      "confusions": [
+        {
+          "issue": "Who Alexander is and why village attention is specifically dangerous to them is unstated.",
+          "block_ids": [
+            "EP009_B059",
+            "EP009_B063"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 3,
+      "valid": true,
+      "reason": "It gives a complete micro-narrative of saving the child while opening a new character conflict about safety, but the stakes of the danger remain vague.",
+      "evidence": [
+        "EP009_B052",
+        "EP009_B059",
+        "EP009_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is a skilled herbalist/healer who saved a child.",
+        "Alexander is worried about exposure to the village."
+      ],
+      "withheld": [
+        "Why village attention is dangerous to them.",
+        "What specific threat they are hiding from."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The transition from the mother's despair to relief creates a tender emotional beat, followed by resolute loyalty.",
+      "evidence": [
+        "EP009_B047",
+        "EP009_B050",
+        "EP009_B065"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "relief and protective warmth",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "other",
+      "evidence": [
+        "EP009_B059",
+        "EP009_B063",
+        "EP009_B065"
+      ],
+      "note": null
+    },
+    "archetype_other_label": "hidden identity / protective caution",
+    "archetype_secondary": "romance_devotion",
+    "archetype_confidence": "medium",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP009_B042"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP009_B059",
+        "EP009_B063"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A healer's choice to save a life threatens to expose them to a dangerous village.",
+      "evidence": [
+        "EP009_B056",
+        "EP009_B059",
+        "EP009_B063"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "pending_decision",
+      "evidence": [
+        "EP009_B065"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Why the village knowing about Juliana is dangerous."
+    ],
+    "curiosity_revealed": [
+      "Juliana is a skilled herbalist/healer who saved a child.",
+      "Alexander is worried about exposure to the village."
+    ],
+    "curiosity_withheld": [
+      "Why village attention is dangerous to them.",
+      "What specific threat they are hiding from."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A talented healer risks everything to save a child, finding an unwavering partner in the face of hidden danger.",
+    "supporting_block_ids": [
+      "EP009_B059",
+      "EP009_B063",
+      "EP009_B065",
+      "EP009_B042",
+      "EP009_B056"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "RESOLVED_ENDING",
+      "severity": "minor",
+      "explanation": "The medical crisis is fully resolved when the child is cured, turning the second half into a dialogue-heavy argument rather than escalating suspense.",
+      "block_ids": [
+        "EP009_B047",
+        "EP009_B050",
+        "EP009_B052"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A healer named Juliana successfully cures a sick peasant child, earning the mother's immense gratitude. Afterward, a companion named Alexander warns her that attracting too much attention from the village is dangerous, but Juliana remains steadfast.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Alexander is and why village attention is specifically dangerous to them is unstated.\",\n      \"block_ids\": [\"K19\", \"K23\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"The mother's desperate question opens with mild intrigue about a failing treatment, though it lacks high-stakes urgency.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K07\", \"K10\", \"K19\", \"K23\"],\n    \"reason\": \"Tension shifts smoothly from the medical crisis of the child to a social/political conflict between Juliana and Alexander over the risks of being noticed.\",\n    \"evidence\": [\"K07\", \"K10\", \"K19\", \"K23\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K25\",\n    \"mechanism\": \"pending_decision\",\n    \"outcome\": \"partly_resolved\",\n    \"open_question\": \"How will they face the looming danger from the village together?\",\n    \"score\": 3,\n    \"reason\": \"It offers an emotionally resolute romantic/partnership button rather than an open question of high suspense.\",\n    \"evidence\": [\"K24\", \"K25\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core situation (healing a child, secret identity or hidden presence risk) is easy to follow, though the exact danger remains undefined.\",\n    \"evidence\": [\"K07\", \"K10\", \"K19\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is a skilled herbalist/healer who saved a child.\",\n      \"Alexander is worried about exposure to the village.\"\n    ],\n    \"withheld\": [\n      \"Why village attention is dangerous to them.\",\n      \"What specific threat they are hiding from.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 3,\n    \"reason\": \"It gives a complete micro-narrative of saving the child while opening a new character conflict about safety, but the stakes of the danger remain vague.\",\n    \"evidence\": [\"K12\", \"K19\", \"K23\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"relief and protective warmth\",\n    \"score\": 3,\n    \"reason\": \"The transition from the mother's despair to relief creates a tender emotional beat, followed by resolute loyalty.\",\n    \"evidence\": [\"K07\", \"K10\", \"K25\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"other\",\n      \"other_label\": \"hidden identity / protective caution\",\n      \"secondary\": \"romance_devotion\",\n      \"confidence\": \"medium\",\n      \"evidence\": [\"K19\", \"K23\", \"K25\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\"K19\", \"K23\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A healer's choice to save a life threatens to expose them to a dangerous village.\",\n      \"evidence\": [\"K16\", \"K19\", \"K23\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Why the village knowing about Juliana is dangerous.\"\n      ]\n    },\n    \"appeal\": \"A talented healer risks everything to save a child, finding an unwavering partner in the face of hidden danger.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"RESOLVED_ENDING\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The medical crisis is fully resolved when the child is cured, turning the second half into a dialogue-heavy argument rather than escalating suspense.\",\n      \"block_ids\": [\"K07\", \"K10\", \"K12\"]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "067b0ba07651b9d0e8357cb00c6e90d357d814682f2214308cc9f1be07524a20",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4032,
+      "prompt_tokens": 2915,
+      "completion_tokens": 1073,
+      "total_tokens": 3988,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:01:25.560784+00:00"
+}

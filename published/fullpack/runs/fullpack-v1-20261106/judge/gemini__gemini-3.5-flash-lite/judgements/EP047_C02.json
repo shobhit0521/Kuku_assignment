@@ -1,0 +1,286 @@
+{
+  "candidate_id": "EP047_C02",
+  "episode_id": "EP047",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "0a401da925a050ded28be30ccb85f8149c706f85bfc1ed5e9eefe9231e45c89a",
+  "clip_start_ms": 83500,
+  "clip_end_ms": 127200,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP047_B042",
+    "EP047_B043",
+    "EP047_B044"
+  ],
+  "eligible_beat_ids": [
+    "EP047_B064",
+    "EP047_B065",
+    "EP047_B066",
+    "EP047_B067"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Alexander's indignant accusation immediately frames a high-stakes conflict between the characters.",
+      "evidence": [
+        "EP047_B043"
+      ],
+      "issues": [],
+      "block_id": "EP047_B043",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension steadily escalates as Juliana imposes harsher and harsher conditions on Catherine, culminating in a final ultimatum.",
+      "evidence": [
+        "EP047_B049",
+        "EP047_B053",
+        "EP047_B057",
+        "EP047_B063",
+        "EP047_B067"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP047_B049",
+        "EP047_B053",
+        "EP047_B057",
+        "EP047_B063"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip ends right on Juliana's ultimatum, forcing viewers to wonder whether Catherine will submit or walk away.",
+      "evidence": [
+        "EP047_B067"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP047_B067",
+      "mechanism": "pending_decision",
+      "outcome": "unresolved",
+      "open_question": "Will Catherine swallow her pride and accept the humiliating position as a servant, or will she leave?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic—a powerful woman humiliating a disgraced impostor by making her a servant—is clear, even if the backstory of the imposture is unknown.",
+      "evidence": [
+        "EP047_B049",
+        "EP047_B053",
+        "EP047_B057"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Juliana forces another woman named Catherine to work as a lowly scullery maid in the estate as punishment after exposing her as an impostor. Catherine is left humiliated and faced with a stark ultimatum: take the servant's apron or leave the county.",
+      "confusions": [
+        {
+          "issue": "The exact nature of Catherine's past actions and how she posed as an impostor are not explained.",
+          "block_ids": [
+            "EP047_B043",
+            "EP047_B057"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip provides a satisfying power shift and punishment while leaving the immediate next choice completely open.",
+      "evidence": [
+        "EP047_B067"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is in control of the estate and is forcing Catherine into servitude instead of casting her out immediately."
+      ],
+      "withheld": [
+        "Whether Catherine accepts the apron and how she handles her new life as a scullery maid."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Catherine's tears and the stark contrast with Juliana's cold composure create a strong sense of humiliation and retributive justice.",
+      "evidence": [
+        "EP047_B064",
+        "EP047_B065"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "humiliation and triumph",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP047_B049",
+        "EP047_B053",
+        "EP047_B057",
+        "EP047_B065"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP047_B043"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP047_B064",
+        "EP047_B065"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An exposed impostor must choose between enduring degrading labor as a scullery maid or being cast out of the county with nothing.",
+      "evidence": [
+        "EP047_B057",
+        "EP047_B063",
+        "EP047_B067"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "pending_decision",
+      "evidence": [
+        "EP047_B067"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Prior history of Catherine's deception"
+    ],
+    "curiosity_revealed": [
+      "Juliana is in control of the estate and is forcing Catherine into servitude instead of casting her out immediately."
+    ],
+    "curiosity_withheld": [
+      "Whether Catherine accepts the apron and how she handles her new life as a scullery maid."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a disgraced impostor get forced to scrub the floors she once walked as a lady.",
+    "supporting_block_ids": [
+      "EP047_B049",
+      "EP047_B053",
+      "EP047_B057",
+      "EP047_B065",
+      "EP047_B043",
+      "EP047_B064",
+      "EP047_B063",
+      "EP047_B067"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Juliana forces another woman named Catherine to work as a lowly scullery maid in the estate as punishment after exposing her as an impostor. Catherine is left humiliated and faced with a stark ultimatum: take the servant's apron or leave the county.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact nature of Catherine's past actions and how she posed as an impostor are not explained.\",\n      \"block_ids\": [\n        \"K02\",\n        \"K16\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Alexander's indignant accusation immediately frames a high-stakes conflict between the characters.\",\n    \"evidence\": [\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K08\",\n      \"K12\",\n      \"K16\",\n      \"K22\"\n    ],\n    \"reason\": \"Tension steadily escalates as Juliana imposes harsher and harsher conditions on Catherine, culminating in a final ultimatum.\",\n    \"evidence\": [\n      \"K08\",\n      \"K12\",\n      \"K16\",\n      \"K22\",\n      \"K26\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K26\",\n    \"mechanism\": \"pending_decision\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Catherine swallow her pride and accept the humiliating position as a servant, or will she leave?\",\n    \"score\": 4,\n    \"reason\": \"The clip ends right on Juliana's ultimatum, forcing viewers to wonder whether Catherine will submit or walk away.\",\n    \"evidence\": [\n      \"K26\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic—a powerful woman humiliating a disgraced impostor by making her a servant—is clear, even if the backstory of the imposture is unknown.\",\n    \"evidence\": [\n      \"K08\",\n      \"K12\",\n      \"K16\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is in control of the estate and is forcing Catherine into servitude instead of casting her out immediately.\"\n    ],\n    \"withheld\": [\n      \"Whether Catherine accepts the apron and how she handles her new life as a scullery maid.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip provides a satisfying power shift and punishment while leaving the immediate next choice completely open.\",\n    \"evidence\": [\n      \"K26\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"humiliation and triumph\",\n    \"score\": 4,\n    \"reason\": \"Catherine's tears and the stark contrast with Juliana's cold composure create a strong sense of humiliation and retributive justice.\",\n    \"evidence\": [\n      \"K23\",\n      \"K24\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K08\",\n        \"K12\",\n        \"K16\",\n        \"K24\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\n        \"K23\",\n        \"K24\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"An exposed impostor must choose between enduring degrading labor as a scullery maid or being cast out of the county with nothing.\",\n      \"evidence\": [\n        \"K16\",\n        \"K22\",\n        \"K26\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Prior history of Catherine's deception\"\n      ]\n    },\n    \"appeal\": \"Watch a disgraced impostor get forced to scrub the floors she once walked as a lady.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "a583039769f22cec64a596eb0c96114839f52fca96e2191fdb1effa269bdce2d",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3901,
+      "prompt_tokens": 2973,
+      "completion_tokens": 1091,
+      "total_tokens": 4064,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:09:10.228194+00:00"
+}

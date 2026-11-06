@@ -135,7 +135,7 @@ if not records:
     layout.empty_state("No repairs in this run", "No judged candidate failed a repairable hard rule, so no repair "
                        "was attempted." if not summary.technical_without_attempt else
                        f"{summary.technical_without_attempt} technical failure(s) had no repair attempt; see "
-                       "Needs attention for the reasons.")
+                       "Where it picks badly for the reasons.")
 
 for rec in shown:
     o, r, prov = rec.original, rec.repaired, rec.provenance
@@ -193,5 +193,5 @@ for rec in shown:
             f'<p class="pp-muted">Triggered by: {escape(triggers)}</p>'
             f'<div class="pp-repair__body"><div>{comp}{bar(o_s, o_e, r_s, r_e) if r else ""}</div>'
             f'<div><div class="pp-repair__k">Provenance</div>{prov_html}'
-            f'<div class="pp-sub">{cards.id_link(ctx, o.candidate_id, "attention", "focus", "→ Open the Needs attention entry")}'
+            f'<div class="pp-sub">{cards.id_link(ctx, o.candidate_id, "attention", "focus", "→ Open the Where it picks badly entry")}'
             f'</div></div></div></section>')

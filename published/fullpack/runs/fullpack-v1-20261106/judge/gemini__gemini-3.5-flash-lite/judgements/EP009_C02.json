@@ -1,0 +1,284 @@
+{
+  "candidate_id": "EP009_C02",
+  "episode_id": "EP009",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "b9bdbb53569112e3f8ce193c1d11b0084c2398323107120619a9658250ed27f8",
+  "clip_start_ms": 88000,
+  "clip_end_ms": 115500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP009_B070",
+    "EP009_B071",
+    "EP009_B072",
+    "EP009_B073"
+  ],
+  "eligible_beat_ids": [
+    "EP009_B086",
+    "EP009_B087",
+    "EP009_B088",
+    "EP009_B089"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The line sets up a secret conversation about a rumor, providing mild intrigue, but starts slow without an immediate visual or emotional jolt.",
+      "evidence": [
+        "EP009_B071"
+      ],
+      "issues": [],
+      "block_id": "EP009_B071",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds from a casual rumor to a specific detail (the scar) that visibly shatters the nobleman's composure, escalating into paranoia.",
+      "evidence": [
+        "EP009_B079",
+        "EP009_B080",
+        "EP009_B088",
+        "EP009_B089"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP009_B079",
+        "EP009_B080",
+        "EP009_B088",
+        "EP009_B089"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The extreme close-up on the terrified, paranoid eye leaves a strong visual question open about what the nobleman will do next regarding the threat.",
+      "evidence": [
+        "EP009_B089"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP009_B089",
+      "mechanism": "reaction_hold",
+      "outcome": "unresolved",
+      "open_question": "Will the truth of the war veteran's identity destroy the nobleman?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The dialogue makes it clear that a secret about a dead Duke is causing panic, but the exact power dynamics and history between the characters remain hidden.",
+      "evidence": [
+        "EP009_B075",
+        "EP009_B079",
+        "EP009_B088"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A former groom brings a troubling rumor to a blond nobleman about a war veteran who resembles the late Duke and shares his unique scar. The nobleman masks his sudden panic with dismissal, but is left alone in creeping paranoia.",
+      "confusions": [
+        {
+          "issue": "Who the late Duke is, his relationship to the blond nobleman, and why a resemblance or scar causes such intense panic.",
+          "block_ids": [
+            "EP009_B075",
+            "EP009_B079",
+            "EP009_B080"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It sets up a compelling mystery regarding a potential return from the dead while withholding the true identity of the veteran.",
+      "evidence": [
+        "EP009_B075",
+        "EP009_B079",
+        "EP009_B089"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "A rumor connects a war veteran to the late Duke via a scar",
+        "The blond nobleman is terrified by this"
+      ],
+      "withheld": [
+        "Who the veteran actually is",
+        "What the nobleman did to the late Duke"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The clip successfully communicates the shift from mild annoyance to deep paranoia through the nobleman's reactions.",
+      "evidence": [
+        "EP009_B080",
+        "EP009_B087",
+        "EP009_B089"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion and growing dread",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "unclassified",
+      "evidence": [],
+      "note": "archetype 'mystery_relevation' is not in the taxonomy"
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "danger_threat",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP009_B071"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP009_B080",
+        "EP009_B089"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A powerful nobleman's hidden past or usurpation is threatened if a deceased Duke's return is real.",
+      "evidence": [
+        "EP009_B079",
+        "EP009_B089"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP009_B089"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "The exact relationship between the nobleman and the late Duke"
+    ],
+    "curiosity_revealed": [
+      "A rumor connects a war veteran to the late Duke via a scar",
+      "The blond nobleman is terrified by this"
+    ],
+    "curiosity_withheld": [
+      "Who the veteran actually is",
+      "What the nobleman did to the late Duke"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A terrified nobleman discovers the dead may have returned for revenge.",
+    "supporting_block_ids": [
+      "EP009_B071",
+      "EP009_B080",
+      "EP009_B089",
+      "EP009_B079"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A former groom brings a troubling rumor to a blond nobleman about a war veteran who resembles the late Duke and shares his unique scar. The nobleman masks his sudden panic with dismissal, but is left alone in creeping paranoia.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who the late Duke is, his relationship to the blond nobleman, and why a resemblance or scar causes such intense panic.\",\n      \"block_ids\": [\"K06\", \"K10\", \"K11\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"The line sets up a secret conversation about a rumor, providing mild intrigue, but starts slow without an immediate visual or emotional jolt.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K10\", \"K11\", \"K19\", \"K20\"],\n    \"reason\": \"Tension builds from a casual rumor to a specific detail (the scar) that visibly shatters the nobleman's composure, escalating into paranoia.\",\n    \"evidence\": [\"K10\", \"K11\", \"K19\", \"K20\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K20\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will the truth of the war veteran's identity destroy the nobleman?\",\n    \"score\": 4,\n    \"reason\": \"The extreme close-up on the terrified, paranoid eye leaves a strong visual question open about what the nobleman will do next regarding the threat.\",\n    \"evidence\": [\"K20\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The dialogue makes it clear that a secret about a dead Duke is causing panic, but the exact power dynamics and history between the characters remain hidden.\",\n    \"evidence\": [\"K06\", \"K10\", \"K19\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"A rumor connects a war veteran to the late Duke via a scar\", \"The blond nobleman is terrified by this\"],\n    \"withheld\": [\"Who the veteran actually is\", \"What the nobleman did to the late Duke\"],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It sets up a compelling mystery regarding a potential return from the dead while withholding the true identity of the veteran.\",\n    \"evidence\": [\"K06\", \"K10\", \"K20\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion and growing dread\",\n    \"score\": 3,\n    \"reason\": \"The clip successfully communicates the shift from mild annoyance to deep paranoia through the nobleman's reactions.\",\n    \"evidence\": [\"K11\", \"K18\", \"K20\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"mystery_relevation\",\n      \"other_label\": null,\n      \"secondary\": \"danger_threat\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K06\", \"K10\", \"K20\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\"K11\", \"K20\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A powerful nobleman's hidden past or usurpation is threatened if a deceased Duke's return is real.\",\n      \"evidence\": [\"K10\", \"K20\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\"The exact relationship between the nobleman and the late Duke\"]\n    },\n    \"appeal\": \"A terrified nobleman discovers the dead may have returned for revenge.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "5e9c883b6c76efcd2b2c956eb8a415d4916658645d55bc529f80319021841106",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3515,
+      "prompt_tokens": 2729,
+      "completion_tokens": 965,
+      "total_tokens": 3694,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:01:17.514975+00:00"
+}

@@ -1,0 +1,85 @@
+{
+  "candidate_id": "EP032_C02",
+  "checker_version": "c1",
+  "judgement_clip_sha256": "9b40e4008016334304e572e630bfa5e5dd8d72274938f8d50c7cc774519ae8eb",
+  "judgement_prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "status": "resolved",
+  "flags": [
+    {
+      "dimension": "context_independence",
+      "code": "CONFUSIONS_WITH_HIGH_SCORE",
+      "detail": "score 4 with 2 confusing reference(s) listed"
+    }
+  ],
+  "remaining_flags": [],
+  "original_scores": {
+    "context_independence": 4
+  },
+  "revised_scores": {
+    "context_independence": 3
+  },
+  "revised_dimensions": {
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The gist of the conflict between a torturer and a defiant prisoner is clear, but specific references to the mother, herbs, and the ledger leave key motivations and background unknown.",
+      "evidence": [
+        "EP032_B013",
+        "EP032_B022",
+        "EP032_B027",
+        "EP032_B029"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A shackled prisoner named Juliana calmly defies her tormentor Catherine, who threatens her with a hot iron and demands she watch her mother's destruction. Despite the torture and threats, Juliana remains entirely unbowed, mocking Catherine's cruelty.",
+      "confusions": [
+        {
+          "issue": "The nature of the ledger/book and what it contains is not explained.",
+          "block_ids": [
+            "EP032_B014",
+            "EP032_B022"
+          ]
+        },
+        {
+          "issue": "The backstory regarding Juliana's mother and why they are being persecuted (herbs, teaching) lacks specific context.",
+          "block_ids": [
+            "EP032_B027",
+            "EP032_B029"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "note": null,
+  "raw_response_text": "{\n  \"blind_summary\": \"A shackled prisoner named Juliana calmly defies her tormentor Catherine, who threatens her with a hot iron and demands she watch her mother's destruction. Despite the torture and threats, Juliana remains entirely unbowed, mocking Catherine's cruelty.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The nature of the ledger/book and what it contains is not explained.\",\n      \"block_ids\": [\"K03\", \"K11\"]\n    },\n    {\n      \"issue\": \"The backstory regarding Juliana's mother and why they are being persecuted (herbs, teaching) lacks specific context.\",\n      \"block_ids\": [\"K15\", \"K18\"]\n    }\n  ],\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The gist of the conflict between a torturer and a defiant prisoner is clear, but specific references to the mother, herbs, and the ledger leave key motivations and background unknown.\",\n    \"evidence\": [\"K02\", \"K11\", \"K15\", \"K18\"]\n  }\n}",
+  "calls": [
+    {
+      "stage": "reassess",
+      "cache_key": "b861f9ea91c9fe59522cebf4572005516b4af4d8d015d2e8d4e2dbf979cc671e",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 1568,
+      "prompt_tokens": 4371,
+      "completion_tokens": 251,
+      "total_tokens": 4622,
+      "hidden_tokens": 0
+    }
+  ],
+  "invocation_id": "d586dab690a4",
+  "created_at": "2026-11-06T11:02:17.931965+00:00"
+}

@@ -1,0 +1,283 @@
+{
+  "candidate_id": "EP035_C01",
+  "episode_id": "EP035",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "c3eb7874cc0291be66cfe35cbbfc0a3b452f5a71382598b53d6358fec0f10be7",
+  "clip_start_ms": 98500,
+  "clip_end_ms": 157500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP035_B045",
+    "EP035_B046",
+    "EP035_B047"
+  ],
+  "eligible_beat_ids": [
+    "EP035_B069",
+    "EP035_B070",
+    "EP035_B071"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Starting immediately with 'Then came the ambush' drops the viewer right into the middle of a harrowing recount, creating instant intrigue.",
+      "evidence": [
+        "EP035_B045"
+      ],
+      "issues": [],
+      "block_id": "EP035_B045",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily from the revelation that his death was a cover-up to the final chilling accusation pointing directly at the rulers of Ashwood.",
+      "evidence": [
+        "EP035_B059",
+        "EP035_B066",
+        "EP035_B070"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP035_B059",
+        "EP035_B066",
+        "EP035_B070"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The final held shot of the mother's terrified realization leaves the viewer hanging on the massive implications of the betrayal.",
+      "evidence": [
+        "EP035_B071"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP035_B071",
+      "mechanism": "reaction_hold",
+      "outcome": "unresolved",
+      "open_question": "How will the mother react and what will they do now that they know the ruling men of Ashwood are responsible?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The relationship between mother and son and the core conflict of a betrayed soldier seeking the truth are entirely clear without prior knowledge.",
+      "evidence": [
+        "EP035_B047",
+        "EP035_B049",
+        "EP035_B057"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A survivor named Alexander tells his mother about a deadly ambush that wiped out his men and left him for dead, revealing that his supposed death was actually orchestrated by someone currently in power. The clip ends as he implicates the current rulers of Ashwood, leaving his mother in sheer dread.",
+      "confusions": [
+        {
+          "issue": "Ashwood is mentioned as a place/ruling body without prior context of what it is or who rules it.",
+          "block_ids": [
+            "EP035_B070"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It delivers a massive, satisfying plot point (who is behind it) while leaving open the identity of the specific individuals and the impending revenge.",
+      "evidence": [
+        "EP035_B070",
+        "EP035_B071"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander survived an ambush and was left for dead",
+        "His family was led to believe he was dead",
+        "The current rulers of Ashwood are the ones behind the plot"
+      ],
+      "withheld": [
+        "Specific names of the traitors ruling Ashwood",
+        "What actions Alexander and his mother will take next"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The grim recounting of betrayal and the final horrifying realization evoke strong sympathy and suspense.",
+      "evidence": [
+        "EP035_B047",
+        "EP035_B070",
+        "EP035_B071"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Outrage and dread",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP035_B059",
+        "EP035_B070"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "in_medias_res",
+      "evidence": [
+        "EP035_B045"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP035_B066",
+        "EP035_B070"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A survivor uncovers that the people currently ruling Ashwood are the treasonous masterminds who tried to assassinate him and his men.",
+      "evidence": [
+        "EP035_B066",
+        "EP035_B070"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP035_B071"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Specific identities of the rulers of Ashwood"
+    ],
+    "curiosity_revealed": [
+      "Alexander survived an ambush and was left for dead",
+      "His family was led to believe he was dead",
+      "The current rulers of Ashwood are the ones behind the plot"
+    ],
+    "curiosity_withheld": [
+      "Specific names of the traitors ruling Ashwood",
+      "What actions Alexander and his mother will take next"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A betrayed soldier returns from the dead to expose the corrupt rulers who tried to assassinate him.",
+    "supporting_block_ids": [
+      "EP035_B059",
+      "EP035_B070",
+      "EP035_B045",
+      "EP035_B066",
+      "EP035_B071"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A survivor named Alexander tells his mother about a deadly ambush that wiped out his men and left him for dead, revealing that his supposed death was actually orchestrated by someone currently in power. The clip ends as he implicates the current rulers of Ashwood, leaving his mother in sheer dread.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Ashwood is mentioned as a place/ruling body without prior context of what it is or who rules it.\",\n      \"block_ids\": [\"K26\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K01\",\n    \"score\": 4,\n    \"reason\": \"Starting immediately with 'Then came the ambush' drops the viewer right into the middle of a harrowing recount, creating instant intrigue.\",\n    \"evidence\": [\"K01\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K15\", \"K21\", \"K26\"],\n    \"reason\": \"Tension builds steadily from the revelation that his death was a cover-up to the final chilling accusation pointing directly at the rulers of Ashwood.\",\n    \"evidence\": [\"K15\", \"K21\", \"K26\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K27\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will the mother react and what will they do now that they know the ruling men of Ashwood are responsible?\",\n    \"score\": 4,\n    \"reason\": \"The final held shot of the mother's terrified realization leaves the viewer hanging on the massive implications of the betrayal.\",\n    \"evidence\": [\"K27\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The relationship between mother and son and the core conflict of a betrayed soldier seeking the truth are entirely clear without prior knowledge.\",\n    \"evidence\": [\"K03\", \"K05\", \"K13\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Alexander survived an ambush and was left for dead\",\n      \"His family was led to believe he was dead\",\n      \"The current rulers of Ashwood are the ones behind the plot\"\n    ],\n    \"withheld\": [\n      \"Specific names of the traitors ruling Ashwood\",\n      \"What actions Alexander and his mother will take next\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It delivers a massive, satisfying plot point (who is behind it) while leaving open the identity of the specific individuals and the impending revenge.\",\n    \"evidence\": [\"K26\", \"K27\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Outrage and dread\",\n    \"score\": 4,\n    \"reason\": \"The grim recounting of betrayal and the final horrifying realization evoke strong sympathy and suspense.\",\n    \"evidence\": [\"K03\", \"K26\", \"K27\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K15\", \"K26\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"in_medias_res\",\n      \"evidence\": [\"K01\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K21\", \"K26\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A survivor uncovers that the people currently ruling Ashwood are the treasonous masterminds who tried to assassinate him and his men.\",\n      \"evidence\": [\"K21\", \"K26\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Specific identities of the rulers of Ashwood\"\n      ]\n    },\n    \"appeal\": \"A betrayed soldier returns from the dead to expose the corrupt rulers who tried to assassinate him.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "aedb94fbd1611070157339ed143d9b4e266cb755f81922958f5f8fe73fb80899",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3720,
+      "prompt_tokens": 3045,
+      "completion_tokens": 1007,
+      "total_tokens": 4052,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:03:59.980667+00:00"
+}

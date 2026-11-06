@@ -1,0 +1,311 @@
+{
+  "candidate_id": "EP020_C02",
+  "episode_id": "EP020",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "2cee555850db7212668c851fd2cac15693f9a3d979875e568ec76e3f4a89164a",
+  "clip_start_ms": 60500,
+  "clip_end_ms": 88000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP020_B037",
+    "EP020_B038"
+  ],
+  "eligible_beat_ids": [
+    "EP020_B047",
+    "EP020_B049",
+    "EP020_B050",
+    "EP020_B051",
+    "EP020_B052",
+    "EP020_B053"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Seamus politely addresses Juliana as 'Lady Juliana' while offering to take her basket, creating immediate mild intrigue about a noblewoman doing menial work.",
+      "evidence": [
+        "EP020_B037"
+      ],
+      "issues": [],
+      "block_id": "EP020_B037",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds through Seamus's frustrated protests over Juliana's fallen noble status versus her fierce, unyielding dedication to being the valley's healer, but it remains a thematic argument rather than an escalating external plot threat.",
+      "evidence": [
+        "EP020_B044",
+        "EP020_B046",
+        "EP020_B051",
+        "EP020_B052"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP020_B044",
+        "EP020_B046",
+        "EP020_B051",
+        "EP020_B052"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's final steely declaration provides a strong character button and forward pull, though it is more of an emotional stance than an open narrative question.",
+      "evidence": [
+        "EP020_B053",
+        "EP020_B052"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP020_B053",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "What will Juliana do next to fight the lung fever and prove herself?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "Viewers understand that Juliana is a fallen noblewoman acting as a healer, but the reasons behind her downfall and the loss of the chapel remain entirely unknown.",
+      "evidence": [
+        "EP020_B044",
+        "EP020_B048",
+        "EP020_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "An older villager named Seamus urges a noblewoman named Juliana to stop doing manual labor and resting on straw after losing her status, but she fiercely refuses because she is the only healer left to save the valley from lung fever.",
+      "confusions": [
+        {
+          "issue": "Why Juliana lost her status and why she is living in an abandoned barn",
+          "block_ids": [
+            "EP020_B043",
+            "EP020_B044",
+            "EP020_B045",
+            "EP020_B051"
+          ]
+        },
+        {
+          "issue": "How the chapel burned down and why the village lacks medical care",
+          "block_ids": [
+            "EP020_B038",
+            "EP020_B048"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip clearly establishes her character and immediate conflict while leaving the broader backstory of her fall from grace entirely mysterious.",
+      "evidence": [
+        "EP020_B044",
+        "EP020_B048",
+        "EP020_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is a viscount's daughter reduced to humble conditions",
+        "She refuses to stop working because she is the valley's only healer"
+      ],
+      "withheld": [
+        "Why she lost her status and home",
+        "What specifically happened to the chapel"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's fierce defiance and refusal to wallow in self-pity evoke respect, though the dramatic weight is somewhat generalized.",
+      "evidence": [
+        "EP020_B041",
+        "EP020_B042",
+        "EP020_B048",
+        "EP020_B052",
+        "EP020_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Admiration and sympathy for Juliana's resilience",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "vulnerability",
+      "evidence": [
+        "EP020_B043",
+        "EP020_B044",
+        "EP020_B051",
+        "EP020_B052"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP020_B037",
+        "EP020_B038"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP020_B043",
+        "EP020_B045",
+        "EP020_B051"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A disgraced noblewoman must choose between preserving her aristocratic dignity or performing grueling manual work to save a sick village.",
+      "evidence": [
+        "EP020_B041",
+        "EP020_B044",
+        "EP020_B048",
+        "EP020_B051"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP020_B053"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "The reason for Juliana's loss of status",
+      "The background of the fire and destroyed chapel"
+    ],
+    "curiosity_revealed": [
+      "Juliana is a viscount's daughter reduced to humble conditions",
+      "She refuses to stop working because she is the valley's only healer"
+    ],
+    "curiosity_withheld": [
+      "Why she lost her status and home",
+      "What specifically happened to the chapel"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A fallen noblewoman refuses to abandon a sick village, choosing fierce independence over aristocratic pity.",
+    "supporting_block_ids": [
+      "EP020_B043",
+      "EP020_B044",
+      "EP020_B051",
+      "EP020_B052",
+      "EP020_B037",
+      "EP020_B038",
+      "EP020_B045",
+      "EP020_B041",
+      "EP020_B048",
+      "EP020_B053"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"An older villager named Seamus urges a noblewoman named Juliana to stop doing manual labor and resting on straw after losing her status, but she fiercely refuses because she is the only healer left to save the valley from lung fever.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Why Juliana lost her status and why she is living in an abandoned barn\",\n      \"block_ids\": [\"K08\", \"K09\", \"K10\", \"K16\"]\n    },\n    {\n      \"issue\": \"How the chapel burned down and why the village lacks medical care\",\n      \"block_ids\": [\"K03\", \"K13\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Seamus politely addresses Juliana as 'Lady Juliana' while offering to take her basket, creating immediate mild intrigue about a noblewoman doing menial work.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K09\", \"K11\", \"K16\", \"K17\"],\n    \"reason\": \"Tension builds through Seamus's frustrated protests over Juliana's fallen noble status versus her fierce, unyielding dedication to being the valley's healer, but it remains a thematic argument rather than an escalating external plot threat.\",\n    \"evidence\": [\"K09\", \"K11\", \"K16\", \"K17\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K18\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What will Juliana do next to fight the lung fever and prove herself?\",\n    \"score\": 3,\n    \"reason\": \"Juliana's final steely declaration provides a strong character button and forward pull, though it is more of an emotional stance than an open narrative question.\",\n    \"evidence\": [\"K17\", \"K18\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"Viewers understand that Juliana is a fallen noblewoman acting as a healer, but the reasons behind her downfall and the loss of the chapel remain entirely unknown.\",\n    \"evidence\": [\"K09\", \"K13\", \"K16\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is a viscount's daughter reduced to humble conditions\",\n      \"She refuses to stop working because she is the valley's only healer\"\n    ],\n    \"withheld\": [\n      \"Why she lost her status and home\",\n      \"What specifically happened to the chapel\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip clearly establishes her character and immediate conflict while leaving the broader backstory of her fall from grace entirely mysterious.\",\n    \"evidence\": [\"K09\", \"K13\", \"K16\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Admiration and sympathy for Juliana's resilience\",\n    \"score\": 3,\n    \"reason\": \"Juliana's fierce defiance and refusal to wallow in self-pity evoke respect, though the dramatic weight is somewhat generalized.\",\n    \"evidence\": [\"K05\", \"K07\", \"K13\", \"K17\", \"K18\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"vulnerability\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K08\",\n        \"K09\",\n        \"K16\",\n        \"K17\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\",\n        \"K03\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\n        \"K08\",\n        \"K10\",\n        \"K16\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A disgraced noblewoman must choose between preserving her aristocratic dignity or performing grueling manual work to save a sick village.\",\n      \"evidence\": [\n        \"K05\",\n        \"K09\",\n        \"K13\",\n        \"K16\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"The reason for Juliana's loss of status\",\n        \"The background of the fire and destroyed chapel\"\n      ]\n    },\n    \"appeal\": \"A fallen noblewoman refuses to abandon a sick village, choosing fierce independence over aristocratic pity.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "7c7d2c889f4e0b77929670d2ec9a2d90a64b2177452d904b16f9270e1dac8bb6",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4283,
+      "prompt_tokens": 2669,
+      "completion_tokens": 1177,
+      "total_tokens": 3846,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:57:07.657712+00:00"
+}

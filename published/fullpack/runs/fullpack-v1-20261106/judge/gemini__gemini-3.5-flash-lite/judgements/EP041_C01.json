@@ -1,0 +1,307 @@
+{
+  "candidate_id": "EP041_C01",
+  "episode_id": "EP041",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "a0c8094de7b6cde4b0c912dc115e9db8a4b9e2b1c82ae24e85aacd67af0ee024",
+  "clip_start_ms": 41000,
+  "clip_end_ms": 96090,
+  "masked_terms": 1,
+  "eligible_hook_ids": [
+    "EP041_B026",
+    "EP041_B027"
+  ],
+  "eligible_beat_ids": [
+    "EP041_B050",
+    "EP041_B051",
+    "EP041_B052",
+    "EP041_B053"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Catherine's derisive address immediately establishes a public shaming and draws the viewer into the conflict.",
+      "evidence": [
+        "EP041_B026"
+      ],
+      "issues": [],
+      "block_id": "EP041_B026",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds from the verbal humiliation and wedding preparations up to a sudden explosive disruption and the arrival of mysterious rescuers.",
+      "evidence": [
+        "EP041_B030",
+        "EP041_B034",
+        "EP041_B041",
+        "EP041_B047",
+        "EP041_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP041_B030",
+        "EP041_B034",
+        "EP041_B041",
+        "EP041_B047",
+        "EP041_B053"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The cut lands on Juliana's dramatic shift to hope as armed figures emerge from the smoke, leaving a compelling question about who is coming to her aid.",
+      "evidence": [
+        "EP041_B053",
+        "EP041_B052"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP041_B053",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "Who has arrived through the explosion to rescue Juliana, and how will they disrupt the wedding?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The core dynamic of a captive heroine facing a gloating rival's wedding is clear, but specific background relationships and titles require prior context.",
+      "evidence": [
+        "EP041_B026",
+        "EP041_B030",
+        "EP041_B041"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A chained woman named Juliana is publicly humiliated by Catherine in a grand cathedral before Catherine's wedding, but an explosion suddenly blasts open the doors. As armed figures emerge through the smoke, Juliana looks back with sudden hope.",
+      "confusions": [
+        {
+          "issue": "Who Rupert is and his relationship to Catherine and the Ashburgh title is unclear.",
+          "block_ids": [
+            "EP041_B037",
+            "EP041_B039",
+            "EP041_B041",
+            "EP041_B042"
+          ]
+        },
+        {
+          "issue": "The background of why Juliana is in chains and why Catherine is gloating is not explained.",
+          "block_ids": [
+            "EP041_B026",
+            "EP041_B030",
+            "EP041_B034"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip sets up the antagonists' triumph and abruptly shatters it with an action-packed intervention, creating a strong desire to see the retaliation.",
+      "evidence": [
+        "EP041_B041",
+        "EP041_B047",
+        "EP041_B052",
+        "EP041_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is chained and hated by Catherine",
+        "Catherine is marrying Rupert to seize a title",
+        "An explosion interrupts the wedding, bringing armed reinforcements for Juliana"
+      ],
+      "withheld": [
+        "Who the armed figures are",
+        "How Juliana will turn the tables on her oppressors"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The shift from oppressive humiliation to sudden explosive rescue triggers a strong sense of impending payback and triumph.",
+      "evidence": [
+        "EP041_B030",
+        "EP041_B034",
+        "EP041_B047",
+        "EP041_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "triumph",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP041_B026",
+        "EP041_B034",
+        "EP041_B047",
+        "EP041_B053"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP041_B026"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP041_B030",
+        "EP041_B034"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A captive, defiant woman faces her tormentor's triumphant wedding until a violent intervention threatens to upend everything.",
+      "evidence": [
+        "EP041_B034",
+        "EP041_B041",
+        "EP041_B047"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP041_B053"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Prior history between Juliana and Catherine",
+      "Identity of the Ashburgh title claimants"
+    ],
+    "curiosity_revealed": [
+      "Juliana is chained and hated by Catherine",
+      "Catherine is marrying Rupert to seize a title",
+      "An explosion interrupts the wedding, bringing armed reinforcements for Juliana"
+    ],
+    "curiosity_withheld": [
+      "Who the armed figures are",
+      "How Juliana will turn the tables on her oppressors"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A humiliated captive watches her rival's wedding—until an explosion brings unexpected saviors.",
+    "supporting_block_ids": [
+      "EP041_B026",
+      "EP041_B034",
+      "EP041_B047",
+      "EP041_B053",
+      "EP041_B030",
+      "EP041_B041"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A chained woman named Juliana is publicly humiliated by Catherine in a grand cathedral before Catherine's wedding, but an explosion suddenly blasts open the doors. As armed figures emerge through the smoke, Juliana looks back with sudden hope.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Rupert is and his relationship to Catherine and the Ashburgh title is unclear.\",\n      \"block_ids\": [\n        \"K13\",\n        \"K15\",\n        \"K16\",\n        \"K18\"\n      ]\n    },\n    {\n      \"issue\": \"The background of why Juliana is in chains and why Catherine is gloating is not explained.\",\n      \"block_ids\": [\n        \"K02\",\n        \"K06\",\n        \"K10\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Catherine's derisive address immediately establishes a public shaming and draws the viewer into the conflict.\",\n    \"evidence\": [\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K06\",\n      \"K10\",\n      \"K16\",\n      \"K23\",\n      \"K29\"\n    ],\n    \"reason\": \"Tension builds from the verbal humiliation and wedding preparations up to a sudden explosive disruption and the arrival of mysterious rescuers.\",\n    \"evidence\": [\n      \"K06\",\n      \"K10\",\n      \"K16\",\n      \"K23\",\n      \"K29\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K29\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Who has arrived through the explosion to rescue Juliana, and how will they disrupt the wedding?\",\n    \"score\": 5,\n    \"reason\": \"The cut lands on Juliana's dramatic shift to hope as armed figures emerge from the smoke, leaving a compelling question about who is coming to her aid.\",\n    \"evidence\": [\n      \"K28\",\n      \"K29\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The core dynamic of a captive heroine facing a gloating rival's wedding is clear, but specific background relationships and titles require prior context.\",\n    \"evidence\": [\n      \"K02\",\n      \"K06\",\n      \"K16\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is chained and hated by Catherine\",\n      \"Catherine is marrying Rupert to seize a title\",\n      \"An explosion interrupts the wedding, bringing armed reinforcements for Juliana\"\n    ],\n    \"withheld\": [\n      \"Who the armed figures are\",\n      \"How Juliana will turn the tables on her oppressors\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"The clip sets up the antagonists' triumph and abruptly shatters it with an action-packed intervention, creating a strong desire to see the retaliation.\",\n    \"evidence\": [\n      \"K16\",\n      \"K23\",\n      \"K28\",\n      \"K29\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"triumph\",\n    \"score\": 4,\n    \"reason\": \"The shift from oppressive humiliation to sudden explosive rescue triggers a strong sense of impending payback and triumph.\",\n    \"evidence\": [\n      \"K06\",\n      \"K10\",\n      \"K23\",\n      \"K29\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K02\",\n        \"K10\",\n        \"K23\",\n        \"K29\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\n        \"K06\",\n        \"K10\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A captive, defiant woman faces her tormentor's triumphant wedding until a violent intervention threatens to upend everything.\",\n      \"evidence\": [\n        \"K10\",\n        \"K16\",\n        \"K23\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Prior history between Juliana and Catherine\",\n        \"Identity of the Ashburgh title claimants\"\n      ]\n    },\n    \"appeal\": \"A humiliated captive watches her rival's wedding—until an explosion brings unexpected saviors.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "9466046e63ce246f15c69507ba497c79e563090fc2922171ce7a283070011aaa",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4134,
+      "prompt_tokens": 3244,
+      "completion_tokens": 1238,
+      "total_tokens": 4482,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:06:38.218552+00:00"
+}

@@ -1,0 +1,306 @@
+{
+  "candidate_id": "EP046_C02",
+  "episode_id": "EP046",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "87b87e0a07f2a031e5d94ef84094ffbe667e2d05bdbcabb0ffe0fd64fafdd0cc",
+  "clip_start_ms": 96800,
+  "clip_end_ms": 143800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP046_B055",
+    "EP046_B054"
+  ],
+  "eligible_beat_ids": [
+    "EP046_B069",
+    "EP046_B070",
+    "EP046_B071",
+    "EP046_B072",
+    "EP046_B073",
+    "EP046_B074",
+    "EP046_B075"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The High Priest immediately delivers a threatening and high-stakes declaration about undoing a marriage and theft, instantly drawing the viewer into the conflict.",
+      "evidence": [
+        "EP046_B055"
+      ],
+      "issues": [],
+      "block_id": "EP046_B055",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension steadily escalates from a verbal standoff over jurisdiction to armed guards threatening the Duke, culminating in a tense ten-day countdown and a villainous plot twist.",
+      "evidence": [
+        "EP046_B058",
+        "EP046_B062",
+        "EP046_B068",
+        "EP046_B075"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP046_B058",
+        "EP046_B062",
+        "EP046_B068",
+        "EP046_B075"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "Catherine's wicked smile and whisper establish an immediate, compelling threat and question regarding what she will do in the next ten days.",
+      "evidence": [
+        "EP046_B075",
+        "EP046_B074"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP046_B075",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "What malicious scheme is Catherine planning to execute during the ten-day window?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core power struggle between the arrogant religious authority and the defiant Duke is easy to follow, even if the backstory of the marriage dispute is unknown.",
+      "evidence": [
+        "EP046_B055",
+        "EP046_B058",
+        "EP046_B068",
+        "EP046_B075"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A high priest attempts to invalidate a Duke's marriage using a religious council decree and armed guards, but the Duke defies him, forcing the priest to grant a ten-day trial. Meanwhile, a woman named Catherine watches the confrontation and smiles maliciously, plotting her own move.",
+      "confusions": [
+        {
+          "issue": "What exactly was stolen and what is the nature of the dispute over the Duke's marriage?",
+          "block_ids": [
+            "EP046_B055",
+            "EP046_B058",
+            "EP046_B060"
+          ]
+        },
+        {
+          "issue": "What is Catherine's relationship to Alexander and the High Priest?",
+          "block_ids": [
+            "EP046_B056",
+            "EP046_B074",
+            "EP046_B075"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip establishes the immediate stakes and conflict while leaving the ultimate outcome and Catherine's scheme completely open.",
+      "evidence": [
+        "EP046_B064",
+        "EP046_B071",
+        "EP046_B075"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The High Priest challenges the Duke's marriage with armed force.",
+        "The Duke demands a ten-day window before the peerage court.",
+        "Catherine is secretly plotting against them."
+      ],
+      "withheld": [
+        "What Catherine's exact plot is",
+        "Whether the Duke can protect his marriage within ten days"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The blatant abuse of religious and military authority against the defiant Duke generates strong dramatic tension and viewer engagement.",
+      "evidence": [
+        "EP046_B055",
+        "EP046_B068",
+        "EP046_B075"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage and suspense",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP046_B055",
+        "EP046_B062",
+        "EP046_B068",
+        "EP046_B075"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "deception_secret_identity",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP046_B055"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP046_B055",
+        "EP046_B068"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A Duke's marriage and reputation face imminent destruction by a corrupt religious council within a ten-day deadline.",
+      "evidence": [
+        "EP046_B055",
+        "EP046_B064",
+        "EP046_B071"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP046_B075"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "The background of the three-year marriage dispute",
+      "Catherine's true allegiance"
+    ],
+    "curiosity_revealed": [
+      "The High Priest challenges the Duke's marriage with armed force.",
+      "The Duke demands a ten-day window before the peerage court.",
+      "Catherine is secretly plotting against them."
+    ],
+    "curiosity_withheld": [
+      "What Catherine's exact plot is",
+      "Whether the Duke can protect his marriage within ten days"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A powerful Duke defies a corrupt priest's armed threat, but an unseen enemy is plotting his downfall.",
+    "supporting_block_ids": [
+      "EP046_B055",
+      "EP046_B062",
+      "EP046_B068",
+      "EP046_B075",
+      "EP046_B064",
+      "EP046_B071"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A high priest attempts to invalidate a Duke's marriage using a religious council decree and armed guards, but the Duke defies him, forcing the priest to grant a ten-day trial. Meanwhile, a woman named Catherine watches the confrontation and smiles maliciously, plotting her own move.\",\n  \"confusions\": [\n    {\n      \"issue\": \"What exactly was stolen and what is the nature of the dispute over the Duke's marriage?\",\n      \"block_ids\": [\"K01\", \"K04\", \"K07\"]\n    },\n    {\n      \"issue\": \"What is Catherine's relationship to Alexander and the High Priest?\",\n      \"block_ids\": [\"K03\", \"K21\", \"K22\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K01\",\n    \"score\": 4,\n    \"reason\": \"The High Priest immediately delivers a threatening and high-stakes declaration about undoing a marriage and theft, instantly drawing the viewer into the conflict.\",\n    \"evidence\": [\n      \"K01\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K04\",\n      \"K09\",\n      \"K14\",\n      \"K22\"\n    ],\n    \"reason\": \"Tension steadily escalates from a verbal standoff over jurisdiction to armed guards threatening the Duke, culminating in a tense ten-day countdown and a villainous plot twist.\",\n    \"evidence\": [\n      \"K04\",\n      \"K09\",\n      \"K14\",\n      \"K22\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K22\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What malicious scheme is Catherine planning to execute during the ten-day window?\",\n    \"score\": 5,\n    \"reason\": \"Catherine's wicked smile and whisper establish an immediate, compelling threat and question regarding what she will do in the next ten days.\",\n    \"evidence\": [\n      \"K21\",\n      \"K22\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core power struggle between the arrogant religious authority and the defiant Duke is easy to follow, even if the backstory of the marriage dispute is unknown.\",\n    \"evidence\": [\n      \"K01\",\n      \"K04\",\n      \"K14\",\n      \"K22\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The High Priest challenges the Duke's marriage with armed force.\",\n      \"The Duke demands a ten-day window before the peerage court.\",\n      \"Catherine is secretly plotting against them.\"\n    ],\n    \"withheld\": [\n      \"What Catherine's exact plot is\",\n      \"Whether the Duke can protect his marriage within ten days\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip establishes the immediate stakes and conflict while leaving the ultimate outcome and Catherine's scheme completely open.\",\n    \"evidence\": [\n      \"K11\",\n      \"K18\",\n      \"K22\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage and suspense\",\n    \"score\": 4,\n    \"reason\": \"The blatant abuse of religious and military authority against the defiant Duke generates strong dramatic tension and viewer engagement.\",\n    \"evidence\": [\n      \"K01\",\n      \"K14\",\n      \"K22\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"deception_secret_identity\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K01\",\n        \"K09\",\n        \"K14\",\n        \"K22\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K01\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\n        \"K01\",\n        \"K14\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A Duke's marriage and reputation face imminent destruction by a corrupt religious council within a ten-day deadline.\",\n      \"evidence\": [\n        \"K01\",\n        \"K11\",\n        \"K18\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"The background of the three-year marriage dispute\",\n        \"Catherine's true allegiance\"\n      ]\n    },\n    \"appeal\": \"A powerful Duke defies a corrupt priest's armed threat, but an unseen enemy is plotting his downfall.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "37980211aa91fea3cbc425595a27544b6c817cd004dba24d5c61decb19fc3092",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3737,
+      "prompt_tokens": 2876,
+      "completion_tokens": 1214,
+      "total_tokens": 4090,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:08:36.255466+00:00"
+}

@@ -1,0 +1,289 @@
+{
+  "candidate_id": "EP027_C03",
+  "episode_id": "EP027",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "ca8accc25537cc57de7e61e89f2304e3c39d4ce15ca7a4728d0f68a8920748a6",
+  "clip_start_ms": 97800,
+  "clip_end_ms": 150500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP027_B061",
+    "EP027_B062"
+  ],
+  "eligible_beat_ids": [
+    "EP027_B089",
+    "EP027_B090",
+    "EP027_B091",
+    "EP027_B092",
+    "EP027_B093",
+    "EP027_B094",
+    "EP027_B095"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The blond nobleman instantly sets up an accusation against an unknown maid, framing her in a dangerous situation right at the start.",
+      "evidence": [
+        "EP027_B062",
+        "EP027_B061"
+      ],
+      "issues": [],
+      "block_id": "EP027_B062",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension rises steadily from the revelation of poison to Lady Catherine's malicious twist of words, culminating in the maid's arrest.",
+      "evidence": [
+        "EP027_B073",
+        "EP027_B081",
+        "EP027_B091",
+        "EP027_B095"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP027_B073",
+        "EP027_B081",
+        "EP027_B091",
+        "EP027_B095"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip cuts abruptly on Juliana's terrified eyes as she is dragged away by guards into a deadly trap, leaving her immediate fate entirely open.",
+      "evidence": [
+        "EP027_B095",
+        "EP027_B093",
+        "EP027_B094"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP027_B095",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Will Juliana be executed or punished for the framed poisoning before she can prove her innocence?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core conflict—a vulnerable maid being maliciously framed for murder by powerful figures—is completely clear to a first-time viewer.",
+      "evidence": [
+        "EP027_B062",
+        "EP027_B081",
+        "EP027_B091"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A maid named Juliana is accused by a blond nobleman and Lady Catherine of poisoning a bedridden dowager duchess after she attempts to administer an antidote. Despite her protests, the nobleman frames her actions and orders guards to take her away.",
+      "confusions": [
+        {
+          "issue": "The exact identity and relation of the Blond Nobleman and Lady Catherine to the Duchess are not explained.",
+          "block_ids": [
+            "EP027_B062",
+            "EP027_B068"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "It clearly establishes the setup and the injustice while cutting off right as the danger peaks, making the viewer want to see justice served.",
+      "evidence": [
+        "EP027_B077",
+        "EP027_B081",
+        "EP027_B095"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana has an antidote, someone is poisoning the Duchess, and the antagonists are framing her."
+      ],
+      "withheld": [
+        "Whether Juliana will escape the frame-up and how she will expose the real poisoner."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 5,
+      "valid": true,
+      "reason": "The blatant twisting of the maid's words and her subsequent unjust arrest evoke strong feelings of anger and sympathy.",
+      "evidence": [
+        "EP027_B081",
+        "EP027_B083",
+        "EP027_B093",
+        "EP027_B095"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage_injustice",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "betrayal_humiliation",
+      "evidence": [
+        "EP027_B081",
+        "EP027_B091",
+        "EP027_B093"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP027_B062"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP027_B081",
+        "EP027_B095"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A framed maid faces execution or severe punishment for a crime she is trying to prevent.",
+      "evidence": [
+        "EP027_B077",
+        "EP027_B081",
+        "EP027_B091"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP027_B095"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "Juliana has an antidote, someone is poisoning the Duchess, and the antagonists are framing her."
+    ],
+    "curiosity_withheld": [
+      "Whether Juliana will escape the frame-up and how she will expose the real poisoner."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch an innocent maid fight back after being ruthlessly framed for murder by corrupt nobles.",
+    "supporting_block_ids": [
+      "EP027_B081",
+      "EP027_B091",
+      "EP027_B093",
+      "EP027_B062",
+      "EP027_B095",
+      "EP027_B077"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A maid named Juliana is accused by a blond nobleman and Lady Catherine of poisoning a bedridden dowager duchess after she attempts to administer an antidote. Despite her protests, the nobleman frames her actions and orders guards to take her away.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact identity and relation of the Blond Nobleman and Lady Catherine to the Duchess are not explained.\",\n      \"block_ids\": [\"K02\", \"K08\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"The blond nobleman instantly sets up an accusation against an unknown maid, framing her in a dangerous situation right at the start.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K13\", \"K21\", \"K31\", \"K35\"],\n    \"reason\": \"Tension rises steadily from the revelation of poison to Lady Catherine's malicious twist of words, culminating in the maid's arrest.\",\n    \"evidence\": [\"K13\", \"K21\", \"K31\", \"K35\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K35\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Juliana be executed or punished for the framed poisoning before she can prove her innocence?\",\n    \"score\": 5,\n    \"reason\": \"The clip cuts abruptly on Juliana's terrified eyes as she is dragged away by guards into a deadly trap, leaving her immediate fate entirely open.\",\n    \"evidence\": [\"K33\", \"K34\", \"K35\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core conflict—a vulnerable maid being maliciously framed for murder by powerful figures—is completely clear to a first-time viewer.\",\n    \"evidence\": [\"K02\", \"K21\", \"K31\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"Juliana has an antidote, someone is poisoning the Duchess, and the antagonists are framing her.\"],\n    \"withheld\": [\"Whether Juliana will escape the frame-up and how she will expose the real poisoner.\"],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"It clearly establishes the setup and the injustice while cutting off right as the danger peaks, making the viewer want to see justice served.\",\n    \"evidence\": [\"K17\", \"K21\", \"K35\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage_injustice\",\n    \"score\": 5,\n    \"reason\": \"The blatant twisting of the maid's words and her subsequent unjust arrest evoke strong feelings of anger and sympathy.\",\n    \"evidence\": [\"K21\", \"K23\", \"K33\", \"K35\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"betrayal_humiliation\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K21\", \"K31\", \"K33\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K21\", \"K35\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A framed maid faces execution or severe punishment for a crime she is trying to prevent.\",\n      \"evidence\": [\"K17\", \"K21\", \"K31\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"Watch an innocent maid fight back after being ruthlessly framed for murder by corrupt nobles.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "76570f75583b6190718b4c9f437da0472a79cca6d7bfba9b76c32b6a62adbeba",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3508,
+      "prompt_tokens": 3409,
+      "completion_tokens": 984,
+      "total_tokens": 4393,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:59:51.787383+00:00"
+}

@@ -1,0 +1,304 @@
+{
+  "candidate_id": "EP016_C01",
+  "episode_id": "EP016",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "b4439a7be8299239fef850918df67c83dc8b29e940c127b8dba0c6e453de8fe8",
+  "clip_start_ms": 2100,
+  "clip_end_ms": 54400,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP016_B004",
+    "EP016_B003",
+    "EP016_B005"
+  ],
+  "eligible_beat_ids": [
+    "EP016_B039",
+    "EP016_B040",
+    "EP016_B041",
+    "EP016_B042",
+    "EP016_B044",
+    "EP016_B043",
+    "EP016_B045",
+    "EP016_B046"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "A thug menacingly demands a soldier to move aside, setting up a confrontation, though it starts with a standard genre trope.",
+      "evidence": [
+        "EP016_B004"
+      ],
+      "issues": [],
+      "block_id": "EP016_B004",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension escalates from an impending fight where Alexander effortlessly overpowers multiple attackers to a high-stakes interrogation that yields a shocking name.",
+      "evidence": [
+        "EP016_B014",
+        "EP016_B020",
+        "EP016_B025",
+        "EP016_B036",
+        "EP016_B044"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP016_B014",
+        "EP016_B020",
+        "EP016_B025",
+        "EP016_B036",
+        "EP016_B044"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip reveals the mastermind behind the attack, leaving the viewer to wonder what retribution Alexander will bring down upon Gerald Harrington.",
+      "evidence": [
+        "EP016_B045",
+        "EP016_B044",
+        "EP016_B046"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP016_B045",
+      "mechanism": "revelation",
+      "outcome": "partly_resolved",
+      "open_question": "How will Juliana and Alexander deal with Gerald Harrington after this betrayal?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core conflict—protector defending a victim against thugs and extracting a name—is entirely self-contained, with only the identity of Gerald Harrington remaining an external unknown.",
+      "evidence": [
+        "EP016_B004",
+        "EP016_B011",
+        "EP016_B036",
+        "EP016_B044"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A stoic protector named Alexander easily defeats three thugs who are harassing a wounded woman named Juliana in a garden. When Alexander interrogates the lead thug, the thug confesses that Gerald Harrington is the one who paid them.",
+      "confusions": [
+        {
+          "issue": "Who Gerald Harrington is and why he targeted Juliana is not explained.",
+          "block_ids": [
+            "EP016_B044"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It answers who sent the thugs to provide a satisfying mini-arc while opening up a bigger question about the betrayal by Gerald.",
+      "evidence": [
+        "EP016_B044",
+        "EP016_B045"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander's combat prowess",
+        "The thugs were paid by Gerald Harrington"
+      ],
+      "withheld": [
+        "Who Gerald Harrington is",
+        "What Alexander's next move against Harrington will be"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The physical dominance of Alexander combined with Juliana's heartbreaking realization upon hearing Gerald's name creates a strong emotional resonance.",
+      "evidence": [
+        "EP016_B014",
+        "EP016_B017",
+        "EP016_B045",
+        "EP016_B046"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "satisfaction and shock",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP016_B014",
+        "EP016_B017",
+        "EP016_B036",
+        "EP016_B044",
+        "EP016_B045"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "threat",
+      "evidence": [
+        "EP016_B004"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP016_B009",
+        "EP016_B044",
+        "EP016_B045"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Protecting an injured woman and uncovering the mastermind who orchestrated the violent harassment.",
+      "evidence": [
+        "EP016_B011",
+        "EP016_B033",
+        "EP016_B036",
+        "EP016_B044"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP016_B045"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Identity and relationship of Gerald Harrington"
+    ],
+    "curiosity_revealed": [
+      "Alexander's combat prowess",
+      "The thugs were paid by Gerald Harrington"
+    ],
+    "curiosity_withheld": [
+      "Who Gerald Harrington is",
+      "What Alexander's next move against Harrington will be"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch an unstoppable protector dismantle attackers and expose the cowardly mastermind behind the betrayal.",
+    "supporting_block_ids": [
+      "EP016_B014",
+      "EP016_B017",
+      "EP016_B036",
+      "EP016_B044",
+      "EP016_B045",
+      "EP016_B004",
+      "EP016_B009",
+      "EP016_B011",
+      "EP016_B033"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A stoic protector named Alexander easily defeats three thugs who are harassing a wounded woman named Juliana in a garden. When Alexander interrogates the lead thug, the thug confesses that Gerald Harrington is the one who paid them.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Gerald Harrington is and why he targeted Juliana is not explained.\",\n      \"block_ids\": [\"K41\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K01\",\n    \"score\": 3,\n    \"reason\": \"A thug menacingly demands a soldier to move aside, setting up a confrontation, though it starts with a standard genre trope.\",\n    \"evidence\": [\"K01\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K12\", \"K19\", \"K23\", \"K34\", \"K41\"],\n    \"reason\": \"Tension escalates from an impending fight where Alexander effortlessly overpowers multiple attackers to a high-stakes interrogation that yields a shocking name.\",\n    \"evidence\": [\"K12\", \"K19\", \"K23\", \"K34\", \"K41\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K43\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"partly_resolved\",\n    \"open_question\": \"How will Juliana and Alexander deal with Gerald Harrington after this betrayal?\",\n    \"score\": 4,\n    \"reason\": \"The clip reveals the mastermind behind the attack, leaving the viewer to wonder what retribution Alexander will bring down upon Gerald Harrington.\",\n    \"evidence\": [\"K41\", \"K43\", \"K44\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core conflict—protector defending a victim against thugs and extracting a name—is entirely self-contained, with only the identity of Gerald Harrington remaining an external unknown.\",\n    \"evidence\": [\"K01\", \"K09\", \"K34\", \"K41\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"Alexander's combat prowess\", \"The thugs were paid by Gerald Harrington\"],\n    \"withheld\": [\"Who Gerald Harrington is\", \"What Alexander's next move against Harrington will be\"],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It answers who sent the thugs to provide a satisfying mini-arc while opening up a bigger question about the betrayal by Gerald.\",\n    \"evidence\": [\"K41\", \"K43\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"satisfaction and shock\",\n    \"score\": 4,\n    \"reason\": \"The physical dominance of Alexander combined with Juliana's heartbreaking realization upon hearing Gerald's name creates a strong emotional resonance.\",\n    \"evidence\": [\"K12\", \"K15\", \"K43\", \"K44\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K12\", \"K15\", \"K34\", \"K41\", \"K43\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"threat\",\n      \"evidence\": [\"K01\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K08\", \"K41\", \"K43\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Protecting an injured woman and uncovering the mastermind who orchestrated the violent harassment.\",\n      \"evidence\": [\"K09\", \"K30\", \"K34\", \"K41\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Identity and relationship of Gerald Harrington\"\n      ]\n    },\n    \"appeal\": \"Watch an unstoppable protector dismantle attackers and expose the cowardly mastermind behind the betrayal.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "73e27d3bcb5d2a18f499734ba1833b1e5437f7c8f74cde974c160b27c618cd5c",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3700,
+      "prompt_tokens": 3860,
+      "completion_tokens": 993,
+      "total_tokens": 4853,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:56:04.961660+00:00"
+}

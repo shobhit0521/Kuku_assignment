@@ -1,0 +1,301 @@
+{
+  "candidate_id": "EP005_C01",
+  "episode_id": "EP005",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "1754663357602336d421d039d8e2d9f02346ce20c701d10151753ef9c6ddc07c",
+  "clip_start_ms": 6600,
+  "clip_end_ms": 51800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP005_B006",
+    "EP005_B007"
+  ],
+  "eligible_beat_ids": [
+    "EP005_B023",
+    "EP005_B024",
+    "EP005_B025",
+    "EP005_B026",
+    "EP005_B027",
+    "EP005_B028"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "An aristocratic father coldly disowns his daughter right after her wedding, establishing high emotional stakes instantly.",
+      "evidence": [
+        "EP005_B007",
+        "EP005_B006"
+      ],
+      "issues": [],
+      "block_id": "EP005_B007",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension rises step-by-step as the father strips away the daughter's name, inheritance, and family status, culminating in a secondary demand for her mother's ledger.",
+      "evidence": [
+        "EP005_B007",
+        "EP005_B012",
+        "EP005_B015",
+        "EP005_B027",
+        "EP005_B028"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP005_B007",
+        "EP005_B012",
+        "EP005_B015",
+        "EP005_B027"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip cuts off right as Juliana fiercely defends her mother's ledger against Lady Ashcroft's hostile demand, leaving her fate and the item's security hanging.",
+      "evidence": [
+        "EP005_B028",
+        "EP005_B027"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP005_B028",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "Will Juliana be forced to surrender her only remaining connection to her mother?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The family conflict, parental rejection, and struggle over the mother's possession are clear on the surface, though the specific background of the ledger remains a minor unknown.",
+      "evidence": [
+        "EP005_B007",
+        "EP005_B015",
+        "EP005_B028"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A stern father disowns his daughter outside a church after her wedding, stripping her of her dowry and inheritance. Afterward, another woman aggressively demands a ledger that belonged to the daughter's mother.",
+      "confusions": [
+        {
+          "issue": "The significance and contents of the ledger are never explained.",
+          "block_ids": [
+            "EP005_B025",
+            "EP005_B027",
+            "EP005_B028"
+          ]
+        },
+        {
+          "issue": "The identity and relationship of the Mysterious Bearded Man are entirely unrevealed.",
+          "block_ids": [
+            "EP005_B019"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It clearly establishes the emotional core of the betrayal while leaving the dispute over the ledger unresolved.",
+      "evidence": [
+        "EP005_B015",
+        "EP005_B027",
+        "EP005_B028"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Lord Ashcroft disowns Juliana and revokes her inheritance.",
+        "Lady Ashcroft demands a mysterious family ledger."
+      ],
+      "withheld": [
+        "What is inside the ledger and why it matters so much.",
+        "How Juliana will survive or fight back against her family."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The combination of severe parental rejection and aggressive property seizure generates strong sympathy for the protagonist.",
+      "evidence": [
+        "EP005_B016",
+        "EP005_B018",
+        "EP005_B028"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Outrage and heartbreak",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "betrayal_humiliation",
+      "evidence": [
+        "EP005_B007",
+        "EP005_B015",
+        "EP005_B027"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP005_B007"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP005_B015",
+        "EP005_B018",
+        "EP005_B028"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A disowned bride fights to keep the final memento of her dead mother against her ruthless family.",
+      "evidence": [
+        "EP005_B015",
+        "EP005_B017",
+        "EP005_B028"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP005_B028"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "History of the ledger"
+    ],
+    "curiosity_revealed": [
+      "Lord Ashcroft disowns Juliana and revokes her inheritance.",
+      "Lady Ashcroft demands a mysterious family ledger."
+    ],
+    "curiosity_withheld": [
+      "What is inside the ledger and why it matters so much.",
+      "How Juliana will survive or fight back against her family."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A cold-hearted family disowns their daughter at the altar, then tries to steal her last remaining keepsake.",
+    "supporting_block_ids": [
+      "EP005_B007",
+      "EP005_B015",
+      "EP005_B027",
+      "EP005_B018",
+      "EP005_B028",
+      "EP005_B017"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A stern father disowns his daughter outside a church after her wedding, stripping her of her dowry and inheritance. Afterward, another woman aggressively demands a ledger that belonged to the daughter's mother.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The significance and contents of the ledger are never explained.\",\n      \"block_ids\": [\"K20\", \"K22\", \"K23\"]\n    },\n    {\n      \"issue\": \"The identity and relationship of the Mysterious Bearded Man are entirely unrevealed.\",\n      \"block_ids\": [\"K14\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"An aristocratic father coldly disowns his daughter right after her wedding, establishing high emotional stakes instantly.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\n      \"K02\",\n      \"K07\",\n      \"K10\",\n      \"K22\"\n    ],\n    \"reason\": \"Tension rises step-by-step as the father strips away the daughter's name, inheritance, and family status, culminating in a secondary demand for her mother's ledger.\",\n    \"evidence\": [\n      \"K02\",\n      \"K07\",\n      \"K10\",\n      \"K22\",\n      \"K23\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K23\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Juliana be forced to surrender her only remaining connection to her mother?\",\n    \"score\": 4,\n    \"reason\": \"The clip cuts off right as Juliana fiercely defends her mother's ledger against Lady Ashcroft's hostile demand, leaving her fate and the item's security hanging.\",\n    \"evidence\": [\n      \"K22\",\n      \"K23\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The family conflict, parental rejection, and struggle over the mother's possession are clear on the surface, though the specific background of the ledger remains a minor unknown.\",\n    \"evidence\": [\n      \"K02\",\n      \"K10\",\n      \"K23\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Lord Ashcroft disowns Juliana and revokes her inheritance.\",\n      \"Lady Ashcroft demands a mysterious family ledger.\"\n    ],\n    \"withheld\": [\n      \"What is inside the ledger and why it matters so much.\",\n      \"How Juliana will survive or fight back against her family.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It clearly establishes the emotional core of the betrayal while leaving the dispute over the ledger unresolved.\",\n    \"evidence\": [\n      \"K10\",\n      \"K22\",\n      \"K23\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Outrage and heartbreak\",\n    \"score\": 4,\n    \"reason\": \"The combination of severe parental rejection and aggressive property seizure generates strong sympathy for the protagonist.\",\n    \"evidence\": [\n      \"K11\",\n      \"K13\",\n      \"K23\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"betrayal_humiliation\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K02\",\n        \"K10\",\n        \"K22\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\n        \"K10\",\n        \"K13\",\n        \"K23\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A disowned bride fights to keep the final memento of her dead mother against her ruthless family.\",\n      \"evidence\": [\n        \"K10\",\n        \"K12\",\n        \"K23\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"History of the ledger\"\n      ]\n    },\n    \"appeal\": \"A cold-hearted family disowns their daughter at the altar, then tries to steal her last remaining keepsake.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "d51c6f453745908f1438f3f099ce87b0074eb5ef594b990fdc93742ed1dc7cf0",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4480,
+      "prompt_tokens": 2896,
+      "completion_tokens": 1164,
+      "total_tokens": 4060,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:00:09.872198+00:00"
+}

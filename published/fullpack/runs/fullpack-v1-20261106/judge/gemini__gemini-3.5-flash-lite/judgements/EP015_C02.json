@@ -1,0 +1,316 @@
+{
+  "candidate_id": "EP015_C02",
+  "episode_id": "EP015",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "3c6ace4f533bb80aa59f72d63d3ca92aee8682e9d754b5f4248ec3ae71500326",
+  "clip_start_ms": 44200,
+  "clip_end_ms": 86000,
+  "masked_terms": 2,
+  "eligible_hook_ids": [
+    "EP015_B030",
+    "EP015_B031",
+    "EP015_B033",
+    "EP015_B032"
+  ],
+  "eligible_beat_ids": [
+    "EP015_B050",
+    "EP015_B051",
+    "EP015_B052",
+    "EP015_B053",
+    "EP015_B054"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "An aggressive confrontation starts immediately, making a viewer stop to see what happens next.",
+      "evidence": [
+        "EP015_B031",
+        "EP015_B030"
+      ],
+      "issues": [],
+      "block_id": "EP015_B031",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds effectively from the initial physical assault on the protagonist, through the destruction of her cherished plants, to the arrival of a formidable protector ready to fight.",
+      "evidence": [
+        "EP015_B034",
+        "EP015_B037",
+        "EP015_B042",
+        "EP015_B045",
+        "EP015_B051",
+        "EP015_B055"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP015_B034",
+        "EP015_B037",
+        "EP015_B042",
+        "EP015_B045",
+        "EP015_B051"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip cuts off right as a fight is about to break out between the newcomer and the armed thugs, leaving the immediate outcome hanging.",
+      "evidence": [
+        "EP015_B054",
+        "EP015_B053",
+        "EP015_B055"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP015_B054",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Will Alexander defeat the thugs in the impending fight, and can he protect Juliana?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core conflict—bullies terrorizing an innocent, vulnerable woman and a hero stepping in to save her—is universally understood without needing prior backstory.",
+      "evidence": [
+        "EP015_B034",
+        "EP015_B039",
+        "EP015_B045",
+        "EP015_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman is shoved to the ground and her mother's garden is vandalized by thugs, but a fierce protector named Alexander arrives just in time to confront them. The clip ends right before a potential violent clash begins.",
+      "confusions": [
+        {
+          "issue": "Who Alexander is and his exact relationship to Juliana is left unstated.",
+          "block_ids": [
+            "EP015_B045",
+            "EP015_B048",
+            "EP015_B053"
+          ]
+        },
+        {
+          "issue": "Why the thugs are targeting Juliana's garden and why she is injured/bandaged beforehand is unknown.",
+          "block_ids": [
+            "EP015_B034",
+            "EP015_B037",
+            "EP015_B039"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It clearly establishes the injustice and the stakes, then cuts right before the retaliatory action or resolution.",
+      "evidence": [
+        "EP015_B034",
+        "EP015_B037",
+        "EP015_B051",
+        "EP015_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is being harassed and her mother's plants are destroyed by thugs.",
+        "Alexander arrives to defend her."
+      ],
+      "withheld": [
+        "How Alexander handles the thugs.",
+        "The background of why Juliana is injured and why the thugs are targeting her."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Watching thugs shove an injured woman and destroy the memory of her mother evokes strong sympathy and a desire for payback.",
+      "evidence": [
+        "EP015_B034",
+        "EP015_B037",
+        "EP015_B039",
+        "EP015_B041"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage and sympathy",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "danger_threat",
+      "evidence": [
+        "EP015_B034",
+        "EP015_B042",
+        "EP015_B045",
+        "EP015_B051"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP015_B030",
+        "EP015_B031"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP015_B034",
+        "EP015_B037",
+        "EP015_B041"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Physical safety and the destruction of irreplaceable sentimental property.",
+      "evidence": [
+        "EP015_B034",
+        "EP015_B037",
+        "EP015_B042"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP015_B054"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Relationship between Juliana and Alexander",
+      "Why the thugs are harassing her"
+    ],
+    "curiosity_revealed": [
+      "Juliana is being harassed and her mother's plants are destroyed by thugs.",
+      "Alexander arrives to defend her."
+    ],
+    "curiosity_withheld": [
+      "How Alexander handles the thugs.",
+      "The background of why Juliana is injured and why the thugs are targeting her."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Cruel thugs assault an injured woman and trash her garden—until a lethal protector steps in.",
+    "supporting_block_ids": [
+      "EP015_B034",
+      "EP015_B042",
+      "EP015_B045",
+      "EP015_B051",
+      "EP015_B030",
+      "EP015_B031",
+      "EP015_B037",
+      "EP015_B041",
+      "EP015_B054"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman is shoved to the ground and her mother's garden is vandalized by thugs, but a fierce protector named Alexander arrives just in time to confront them. The clip ends right before a potential violent clash begins.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Alexander is and his exact relationship to Juliana is left unstated.\",\n      \"block_ids\": [\"K16\", \"K19\", \"K24\"]\n    },\n    {\n      \"issue\": \"Why the thugs are targeting Juliana's garden and why she is injured/bandaged beforehand is unknown.\",\n      \"block_ids\": [\"K05\", \"K08\", \"K09\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"An aggressive confrontation starts immediately, making a viewer stop to see what happens next.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K05\",\n      \"K08\",\n      \"K14\",\n      \"K16\",\n      \"K22\"\n    ],\n    \"reason\": \"Tension builds effectively from the initial physical assault on the protagonist, through the destruction of her cherished plants, to the arrival of a formidable protector ready to fight.\",\n    \"evidence\": [\n      \"K05\",\n      \"K08\",\n      \"K14\",\n      \"K16\",\n      \"K22\",\n      \"K26\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K25\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Alexander defeat the thugs in the impending fight, and can he protect Juliana?\",\n    \"score\": 4,\n    \"reason\": \"The clip cuts off right as a fight is about to break out between the newcomer and the armed thugs, leaving the immediate outcome hanging.\",\n    \"evidence\": [\n      \"K24\",\n      \"K25\",\n      \"K26\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core conflict—bullies terrorizing an innocent, vulnerable woman and a hero stepping in to save her—is universally understood without needing prior backstory.\",\n    \"evidence\": [\n      \"K05\",\n      \"K09\",\n      \"K16\",\n      \"K22\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is being harassed and her mother's plants are destroyed by thugs.\",\n      \"Alexander arrives to defend her.\"\n    ],\n    \"withheld\": [\n      \"How Alexander handles the thugs.\",\n      \"The background of why Juliana is injured and why the thugs are targeting her.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It clearly establishes the injustice and the stakes, then cuts right before the retaliatory action or resolution.\",\n    \"evidence\": [\n      \"K05\",\n      \"K08\",\n      \"K22\",\n      \"K25\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage and sympathy\",\n    \"score\": 4,\n    \"reason\": \"Watching thugs shove an injured woman and destroy the memory of her mother evokes strong sympathy and a desire for payback.\",\n    \"evidence\": [\n      \"K05\",\n      \"K08\",\n      \"K09\",\n      \"K12\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"danger_threat\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K05\",\n        \"K14\",\n        \"K16\",\n        \"K22\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K01\",\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\n        \"K05\",\n        \"K08\",\n        \"K12\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"Physical safety and the destruction of irreplaceable sentimental property.\",\n      \"evidence\": [\n        \"K05\",\n        \"K08\",\n        \"K14\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Relationship between Juliana and Alexander\",\n        \"Why the thugs are harassing her\"\n      ]\n    },\n    \"appeal\": \"Cruel thugs assault an injured woman and trash her garden—until a lethal protector steps in.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "7db50c1e215cb4b0541211795183921128e4006b2ecc3b0507ac1a71fa3729cc",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4141,
+      "prompt_tokens": 3032,
+      "completion_tokens": 1220,
+      "total_tokens": 4252,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:55:51.722563+00:00"
+}

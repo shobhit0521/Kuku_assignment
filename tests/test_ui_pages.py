@@ -45,9 +45,29 @@ def test_shell_shows_dataset_rubric_and_freshness(built, monkeypatch):
     assert "Ranking current" in side and "judge-v2 on disk; not used" in side
 
 
-def test_shortlist_page_lists_ranked_and_unselected_eligible(built, monkeypatch):
-    page = html(render(built, monkeypatch))
-    assert "Promotional shortlist" in page and "judge-v1" in page
+def test_default_page_shows_only_the_briefs_fields(built, monkeypatch):
+    at = render(built, monkeypatch)
+    page = "\n".join(b for b in (h.proto.body for h in at.get("html")) if not b.startswith("<style>"))
+    assert "Promos to post first" in page and "Ranked promos" in page
+    promo = page.split('<article class="pp-promo">', 1)[1].split("</article>", 1)[0]
+    labels = re.findall(r"<dt>([^<]+)</dt>", promo)
+    assert labels == ["Segment 1", "Hook", "Cliffhanger", "Why it works", "Why this rank"]
+    assert "Episode 9" in promo and "Weighted score" in promo and " → " in promo
+    assert "Where the tool picks badly" in page and "Broke a hard rule" in page and "Too weak to post" in page
+    assert "EP009_C01" in page and "not from viewers" in page
+    for detail in ("pp-dims", "pp-pips", "Also eligible", "How the shortlist is selected", "Technical validation"):
+        assert detail not in page
+    assert "Full analysis" in [p.proto.label for p in at.get("page_link")]
+
+
+def test_detail_pages_are_in_the_sidebar(built, monkeypatch):
+    at = render(built, monkeypatch, "views/downloads.py")
+    assert {"shortlist.csv", "ranking.json"} <= {d.proto.label for d in at.get("download_button")}
+
+
+def test_scores_page_lists_ranked_and_unselected_eligible(built, monkeypatch):
+    page = html(render(built, monkeypatch, "views/scores.py"))
+    assert "Scores and ranking rules" in page and "judge-v1" in page
     assert "EP009_C01_R1" in page and "Repaired from EP009_C01" in page
     assert "Also eligible, not selected" in page and "Near-duplicate" in page and "per episode" in page
     assert "Needs review" in page
@@ -115,6 +135,8 @@ def test_rendering_never_modifies_source_files(built, monkeypatch):
         return {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(built.rglob("*")) if p.is_file()}
     before = hashes()
     render(built, monkeypatch)
+    render(built, monkeypatch, "views/scores.py")
+    render(built, monkeypatch, "views/downloads.py")
     render(built, monkeypatch, "views/attention.py")
     render(built, monkeypatch, "views/repairs.py")
     for cid in fx.EXPECTED_LANES:
@@ -193,6 +215,6 @@ def test_failed_candidates_show_a_muted_diagnostic_score(built, monkeypatch):
 def test_candidate_page_links_to_attention_and_repair_record(built, monkeypatch):
     at = render(built, monkeypatch, "views/candidate.py", "EP009_C01")
     labels = {p.proto.label: p.proto for p in at.get("page_link")}
-    assert {"View in Needs attention", "View repair record"} <= set(labels)
+    assert {"View in Where it picks badly", "View repair record"} <= set(labels)
     at = render(built, monkeypatch, "views/candidate.py", "EP009_C02")
-    assert not {"View in Needs attention", "View repair record"} & {p.proto.label for p in at.get("page_link")}
+    assert not {"View in Where it picks badly", "View repair record"} & {p.proto.label for p in at.get("page_link")}

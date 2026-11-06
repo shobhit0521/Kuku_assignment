@@ -1,0 +1,311 @@
+{
+  "candidate_id": "EP015_C01",
+  "episode_id": "EP015",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "495dd98474ec72848565f1da5fa303860c056600e405baf6acbe4e75e5ada24b",
+  "clip_start_ms": 3500,
+  "clip_end_ms": 56500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP015_B003",
+    "EP015_B004",
+    "EP015_B005",
+    "EP015_B006",
+    "EP015_B007"
+  ],
+  "eligible_beat_ids": [
+    "EP015_B034",
+    "EP015_B035",
+    "EP015_B036",
+    "EP015_B037",
+    "EP015_B039",
+    "EP015_B038"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The sudden destruction of property grabs attention, though without context it looks like random vandalism.",
+      "evidence": [
+        "EP015_B004",
+        "EP015_B003"
+      ],
+      "issues": [],
+      "block_id": "EP015_B004",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds as the thugs escalate from ruining the plants to physically assaulting Juliana, though the conflict remains one-sided bullying.",
+      "evidence": [
+        "EP015_B009",
+        "EP015_B017",
+        "EP015_B034",
+        "EP015_B037"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP015_B009",
+        "EP015_B017",
+        "EP015_B034",
+        "EP015_B037"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "The clip cuts off on a painful emotional low point of physical abuse and bleeding bandages, creating a sympathetic hook rather than a sharp narrative question.",
+      "evidence": [
+        "EP015_B037",
+        "EP015_B039",
+        "EP015_B038"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP015_B037",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Will Juliana face worse violence from these thugs, and will she be able to defend herself or her home?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The situation is self-contained: bullies destroy a woman's garden and push her down. Only the deeper motive or background of the characters is missing.",
+      "evidence": [
+        "EP015_B009",
+        "EP015_B012",
+        "EP015_B034"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Thugs vandalize and destroy a medicinal garden belonging to a woman named Juliana, ignoring her pleas and ultimately shoving her to the ground. Despite her bandaged hands bleeding into the mud, she crawls forward to reach her mother's ruined plants.",
+      "confusions": [
+        {
+          "issue": "Who ordered the thugs to destroy the garden and why remains entirely unknown.",
+          "block_ids": [
+            "EP015_B011",
+            "EP015_B012",
+            "EP015_B022"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It clearly sets up the cruelty of the antagonists and the victimization of the protagonist, making the viewer want to see her fight back.",
+      "evidence": [
+        "EP015_B012",
+        "EP015_B027",
+        "EP015_B034",
+        "EP015_B037"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Thugs are destroying Juliana's medicinal garden",
+        "Juliana is desperate to protect her mother's plants",
+        "Juliana gets shoved down and injured"
+      ],
+      "withheld": [
+        "Who sent the thugs",
+        "What happens to Juliana next",
+        "Whether she gets any form of justice or retaliation"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Watching helpless destruction and the physical shaming/shoving of a vulnerable, injured woman successfully evokes strong sympathy and anger.",
+      "evidence": [
+        "EP015_B020",
+        "EP015_B034",
+        "EP015_B037",
+        "EP015_B039"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Outrage and sympathy",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "betrayal_humiliation",
+      "evidence": [
+        "EP015_B012",
+        "EP015_B027",
+        "EP015_B034",
+        "EP015_B037"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "danger_threat",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "physical_action",
+      "evidence": [
+        "EP015_B004",
+        "EP015_B007"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP015_B019",
+        "EP015_B034",
+        "EP015_B037",
+        "EP015_B039"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Juliana tries to protect her late mother's medicinal garden from ruthless thugs who are determined to destroy her home and livelihood.",
+      "evidence": [
+        "EP015_B020",
+        "EP015_B029",
+        "EP015_B039"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP015_B037"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Identity of the people behind the harassment"
+    ],
+    "curiosity_revealed": [
+      "Thugs are destroying Juliana's medicinal garden",
+      "Juliana is desperate to protect her mother's plants",
+      "Juliana gets shoved down and injured"
+    ],
+    "curiosity_withheld": [
+      "Who sent the thugs",
+      "What happens to Juliana next",
+      "Whether she gets any form of justice or retaliation"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch an innocent woman suffer cruel bullying and try to hold her ground against ruthless thugs.",
+    "supporting_block_ids": [
+      "EP015_B012",
+      "EP015_B027",
+      "EP015_B034",
+      "EP015_B037",
+      "EP015_B004",
+      "EP015_B007",
+      "EP015_B019",
+      "EP015_B039",
+      "EP015_B020",
+      "EP015_B029"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Thugs vandalize and destroy a medicinal garden belonging to a woman named Juliana, ignoring her pleas and ultimately shoving her to the ground. Despite her bandaged hands bleeding into the mud, she crawls forward to reach her mother's ruined plants.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who ordered the thugs to destroy the garden and why remains entirely unknown.\",\n      \"block_ids\": [\"K09\", \"K10\", \"K20\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"The sudden destruction of property grabs attention, though without context it looks like random vandalism.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K07\", \"K15\", \"K32\", \"K35\"],\n    \"reason\": \"Tension builds as the thugs escalate from ruining the plants to physically assaulting Juliana, though the conflict remains one-sided bullying.\",\n    \"evidence\": [\"K07\", \"K15\", \"K32\", \"K35\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K35\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Juliana face worse violence from these thugs, and will she be able to defend herself or her home?\",\n    \"score\": 3,\n    \"reason\": \"The clip cuts off on a painful emotional low point of physical abuse and bleeding bandages, creating a sympathetic hook rather than a sharp narrative question.\",\n    \"evidence\": [\"K35\", \"K36\", \"K37\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The situation is self-contained: bullies destroy a woman's garden and push her down. Only the deeper motive or background of the characters is missing.\",\n    \"evidence\": [\"K07\", \"K10\", \"K32\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Thugs are destroying Juliana's medicinal garden\",\n      \"Juliana is desperate to protect her mother's plants\",\n      \"Juliana gets shoved down and injured\"\n    ],\n    \"withheld\": [\n      \"Who sent the thugs\",\n      \"What happens to Juliana next\",\n      \"Whether she gets any form of justice or retaliation\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It clearly sets up the cruelty of the antagonists and the victimization of the protagonist, making the viewer want to see her fight back.\",\n    \"evidence\": [\"K10\", \"K25\", \"K32\", \"K35\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Outrage and sympathy\",\n    \"score\": 4,\n    \"reason\": \"Watching helpless destruction and the physical shaming/shoving of a vulnerable, injured woman successfully evokes strong sympathy and anger.\",\n    \"evidence\": [\"K18\", \"K32\", \"K35\", \"K36\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"betrayal_humiliation\",\n      \"other_label\": null,\n      \"secondary\": \"danger_threat\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K10\", \"K25\", \"K32\", \"K35\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"physical_action\",\n      \"evidence\": [\"K02\", \"K05\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\"K17\", \"K32\", \"K35\", \"K36\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Juliana tries to protect her late mother's medicinal garden from ruthless thugs who are determined to destroy her home and livelihood.\",\n      \"evidence\": [\"K18\", \"K27\", \"K36\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Identity of the people behind the harassment\"\n      ]\n    },\n    \"appeal\": \"Watch an innocent woman suffer cruel bullying and try to hold her ground against ruthless thugs.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "23a09cf34918d206a58c30c5e2c763c7d894da427af0185bfab777554b0dbff2",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3917,
+      "prompt_tokens": 3569,
+      "completion_tokens": 1063,
+      "total_tokens": 4632,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:55:23.386324+00:00"
+}

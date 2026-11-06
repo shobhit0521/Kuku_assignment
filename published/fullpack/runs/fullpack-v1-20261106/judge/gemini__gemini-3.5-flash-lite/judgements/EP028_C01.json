@@ -1,0 +1,306 @@
+{
+  "candidate_id": "EP028_C01",
+  "episode_id": "EP028",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "a739bb277bcd8a38e96816b43e728c7c6b7fc4b89b7cb791bc5133946e5e4bb1",
+  "clip_start_ms": 97400,
+  "clip_end_ms": 138500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP028_B072",
+    "EP028_B073"
+  ],
+  "eligible_beat_ids": [
+    "EP028_B091",
+    "EP028_B092",
+    "EP028_B093",
+    "EP028_B094",
+    "EP028_B095",
+    "EP028_B096"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Catherine's venomous delivery of the name instantly establishes a confrontation and personal unmasking.",
+      "evidence": [
+        "EP028_B073",
+        "EP028_B072"
+      ],
+      "issues": [],
+      "block_id": "EP028_B073",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily from verbal humiliation and unmasking to physical detention, sentencing, and the ultimate threat of the gallows.",
+      "evidence": [
+        "EP028_B076",
+        "EP028_B082",
+        "EP028_B087",
+        "EP028_B095"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP028_B076",
+        "EP028_B082",
+        "EP028_B087",
+        "EP028_B095"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip cuts away on Juliana's terrified eyes as she is violently dragged toward the dark hallway and impending execution.",
+      "evidence": [
+        "EP028_B096",
+        "EP028_B095"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP028_B096",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Will Juliana be saved from the gallows and clear her mother's name, or will Catherine succeed in executing her?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The power dynamic, the antagonist's malice, and the protagonist's desperate stakes are entirely clear, even if the prior backstory of the book is unknown.",
+      "evidence": [
+        "EP028_B074",
+        "EP028_B082",
+        "EP028_B087",
+        "EP028_B095"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A haughty noblewoman named Catherine unmasks a disguised servant as the disgraced Lady Juliana and orders her dragged to a dungeon while using her mother's herbarium book to frame her for execution. Juliana screams in defiance and desperation as she is violently hauled away toward the gallows.",
+      "confusions": [
+        {
+          "issue": "The exact contents of the herbarium book and why it hangs Juliana are not explained.",
+          "block_ids": [
+            "EP028_B090",
+            "EP028_B094",
+            "EP028_B095"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "It clearly sets up the antagonist's cruel objective and leaves the ultimate fate of the protagonist hanging on a high-stakes cliffhanger.",
+      "evidence": [
+        "EP028_B090",
+        "EP028_B095",
+        "EP028_B096"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana's true identity",
+        "Catherine's malicious plot to use the book to frame Juliana",
+        "The order for Juliana's imprisonment and hanging"
+      ],
+      "withheld": [
+        "What is actually in the book",
+        "Whether Juliana's husband or allies will rescue her",
+        "How the conflict between Catherine and Juliana originated"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Catherine's unrelenting cruelty combined with Juliana's fierce defense of her husband and her mother's legacy provokes strong sympathy and indignation.",
+      "evidence": [
+        "EP028_B080",
+        "EP028_B082",
+        "EP028_B092"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Outrage and sympathy",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP028_B074",
+        "EP028_B077",
+        "EP028_B084",
+        "EP028_B087"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP028_B073"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP028_B077",
+        "EP028_B080",
+        "EP028_B087",
+        "EP028_B095"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A fallen noblewoman working as a servant is exposed, imprisoned, and framed for execution using her late mother's life's work.",
+      "evidence": [
+        "EP028_B077",
+        "EP028_B084",
+        "EP028_B087",
+        "EP028_B092",
+        "EP028_B095"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP028_B096"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "The specific contents of the botanical book"
+    ],
+    "curiosity_revealed": [
+      "Juliana's true identity",
+      "Catherine's malicious plot to use the book to frame Juliana",
+      "The order for Juliana's imprisonment and hanging"
+    ],
+    "curiosity_withheld": [
+      "What is actually in the book",
+      "Whether Juliana's husband or allies will rescue her",
+      "How the conflict between Catherine and Juliana originated"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A ruthless mistress frames a fallen lady for treason, sending her toward the gallows.",
+    "supporting_block_ids": [
+      "EP028_B074",
+      "EP028_B077",
+      "EP028_B084",
+      "EP028_B087",
+      "EP028_B073",
+      "EP028_B080",
+      "EP028_B095",
+      "EP028_B092",
+      "EP028_B096"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A haughty noblewoman named Catherine unmasks a disguised servant as the disgraced Lady Juliana and orders her dragged to a dungeon while using her mother's herbarium book to frame her for execution. Juliana screams in defiance and desperation as she is violently hauled away toward the gallows.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact contents of the herbarium book and why it hangs Juliana are not explained.\",\n      \"block_ids\": [\"K19\", \"K23\", \"K24\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Catherine's venomous delivery of the name instantly establishes a confrontation and personal unmasking.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K05\", \"K11\", \"K15\", \"K24\"],\n    \"reason\": \"Tension builds steadily from verbal humiliation and unmasking to physical detention, sentencing, and the ultimate threat of the gallows.\",\n    \"evidence\": [\"K05\", \"K11\", \"K15\", \"K24\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K25\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Juliana be saved from the gallows and clear her mother's name, or will Catherine succeed in executing her?\",\n    \"score\": 5,\n    \"reason\": \"The clip cuts away on Juliana's terrified eyes as she is violently dragged toward the dark hallway and impending execution.\",\n    \"evidence\": [\"K24\", \"K25\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The power dynamic, the antagonist's malice, and the protagonist's desperate stakes are entirely clear, even if the prior backstory of the book is unknown.\",\n    \"evidence\": [\"K03\", \"K11\", \"K15\", \"K24\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana's true identity\",\n      \"Catherine's malicious plot to use the book to frame Juliana\",\n      \"The order for Juliana's imprisonment and hanging\"\n    ],\n    \"withheld\": [\n      \"What is actually in the book\",\n      \"Whether Juliana's husband or allies will rescue her\",\n      \"How the conflict between Catherine and Juliana originated\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"It clearly sets up the antagonist's cruel objective and leaves the ultimate fate of the protagonist hanging on a high-stakes cliffhanger.\",\n    \"evidence\": [\"K19\", \"K24\", \"K25\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Outrage and sympathy\",\n    \"score\": 4,\n    \"reason\": \"Catherine's unrelenting cruelty combined with Juliana's fierce defense of her husband and her mother's legacy provokes strong sympathy and indignation.\",\n    \"evidence\": [\"K09\", \"K11\", \"K21\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K03\", \"K06\", \"K12\", \"K15\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K06\", \"K09\", \"K15\", \"K24\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A fallen noblewoman working as a servant is exposed, imprisoned, and framed for execution using her late mother's life's work.\",\n      \"evidence\": [\"K06\", \"K12\", \"K15\", \"K21\", \"K24\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"The specific contents of the botanical book\"\n      ]\n    },\n    \"appeal\": \"A ruthless mistress frames a fallen lady for treason, sending her toward the gallows.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "23c72731bb9852f1c19ef056ad0f395dd5bf305d6e0783eef8bd88f1f4a026bb",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3937,
+      "prompt_tokens": 2969,
+      "completion_tokens": 1089,
+      "total_tokens": 4058,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:59:59.718044+00:00"
+}

@@ -98,3 +98,33 @@ def llm_settings() -> dict:
         "gen_max_tokens": int(_env_number("PROMOPILOT_GEN_MAX_TOKENS", 8192)),
         "gen_candidates": int(_env_number("PROMOPILOT_GEN_CANDIDATES", 5)),
     }
+
+
+def dashboard_dir() -> Path:
+    """Output root the dashboard pages read: PROMOPILOT_DASHBOARD_DIR (relative paths resolve against the project),
+    else the output dir."""
+    value = os.environ.get("PROMOPILOT_DASHBOARD_DIR", "").strip()
+    if not value:
+        return output_dir()
+    path = Path(value)
+    return path if path.is_absolute() else PROJECT_ROOT / path
+
+
+def live_dir() -> Path:
+    """Scratch root for uploaded-screenplay jobs. Never inside the dashboard or production output folders."""
+    import tempfile
+
+    value = os.environ.get("PROMOPILOT_LIVE_DIR", "").strip()
+    return Path(value) if value else Path(tempfile.gettempdir()) / "promopilot_live"
+
+
+# Limits for the public upload page (all overridable in .env or deployment secrets).
+def live_settings() -> dict:
+    return {
+        "max_files": int(_env_number("PROMOPILOT_LIVE_MAX_FILES", 5)),
+        "max_file_kb": int(_env_number("PROMOPILOT_LIVE_MAX_FILE_KB", 100)),
+        "gen_requests_per_file": int(_env_number("PROMOPILOT_LIVE_GEN_REQUESTS_PER_FILE", 2)),
+        "judge_requests_per_file": int(_env_number("PROMOPILOT_LIVE_JUDGE_REQUESTS_PER_FILE", 12)),
+        "daily_request_cap": int(_env_number("PROMOPILOT_LIVE_DAILY_REQUEST_CAP", 150)),
+        "job_ttl_min": int(_env_number("PROMOPILOT_LIVE_JOB_TTL_MIN", 120)),
+    }

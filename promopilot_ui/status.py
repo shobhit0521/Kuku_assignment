@@ -144,6 +144,32 @@ def selection_note(ordered_row: Optional[dict], ranking: Optional[dict]) -> Opti
     return humanize(status)
 
 
+TIE_BREAKS = ("cliffhanger", "hook", "context_independence")  # promopilot.ranking.rank sort order after the score
+
+
+def rank_reason(shortlist: list[dict], i: int) -> str:
+    """Why shortlist row `i` sits where it does, from the stored scores and the ranking's own sort order:
+    weighted score, then cliffhanger, hook and context-independence scores, then candidate ID."""
+    row = shortlist[i]
+    head = f"Weighted score {row['score']:.2f} of 5"
+    if len(shortlist) == 1:
+        return f"{head}; the only clip on the shortlist."
+    above = i + 1 < len(shortlist)
+    other = shortlist[i + 1] if above else shortlist[i - 1]
+    n = other.get("rank")
+    if round(row["score"], 6) != round(other["score"], 6):
+        return (f"{head}, ahead of #{n} ({other['score']:.2f})." if above else
+                f"{head}, behind #{n} ({other['score']:.2f}); last of the {len(shortlist)} shortlisted clips.")
+    mine, theirs = row.get("dimension_scores") or {}, other.get("dimension_scores") or {}
+    for dim in TIE_BREAKS:
+        a, b = mine.get(dim), theirs.get(dim)
+        if a != b:
+            side = "placed above it" if above else "placed below it"
+            return (f"{head}, level with #{n}; {side} on the {DIMENSION_LABELS[dim].lower()} tie-break "
+                    f"({a} vs {b}).")
+    return f"{head}, level with #{n} on every tie-break score; ordered by candidate ID."
+
+
 def fmt_seconds(ms: Optional[int]) -> str:
     if ms is None:
         return "—"
@@ -152,4 +178,4 @@ def fmt_seconds(ms: Optional[int]) -> str:
 
 __all__ = ["DIMENSIONS", "WEIGHTED", "LANES", "Lane", "lane", "humanize", "selection_note", "gate_label",
            "rule_label", "DIMENSION_LABELS", "SHORT_LABELS", "EPISODE_STATES", "OUTCOME_LABELS",
-           "REASSESSMENT_LABELS", "TRACK_LABELS", "fmt_seconds"]
+           "REASSESSMENT_LABELS", "TRACK_LABELS", "fmt_seconds", "rank_reason", "TIE_BREAKS"]

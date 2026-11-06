@@ -1,0 +1,320 @@
+{
+  "candidate_id": "EP034_C04",
+  "episode_id": "EP034",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "3202af278174dba7d8baa3f59e03e3f2a6442989e9e201e2963f09dc32357685",
+  "clip_start_ms": 37400,
+  "clip_end_ms": 93200,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP034_B022",
+    "EP034_B023"
+  ],
+  "eligible_beat_ids": [
+    "EP034_B048",
+    "EP034_B050",
+    "EP034_B049",
+    "EP034_B051",
+    "EP034_B052",
+    "EP034_B053",
+    "EP034_B054",
+    "EP034_B055",
+    "EP034_B056"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Starting immediately with a courtroom trial addressing an accused person and a trembling witness establishes high-stakes drama right away.",
+      "evidence": [
+        "EP034_B023",
+        "EP034_B022"
+      ],
+      "issues": [],
+      "block_id": "EP034_B023",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily as the judge extracts more damaging testimony from the crying maid, culminating in the lord's smug confirmation and the accused's defiant outburst.",
+      "evidence": [
+        "EP034_B028",
+        "EP034_B037",
+        "EP034_B043",
+        "EP034_B047",
+        "EP034_B050",
+        "EP034_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP034_B028",
+        "EP034_B037",
+        "EP034_B043",
+        "EP034_B047",
+        "EP034_B050"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The lord's final line introduces an impending threat of more hostile testimony just as the judge silences Juliana, leaving viewers wondering what happens next.",
+      "evidence": [
+        "EP034_B056",
+        "EP034_B055"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP034_B056",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "What other witnesses does the lord have, and how will Lady Juliana defend herself against the accumulating fake or misconstrued evidence?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core situation—a rigged or high-stakes trial where a witness is coerced into giving condemning testimony against a bound woman—is easy to grasp without prior episodes.",
+      "evidence": [
+        "EP034_B023",
+        "EP034_B028",
+        "EP034_B043",
+        "EP034_B047"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A young maid named Prudence is pressured in a courtroom to testify that Lady Juliana performed suspicious herbal rituals. Despite Juliana's quiet plea for truth, Prudence breaks down and confirms the accusations, leading to a triumphant interjection from a lord and Juliana's angry protest.",
+      "confusions": [
+        {
+          "issue": "What specific crime or historical context surrounds Lady Juliana's trial and these alleged rituals?",
+          "block_ids": [
+            "EP034_B023",
+            "EP034_B028",
+            "EP034_B043"
+          ]
+        },
+        {
+          "issue": "What is the exact relationship between the Lord, Lady Juliana, and the testifying maid?",
+          "block_ids": [
+            "EP034_B023",
+            "EP034_B030",
+            "EP034_B047"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip clearly sets up the injustice and the conflict while withholding the outcome of the trial and the nature of the upcoming witnesses.",
+      "evidence": [
+        "EP034_B037",
+        "EP034_B047",
+        "EP034_B050",
+        "EP034_B056"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The maid is testifying against Lady Juliana under pressure.",
+        "The testimony involves herbal treatments and rituals.",
+        "A lord is driving the prosecution."
+      ],
+      "withheld": [
+        "Whether the rituals were actually malicious or helpful.",
+        "What punishment Lady Juliana faces.",
+        "Who the additional witnesses are."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The visible distress of the maid forced to betray her mistress and the unfair silencing of Lady Juliana evoke strong feelings of injustice and sympathy.",
+      "evidence": [
+        "EP034_B024",
+        "EP034_B031",
+        "EP034_B044",
+        "EP034_B050",
+        "EP034_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage_injustice",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP034_B023",
+        "EP034_B032",
+        "EP034_B047",
+        "EP034_B050"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP034_B023"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP034_B032",
+        "EP034_B050",
+        "EP034_B054"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Lady Juliana stands trial bound in irons as a corrupt or hostile court uses coerced testimony to frame her for practicing forbidden rituals.",
+      "evidence": [
+        "EP034_B029",
+        "EP034_B043",
+        "EP034_B047",
+        "EP034_B050"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP034_B056"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "The background of the 'treatments' and why the lord wants Juliana convicted."
+    ],
+    "curiosity_revealed": [
+      "The maid is testifying against Lady Juliana under pressure.",
+      "The testimony involves herbal treatments and rituals.",
+      "A lord is driving the prosecution."
+    ],
+    "curiosity_withheld": [
+      "Whether the rituals were actually malicious or helpful.",
+      "What punishment Lady Juliana faces.",
+      "Who the additional witnesses are."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A falsely accused lady watches her terrified maid betray her in a rigged courtroom trial.",
+    "supporting_block_ids": [
+      "EP034_B023",
+      "EP034_B032",
+      "EP034_B047",
+      "EP034_B050",
+      "EP034_B054",
+      "EP034_B029",
+      "EP034_B043",
+      "EP034_B056"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A young maid named Prudence is pressured in a courtroom to testify that Lady Juliana performed suspicious herbal rituals. Despite Juliana's quiet plea for truth, Prudence breaks down and confirms the accusations, leading to a triumphant interjection from a lord and Juliana's angry protest.\",\n  \"confusions\": [\n    {\n      \"issue\": \"What specific crime or historical context surrounds Lady Juliana's trial and these alleged rituals?\",\n      \"block_ids\": [\n        \"K02\",\n        \"K07\",\n        \"K22\"\n      ]\n    },\n    {\n      \"issue\": \"What is the exact relationship between the Lord, Lady Juliana, and the testifying maid?\",\n      \"block_ids\": [\n        \"K02\",\n        \"K09\",\n        \"K26\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Starting immediately with a courtroom trial addressing an accused person and a trembling witness establishes high-stakes drama right away.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K07\",\n      \"K16\",\n      \"K22\",\n      \"K26\",\n      \"K28\"\n    ],\n    \"reason\": \"Tension builds steadily as the judge extracts more damaging testimony from the crying maid, culminating in the lord's smug confirmation and the accused's defiant outburst.\",\n    \"evidence\": [\n      \"K07\",\n      \"K16\",\n      \"K22\",\n      \"K26\",\n      \"K28\",\n      \"K30\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K35\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What other witnesses does the lord have, and how will Lady Juliana defend herself against the accumulating fake or misconstrued evidence?\",\n    \"score\": 4,\n    \"reason\": \"The lord's final line introduces an impending threat of more hostile testimony just as the judge silences Juliana, leaving viewers wondering what happens next.\",\n    \"evidence\": [\n      \"K34\",\n      \"K35\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core situation—a rigged or high-stakes trial where a witness is coerced into giving condemning testimony against a bound woman—is easy to grasp without prior episodes.\",\n    \"evidence\": [\n      \"K02\",\n      \"K07\",\n      \"K22\",\n      \"K26\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The maid is testifying against Lady Juliana under pressure.\",\n      \"The testimony involves herbal treatments and rituals.\",\n      \"A lord is driving the prosecution.\"\n    ],\n    \"withheld\": [\n      \"Whether the rituals were actually malicious or helpful.\",\n      \"What punishment Lady Juliana faces.\",\n      \"Who the additional witnesses are.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip clearly sets up the injustice and the conflict while withholding the outcome of the trial and the nature of the upcoming witnesses.\",\n    \"evidence\": [\n      \"K16\",\n      \"K26\",\n      \"K28\",\n      \"K35\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage_injustice\",\n    \"score\": 4,\n    \"reason\": \"The visible distress of the maid forced to betray her mistress and the unfair silencing of Lady Juliana evoke strong feelings of injustice and sympathy.\",\n    \"evidence\": [\n      \"K03\",\n      \"K10\",\n      \"K23\",\n      \"K28\",\n      \"K33\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K02\",\n        \"K11\",\n        \"K26\",\n        \"K28\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\n        \"K11\",\n        \"K28\",\n        \"K33\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"Lady Juliana stands trial bound in irons as a corrupt or hostile court uses coerced testimony to frame her for practicing forbidden rituals.\",\n      \"evidence\": [\n        \"K08\",\n        \"K22\",\n        \"K26\",\n        \"K28\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"The background of the 'treatments' and why the lord wants Juliana convicted.\"\n      ]\n    },\n    \"appeal\": \"A falsely accused lady watches her terrified maid betray her in a rigged courtroom trial.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "a8aa36b186e85053f57af040c1556950d68838b36f18c3f35832b6f94b6c72b7",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 5003,
+      "prompt_tokens": 3405,
+      "completion_tokens": 1311,
+      "total_tokens": 4716,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:03:46.088939+00:00"
+}

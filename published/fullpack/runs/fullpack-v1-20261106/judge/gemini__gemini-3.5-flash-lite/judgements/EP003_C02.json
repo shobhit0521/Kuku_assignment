@@ -1,0 +1,302 @@
+{
+  "candidate_id": "EP003_C02",
+  "episode_id": "EP003",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "a563bab715693c9f9024a1bb59139397cfde9aee00db046206ea0e63103536a3",
+  "clip_start_ms": 68100,
+  "clip_end_ms": 103800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP003_B058",
+    "EP003_B059",
+    "EP003_B060"
+  ],
+  "eligible_beat_ids": [
+    "EP003_B080",
+    "EP003_B081",
+    "EP003_B082",
+    "EP003_B083",
+    "EP003_B084",
+    "EP003_B085",
+    "EP003_B086",
+    "EP003_B087",
+    "EP003_B088"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "An imposing stranger commanding someone to let go grabs attention instantly with a bold entrance.",
+      "evidence": [
+        "EP003_B059",
+        "EP003_B058"
+      ],
+      "issues": [],
+      "block_id": "EP003_B059",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds as the stranger marches down the aisle, effortlessly drops a guard, and openly defies the matriarch.",
+      "evidence": [
+        "EP003_B060",
+        "EP003_B071",
+        "EP003_B087"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP003_B059",
+        "EP003_B071",
+        "EP003_B087"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip cuts away right after his condemning statement against the family, leaving the confrontation unresolved.",
+      "evidence": [
+        "EP003_B088",
+        "EP003_B087"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP003_B088",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "Who is the stranger and what authority does he have to challenge this powerful family?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The core conflict (a strong outsider defending a woman from an abusive family gathering) is easy to follow, though specific backstories are missing.",
+      "evidence": [
+        "EP003_B062",
+        "EP003_B077",
+        "EP003_B087"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A mysterious bearded stranger interrupts a wedding or ceremony in a cathedral to defend a woman named Juliana from her hostile family and guards. After easily subduing a royal guard who tries to stop him, he confronts the noble matriarch and asserts his right to interfere.",
+      "confusions": [
+        {
+          "issue": "The exact relationship between the Bearded Stranger, Juliana, and the family is completely unknown.",
+          "block_ids": [
+            "EP003_B059",
+            "EP003_B076",
+            "EP003_B087"
+          ]
+        },
+        {
+          "issue": "Gerald's identity as 'the former groom' is mentioned in speaker labels but not explained in the clip's events.",
+          "block_ids": [
+            "EP003_B073",
+            "EP003_B074"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It clearly sets up the hero's power and defiance while keeping his identity and the broader plot a mystery.",
+      "evidence": [
+        "EP003_B071",
+        "EP003_B087",
+        "EP003_B088"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The stranger is immensely capable in a fight and deeply protective of Juliana.",
+        "The family and guards are hostile and trying to force Juliana out."
+      ],
+      "withheld": [
+        "Who the stranger is and why he cares about Juliana.",
+        "How the family will retaliate against this public humiliation."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The swift takedown of the arrogant guard and the stranger's cool protection of Juliana create a satisfying sense of vindication.",
+      "evidence": [
+        "EP003_B071",
+        "EP003_B077",
+        "EP003_B081"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "triumphant defiance",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP003_B059",
+        "EP003_B071",
+        "EP003_B087"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP003_B059"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "triumph",
+      "evidence": [
+        "EP003_B071",
+        "EP003_B077"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A powerful, abusive noble family attempts to remove a defenseless woman, challenging an invincible stranger's sense of justice.",
+      "evidence": [
+        "EP003_B062",
+        "EP003_B087"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP003_B088"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "The past relationship between the stranger and Juliana",
+      "The reason behind the family's harsh treatment"
+    ],
+    "curiosity_revealed": [
+      "The stranger is immensely capable in a fight and deeply protective of Juliana.",
+      "The family and guards are hostile and trying to force Juliana out."
+    ],
+    "curiosity_withheld": [
+      "Who the stranger is and why he cares about Juliana.",
+      "How the family will retaliate against this public humiliation."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A badass stranger crashes a wedding ceremony to single-handedly rescue a distressed woman from her toxic family.",
+    "supporting_block_ids": [
+      "EP003_B059",
+      "EP003_B071",
+      "EP003_B087",
+      "EP003_B077",
+      "EP003_B062",
+      "EP003_B088"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A mysterious bearded stranger interrupts a wedding or ceremony in a cathedral to defend a woman named Juliana from her hostile family and guards. After easily subduing a royal guard who tries to stop him, he confronts the noble matriarch and asserts his right to interfere.\",\n  \"confusions\": [\n    {\"issue\": \"The exact relationship between the Bearded Stranger, Juliana, and the family is completely unknown.\", \"block_ids\": [\"K02\", \"K19\", \"K30\"]},\n    {\"issue\": \"Gerald's identity as 'the former groom' is mentioned in speaker labels but not explained in the clip's events.\", \"block_ids\": [\"K16\", \"K17\"]}\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"An imposing stranger commanding someone to let go grabs attention instantly with a bold entrance.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K02\", \"K14\", \"K30\"],\n    \"reason\": \"Tension builds as the stranger marches down the aisle, effortlessly drops a guard, and openly defies the matriarch.\",\n    \"evidence\": [\"K03\", \"K14\", \"K30\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K31\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Who is the stranger and what authority does he have to challenge this powerful family?\",\n    \"score\": 4,\n    \"reason\": \"The clip cuts away right after his condemning statement against the family, leaving the confrontation unresolved.\",\n    \"evidence\": [\"K30\", \"K31\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The core conflict (a strong outsider defending a woman from an abusive family gathering) is easy to follow, though specific backstories are missing.\",\n    \"evidence\": [\"K05\", \"K20\", \"K30\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The stranger is immensely capable in a fight and deeply protective of Juliana.\",\n      \"The family and guards are hostile and trying to force Juliana out.\"\n    ],\n    \"withheld\": [\n      \"Who the stranger is and why he cares about Juliana.\",\n      \"How the family will retaliate against this public humiliation.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It clearly sets up the hero's power and defiance while keeping his identity and the broader plot a mystery.\",\n    \"evidence\": [\"K14\", \"K30\", \"K31\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"triumphant defiance\",\n    \"score\": 4,\n    \"reason\": \"The swift takedown of the arrogant guard and the stranger's cool protection of Juliana create a satisfying sense of vindication.\",\n    \"evidence\": [\"K14\", \"K20\", \"K24\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K02\", \"K14\", \"K30\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"triumph\",\n      \"evidence\": [\"K14\", \"K20\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A powerful, abusive noble family attempts to remove a defenseless woman, challenging an invincible stranger's sense of justice.\",\n      \"evidence\": [\"K05\", \"K30\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"The past relationship between the stranger and Juliana\",\n        \"The reason behind the family's harsh treatment\"\n      ]\n    },\n    \"appeal\": \"A badass stranger crashes a wedding ceremony to single-handedly rescue a distressed woman from her toxic family.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "2ff0482eec8616bbad4b934790a7b226f1196f81a424a9f8bb2acaf754383992",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3623,
+      "prompt_tokens": 3302,
+      "completion_tokens": 1043,
+      "total_tokens": 4345,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T09:59:47.728921+00:00"
+}

@@ -1,0 +1,541 @@
+{
+  "episode_id": "EP031",
+  "validator_version": "1.0.0",
+  "settings": {
+    "min_clip_ms": 20000,
+    "max_clip_ms": 60000,
+    "hook_window_ms": 3000,
+    "suspense_tail_ms": 2000,
+    "ending_window_ms": 8000
+  },
+  "source_file": "C:\\Users\\DELL\\KukuData\\outputs\\runs\\fullpack-v1-20261106\\candidates\\EP031.json",
+  "source_sha256": "c42313df0708d95cffceee8f63b0a0f80623788982778c5bb9087e95703921b5",
+  "records": [
+    {
+      "candidate_id": "EP031_C01",
+      "validation": {
+        "candidate_id": "EP031_C01",
+        "episode_id": "EP031",
+        "validator_version": "1.0.0",
+        "status": "pending",
+        "provisional": true,
+        "start_ms": 118200,
+        "end_ms": 160000,
+        "duration_ms": 41800,
+        "hook_block_id": "EP031_B066",
+        "hook_source": "generator_advisory",
+        "hook_offset_ms": 200,
+        "checks": [
+          {
+            "rule": "REFERENCES_VALID",
+            "status": "pass",
+            "message": "all block IDs exist in this episode and have times",
+            "block_ids": [
+              "EP031_B065",
+              "EP031_B087",
+              "EP031_B066"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "BOUNDARY_ORDER",
+            "status": "pass",
+            "message": "01:58.20-02:40.00",
+            "block_ids": [
+              "EP031_B065",
+              "EP031_B087"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "DURATION_RANGE",
+            "status": "pass",
+            "message": "duration 41.80s (allowed 20-60s inclusive)",
+            "block_ids": [],
+            "value_ms": 41800,
+            "repairable": false
+          },
+          {
+            "rule": "HOOK_WINDOW",
+            "status": "pass",
+            "message": "hook starts 0.20s after clip start (limit 3s; hook source: generator_advisory)",
+            "block_ids": [
+              "EP031_B066"
+            ],
+            "value_ms": 200,
+            "repairable": false
+          },
+          {
+            "rule": "DIALOGUE_BOUNDARY",
+            "status": "pass",
+            "message": "no dialogue block is cut",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "ENDING_NOT_TRANSITION_ONLY",
+            "status": "pass",
+            "message": "last story beat EP031_B087 ends 0.00s before the cut",
+            "block_ids": [
+              "EP031_B087"
+            ],
+            "value_ms": 0,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_BEAT_IN_CLIP",
+            "status": "pending",
+            "message": "suspense-bearing beat not supplied yet (semantic judge input)",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_BEAT_IS_STORY_BEAT",
+            "status": "pending",
+            "message": "suspense-bearing beat not supplied yet (semantic judge input)",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_TAIL_TOLERANCE",
+            "status": "pending",
+            "message": "suspense-bearing beat not supplied yet (semantic judge input)",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          }
+        ],
+        "ending": {
+          "clip_end_ms": 160000,
+          "last_dialogue_block_id": "EP031_B084",
+          "last_dialogue_end_ms": 151200,
+          "last_story_beat_id": "EP031_B087",
+          "last_story_beat_end_ms": 160000,
+          "trailing_after_last_story_ms": 0,
+          "transition_block_ids": [],
+          "score_cue_block_ids": [],
+          "suspense_beat_options": [
+            "EP031_B085",
+            "EP031_B086",
+            "EP031_B087"
+          ],
+          "suspense_beat_id": null,
+          "suspense_beat_source": null,
+          "suspense_beat_end_ms": null,
+          "trailing_after_suspense_ms": null,
+          "outcome": null
+        }
+      },
+      "repair": {
+        "status": "not_needed",
+        "reason": "validation status is pending",
+        "actions": [],
+        "attempted_start_ms": null,
+        "attempted_end_ms": null,
+        "repaired_candidate": null,
+        "repaired_validation": null
+      }
+    },
+    {
+      "candidate_id": "EP031_C02",
+      "validation": {
+        "candidate_id": "EP031_C02",
+        "episode_id": "EP031",
+        "validator_version": "1.0.0",
+        "status": "pending",
+        "provisional": true,
+        "start_ms": 10500,
+        "end_ms": 58800,
+        "duration_ms": 48300,
+        "hook_block_id": "EP031_B009",
+        "hook_source": "generator_advisory",
+        "hook_offset_ms": 0,
+        "checks": [
+          {
+            "rule": "REFERENCES_VALID",
+            "status": "pass",
+            "message": "all block IDs exist in this episode and have times",
+            "block_ids": [
+              "EP031_B008",
+              "EP031_B032",
+              "EP031_B009"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "BOUNDARY_ORDER",
+            "status": "pass",
+            "message": "00:10.50-00:58.80",
+            "block_ids": [
+              "EP031_B008",
+              "EP031_B032"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "DURATION_RANGE",
+            "status": "pass",
+            "message": "duration 48.30s (allowed 20-60s inclusive)",
+            "block_ids": [],
+            "value_ms": 48300,
+            "repairable": false
+          },
+          {
+            "rule": "HOOK_WINDOW",
+            "status": "pass",
+            "message": "hook starts 0.00s after clip start (limit 3s; hook source: generator_advisory)",
+            "block_ids": [
+              "EP031_B009"
+            ],
+            "value_ms": 0,
+            "repairable": false
+          },
+          {
+            "rule": "DIALOGUE_BOUNDARY",
+            "status": "pass",
+            "message": "no dialogue block is cut",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "ENDING_NOT_TRANSITION_ONLY",
+            "status": "pass",
+            "message": "last story beat EP031_B032 ends 0.00s before the cut",
+            "block_ids": [
+              "EP031_B032"
+            ],
+            "value_ms": 0,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_BEAT_IN_CLIP",
+            "status": "pending",
+            "message": "suspense-bearing beat not supplied yet (semantic judge input)",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_BEAT_IS_STORY_BEAT",
+            "status": "pending",
+            "message": "suspense-bearing beat not supplied yet (semantic judge input)",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_TAIL_TOLERANCE",
+            "status": "pending",
+            "message": "suspense-bearing beat not supplied yet (semantic judge input)",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          }
+        ],
+        "ending": {
+          "clip_end_ms": 58800,
+          "last_dialogue_block_id": "EP031_B032",
+          "last_dialogue_end_ms": 58800,
+          "last_story_beat_id": "EP031_B032",
+          "last_story_beat_end_ms": 58800,
+          "trailing_after_last_story_ms": 0,
+          "transition_block_ids": [],
+          "score_cue_block_ids": [],
+          "suspense_beat_options": [
+            "EP031_B026",
+            "EP031_B028",
+            "EP031_B029",
+            "EP031_B030",
+            "EP031_B031",
+            "EP031_B032"
+          ],
+          "suspense_beat_id": null,
+          "suspense_beat_source": null,
+          "suspense_beat_end_ms": null,
+          "trailing_after_suspense_ms": null,
+          "outcome": null
+        }
+      },
+      "repair": {
+        "status": "not_needed",
+        "reason": "validation status is pending",
+        "actions": [],
+        "attempted_start_ms": null,
+        "attempted_end_ms": null,
+        "repaired_candidate": null,
+        "repaired_validation": null
+      }
+    },
+    {
+      "candidate_id": "EP031_C03",
+      "validation": {
+        "candidate_id": "EP031_C03",
+        "episode_id": "EP031",
+        "validator_version": "1.0.0",
+        "status": "pending",
+        "provisional": true,
+        "start_ms": 77600,
+        "end_ms": 124000,
+        "duration_ms": 46400,
+        "hook_block_id": "EP031_B046",
+        "hook_source": "generator_advisory",
+        "hook_offset_ms": 200,
+        "checks": [
+          {
+            "rule": "REFERENCES_VALID",
+            "status": "pass",
+            "message": "all block IDs exist in this episode and have times",
+            "block_ids": [
+              "EP031_B045",
+              "EP031_B067",
+              "EP031_B046"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "BOUNDARY_ORDER",
+            "status": "pass",
+            "message": "01:17.60-02:04.00",
+            "block_ids": [
+              "EP031_B045",
+              "EP031_B067"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "DURATION_RANGE",
+            "status": "pass",
+            "message": "duration 46.40s (allowed 20-60s inclusive)",
+            "block_ids": [],
+            "value_ms": 46400,
+            "repairable": false
+          },
+          {
+            "rule": "HOOK_WINDOW",
+            "status": "pass",
+            "message": "hook starts 0.20s after clip start (limit 3s; hook source: generator_advisory)",
+            "block_ids": [
+              "EP031_B046"
+            ],
+            "value_ms": 200,
+            "repairable": false
+          },
+          {
+            "rule": "DIALOGUE_BOUNDARY",
+            "status": "pass",
+            "message": "no dialogue block is cut",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "ENDING_NOT_TRANSITION_ONLY",
+            "status": "pass",
+            "message": "last story beat EP031_B067 ends 0.00s before the cut",
+            "block_ids": [
+              "EP031_B067"
+            ],
+            "value_ms": 0,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_BEAT_IN_CLIP",
+            "status": "pending",
+            "message": "suspense-bearing beat not supplied yet (semantic judge input)",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_BEAT_IS_STORY_BEAT",
+            "status": "pending",
+            "message": "suspense-bearing beat not supplied yet (semantic judge input)",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_TAIL_TOLERANCE",
+            "status": "pending",
+            "message": "suspense-bearing beat not supplied yet (semantic judge input)",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          }
+        ],
+        "ending": {
+          "clip_end_ms": 124000,
+          "last_dialogue_block_id": "EP031_B066",
+          "last_dialogue_end_ms": 122000,
+          "last_story_beat_id": "EP031_B067",
+          "last_story_beat_end_ms": 124000,
+          "trailing_after_last_story_ms": 0,
+          "transition_block_ids": [],
+          "score_cue_block_ids": [],
+          "suspense_beat_options": [
+            "EP031_B063",
+            "EP031_B064",
+            "EP031_B065",
+            "EP031_B066",
+            "EP031_B067"
+          ],
+          "suspense_beat_id": null,
+          "suspense_beat_source": null,
+          "suspense_beat_end_ms": null,
+          "trailing_after_suspense_ms": null,
+          "outcome": null
+        }
+      },
+      "repair": {
+        "status": "not_needed",
+        "reason": "validation status is pending",
+        "actions": [],
+        "attempted_start_ms": null,
+        "attempted_end_ms": null,
+        "repaired_candidate": null,
+        "repaired_validation": null
+      }
+    },
+    {
+      "candidate_id": "EP031_C04",
+      "validation": {
+        "candidate_id": "EP031_C04",
+        "episode_id": "EP031",
+        "validator_version": "1.0.0",
+        "status": "pending",
+        "provisional": true,
+        "start_ms": 59000,
+        "end_ms": 91200,
+        "duration_ms": 32200,
+        "hook_block_id": "EP031_B034",
+        "hook_source": "generator_advisory",
+        "hook_offset_ms": 200,
+        "checks": [
+          {
+            "rule": "REFERENCES_VALID",
+            "status": "pass",
+            "message": "all block IDs exist in this episode and have times",
+            "block_ids": [
+              "EP031_B033",
+              "EP031_B052",
+              "EP031_B034"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "BOUNDARY_ORDER",
+            "status": "pass",
+            "message": "00:59.00-01:31.20",
+            "block_ids": [
+              "EP031_B033",
+              "EP031_B052"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "DURATION_RANGE",
+            "status": "pass",
+            "message": "duration 32.20s (allowed 20-60s inclusive)",
+            "block_ids": [],
+            "value_ms": 32200,
+            "repairable": false
+          },
+          {
+            "rule": "HOOK_WINDOW",
+            "status": "pass",
+            "message": "hook starts 0.20s after clip start (limit 3s; hook source: generator_advisory)",
+            "block_ids": [
+              "EP031_B034"
+            ],
+            "value_ms": 200,
+            "repairable": false
+          },
+          {
+            "rule": "DIALOGUE_BOUNDARY",
+            "status": "pass",
+            "message": "no dialogue block is cut",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "ENDING_NOT_TRANSITION_ONLY",
+            "status": "pass",
+            "message": "last story beat EP031_B052 ends 0.00s before the cut",
+            "block_ids": [
+              "EP031_B052"
+            ],
+            "value_ms": 0,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_BEAT_IN_CLIP",
+            "status": "pending",
+            "message": "suspense-bearing beat not supplied yet (semantic judge input)",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_BEAT_IS_STORY_BEAT",
+            "status": "pending",
+            "message": "suspense-bearing beat not supplied yet (semantic judge input)",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_TAIL_TOLERANCE",
+            "status": "pending",
+            "message": "suspense-bearing beat not supplied yet (semantic judge input)",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          }
+        ],
+        "ending": {
+          "clip_end_ms": 91200,
+          "last_dialogue_block_id": "EP031_B052",
+          "last_dialogue_end_ms": 91200,
+          "last_story_beat_id": "EP031_B052",
+          "last_story_beat_end_ms": 91200,
+          "trailing_after_last_story_ms": 0,
+          "transition_block_ids": [],
+          "score_cue_block_ids": [],
+          "suspense_beat_options": [
+            "EP031_B049",
+            "EP031_B050",
+            "EP031_B051",
+            "EP031_B052"
+          ],
+          "suspense_beat_id": null,
+          "suspense_beat_source": null,
+          "suspense_beat_end_ms": null,
+          "trailing_after_suspense_ms": null,
+          "outcome": null
+        }
+      },
+      "repair": {
+        "status": "not_needed",
+        "reason": "validation status is pending",
+        "actions": [],
+        "attempted_start_ms": null,
+        "attempted_end_ms": null,
+        "repaired_candidate": null,
+        "repaired_validation": null
+      }
+    }
+  ]
+}

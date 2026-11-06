@@ -1,0 +1,309 @@
+{
+  "candidate_id": "EP004_C01_R1",
+  "episode_id": "EP004",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "f690c6e9d5c2ce1734eb6b00e3914979c4e9242f9ea6513996edad185da33212",
+  "clip_start_ms": 10500,
+  "clip_end_ms": 68000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP004_B011",
+    "EP004_B012",
+    "EP004_B013"
+  ],
+  "eligible_beat_ids": [
+    "EP004_B043",
+    "EP004_B044",
+    "EP004_B045",
+    "EP004_B046",
+    "EP004_B047",
+    "EP004_B048",
+    "EP004_B049"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Clarissa's sharp, public insult aimed at Juliana instantly establishes a hostile social dynamic and hooks the viewer with immediate conflict.",
+      "evidence": [
+        "EP004_B012",
+        "EP004_B011"
+      ],
+      "issues": [],
+      "block_id": "EP004_B012",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily from public humiliation through Juliana's defensive pushback against the stranger's proposal, culminating in a solemn vow.",
+      "evidence": [
+        "EP004_B012",
+        "EP004_B022",
+        "EP004_B040",
+        "EP004_B046"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP004_B012",
+        "EP004_B022",
+        "EP004_B040",
+        "EP004_B046"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "Ending on Juliana's voiceover admitting she doesn't know him, right as the scene cuts back to her hostile family, leaves a compelling narrative question open.",
+      "evidence": [
+        "EP004_B048",
+        "EP004_B047",
+        "EP004_B049"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP004_B048",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "If Juliana doesn't know this man, who is he, and will she accept his vow and ring?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The core emotional stakes—public rejection and an unexpected defender offering marriage—are clear, though the backstory of why Juliana's family hates her is missing.",
+      "evidence": [
+        "EP004_B012",
+        "EP004_B024",
+        "EP004_B034"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "In a chapel, Juliana is publicly mocked and insulted by Clarissa and Gerald, while a mysterious bearded man offers her his name and a ring. Despite her fear of charity and her painful family history, the stranger vows his offer is genuine rather than pity.",
+      "confusions": [
+        {
+          "issue": "The exact past relationship and history between Juliana and her family/Gerald are unstated.",
+          "block_ids": [
+            "EP004_B012",
+            "EP004_B034"
+          ]
+        },
+        {
+          "issue": "The identity of the Mysterious Bearded Man and why he is proposing to Juliana in a chapel remain completely unexplained.",
+          "block_ids": [
+            "EP004_B016",
+            "EP004_B022",
+            "EP004_B048"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip sets up a clear underdog dynamic and a mysterious rescuer, giving enough emotional payoff to care while withholding the ultimate choice.",
+      "evidence": [
+        "EP004_B012",
+        "EP004_B038",
+        "EP004_B046",
+        "EP004_B048"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is rejected and mocked by her peers/family",
+        "A scarred stranger offers her a ring and a serious vow instead of pity"
+      ],
+      "withheld": [
+        "The identity and motives of the bearded stranger",
+        "Whether Juliana accepts the proposal and how her family reacts"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The transition from public shaming and deep vulnerability to the shocking sincerity of the stranger's vow creates a strong emotional resonance.",
+      "evidence": [
+        "EP004_B013",
+        "EP004_B020",
+        "EP004_B040",
+        "EP004_B046",
+        "EP004_B047"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "humiliation turning into guarded hope",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "romance_devotion",
+      "evidence": [
+        "EP004_B012",
+        "EP004_B038",
+        "EP004_B046"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP004_B012"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP004_B012",
+        "EP004_B013",
+        "EP004_B020"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A publicly humiliated and rejected woman must decide whether to accept the protective vow of a mysterious, scarred stranger or maintain her pride.",
+      "evidence": [
+        "EP004_B012",
+        "EP004_B040",
+        "EP004_B046"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP004_B048"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Family backstory",
+      "Identity of the bearded man"
+    ],
+    "curiosity_revealed": [
+      "Juliana is rejected and mocked by her peers/family",
+      "A scarred stranger offers her a ring and a serious vow instead of pity"
+    ],
+    "curiosity_withheld": [
+      "The identity and motives of the bearded stranger",
+      "Whether Juliana accepts the proposal and how her family reacts"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A humiliated woman is offered a powerful vow by a mysterious stranger when everyone else discards her.",
+    "supporting_block_ids": [
+      "EP004_B012",
+      "EP004_B038",
+      "EP004_B046",
+      "EP004_B013",
+      "EP004_B020",
+      "EP004_B040",
+      "EP004_B048"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"In a chapel, Juliana is publicly mocked and insulted by Clarissa and Gerald, while a mysterious bearded man offers her his name and a ring. Despite her fear of charity and her painful family history, the stranger vows his offer is genuine rather than pity.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact past relationship and history between Juliana and her family/Gerald are unstated.\",\n      \"block_ids\": [\"K02\", \"K24\"]\n    },\n    {\n      \"issue\": \"The identity of the Mysterious Bearded Man and why he is proposing to Juliana in a chapel remain completely unexplained.\",\n      \"block_ids\": [\"K06\", \"K12\", \"K38\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Clarissa's sharp, public insult aimed at Juliana instantly establishes a hostile social dynamic and hooks the viewer with immediate conflict.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K02\", \"K12\", \"K30\", \"K36\"],\n    \"reason\": \"Tension builds steadily from public humiliation through Juliana's defensive pushback against the stranger's proposal, culminating in a solemn vow.\",\n    \"evidence\": [\"K02\", \"K12\", \"K30\", \"K36\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K38\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"If Juliana doesn't know this man, who is he, and will she accept his vow and ring?\",\n    \"score\": 4,\n    \"reason\": \"Ending on Juliana's voiceover admitting she doesn't know him, right as the scene cuts back to her hostile family, leaves a compelling narrative question open.\",\n    \"evidence\": [\"K37\", \"K38\", \"K39\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The core emotional stakes—public rejection and an unexpected defender offering marriage—are clear, though the backstory of why Juliana's family hates her is missing.\",\n    \"evidence\": [\"K02\", \"K14\", \"K24\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is rejected and mocked by her peers/family\",\n      \"A scarred stranger offers her a ring and a serious vow instead of pity\"\n    ],\n    \"withheld\": [\n      \"The identity and motives of the bearded stranger\",\n      \"Whether Juliana accepts the proposal and how her family reacts\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip sets up a clear underdog dynamic and a mysterious rescuer, giving enough emotional payoff to care while withholding the ultimate choice.\",\n    \"evidence\": [\"K02\", \"K28\", \"K36\", \"K38\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"humiliation turning into guarded hope\",\n    \"score\": 4,\n    \"reason\": \"The transition from public shaming and deep vulnerability to the shocking sincerity of the stranger's vow creates a strong emotional resonance.\",\n    \"evidence\": [\"K03\", \"K10\", \"K30\", \"K36\", \"K37\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"romance_devotion\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K02\", \"K28\", \"K36\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\"K02\", \"K03\", \"K10\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A publicly humiliated and rejected woman must decide whether to accept the protective vow of a mysterious, scarred stranger or maintain her pride.\",\n      \"evidence\": [\"K02\", \"K30\", \"K36\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Family backstory\",\n        \"Identity of the bearded man\"\n      ]\n    },\n    \"appeal\": \"A humiliated woman is offered a powerful vow by a mysterious stranger when everyone else discards her.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "33cf64011b97067a5860c88fa8f96b8e8401bc04a5366ab278967347286e00c0",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 6429,
+      "prompt_tokens": 3553,
+      "completion_tokens": 1128,
+      "total_tokens": 4681,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:00:01.428286+00:00"
+}

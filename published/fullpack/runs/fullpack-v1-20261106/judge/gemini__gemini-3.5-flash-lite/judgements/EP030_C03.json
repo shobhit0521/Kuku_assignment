@@ -1,0 +1,282 @@
+{
+  "candidate_id": "EP030_C03",
+  "episode_id": "EP030",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "4c20b0398a069e07949d39ba91dbc1bd94c585b437fc16a892745228718c7b6a",
+  "clip_start_ms": 88500,
+  "clip_end_ms": 143500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP030_B044",
+    "EP030_B045"
+  ],
+  "eligible_beat_ids": [
+    "EP030_B064",
+    "EP030_B065",
+    "EP030_B066",
+    "EP030_B067"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Rupert immediately points out the extreme danger of the situation by stating that witchcraft is a capital charge, establishing high stakes right away.",
+      "evidence": [
+        "EP030_B045"
+      ],
+      "issues": [],
+      "block_id": "EP030_B045",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "The scene steadily escalates from discussing a framed trial to mapping out the details of framing Juliana, culminating in Rupert turning and joining the conspiracy.",
+      "evidence": [
+        "EP030_B049",
+        "EP030_B063",
+        "EP030_B065",
+        "EP030_B067"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP030_B049",
+        "EP030_B063",
+        "EP030_B065",
+        "EP030_B067"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The final chilling line seals the malicious intent of the conspirators just as the scene cuts, leaving the fate of Juliana hanging in the balance.",
+      "evidence": [
+        "EP030_B067"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP030_B067",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "How will Juliana be transformed from a prisoner into a condemned witch, and can anyone save her?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core plot to frame an innocent person for capital punishment is entirely clear, even if the prior history between the characters is unknown.",
+      "evidence": [
+        "EP030_B049",
+        "EP030_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A group of conspirators including an elder nobleman, Catherine, and Rupert plot to frame a woman named Juliana for witchcraft and have her hanged. Rupert ultimately joins in on the corruption by offering to write the arrest warrant himself.",
+      "confusions": [
+        {
+          "issue": "The relationship between Juliana, the Dowager, and the conspirators is not explained.",
+          "block_ids": [
+            "EP030_B055",
+            "EP030_B059",
+            "EP030_B063"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It clearly outlines the villains' evil plot and active conspiracy while withholding whether the execution will actually succeed or be thwarted.",
+      "evidence": [
+        "EP030_B049",
+        "EP030_B063",
+        "EP030_B065",
+        "EP030_B067"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The noblemen and Catherine are planning to manufacture evidence and frame Juliana for witchcraft.",
+        "Rupert decides to participate in writing the warrant."
+      ],
+      "withheld": [
+        "Whether Juliana or the Dowager will expose them or find a way to fight back."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The blatant, unapologetic scheming to falsely execute an innocent woman elicits strong feelings of injustice and anger toward the conspirators.",
+      "evidence": [
+        "EP030_B049",
+        "EP030_B063",
+        "EP030_B067"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "unclassified",
+      "evidence": [],
+      "note": "archetype 'conspiracy_power_shift' is not in the taxonomy"
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP030_B045"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP030_B049",
+        "EP030_B063",
+        "EP030_B067"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An innocent woman's life is on the line as corrupt nobles actively plot to frame her for witchcraft and have her legally murdered.",
+      "evidence": [
+        "EP030_B049",
+        "EP030_B063",
+        "EP030_B067"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP030_B067"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Exact familial relations to the Dowager and Juliana"
+    ],
+    "curiosity_revealed": [
+      "The noblemen and Catherine are planning to manufacture evidence and frame Juliana for witchcraft.",
+      "Rupert decides to participate in writing the warrant."
+    ],
+    "curiosity_withheld": [
+      "Whether Juliana or the Dowager will expose them or find a way to fight back."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch ruthless nobles manufacture a fake witchcraft trial to legally execute an innocent woman.",
+    "supporting_block_ids": [
+      "EP030_B045",
+      "EP030_B049",
+      "EP030_B063",
+      "EP030_B067"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A group of conspirators including an elder nobleman, Catherine, and Rupert plot to frame a woman named Juliana for witchcraft and have her hanged. Rupert ultimately joins in on the corruption by offering to write the arrest warrant himself.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The relationship between Juliana, the Dowager, and the conspirators is not explained.\",\n      \"block_ids\": [\"K12\", \"K16\", \"K20\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Rupert immediately points out the extreme danger of the situation by stating that witchcraft is a capital charge, establishing high stakes right away.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K06\", \"K20\", \"K22\", \"K24\"],\n    \"reason\": \"The scene steadily escalates from discussing a framed trial to mapping out the details of framing Juliana, culminating in Rupert turning and joining the conspiracy.\",\n    \"evidence\": [\"K06\", \"K20\", \"K22\", \"K24\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K24\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Juliana be transformed from a prisoner into a condemned witch, and can anyone save her?\",\n    \"score\": 4,\n    \"reason\": \"The final chilling line seals the malicious intent of the conspirators just as the scene cuts, leaving the fate of Juliana hanging in the balance.\",\n    \"evidence\": [\"K24\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core plot to frame an innocent person for capital punishment is entirely clear, even if the prior history between the characters is unknown.\",\n    \"evidence\": [\"K06\", \"K20\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The noblemen and Catherine are planning to manufacture evidence and frame Juliana for witchcraft.\",\n      \"Rupert decides to participate in writing the warrant.\"\n    ],\n    \"withheld\": [\n      \"Whether Juliana or the Dowager will expose them or find a way to fight back.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It clearly outlines the villains' evil plot and active conspiracy while withholding whether the execution will actually succeed or be thwarted.\",\n    \"evidence\": [\"K06\", \"K20\", \"K22\", \"K24\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage\",\n    \"score\": 4,\n    \"reason\": \"The blatant, unapologetic scheming to falsely execute an innocent woman elicits strong feelings of injustice and anger toward the conspirators.\",\n    \"evidence\": [\"K06\", \"K20\", \"K24\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"conspiracy_power_shift\",\n      \"other_label\": \"conspiracy_and_frame_up\",\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K06\", \"K20\", \"K22\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K06\", \"K20\", \"K24\"]\n    },\n    \"stakes\": {\n      \"summary\": \"An innocent woman's life is on the line as corrupt nobles actively plot to frame her for witchcraft and have her legally murdered.\",\n      \"evidence\": [\"K06\", \"K20\", \"K24\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Exact familial relations to the Dowager and Juliana\"\n      ]\n    },\n    \"appeal\": \"Watch ruthless nobles manufacture a fake witchcraft trial to legally execute an innocent woman.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "6a8befd5c85ad07aeb3500c753ce273f5c693c677da299aeded93e18d0e04078",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3539,
+      "prompt_tokens": 2895,
+      "completion_tokens": 1019,
+      "total_tokens": 3914,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:01:09.397460+00:00"
+}

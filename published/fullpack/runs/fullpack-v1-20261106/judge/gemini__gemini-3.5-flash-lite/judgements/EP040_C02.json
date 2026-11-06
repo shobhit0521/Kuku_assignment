@@ -1,0 +1,302 @@
+{
+  "candidate_id": "EP040_C02",
+  "episode_id": "EP040",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "1b86007e610e9127ff371ebdbc3ae9da6bb40edbf250f52f2516f1ec8f3940e0",
+  "clip_start_ms": 63800,
+  "clip_end_ms": 110080,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP040_B031",
+    "EP040_B032"
+  ],
+  "eligible_beat_ids": [
+    "EP040_B047",
+    "EP040_B048",
+    "EP040_B049",
+    "EP040_B050",
+    "EP040_B051"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The nobleman's inquiry about whether all entrances are covered creates immediate mild intrigue about a clandestine plot, though it lacks initial visceral punch.",
+      "evidence": [
+        "EP040_B032"
+      ],
+      "issues": [],
+      "block_id": "EP040_B032",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds from a sinister assassination/takeover plot to a wedding ceremony where dangerous secrets simmer beneath the surface.",
+      "evidence": [
+        "EP040_B032",
+        "EP040_B036",
+        "EP040_B038",
+        "EP040_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP040_B032",
+        "EP040_B036",
+        "EP040_B038",
+        "EP040_B051"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The cut to black on their conspiratorial smiles right after hearing about a murder plot leaves a strong sense of impending doom and hidden betrayal.",
+      "evidence": [
+        "EP040_B051",
+        "EP040_B038"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP040_B051",
+      "mechanism": "interrupted_action",
+      "outcome": "unresolved",
+      "open_question": "How will the elder nobleman's plot to kill the 'witch' and control Ashburgh intersect with this wedding?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "Viewers understand a wedding is happening alongside a dark conspiracy, but specific character loyalties, identities, and the identity of the 'witch' require outside context.",
+      "evidence": [
+        "EP040_B036",
+        "EP040_B038",
+        "EP040_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "An elder nobleman conspires to install a new Duke and Duchess while plotting to kill a supposed witch by sunset. Meanwhile, Catherine arrives in a grand wedding gown to marry Rupert, and the two exchange smug remarks about their elevated status.",
+      "confusions": [
+        {
+          "issue": "Who the elder nobleman is and his exact relationship to Rupert and Catherine is not explained.",
+          "block_ids": [
+            "EP040_B032",
+            "EP040_B034",
+            "EP040_B036",
+            "EP040_B038"
+          ]
+        },
+        {
+          "issue": "The identity of the 'witch' targeted for death is unclear.",
+          "block_ids": [
+            "EP040_B038"
+          ]
+        },
+        {
+          "issue": "Rupert's background as an 'ignored cousin' is mentioned without prior context.",
+          "block_ids": [
+            "EP040_B050"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It effectively contrasts a romantic wedding with a looming assassination threat, creating a compelling gap about how these two plotlines collide.",
+      "evidence": [
+        "EP040_B038",
+        "EP040_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "An elder nobleman is orchestrating a lethal plot for Ashburgh by sunset",
+        "Catherine and Rupert are getting married with ambitious, smug motives"
+      ],
+      "withheld": [
+        "Who the targeted 'witch' is",
+        "Whether the wedding is part of the conspiracy or doomed by it"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The juxtaposition of cold malice with a high-society wedding generates a sense of foreboding and suspense.",
+      "evidence": [
+        "EP040_B038",
+        "EP040_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "deception_secret_identity",
+      "evidence": [
+        "EP040_B036",
+        "EP040_B038",
+        "EP040_B050",
+        "EP040_B051"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP040_B032"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP040_B038",
+        "EP040_B051"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Control of Ashburgh and life-or-death consequences hang over a high-society wedding.",
+      "evidence": [
+        "EP040_B036",
+        "EP040_B038"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "interrupted_action",
+      "evidence": [
+        "EP040_B051"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Identity of the witch",
+      "The elder nobleman's name and faction"
+    ],
+    "curiosity_revealed": [
+      "An elder nobleman is orchestrating a lethal plot for Ashburgh by sunset",
+      "Catherine and Rupert are getting married with ambitious, smug motives"
+    ],
+    "curiosity_withheld": [
+      "Who the targeted 'witch' is",
+      "Whether the wedding is part of the conspiracy or doomed by it"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A grand wedding masks a lethal conspiracy to seize control of Ashburgh by sunset.",
+    "supporting_block_ids": [
+      "EP040_B036",
+      "EP040_B038",
+      "EP040_B050",
+      "EP040_B051",
+      "EP040_B032"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"An elder nobleman conspires to install a new Duke and Duchess while plotting to kill a supposed witch by sunset. Meanwhile, Catherine arrives in a grand wedding gown to marry Rupert, and the two exchange smug remarks about their elevated status.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who the elder nobleman is and his exact relationship to Rupert and Catherine is not explained.\",\n      \"block_ids\": [\"K02\", \"K04\", \"K06\", \"K08\"]\n    },\n    {\n      \"issue\": \"The identity of the 'witch' targeted for death is unclear.\",\n      \"block_ids\": [\"K08\"]\n    },\n    {\n      \"issue\": \"Rupert's background as an 'ignored cousin' is mentioned without prior context.\",\n      \"block_ids\": [\"K20\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"The nobleman's inquiry about whether all entrances are covered creates immediate mild intrigue about a clandestine plot, though it lacks initial visceral punch.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K02\", \"K06\", \"K08\", \"K21\"],\n    \"reason\": \"Tension builds from a sinister assassination/takeover plot to a wedding ceremony where dangerous secrets simmer beneath the surface.\",\n    \"evidence\": [\"K02\", \"K06\", \"K08\", \"K21\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K21\",\n    \"mechanism\": \"interrupted_action\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will the elder nobleman's plot to kill the 'witch' and control Ashburgh intersect with this wedding?\",\n    \"score\": 4,\n    \"reason\": \"The cut to black on their conspiratorial smiles right after hearing about a murder plot leaves a strong sense of impending doom and hidden betrayal.\",\n    \"evidence\": [\"K08\", \"K21\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"Viewers understand a wedding is happening alongside a dark conspiracy, but specific character loyalties, identities, and the identity of the 'witch' require outside context.\",\n    \"evidence\": [\"K06\", \"K08\", \"K20\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"An elder nobleman is orchestrating a lethal plot for Ashburgh by sunset\",\n      \"Catherine and Rupert are getting married with ambitious, smug motives\"\n    ],\n    \"withheld\": [\n      \"Who the targeted 'witch' is\",\n      \"Whether the wedding is part of the conspiracy or doomed by it\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It effectively contrasts a romantic wedding with a looming assassination threat, creating a compelling gap about how these two plotlines collide.\",\n    \"evidence\": [\"K08\", \"K21\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion\",\n    \"score\": 3,\n    \"reason\": \"The juxtaposition of cold malice with a high-society wedding generates a sense of foreboding and suspense.\",\n    \"evidence\": [\"K08\", \"K21\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"deception_secret_identity\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K06\", \"K08\", \"K20\", \"K21\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\"K08\", \"K21\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Control of Ashburgh and life-or-death consequences hang over a high-society wedding.\",\n      \"evidence\": [\"K06\", \"K08\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Identity of the witch\",\n        \"The elder nobleman's name and faction\"\n      ]\n    },\n    \"appeal\": \"A grand wedding masks a lethal conspiracy to seize control of Ashburgh by sunset.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "48e24a9cb69efc3f1bbde68dc3dcda9d1b3d17f85d78c2afa1024d28f73d406b",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4121,
+      "prompt_tokens": 2844,
+      "completion_tokens": 1096,
+      "total_tokens": 3940,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:06:30.089718+00:00"
+}

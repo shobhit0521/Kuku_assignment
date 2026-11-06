@@ -1,0 +1,277 @@
+{
+  "candidate_id": "EP020_C01",
+  "episode_id": "EP020",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "11740a84cb432f455e4d2fa0223f9558e6c7dad3fff3bce480677b79b80ae7e9",
+  "clip_start_ms": 15400,
+  "clip_end_ms": 42400,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP020_B011"
+  ],
+  "eligible_beat_ids": [
+    "EP020_B023",
+    "EP020_B024",
+    "EP020_B025",
+    "EP020_B026",
+    "EP020_B027"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Catherine's haughty dismissal of a practical marriage immediately establishes her ruthless and ambitious character.",
+      "evidence": [
+        "EP020_B011"
+      ],
+      "issues": [],
+      "block_id": "EP020_B011",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily as the characters move from plotting the cousin's death to openly conspiring about expediting the dowager's demise.",
+      "evidence": [
+        "EP020_B015",
+        "EP020_B021",
+        "EP020_B027"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP020_B015",
+        "EP020_B021",
+        "EP020_B027"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "Rupert's final cold admission that he has 'ensured' her comfort leaves open the dark implication of foul play right as the clip cuts.",
+      "evidence": [
+        "EP020_B027"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP020_B027",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "What specifically has Rupert done to ensure the dowager will not survive the winter?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic of two ambitious, villainous characters plotting inheritance murders is clear, even if specific background details on the family tree are absent.",
+      "evidence": [
+        "EP020_B012",
+        "EP020_B015",
+        "EP020_B027"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Catherine and Rupert discuss ambitious marriage plans that depend upon the death of Rupert's cousin and an elderly dowager. They coldly and calculatedly scheme about the dowager's failing health and ensure she will not survive the winter.",
+      "confusions": [
+        {
+          "issue": "Who Alexander and the Dowager are and their exact relationship to Rupert and Catherine is not explained.",
+          "block_ids": [
+            "EP020_B015",
+            "EP020_B018"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It clearly establishes their villainous plot while keeping the precise method and consequences hidden.",
+      "evidence": [
+        "EP020_B015",
+        "EP020_B027"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Catherine and Rupert are conspiring to secure a title and estate through death."
+      ],
+      "withheld": [
+        "How Rupert is causing the dowager's decline and whether they will be caught."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "Generates a chilling sense of dread and dark fascination toward the characters' cold cruelty.",
+      "evidence": [
+        "EP020_B024",
+        "EP020_B027"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "deception_secret_identity",
+      "evidence": [
+        "EP020_B015",
+        "EP020_B027"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "medium",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP020_B011"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP020_B024",
+        "EP020_B027"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An estate, title, and lives hang in the balance as two ruthless conspirators plot murders for gain.",
+      "evidence": [
+        "EP020_B016",
+        "EP020_B027"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP020_B027"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Exact familial relations to the current title holders."
+    ],
+    "curiosity_revealed": [
+      "Catherine and Rupert are conspiring to secure a title and estate through death."
+    ],
+    "curiosity_withheld": [
+      "How Rupert is causing the dowager's decline and whether they will be caught."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch two calculating villains scheme to murder their way to a title.",
+    "supporting_block_ids": [
+      "EP020_B015",
+      "EP020_B027",
+      "EP020_B011",
+      "EP020_B024",
+      "EP020_B016"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Catherine and Rupert discuss ambitious marriage plans that depend upon the death of Rupert's cousin and an elderly dowager. They coldly and calculatedly scheme about the dowager's failing health and ensure she will not survive the winter.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Alexander and the Dowager are and their exact relationship to Rupert and Catherine is not explained.\",\n      \"block_ids\": [\n        \"K06\",\n        \"K08\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Catherine's haughty dismissal of a practical marriage immediately establishes her ruthless and ambitious character.\",\n    \"evidence\": [\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K06\",\n      \"K11\",\n      \"K18\"\n    ],\n    \"reason\": \"Tension builds steadily as the characters move from plotting the cousin's death to openly conspiring about expediting the dowager's demise.\",\n    \"evidence\": [\n      \"K06\",\n      \"K11\",\n      \"K18\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K18\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What specifically has Rupert done to ensure the dowager will not survive the winter?\",\n    \"score\": 4,\n    \"reason\": \"Rupert's final cold admission that he has 'ensured' her comfort leaves open the dark implication of foul play right as the clip cuts.\",\n    \"evidence\": [\n      \"K18\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic of two ambitious, villainous characters plotting inheritance murders is clear, even if specific background details on the family tree are absent.\",\n    \"evidence\": [\n      \"K03\",\n      \"K06\",\n      \"K18\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Catherine and Rupert are conspiring to secure a title and estate through death.\"\n    ],\n    \"withheld\": [\n      \"How Rupert is causing the dowager's decline and whether they will be caught.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It clearly establishes their villainous plot while keeping the precise method and consequences hidden.\",\n    \"evidence\": [\n      \"K06\",\n      \"K18\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion\",\n    \"score\": 3,\n    \"reason\": \"Generates a chilling sense of dread and dark fascination toward the characters' cold cruelty.\",\n    \"evidence\": [\n      \"K15\",\n      \"K18\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"deception_secret_identity\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"medium\",\n      \"evidence\": [\n        \"K06\",\n        \"K18\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\n        \"K15\",\n        \"K18\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"An estate, title, and lives hang in the balance as two ruthless conspirators plot murders for gain.\",\n      \"evidence\": [\n        \"K07\",\n        \"K18\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Exact familial relations to the current title holders.\"\n      ]\n    },\n    \"appeal\": \"Watch two calculating villains scheme to murder their way to a title.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "8f701e21f491ecb8b282f768fcad8dbd9a3a3dce82d1a50d7f41a07a606e3f68",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3649,
+      "prompt_tokens": 2645,
+      "completion_tokens": 1022,
+      "total_tokens": 3667,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:56:59.378295+00:00"
+}

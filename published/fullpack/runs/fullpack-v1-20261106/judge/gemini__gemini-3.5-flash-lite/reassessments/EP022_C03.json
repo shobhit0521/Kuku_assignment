@@ -1,0 +1,73 @@
+{
+  "candidate_id": "EP022_C03",
+  "checker_version": "c1",
+  "judgement_clip_sha256": "2fae781c0e0e15635a618a10a5e9b52c3b1adbb1d9557cdd5a414bf08a8cf9ff",
+  "judgement_prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "status": "revision_rejected",
+  "flags": [
+    {
+      "dimension": "context_independence",
+      "code": "CONFUSIONS_WITH_HIGH_SCORE",
+      "detail": "score 4 with 2 confusing reference(s) listed"
+    }
+  ],
+  "remaining_flags": [],
+  "original_scores": {
+    "context_independence": 4
+  },
+  "revised_scores": {
+    "context_independence": 5
+  },
+  "revised_dimensions": {
+    "context_independence": {
+      "name": "context_independence",
+      "score": 5,
+      "valid": true,
+      "reason": "The core premise—a noblewoman disguising herself as a maid to sneak into a strict estate to save a dying duchess—is completely self-evident from the dialogue and actions within the clip itself.",
+      "evidence": [
+        "EP022_B007",
+        "EP022_B011",
+        "EP022_B013",
+        "EP022_B017",
+        "EP022_B019",
+        "EP022_B021",
+        "EP022_B028"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Lady Juliana sneaks into a hostile manor in disguise to save a dying duchess despite the grave risks of being recognized. Inside, they are immediately intercepted by a suspicious housekeeper.",
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "note": "context_independence: revision raised the score 4->5 instead of resolving the contradiction",
+  "raw_response_text": "{\n  \"blind_summary\": \"Lady Juliana sneaks into a hostile manor in disguise to save a dying duchess despite the grave risks of being recognized. Inside, they are immediately intercepted by a suspicious housekeeper.\",\n  \"confusions\": [],\n  \"context_independence\": {\n    \"score\": 5,\n    \"reason\": \"The core premise—a noblewoman disguising herself as a maid to sneak into a strict estate to save a dying duchess—is completely self-evident from the dialogue and actions within the clip itself.\",\n    \"evidence\": [\n      \"K05\",\n      \"K09\",\n      \"K11\",\n      \"K15\",\n      \"K17\",\n      \"K19\",\n      \"K25\"\n    ]\n  }\n}",
+  "calls": [
+    {
+      "stage": "reassess",
+      "cache_key": "fa4e26cfc215ec5fa5350784ee45e1396a9aed03dec91952c5de610726c071bb",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 2736,
+      "prompt_tokens": 4481,
+      "completion_tokens": 177,
+      "total_tokens": 4658,
+      "hidden_tokens": 0
+    }
+  ],
+  "invocation_id": "908af1dbeed7",
+  "created_at": "2026-11-06T10:57:45.082607+00:00"
+}

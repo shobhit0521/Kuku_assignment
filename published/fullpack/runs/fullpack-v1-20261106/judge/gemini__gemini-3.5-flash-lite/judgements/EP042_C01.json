@@ -1,0 +1,307 @@
+{
+  "candidate_id": "EP042_C01",
+  "episode_id": "EP042",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "868f84c678601d12cb09baa9cb3e3593d8e4b9bb496fb17c28905fc6b2746eb1",
+  "clip_start_ms": 30400,
+  "clip_end_ms": 77800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP042_B020",
+    "EP042_B021"
+  ],
+  "eligible_beat_ids": [
+    "EP042_B033",
+    "EP042_B034",
+    "EP042_B035",
+    "EP042_B037",
+    "EP042_B036"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The blond nobleman's terrified denial that Alexander cannot be alive immediately establishes a powerful premise of a dead man returning.",
+      "evidence": [
+        "EP042_B021",
+        "EP042_B020"
+      ],
+      "issues": [],
+      "block_id": "EP042_B021",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension steadily escalates from Alexander's dramatic entrance and reunion with his mother to the public proclamation of his dukedom and his direct threat to Rupert.",
+      "evidence": [
+        "EP042_B022",
+        "EP042_B023",
+        "EP042_B034",
+        "EP042_B037",
+        "EP042_B036"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP042_B022",
+        "EP042_B023",
+        "EP042_B034",
+        "EP042_B037"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "Alexander's direct declaration to settle scores while resting his hand on his sabre creates an intense, high-stakes promise of immediate confrontation.",
+      "evidence": [
+        "EP042_B037",
+        "EP042_B036"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP042_B037",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "How will Alexander exact his vengeance on Rupert and reclaim what was stolen?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "While the exact backstory is missing, the core conflict—a presumed dead rightful heir returning to reclaim his title from a terrified usurper—is instantly clear.",
+      "evidence": [
+        "EP042_B021",
+        "EP042_B023",
+        "EP042_B034",
+        "EP042_B037"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A man thought to be dead named Alexander returns to a cathedral, shocking a nobleman and reuniting with his emotional mother. His mother then publicly declares him the rightful Duke of Ashburn, leaving the usurper Rupert utterly defeated as Alexander vows to settle accounts.",
+      "confusions": [
+        {
+          "issue": "The backstory of how Alexander was believed dead and how Rupert usurped his position is entirely unknown.",
+          "block_ids": [
+            "EP042_B021",
+            "EP042_B023",
+            "EP042_B037"
+          ]
+        },
+        {
+          "issue": "The relationship of Catherine and her father standing beside the cowering Rupert is not explained.",
+          "block_ids": [
+            "EP042_B035"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip delivers a satisfying emotional reunion and public power shift while leaving the actual retribution and confrontation entirely for the full episode.",
+      "evidence": [
+        "EP042_B034",
+        "EP042_B037",
+        "EP042_B036"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander is alive despite being thought dead",
+        "He is the rightful Duke of Ashburn",
+        "Rupert stole his life and position"
+      ],
+      "withheld": [
+        "How Alexander survived",
+        "How he plans to punish Rupert",
+        "The exact nature of Rupert's betrayal"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The mother's tearful recognition and proud proclamation combined with the usurper's terror create a strong sense of triumph and poetic justice.",
+      "evidence": [
+        "EP042_B025",
+        "EP042_B029",
+        "EP042_B031",
+        "EP042_B034",
+        "EP042_B035"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Vindication and awe",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP042_B021",
+        "EP042_B034",
+        "EP042_B037"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP042_B021"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "triumph",
+      "evidence": [
+        "EP042_B031",
+        "EP042_B034",
+        "EP042_B036"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A wrongly presumed dead heir returns to reclaim his stolen dukedom and exact vengeance on the usurper.",
+      "evidence": [
+        "EP042_B023",
+        "EP042_B034",
+        "EP042_B037"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP042_B037"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Prior events regarding Alexander's supposed death"
+    ],
+    "curiosity_revealed": [
+      "Alexander is alive despite being thought dead",
+      "He is the rightful Duke of Ashburn",
+      "Rupert stole his life and position"
+    ],
+    "curiosity_withheld": [
+      "How Alexander survived",
+      "How he plans to punish Rupert",
+      "The exact nature of Rupert's betrayal"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "The rightful heir presumed dead returns from the grave to reclaim his title and settle scores.",
+    "supporting_block_ids": [
+      "EP042_B021",
+      "EP042_B034",
+      "EP042_B037",
+      "EP042_B031",
+      "EP042_B036",
+      "EP042_B023"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A man thought to be dead named Alexander returns to a cathedral, shocking a nobleman and reuniting with his emotional mother. His mother then publicly declares him the rightful Duke of Ashburn, leaving the usurper Rupert utterly defeated as Alexander vows to settle accounts.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The backstory of how Alexander was believed dead and how Rupert usurped his position is entirely unknown.\",\n      \"block_ids\": [\"K02\", \"K04\", \"K17\"]\n    },\n    {\n      \"issue\": \"The relationship of Catherine and her father standing beside the cowering Rupert is not explained.\",\n      \"block_ids\": [\"K16\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"The blond nobleman's terrified denial that Alexander cannot be alive immediately establishes a powerful premise of a dead man returning.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K03\",\n      \"K04\",\n      \"K15\",\n      \"K17\"\n    ],\n    \"reason\": \"Tension steadily escalates from Alexander's dramatic entrance and reunion with his mother to the public proclamation of his dukedom and his direct threat to Rupert.\",\n    \"evidence\": [\"K03\", \"K04\", \"K15\", \"K17\", \"K18\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K17\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Alexander exact his vengeance on Rupert and reclaim what was stolen?\",\n    \"score\": 5,\n    \"reason\": \"Alexander's direct declaration to settle scores while resting his hand on his sabre creates an intense, high-stakes promise of immediate confrontation.\",\n    \"evidence\": [\"K17\", \"K18\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"While the exact backstory is missing, the core conflict—a presumed dead rightful heir returning to reclaim his title from a terrified usurper—is instantly clear.\",\n    \"evidence\": [\"K02\", \"K04\", \"K15\", \"K17\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Alexander is alive despite being thought dead\",\n      \"He is the rightful Duke of Ashburn\",\n      \"Rupert stole his life and position\"\n    ],\n    \"withheld\": [\n      \"How Alexander survived\",\n      \"How he plans to punish Rupert\",\n      \"The exact nature of Rupert's betrayal\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"The clip delivers a satisfying emotional reunion and public power shift while leaving the actual retribution and confrontation entirely for the full episode.\",\n    \"evidence\": [\"K15\", \"K17\", \"K18\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Vindication and awe\",\n    \"score\": 4,\n    \"reason\": \"The mother's tearful recognition and proud proclamation combined with the usurper's terror create a strong sense of triumph and poetic justice.\",\n    \"evidence\": [\"K06\", \"K10\", \"K11\", \"K15\", \"K16\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K02\",\n        \"K15\",\n        \"K17\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"triumph\",\n      \"evidence\": [\n        \"K11\",\n        \"K15\",\n        \"K18\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A wrongly presumed dead heir returns to reclaim his stolen dukedom and exact vengeance on the usurper.\",\n      \"evidence\": [\n        \"K04\",\n        \"K15\",\n        \"K17\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Prior events regarding Alexander's supposed death\"\n      ]\n    },\n    \"appeal\": \"The rightful heir presumed dead returns from the grave to reclaim his title and settle scores.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "b5cb019eb67b738e237b6a7d07be82aec84a9923a0f29a51f4613cb66a3f56ae",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3717,
+      "prompt_tokens": 2662,
+      "completion_tokens": 1148,
+      "total_tokens": 3810,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:07:01.029387+00:00"
+}

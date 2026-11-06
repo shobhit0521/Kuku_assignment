@@ -1,0 +1,302 @@
+{
+  "candidate_id": "EP017_C02",
+  "episode_id": "EP017",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "031a9d5c075494965d22995b100fcae77369d91f9c772eda819792be5fe1bd47",
+  "clip_start_ms": 42000,
+  "clip_end_ms": 62200,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP017_B032",
+    "EP017_B033",
+    "EP017_B034"
+  ],
+  "eligible_beat_ids": [
+    "EP017_B039",
+    "EP017_B040",
+    "EP017_B041",
+    "EP017_B042",
+    "EP017_B043",
+    "EP017_B044",
+    "EP017_B045"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The line 'You were bleeding last night' establishes an immediate sense of quiet mystery and concern, though it lacks high-stakes urgency.",
+      "evidence": [
+        "EP017_B033"
+      ],
+      "issues": [],
+      "block_id": "EP017_B033",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 2,
+      "valid": true,
+      "reason": "Tension builds softly from tender banter to a more vulnerable emotional confession, but the conflict remains internal and low-stakes for a stranger.",
+      "evidence": [
+        "EP017_B041",
+        "EP017_B045"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP017_B041",
+        "EP017_B045"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 2,
+      "valid": true,
+      "reason": "The clip ends on an intimate emotional statement ('Of losing you'), which functions more as an emotional button than a suspenseful question.",
+      "evidence": [
+        "EP017_B045"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP017_B045",
+      "mechanism": "unanswered_question",
+      "outcome": "resolved",
+      "open_question": "What happens next in their relationship?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The intimate dynamic between the two characters is clear, but why Alexander is wounded and who 'they' are remains dependent on prior context.",
+      "evidence": [
+        "EP017_B031",
+        "EP017_B043"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Juliana tenderly cleans and bandages the wounded hands of a man named Alexander in a cottage. They exchange soft, affectionate words before she confesses that she was frightened of losing him.",
+      "confusions": [
+        {
+          "issue": "The identity of 'them' in Alexander's question ('Of them?') is completely unknown.",
+          "block_ids": [
+            "EP017_B043"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 3,
+      "valid": true,
+      "reason": "It sparks gentle curiosity about their backstory, but the soft romantic tone lacks the gripping hooks typical of high-performing promos.",
+      "evidence": [
+        "EP017_B033",
+        "EP017_B045"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The tender, caring relationship between Juliana and Alexander."
+      ],
+      "withheld": [
+        "The source of Alexander's injuries and the identity of the threat they face."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The dialogue and close-ups successfully evoke a warm, vulnerable mood between the characters.",
+      "evidence": [
+        "EP017_B033",
+        "EP017_B035",
+        "EP017_B041",
+        "EP017_B045"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "tender affection and vulnerability",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "romance_devotion",
+      "evidence": [
+        "EP017_B034",
+        "EP017_B041",
+        "EP017_B045"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "vulnerability",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP017_B033"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "longing_romance",
+      "evidence": [
+        "EP017_B034",
+        "EP017_B041",
+        "EP017_B045"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "The emotional fear of losing a loved one in a dangerous situation.",
+      "evidence": [
+        "EP017_B041",
+        "EP017_B045"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP017_B045"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "The cause of the injuries",
+      "The identity of 'them'"
+    ],
+    "curiosity_revealed": [
+      "The tender, caring relationship between Juliana and Alexander."
+    ],
+    "curiosity_withheld": [
+      "The source of Alexander's injuries and the identity of the threat they face."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A tender moment of quiet devotion and vulnerability amidst unseen danger.",
+    "supporting_block_ids": [
+      "EP017_B034",
+      "EP017_B041",
+      "EP017_B045",
+      "EP017_B033"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "LOW_TENSION",
+      "severity": "minor",
+      "explanation": "The scene is intimate and gentle, lacking the high-stakes conflict needed to drive strong scrolling curiosity.",
+      "block_ids": [
+        "EP017_B034",
+        "EP017_B038",
+        "EP017_B040"
+      ],
+      "source": "judge"
+    },
+    {
+      "code": "WEAK_CLIFFHANGER",
+      "severity": "minor",
+      "explanation": "Ending on an emotional confession provides a sweet character beat rather than a compelling cliffhanger question.",
+      "block_ids": [
+        "EP017_B045"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Juliana tenderly cleans and bandages the wounded hands of a man named Alexander in a cottage. They exchange soft, affectionate words before she confesses that she was frightened of losing him.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The identity of 'them' in Alexander's question ('Of them?') is completely unknown.\",\n      \"block_ids\": [\"K13\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 3,\n    \"reason\": \"The line 'You were bleeding last night' establishes an immediate sense of quiet mystery and concern, though it lacks high-stakes urgency.\",\n    \"evidence\": [\"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 2,\n    \"escalation_beats\": [\"K11\", \"K15\"],\n    \"reason\": \"Tension builds softly from tender banter to a more vulnerable emotional confession, but the conflict remains internal and low-stakes for a stranger.\",\n    \"evidence\": [\"K11\", \"K15\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K15\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"resolved\",\n    \"open_question\": \"What happens next in their relationship?\",\n    \"score\": 2,\n    \"reason\": \"The clip ends on an intimate emotional statement ('Of losing you'), which functions more as an emotional button than a suspenseful question.\",\n    \"evidence\": [\"K15\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The intimate dynamic between the two characters is clear, but why Alexander is wounded and who 'they' are remains dependent on prior context.\",\n    \"evidence\": [\"K01\", \"K13\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"The tender, caring relationship between Juliana and Alexander.\"],\n    \"withheld\": [\"The source of Alexander's injuries and the identity of the threat they face.\"],\n    \"balance\": \"balanced\",\n    \"score\": 3,\n    \"reason\": \"It sparks gentle curiosity about their backstory, but the soft romantic tone lacks the gripping hooks typical of high-performing promos.\",\n    \"evidence\": [\"K03\", \"K15\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"tender affection and vulnerability\",\n    \"score\": 3,\n    \"reason\": \"The dialogue and close-ups successfully evoke a warm, vulnerable mood between the characters.\",\n    \"evidence\": [\"K03\", \"K05\", \"K11\", \"K15\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"romance_devotion\",\n      \"other_label\": null,\n      \"secondary\": \"vulnerability\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K04\", \"K11\", \"K15\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K03\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"longing_romance\",\n      \"evidence\": [\"K04\", \"K11\", \"K15\"]\n    },\n    \"stakes\": {\n      \"summary\": \"The emotional fear of losing a loved one in a dangerous situation.\",\n      \"evidence\": [\"K11\", \"K15\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\"The cause of the injuries\", \"The identity of 'them'\"]\n    },\n    \"appeal\": \"A tender moment of quiet devotion and vulnerability amidst unseen danger.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"LOW_TENSION\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The scene is intimate and gentle, lacking the high-stakes conflict needed to drive strong scrolling curiosity.\",\n      \"block_ids\": [\"K04\", \"K08\", \"K10\"]\n    },\n    {\n      \"code\": \"WEAK_CLIFFHANGER\",\n      \"severity\": \"minor\",\n      \"explanation\": \"Ending on an emotional confession provides a sweet character beat rather than a compelling cliffhanger question.\",\n      \"block_ids\": [\"K15\"]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "6492897cadca040f44f06a3755a5cb0caed26398faa1f408cc20b21ef10b04cd",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3280,
+      "prompt_tokens": 2489,
+      "completion_tokens": 1034,
+      "total_tokens": 3523,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:56:28.006836+00:00"
+}

@@ -1,0 +1,81 @@
+{
+  "candidate_id": "EP036_C01",
+  "checker_version": "c1",
+  "judgement_clip_sha256": "6a140bb4288adc3909999c08c12624fab8bc90de5e419d0943d5a53586824784",
+  "judgement_prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "status": "resolved",
+  "flags": [
+    {
+      "dimension": "context_independence",
+      "code": "CONFUSIONS_WITH_HIGH_SCORE",
+      "detail": "score 4 with 2 confusing reference(s) listed"
+    }
+  ],
+  "remaining_flags": [],
+  "original_scores": {
+    "context_independence": 4
+  },
+  "revised_scores": {
+    "context_independence": 3
+  },
+  "revised_dimensions": {
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The core conflict of a wrongful accusation and impending execution is clear, but the identities of Rupert and Catherine and the exact relationship to Juliana require missing context from earlier episodes.",
+      "evidence": [
+        "EP036_B066",
+        "EP036_B076"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A distraught mother tells her son Alexander that a woman named Juliana, who saved the mother's life, has been falsely accused of poisoning her by Rupert and Catherine. Alexander reels in horror as his mother reveals that Juliana has been condemned to death.",
+      "confusions": [
+        {
+          "issue": "Who Rupert and Catherine are and why they have the authority to accuse or condemn Juliana is not explained.",
+          "block_ids": [
+            "EP036_B066"
+          ]
+        },
+        {
+          "issue": "The exact relationship between Alexander and Juliana is only implied as a wife later in the clip, with no prior context on how the situation escalated.",
+          "block_ids": [
+            "EP036_B076"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "note": null,
+  "raw_response_text": "{\n  \"blind_summary\": \"A distraught mother tells her son Alexander that a woman named Juliana, who saved the mother's life, has been falsely accused of poisoning her by Rupert and Catherine. Alexander reels in horror as his mother reveals that Juliana has been condemned to death.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Rupert and Catherine are and why they have the authority to accuse or condemn Juliana is not explained.\",\n      \"block_ids\": [\"K06\"]\n    },\n    {\n      \"issue\": \"The exact relationship between Alexander and Juliana is only implied as a wife later in the clip, with no prior context on how the situation escalated.\",\n      \"block_ids\": [\"K16\"]\n    }\n  ],\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The core conflict of a wrongful accusation and impending execution is clear, but the identities of Rupert and Catherine and the exact relationship to Juliana require missing context from earlier episodes.\",\n    \"evidence\": [\"K06\", \"K16\"]\n  }\n}",
+  "calls": [
+    {
+      "stage": "reassess",
+      "cache_key": "c24b53ce161fd18e9248936ed90082deae53e0b515807f1b6a53194852e7899b",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 1594,
+      "prompt_tokens": 4075,
+      "completion_tokens": 239,
+      "total_tokens": 4314,
+      "hidden_tokens": 0
+    }
+  ],
+  "invocation_id": "d586dab690a4",
+  "created_at": "2026-11-06T11:04:21.137391+00:00"
+}

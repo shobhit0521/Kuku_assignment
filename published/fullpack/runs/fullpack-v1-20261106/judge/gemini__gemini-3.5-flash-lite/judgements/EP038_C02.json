@@ -1,0 +1,329 @@
+{
+  "candidate_id": "EP038_C02",
+  "episode_id": "EP038",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "bda13565cdf3cc47e8cef5b99569ef5956981a3fd97e321bccb7d126b342645f",
+  "clip_start_ms": 60800,
+  "clip_end_ms": 87910,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP038_B040",
+    "EP038_B041"
+  ],
+  "eligible_beat_ids": [
+    "EP038_B044",
+    "EP038_B053",
+    "EP038_B054",
+    "EP038_B055",
+    "EP038_B056",
+    "EP038_B057"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's defiant refusal establishes her loyalty immediately, but lacks specific context on who is threatening her.",
+      "evidence": [
+        "EP038_B040"
+      ],
+      "issues": [],
+      "block_id": "EP038_B040",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds as the church bells trigger her realization that a wedding is starting, leading to her stark conclusion that she is next.",
+      "evidence": [
+        "EP038_B043",
+        "EP038_B044",
+        "EP038_B052"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP038_B043",
+        "EP038_B044",
+        "EP038_B052"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 2,
+      "valid": true,
+      "reason": "The cut to black following her tender smile and whisper provides an emotional button rather than a gripping, high-stakes narrative question.",
+      "evidence": [
+        "EP038_B056",
+        "EP038_B053",
+        "EP038_B054",
+        "EP038_B055"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP038_B056",
+      "mechanism": "reaction_hold",
+      "outcome": "unresolved",
+      "open_question": "What will happen to Juliana now that the wedding above has begun?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 2,
+      "valid": true,
+      "reason": "A stranger can understand she is an imprisoned wife loyal to her husband, but the stakes, enemies, and nature of the wedding require prior episodes.",
+      "evidence": [
+        "EP038_B040",
+        "EP038_B050",
+        "EP038_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman imprisoned in a dungeon refuses to betray her husband, realizing from distant church bells that a wedding is starting above and that she may be next. Despite her terrifying circumstances, she smiles defiantly and whispers her husband's name as the scene cuts to black.",
+      "confusions": [
+        {
+          "issue": "Who 'they' are and why they want her husband is entirely unexplained.",
+          "block_ids": [
+            "EP038_B040"
+          ]
+        },
+        {
+          "issue": "It is unclear whose wedding is happening above or why she believes she is next.",
+          "block_ids": [
+            "EP038_B050",
+            "EP038_B051",
+            "EP038_B052"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 3,
+      "valid": true,
+      "reason": "It sets up her defiance and a looming threat, but the emotional shift to a romantic smile softens the urgency into an emotional character beat.",
+      "evidence": [
+        "EP038_B040",
+        "EP038_B052",
+        "EP038_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is imprisoned in a dungeon",
+        "She refuses to betray her husband Alexander",
+        "Church bells signal a wedding starting above"
+      ],
+      "withheld": [
+        "Who her captors are",
+        "Whose wedding is taking place",
+        "What fate awaits her next"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's fierce loyalty and brave smile in the face of imprisonment evoke sympathy and admiration, though the overall emotional journey is brief.",
+      "evidence": [
+        "EP038_B040",
+        "EP038_B053",
+        "EP038_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "defiant loyalty",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "vulnerability",
+      "evidence": [
+        "EP038_B040",
+        "EP038_B041",
+        "EP038_B053",
+        "EP038_B055"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "romance_devotion",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP038_B040"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP038_B040",
+        "EP038_B047",
+        "EP038_B053"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An imprisoned woman faces imminent danger or execution as a mysterious wedding begins above her cell.",
+      "evidence": [
+        "EP038_B040",
+        "EP038_B044",
+        "EP038_B052"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP038_B056"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Identity of captors",
+      "Significance of the wedding",
+      "Why Alexander is targeted"
+    ],
+    "curiosity_revealed": [
+      "Juliana is imprisoned in a dungeon",
+      "She refuses to betray her husband Alexander",
+      "Church bells signal a wedding starting above"
+    ],
+    "curiosity_withheld": [
+      "Who her captors are",
+      "Whose wedding is taking place",
+      "What fate awaits her next"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Imprisoned and facing execution, a loyal wife refuses to betray her husband as a rival's wedding begins.",
+    "supporting_block_ids": [
+      "EP038_B040",
+      "EP038_B041",
+      "EP038_B053",
+      "EP038_B055",
+      "EP038_B047",
+      "EP038_B044",
+      "EP038_B052",
+      "EP038_B056"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "WEAK_CLIFFHANGER",
+      "severity": "minor",
+      "explanation": "The clip ends on an emotional reaction shot and a cut to black rather than a sharp, unanswered narrative question.",
+      "block_ids": [
+        "EP038_B053",
+        "EP038_B056"
+      ],
+      "source": "judge"
+    },
+    {
+      "code": "CONTEXT_DEPENDENT",
+      "severity": "minor",
+      "explanation": "Understanding the stakes requires knowing who Alexander is and what the wedding above represents.",
+      "block_ids": [
+        "EP038_B040",
+        "EP038_B050"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman imprisoned in a dungeon refuses to betray her husband, realizing from distant church bells that a wedding is starting above and that she may be next. Despite her terrifying circumstances, she smiles defiantly and whispers her husband's name as the scene cuts to black.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who 'they' are and why they want her husband is entirely unexplained.\",\n      \"block_ids\": [\n        \"K02\"\n      ]\n    },\n    {\n      \"issue\": \"It is unclear whose wedding is happening above or why she believes she is next.\",\n      \"block_ids\": [\n        \"K12\",\n        \"K13\",\n        \"K14\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Juliana's defiant refusal establishes her loyalty immediately, but lacks specific context on who is threatening her.\",\n    \"evidence\": [\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\n      \"K05\",\n      \"K06\",\n      \"K14\"\n    ],\n    \"reason\": \"Tension builds as the church bells trigger her realization that a wedding is starting, leading to her stark conclusion that she is next.\",\n    \"evidence\": [\n      \"K05\",\n      \"K06\",\n      \"K14\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K18\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What will happen to Juliana now that the wedding above has begun?\",\n    \"score\": 2,\n    \"reason\": \"The cut to black following her tender smile and whisper provides an emotional button rather than a gripping, high-stakes narrative question.\",\n    \"evidence\": [\n      \"K15\",\n      \"K16\",\n      \"K17\",\n      \"K18\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 2,\n    \"reason\": \"A stranger can understand she is an imprisoned wife loyal to her husband, but the stakes, enemies, and nature of the wedding require prior episodes.\",\n    \"evidence\": [\n      \"K02\",\n      \"K12\",\n      \"K13\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is imprisoned in a dungeon\",\n      \"She refuses to betray her husband Alexander\",\n      \"Church bells signal a wedding starting above\"\n    ],\n    \"withheld\": [\n      \"Who her captors are\",\n      \"Whose wedding is taking place\",\n      \"What fate awaits her next\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 3,\n    \"reason\": \"It sets up her defiance and a looming threat, but the emotional shift to a romantic smile softens the urgency into an emotional character beat.\",\n    \"evidence\": [\n      \"K02\",\n      \"K14\",\n      \"K15\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"defiant loyalty\",\n    \"score\": 3,\n    \"reason\": \"Juliana's fierce loyalty and brave smile in the face of imprisonment evoke sympathy and admiration, though the overall emotional journey is brief.\",\n    \"evidence\": [\n      \"K02\",\n      \"K15\",\n      \"K16\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"vulnerability\",\n      \"other_label\": null,\n      \"secondary\": \"romance_devotion\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K02\",\n        \"K03\",\n        \"K15\",\n        \"K17\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\n        \"K02\",\n        \"K09\",\n        \"K15\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"An imprisoned woman faces imminent danger or execution as a mysterious wedding begins above her cell.\",\n      \"evidence\": [\n        \"K02\",\n        \"K06\",\n        \"K14\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Identity of captors\",\n        \"Significance of the wedding\",\n        \"Why Alexander is targeted\"\n      ]\n    },\n    \"appeal\": \"Imprisoned and facing execution, a loyal wife refuses to betray her husband as a rival's wedding begins.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"WEAK_CLIFFHANGER\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The clip ends on an emotional reaction shot and a cut to black rather than a sharp, unanswered narrative question.\",\n      \"block_ids\": [\n        \"K15\",\n        \"K18\"\n      ]\n    },\n    {\n      \"code\": \"CONTEXT_DEPENDENT\",\n      \"severity\": \"minor\",\n      \"explanation\": \"Understanding the stakes requires knowing who Alexander is and what the wedding above represents.\",\n      \"block_ids\": [\n        \"K02\",\n        \"K12\"\n      ]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "77780e93549bab92e13106cdb48fc08276d9828fcba1aeb9d35eb6535841e2b1",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4625,
+      "prompt_tokens": 2652,
+      "completion_tokens": 1354,
+      "total_tokens": 4006,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:05:44.919226+00:00"
+}

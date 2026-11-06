@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
@@ -277,10 +278,12 @@ def redact(text: Optional[str], limit: int = 160) -> str:
 # --- discovery --------------------------------------------------------------------------------------
 
 def output_root() -> Path:
-    return config.output_dir()
+    return config.dashboard_dir()
 
 
 def output_location_warning(root: Optional[Path] = None) -> Optional[str]:
+    if os.environ.get("PROMOPILOT_DASHBOARD_DIR", "").strip():
+        return None  # an explicitly published dashboard folder is meant to live in the project
     root = Path(root or output_root()).resolve()
     project = config.PROJECT_ROOT.resolve()
     if root == project or project in root.parents:
@@ -380,8 +383,10 @@ def _staleness(judge: Optional[JudgeRef], ranking_path: Path, ranking: Optional[
         return Staleness("missing", ["ranking has not been generated for this judge output"])
     st = Staleness("current", generated_at=ranking.get("generated_at"))
     ranked_at = ranking_path.stat().st_mtime
-    newer = [p.name for sub in ("decisions", "judgements", "reassessments") for p in _listing(judge.path / sub)
-             if p.stat().st_mtime > ranked_at]
+    # A published snapshot is restored from git, which resets modification times; the content checks below still run.
+    published = bool(os.environ.get("PROMOPILOT_DASHBOARD_DIR", "").strip())
+    newer = [] if published else [p.name for sub in ("decisions", "judgements", "reassessments")
+                                  for p in _listing(judge.path / sub) if p.stat().st_mtime > ranked_at]
     if newer:
         st.reasons.append(f"{len(newer)} judge file(s) changed after the ranking was generated")
     table = {r["candidate_id"]: r for r in ranking.get("table", [])}

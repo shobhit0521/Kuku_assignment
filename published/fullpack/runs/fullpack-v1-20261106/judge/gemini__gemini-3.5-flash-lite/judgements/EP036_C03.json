@@ -1,0 +1,292 @@
+{
+  "candidate_id": "EP036_C03",
+  "episode_id": "EP036",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "97aba9f8f47d5f62e03f66f84beab0811f4fce66b5de8eb4df7ab8d712be6bc2",
+  "clip_start_ms": 71000,
+  "clip_end_ms": 109800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP036_B043",
+    "EP036_B044"
+  ],
+  "eligible_beat_ids": [
+    "EP036_B061",
+    "EP036_B062",
+    "EP036_B063",
+    "EP036_B064",
+    "EP036_B065",
+    "EP036_B066"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Alexander urgently calls out for his mother and Juliana, establishing immediate anxiety, though the exact stakes require context.",
+      "evidence": [
+        "EP036_B044",
+        "EP036_B043"
+      ],
+      "issues": [],
+      "block_id": "EP036_B044",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily through urgent questioning, a shocking confirmation that she arrived, and the final devastating accusation of poisoning.",
+      "evidence": [
+        "EP036_B046",
+        "EP036_B056",
+        "EP036_B062",
+        "EP036_B066"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP036_B046",
+        "EP036_B054",
+        "EP036_B062",
+        "EP036_B066"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The revelation of a severe false accusation creates an immediate, high-stakes question right at the cut.",
+      "evidence": [
+        "EP036_B066",
+        "EP036_B065"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP036_B066",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "How will Alexander respond to the accusation that Juliana poisoned his mother, and how will he save her from being arrested?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The viewer understands an urgent search for a missing person, but specific relationships and backstories (like Ashbourne Manor and Rupert/Catherine) remain unknown.",
+      "evidence": [
+        "EP036_B046",
+        "EP036_B066"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A frantic man named Alexander confronts his mother about a woman named Juliana who went to Ashbourne Manor and never returned. His mother reveals that Juliana did visit her, but was subsequently arrested because Rupert and Catherine accused her of poisoning the mother.",
+      "confusions": [
+        {
+          "issue": "Who Juliana is to Alexander and why she went to Ashbourne Manor to save his mother is unstated.",
+          "block_ids": [
+            "EP036_B044",
+            "EP036_B046"
+          ]
+        },
+        {
+          "issue": "Who Rupert and Catherine are and why they have the power to accuse and arrest someone for poisoning is not explained.",
+          "block_ids": [
+            "EP036_B066"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip answers the immediate question of where Juliana is, but opens up a much bigger conflict regarding a framing/false accusation.",
+      "evidence": [
+        "EP036_B062",
+        "EP036_B066"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana went to Ashbourne Manor, visited Alexander's mother, and was arrested.",
+        "Rupert and Catherine accused her of poisoning the mother."
+      ],
+      "withheld": [
+        "Whether Juliana actually committed the poisoning.",
+        "How Alexander plans to fight the arrest."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Strong performances convey palpable panic, anxiety, and ultimate horror at the false accusation.",
+      "evidence": [
+        "EP036_B046",
+        "EP036_B062",
+        "EP036_B066"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "desperation and shock",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "betrayal_humiliation",
+      "evidence": [
+        "EP036_B062",
+        "EP036_B066"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "danger_threat",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "in_medias_res",
+      "evidence": [
+        "EP036_B044"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP036_B066"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A woman who tried to help is framed for poisoning and arrested, threatening her life and freedom.",
+      "evidence": [
+        "EP036_B046",
+        "EP036_B066"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP036_B066"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Identity of Rupert and Catherine",
+      "Prior events at Ashbourne Manor"
+    ],
+    "curiosity_revealed": [
+      "Juliana went to Ashbourne Manor, visited Alexander's mother, and was arrested.",
+      "Rupert and Catherine accused her of poisoning the mother."
+    ],
+    "curiosity_withheld": [
+      "Whether Juliana actually committed the poisoning.",
+      "How Alexander plans to fight the arrest."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "An innocent woman is falsely accused of poisoning to cover up a vile plot. Can she be saved?",
+    "supporting_block_ids": [
+      "EP036_B062",
+      "EP036_B066",
+      "EP036_B044",
+      "EP036_B046"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A frantic man named Alexander confronts his mother about a woman named Juliana who went to Ashbourne Manor and never returned. His mother reveals that Juliana did visit her, but was subsequently arrested because Rupert and Catherine accused her of poisoning the mother.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Juliana is to Alexander and why she went to Ashbourne Manor to save his mother is unstated.\",\n      \"block_ids\": [\n        \"K02\",\n        \"K04\"\n      ]\n    },\n    {\n      \"issue\": \"Who Rupert and Catherine are and why they have the power to accuse and arrest someone for poisoning is not explained.\",\n      \"block_ids\": [\n        \"K24\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Alexander urgently calls out for his mother and Juliana, establishing immediate anxiety, though the exact stakes require context.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K04\",\n      \"K12\",\n      \"K20\",\n      \"K24\"\n    ],\n    \"reason\": \"Tension builds steadily through urgent questioning, a shocking confirmation that she arrived, and the final devastating accusation of poisoning.\",\n    \"evidence\": [\n      \"K04\",\n      \"K14\",\n      \"K20\",\n      \"K24\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K24\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Alexander respond to the accusation that Juliana poisoned his mother, and how will he save her from being arrested?\",\n    \"score\": 5,\n    \"reason\": \"The revelation of a severe false accusation creates an immediate, high-stakes question right at the cut.\",\n    \"evidence\": [\n      \"K23\",\n      \"K24\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The viewer understands an urgent search for a missing person, but specific relationships and backstories (like Ashbourne Manor and Rupert/Catherine) remain unknown.\",\n    \"evidence\": [\n      \"K04\",\n      \"K24\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana went to Ashbourne Manor, visited Alexander's mother, and was arrested.\",\n      \"Rupert and Catherine accused her of poisoning the mother.\"\n    ],\n    \"withheld\": [\n      \"Whether Juliana actually committed the poisoning.\",\n      \"How Alexander plans to fight the arrest.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip answers the immediate question of where Juliana is, but opens up a much bigger conflict regarding a framing/false accusation.\",\n    \"evidence\": [\n      \"K20\",\n      \"K24\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"desperation and shock\",\n    \"score\": 4,\n    \"reason\": \"Strong performances convey palpable panic, anxiety, and ultimate horror at the false accusation.\",\n    \"evidence\": [\n      \"K04\",\n      \"K20\",\n      \"K24\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"betrayal_humiliation\",\n      \"other_label\": null,\n      \"secondary\": \"danger_threat\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K20\",\n        \"K24\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"in_medias_res\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\n        \"K24\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A woman who tried to help is framed for poisoning and arrested, threatening her life and freedom.\",\n      \"evidence\": [\n        \"K04\",\n        \"K24\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Identity of Rupert and Catherine\",\n        \"Prior events at Ashbourne Manor\"\n      ]\n    },\n    \"appeal\": \"An innocent woman is falsely accused of poisoning to cover up a vile plot. Can she be saved?\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "1c67fcd1ab8f685e203c83657e88a24bfef806c464c85a6d3ce33ec93b11e085",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3908,
+      "prompt_tokens": 2817,
+      "completion_tokens": 1137,
+      "total_tokens": 3954,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:04:50.728041+00:00"
+}

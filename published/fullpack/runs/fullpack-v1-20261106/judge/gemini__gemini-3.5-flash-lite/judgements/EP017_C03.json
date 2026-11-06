@@ -1,0 +1,306 @@
+{
+  "candidate_id": "EP017_C03",
+  "episode_id": "EP017",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "a957a8e186e29e5249a8cc9d3dc3a01cc32f7e2fa87e6f27361f602e9dd39ef8",
+  "clip_start_ms": 18000,
+  "clip_end_ms": 39000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP017_B014",
+    "EP017_B015",
+    "EP017_B016"
+  ],
+  "eligible_beat_ids": [
+    "EP017_B022",
+    "EP017_B024",
+    "EP017_B025",
+    "EP017_B026",
+    "EP017_B027",
+    "EP017_B028",
+    "EP017_B029"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's emotional line drops the viewer into an ongoing rescue scenario, offering mild intrigue but lacking immediate high-stakes shock.",
+      "evidence": [
+        "EP017_B015",
+        "EP017_B014"
+      ],
+      "issues": [],
+      "block_id": "EP017_B015",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds through Alexander's increasingly absolute vows of protection, culminating in a tender romantic promise, though conflict remains internal/emotional rather than external.",
+      "evidence": [
+        "EP017_B017",
+        "EP017_B020",
+        "EP017_B023",
+        "EP017_B027"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP017_B017",
+        "EP017_B020",
+        "EP017_B023",
+        "EP017_B027"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 2,
+      "valid": true,
+      "reason": "The clip ends on a romantic, reassuring note and fades to black, providing an emotional resolution rather than an open suspense question.",
+      "evidence": [
+        "EP017_B027",
+        "EP017_B029"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP017_B027",
+      "mechanism": "reaction_hold",
+      "outcome": "resolved",
+      "open_question": "Can Alexander truly keep his promise to protect her?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The dynamic between a protective hero and a vulnerable, injured woman is clear, though the specific backstory regarding the attackers is unknown.",
+      "evidence": [
+        "EP017_B015",
+        "EP017_B023"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A wounded woman named Juliana expresses gratitude to Alexander for protecting her from attackers, and he fiercely vows to keep her safe despite her doubts. Alexander kneels before her and reassures her with absolute conviction before the scene fades out.",
+      "confusions": [
+        {
+          "issue": "Who are the men Juliana refers to and what is the nature of their danger?",
+          "block_ids": [
+            "EP017_B015"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 3,
+      "valid": true,
+      "reason": "It establishes a strong romantic dynamic and emotional stakes, but functions more as a tender character moment than a high-suspense hook.",
+      "evidence": [
+        "EP017_B015",
+        "EP017_B023",
+        "EP017_B027"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander's intense devotion and willingness to protect Juliana",
+        "Juliana's vulnerability and disbelief"
+      ],
+      "withheld": [
+        "The identity of the men who attacked her",
+        "Whether Alexander can actually shield her from future threats"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Alexander's steadfast vows and gentle physical reassurance create a strong emotional resonance of devotion and comfort.",
+      "evidence": [
+        "EP017_B022",
+        "EP017_B023",
+        "EP017_B027",
+        "EP017_B029"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Romance and devotion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "romance_devotion",
+      "evidence": [
+        "EP017_B017",
+        "EP017_B022",
+        "EP017_B023",
+        "EP017_B027"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": null,
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP017_B015"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "longing_romance",
+      "evidence": [
+        "EP017_B023",
+        "EP017_B027"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Whether Alexander can keep Juliana safe from the men hunting her.",
+      "evidence": [
+        "EP017_B015",
+        "EP017_B023",
+        "EP017_B025"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP017_B027"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Who the threatening men are"
+    ],
+    "curiosity_revealed": [
+      "Alexander's intense devotion and willingness to protect Juliana",
+      "Juliana's vulnerability and disbelief"
+    ],
+    "curiosity_withheld": [
+      "The identity of the men who attacked her",
+      "Whether Alexander can actually shield her from future threats"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A fiercely devoted hero vows to protect an injured woman no matter the cost.",
+    "supporting_block_ids": [
+      "EP017_B017",
+      "EP017_B022",
+      "EP017_B023",
+      "EP017_B027",
+      "EP017_B015",
+      "EP017_B025"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "RESOLVED_ENDING",
+      "severity": "minor",
+      "explanation": "The scene resolves on a tender, reassuring romantic beat and fades to black rather than cutting on an open-ended suspense question.",
+      "block_ids": [
+        "EP017_B027",
+        "EP017_B028",
+        "EP017_B029"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A wounded woman named Juliana expresses gratitude to Alexander for protecting her from attackers, and he fiercely vows to keep her safe despite her doubts. Alexander kneels before her and reassures her with absolute conviction before the scene fades out.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who are the men Juliana refers to and what is the nature of their danger?\",\n      \"block_ids\": [\n        \"K02\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Juliana's emotional line drops the viewer into an ongoing rescue scenario, offering mild intrigue but lacking immediate high-stakes shock.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\n      \"K04\",\n      \"K07\",\n      \"K10\",\n      \"K14\"\n    ],\n    \"reason\": \"Tension builds through Alexander's increasingly absolute vows of protection, culminating in a tender romantic promise, though conflict remains internal/emotional rather than external.\",\n    \"evidence\": [\n      \"K04\",\n      \"K07\",\n      \"K10\",\n      \"K14\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K14\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"resolved\",\n    \"open_question\": \"Can Alexander truly keep his promise to protect her?\",\n    \"score\": 2,\n    \"reason\": \"The clip ends on a romantic, reassuring note and fades to black, providing an emotional resolution rather than an open suspense question.\",\n    \"evidence\": [\n      \"K14\",\n      \"K16\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The dynamic between a protective hero and a vulnerable, injured woman is clear, though the specific backstory regarding the attackers is unknown.\",\n    \"evidence\": [\n      \"K02\",\n      \"K10\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Alexander's intense devotion and willingness to protect Juliana\",\n      \"Juliana's vulnerability and disbelief\"\n    ],\n    \"withheld\": [\n      \"The identity of the men who attacked her\",\n      \"Whether Alexander can actually shield her from future threats\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 3,\n    \"reason\": \"It establishes a strong romantic dynamic and emotional stakes, but functions more as a tender character moment than a high-suspense hook.\",\n    \"evidence\": [\n      \"K02\",\n      \"K10\",\n      \"K14\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Romance and devotion\",\n    \"score\": 4,\n    \"reason\": \"Alexander's steadfast vows and gentle physical reassurance create a strong emotional resonance of devotion and comfort.\",\n    \"evidence\": [\n      \"K09\",\n      \"K10\",\n      \"K14\",\n      \"K16\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"romance_devotion\",\n      \"other_label\": null,\n      \"secondary\": null,\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K04\",\n        \"K09\",\n        \"K10\",\n        \"K14\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"longing_romance\",\n      \"evidence\": [\n        \"K10\",\n        \"K14\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"Whether Alexander can keep Juliana safe from the men hunting her.\",\n      \"evidence\": [\n        \"K02\",\n        \"K10\",\n        \"K12\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Who the threatening men are\"\n      ]\n    },\n    \"appeal\": \"A fiercely devoted hero vows to protect an injured woman no matter the cost.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"RESOLVED_ENDING\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The scene resolves on a tender, reassuring romantic beat and fades to black rather than cutting on an open-ended suspense question.\",\n      \"block_ids\": [\n        \"K14\",\n        \"K15\",\n        \"K16\"\n      ]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "dcf7d01fac24605f4d5f15669e0e0a9345c5638f20cd99d5a99327b0496811e8",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3724,
+      "prompt_tokens": 2504,
+      "completion_tokens": 1174,
+      "total_tokens": 3678,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:56:35.726374+00:00"
+}

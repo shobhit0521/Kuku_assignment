@@ -1,0 +1,320 @@
+{
+  "candidate_id": "EP047_C03",
+  "episode_id": "EP047",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "0012b70a5d99",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "426d8a7dd75d8be1fc9c7d8486056d4d165b4e279cb695ce7c51f3d5c0057b44",
+  "clip_start_ms": 23200,
+  "clip_end_ms": 54800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP047_B011",
+    "EP047_B012"
+  ],
+  "eligible_beat_ids": [
+    "EP047_B023",
+    "EP047_B024"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana asks an anxious question about a priest swaying the High Council, which creates mild intrigue about an impending political conflict.",
+      "evidence": [
+        "EP047_B012"
+      ],
+      "issues": [],
+      "block_id": "EP047_B012",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 2,
+      "valid": true,
+      "reason": "The clip begins with anxiety over political opposition, but instead of escalating into conflict, it immediately shifts into soothing romantic reassurance, flattening the tension.",
+      "evidence": [
+        "EP047_B012",
+        "EP047_B014",
+        "EP047_B020",
+        "EP047_B024"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP047_B012",
+        "EP047_B014",
+        "EP047_B024"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 2,
+      "valid": true,
+      "reason": "Alexander's declaration provides an emotional and resolute button rather than an open question, leaving the scene emotionally resolved rather than suspenseful.",
+      "evidence": [
+        "EP047_B024"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP047_B024",
+      "mechanism": "pending_decision",
+      "outcome": "resolved",
+      "open_question": "Will they stand before the King and God in ten days?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The core dynamic of a devoted husband reassuring his anxious, low-status wife is clear, but the specific political stakes regarding Father Thomas and the High Council require prior context.",
+      "evidence": [
+        "EP047_B012",
+        "EP047_B014",
+        "EP047_B016",
+        "EP047_B024"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A noblewoman named Juliana worries that a priest named Father Thomas will persuade the High Council to strip her husband Alexander of his title because she is only a healer. Alexander reassures her, declaring that she is his wife and that nothing can break their bond.",
+      "confusions": [
+        {
+          "issue": "Who Father Thomas is and why he has influence over the High Council is not explained.",
+          "block_ids": [
+            "EP047_B012"
+          ]
+        },
+        {
+          "issue": "The background of Alexander's title and why Juliana's status as a healer threatens it is unclear.",
+          "block_ids": [
+            "EP047_B012",
+            "EP047_B014",
+            "EP047_B016"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 2,
+      "valid": true,
+      "reason": "The clip focuses heavily on emotional reassurance and romantic dialogue, providing a comforting emotional payoff rather than leaving a compelling narrative gap.",
+      "evidence": [
+        "EP047_B020",
+        "EP047_B022",
+        "EP047_B024"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana's insecurity about being a healer",
+        "Alexander's unwavering devotion and commitment to her"
+      ],
+      "withheld": [
+        "What Father Thomas actually does",
+        "How the conflict with the High Council resolves"
+      ],
+      "balance": "too_little",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "Alexander's steadfast and loving defense of his wife provides a warm, comforting emotional beat, though it lacks high dramatic stakes.",
+      "evidence": [
+        "EP047_B020",
+        "EP047_B022",
+        "EP047_B024"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "reassurance",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "romance_devotion",
+      "evidence": [
+        "EP047_B018",
+        "EP047_B020",
+        "EP047_B022",
+        "EP047_B024"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": null,
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP047_B012"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "longing_romance",
+      "evidence": [
+        "EP047_B020",
+        "EP047_B022",
+        "EP047_B024"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Whether a low-born healer can remain the wife of a titled noble despite opposition from the church and council.",
+      "evidence": [
+        "EP047_B012",
+        "EP047_B014",
+        "EP047_B016",
+        "EP047_B024"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "pending_decision",
+      "evidence": [
+        "EP047_B024"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Father Thomas's role",
+      "The exact nature of the High Council threat"
+    ],
+    "curiosity_revealed": [
+      "Juliana's insecurity about being a healer",
+      "Alexander's unwavering devotion and commitment to her"
+    ],
+    "curiosity_withheld": [
+      "What Father Thomas actually does",
+      "How the conflict with the High Council resolves"
+    ],
+    "curiosity_balance": "too_little",
+    "appeal": "A fiercely devoted husband vows to protect his low-born wife against the church and nobility.",
+    "supporting_block_ids": [
+      "EP047_B018",
+      "EP047_B020",
+      "EP047_B022",
+      "EP047_B024",
+      "EP047_B012",
+      "EP047_B014",
+      "EP047_B016"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "RESOLVED_ENDING",
+      "severity": "major",
+      "explanation": "The clip ends on a reassuring, defiant statement of love and commitment that resolves the emotional tension instead of creating a cliffhanger.",
+      "block_ids": [
+        "EP047_B024"
+      ],
+      "source": "judge"
+    },
+    {
+      "code": "LOW_TENSION",
+      "severity": "minor",
+      "explanation": "The initial worries voiced by Juliana are immediately subdued by Alexander's gentle and confident comfort, preventing any real escalation of conflict.",
+      "block_ids": [
+        "EP047_B017",
+        "EP047_B018",
+        "EP047_B020",
+        "EP047_B024"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A noblewoman named Juliana worries that a priest named Father Thomas will persuade the High Council to strip her husband Alexander of his title because she is only a healer. Alexander reassures her, declaring that she is his wife and that nothing can break their bond.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Father Thomas is and why he has influence over the High Council is not explained.\",\n      \"block_ids\": [\n        \"K02\"\n      ]\n    },\n    {\n      \"issue\": \"The background of Alexander's title and why Juliana's status as a healer threatens it is unclear.\",\n      \"block_ids\": [\n        \"K02\",\n        \"K04\",\n        \"K06\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Juliana asks an anxious question about a priest swaying the High Council, which creates mild intrigue about an impending political conflict.\",\n    \"evidence\": [\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 2,\n    \"escalation_beats\": [\n      \"K02\",\n      \"K04\",\n      \"K14\"\n    ],\n    \"reason\": \"The clip begins with anxiety over political opposition, but instead of escalating into conflict, it immediately shifts into soothing romantic reassurance, flattening the tension.\",\n    \"evidence\": [\n      \"K02\",\n      \"K04\",\n      \"K10\",\n      \"K14\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K14\",\n    \"mechanism\": \"pending_decision\",\n    \"outcome\": \"resolved\",\n    \"open_question\": \"Will they stand before the King and God in ten days?\",\n    \"score\": 2,\n    \"reason\": \"Alexander's declaration provides an emotional and resolute button rather than an open question, leaving the scene emotionally resolved rather than suspenseful.\",\n    \"evidence\": [\n      \"K14\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The core dynamic of a devoted husband reassuring his anxious, low-status wife is clear, but the specific political stakes regarding Father Thomas and the High Council require prior context.\",\n    \"evidence\": [\n      \"K02\",\n      \"K04\",\n      \"K06\",\n      \"K14\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana's insecurity about being a healer\",\n      \"Alexander's unwavering devotion and commitment to her\"\n    ],\n    \"withheld\": [\n      \"What Father Thomas actually does\",\n      \"How the conflict with the High Council resolves\"\n    ],\n    \"balance\": \"too_little\",\n    \"score\": 2,\n    \"reason\": \"The clip focuses heavily on emotional reassurance and romantic dialogue, providing a comforting emotional payoff rather than leaving a compelling narrative gap.\",\n    \"evidence\": [\n      \"K10\",\n      \"K12\",\n      \"K14\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"reassurance\",\n    \"score\": 3,\n    \"reason\": \"Alexander's steadfast and loving defense of his wife provides a warm, comforting emotional beat, though it lacks high dramatic stakes.\",\n    \"evidence\": [\n      \"K10\",\n      \"K12\",\n      \"K14\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"romance_devotion\",\n      \"other_label\": null,\n      \"secondary\": null,\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K08\",\n        \"K10\",\n        \"K12\",\n        \"K14\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"longing_romance\",\n      \"evidence\": [\n        \"K10\",\n        \"K12\",\n        \"K14\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"Whether a low-born healer can remain the wife of a titled noble despite opposition from the church and council.\",\n      \"evidence\": [\n        \"K02\",\n        \"K04\",\n        \"K06\",\n        \"K14\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Father Thomas's role\",\n        \"The exact nature of the High Council threat\"\n      ]\n    },\n    \"appeal\": \"A fiercely devoted husband vows to protect his low-born wife against the church and nobility.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"RESOLVED_ENDING\",\n      \"severity\": \"major\",\n      \"explanation\": \"The clip ends on a reassuring, defiant statement of love and commitment that resolves the emotional tension instead of creating a cliffhanger.\",\n      \"block_ids\": [\n        \"K14\"\n      ]\n    },\n    {\n      \"code\": \"LOW_TENSION\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The initial worries voiced by Juliana are immediately subdued by Alexander's gentle and confident comfort, preventing any real escalation of conflict.\",\n      \"block_ids\": [\n        \"K07\",\n        \"K08\",\n        \"K10\",\n        \"K14\"\n      ]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "fb8c9cdeb40088e7b0afd97c59e4cec02831dd389dc2ca6b70c3331c02ad36e3",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 5698,
+      "prompt_tokens": 2433,
+      "completion_tokens": 1361,
+      "total_tokens": 3794,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:09:34.593632+00:00"
+}

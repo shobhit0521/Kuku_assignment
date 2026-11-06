@@ -1,0 +1,304 @@
+{
+  "candidate_id": "EP028_C03",
+  "episode_id": "EP028",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "d023b01099e3222669662a1d763de43a2b8de1969bd1c5b8ad96345b06bced6a",
+  "clip_start_ms": 4700,
+  "clip_end_ms": 47000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP028_B006",
+    "EP028_B007",
+    "EP028_B008"
+  ],
+  "eligible_beat_ids": [
+    "EP028_B030",
+    "EP028_B031",
+    "EP028_B032",
+    "EP028_B033",
+    "EP028_B034",
+    "EP028_B035",
+    "EP028_B036"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Starts with a mocking accusation ('Look at her, Rupert'), providing mild intrigue into an ongoing conflict.",
+      "evidence": [
+        "EP028_B007",
+        "EP028_B008"
+      ],
+      "issues": [],
+      "block_id": "EP028_B007",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily from Juliana's wrongful accusation, through the imminent threat of torture, to the dramatic waking of the Duchess and her counter-accusation against the villains.",
+      "evidence": [
+        "EP028_B015",
+        "EP028_B018",
+        "EP028_B022",
+        "EP028_B031",
+        "EP028_B034"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP028_B015",
+        "EP028_B022",
+        "EP028_B031",
+        "EP028_B034"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The Duchess collapses mid-sentence right after exposing the conspirators, leaving a high-stakes question open about whether the truth will come out.",
+      "evidence": [
+        "EP028_B036",
+        "EP028_B035"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP028_B036",
+      "mechanism": "interrupted_action",
+      "outcome": "partly_resolved",
+      "open_question": "What were Catherine and Rupert doing, and will the Duchess survive to finish exposing them?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic—an innocent person framed for poisoning by scheming antagonists, rescued by a sudden witness—is easy to grasp without prior episodes.",
+      "evidence": [
+        "EP028_B013",
+        "EP028_B015",
+        "EP028_B031",
+        "EP028_B034"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Juliana is accused of poisoning the Dowager Duchess by Catherine and Rupert, but the Duchess regains consciousness and points her finger at Rupert and Catherine, revealing they knew about the poisoning. Before she can finish, the Duchess collapses.",
+      "confusions": [
+        {
+          "issue": "The exact relationship between Rupert, Catherine, the Dowager Duchess, and Juliana is not explicitly defined.",
+          "block_ids": [
+            "EP028_B007",
+            "EP028_B016",
+            "EP028_B020"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip provides a satisfying tables-turned twist while leaving the ultimate fate of the characters and the full conspiracy unknown.",
+      "evidence": [
+        "EP028_B031",
+        "EP028_B034",
+        "EP028_B036"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is innocent and tried to save the Duchess",
+        "Catherine and Rupert conspired or knew about the poisoning"
+      ],
+      "withheld": [
+        "What exactly Catherine and Rupert's plot entails",
+        "Whether the Duchess survives her collapse"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Strong sense of injustice as Juliana is unjustly accused and threatened, followed by catharsis when the tables turn on the villains.",
+      "evidence": [
+        "EP028_B013",
+        "EP028_B015",
+        "EP028_B031",
+        "EP028_B032",
+        "EP028_B034"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage_injustice",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP028_B015",
+        "EP028_B031",
+        "EP028_B032",
+        "EP028_B034"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP028_B007",
+        "EP028_B008",
+        "EP028_B013"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP028_B013",
+        "EP028_B015",
+        "EP028_B018"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An innocent woman's life hangs in the balance while a dying Duchess attempts to expose a deadly conspiracy within her family.",
+      "evidence": [
+        "EP028_B018",
+        "EP028_B031",
+        "EP028_B034"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "interrupted_action",
+      "evidence": [
+        "EP028_B036"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "Juliana is innocent and tried to save the Duchess",
+      "Catherine and Rupert conspired or knew about the poisoning"
+    ],
+    "curiosity_withheld": [
+      "What exactly Catherine and Rupert's plot entails",
+      "Whether the Duchess survives her collapse"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "An innocent woman framed for murder is saved when the victim wakes up to expose the real killers.",
+    "supporting_block_ids": [
+      "EP028_B015",
+      "EP028_B031",
+      "EP028_B032",
+      "EP028_B034",
+      "EP028_B007",
+      "EP028_B008",
+      "EP028_B013",
+      "EP028_B018",
+      "EP028_B036"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Juliana is accused of poisoning the Dowager Duchess by Catherine and Rupert, but the Duchess regains consciousness and points her finger at Rupert and Catherine, revealing they knew about the poisoning. Before she can finish, the Duchess collapses.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact relationship between Rupert, Catherine, the Dowager Duchess, and Juliana is not explicitly defined.\",\n      \"block_ids\": [\"K02\", \"K11\", \"K15\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Starts with a mocking accusation ('Look at her, Rupert'), providing mild intrigue into an ongoing conflict.\",\n    \"evidence\": [\"K02\", \"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K10\", \"K16\", \"K26\", \"K29\"],\n    \"reason\": \"Tension builds steadily from Juliana's wrongful accusation, through the imminent threat of torture, to the dramatic waking of the Duchess and her counter-accusation against the villains.\",\n    \"evidence\": [\"K10\", \"K13\", \"K16\", \"K26\", \"K29\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K31\",\n    \"mechanism\": \"interrupted_action\",\n    \"outcome\": \"partly_resolved\",\n    \"open_question\": \"What were Catherine and Rupert doing, and will the Duchess survive to finish exposing them?\",\n    \"score\": 4,\n    \"reason\": \"The Duchess collapses mid-sentence right after exposing the conspirators, leaving a high-stakes question open about whether the truth will come out.\",\n    \"evidence\": [\"K30\", \"K31\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic—an innocent person framed for poisoning by scheming antagonists, rescued by a sudden witness—is easy to grasp without prior episodes.\",\n    \"evidence\": [\"K08\", \"K10\", \"K26\", \"K29\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is innocent and tried to save the Duchess\",\n      \"Catherine and Rupert conspired or knew about the poisoning\"\n    ],\n    \"withheld\": [\n      \"What exactly Catherine and Rupert's plot entails\",\n      \"Whether the Duchess survives her collapse\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip provides a satisfying tables-turned twist while leaving the ultimate fate of the characters and the full conspiracy unknown.\",\n    \"evidence\": [\"K26\", \"K29\", \"K31\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage_injustice\",\n    \"score\": 4,\n    \"reason\": \"Strong sense of injustice as Juliana is unjustly accused and threatened, followed by catharsis when the tables turn on the villains.\",\n    \"evidence\": [\"K08\", \"K10\", \"K26\", \"K27\", \"K29\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K10\", \"K26\", \"K27\", \"K29\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\", \"K03\", \"K08\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K08\", \"K10\", \"K13\"]\n    },\n    \"stakes\": {\n      \"summary\": \"An innocent woman's life hangs in the balance while a dying Duchess attempts to expose a deadly conspiracy within her family.\",\n      \"evidence\": [\"K13\", \"K26\", \"K29\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"An innocent woman framed for murder is saved when the victim wakes up to expose the real killers.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "c3b87e14de1fd14ed46fec3869d9b0241d05cc18bd378c89e2772703a0631acf",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4027,
+      "prompt_tokens": 3271,
+      "completion_tokens": 1052,
+      "total_tokens": 4323,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:00:15.351439+00:00"
+}

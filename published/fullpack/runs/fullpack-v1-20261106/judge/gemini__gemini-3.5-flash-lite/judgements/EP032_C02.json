@@ -1,0 +1,308 @@
+{
+  "candidate_id": "EP032_C02",
+  "episode_id": "EP032",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "9b40e4008016334304e572e630bfa5e5dd8d72274938f8d50c7cc774519ae8eb",
+  "clip_start_ms": 16200,
+  "clip_end_ms": 54200,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP032_B013",
+    "EP032_B014",
+    "EP032_B015",
+    "EP032_B016"
+  ],
+  "eligible_beat_ids": [
+    "EP032_B035",
+    "EP032_B036",
+    "EP032_B037",
+    "EP032_B038",
+    "EP032_B039",
+    "EP032_B040",
+    "EP032_B041",
+    "EP032_B042"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Catherine's cold command to say goodbye to her mother immediately establishes high stakes and cruelty.",
+      "evidence": [
+        "EP032_B013"
+      ],
+      "issues": [],
+      "block_id": "EP032_B013",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds through a psychological battle of wills as Catherine tries to break Juliana with physical threats and Juliana steadily escalates her defiance.",
+      "evidence": [
+        "EP032_B013",
+        "EP032_B017",
+        "EP032_B031",
+        "EP032_B042"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP032_B013",
+        "EP032_B017",
+        "EP032_B031",
+        "EP032_B042"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip cuts off right as Catherine screams in a blind rage with the glowing hot iron inches from Juliana's face.",
+      "evidence": [
+        "EP032_B042",
+        "EP032_B041"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP032_B042",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Will Catherine actually use the glowing iron on Juliana's face?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic of a sadistic torturer trying to break a defiant, shackled prisoner is universally understandable without prior episodes.",
+      "evidence": [
+        "EP032_B013",
+        "EP032_B017",
+        "EP032_B022",
+        "EP032_B031"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A shackled prisoner named Juliana calmly defies her tormentor Catherine, who threatens her with a hot iron and demands she watch her mother's destruction. Despite the torture and threats, Juliana remains entirely unbowed, mocking Catherine's cruelty.",
+      "confusions": [
+        {
+          "issue": "The nature of the ledger/book and what it contains is not explained.",
+          "block_ids": [
+            "EP032_B014",
+            "EP032_B022"
+          ]
+        },
+        {
+          "issue": "The backstory regarding Juliana's mother and why they are being persecuted (herbs, teaching) lacks specific context.",
+          "block_ids": [
+            "EP032_B027",
+            "EP032_B029"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It showcases the satisfying core dynamic of the conflict while leaving the immediate violent threat unresolved.",
+      "evidence": [
+        "EP032_B040",
+        "EP032_B041",
+        "EP032_B042"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana's unyielding spirit and refusal to be cowed",
+        "Catherine's escalating frustration and cruelty"
+      ],
+      "withheld": [
+        "Whether Juliana suffers permanent harm from the brand",
+        "The ultimate outcome of this power struggle"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The stark contrast between brutal physical oppression and absolute mental fortitude creates a strong sense of triumph and defiance.",
+      "evidence": [
+        "EP032_B017",
+        "EP032_B031",
+        "EP032_B040"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Outrage and admiration for Juliana's resilience",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP032_B017",
+        "EP032_B031",
+        "EP032_B040"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "danger_threat",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP032_B013"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP032_B013",
+        "EP032_B041",
+        "EP032_B042"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A captive woman faces physical torture and attempts to break her spirit, but refuses to yield her dignity or her mother's teachings.",
+      "evidence": [
+        "EP032_B013",
+        "EP032_B022",
+        "EP032_B027",
+        "EP032_B040"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP032_B042"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "The exact contents of the ledger",
+      "The history between the mother and Catherine"
+    ],
+    "curiosity_revealed": [
+      "Juliana's unyielding spirit and refusal to be cowed",
+      "Catherine's escalating frustration and cruelty"
+    ],
+    "curiosity_withheld": [
+      "Whether Juliana suffers permanent harm from the brand",
+      "The ultimate outcome of this power struggle"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A fiercely resilient prisoner turns the tables psychologically on her brutal torturer, refusing to break.",
+    "supporting_block_ids": [
+      "EP032_B017",
+      "EP032_B031",
+      "EP032_B040",
+      "EP032_B013",
+      "EP032_B041",
+      "EP032_B042",
+      "EP032_B022",
+      "EP032_B027"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A shackled prisoner named Juliana calmly defies her tormentor Catherine, who threatens her with a hot iron and demands she watch her mother's destruction. Despite the torture and threats, Juliana remains entirely unbowed, mocking Catherine's cruelty.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The nature of the ledger/book and what it contains is not explained.\",\n      \"block_ids\": [\"K03\", \"K11\"]\n    },\n    {\n      \"issue\": \"The backstory regarding Juliana's mother and why they are being persecuted (herbs, teaching) lacks specific context.\",\n      \"block_ids\": [\"K15\", \"K18\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Catherine's cold command to say goodbye to her mother immediately establishes high stakes and cruelty.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K02\", \"K06\", \"K20\", \"K31\"],\n    \"reason\": \"Tension builds through a psychological battle of wills as Catherine tries to break Juliana with physical threats and Juliana steadily escalates her defiance.\",\n    \"evidence\": [\"K02\", \"K06\", \"K20\", \"K31\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K31\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Catherine actually use the glowing iron on Juliana's face?\",\n    \"score\": 4,\n    \"reason\": \"The clip cuts off right as Catherine screams in a blind rage with the glowing hot iron inches from Juliana's face.\",\n    \"evidence\": [\"K30\", \"K31\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic of a sadistic torturer trying to break a defiant, shackled prisoner is universally understandable without prior episodes.\",\n    \"evidence\": [\"K02\", \"K06\", \"K11\", \"K20\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana's unyielding spirit and refusal to be cowed\",\n      \"Catherine's escalating frustration and cruelty\"\n    ],\n    \"withheld\": [\n      \"Whether Juliana suffers permanent harm from the brand\",\n      \"The ultimate outcome of this power struggle\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It showcases the satisfying core dynamic of the conflict while leaving the immediate violent threat unresolved.\",\n    \"evidence\": [\"K29\", \"K30\", \"K31\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Outrage and admiration for Juliana's resilience\",\n    \"score\": 4,\n    \"reason\": \"The stark contrast between brutal physical oppression and absolute mental fortitude creates a strong sense of triumph and defiance.\",\n    \"evidence\": [\"K06\", \"K20\", \"K29\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"danger_threat\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K06\", \"K20\", \"K29\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K02\", \"K30\", \"K31\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A captive woman faces physical torture and attempts to break her spirit, but refuses to yield her dignity or her mother's teachings.\",\n      \"evidence\": [\"K02\", \"K11\", \"K15\", \"K29\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"The exact contents of the ledger\",\n        \"The history between the mother and Catherine\"\n      ]\n    },\n    \"appeal\": \"A fiercely resilient prisoner turns the tables psychologically on her brutal torturer, refusing to break.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "8878d5a65a86fb25aa26857a8182645afa7cb1f4e8fd640af656bddbd07d2148",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3540,
+      "prompt_tokens": 3189,
+      "completion_tokens": 1060,
+      "total_tokens": 4249,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:02:17.929963+00:00"
+}

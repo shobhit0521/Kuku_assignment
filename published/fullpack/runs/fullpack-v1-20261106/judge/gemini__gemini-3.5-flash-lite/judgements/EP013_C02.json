@@ -1,0 +1,290 @@
+{
+  "candidate_id": "EP013_C02",
+  "episode_id": "EP013",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "7822105754e945a02846f8813cf57cb03185011aae60de780733146b2201abaf",
+  "clip_start_ms": 47200,
+  "clip_end_ms": 102500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP013_B029",
+    "EP013_B030",
+    "EP013_B032",
+    "EP013_B031"
+  ],
+  "eligible_beat_ids": [
+    "EP013_B063",
+    "EP013_B064",
+    "EP013_B065",
+    "EP013_B066"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Alexander's panicked scream immediately establishes high stakes and emotional distress, drawing the viewer into the chaotic situation.",
+      "evidence": [
+        "EP013_B029"
+      ],
+      "issues": [],
+      "block_id": "EP013_B029",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily as Juliana's physical suffering worsens inside the briars while Gerald taunts them and Alexander struggles helplessly against guards.",
+      "evidence": [
+        "EP013_B036",
+        "EP013_B044",
+        "EP013_B062"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP013_B031",
+        "EP013_B036",
+        "EP013_B044",
+        "EP013_B056",
+        "EP013_B062"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "Ending on Juliana's desperate plea about the ring leaves the immediate survival and success of her brutal task completely open.",
+      "evidence": [
+        "EP013_B066",
+        "EP013_B065"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP013_B066",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "Will Juliana find the ring in time, and what will happen to Alexander?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic—a wife torturing herself physically to save her husband while cruel villains watch—is easy to grasp, even if the backstory is missing.",
+      "evidence": [
+        "EP013_B044",
+        "EP013_B066"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Juliana crawls through a sharp, freezing briar patch, tearing her hands and face to find something while her husband Alexander is restrained and begs her to stop. Meanwhile, onlookers Gerald and Clarissa mock her from a balcony, explaining that her husband's freedom depends on her search.",
+      "confusions": [
+        {
+          "issue": "Why Alexander's freedom depends on this specific search and what Gerald and Clarissa's exact relationship to them is remains unclear.",
+          "block_ids": [
+            "EP013_B044"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip shows extreme physical stakes and cruelty without explaining the inciting incident or the outcome, driving a strong desire to see what happens next.",
+      "evidence": [
+        "EP013_B044",
+        "EP013_B066"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is mutilating her hands and body crawling through thorns.",
+        "Alexander is imprisoned or restrained, watching in agony.",
+        "Gerald and Clarissa are maliciously enjoying the spectacle."
+      ],
+      "withheld": [
+        "What the ring or item in the garden is.",
+        "Why Alexander's freedom is tied to this specific punishment."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The brutality of the thorns combined with the sadistic taunts from above creates a strong sense of injustice and visceral sympathy.",
+      "evidence": [
+        "EP013_B036",
+        "EP013_B041",
+        "EP013_B044"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage and distress",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "betrayal_humiliation",
+      "evidence": [
+        "EP013_B036",
+        "EP013_B044",
+        "EP013_B062"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "danger_threat",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP013_B029"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP013_B036",
+        "EP013_B044"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A wife must crawl through a brutal frozen briar patch and tear her body apart to secure her husband's freedom while enemies mock them.",
+      "evidence": [
+        "EP013_B044",
+        "EP013_B062",
+        "EP013_B066"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP013_B066"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Prior events leading to Alexander's arrest",
+      "The nature of the object hidden in the briars"
+    ],
+    "curiosity_revealed": [
+      "Juliana is mutilating her hands and body crawling through thorns.",
+      "Alexander is imprisoned or restrained, watching in agony.",
+      "Gerald and Clarissa are maliciously enjoying the spectacle."
+    ],
+    "curiosity_withheld": [
+      "What the ring or item in the garden is.",
+      "Why Alexander's freedom is tied to this specific punishment."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A devoted wife mutilates herself in a brutal frozen briar patch to buy her husband's freedom while malicious enemies watch.",
+    "supporting_block_ids": [
+      "EP013_B036",
+      "EP013_B044",
+      "EP013_B062",
+      "EP013_B029",
+      "EP013_B066"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Juliana crawls through a sharp, freezing briar patch, tearing her hands and face to find something while her husband Alexander is restrained and begs her to stop. Meanwhile, onlookers Gerald and Clarissa mock her from a balcony, explaining that her husband's freedom depends on her search.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Why Alexander's freedom depends on this specific search and what Gerald and Clarissa's exact relationship to them is remains unclear.\",\n      \"block_ids\": [\"K17\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Alexander's panicked scream immediately establishes high stakes and emotional distress, drawing the viewer into the chaotic situation.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K05\", \"K09\", \"K17\", \"K29\", \"K35\"],\n    \"reason\": \"Tension builds steadily as Juliana's physical suffering worsens inside the briars while Gerald taunts them and Alexander struggles helplessly against guards.\",\n    \"evidence\": [\"K09\", \"K17\", \"K35\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K39\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Juliana find the ring in time, and what will happen to Alexander?\",\n    \"score\": 4,\n    \"reason\": \"Ending on Juliana's desperate plea about the ring leaves the immediate survival and success of her brutal task completely open.\",\n    \"evidence\": [\"K38\", \"K39\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic—a wife torturing herself physically to save her husband while cruel villains watch—is easy to grasp, even if the backstory is missing.\",\n    \"evidence\": [\"K17\", \"K39\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is mutilating her hands and body crawling through thorns.\",\n      \"Alexander is imprisoned or restrained, watching in agony.\",\n      \"Gerald and Clarissa are maliciously enjoying the spectacle.\"\n    ],\n    \"withheld\": [\n      \"What the ring or item in the garden is.\",\n      \"Why Alexander's freedom is tied to this specific punishment.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip shows extreme physical stakes and cruelty without explaining the inciting incident or the outcome, driving a strong desire to see what happens next.\",\n    \"evidence\": [\"K17\", \"K39\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage and distress\",\n    \"score\": 4,\n    \"reason\": \"The brutality of the thorns combined with the sadistic taunts from above creates a strong sense of injustice and visceral sympathy.\",\n    \"evidence\": [\"K09\", \"K14\", \"K17\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"betrayal_humiliation\",\n      \"other_label\": null,\n      \"secondary\": \"danger_threat\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K09\", \"K17\", \"K35\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K09\", \"K17\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A wife must crawl through a brutal frozen briar patch and tear her body apart to secure her husband's freedom while enemies mock them.\",\n      \"evidence\": [\"K17\", \"K35\", \"K39\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Prior events leading to Alexander's arrest\",\n        \"The nature of the object hidden in the briars\"\n      ]\n    },\n    \"appeal\": \"A devoted wife mutilates herself in a brutal frozen briar patch to buy her husband's freedom while malicious enemies watch.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "7ccae2566b07a08fddc28801b65a5f413ec8ffaf995dc8dfc72d275666954542",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3787,
+      "prompt_tokens": 3560,
+      "completion_tokens": 1048,
+      "total_tokens": 4608,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:54:51.857945+00:00"
+}

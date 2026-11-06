@@ -1,4 +1,4 @@
-"""Needs attention: candidates that did not pass, or carry a review flag, grouped by what went wrong."""
+"""Where it picks badly: candidates that did not pass, or carry a review flag, grouped by what went wrong."""
 from html import escape
 
 import streamlit as st
@@ -14,7 +14,7 @@ everything = audit.sections(ctx)
 pending_eps_all = audit.pending_episodes(ctx)
 n_fail = sum(len(everything[k]) for k in ("technical", "quality", "unusable", "pending"))
 needs_review = sum(1 for v in everything["review"] if audit.review_status(v) == "needs_review")
-layout.page_header("Needs attention",
+layout.page_header("Where it picks badly",
                    f"{n_fail} of {len(ctx.candidates)} candidates did not pass · {needs_review} flagged for review · "
                    f"{len(pending_eps_all)} episode(s) awaiting processing", ctx)
 

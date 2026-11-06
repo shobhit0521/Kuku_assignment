@@ -1,0 +1,299 @@
+{
+  "candidate_id": "EP032_C01",
+  "episode_id": "EP032",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "4bc8b51d1fdc235749600454be788d7ca18ae1232878088c65202b74b53ea270",
+  "clip_start_ms": 119500,
+  "clip_end_ms": 154380,
+  "masked_terms": 1,
+  "eligible_hook_ids": [
+    "EP032_B090",
+    "EP032_B091",
+    "EP032_B093",
+    "EP032_B092"
+  ],
+  "eligible_beat_ids": [
+    "EP032_B108",
+    "EP032_B109",
+    "EP032_B110",
+    "EP032_B111",
+    "EP032_B112",
+    "EP032_B113",
+    "EP032_B114",
+    "EP032_B115",
+    "EP032_B116",
+    "EP032_B117"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Catherine screaming hysterically while raising a branding poker creates an immediate, visceral flash of danger and rage that halts scrolling.",
+      "evidence": [
+        "EP032_B091",
+        "EP032_B090",
+        "EP032_B093"
+      ],
+      "issues": [],
+      "block_id": "EP032_B091",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 5,
+      "valid": true,
+      "reason": "Tension builds relentlessly from Juliana's verbal defiance to Catherine's escalating fury, culminating in a terrifying physical threat.",
+      "evidence": [
+        "EP032_B095",
+        "EP032_B103",
+        "EP032_B109",
+        "EP032_B116",
+        "EP032_B117"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP032_B095",
+        "EP032_B103",
+        "EP032_B109",
+        "EP032_B116"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip cuts to black with a red-hot iron glowing millimeters from the prisoner's eye, creating extreme suspense.",
+      "evidence": [
+        "EP032_B117",
+        "EP032_B116"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP032_B117",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Does Catherine actually brand Juliana's face, or does something stop her at the last fraction of a second?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic is instantly clear: a desperate, tyrannical jailer and a fiercely unyielding captive. Only the specific backstory is missing.",
+      "evidence": [
+        "EP032_B100",
+        "EP032_B103",
+        "EP032_B109"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A frantic, unhinged woman named Catherine threatens to brand a chained, defiant prisoner named Juliana with a red-hot iron. Despite being trapped, Juliana relentlessly mocks Catherine's insecurity until Catherine lunges the glowing metal inches from her face.",
+      "confusions": [
+        {
+          "issue": "The background history between Catherine and Juliana, and why Juliana is imprisoned, is entirely unstated.",
+          "block_ids": [
+            "EP032_B095",
+            "EP032_B107"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "It showcases a gripping power struggle and cuts off at the absolute peak of mortal peril, driving viewers to watch the full episode.",
+      "evidence": [
+        "EP032_B109",
+        "EP032_B117"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Catherine's deep insecurity and murderous rage",
+        "Juliana's fearless psychological domination despite being chained"
+      ],
+      "withheld": [
+        "Whether Juliana is disfigured or saved at the last second",
+        "How their rivalry started"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The intense power dynamic and cruelty evoke strong feelings of injustice and nail-biting tension.",
+      "evidence": [
+        "EP032_B103",
+        "EP032_B109",
+        "EP032_B117"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspense and outrage",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP032_B103",
+        "EP032_B109",
+        "EP032_B117"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "danger_threat",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP032_B091",
+        "EP032_B093"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP032_B103",
+        "EP032_B117"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A captive woman's life and physical safety hang in the balance as she psychologically destroys her tyrannical jailer.",
+      "evidence": [
+        "EP032_B103",
+        "EP032_B109",
+        "EP032_B117"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP032_B117"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Backstory of the conflict between Catherine and Juliana"
+    ],
+    "curiosity_revealed": [
+      "Catherine's deep insecurity and murderous rage",
+      "Juliana's fearless psychological domination despite being chained"
+    ],
+    "curiosity_withheld": [
+      "Whether Juliana is disfigured or saved at the last second",
+      "How their rivalry started"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A chained, fearless prisoner ruthlessly mocks her unhinged jailer right before a red-hot branding iron strikes.",
+    "supporting_block_ids": [
+      "EP032_B103",
+      "EP032_B109",
+      "EP032_B117",
+      "EP032_B091",
+      "EP032_B093"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A frantic, unhinged woman named Catherine threatens to brand a chained, defiant prisoner named Juliana with a red-hot iron. Despite being trapped, Juliana relentlessly mocks Catherine's insecurity until Catherine lunges the glowing metal inches from her face.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The background history between Catherine and Juliana, and why Juliana is imprisoned, is entirely unstated.\",\n      \"block_ids\": [\"K06\", \"K17\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Catherine screaming hysterically while raising a branding poker creates an immediate, visceral flash of danger and rage that halts scrolling.\",\n    \"evidence\": [\"K01\", \"K02\", \"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 5,\n    \"escalation_beats\": [\n      \"K06\",\n      \"K14\",\n      \"K20\",\n      \"K27\"\n    ],\n    \"reason\": \"Tension builds relentlessly from Juliana's verbal defiance to Catherine's escalating fury, culminating in a terrifying physical threat.\",\n    \"evidence\": [\"K06\", \"K14\", \"K20\", \"K27\", \"K28\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K28\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Does Catherine actually brand Juliana's face, or does something stop her at the last fraction of a second?\",\n    \"score\": 5,\n    \"reason\": \"The clip cuts to black with a red-hot iron glowing millimeters from the prisoner's eye, creating extreme suspense.\",\n    \"evidence\": [\"K27\", \"K28\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic is instantly clear: a desperate, tyrannical jailer and a fiercely unyielding captive. Only the specific backstory is missing.\",\n    \"evidence\": [\"K11\", \"K14\", \"K20\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Catherine's deep insecurity and murderous rage\",\n      \"Juliana's fearless psychological domination despite being chained\"\n    ],\n    \"withheld\": [\n      \"Whether Juliana is disfigured or saved at the last second\",\n      \"How their rivalry started\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"It showcases a gripping power struggle and cuts off at the absolute peak of mortal peril, driving viewers to watch the full episode.\",\n    \"evidence\": [\"K20\", \"K28\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspense and outrage\",\n    \"score\": 4,\n    \"reason\": \"The intense power dynamic and cruelty evoke strong feelings of injustice and nail-biting tension.\",\n    \"evidence\": [\"K14\", \"K20\", \"K28\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"danger_threat\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K14\",\n        \"K20\",\n        \"K28\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\n        \"K02\",\n        \"K03\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\n        \"K14\",\n        \"K28\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A captive woman's life and physical safety hang in the balance as she psychologically destroys her tyrannical jailer.\",\n      \"evidence\": [\n        \"K14\",\n        \"K20\",\n        \"K28\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Backstory of the conflict between Catherine and Juliana\"\n      ]\n    },\n    \"appeal\": \"A chained, fearless prisoner ruthlessly mocks her unhinged jailer right before a red-hot branding iron strikes.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "ea009afd9ffcd9e11c53e59b75a1479adf996806248b6d7ee57f755b2e8fc7c5",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3731,
+      "prompt_tokens": 3075,
+      "completion_tokens": 1065,
+      "total_tokens": 4140,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:02:10.396108+00:00"
+}

@@ -1,0 +1,296 @@
+{
+  "candidate_id": "EP037_C03",
+  "episode_id": "EP037",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "2759b4ce494a5e4ab23906b18b967bfda4a598f84a108229b6f4742e2ec6dde8",
+  "clip_start_ms": 5500,
+  "clip_end_ms": 29800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP037_B003",
+    "EP037_B004"
+  ],
+  "eligible_beat_ids": [
+    "EP037_B011",
+    "EP037_B012",
+    "EP037_B013",
+    "EP037_B014",
+    "EP037_B015",
+    "EP037_B016"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The line sets up an impending public spectacle involving important families, but lacks immediate visceral stakes without knowing who is getting married.",
+      "evidence": [
+        "EP037_B004"
+      ],
+      "issues": [],
+      "block_id": "EP037_B004",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds incrementally as the conspirators move from discussing a wedding to planning a property takeover and an execution, though it remains a steady conversation rather than an escalating confrontation.",
+      "evidence": [
+        "EP037_B008",
+        "EP037_B012",
+        "EP037_B014"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP037_B008",
+        "EP037_B012",
+        "EP037_B014"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "Ends on a chilling note about a feast for guests following an execution, leaving open the horror of the upcoming events, but functioning more as a villainous button than a direct cliffhanger question.",
+      "evidence": [
+        "EP037_B016",
+        "EP037_B014"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP037_B016",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "How will Juliana's execution be carried out and will anyone stop them?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "Viewers understand these two are villains plotting a malicious takeover and an execution, but lack context on who Juliana is and how the estate ownership is disputed.",
+      "evidence": [
+        "EP037_B010",
+        "EP037_B012",
+        "EP037_B014"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Two aristocrats plot a wedding, the takeover of an estate, and the execution of a woman named Juliana. Their conversation reveals a cold, conspiratorial alliance to seize property and eliminate their rivals.",
+      "confusions": [
+        {
+          "issue": "Who is Juliana and what did she do to deserve execution?",
+          "block_ids": [
+            "EP037_B014"
+          ]
+        },
+        {
+          "issue": "What is the prior relationship between Rupert and Catherine?",
+          "block_ids": [
+            "EP037_B004",
+            "EP037_B008",
+            "EP037_B012"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 3,
+      "valid": true,
+      "reason": "The clip clearly establishes the antagonists' malicious intent and upcoming crimes, leaving viewers curious about whether they will succeed or who will stop them.",
+      "evidence": [
+        "EP037_B008",
+        "EP037_B012",
+        "EP037_B014"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Rupert and Catherine are conspiring to take over Ashbridge Manor",
+        "They plan to execute a woman named Juliana"
+      ],
+      "withheld": [
+        "Who Juliana is",
+        "How they plan to pull off the execution legally or socially"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The calculated cruelty of the characters evokes a strong sense of injustice and malice, though it is delivered calmly rather than emotionally.",
+      "evidence": [
+        "EP037_B012",
+        "EP037_B014"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion and chilling outrage",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP037_B008",
+        "EP037_B010",
+        "EP037_B012"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "deception_secret_identity",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP037_B004"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP037_B012",
+        "EP037_B014"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Ownership of Ashbridge Manor and the life of a woman named Juliana are at stake.",
+      "evidence": [
+        "EP037_B008",
+        "EP037_B010",
+        "EP037_B014"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP037_B016"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Identity of Juliana",
+      "Prior legal or personal conflict over Ashbridge Manor"
+    ],
+    "curiosity_revealed": [
+      "Rupert and Catherine are conspiring to take over Ashbridge Manor",
+      "They plan to execute a woman named Juliana"
+    ],
+    "curiosity_withheld": [
+      "Who Juliana is",
+      "How they plan to pull off the execution legally or socially"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Witness ruthless aristocrats plot a hostile estate takeover and a horrifying public execution.",
+    "supporting_block_ids": [
+      "EP037_B008",
+      "EP037_B010",
+      "EP037_B012",
+      "EP037_B004",
+      "EP037_B014",
+      "EP037_B016"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Two aristocrats plot a wedding, the takeover of an estate, and the execution of a woman named Juliana. Their conversation reveals a cold, conspiratorial alliance to seize property and eliminate their rivals.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who is Juliana and what did she do to deserve execution?\",\n      \"block_ids\": [\n        \"K12\"\n      ]\n    },\n    {\n      \"issue\": \"What is the prior relationship between Rupert and Catherine?\",\n      \"block_ids\": [\n        \"K02\",\n        \"K06\",\n        \"K10\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"The line sets up an impending public spectacle involving important families, but lacks immediate visceral stakes without knowing who is getting married.\",\n    \"evidence\": [\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\n      \"K06\",\n      \"K10\",\n      \"K12\"\n    ],\n    \"reason\": \"Tension builds incrementally as the conspirators move from discussing a wedding to planning a property takeover and an execution, though it remains a steady conversation rather than an escalating confrontation.\",\n    \"evidence\": [\n      \"K06\",\n      \"K10\",\n      \"K12\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K14\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Juliana's execution be carried out and will anyone stop them?\",\n    \"score\": 3,\n    \"reason\": \"Ends on a chilling note about a feast for guests following an execution, leaving open the horror of the upcoming events, but functioning more as a villainous button than a direct cliffhanger question.\",\n    \"evidence\": [\n      \"K12\",\n      \"K14\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"Viewers understand these two are villains plotting a malicious takeover and an execution, but lack context on who Juliana is and how the estate ownership is disputed.\",\n    \"evidence\": [\n      \"K08\",\n      \"K10\",\n      \"K12\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Rupert and Catherine are conspiring to take over Ashbridge Manor\",\n      \"They plan to execute a woman named Juliana\"\n    ],\n    \"withheld\": [\n      \"Who Juliana is\",\n      \"How they plan to pull off the execution legally or socially\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 3,\n    \"reason\": \"The clip clearly establishes the antagonists' malicious intent and upcoming crimes, leaving viewers curious about whether they will succeed or who will stop them.\",\n    \"evidence\": [\n      \"K06\",\n      \"K10\",\n      \"K12\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion and chilling outrage\",\n    \"score\": 3,\n    \"reason\": \"The calculated cruelty of the characters evokes a strong sense of injustice and malice, though it is delivered calmly rather than emotionally.\",\n    \"evidence\": [\n      \"K10\",\n      \"K12\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"deception_secret_identity\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K06\",\n        \"K08\",\n        \"K10\"\n      ]\n    },\n    \"hook_mechanism\": {\n        \"type\": \"accusation_or_question\",\n        \"evidence\": [\n          \"K02\"\n        ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\n        \"K10\",\n        \"K12\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"Ownership of Ashbridge Manor and the life of a woman named Juliana are at stake.\",\n      \"evidence\": [\n        \"K06\",\n        \"K08\",\n        \"K12\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Identity of Juliana\",\n        \"Prior legal or personal conflict over Ashbridge Manor\"\n      ]\n    },\n    \"appeal\": \"Witness ruthless aristocrats plot a hostile estate takeover and a horrifying public execution.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "1a2ca2e553daf1c4fc1174d819837d2865cc33db3023677d9f9984f8b432f180",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4166,
+      "prompt_tokens": 2479,
+      "completion_tokens": 1150,
+      "total_tokens": 3629,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:05:14.507964+00:00"
+}

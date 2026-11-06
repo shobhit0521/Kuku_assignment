@@ -1,0 +1,294 @@
+{
+  "candidate_id": "EP031_C03",
+  "episode_id": "EP031",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "d5b517776bdd6ef3869de02aa535536509c6c6a028456f698b8de697fd19eca9",
+  "clip_start_ms": 77600,
+  "clip_end_ms": 124000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP031_B045",
+    "EP031_B046",
+    "EP031_B047"
+  ],
+  "eligible_beat_ids": [
+    "EP031_B063",
+    "EP031_B064",
+    "EP031_B065",
+    "EP031_B066",
+    "EP031_B067"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Catherine's mocking dismissal of a marriage while holding a smoldering iron immediately establishes conflict and danger.",
+      "evidence": [
+        "EP031_B046",
+        "EP031_B045"
+      ],
+      "issues": [],
+      "block_id": "EP031_B046",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "The verbal sparring escalates steadily from ideological disagreement to a direct challenge of Catherine's insecurity and power.",
+      "evidence": [
+        "EP031_B054",
+        "EP031_B058",
+        "EP031_B066",
+        "EP031_B067"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP031_B054",
+        "EP031_B058",
+        "EP031_B066"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "Catherine's smug expression instantly shatters into shock and fury, leaving the audience hanging on her violent reaction.",
+      "evidence": [
+        "EP031_B067",
+        "EP031_B066"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP031_B067",
+      "mechanism": "reaction_hold",
+      "outcome": "unresolved",
+      "open_question": "How will Catherine retaliate against Juliana for landing such a psychologically devastating blow?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The dynamic between a cruel elite captor and a defiant prisoner is clear, but the specific history and reason for imprisonment require prior context.",
+      "evidence": [
+        "EP031_B050",
+        "EP031_B058",
+        "EP031_B064"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "An aristocratic woman named Catherine mocks a captive woman named Juliana in a dungeon, holding a hot iron and a burned book while boasting of her status. Juliana remains defiant and unimpressed, ultimately delivering a cutting question that stops Catherine in her tracks.",
+      "confusions": [
+        {
+          "issue": "The nature of Juliana's marriage and why she is imprisoned in a subterranean cell by Catherine is completely unexplained.",
+          "block_ids": [
+            "EP031_B046",
+            "EP031_B050"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip showcases the clash of personalities effectively while withholding the outcome of the confrontation.",
+      "evidence": [
+        "EP031_B058",
+        "EP031_B064",
+        "EP031_B067"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Catherine's arrogance and reliance on material privilege",
+        "Juliana's unyielding psychological resilience"
+      ],
+      "withheld": [
+        "What led to Juliana's imprisonment",
+        "How Juliana plans to escape or defeat Catherine"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Catherine's cruel elitism combined with Juliana's calm, piercing defiance generates strong satisfaction when the tables are momentarily turned.",
+      "evidence": [
+        "EP031_B058",
+        "EP031_B064",
+        "EP031_B066",
+        "EP031_B067"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage_injustice",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP031_B058",
+        "EP031_B064",
+        "EP031_B066",
+        "EP031_B067"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP031_B046"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP031_B058",
+        "EP031_B064"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A captive woman faces down her cruel elite oppressor with pure psychological fortitude.",
+      "evidence": [
+        "EP031_B050",
+        "EP031_B058",
+        "EP031_B064"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP031_B067"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Why Juliana is imprisoned",
+      "The background of the burned botanical book"
+    ],
+    "curiosity_revealed": [
+      "Catherine's arrogance and reliance on material privilege",
+      "Juliana's unyielding psychological resilience"
+    ],
+    "curiosity_withheld": [
+      "What led to Juliana's imprisonment",
+      "How Juliana plans to escape or defeat Catherine"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a brilliant, unbreakable captive turn the tables on her arrogant aristocratic torturer.",
+    "supporting_block_ids": [
+      "EP031_B058",
+      "EP031_B064",
+      "EP031_B066",
+      "EP031_B067",
+      "EP031_B046",
+      "EP031_B050"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"An aristocratic woman named Catherine mocks a captive woman named Juliana in a dungeon, holding a hot iron and a burned book while boasting of her status. Juliana remains defiant and unimpressed, ultimately delivering a cutting question that stops Catherine in her tracks.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The nature of Juliana's marriage and why she is imprisoned in a subterranean cell by Catherine is completely unexplained.\",\n      \"block_ids\": [\"K02\", \"K06\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Catherine's mocking dismissal of a marriage while holding a smoldering iron immediately establishes conflict and danger.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K10\", \"K14\", \"K22\"],\n    \"reason\": \"The verbal sparring escalates steadily from ideological disagreement to a direct challenge of Catherine's insecurity and power.\",\n    \"evidence\": [\"K10\", \"K14\", \"K22\", \"K23\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K23\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Catherine retaliate against Juliana for landing such a psychologically devastating blow?\",\n    \"score\": 4,\n    \"reason\": \"Catherine's smug expression instantly shatters into shock and fury, leaving the audience hanging on her violent reaction.\",\n    \"evidence\": [\"K22\", \"K23\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The dynamic between a cruel elite captor and a defiant prisoner is clear, but the specific history and reason for imprisonment require prior context.\",\n    \"evidence\": [\"K06\", \"K14\", \"K20\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Catherine's arrogance and reliance on material privilege\",\n      \"Juliana's unyielding psychological resilience\"\n    ],\n    \"withheld\": [\n      \"What led to Juliana's imprisonment\",\n      \"How Juliana plans to escape or defeat Catherine\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip showcases the clash of personalities effectively while withholding the outcome of the confrontation.\",\n    \"evidence\": [\"K14\", \"K20\", \"K23\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage_injustice\",\n    \"score\": 4,\n    \"reason\": \"Catherine's cruel elitism combined with Juliana's calm, piercing defiance generates strong satisfaction when the tables are momentarily turned.\",\n    \"evidence\": [\"K14\", \"K20\", \"K22\", \"K23\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K14\", \"K20\", \"K22\", \"K23\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K14\", \"K20\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A captive woman faces down her cruel elite oppressor with pure psychological fortitude.\",\n      \"evidence\": [\"K06\", \"K14\", \"K20\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Why Juliana is imprisoned\",\n        \"The background of the burned botanical book\"\n      ]\n    },\n    \"appeal\": \"Watch a brilliant, unbreakable captive turn the tables on her arrogant aristocratic torturer.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "a410a0484da2a335f303f08ccfa919bc1fc26a7c88e1204dec87e8b32a3095dd",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 5049,
+      "prompt_tokens": 2893,
+      "completion_tokens": 993,
+      "total_tokens": 3886,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:01:54.734870+00:00"
+}

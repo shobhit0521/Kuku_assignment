@@ -1,0 +1,311 @@
+{
+  "candidate_id": "EP024_C03",
+  "episode_id": "EP024",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "c30e708634bed9806d1328e40534c6d90920c0b4d099838ffdb638faa35f9aaa",
+  "clip_start_ms": 28800,
+  "clip_end_ms": 72400,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP024_B020",
+    "EP024_B021",
+    "EP024_B022",
+    "EP024_B023"
+  ],
+  "eligible_beat_ids": [
+    "EP024_B047",
+    "EP024_B048",
+    "EP024_B049",
+    "EP024_B051",
+    "EP024_B050",
+    "EP024_B052",
+    "EP024_B053",
+    "EP024_B054",
+    "EP024_B055",
+    "EP024_B056"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The noblewoman's vicious line opens the clip with immediate malice and sets up a direct moral conflict.",
+      "evidence": [
+        "EP024_B021",
+        "EP024_B020"
+      ],
+      "issues": [],
+      "block_id": "EP024_B021",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension escalates steadily from verbal cruelty to physical violence, forced servitude, and a secondary threat against a bystander.",
+      "evidence": [
+        "EP024_B024",
+        "EP024_B046",
+        "EP024_B052",
+        "EP024_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP024_B024",
+        "EP024_B046",
+        "EP024_B052"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "The scene cuts away immediately after Prudence cowers from the threat, leaving a standard forward pull of ongoing subjugation.",
+      "evidence": [
+        "EP024_B056",
+        "EP024_B054",
+        "EP024_B055"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP024_B056",
+      "mechanism": "interrupted_action",
+      "outcome": "unresolved",
+      "open_question": "Will Juliana and Prudence be able to endure this tyranny, or will they find a way to fight back against the noblewoman?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic of cruel aristocratic abuse versus oppressed attendants is immediately clear, even if specific backstory is missing.",
+      "evidence": [
+        "EP024_B024",
+        "EP024_B032",
+        "EP024_B046",
+        "EP024_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A cruel noblewoman physically assaults Lady Juliana for refusing to let someone suffer, then forces Juliana to clean a massive, filthy hearth as punishment. When another attendant named Prudence attempts to intervene, the noblewoman threatens her with the same physical abuse.",
+      "confusions": [
+        {
+          "issue": "Who is suffering and why Juliana refuses to let it happen is never explained.",
+          "block_ids": [
+            "EP024_B021",
+            "EP024_B023"
+          ]
+        },
+        {
+          "issue": "The exact relationship between Lady Juliana, Prudence, and the noblewoman is left undefined beyond general class hierarchy.",
+          "block_ids": [
+            "EP024_B028",
+            "EP024_B030",
+            "EP024_B037",
+            "EP024_B051"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It vividly showcases the antagonist's tyranny and the protagonists' suffering, leaving viewers wanting to see the inevitable retaliation.",
+      "evidence": [
+        "EP024_B024",
+        "EP024_B046",
+        "EP024_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The noblewoman's extreme cruelty and readiness to use physical violence",
+        "Juliana and Prudence's subjugated positions"
+      ],
+      "withheld": [
+        "What led to this punishment",
+        "Whether Juliana will seek revenge or endure further abuse"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The unprovoked physical abuse and intense degradation of the characters provoke a strong sense of injustice and sympathy.",
+      "evidence": [
+        "EP024_B024",
+        "EP024_B026",
+        "EP024_B033",
+        "EP024_B046"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP024_B024",
+        "EP024_B032",
+        "EP024_B046",
+        "EP024_B054"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP024_B021"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP024_B024",
+        "EP024_B046",
+        "EP024_B054"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Physical safety and dignity against a sadistic aristocrat's absolute rule.",
+      "evidence": [
+        "EP024_B024",
+        "EP024_B046",
+        "EP024_B054"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "interrupted_action",
+      "evidence": [
+        "EP024_B056"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "The identity of the person mentioned in the opening line"
+    ],
+    "curiosity_revealed": [
+      "The noblewoman's extreme cruelty and readiness to use physical violence",
+      "Juliana and Prudence's subjugated positions"
+    ],
+    "curiosity_withheld": [
+      "What led to this punishment",
+      "Whether Juliana will seek revenge or endure further abuse"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch an arrogant noblewoman inflict brutal punishments on her servants—until they finally snap.",
+    "supporting_block_ids": [
+      "EP024_B024",
+      "EP024_B032",
+      "EP024_B046",
+      "EP024_B054",
+      "EP024_B021",
+      "EP024_B056"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A cruel noblewoman physically assaults Lady Juliana for refusing to let someone suffer, then forces Juliana to clean a massive, filthy hearth as punishment. When another attendant named Prudence attempts to intervene, the noblewoman threatens her with the same physical abuse.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who is suffering and why Juliana refuses to let it happen is never explained.\",\n      \"block_ids\": [\"K02\", \"K04\"]\n    },\n    {\n      \"issue\": \"The exact relationship between Lady Juliana, Prudence, and the noblewoman is left undefined beyond general class hierarchy.\",\n      \"block_ids\": [\"K09\", \"K11\", \"K18\", \"K31\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"The noblewoman's vicious line opens the clip with immediate malice and sets up a direct moral conflict.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K05\", \"K26\", \"K33\"],\n    \"reason\": \"Tension escalates steadily from verbal cruelty to physical violence, forced servitude, and a secondary threat against a bystander.\",\n    \"evidence\": [\"K05\", \"K26\", \"K33\", \"K35\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K37\",\n    \"mechanism\": \"interrupted_action\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Juliana and Prudence be able to endure this tyranny, or will they find a way to fight back against the noblewoman?\",\n    \"score\": 3,\n    \"reason\": \"The scene cuts away immediately after Prudence cowers from the threat, leaving a standard forward pull of ongoing subjugation.\",\n    \"evidence\": [\"K35\", \"K36\", \"K37\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic of cruel aristocratic abuse versus oppressed attendants is immediately clear, even if specific backstory is missing.\",\n    \"evidence\": [\"K05\", \"K13\", \"K26\", \"K35\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The noblewoman's extreme cruelty and readiness to use physical violence\",\n      \"Juliana and Prudence's subjugated positions\"\n    ],\n    \"withheld\": [\n      \"What led to this punishment\",\n      \"Whether Juliana will seek revenge or endure further abuse\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It vividly showcases the antagonist's tyranny and the protagonists' suffering, leaving viewers wanting to see the inevitable retaliation.\",\n    \"evidence\": [\"K05\", \"K26\", \"K35\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage\",\n    \"score\": 4,\n    \"reason\": \"The unprovoked physical abuse and intense degradation of the characters provoke a strong sense of injustice and sympathy.\",\n    \"evidence\": [\"K05\", \"K07\", \"K14\", \"K26\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K05\", \"K13\", \"K26\", \"K35\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K05\", \"K26\", \"K35\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Physical safety and dignity against a sadistic aristocrat's absolute rule.\",\n      \"evidence\": [\"K05\", \"K26\", \"K35\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"The identity of the person mentioned in the opening line\"\n      ]\n    },\n    \"appeal\": \"Watch an arrogant noblewoman inflict brutal punishments on her servants—until they finally snap.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "60b7beeb59fa9134f402c7aeda2d21521f84dbe4c67b6b4254e0edd162ce2bbe",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3952,
+      "prompt_tokens": 3558,
+      "completion_tokens": 1072,
+      "total_tokens": 4630,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:58:37.725181+00:00"
+}

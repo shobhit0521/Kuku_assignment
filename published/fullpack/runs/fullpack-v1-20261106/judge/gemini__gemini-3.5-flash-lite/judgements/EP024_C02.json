@@ -1,0 +1,306 @@
+{
+  "candidate_id": "EP024_C02",
+  "episode_id": "EP024",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "ac67b118b526f43dbf2143c7acc10b28d35224bcbc1b36df3b22f520d915b86a",
+  "clip_start_ms": 6000,
+  "clip_end_ms": 48000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP024_B005",
+    "EP024_B006",
+    "EP024_B008",
+    "EP024_B007"
+  ],
+  "eligible_beat_ids": [
+    "EP024_B031",
+    "EP024_B032",
+    "EP024_B033",
+    "EP024_B034",
+    "EP024_B036",
+    "EP024_B035"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The noblewoman's sharp demand 'Who are you?' establishes an immediate conflict and power dynamic, though it is a relatively standard dramatic opening.",
+      "evidence": [
+        "EP024_B006"
+      ],
+      "issues": [],
+      "block_id": "EP024_B006",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds effectively from an interrogation into an illicit medical action, verbal defiance, and finally physical violence and subjugation.",
+      "evidence": [
+        "EP024_B010",
+        "EP024_B012",
+        "EP024_B021",
+        "EP024_B024",
+        "EP024_B032"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP024_B010",
+        "EP024_B012",
+        "EP024_B021",
+        "EP024_B024",
+        "EP024_B032"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "The clip ends on a smug threat from the noblewoman that establishes ongoing oppression, leaving a standard forward pull for revenge or justice.",
+      "evidence": [
+        "EP024_B036",
+        "EP024_B035"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP024_B036",
+      "mechanism": "pending_decision",
+      "outcome": "partly_resolved",
+      "open_question": "How will Juliana endure or retaliate against this systemic abuse, and will the ailing Duchess survive?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic of a cruel aristocratic mistress abusing a defiant servant trying to help a sick duchess is entirely self-evident.",
+      "evidence": [
+        "EP024_B008",
+        "EP024_B010",
+        "EP024_B017",
+        "EP024_B024",
+        "EP024_B032"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A haughty noblewoman discovers a cleaning maid named Juliana in the Dowager Duchess's bedchamber and berates her for unauthorized entry. When Juliana attempts to defend the suffering Duchess, the noblewoman violently strikes her with a riding crop and demands she accept her lowly place.",
+      "confusions": [
+        {
+          "issue": "It is unclear why Juliana hides a glass vial or what her actual identity or relationship to the Duchess is beyond being a hired cleaning maid.",
+          "block_ids": [
+            "EP024_B008",
+            "EP024_B012",
+            "EP024_B015"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip clearly sets up the injustice and stakes while leaving the protagonist's hidden agenda and future retribution completely unanswered.",
+      "evidence": [
+        "EP024_B012",
+        "EP024_B021",
+        "EP024_B024"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The noblewoman's ruthless cruelty",
+        "Juliana's covert attempt to help the dying Duchess"
+      ],
+      "withheld": [
+        "Juliana's true identity and secret motive for hiding the vial",
+        "Whether the Duchess will receive the medicine"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The unprovoked violence and callous dismissal of a sick woman's suffering strongly trigger feelings of injustice and sympathy for the protagonist.",
+      "evidence": [
+        "EP024_B021",
+        "EP024_B024",
+        "EP024_B032"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Outrage and indignation at cruel mistreatment",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP024_B010",
+        "EP024_B017",
+        "EP024_B024",
+        "EP024_B032"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP024_B006"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP024_B021",
+        "EP024_B024",
+        "EP024_B032"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A compassionate maid attempts to treat an incapacitated Duchess against the ruthless orders of an aristocratic tyrant.",
+      "evidence": [
+        "EP024_B008",
+        "EP024_B011",
+        "EP024_B012",
+        "EP024_B021",
+        "EP024_B024"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "pending_decision",
+      "evidence": [
+        "EP024_B036"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "The exact background of the glass vial and the broader family politics."
+    ],
+    "curiosity_revealed": [
+      "The noblewoman's ruthless cruelty",
+      "Juliana's covert attempt to help the dying Duchess"
+    ],
+    "curiosity_withheld": [
+      "Juliana's true identity and secret motive for hiding the vial",
+      "Whether the Duchess will receive the medicine"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A courageous maid is whipped for trying to save a dying duchess from a malicious tyrant.",
+    "supporting_block_ids": [
+      "EP024_B010",
+      "EP024_B017",
+      "EP024_B024",
+      "EP024_B032",
+      "EP024_B006",
+      "EP024_B021",
+      "EP024_B008",
+      "EP024_B011",
+      "EP024_B012",
+      "EP024_B036"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A haughty noblewoman discovers a cleaning maid named Juliana in the Dowager Duchess's bedchamber and berates her for unauthorized entry. When Juliana attempts to defend the suffering Duchess, the noblewoman violently strikes her with a riding crop and demands she accept her lowly place.\",\n  \"confusions\": [\n    {\n      \"issue\": \"It is unclear why Juliana hides a glass vial or what her actual identity or relationship to the Duchess is beyond being a hired cleaning maid.\",\n      \"block_ids\": [\"K04\", \"K09\", \"K11\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 3,\n    \"reason\": \"The noblewoman's sharp demand 'Who are you?' establishes an immediate conflict and power dynamic, though it is a relatively standard dramatic opening.\",\n    \"evidence\": [\"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K07\", \"K09\", \"K18\", \"K21\", \"K29\"],\n    \"reason\": \"Tension builds effectively from an interrogation into an illicit medical action, verbal defiance, and finally physical violence and subjugation.\",\n    \"evidence\": [\"K07\", \"K09\", \"K18\", \"K21\", \"K29\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K32\",\n    \"mechanism\": \"pending_decision\",\n    \"outcome\": \"partly_resolved\",\n    \"open_question\": \"How will Juliana endure or retaliate against this systemic abuse, and will the ailing Duchess survive?\",\n    \"score\": 3,\n    \"reason\": \"The clip ends on a smug threat from the noblewoman that establishes ongoing oppression, leaving a standard forward pull for revenge or justice.\",\n    \"evidence\": [\"K32\", \"K33\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic of a cruel aristocratic mistress abusing a defiant servant trying to help a sick duchess is entirely self-evident.\",\n    \"evidence\": [\"K04\", \"K07\", \"K13\", \"K21\", \"K29\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The noblewoman's ruthless cruelty\",\n      \"Juliana's covert attempt to help the dying Duchess\"\n    ],\n    \"withheld\": [\n      \"Juliana's true identity and secret motive for hiding the vial\",\n      \"Whether the Duchess will receive the medicine\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip clearly sets up the injustice and stakes while leaving the protagonist's hidden agenda and future retribution completely unanswered.\",\n    \"evidence\": [\"K09\", \"K18\", \"K21\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Outrage and indignation at cruel mistreatment\",\n    \"score\": 4,\n    \"reason\": \"The unprovoked violence and callous dismissal of a sick woman's suffering strongly trigger feelings of injustice and sympathy for the protagonist.\",\n    \"evidence\": [\"K18\", \"K21\", \"K29\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K07\", \"K13\", \"K21\", \"K29\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K03\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K18\", \"K21\", \"K29\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A compassionate maid attempts to treat an incapacitated Duchess against the ruthless orders of an aristocratic tyrant.\",\n      \"evidence\": [\"K04\", \"K08\", \"K09\", \"K18\", \"K21\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\"The exact background of the glass vial and the broader family politics.\"]\n    },\n    \"appeal\": \"A courageous maid is whipped for trying to save a dying duchess from a malicious tyrant.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "75519fd034fc8717c0fef5297fe0d9bd005f93c30dd5d05c563c97eeb3b2cc68",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4246,
+      "prompt_tokens": 3358,
+      "completion_tokens": 1072,
+      "total_tokens": 4430,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:58:29.773385+00:00"
+}

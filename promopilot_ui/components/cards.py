@@ -107,7 +107,7 @@ def appeal(view: data.CandidateView) -> Optional[str]:
     return None
 
 
-def shortlist_card(view: data.CandidateView, ctx: data.RunData) -> None:
+def shortlist_card(view: data.CandidateView, ctx: data.RunData, link: bool = True) -> None:
     gates = gate_minimums(ctx)
     rank = view.shortlist_rank
     ap = appeal(view)
@@ -124,8 +124,9 @@ def shortlist_card(view: data.CandidateView, ctx: data.RunData) -> None:
             + dims_row(view, gates)
             + (f'<div class="pp-badges">{status_badges(view)}</div>' if status_badges(view) else '')
             + '</div>')
-        st.page_link(CANDIDATE_PAGE, label="Open analysis", icon=":material/arrow_forward:",
-                     query_params={"cid": view.candidate_id, "run": ctx.run.name})
+        if link:
+            st.page_link(CANDIDATE_PAGE, label="Open analysis", icon=":material/arrow_forward:",
+                         query_params={"cid": view.candidate_id, "run": ctx.run.name})
 
 
 def candidate_href(ctx: data.RunData, cid: str, page: str = "candidate", param: str = "cid") -> str:

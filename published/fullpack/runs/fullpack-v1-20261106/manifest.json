@@ -1,0 +1,362 @@
+{
+  "episodes": {
+    "EP001": {
+      "status": "complete",
+      "resumed": true,
+      "candidates": 4
+    },
+    "EP002": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP003": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP004": {
+      "status": "complete",
+      "resumed": true,
+      "candidates": 4
+    },
+    "EP005": {
+      "status": "complete",
+      "resumed": true,
+      "candidates": 2
+    },
+    "EP006": {
+      "status": "complete",
+      "resumed": true,
+      "candidates": 3
+    },
+    "EP007": {
+      "status": "complete",
+      "resumed": true,
+      "candidates": 2
+    },
+    "EP008": {
+      "status": "complete",
+      "resumed": true,
+      "candidates": 2
+    },
+    "EP009": {
+      "status": "complete",
+      "resumed": true,
+      "candidates": 3
+    },
+    "EP010": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP011": {
+      "status": "complete",
+      "resumed": true,
+      "candidates": 2
+    },
+    "EP012": {
+      "status": "complete",
+      "resumed": true,
+      "candidates": 2
+    },
+    "EP013": {
+      "status": "complete",
+      "resumed": true,
+      "candidates": 2
+    },
+    "EP014": {
+      "status": "complete",
+      "resumed": true,
+      "candidates": 3
+    },
+    "EP015": {
+      "status": "complete",
+      "resumed": true,
+      "candidates": 2
+    },
+    "EP016": {
+      "status": "complete",
+      "resumed": true,
+      "candidates": 2
+    },
+    "EP017": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP018": {
+      "status": "complete",
+      "resumed": true,
+      "candidates": 3
+    },
+    "EP019": {
+      "status": "complete",
+      "resumed": true,
+      "candidates": 2
+    },
+    "EP020": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP021": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP022": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP023": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP024": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP025": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP026": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP027": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP028": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 4
+    },
+    "EP029": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP030": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP031": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 4
+    },
+    "EP032": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 4
+    },
+    "EP033": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP034": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 4
+    },
+    "EP035": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 2
+    },
+    "EP036": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP037": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 4
+    },
+    "EP038": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP039": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 2
+    },
+    "EP040": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 2
+    },
+    "EP041": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP042": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 2
+    },
+    "EP043": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP044": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 2
+    },
+    "EP045": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 2
+    },
+    "EP046": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP047": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP048": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP049": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 3
+    },
+    "EP050": {
+      "status": "complete",
+      "resumed": false,
+      "candidates": 2
+    }
+  },
+  "dataset": {
+    "parsed_dir": "C:\\Users\\DELL\\KukuData\\outputs\\parsed",
+    "fingerprint": "9f7981644d542c1eb190c3f88216aee52b6739e05cd34ec0c431ea014361d791",
+    "episode_count": 50
+  },
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "endpoint": null,
+  "prompt_version": "gen-v1",
+  "prompt_sha256": "129a0600e7678d5c4646920a56ad38b4d1220c629180b4a4c6fafde52ee51470",
+  "requested": [
+    "EP001",
+    "EP002",
+    "EP003",
+    "EP004",
+    "EP005",
+    "EP006",
+    "EP007",
+    "EP008",
+    "EP009",
+    "EP010",
+    "EP011",
+    "EP012",
+    "EP013",
+    "EP014",
+    "EP015",
+    "EP016",
+    "EP017",
+    "EP018",
+    "EP019",
+    "EP020",
+    "EP021",
+    "EP022",
+    "EP023",
+    "EP024",
+    "EP025",
+    "EP026",
+    "EP027",
+    "EP028",
+    "EP029",
+    "EP030",
+    "EP031",
+    "EP032",
+    "EP033",
+    "EP034",
+    "EP035",
+    "EP036",
+    "EP037",
+    "EP038",
+    "EP039",
+    "EP040",
+    "EP041",
+    "EP042",
+    "EP043",
+    "EP044",
+    "EP045",
+    "EP046",
+    "EP047",
+    "EP048",
+    "EP049",
+    "EP050"
+  ],
+  "last_requested": [
+    "EP011",
+    "EP012",
+    "EP013",
+    "EP014",
+    "EP015",
+    "EP016",
+    "EP017",
+    "EP018",
+    "EP019",
+    "EP020",
+    "EP021",
+    "EP022",
+    "EP023",
+    "EP024",
+    "EP025",
+    "EP026",
+    "EP027",
+    "EP028",
+    "EP029",
+    "EP030",
+    "EP031",
+    "EP032",
+    "EP033",
+    "EP034",
+    "EP035",
+    "EP036",
+    "EP037",
+    "EP038",
+    "EP039",
+    "EP040",
+    "EP041",
+    "EP042",
+    "EP043",
+    "EP044",
+    "EP045",
+    "EP046",
+    "EP047",
+    "EP048",
+    "EP049",
+    "EP050"
+  ],
+  "updated_at": "2026-11-06T10:53:13.750581+00:00",
+  "stopped_early": null,
+  "requests_made_this_invocation": 33,
+  "cache_hits_this_invocation": 2
+}

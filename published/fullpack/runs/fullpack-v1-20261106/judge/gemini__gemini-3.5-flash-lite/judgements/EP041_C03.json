@@ -1,0 +1,302 @@
+{
+  "candidate_id": "EP041_C03",
+  "episode_id": "EP041",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "7b284cbe0fd35fc28182f2bc3049af7db6e9014ab5a8fbe9f037f68b8cbc6708",
+  "clip_start_ms": 70500,
+  "clip_end_ms": 96090,
+  "masked_terms": 1,
+  "eligible_hook_ids": [
+    "EP041_B041",
+    "EP041_B040"
+  ],
+  "eligible_beat_ids": [
+    "EP041_B050",
+    "EP041_B051",
+    "EP041_B052",
+    "EP041_B053"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Catherine speaks quietly about seizing a title, establishing mild ambition and a secret plot, though it lacks immediate visual shock.",
+      "evidence": [
+        "EP041_B041"
+      ],
+      "issues": [],
+      "block_id": "EP041_B041",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension escalates from a quiet wedding ceremony into a massive violent explosion, followed by armed intruders emerging from the smoke.",
+      "evidence": [
+        "EP041_B047",
+        "EP041_B048",
+        "EP041_B052"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP041_B047",
+        "EP041_B048",
+        "EP041_B052"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip ends on Juliana's dramatic realization and shifting expression as figures emerge, leaving the identities and motives of the intruders completely unknown.",
+      "evidence": [
+        "EP041_B053",
+        "EP041_B052"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP041_B053",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "Who are the armed figures entering through the smoke, and what do they mean for the wedding?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The viewer understands a wedding is being violently interrupted by an armed assault, but the personal relationships, past history, and identities of Juliana versus the bride and groom are completely unknown.",
+      "evidence": [
+        "EP041_B041",
+        "EP041_B051",
+        "EP041_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A couple is standing at the altar about to be married and scheming about acquiring a title when an explosion destroys the cathedral doors. Armed figures emerge through the smoke, and a woman named Juliana turns to watch them arrive with a mix of awe and hope.",
+      "confusions": [
+        {
+          "issue": "Who are Catherine, Rupert, and the Ashburgh title?",
+          "block_ids": [
+            "EP041_B041"
+          ]
+        },
+        {
+          "issue": "Who is Juliana and why is she standing in the aisle as the explosion happens?",
+          "block_ids": [
+            "EP041_B051",
+            "EP041_B052",
+            "EP041_B053"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The setup of the wedding and its dramatic disruption are clear, while the identity of the attackers and the ensuing conflict are completely withheld.",
+      "evidence": [
+        "EP041_B041",
+        "EP041_B048",
+        "EP041_B052",
+        "EP041_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "A wedding is taking place between Catherine and Rupert.",
+        "The wedding is violently interrupted by an explosion.",
+        "Armed figures enter the ruined cathedral."
+      ],
+      "withheld": [
+        "Who caused the explosion.",
+        "Who the armed figures are.",
+        "How Juliana connects to the bride, groom, and intruders."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The sudden transition from a quiet wedding to a devastating explosion creates a sharp jolt of shock and high stakes tension.",
+      "evidence": [
+        "EP041_B047",
+        "EP041_B048",
+        "EP041_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspense",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "danger_threat",
+      "evidence": [
+        "EP041_B047",
+        "EP041_B048",
+        "EP041_B052"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP041_B041"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "fear",
+      "evidence": [
+        "EP041_B047",
+        "EP041_B049",
+        "EP041_B050"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An ambitious wedding ceremony is violently shattered by an armed attack, threatening the couple and bringing a mysterious faction into play.",
+      "evidence": [
+        "EP041_B041",
+        "EP041_B047",
+        "EP041_B052"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP041_B053"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Identities of Juliana and the armed intruders",
+      "The significance of the Ashburgh title"
+    ],
+    "curiosity_revealed": [
+      "A wedding is taking place between Catherine and Rupert.",
+      "The wedding is violently interrupted by an explosion.",
+      "Armed figures enter the ruined cathedral."
+    ],
+    "curiosity_withheld": [
+      "Who caused the explosion.",
+      "Who the armed figures are.",
+      "How Juliana connects to the bride, groom, and intruders."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A wedding takes a catastrophic turn when a massive explosion blows open the doors and armed intruders storm the aisle.",
+    "supporting_block_ids": [
+      "EP041_B047",
+      "EP041_B048",
+      "EP041_B052",
+      "EP041_B041",
+      "EP041_B049",
+      "EP041_B050",
+      "EP041_B053"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A couple is standing at the altar about to be married and scheming about acquiring a title when an explosion destroys the cathedral doors. Armed figures emerge through the smoke, and a woman named Juliana turns to watch them arrive with a mix of awe and hope.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who are Catherine, Rupert, and the Ashburgh title?\",\n      \"block_ids\": [\"K01\"]\n    },\n    {\n      \"issue\": \"Who is Juliana and why is she standing in the aisle as the explosion happens?\",\n      \"block_ids\": [\"K12\", \"K13\", \"K14\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K01\",\n    \"score\": 3,\n    \"reason\": \"Catherine speaks quietly about seizing a title, establishing mild ambition and a secret plot, though it lacks immediate visual shock.\",\n    \"evidence\": [\"K01\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K08\", \"K09\", \"K13\"],\n    \"reason\": \"Tension escalates from a quiet wedding ceremony into a massive violent explosion, followed by armed intruders emerging from the smoke.\",\n    \"evidence\": [\"K08\", \"K09\", \"K13\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K14\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Who are the armed figures entering through the smoke, and what do they mean for the wedding?\",\n    \"score\": 4,\n    \"reason\": \"The clip ends on Juliana's dramatic realization and shifting expression as figures emerge, leaving the identities and motives of the intruders completely unknown.\",\n    \"evidence\": [\"K13\", \"K14\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The viewer understands a wedding is being violently interrupted by an armed assault, but the personal relationships, past history, and identities of Juliana versus the bride and groom are completely unknown.\",\n    \"evidence\": [\"K01\", \"K12\", \"K14\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"A wedding is taking place between Catherine and Rupert.\",\n      \"The wedding is violently interrupted by an explosion.\",\n      \"Armed figures enter the ruined cathedral.\"\n    ],\n    \"withheld\": [\n      \"Who caused the explosion.\",\n      \"Who the armed figures are.\",\n      \"How Juliana connects to the bride, groom, and intruders.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The setup of the wedding and its dramatic disruption are clear, while the identity of the attackers and the ensuing conflict are completely withheld.\",\n    \"evidence\": [\"K01\", \"K09\", \"K13\", \"K14\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspense\",\n    \"score\": 4,\n    \"reason\": \"The sudden transition from a quiet wedding to a devastating explosion creates a sharp jolt of shock and high stakes tension.\",\n    \"evidence\": [\"K08\", \"K09\", \"K11\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"danger_threat\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K08\", \"K09\", \"K13\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K01\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"fear\",\n      \"evidence\": [\"K08\", \"K10\", \"K11\"]\n    },\n    \"stakes\": {\n      \"summary\": \"An ambitious wedding ceremony is violently shattered by an armed attack, threatening the couple and bringing a mysterious faction into play.\",\n      \"evidence\": [\"K01\", \"K08\", \"K13\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Identities of Juliana and the armed intruders\",\n        \"The significance of the Ashburgh title\"\n      ]\n    },\n    \"appeal\": \"A wedding takes a catastrophic turn when a massive explosion blows open the doors and armed intruders storm the aisle.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "2518b7fed8499736e746d754bf3a6cddf9bfe0b5df65dfac2613331a839221f7",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3458,
+      "prompt_tokens": 2481,
+      "completion_tokens": 1074,
+      "total_tokens": 3555,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:06:53.312919+00:00"
+}

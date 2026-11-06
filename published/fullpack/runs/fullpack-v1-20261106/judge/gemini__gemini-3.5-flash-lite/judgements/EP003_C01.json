@@ -1,0 +1,307 @@
+{
+  "candidate_id": "EP003_C01",
+  "episode_id": "EP003",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "27b68461c7fd42c84aa4caef023112d4d22f31c07cc9b4d722ed8ad63a4973cc",
+  "clip_start_ms": 22800,
+  "clip_end_ms": 64500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP003_B018",
+    "EP003_B019",
+    "EP003_B020"
+  ],
+  "eligible_beat_ids": [
+    "EP003_B044",
+    "EP003_B045",
+    "EP003_B046",
+    "EP003_B047",
+    "EP003_B048",
+    "EP003_B049",
+    "EP003_B050",
+    "EP003_B051",
+    "EP003_B052",
+    "EP003_B053",
+    "EP003_B054"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "An imperious command opens the clip, establishing immediate conflict, though lacking deeper context.",
+      "evidence": [
+        "EP003_B019"
+      ],
+      "issues": [],
+      "block_id": "EP003_B019",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension escalates steadily from a verbal dispute to a harsh banishment, culminating in physical removal by guards.",
+      "evidence": [
+        "EP003_B031",
+        "EP003_B041",
+        "EP003_B047",
+        "EP003_B049",
+        "EP003_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP003_B031",
+        "EP003_B041",
+        "EP003_B047",
+        "EP003_B049"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "She is forcibly dragged away by guards as her grip is broken, leaving an open question about her immediate fate, though it's a standard melodramatic cutoff.",
+      "evidence": [
+        "EP003_B053",
+        "EP003_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP003_B053",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Where will Juliana be dragged, and how will she survive being completely disowned and cast out?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The power dynamic, the conflict between the matriarch and Juliana, and the stakes of being disowned are clear, even if the backstory is missing.",
+      "evidence": [
+        "EP003_B021",
+        "EP003_B031",
+        "EP003_B047"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A cruel noble matriarch publicly banishes Lady Juliana from her family and church, ordering guards to drag her away. Juliana desperately resists as she is forcefully cast out by her own kin.",
+      "confusions": [
+        {
+          "issue": "The nature of the prior humiliation Juliana suffered and why her father abandoned her are completely unexplained.",
+          "block_ids": [
+            "EP003_B021",
+            "EP003_B025",
+            "EP003_B043"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It effectively sets up the cruel injustice and expulsion while leaving the viewer wondering how Juliana will fight back or where she will go.",
+      "evidence": [
+        "EP003_B021",
+        "EP003_B035",
+        "EP003_B049"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is being cast out by her family",
+        "Her father chose not to protect her",
+        "Guards are removing her by force"
+      ],
+      "withheld": [
+        "What Juliana supposedly did to humiliate the family",
+        "What will happen to her after being expelled"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana's vulnerability and the matriarch's cold cruelty evoke strong sympathy and indignation.",
+      "evidence": [
+        "EP003_B022",
+        "EP003_B028",
+        "EP003_B050",
+        "EP003_B052"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage_injustice",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "betrayal_humiliation",
+      "evidence": [
+        "EP003_B021",
+        "EP003_B031",
+        "EP003_B047"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP003_B019"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP003_B022",
+        "EP003_B035",
+        "EP003_B050"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A noble woman is completely disowned by her family and violently cast out into disgrace.",
+      "evidence": [
+        "EP003_B031",
+        "EP003_B035",
+        "EP003_B049"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP003_B053"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Prior family conflicts",
+      "The father's exact role"
+    ],
+    "curiosity_revealed": [
+      "Juliana is being cast out by her family",
+      "Her father chose not to protect her",
+      "Guards are removing her by force"
+    ],
+    "curiosity_withheld": [
+      "What Juliana supposedly did to humiliate the family",
+      "What will happen to her after being expelled"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a wrongfully disowned noble daughter fight back against her cruel family's tyranny.",
+    "supporting_block_ids": [
+      "EP003_B021",
+      "EP003_B031",
+      "EP003_B047",
+      "EP003_B019",
+      "EP003_B022",
+      "EP003_B035",
+      "EP003_B050",
+      "EP003_B049",
+      "EP003_B053"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A cruel noble matriarch publicly banishes Lady Juliana from her family and church, ordering guards to drag her away. Juliana desperately resists as she is forcefully cast out by her own kin.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The nature of the prior humiliation Juliana suffered and why her father abandoned her are completely unexplained.\",\n      \"block_ids\": [\"K04\", \"K08\", \"K26\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"An imperious command opens the clip, establishing immediate conflict, though lacking deeper context.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K14\", \"K24\", \"K30\", \"K32\"],\n    \"reason\": \"Tension escalates steadily from a verbal dispute to a harsh banishment, culminating in physical removal by guards.\",\n    \"evidence\": [\"K14\", \"K24\", \"K30\", \"K32\", \"K36\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K36\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Where will Juliana be dragged, and how will she survive being completely disowned and cast out?\",\n    \"score\": 3,\n    \"reason\": \"She is forcibly dragged away by guards as her grip is broken, leaving an open question about her immediate fate, though it's a standard melodramatic cutoff.\",\n    \"evidence\": [\"K36\", \"K37\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The power dynamic, the conflict between the matriarch and Juliana, and the stakes of being disowned are clear, even if the backstory is missing.\",\n    \"evidence\": [\"K04\", \"K14\", \"K30\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is being cast out by her family\",\n      \"Her father chose not to protect her\",\n      \"Guards are removing her by force\"\n    ],\n    \"withheld\": [\n      \"What Juliana supposedly did to humiliate the family\",\n      \"What will happen to her after being expelled\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It effectively sets up the cruel injustice and expulsion while leaving the viewer wondering how Juliana will fight back or where she will go.\",\n    \"evidence\": [\"K04\", \"K18\", \"K32\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage_injustice\",\n    \"score\": 4,\n    \"reason\": \"Juliana's vulnerability and the matriarch's cold cruelty evoke strong sympathy and indignation.\",\n    \"evidence\": [\"K05\", \"K11\", \"K33\", \"K35\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"betrayal_humiliation\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K04\", \"K14\", \"K30\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K05\", \"K18\", \"K33\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A noble woman is completely disowned by her family and violently cast out into disgrace.\",\n      \"evidence\": [\"K14\", \"K18\", \"K32\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Prior family conflicts\",\n        \"The father's exact role\"\n      ]\n    },\n    \"appeal\": \"Watch a wrongfully disowned noble daughter fight back against her cruel family's tyranny.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "cb86fa5dd27986efb88bd89a2066e6de7ab1cd5a8f54544e8e559fcbad923667",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3799,
+      "prompt_tokens": 3476,
+      "completion_tokens": 1019,
+      "total_tokens": 4495,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T09:59:40.092707+00:00"
+}

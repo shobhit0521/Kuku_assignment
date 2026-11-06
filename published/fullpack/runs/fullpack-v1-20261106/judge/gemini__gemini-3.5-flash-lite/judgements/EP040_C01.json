@@ -1,0 +1,301 @@
+{
+  "candidate_id": "EP040_C01",
+  "episode_id": "EP040",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "ab3763d9ba49134ff3a18aa7d14cf3afdbacff82fc648e361295d5416695e121",
+  "clip_start_ms": 23000,
+  "clip_end_ms": 77400,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP040_B011",
+    "EP040_B012"
+  ],
+  "eligible_beat_ids": [
+    "EP040_B031",
+    "EP040_B035",
+    "EP040_B036",
+    "EP040_B037",
+    "EP040_B038"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Lady Harrington's malicious line about Juliana immediately establishes a cruel conspiracy, though it requires a second to understand who Juliana is.",
+      "evidence": [
+        "EP040_B012",
+        "EP040_B011"
+      ],
+      "issues": [],
+      "block_id": "EP040_B012",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily from petty taunts about a victim to a coordinated military lockdown of a wedding, culminating in a death threat.",
+      "evidence": [
+        "EP040_B014",
+        "EP040_B025",
+        "EP040_B033",
+        "EP040_B038"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP040_B014",
+        "EP040_B025",
+        "EP040_B033",
+        "EP040_B038"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The final line explicitly drops a deadly intention right at the cut, leaving viewers wanting to know who is about to be murdered.",
+      "evidence": [
+        "EP040_B038",
+        "EP040_B037"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP040_B038",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "Who is the \"witch\" they plan to kill, and what will happen when the wedding concludes?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The general premise of villains plotting a sinister wedding trap is clear, but specific names, past grievances, and familial relationships are missing.",
+      "evidence": [
+        "EP040_B012",
+        "EP040_B016",
+        "EP040_B036"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Lord and Lady Harrington gloat maliciously about someone named Juliana while attending a wedding ceremony where guards are securing all exits. An elder nobleman on a balcony oversees the plot, declaring that by sunset Ashburgh will have a new Duke and Duchess and a dead \"witch.\"",
+      "confusions": [
+        {
+          "issue": "Who Juliana is, why she is hated, and what threat she faces from the Harringtons.",
+          "block_ids": [
+            "EP040_B012",
+            "EP040_B014",
+            "EP040_B016",
+            "EP040_B019"
+          ]
+        },
+        {
+          "issue": "The identity of the elder nobleman on the balcony and why guards are locking down the cathedral.",
+          "block_ids": [
+            "EP040_B029",
+            "EP040_B032",
+            "EP040_B036",
+            "EP040_B038"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It sets up a clear conspiracy and impending doom without revealing how the plot unfolds or who survives.",
+      "evidence": [
+        "EP040_B014",
+        "EP040_B033",
+        "EP040_B038"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The Harringtons and an elder nobleman are conspiring against someone named Juliana.",
+        "Guards have locked down all exits to the cathedral for the wedding."
+      ],
+      "withheld": [
+        "The identity of the target (\"witch\")",
+        "What specific trap or danger awaits at the wedding"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The cold, calculating menace of the villains creates strong unease and suspense regarding the fate of the wedding attendees.",
+      "evidence": [
+        "EP040_B014",
+        "EP040_B025",
+        "EP040_B038"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "danger_threat",
+      "evidence": [
+        "EP040_B014",
+        "EP040_B033",
+        "EP040_B038"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP040_B012"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP040_B014",
+        "EP040_B038"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A wedding is being used as a trap to murder someone referred to as a witch under heavy guard.",
+      "evidence": [
+        "EP040_B014",
+        "EP040_B033",
+        "EP040_B038"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP040_B038"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Identity of Juliana",
+      "Prior relationship between the nobles and the target"
+    ],
+    "curiosity_revealed": [
+      "The Harringtons and an elder nobleman are conspiring against someone named Juliana.",
+      "Guards have locked down all exits to the cathedral for the wedding."
+    ],
+    "curiosity_withheld": [
+      "The identity of the target (\"witch\")",
+      "What specific trap or danger awaits at the wedding"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A high-society wedding becomes a deadly trap orchestrated by ruthless conspirators.",
+    "supporting_block_ids": [
+      "EP040_B014",
+      "EP040_B033",
+      "EP040_B038",
+      "EP040_B012"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Lord and Lady Harrington gloat maliciously about someone named Juliana while attending a wedding ceremony where guards are securing all exits. An elder nobleman on a balcony oversees the plot, declaring that by sunset Ashburgh will have a new Duke and Duchess and a dead \\\"witch.\\\"\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Juliana is, why she is hated, and what threat she faces from the Harringtons.\",\n      \"block_ids\": [\"K02\", \"K03\", \"K06\", \"K09\"]\n    },\n    {\n      \"issue\": \"The identity of the elder nobleman on the balcony and why guards are locking down the cathedral.\",\n      \"block_ids\": [\"K19\", \"K22\", \"K26\", \"K28\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Lady Harrington's malicious line about Juliana immediately establishes a cruel conspiracy, though it requires a second to understand who Juliana is.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K03\",\n      \"K15\",\n      \"K23\",\n      \"K28\"\n    ],\n    \"reason\": \"Tension builds steadily from petty taunts about a victim to a coordinated military lockdown of a wedding, culminating in a death threat.\",\n    \"evidence\": [\n      \"K03\",\n      \"K15\",\n      \"K23\",\n      \"K28\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K28\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Who is the \\\"witch\\\" they plan to kill, and what will happen when the wedding concludes?\",\n    \"score\": 5,\n    \"reason\": \"The final line explicitly drops a deadly intention right at the cut, leaving viewers wanting to know who is about to be murdered.\",\n    \"evidence\": [\n      \"K27\",\n      \"K28\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The general premise of villains plotting a sinister wedding trap is clear, but specific names, past grievances, and familial relationships are missing.\",\n    \"evidence\": [\n      \"K02\",\n      \"K06\",\n      \"K26\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The Harringtons and an elder nobleman are conspiring against someone named Juliana.\",\n      \"Guards have locked down all exits to the cathedral for the wedding.\"\n    ],\n    \"withheld\": [\n      \"The identity of the target (\\\"witch\\\")\",\n      \"What specific trap or danger awaits at the wedding\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It sets up a clear conspiracy and impending doom without revealing how the plot unfolds or who survives.\",\n    \"evidence\": [\n      \"K03\",\n      \"K23\",\n      \"K28\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion\",\n    \"score\": 4,\n    \"reason\": \"The cold, calculating menace of the villains creates strong unease and suspense regarding the fate of the wedding attendees.\",\n    \"evidence\": [\n      \"K03\",\n      \"K15\",\n      \"K28\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"danger_threat\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K03\",\n        \"K23\",\n        \"K28\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\n        \"K03\",\n        \"K28\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A wedding is being used as a trap to murder someone referred to as a witch under heavy guard.\",\n      \"evidence\": [\n        \"K03\",\n        \"K23\",\n        \"K28\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Identity of Juliana\",\n        \"Prior relationship between the nobles and the target\"\n      ]\n    },\n    \"appeal\": \"A high-society wedding becomes a deadly trap orchestrated by ruthless conspirators.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "b54cb98a6b924f393eecc269c8ff91617844938f172ce49ed41c917f714014c1",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4234,
+      "prompt_tokens": 3196,
+      "completion_tokens": 1182,
+      "total_tokens": 4378,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:06:21.973529+00:00"
+}

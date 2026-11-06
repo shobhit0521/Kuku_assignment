@@ -1,0 +1,298 @@
+{
+  "candidate_id": "EP050_C01",
+  "episode_id": "EP050",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "0012b70a5d99",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "0a1a2291c708bf9f6273a669c7136bfd86d1d38590c4d8497d9daf724ad44324",
+  "clip_start_ms": 30500,
+  "clip_end_ms": 80000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP050_B016",
+    "EP050_B017"
+  ],
+  "eligible_beat_ids": [
+    "EP050_B033",
+    "EP050_B034",
+    "EP050_B035",
+    "EP050_B036",
+    "EP050_B037",
+    "EP050_B038",
+    "EP050_B039",
+    "EP050_B040"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The line 'Absolution is free. Discretion has a price' immediately establishes a tense, transactional, and morally grey dynamic between a priest and a woman.",
+      "evidence": [
+        "EP050_B017"
+      ],
+      "issues": [],
+      "block_id": "EP050_B017",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily from a dangerous clandestine meeting through escalating intimacy, culminating in a servant discovering them and retreating in terror.",
+      "evidence": [
+        "EP050_B021",
+        "EP050_B030",
+        "EP050_B032",
+        "EP050_B040"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP050_B021",
+        "EP050_B030",
+        "EP050_B032",
+        "EP050_B040"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The cut on Agnes stumbling back into the shadows after witnessing a scandalous, dangerous secret leaves an immediate question about whether she will be caught or speak out.",
+      "evidence": [
+        "EP050_B040",
+        "EP050_B036",
+        "EP050_B037",
+        "EP050_B038",
+        "EP050_B039"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP050_B040",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Will Agnes expose the priest and Catherine, and what are the lethal consequences of her discovery?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic—a forbidden and scandalous affair between a priest and a woman, witnessed by an outsider—is completely clear on its own, though specific backstory about a hearing is missing.",
+      "evidence": [
+        "EP050_B017",
+        "EP050_B032",
+        "EP050_B036"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A priest and a woman named Catherine engage in a secret, passionate affair behind closed doors. Their forbidden liaison is unexpectedly witnessed by a servant named Agnes, who stumbles upon them in horror.",
+      "confusions": [
+        {
+          "issue": "What hearing is taking place and why their relationship matters to it is never explained.",
+          "block_ids": [
+            "EP050_B023"
+          ]
+        },
+        {
+          "issue": "The stakes of a priest engaging in a forbidden affair in this specific setting are implied but never detailed.",
+          "block_ids": [
+            "EP050_B032"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip delivers a complete mini-arc of an illicit romance colliding with discovery, while leaving the narrative consequences entirely open.",
+      "evidence": [
+        "EP050_B032",
+        "EP050_B040"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The priest and Catherine are having a passionate affair",
+        "Agnes has witnessed them and is terrified by what she saw"
+      ],
+      "withheld": [
+        "How the characters will deal with Agnes's discovery",
+        "The broader political or religious fallout of the scandal"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The mix of forbidden passion and the sudden dread of discovery creates a strong sense of suspense and tension.",
+      "evidence": [
+        "EP050_B032",
+        "EP050_B037",
+        "EP050_B040"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "deception_secret_identity",
+      "evidence": [
+        "EP050_B017",
+        "EP050_B032",
+        "EP050_B036"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "danger_threat",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP050_B017"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP050_B037",
+        "EP050_B040"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A priest and a noblewoman risk everything for a forbidden affair, only to be caught red-handed by a servant.",
+      "evidence": [
+        "EP050_B032",
+        "EP050_B036"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP050_B040"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Details regarding the ongoing hearing"
+    ],
+    "curiosity_revealed": [
+      "The priest and Catherine are having a passionate affair",
+      "Agnes has witnessed them and is terrified by what she saw"
+    ],
+    "curiosity_withheld": [
+      "How the characters will deal with Agnes's discovery",
+      "The broader political or religious fallout of the scandal"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A forbidden affair between a priest and a woman is caught on camera—and the witness is terrified.",
+    "supporting_block_ids": [
+      "EP050_B017",
+      "EP050_B032",
+      "EP050_B036",
+      "EP050_B037",
+      "EP050_B040"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A priest and a woman named Catherine engage in a secret, passionate affair behind closed doors. Their forbidden liaison is unexpectedly witnessed by a servant named Agnes, who stumbles upon them in horror.\",\n  \"confusions\": [\n    {\n      \"issue\": \"What hearing is taking place and why their relationship matters to it is never explained.\",\n      \"block_ids\": [\n        \"K08\"\n      ]\n    },\n    {\n      \"issue\": \"The stakes of a priest engaging in a forbidden affair in this specific setting are implied but never detailed.\",\n      \"block_ids\": [\n        \"K17\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"The line 'Absolution is free. Discretion has a price' immediately establishes a tense, transactional, and morally grey dynamic between a priest and a woman.\",\n    \"evidence\": [\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K06\",\n      \"K15\",\n      \"K17\",\n      \"K25\"\n    ],\n    \"reason\": \"Tension builds steadily from a dangerous clandestine meeting through escalating intimacy, culminating in a servant discovering them and retreating in terror.\",\n    \"evidence\": [\n      \"K06\",\n      \"K15\",\n      \"K17\",\n      \"K25\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K25\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Agnes expose the priest and Catherine, and what are the lethal consequences of her discovery?\",\n    \"score\": 5,\n    \"reason\": \"The cut on Agnes stumbling back into the shadows after witnessing a scandalous, dangerous secret leaves an immediate question about whether she will be caught or speak out.\",\n    \"evidence\": [\n      \"K21\",\n      \"K22\",\n      \"K23\",\n      \"K24\",\n      \"K25\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic—a forbidden and scandalous affair between a priest and a woman, witnessed by an outsider—is completely clear on its own, though specific backstory about a hearing is missing.\",\n    \"evidence\": [\n      \"K02\",\n      \"K17\",\n      \"K21\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The priest and Catherine are having a passionate affair\",\n      \"Agnes has witnessed them and is terrified by what she saw\"\n    ],\n    \"withheld\": [\n      \"How the characters will deal with Agnes's discovery\",\n      \"The broader political or religious fallout of the scandal\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip delivers a complete mini-arc of an illicit romance colliding with discovery, while leaving the narrative consequences entirely open.\",\n    \"evidence\": [\n      \"K17\",\n      \"K25\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion\",\n    \"score\": 4,\n    \"reason\": \"The mix of forbidden passion and the sudden dread of discovery creates a strong sense of suspense and tension.\",\n    \"evidence\": [\n      \"K17\",\n      \"K22\",\n      \"K25\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"deception_secret_identity\",\n      \"other_label\": null,\n      \"secondary\": \"danger_threat\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K02\",\n        \"K17\",\n        \"K21\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\n        \"K22\",\n        \"K25\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A priest and a noblewoman risk everything for a forbidden affair, only to be caught red-handed by a servant.\",\n      \"evidence\": [\n        \"K17\",\n        \"K21\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Details regarding the ongoing hearing\"\n      ]\n    },\n    \"appeal\": \"A forbidden affair between a priest and a woman is caught on camera—and the witness is terrified.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "58f91e56da7985ebda392028bb1f14da561e39e046d60cb37e5356b7a046bb17",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3830,
+      "prompt_tokens": 3040,
+      "completion_tokens": 1167,
+      "total_tokens": 4207,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:10:28.573597+00:00"
+}

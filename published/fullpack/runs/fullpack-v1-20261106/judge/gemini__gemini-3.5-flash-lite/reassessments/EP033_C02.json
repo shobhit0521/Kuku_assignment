@@ -1,0 +1,113 @@
+{
+  "candidate_id": "EP033_C02",
+  "checker_version": "c1",
+  "judgement_clip_sha256": "479584ffbeefb6acf4460dee20a4221a4d39acbc8cc658daac571a2cfc197eb5",
+  "judgement_prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "status": "resolved",
+  "flags": [
+    {
+      "dimension": "cliffhanger",
+      "code": "REASON_DESCRIBES_WEAK_ENDING",
+      "detail": "score 3 but the reason describes a weak or settled ending ('concludes')"
+    },
+    {
+      "dimension": "context_independence",
+      "code": "CONFUSIONS_WITH_HIGH_SCORE",
+      "detail": "score 4 with 2 confusing reference(s) listed"
+    }
+  ],
+  "remaining_flags": [],
+  "original_scores": {
+    "cliffhanger": 3,
+    "context_independence": 4
+  },
+  "revised_scores": {
+    "cliffhanger": 2,
+    "context_independence": 3
+  },
+  "revised_dimensions": {
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 2,
+      "valid": true,
+      "reason": "It acts more as an emotional button closing the scene with weeping and dismissal, leaving no sharp open question right at the cut.",
+      "evidence": [
+        "EP033_B097",
+        "EP033_B098"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP033_B097",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Will the maid actually go through with the false testimony against Lady Juliana at the trial?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "While the core dynamic of coercion is clear, the missing context regarding Lady Juliana and the brother creates minor narrative gaps that require earlier backstory to fully understand.",
+      "evidence": [
+        "EP033_B077",
+        "EP033_B095"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A powerful Lord coerces a desperate maid into giving false testimony accusing another woman of witchcraft in order to save her brother. Despite her agony and protests, the Lord forces her to submit to his fabricated story.",
+      "confusions": [
+        {
+          "issue": "Who Lady Juliana is and why she is being targeted by the Lord is not explained.",
+          "block_ids": [
+            "EP033_B095"
+          ]
+        },
+        {
+          "issue": "The exact relationship between the Lord, the maid, and Toby is missing background context.",
+          "block_ids": [
+            "EP033_B077"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "note": null,
+  "raw_response_text": "{\n  \"blind_summary\": \"A powerful Lord coerces a desperate maid into giving false testimony accusing another woman of witchcraft in order to save her brother. Despite her agony and protests, the Lord forces her to submit to his fabricated story.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Lady Juliana is and why she is being targeted by the Lord is not explained.\",\n      \"block_ids\": [\"K22\"]\n    },\n    {\n      \"issue\": \"The exact relationship between the Lord, the maid, and Toby is missing background context.\",\n      \"block_ids\": [\"K03\"]\n    }\n  ],\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K24\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will the maid actually go through with the false testimony against Lady Juliana at the trial?\",\n    \"score\": 2,\n    \"reason\": \"It acts more as an emotional button closing the scene with weeping and dismissal, leaving no sharp open question right at the cut.\",\n    \"evidence\": [\"K24\", \"K25\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"While the core dynamic of coercion is clear, the missing context regarding Lady Juliana and the brother creates minor narrative gaps that require earlier backstory to fully understand.\",\n    \"evidence\": [\"K03\", \"K22\"]\n  }\n}",
+  "calls": [
+    {
+      "stage": "reassess",
+      "cache_key": "fd19ae8adf31433a94ac0741832e345ddf1e23b368eada75d2cb619c9bbe831c",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 1638,
+      "prompt_tokens": 4086,
+      "completion_tokens": 338,
+      "total_tokens": 4424,
+      "hidden_tokens": 0
+    }
+  ],
+  "invocation_id": "d586dab690a4",
+  "created_at": "2026-11-06T11:02:54.624794+00:00"
+}

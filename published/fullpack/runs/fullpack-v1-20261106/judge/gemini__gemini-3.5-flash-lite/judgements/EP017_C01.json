@@ -1,0 +1,292 @@
+{
+  "candidate_id": "EP017_C01",
+  "episode_id": "EP017",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "960714eb8ccc0e949e9ac24a533735d807f7415633e306b986bd5d02a1a727a5",
+  "clip_start_ms": 54000,
+  "clip_end_ms": 111500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP017_B040",
+    "EP017_B041"
+  ],
+  "eligible_beat_ids": [
+    "EP017_B067",
+    "EP017_B068",
+    "EP017_B069",
+    "EP017_B070",
+    "EP017_B071",
+    "EP017_B072"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's confession of being frightened offers mild emotional intrigue, though it lacks immediate external stakes.",
+      "evidence": [
+        "EP017_B041"
+      ],
+      "issues": [],
+      "block_id": "EP017_B041",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 1,
+      "valid": true,
+      "reason": "There is no conflict or escalation; the entire clip is a peaceful, romantic domestic interlude until the final voiceover twist.",
+      "evidence": [
+        "EP017_B047",
+        "EP017_B054",
+        "EP017_B070"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The voiceover completely reframes the warm scene that preceded it, creating a sharp twist and a compelling question right at the cut.",
+      "evidence": [
+        "EP017_B072"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP017_B072",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "If they are so deeply bonded and affectionate, why does she know almost nothing about him, and what are the consequences?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The viewer understands they are a married couple sharing an intimate moment, but lacks context on their history, the outside threat (\"them\"), or why she knows nothing about him.",
+      "evidence": [
+        "EP017_B041",
+        "EP017_B072"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Juliana and Alexander share an intimate, tender moment by a fireplace, teasing each other and expressing mutual affection and fear of loss. However, a closing voiceover reveals that Juliana actually knows almost nothing about the man she married.",
+      "confusions": [
+        {
+          "issue": "The background threats (\"them\") mentioned by Alexander and Juliana are entirely unexplained.",
+          "block_ids": [
+            "EP017_B041",
+            "EP017_B043"
+          ]
+        },
+        {
+          "issue": "Juliana's bandaged hand appears without explanation of how she got injured.",
+          "block_ids": [
+            "EP017_B063"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The sweet romantic setup effectively misleads the viewer before dropping a twist that makes them want to know the truth.",
+      "evidence": [
+        "EP017_B048",
+        "EP017_B072"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana and Alexander care deeply for one another and are married."
+      ],
+      "withheld": [
+        "The nature of the outside danger and why Juliana knows nothing about her husband despite their intimacy."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The warm romantic mood is pleasant, but the true emotional punch only arrives with the late voiceover twist.",
+      "evidence": [
+        "EP017_B054",
+        "EP017_B072"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "tenderness turning to sudden mystery",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "mystery_revelation",
+      "evidence": [
+        "EP017_B072",
+        "EP017_B048"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "romance_devotion",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP017_B041"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "longing_romance",
+      "evidence": [
+        "EP017_B048",
+        "EP017_B053"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A seemingly devoted couple is built on a foundation of total secrecy and unknown danger.",
+      "evidence": [
+        "EP017_B041",
+        "EP017_B072"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP017_B072"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Who \"they\" are",
+      "How they came to be married so quickly or secretly"
+    ],
+    "curiosity_revealed": [
+      "Juliana and Alexander care deeply for one another and are married."
+    ],
+    "curiosity_withheld": [
+      "The nature of the outside danger and why Juliana knows nothing about her husband despite their intimacy."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "An intimate, loving moment turns upside down when a bride realizes she married a total stranger.",
+    "supporting_block_ids": [
+      "EP017_B072",
+      "EP017_B048",
+      "EP017_B041",
+      "EP017_B053"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "LOW_TENSION",
+      "severity": "minor",
+      "explanation": "The vast majority of the clip is a peaceful, low-conflict romantic scene.",
+      "block_ids": [
+        "EP017_B047",
+        "EP017_B054",
+        "EP017_B070"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Juliana and Alexander share an intimate, tender moment by a fireplace, teasing each other and expressing mutual affection and fear of loss. However, a closing voiceover reveals that Juliana actually knows almost nothing about the man she married.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The background threats (\\\"them\\\") mentioned by Alexander and Juliana are entirely unexplained.\",\n      \"block_ids\": [\n        \"K03\",\n        \"K05\"\n      ]\n    },\n    {\n      \"issue\": \"Juliana's bandaged hand appears without explanation of how she got injured.\",\n      \"block_ids\": [\n        \"K25\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 3,\n    \"reason\": \"Juliana's confession of being frightened offers mild emotional intrigue, though it lacks immediate external stakes.\",\n    \"evidence\": [\n      \"K03\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 1,\n    \"escalation_beats\": [],\n    \"reason\": \"There is no conflict or escalation; the entire clip is a peaceful, romantic domestic interlude until the final voiceover twist.\",\n    \"evidence\": [\n      \"K09\",\n      \"K16\",\n      \"K32\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K34\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"If they are so deeply bonded and affectionate, why does she know almost nothing about him, and what are the consequences?\",\n    \"score\": 4,\n    \"reason\": \"The voiceover completely reframes the warm scene that preceded it, creating a sharp twist and a compelling question right at the cut.\",\n    \"evidence\": [\n      \"K34\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The viewer understands they are a married couple sharing an intimate moment, but lacks context on their history, the outside threat (\\\"them\\\"), or why she knows nothing about him.\",\n    \"evidence\": [\n      \"K03\",\n      \"K34\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana and Alexander care deeply for one another and are married.\"\n    ],\n    \"withheld\": [\n      \"The nature of the outside danger and why Juliana knows nothing about her husband despite their intimacy.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The sweet romantic setup effectively misleads the viewer before dropping a twist that makes them want to know the truth.\",\n    \"evidence\": [\n      \"K10\",\n      \"K34\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"tenderness turning to sudden mystery\",\n    \"score\": 3,\n    \"reason\": \"The warm romantic mood is pleasant, but the true emotional punch only arrives with the late voiceover twist.\",\n    \"evidence\": [\n      \"K16\",\n      \"K34\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"mystery_revelation\",\n      \"other_label\": null,\n      \"secondary\": \"romance_devotion\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K34\",\n        \"K10\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K03\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"longing_romance\",\n      \"evidence\": [\n        \"K10\",\n        \"K15\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A seemingly devoted couple is built on a foundation of total secrecy and unknown danger.\",\n      \"evidence\": [\n        \"K03\",\n        \"K34\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Who \\\"they\\\" are\",\n        \"How they came to be married so quickly or secretly\"\n      ]\n    },\n    \"appeal\": \"An intimate, loving moment turns upside down when a bride realizes she married a total stranger.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"LOW_TENSION\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The vast majority of the clip is a peaceful, low-conflict romantic scene.\",\n      \"block_ids\": [\n        \"K09\",\n        \"K16\",\n        \"K32\"\n      ]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "cf1dffbd011e028587eb07d9fe439fff266c055ee842c9035ed0fb05ab46c642",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3934,
+      "prompt_tokens": 3332,
+      "completion_tokens": 1151,
+      "total_tokens": 4483,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:56:20.729892+00:00"
+}

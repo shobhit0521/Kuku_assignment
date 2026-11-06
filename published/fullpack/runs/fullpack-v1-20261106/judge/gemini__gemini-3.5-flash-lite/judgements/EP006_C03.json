@@ -1,0 +1,318 @@
+{
+  "candidate_id": "EP006_C03",
+  "episode_id": "EP006",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "a0f055661fb81edb5deac5bc53276cd3a1f1f79bc5de1f2865fab165cced5b57",
+  "clip_start_ms": 69500,
+  "clip_end_ms": 104800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP006_B062",
+    "EP006_B063",
+    "EP006_B064"
+  ],
+  "eligible_beat_ids": [
+    "EP006_B084",
+    "EP006_B085",
+    "EP006_B086",
+    "EP006_B087",
+    "EP006_B088",
+    "EP006_B089",
+    "EP006_B090",
+    "EP006_B091"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's line about scrubbing to avoid thinking about everything she lost creates immediate emotional intrigue, though it lacks high-stakes conflict.",
+      "evidence": [
+        "EP006_B063"
+      ],
+      "issues": [],
+      "block_id": "EP006_B063",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 1,
+      "valid": true,
+      "reason": "The clip consists entirely of quiet, comforting domestic chores and emotional reflection without any rising conflict or external pressure.",
+      "evidence": [
+        "EP006_B065",
+        "EP006_B069",
+        "EP006_B071"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 1,
+      "valid": true,
+      "reason": "The clip ends on a serene, peaceful note rather than an open question or suspenseful beat, effectively resolving the quiet scene.",
+      "evidence": [
+        "EP006_B091"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP006_B091",
+      "mechanism": "none",
+      "outcome": "resolved",
+      "open_question": "What will happen to them next?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 2,
+      "valid": true,
+      "reason": "A viewer cannot understand why Juliana lost her home or who the bearded man is without watching prior episodes.",
+      "evidence": [
+        "EP006_B064",
+        "EP006_B086",
+        "EP006_B087"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Juliana, who has lost her home and family, cleans a modest cabin with the help of a mysterious bearded man who builds a fire for her. They sit together by the hearth as she reflects on losing everything she thought her life would be.",
+      "confusions": [
+        {
+          "issue": "It is completely unexplained who the mysterious bearded man is or what his relationship to Juliana is.",
+          "block_ids": [
+            "EP006_B064",
+            "EP006_B065",
+            "EP006_B078"
+          ]
+        },
+        {
+          "issue": "The context of how and why Juliana lost her home and family is entirely missing.",
+          "block_ids": [
+            "EP006_B086",
+            "EP006_B087",
+            "EP006_B089"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 2,
+      "valid": true,
+      "reason": "While it withholds backstory, the tranquil mood offers little hook or forward momentum to make a stranger desperate to find out more.",
+      "evidence": [
+        "EP006_B086",
+        "EP006_B087",
+        "EP006_B091"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana lost her home and family.",
+        "The mysterious man is helping her settle into a cabin."
+      ],
+      "withheld": [
+        "Who caused the loss of her home and family.",
+        "The identity of the bearded man and his past."
+      ],
+      "balance": "too_little",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The voiceover and acting convey genuine sorrow and a tender sense of solace, but it remains a low-key dramatic moment.",
+      "evidence": [
+        "EP006_B063",
+        "EP006_B086",
+        "EP006_B087",
+        "EP006_B089"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Melancholy and comforting vulnerability",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "vulnerability",
+      "evidence": [
+        "EP006_B063",
+        "EP006_B065",
+        "EP006_B086",
+        "EP006_B087"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "romance_devotion",
+    "archetype_confidence": "medium",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP006_B063"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP006_B063",
+        "EP006_B086",
+        "EP006_B087"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Coping with total loss and finding a tiny glimmer of comfort in a desolate world.",
+      "evidence": [
+        "EP006_B086",
+        "EP006_B087",
+        "EP006_B089"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unclassified",
+      "evidence": [],
+      "note": "no valid suspense beat"
+    },
+    "context_dependency": "high",
+    "missing_context": [
+      "Backstory of Juliana's tragedy",
+      "Identity of the bearded man"
+    ],
+    "curiosity_revealed": [
+      "Juliana lost her home and family.",
+      "The mysterious man is helping her settle into a cabin."
+    ],
+    "curiosity_withheld": [
+      "Who caused the loss of her home and family.",
+      "The identity of the bearded man and his past."
+    ],
+    "curiosity_balance": "too_little",
+    "appeal": "A tender moment of solace after unimaginable loss in a rustic frontier setting.",
+    "supporting_block_ids": [
+      "EP006_B063",
+      "EP006_B065",
+      "EP006_B086",
+      "EP006_B087",
+      "EP006_B089"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "LOW_TENSION",
+      "severity": "major",
+      "explanation": "The clip features no conflict, rising pressure, or active plot progression, making it ineffective as a high-engagement promo.",
+      "block_ids": [
+        "EP006_B065",
+        "EP006_B069",
+        "EP006_B071"
+      ],
+      "source": "judge"
+    },
+    {
+      "code": "RESOLVED_ENDING",
+      "severity": "major",
+      "explanation": "The clip ends on a peaceful, reflective note with no lingering suspense or unanswered question.",
+      "block_ids": [
+        "EP006_B091"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Juliana, who has lost her home and family, cleans a modest cabin with the help of a mysterious bearded man who builds a fire for her. They sit together by the hearth as she reflects on losing everything she thought her life would be.\",\n  \"confusions\": [\n    {\n      \"issue\": \"It is completely unexplained who the mysterious bearded man is or what his relationship to Juliana is.\",\n      \"block_ids\": [\"K03\", \"K04\", \"K17\"]\n    },\n    {\n      \"issue\": \"The context of how and why Juliana lost her home and family is entirely missing.\",\n      \"block_ids\": [\"K25\", \"K26\", \"K28\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Juliana's line about scrubbing to avoid thinking about everything she lost creates immediate emotional intrigue, though it lacks high-stakes conflict.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 1,\n    \"escalation_beats\": [],\n    \"reason\": \"The clip consists entirely of quiet, comforting domestic chores and emotional reflection without any rising conflict or external pressure.\",\n    \"evidence\": [\"K04\", \"K08\", \"K10\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K30\",\n    \"mechanism\": \"none\",\n    \"outcome\": \"resolved\",\n    \"open_question\": \"What will happen to them next?\",\n    \"score\": 1,\n    \"reason\": \"The clip ends on a serene, peaceful note rather than an open question or suspenseful beat, effectively resolving the quiet scene.\",\n    \"evidence\": [\"K30\"]\n  },\n  \"context_independence\": {\n    \"score\": 2,\n    \"reason\": \"A viewer cannot understand why Juliana lost her home or who the bearded man is without watching prior episodes.\",\n    \"evidence\": [\"K03\", \"K25\", \"K26\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana lost her home and family.\",\n      \"The mysterious man is helping her settle into a cabin.\"\n    ],\n    \"withheld\": [\n      \"Who caused the loss of her home and family.\",\n      \"The identity of the bearded man and his past.\"\n    ],\n    \"balance\": \"too_little\",\n    \"score\": 2,\n    \"reason\": \"While it withholds backstory, the tranquil mood offers little hook or forward momentum to make a stranger desperate to find out more.\",\n    \"evidence\": [\"K25\", \"K26\", \"K30\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Melancholy and comforting vulnerability\",\n    \"score\": 3,\n    \"reason\": \"The voiceover and acting convey genuine sorrow and a tender sense of solace, but it remains a low-key dramatic moment.\",\n    \"evidence\": [\"K02\", \"K25\", \"K26\", \"K28\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"vulnerability\",\n      \"other_label\": null,\n      \"secondary\": \"romance_devotion\",\n      \"confidence\": \"medium\",\n      \"evidence\": [\"K02\", \"K04\", \"K25\", \"K26\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\"K02\", \"K25\", \"K26\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Coping with total loss and finding a tiny glimmer of comfort in a desolate world.\",\n      \"evidence\": [\"K25\", \"K26\", \"K28\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"high\",\n      \"missing_context\": [\n        \"Backstory of Juliana's tragedy\",\n        \"Identity of the bearded man\"\n      ]\n    },\n    \"appeal\": \"A tender moment of solace after unimaginable loss in a rustic frontier setting.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"LOW_TENSION\",\n      \"severity\": \"major\",\n      \"explanation\": \"The clip features no conflict, rising pressure, or active plot progression, making it ineffective as a high-engagement promo.\",\n      \"block_ids\": [\"K04\", \"K08\", \"K10\"]\n    },\n    {\n      \"code\": \"RESOLVED_ENDING\",\n      \"severity\": \"major\",\n      \"explanation\": \"The clip ends on a peaceful, reflective note with no lingering suspense or unanswered question.\",\n      \"block_ids\": [\"K30\"]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "d3ff3625063969061438f807459de9bbc211d0b0f821fa357787bb4a0ca28061",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4116,
+      "prompt_tokens": 3192,
+      "completion_tokens": 1162,
+      "total_tokens": 4354,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:00:23.564687+00:00"
+}

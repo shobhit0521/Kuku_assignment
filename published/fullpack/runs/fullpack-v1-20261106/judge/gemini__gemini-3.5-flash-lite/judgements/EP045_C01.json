@@ -1,0 +1,295 @@
+{
+  "candidate_id": "EP045_C01",
+  "episode_id": "EP045",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "605c6c081fa8f2c621e41315c010083188c26af16eb1adfb2ac1e09a513b6eba",
+  "clip_start_ms": 54000,
+  "clip_end_ms": 83000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP045_B040"
+  ],
+  "eligible_beat_ids": [
+    "EP045_B051",
+    "EP045_B052",
+    "EP045_B053",
+    "EP045_B054",
+    "EP045_B055"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 5,
+      "valid": true,
+      "reason": "Alexander immediately levels a severe, dramatic accusation of poisoning and torture, instantly grabbing attention.",
+      "evidence": [
+        "EP045_B040"
+      ],
+      "issues": [],
+      "block_id": "EP045_B040",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension escalates from a direct confrontation and accusation to a public proclamation that shatters expectations and stuns onlookers.",
+      "evidence": [
+        "EP045_B040",
+        "EP045_B045",
+        "EP045_B053",
+        "EP045_B055"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP045_B040",
+        "EP045_B045",
+        "EP045_B053",
+        "EP045_B055"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The cut on Rupert's shellshocked utterance leaves an open question about the fallout of this public power shift.",
+      "evidence": [
+        "EP045_B055",
+        "EP045_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP045_B055",
+      "mechanism": "reaction_hold",
+      "outcome": "unresolved",
+      "open_question": "How will Catherine, Rupert, and the rest of the nobility react to Juliana's sudden elevation and the exposure of past crimes?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic—a betrayed man publicly turning the tables and claiming his true wife—is self-evident, even if specific backstory details are missing.",
+      "evidence": [
+        "EP045_B040",
+        "EP045_B045",
+        "EP045_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Alexander accuses Catherine of poisoning his mother and torturing his wife before a congregation in a cathedral. He then publicly declares Lady Juliana Ashcroft to be his true wife and the Duchess of Ashburton, leaving Catherine and bystanders in shock.",
+      "confusions": [
+        {
+          "issue": "The exact nature of Catherine's relationship to Alexander and why she targeted his mother and wife is not explained.",
+          "block_ids": [
+            "EP045_B040",
+            "EP045_B042",
+            "EP045_B043"
+          ]
+        },
+        {
+          "issue": "The identities and stakes surrounding Rupert and Mary's horrified reaction are unknown.",
+          "block_ids": [
+            "EP045_B054",
+            "EP045_B055"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip delivers a satisfying public reckoning and status reversal while leaving plenty of room to wonder how the antagonists will retaliate.",
+      "evidence": [
+        "EP045_B040",
+        "EP045_B053",
+        "EP045_B055"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander knows Catherine harmed his mother and wife.",
+        "Juliana Ashcroft is revealed as his true wife and Duchess."
+      ],
+      "withheld": [
+        "How Catherine will pay for her crimes",
+        "The full history between Catherine, Juliana, and Alexander"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Alexander's righteous public vindication of Juliana provides a strong sense of triumph and justice against the wrongdoer.",
+      "evidence": [
+        "EP045_B045",
+        "EP045_B053",
+        "EP045_B055"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "triumph",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP045_B040",
+        "EP045_B045",
+        "EP045_B053"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP045_B040"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "triumph",
+      "evidence": [
+        "EP045_B053",
+        "EP045_B055"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Exposing past crimes and publicly restoring the true wife's honor and title before high society.",
+      "evidence": [
+        "EP045_B040",
+        "EP045_B045",
+        "EP045_B053"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP045_B055"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Prior interactions between Catherine and the victims"
+    ],
+    "curiosity_revealed": [
+      "Alexander knows Catherine harmed his mother and wife.",
+      "Juliana Ashcroft is revealed as his true wife and Duchess."
+    ],
+    "curiosity_withheld": [
+      "How Catherine will pay for her crimes",
+      "The full history between Catherine, Juliana, and Alexander"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A betrayed lord publicly destroys his enemy and elevates his true wife in front of high society.",
+    "supporting_block_ids": [
+      "EP045_B040",
+      "EP045_B045",
+      "EP045_B053",
+      "EP045_B055"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Alexander accuses Catherine of poisoning his mother and torturing his wife before a congregation in a cathedral. He then publicly declares Lady Juliana Ashcroft to be his true wife and the Duchess of Ashburton, leaving Catherine and bystanders in shock.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact nature of Catherine's relationship to Alexander and why she targeted his mother and wife is not explained.\",\n      \"block_ids\": [\"K02\", \"K03\", \"K05\"]\n    },\n    {\n      \"issue\": \"The identities and stakes surrounding Rupert and Mary's horrified reaction are unknown.\",\n      \"block_ids\": [\"K16\", \"K17\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 5,\n    \"reason\": \"Alexander immediately levels a severe, dramatic accusation of poisoning and torture, instantly grabbing attention.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K02\", \"K07\", \"K15\", \"K17\"],\n    \"reason\": \"Tension escalates from a direct confrontation and accusation to a public proclamation that shatters expectations and stuns onlookers.\",\n    \"evidence\": [\"K02\", \"K07\", \"K15\", \"K17\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K17\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Catherine, Rupert, and the rest of the nobility react to Juliana's sudden elevation and the exposure of past crimes?\",\n    \"score\": 4,\n    \"reason\": \"The cut on Rupert's shellshocked utterance leaves an open question about the fallout of this public power shift.\",\n    \"evidence\": [\"K16\", \"K17\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic—a betrayed man publicly turning the tables and claiming his true wife—is self-evident, even if specific backstory details are missing.\",\n    \"evidence\": [\"K02\", \"K07\", \"K15\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Alexander knows Catherine harmed his mother and wife.\",\n      \"Juliana Ashcroft is revealed as his true wife and Duchess.\"\n    ],\n    \"withheld\": [\n      \"How Catherine will pay for her crimes\",\n      \"The full history between Catherine, Juliana, and Alexander\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"The clip delivers a satisfying public reckoning and status reversal while leaving plenty of room to wonder how the antagonists will retaliate.\",\n    \"evidence\": [\"K02\", \"K15\", \"K17\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"triumph\",\n    \"score\": 4,\n    \"reason\": \"Alexander's righteous public vindication of Juliana provides a strong sense of triumph and justice against the wrongdoer.\",\n    \"evidence\": [\"K07\", \"K15\", \"K17\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K02\", \"K07\", \"K15\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"triumph\",\n      \"evidence\": [\"K15\", \"K17\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Exposing past crimes and publicly restoring the true wife's honor and title before high society.\",\n      \"evidence\": [\"K02\", \"K07\", \"K15\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Prior interactions between Catherine and the victims\"\n      ]\n    },\n    \"appeal\": \"A betrayed lord publicly destroys his enemy and elevates his true wife in front of high society.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "f06aaf6d7ceb84dafb1edd064d5fdfd3fb374a079b5e0280ccec7e185c010662",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3563,
+      "prompt_tokens": 2584,
+      "completion_tokens": 1046,
+      "total_tokens": 3630,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:08:07.190346+00:00"
+}

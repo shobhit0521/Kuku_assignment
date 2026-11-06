@@ -1,0 +1,308 @@
+{
+  "candidate_id": "EP022_C03",
+  "episode_id": "EP022",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "2fae781c0e0e15635a618a10a5e9b52c3b1adbb1d9557cdd5a414bf08a8cf9ff",
+  "clip_start_ms": 6500,
+  "clip_end_ms": 51800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP022_B004",
+    "EP022_B005"
+  ],
+  "eligible_beat_ids": [
+    "EP022_B024",
+    "EP022_B025",
+    "EP022_B026",
+    "EP022_B028",
+    "EP022_B027",
+    "EP022_B029",
+    "EP022_B030"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Prudence urgently warning Juliana that everything is over if she is recognized creates mild intrigue, though it relies on standard clandestine setup tropes.",
+      "evidence": [
+        "EP022_B005",
+        "EP022_B004"
+      ],
+      "issues": [],
+      "block_id": "EP022_B005",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension steadily builds from the initial stealthy entry, through the decision to risk everything for the dying Duchess, culminating in an immediate confrontation with the suspicious housekeeper.",
+      "evidence": [
+        "EP022_B005",
+        "EP022_B009",
+        "EP022_B011",
+        "EP022_B022",
+        "EP022_B026",
+        "EP022_B030"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP022_B005",
+        "EP022_B011",
+        "EP022_B022",
+        "EP022_B026",
+        "EP022_B030"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip cuts right as the cold housekeeper inspects Juliana and remarks that she looks soft, leaving the immediate threat of discovery hanging.",
+      "evidence": [
+        "EP022_B030",
+        "EP022_B026",
+        "EP022_B029"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP022_B030",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Will the housekeeper see through Juliana's disguise and expose her right after entering?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core stakes—a noblewoman disguising herself as a maid to sneak into a dangerous estate and save a dying woman—are easy to grasp, even if background names like Toby or Lady Catherine are unfamiliar.",
+      "evidence": [
+        "EP022_B007",
+        "EP022_B011",
+        "EP022_B013",
+        "EP022_B021",
+        "EP022_B028"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Lady Juliana sneaks into a hostile manor in disguise to save a dying duchess despite the grave risks of being recognized. Inside, they are immediately intercepted by a suspicious housekeeper.",
+      "confusions": [
+        {
+          "issue": "Who Toby is and his relationship to Juliana is never explained.",
+          "block_ids": [
+            "EP022_B013"
+          ]
+        },
+        {
+          "issue": "The specific identities and past antagonism involving Lady Catherine and Lord Rupert are unknown.",
+          "block_ids": [
+            "EP022_B009"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip establishes the dangerous mission and successfully lands the characters into immediate jeopardy without resolving the confrontation.",
+      "evidence": [
+        "EP022_B021",
+        "EP022_B026",
+        "EP022_B030"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is a noblewoman in disguise",
+        "The Duchess is dying and Juliana intends to save her",
+        "They have successfully entered the manor but are immediately challenged"
+      ],
+      "withheld": [
+        "Whether the housekeeper will expose them",
+        "What history Juliana has with the people inside the manor"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's resolute selflessness evokes mild admiration and tension, though the formal period dialogue keeps emotional expression somewhat restrained.",
+      "evidence": [
+        "EP022_B007",
+        "EP022_B013",
+        "EP022_B017",
+        "EP022_B021"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspense and determination",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "deception_secret_identity",
+      "evidence": [
+        "EP022_B007",
+        "EP022_B019",
+        "EP022_B021",
+        "EP022_B028"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "danger_threat",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "threat",
+      "evidence": [
+        "EP022_B005"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "unclassified",
+      "evidence": [],
+      "note": "emotional trigger 'suspension' is not in the taxonomy"
+    },
+    "stakes": {
+      "value": "A noblewoman risks execution or ruin by disguising herself as a maid to sneak into a hostile manor and save a dying duchess.",
+      "evidence": [
+        "EP022_B005",
+        "EP022_B011",
+        "EP022_B019",
+        "EP022_B021"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP022_B030"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Exact relationships to Lady Catherine and Lord Rupert",
+      "Who Toby is"
+    ],
+    "curiosity_revealed": [
+      "Juliana is a noblewoman in disguise",
+      "The Duchess is dying and Juliana intends to save her",
+      "They have successfully entered the manor but are immediately challenged"
+    ],
+    "curiosity_withheld": [
+      "Whether the housekeeper will expose them",
+      "What history Juliana has with the people inside the manor"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A daring noblewoman disguises herself as a maid to infiltrate a hostile manor and save a life.",
+    "supporting_block_ids": [
+      "EP022_B007",
+      "EP022_B019",
+      "EP022_B021",
+      "EP022_B028",
+      "EP022_B005",
+      "EP022_B011",
+      "EP022_B030"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Lady Juliana sneaks into a hostile manor in disguise to save a dying duchess despite the grave risks of being recognized. Inside, they are immediately intercepted by a suspicious housekeeper.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Toby is and his relationship to Juliana is never explained.\",\n      \"block_ids\": [\"K11\"]\n    },\n    {\n      \"issue\": \"The specific identities and past antagonism involving Lady Catherine and Lord Rupert are unknown.\",\n      \"block_ids\": [\"K07\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 3,\n    \"reason\": \"Prudence urgently warning Juliana that everything is over if she is recognized creates mild intrigue, though it relies on standard clandestine setup tropes.\",\n    \"evidence\": [\n      \"K02\",\n      \"K03\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K03\",\n      \"K09\",\n      \"K20\",\n      \"K24\",\n      \"K28\"\n    ],\n    \"reason\": \"Tension steadily builds from the initial stealthy entry, through the decision to risk everything for the dying Duchess, culminating in an immediate confrontation with the suspicious housekeeper.\",\n    \"evidence\": [\n      \"K03\",\n      \"K07\",\n      \"K09\",\n      \"K20\",\n      \"K24\",\n      \"K28\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K28\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will the housekeeper see through Juliana's disguise and expose her right after entering?\",\n    \"score\": 4,\n    \"reason\": \"The clip cuts right as the cold housekeeper inspects Juliana and remarks that she looks soft, leaving the immediate threat of discovery hanging.\",\n    \"evidence\": [\n      \"K24\",\n      \"K27\",\n      \"K28\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core stakes—a noblewoman disguising herself as a maid to sneak into a dangerous estate and save a dying woman—are easy to grasp, even if background names like Toby or Lady Catherine are unfamiliar.\",\n    \"evidence\": [\n      \"K05\",\n      \"K09\",\n      \"K11\",\n      \"K19\",\n      \"K25\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is a noblewoman in disguise\",\n      \"The Duchess is dying and Juliana intends to save her\",\n      \"They have successfully entered the manor but are immediately challenged\"\n    ],\n    \"withheld\": [\n      \"Whether the housekeeper will expose them\",\n      \"What history Juliana has with the people inside the manor\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip establishes the dangerous mission and successfully lands the characters into immediate jeopardy without resolving the confrontation.\",\n    \"evidence\": [\n      \"K19\",\n      \"K24\",\n      \"K28\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspense and determination\",\n    \"score\": 3,\n    \"reason\": \"Juliana's resolute selflessness evokes mild admiration and tension, though the formal period dialogue keeps emotional expression somewhat restrained.\",\n    \"evidence\": [\n      \"K05\",\n      \"K11\",\n      \"K15\",\n      \"K19\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"deception_secret_identity\",\n      \"other_label\": null,\n      \"secondary\": \"danger_threat\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K05\",\n        \"K17\",\n        \"K19\",\n        \"K25\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"threat\",\n      \"evidence\": [\n        \"K03\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspension\",\n      \"evidence\": [\n        \"K03\",\n        \"K24\",\n        \"K28\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A noblewoman risks execution or ruin by disguising herself as a maid to sneak into a hostile manor and save a dying duchess.\",\n      \"evidence\": [\n        \"K03\",\n        \"K09\",\n        \"K17\",\n        \"K19\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Exact relationships to Lady Catherine and Lord Rupert\",\n        \"Who Toby is\"\n      ]\n    },\n    \"appeal\": \"A daring noblewoman disguises herself as a maid to infiltrate a hostile manor and save a life.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "0be2273bb858549ba61639f77f274f285ac5df381b8185b1ddbbeb943340dbf4",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 5379,
+      "prompt_tokens": 3127,
+      "completion_tokens": 1231,
+      "total_tokens": 4358,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:57:45.079606+00:00"
+}

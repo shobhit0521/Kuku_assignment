@@ -1,0 +1,298 @@
+{
+  "candidate_id": "EP031_C02",
+  "episode_id": "EP031",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "1a77ba6c77d1624e403916cc9f61dc9b9c2929edae469ca433cbc9c8324c14cb",
+  "clip_start_ms": 10500,
+  "clip_end_ms": 58800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP031_B008",
+    "EP031_B009"
+  ],
+  "eligible_beat_ids": [
+    "EP031_B026",
+    "EP031_B028",
+    "EP031_B029",
+    "EP031_B030",
+    "EP031_B031",
+    "EP031_B032"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 5,
+      "valid": true,
+      "reason": "Starts instantly with a close-up of a villainous woman holding a red-hot branding iron and delivering a venomous mocking line, immediately establishing high danger and cruelty.",
+      "evidence": [
+        "EP031_B009",
+        "EP031_B008"
+      ],
+      "issues": [],
+      "block_id": "EP031_B009",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily through physical menace with the branding iron and psychological torment regarding past humiliation, though it remains a static confrontation scene.",
+      "evidence": [
+        "EP031_B016",
+        "EP031_B017",
+        "EP031_B025",
+        "EP031_B029",
+        "EP031_B032"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP031_B017",
+        "EP031_B023",
+        "EP031_B032"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "Cuts right as the hot iron sizzles near the floor and Catherine delivers a final crushing remark, leaving the immediate physical threat entirely unresolved.",
+      "evidence": [
+        "EP031_B032",
+        "EP031_B030",
+        "EP031_B031"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP031_B032",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Will Catherine use the red-hot branding iron on Juliana, and how will Juliana endure this torture?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic of a sadistic tormentor and a defiant captive is entirely self-evident, though minor background details about Gerald and Clarisse require future episodes.",
+      "evidence": [
+        "EP031_B009",
+        "EP031_B011",
+        "EP031_B013",
+        "EP031_B023"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A malicious woman named Catherine taunts and tortures a shackled noblewoman named Juliana in a dungeon with a red-hot branding iron. Catherine gloats over Juliana's past public humiliation of being abandoned at the altar for another woman, while Juliana maintains her defiance.",
+      "confusions": [
+        {
+          "issue": "Unexplained relationships and past history between Gerald, Clarisse, Catherine, and Juliana.",
+          "block_ids": [
+            "EP031_B019",
+            "EP031_B025",
+            "EP031_B029"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "Provides a compelling, high-stakes dynamic and backstory tease while cutting off right before the physical violence or resolution occurs.",
+      "evidence": [
+        "EP031_B025",
+        "EP031_B029",
+        "EP031_B032"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is imprisoned and shackled in a dungeon.",
+        "Catherine is torturing her with a red-hot branding iron out of pure malice.",
+        "Juliana was previously humiliated when Gerald left her at the altar for Clarisse."
+      ],
+      "withheld": [
+        "What specific crimes or conflicts led to Juliana's imprisonment.",
+        "Whether Catherine will actually burn Juliana with the iron."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Elicits strong sympathy for Juliana's unjust imprisonment and fierce dignity, paired with intense dislike for Catherine's sadistic gloating.",
+      "evidence": [
+        "EP031_B011",
+        "EP031_B023",
+        "EP031_B029",
+        "EP031_B032"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Outrage and sympathy",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP031_B011",
+        "EP031_B025",
+        "EP031_B029"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP031_B009"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP031_B011",
+        "EP031_B029"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Physical torture and psychological humiliation at the hands of a sadistic captor.",
+      "evidence": [
+        "EP031_B011",
+        "EP031_B016",
+        "EP031_B032"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP031_B032"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Specific history between Gerald, Clarisse, and Juliana"
+    ],
+    "curiosity_revealed": [
+      "Juliana is imprisoned and shackled in a dungeon.",
+      "Catherine is torturing her with a red-hot branding iron out of pure malice.",
+      "Juliana was previously humiliated when Gerald left her at the altar for Clarisse."
+    ],
+    "curiosity_withheld": [
+      "What specific crimes or conflicts led to Juliana's imprisonment.",
+      "Whether Catherine will actually burn Juliana with the iron."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A wrongfully imprisoned noblewoman refuses to break while facing a sadistic torturer.",
+    "supporting_block_ids": [
+      "EP031_B011",
+      "EP031_B025",
+      "EP031_B029",
+      "EP031_B009",
+      "EP031_B016",
+      "EP031_B032"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A malicious woman named Catherine taunts and tortures a shackled noblewoman named Juliana in a dungeon with a red-hot branding iron. Catherine gloats over Juliana's past public humiliation of being abandoned at the altar for another woman, while Juliana maintains her defiance.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Unexplained relationships and past history between Gerald, Clarisse, Catherine, and Juliana.\",\n      \"block_ids\": [\"K12\", \"K18\", \"K22\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 5,\n    \"reason\": \"Starts instantly with a close-up of a villainous woman holding a red-hot branding iron and delivering a venomous mocking line, immediately establishing high danger and cruelty.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K10\", \"K16\", \"K25\"],\n    \"reason\": \"Tension builds steadily through physical menace with the branding iron and psychological torment regarding past humiliation, though it remains a static confrontation scene.\",\n    \"evidence\": [\"K09\", \"K10\", \"K18\", \"K22\", \"K25\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K25\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Catherine use the red-hot branding iron on Juliana, and how will Juliana endure this torture?\",\n    \"score\": 5,\n    \"reason\": \"Cuts right as the hot iron sizzles near the floor and Catherine delivers a final crushing remark, leaving the immediate physical threat entirely unresolved.\",\n    \"evidence\": [\"K23\", \"K24\", \"K25\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic of a sadistic tormentor and a defiant captive is entirely self-evident, though minor background details about Gerald and Clarisse require future episodes.\",\n    \"evidence\": [\"K02\", \"K04\", \"K06\", \"K16\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is imprisoned and shackled in a dungeon.\",\n      \"Catherine is torturing her with a red-hot branding iron out of pure malice.\",\n      \"Juliana was previously humiliated when Gerald left her at the altar for Clarisse.\"\n    ],\n    \"withheld\": [\n      \"What specific crimes or conflicts led to Juliana's imprisonment.\",\n      \"Whether Catherine will actually burn Juliana with the iron.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"Provides a compelling, high-stakes dynamic and backstory tease while cutting off right before the physical violence or resolution occurs.\",\n    \"evidence\": [\"K18\", \"K22\", \"K25\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Outrage and sympathy\",\n    \"score\": 4,\n    \"reason\": \"Elicits strong sympathy for Juliana's unjust imprisonment and fierce dignity, paired with intense dislike for Catherine's sadistic gloating.\",\n    \"evidence\": [\"K04\", \"K16\", \"K22\", \"K25\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K04\", \"K18\", \"K22\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K04\", \"K22\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Physical torture and psychological humiliation at the hands of a sadistic captor.\",\n      \"evidence\": [\"K04\", \"K09\", \"K25\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Specific history between Gerald, Clarisse, and Juliana\"\n      ]\n    },\n    \"appeal\": \"A wrongfully imprisoned noblewoman refuses to break while facing a sadistic torturer.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "f34522ac4c9c1005cc7c6adff05fb1c3b4b154884da006cf69e296d5bd3b88c2",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4153,
+      "prompt_tokens": 3029,
+      "completion_tokens": 1075,
+      "total_tokens": 4104,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:01:25.623361+00:00"
+}

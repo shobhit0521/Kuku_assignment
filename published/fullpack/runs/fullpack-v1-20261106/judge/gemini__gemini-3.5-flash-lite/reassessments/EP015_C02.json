@@ -1,0 +1,86 @@
+{
+  "candidate_id": "EP015_C02",
+  "checker_version": "c1",
+  "judgement_clip_sha256": "3c6ace4f533bb80aa59f72d63d3ca92aee8682e9d754b5f4248ec3ae71500326",
+  "judgement_prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "status": "resolved",
+  "flags": [
+    {
+      "dimension": "context_independence",
+      "code": "CONFUSIONS_WITH_HIGH_SCORE",
+      "detail": "score 4 with 2 confusing reference(s) listed"
+    }
+  ],
+  "remaining_flags": [],
+  "original_scores": {
+    "context_independence": 4
+  },
+  "revised_scores": {
+    "context_independence": 3
+  },
+  "revised_dimensions": {
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "While the immediate conflict of bullies harassing a vulnerable woman is clear, the identities and backstories of Alexander and the thugs require outside context to fully understand.",
+      "evidence": [
+        "EP015_B039",
+        "EP015_B045",
+        "EP015_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman is shoved to the ground and her mother's garden is vandalized by thugs, but a fierce protector named Alexander arrives just in time to confront them. The clip ends right before a potential violent clash begins.",
+      "confusions": [
+        {
+          "issue": "Who Alexander is and his exact relationship to Juliana is left unstated.",
+          "block_ids": [
+            "EP015_B045",
+            "EP015_B048",
+            "EP015_B053"
+          ]
+        },
+        {
+          "issue": "Why the thugs are targeting Juliana's garden and why she is injured/bandaged beforehand is unknown.",
+          "block_ids": [
+            "EP015_B034",
+            "EP015_B037",
+            "EP015_B039"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "note": null,
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman is shoved to the ground and her mother's garden is vandalized by thugs, but a fierce protector named Alexander arrives just in time to confront them. The clip ends right before a potential violent clash begins.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Alexander is and his exact relationship to Juliana is left unstated.\",\n      \"block_ids\": [\n        \"K16\",\n        \"K19\",\n        \"K24\"\n      ]\n    },\n    {\n      \"issue\": \"Why the thugs are targeting Juliana's garden and why she is injured/bandaged beforehand is unknown.\",\n      \"block_ids\": [\n        \"K05\",\n        \"K08\",\n        \"K09\"\n      ]\n    }\n  ],\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"While the immediate conflict of bullies harassing a vulnerable woman is clear, the identities and backstories of Alexander and the thugs require outside context to fully understand.\",\n    \"evidence\": [\n      \"K09\",\n      \"K16\",\n      \"K24\"\n    ]\n  }\n}",
+  "calls": [
+    {
+      "stage": "reassess",
+      "cache_key": "5f80141bfd6106d423e5e2970458ba2f528c3459a14a94703c6952c57cccf0b6",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 1542,
+      "prompt_tokens": 4375,
+      "completion_tokens": 273,
+      "total_tokens": 4648,
+      "hidden_tokens": 0
+    }
+  ],
+  "invocation_id": "908af1dbeed7",
+  "created_at": "2026-11-06T10:55:51.726538+00:00"
+}

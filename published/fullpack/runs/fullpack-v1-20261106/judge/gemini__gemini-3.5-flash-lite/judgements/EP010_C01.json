@@ -1,0 +1,295 @@
+{
+  "candidate_id": "EP010_C01",
+  "episode_id": "EP010",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "f8d9bd25fa06cbcb151a8dcffc989d7911cc284e1db533ee719fdcc5f5c1b7ed",
+  "clip_start_ms": 2100,
+  "clip_end_ms": 38900,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP010_B003",
+    "EP010_B004",
+    "EP010_B005",
+    "EP010_B006",
+    "EP010_B007"
+  ],
+  "eligible_beat_ids": [
+    "EP010_B025",
+    "EP010_B026",
+    "EP010_B027",
+    "EP010_B028",
+    "EP010_B029",
+    "EP010_B030"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "A blood-soaked man unexpectedly bursting through a doorway at night creates immediate visual intrigue.",
+      "evidence": [
+        "EP010_B005"
+      ],
+      "issues": [],
+      "block_id": "EP010_B005",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily from his sudden arrival through a battle of wills over tending his wound, culminating in the shocking reveal of his scarred torso.",
+      "evidence": [
+        "EP010_B005",
+        "EP010_B015",
+        "EP010_B024",
+        "EP010_B027",
+        "EP010_B030"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP010_B005",
+        "EP010_B015",
+        "EP010_B024",
+        "EP010_B027",
+        "EP010_B030"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The horrifying visual reveal paired with her whispered reaction cuts off right as the gravity of his condition sinks in.",
+      "evidence": [
+        "EP010_B030",
+        "EP010_B027",
+        "EP010_B028",
+        "EP010_B029"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP010_B030",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "What horrors caused these extensive scars, and what danger is Alexander currently fleeing?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "We understand the immediate physical situation (wounded man, caretaker woman), but lack any background on who they are or who hurt him.",
+      "evidence": [
+        "EP010_B007",
+        "EP010_B009",
+        "EP010_B013"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A wounded man stumbles into a woodland cottage where a woman is reading, and despite his protests, she forces him to remove his shirt to reveal severe, extensive battle scars. Her shocked reaction leaves open the true extent of his violent past or danger.",
+      "confusions": [
+        {
+          "issue": "The relationship between Juliana and Alexander, as well as the nature of his injuries and enemies, are entirely unknown.",
+          "block_ids": [
+            "EP010_B007",
+            "EP010_B009",
+            "EP010_B013"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip shows the escalation up to the dramatic reveal of his body, withholding the backstory and the consequences of these injuries.",
+      "evidence": [
+        "EP010_B013",
+        "EP010_B027",
+        "EP010_B030"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander is severely injured and bleeding.",
+        "Juliana is knowledgeable in herbalism or caretaking and refuses to be dismissed."
+      ],
+      "withheld": [
+        "Who inflicted the scars and fresh wounds.",
+        "The exact relationship between Juliana and Alexander."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The transition from physical alarm to the grim shock of seeing his scarred torso creates a strong emotional beat.",
+      "evidence": [
+        "EP010_B006",
+        "EP010_B029",
+        "EP010_B030"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspense and shock",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "danger_threat",
+      "evidence": [
+        "EP010_B005",
+        "EP010_B008",
+        "EP010_B027"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "vulnerability",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "visual_event",
+      "evidence": [
+        "EP010_B005"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "unclassified",
+      "evidence": [],
+      "note": "emotional trigger 'suspense' is not in the taxonomy"
+    },
+    "stakes": {
+      "value": "A man arrives critically wounded at a remote cottage, hiding a violent past revealed by his mutilated body.",
+      "evidence": [
+        "EP010_B005",
+        "EP010_B027",
+        "EP010_B030"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP010_B030"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Backstory of the characters",
+      "Nature of the ongoing conflict or enemies"
+    ],
+    "curiosity_revealed": [
+      "Alexander is severely injured and bleeding.",
+      "Juliana is knowledgeable in herbalism or caretaking and refuses to be dismissed."
+    ],
+    "curiosity_withheld": [
+      "Who inflicted the scars and fresh wounds.",
+      "The exact relationship between Juliana and Alexander."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A wounded warrior stumbles into a quiet cottage, hiding a terrifying history written in scars.",
+    "supporting_block_ids": [
+      "EP010_B005",
+      "EP010_B008",
+      "EP010_B027",
+      "EP010_B030"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A wounded man stumbles into a woodland cottage where a woman is reading, and despite his protests, she forces him to remove his shirt to reveal severe, extensive battle scars. Her shocked reaction leaves open the true extent of his violent past or danger.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The relationship between Juliana and Alexander, as well as the nature of his injuries and enemies, are entirely unknown.\",\n      \"block_ids\": [\"K07\", \"K09\", \"K13\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K05\",\n    \"score\": 4,\n    \"reason\": \"A blood-soaked man unexpectedly bursting through a doorway at night creates immediate visual intrigue.\",\n    \"evidence\": [\"K05\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K05\", \"K15\", \"K24\", \"K27\", \"K30\"],\n    \"reason\": \"Tension builds steadily from his sudden arrival through a battle of wills over tending his wound, culminating in the shocking reveal of his scarred torso.\",\n    \"evidence\": [\"K05\", \"K15\", \"K24\", \"K27\", \"K30\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K30\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What horrors caused these extensive scars, and what danger is Alexander currently fleeing?\",\n    \"score\": 4,\n    \"reason\": \"The horrifying visual reveal paired with her whispered reaction cuts off right as the gravity of his condition sinks in.\",\n    \"evidence\": [\"K27\", \"K28\", \"K29\", \"K30\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"We understand the immediate physical situation (wounded man, caretaker woman), but lack any background on who they are or who hurt him.\",\n    \"evidence\": [\"K07\", \"K09\", \"K13\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Alexander is severely injured and bleeding.\",\n      \"Juliana is knowledgeable in herbalism or caretaking and refuses to be dismissed.\"\n    ],\n    \"withheld\": [\n      \"Who inflicted the scars and fresh wounds.\",\n      \"The exact relationship between Juliana and Alexander.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip shows the escalation up to the dramatic reveal of his body, withholding the backstory and the consequences of these injuries.\",\n    \"evidence\": [\"K13\", \"K27\", \"K30\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspense and shock\",\n    \"score\": 4,\n    \"reason\": \"The transition from physical alarm to the grim shock of seeing his scarred torso creates a strong emotional beat.\",\n    \"evidence\": [\"K06\", \"K29\", \"K30\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"danger_threat\",\n      \"other_label\": null,\n      \"secondary\": \"vulnerability\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K05\", \"K08\", \"K27\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"visual_event\",\n      \"evidence\": [\"K05\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspense\",\n      \"evidence\": [\"K05\", \"K30\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A man arrives critically wounded at a remote cottage, hiding a violent past revealed by his mutilated body.\",\n      \"evidence\": [\"K05\", \"K27\", \"K30\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Backstory of the characters\",\n        \"Nature of the ongoing conflict or enemies\"\n      ]\n    },\n    \"appeal\": \"A wounded warrior stumbles into a quiet cottage, hiding a terrifying history written in scars.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "bae71692dac4c14c33cec67d206b7b45b5e63c9e7cb34e8fba373377b1ce64dc",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3624,
+      "prompt_tokens": 3162,
+      "completion_tokens": 1010,
+      "total_tokens": 4172,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:01:38.492307+00:00"
+}

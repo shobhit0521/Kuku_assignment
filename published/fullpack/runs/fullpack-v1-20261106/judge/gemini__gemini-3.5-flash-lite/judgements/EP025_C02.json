@@ -1,0 +1,300 @@
+{
+  "candidate_id": "EP025_C02",
+  "episode_id": "EP025",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "a8e515a8dbd42b309a139f091891f3b04cc8fce6ace1bc1af2ff215f4c9ff88a",
+  "clip_start_ms": 68500,
+  "clip_end_ms": 114400,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP025_B042",
+    "EP025_B043"
+  ],
+  "eligible_beat_ids": [
+    "EP025_B059",
+    "EP025_B060",
+    "EP025_B061",
+    "EP025_B062",
+    "EP025_B063",
+    "EP025_B064",
+    "EP025_B065",
+    "EP025_B066"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Starting mid-revelation about someone barely breathing and a false medical diagnosis immediately establishes mystery and foul play.",
+      "evidence": [
+        "EP025_B043"
+      ],
+      "issues": [],
+      "block_id": "EP025_B043",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily from the initial medical mystery to the shocking revelation of arsenic poisoning, culminating in Alexander's intense protective anxiety.",
+      "evidence": [
+        "EP025_B049",
+        "EP025_B051",
+        "EP025_B052",
+        "EP025_B066"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP025_B049",
+        "EP025_B051",
+        "EP025_B052",
+        "EP025_B066"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "Alexander's anxious question about whether she will go back highlights the active, ongoing danger of the assassin.",
+      "evidence": [
+        "EP025_B066",
+        "EP025_B065"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP025_B066",
+      "mechanism": "pending_decision",
+      "outcome": "unresolved",
+      "open_question": "Will Juliana return to the danger zone, and how will Alexander stop the poisoner?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The core mystery (slow arsenic poisoning) is clear, but the exact identities of the characters and the victim remain vague without prior episodes.",
+      "evidence": [
+        "EP025_B043",
+        "EP025_B055"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Juliana reveals to Alexander that someone has been slowly poisoning an elderly woman with arsenic, prompting Alexander's furious and protective reaction. As Juliana explains she treated the victim with Prudence, Alexander anxiously asks if she plans to return.",
+      "confusions": [
+        {
+          "issue": "Who the poisoned woman is and her relationship to Alexander and Juliana is never explained.",
+          "block_ids": [
+            "EP025_B043",
+            "EP025_B055"
+          ]
+        },
+        {
+          "issue": "Prudence is introduced as a helper without any background on who she is.",
+          "block_ids": [
+            "EP025_B064"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It exposes the sinister plot of slow poisoning while leaving the identity of the culprit and the immediate danger completely open.",
+      "evidence": [
+        "EP025_B051",
+        "EP025_B055",
+        "EP025_B066"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The victim is being slowly poisoned with arsenic.",
+        "Juliana and Prudence treated her in secret."
+      ],
+      "withheld": [
+        "Who is poisoning her and why.",
+        "Whether Juliana will go back and face the killer."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The discovery of calculated, repeated poisoning creates a strong sense of suspense and dark intrigue.",
+      "evidence": [
+        "EP025_B049",
+        "EP025_B051",
+        "EP025_B055",
+        "EP025_B066"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion and protective dread",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "mystery_revelation",
+      "evidence": [
+        "EP025_B049",
+        "EP025_B051",
+        "EP025_B055",
+        "EP025_B066"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "danger_threat",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP025_B043"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP025_B049",
+        "EP025_B051",
+        "EP025_B055"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An unknown killer is slowly murdering someone with arsenic, and the investigators are now putting themselves in the line of fire.",
+      "evidence": [
+        "EP025_B055",
+        "EP025_B066"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "pending_decision",
+      "evidence": [
+        "EP025_B066"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Identity of the elderly victim",
+      "Identity of Prudence"
+    ],
+    "curiosity_revealed": [
+      "The victim is being slowly poisoned with arsenic.",
+      "Juliana and Prudence treated her in secret."
+    ],
+    "curiosity_withheld": [
+      "Who is poisoning her and why.",
+      "Whether Juliana will go back and face the killer."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Discover who is secretly poisoning an innocent victim before it's too late.",
+    "supporting_block_ids": [
+      "EP025_B049",
+      "EP025_B051",
+      "EP025_B055",
+      "EP025_B066",
+      "EP025_B043"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Juliana reveals to Alexander that someone has been slowly poisoning an elderly woman with arsenic, prompting Alexander's furious and protective reaction. As Juliana explains she treated the victim with Prudence, Alexander anxiously asks if she plans to return.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who the poisoned woman is and her relationship to Alexander and Juliana is never explained.\",\n      \"block_ids\": [\"K02\", \"K13\"]\n    },\n    {\n      \"issue\": \"Prudence is introduced as a helper without any background on who she is.\",\n      \"block_ids\": [\"K23\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Starting mid-revelation about someone barely breathing and a false medical diagnosis immediately establishes mystery and foul play.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K08\", \"K10\", \"K11\", \"K25\"],\n    \"reason\": \"Tension builds steadily from the initial medical mystery to the shocking revelation of arsenic poisoning, culminating in Alexander's intense protective anxiety.\",\n    \"evidence\": [\"K08\", \"K10\", \"K11\", \"K25\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K25\",\n    \"mechanism\": \"pending_decision\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Juliana return to the danger zone, and how will Alexander stop the poisoner?\",\n    \"score\": 4,\n    \"reason\": \"Alexander's anxious question about whether she will go back highlights the active, ongoing danger of the assassin.\",\n    \"evidence\": [\"K24\", \"K25\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The core mystery (slow arsenic poisoning) is clear, but the exact identities of the characters and the victim remain vague without prior episodes.\",\n    \"evidence\": [\"K02\", \"K13\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The victim is being slowly poisoned with arsenic.\",\n      \"Juliana and Prudence treated her in secret.\"\n    ],\n    \"withheld\": [\n      \"Who is poisoning her and why.\",\n      \"Whether Juliana will go back and face the killer.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It exposes the sinister plot of slow poisoning while leaving the identity of the culprit and the immediate danger completely open.\",\n    \"evidence\": [\"K10\", \"K13\", \"K25\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion and protective dread\",\n    \"score\": 4,\n    \"reason\": \"The discovery of calculated, repeated poisoning creates a strong sense of suspense and dark intrigue.\",\n    \"evidence\": [\"K08\", \"K10\", \"K13\", \"K25\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"mystery_revelation\",\n      \"other_label\": null,\n      \"secondary\": \"danger_threat\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K08\", \"K10\", \"K13\", \"K25\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\"K08\", \"K10\", \"K13\"]\n    },\n    \"stakes\": {\n      \"summary\": \"An unknown killer is slowly murdering someone with arsenic, and the investigators are now putting themselves in the line of fire.\",\n      \"evidence\": [\"K13\", \"K25\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Identity of the elderly victim\",\n        \"Identity of Prudence\"\n      ]\n    },\n    \"appeal\": \"Discover who is secretly poisoning an innocent victim before it's too late.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "81ab422f881a48da255f0960c8bb78b247650a1644959d5339e61f7d74a3ec98",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3311,
+      "prompt_tokens": 2876,
+      "completion_tokens": 1021,
+      "total_tokens": 3897,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:58:58.092459+00:00"
+}

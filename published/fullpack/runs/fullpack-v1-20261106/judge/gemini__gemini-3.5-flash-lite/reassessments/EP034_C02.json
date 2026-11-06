@@ -1,0 +1,86 @@
+{
+  "candidate_id": "EP034_C02",
+  "checker_version": "c1",
+  "judgement_clip_sha256": "82c1d07ea889d7480dd3ea537e6afab2f7c1f0ab57c513e42d78d8a5c3c60998",
+  "judgement_prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "status": "resolved",
+  "flags": [
+    {
+      "dimension": "context_independence",
+      "code": "CONFUSIONS_WITH_HIGH_SCORE",
+      "detail": "score 4 with 2 confusing reference(s) listed"
+    }
+  ],
+  "remaining_flags": [],
+  "original_scores": {
+    "context_independence": 4
+  },
+  "revised_scores": {
+    "context_independence": 3
+  },
+  "revised_dimensions": {
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The core conflict of a trial for witchcraft is clear, but minor background elements such as the identity of the weeping woman and the nature of the healing practices remain unexplained.",
+      "evidence": [
+        "EP034_B091",
+        "EP034_B100",
+        "EP034_B103",
+        "EP034_B106"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Lady Juliana stands trial before a stern judge on accusations of witchcraft involving healing practices. Refusing to renounce her actions or show fear, she faces imminent sentencing as the judge raises his hand to deliver the final verdict.",
+      "confusions": [
+        {
+          "issue": "What specific healing practices are being judged as witchcraft is not explained.",
+          "block_ids": [
+            "EP034_B091",
+            "EP034_B100",
+            "EP034_B106"
+          ]
+        },
+        {
+          "issue": "The relationship between Lady Juliana and the weeping woman named Prudence is unstated.",
+          "block_ids": [
+            "EP034_B103",
+            "EP034_B104"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "note": null,
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Lady Juliana stands trial before a stern judge on accusations of witchcraft involving healing practices. Refusing to renounce her actions or show fear, she faces imminent sentencing as the judge raises his hand to deliver the final verdict.\",\n  \"confusions\": [\n    {\n      \"issue\": \"What specific healing practices are being judged as witchcraft is not explained.\",\n      \"block_ids\": [\n        \"K02\",\n        \"K11\",\n        \"K17\"\n      ]\n    },\n    {\n      \"issue\": \"The relationship between Lady Juliana and the weeping woman named Prudence is unstated.\",\n      \"block_ids\": [\n        \"K14\",\n        \"K15\"\n      ]\n    }\n  ],\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The core conflict of a trial for witchcraft is clear, but minor background elements such as the identity of the weeping woman and the nature of the healing practices remain unexplained.\",\n    \"evidence\": [\n      \"K02\",\n      \"K11\",\n      \"K14\",\n      \"K17\"\n    ]\n  }\n}",
+  "calls": [
+    {
+      "stage": "reassess",
+      "cache_key": "0dab3c024328ee6cf470a50f542ac1033c8da8607f906b3ab2efb86bc8a3b3fa",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 1657,
+      "prompt_tokens": 4364,
+      "completion_tokens": 271,
+      "total_tokens": 4635,
+      "hidden_tokens": 0
+    }
+  ],
+  "invocation_id": "d586dab690a4",
+  "created_at": "2026-11-06T11:03:23.272697+00:00"
+}

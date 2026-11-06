@@ -1,0 +1,759 @@
+{
+  "episode_id": "EP001",
+  "source_file": "C:\\Users\\DELL\\KukuData\\outputs\\runs\\fullpack-v1-20261106\\candidates\\EP001.json",
+  "invocation_id": "811d7048a6e7",
+  "decisions": [
+    {
+      "candidate_id": "EP001_C01",
+      "episode_id": "EP001",
+      "verdict": "eligible",
+      "eligible": true,
+      "weighted_score": 4.25,
+      "hard_rules": "pass",
+      "hard_rule_failures": [],
+      "gates": [
+        {
+          "gate": "hook_score",
+          "passed": true,
+          "detail": "4 (minimum 3)"
+        },
+        {
+          "gate": "cliffhanger_score",
+          "passed": true,
+          "detail": "5 (minimum 3)"
+        },
+        {
+          "gate": "context_independence_score",
+          "passed": true,
+          "detail": "4 (minimum 3)"
+        },
+        {
+          "gate": "hook_block_in_window",
+          "passed": true,
+          "detail": "hook starts 0.30s after clip start (limit 3s; hook source: judge)"
+        },
+        {
+          "gate": "suspense_beat_in_clip",
+          "passed": true,
+          "detail": "EP001_B027 (00:39.10-00:41.20) is inside the clip (source: judge)"
+        },
+        {
+          "gate": "outcome_not_resolved",
+          "passed": true,
+          "detail": "outcome at the cut: unresolved"
+        }
+      ],
+      "soft_rejection_codes": [],
+      "dimension_scores": {
+        "hook": 4,
+        "narrative_tension": 4,
+        "cliffhanger": 5,
+        "context_independence": 4,
+        "curiosity_gap": 5,
+        "emotional_impact": 4
+      },
+      "archetype": "betrayal_humiliation",
+      "review_flags": [],
+      "reassessment_status": "resolved",
+      "validation": {
+        "candidate_id": "EP001_C01",
+        "episode_id": "EP001",
+        "validator_version": "1.0.0",
+        "status": "pass",
+        "provisional": false,
+        "start_ms": 11000,
+        "end_ms": 41200,
+        "duration_ms": 30200,
+        "hook_block_id": "EP001_B008",
+        "hook_source": "judge",
+        "hook_offset_ms": 300,
+        "checks": [
+          {
+            "rule": "REFERENCES_VALID",
+            "status": "pass",
+            "message": "all block IDs exist in this episode and have times",
+            "block_ids": [
+              "EP001_B007",
+              "EP001_B027",
+              "EP001_B008"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "BOUNDARY_ORDER",
+            "status": "pass",
+            "message": "00:11.00-00:41.20",
+            "block_ids": [
+              "EP001_B007",
+              "EP001_B027"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "DURATION_RANGE",
+            "status": "pass",
+            "message": "duration 30.20s (allowed 20-60s inclusive)",
+            "block_ids": [],
+            "value_ms": 30200,
+            "repairable": false
+          },
+          {
+            "rule": "HOOK_WINDOW",
+            "status": "pass",
+            "message": "hook starts 0.30s after clip start (limit 3s; hook source: judge)",
+            "block_ids": [
+              "EP001_B008"
+            ],
+            "value_ms": 300,
+            "repairable": false
+          },
+          {
+            "rule": "DIALOGUE_BOUNDARY",
+            "status": "pass",
+            "message": "no dialogue block is cut",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "ENDING_NOT_TRANSITION_ONLY",
+            "status": "pass",
+            "message": "last story beat EP001_B027 ends 0.00s before the cut",
+            "block_ids": [
+              "EP001_B027"
+            ],
+            "value_ms": 0,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_BEAT_IN_CLIP",
+            "status": "pass",
+            "message": "EP001_B027 (00:39.10-00:41.20) is inside the clip (source: judge)",
+            "block_ids": [
+              "EP001_B027"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_BEAT_IS_STORY_BEAT",
+            "status": "pass",
+            "message": "EP001_B027 is a story",
+            "block_ids": [
+              "EP001_B027"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_TAIL_TOLERANCE",
+            "status": "pass",
+            "message": "clip ends 0.00s after the suspense beat (limit 2s)",
+            "block_ids": [
+              "EP001_B027"
+            ],
+            "value_ms": 0,
+            "repairable": false
+          }
+        ],
+        "ending": {
+          "clip_end_ms": 41200,
+          "last_dialogue_block_id": "EP001_B027",
+          "last_dialogue_end_ms": 41200,
+          "last_story_beat_id": "EP001_B027",
+          "last_story_beat_end_ms": 41200,
+          "trailing_after_last_story_ms": 0,
+          "transition_block_ids": [],
+          "score_cue_block_ids": [],
+          "suspense_beat_options": [
+            "EP001_B021",
+            "EP001_B022",
+            "EP001_B023",
+            "EP001_B024",
+            "EP001_B025",
+            "EP001_B026",
+            "EP001_B027"
+          ],
+          "suspense_beat_id": "EP001_B027",
+          "suspense_beat_source": "judge",
+          "suspense_beat_end_ms": 41200,
+          "trailing_after_suspense_ms": 0,
+          "outcome": "unresolved"
+        }
+      },
+      "judgement_file": "C:\\Users\\DELL\\KukuData\\outputs\\runs\\fullpack-v1-20261106\\judge\\gemini__gemini-3.5-flash-lite\\judgements\\EP001_C01.json",
+      "repaired_from": null,
+      "repair_status": null,
+      "repair_reason": null,
+      "repaired_candidate": null,
+      "note": null
+    },
+    {
+      "candidate_id": "EP001_C02",
+      "episode_id": "EP001",
+      "verdict": "eligible",
+      "eligible": true,
+      "weighted_score": 4.0,
+      "hard_rules": "pass",
+      "hard_rule_failures": [],
+      "gates": [
+        {
+          "gate": "hook_score",
+          "passed": true,
+          "detail": "4 (minimum 3)"
+        },
+        {
+          "gate": "cliffhanger_score",
+          "passed": true,
+          "detail": "4 (minimum 3)"
+        },
+        {
+          "gate": "context_independence_score",
+          "passed": true,
+          "detail": "4 (minimum 3)"
+        },
+        {
+          "gate": "hook_block_in_window",
+          "passed": true,
+          "detail": "hook starts 0.10s after clip start (limit 3s; hook source: judge)"
+        },
+        {
+          "gate": "suspense_beat_in_clip",
+          "passed": true,
+          "detail": "EP001_B092 (02:13.80-02:17.00) is inside the clip (source: judge)"
+        },
+        {
+          "gate": "outcome_not_resolved",
+          "passed": true,
+          "detail": "outcome at the cut: partly_resolved"
+        }
+      ],
+      "soft_rejection_codes": [],
+      "dimension_scores": {
+        "hook": 4,
+        "narrative_tension": 4,
+        "cliffhanger": 4,
+        "context_independence": 4,
+        "curiosity_gap": 4,
+        "emotional_impact": 4
+      },
+      "archetype": "betrayal_humiliation",
+      "review_flags": [],
+      "reassessment_status": null,
+      "validation": {
+        "candidate_id": "EP001_C02",
+        "episode_id": "EP001",
+        "validator_version": "1.0.0",
+        "status": "pass",
+        "provisional": false,
+        "start_ms": 90800,
+        "end_ms": 138000,
+        "duration_ms": 47200,
+        "hook_block_id": "EP001_B064",
+        "hook_source": "judge",
+        "hook_offset_ms": 100,
+        "checks": [
+          {
+            "rule": "REFERENCES_VALID",
+            "status": "pass",
+            "message": "all block IDs exist in this episode and have times",
+            "block_ids": [
+              "EP001_B063",
+              "EP001_B095",
+              "EP001_B064"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "BOUNDARY_ORDER",
+            "status": "pass",
+            "message": "01:30.80-02:18.00",
+            "block_ids": [
+              "EP001_B063",
+              "EP001_B095"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "DURATION_RANGE",
+            "status": "pass",
+            "message": "duration 47.20s (allowed 20-60s inclusive)",
+            "block_ids": [],
+            "value_ms": 47200,
+            "repairable": false
+          },
+          {
+            "rule": "HOOK_WINDOW",
+            "status": "pass",
+            "message": "hook starts 0.10s after clip start (limit 3s; hook source: judge)",
+            "block_ids": [
+              "EP001_B064"
+            ],
+            "value_ms": 100,
+            "repairable": false
+          },
+          {
+            "rule": "DIALOGUE_BOUNDARY",
+            "status": "pass",
+            "message": "no dialogue block is cut",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "ENDING_NOT_TRANSITION_ONLY",
+            "status": "pass",
+            "message": "last story beat EP001_B093 ends 1.00s before the cut",
+            "block_ids": [
+              "EP001_B093",
+              "EP001_B095",
+              "EP001_B094"
+            ],
+            "value_ms": 1000,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_BEAT_IN_CLIP",
+            "status": "pass",
+            "message": "EP001_B092 (02:13.80-02:17.00) is inside the clip (source: judge)",
+            "block_ids": [
+              "EP001_B092"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_BEAT_IS_STORY_BEAT",
+            "status": "pass",
+            "message": "EP001_B092 is a story",
+            "block_ids": [
+              "EP001_B092"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_TAIL_TOLERANCE",
+            "status": "pass",
+            "message": "clip ends 1.00s after the suspense beat (limit 2s)",
+            "block_ids": [
+              "EP001_B092"
+            ],
+            "value_ms": 1000,
+            "repairable": false
+          }
+        ],
+        "ending": {
+          "clip_end_ms": 138000,
+          "last_dialogue_block_id": "EP001_B089",
+          "last_dialogue_end_ms": 131200,
+          "last_story_beat_id": "EP001_B093",
+          "last_story_beat_end_ms": 137000,
+          "trailing_after_last_story_ms": 1000,
+          "transition_block_ids": [
+            "EP001_B095"
+          ],
+          "score_cue_block_ids": [
+            "EP001_B094"
+          ],
+          "suspense_beat_options": [
+            "EP001_B089",
+            "EP001_B088",
+            "EP001_B090",
+            "EP001_B091",
+            "EP001_B092",
+            "EP001_B093"
+          ],
+          "suspense_beat_id": "EP001_B092",
+          "suspense_beat_source": "judge",
+          "suspense_beat_end_ms": 137000,
+          "trailing_after_suspense_ms": 1000,
+          "outcome": "partly_resolved"
+        }
+      },
+      "judgement_file": "C:\\Users\\DELL\\KukuData\\outputs\\runs\\fullpack-v1-20261106\\judge\\gemini__gemini-3.5-flash-lite\\judgements\\EP001_C02.json",
+      "repaired_from": null,
+      "repair_status": null,
+      "repair_reason": null,
+      "repaired_candidate": null,
+      "note": null
+    },
+    {
+      "candidate_id": "EP001_C03",
+      "episode_id": "EP001",
+      "verdict": "eligible",
+      "eligible": true,
+      "weighted_score": 5.0,
+      "hard_rules": "pass",
+      "hard_rule_failures": [],
+      "gates": [
+        {
+          "gate": "hook_score",
+          "passed": true,
+          "detail": "5 (minimum 3)"
+        },
+        {
+          "gate": "cliffhanger_score",
+          "passed": true,
+          "detail": "5 (minimum 3)"
+        },
+        {
+          "gate": "context_independence_score",
+          "passed": true,
+          "detail": "5 (minimum 3)"
+        },
+        {
+          "gate": "hook_block_in_window",
+          "passed": true,
+          "detail": "hook starts 0.10s after clip start (limit 3s; hook source: judge)"
+        },
+        {
+          "gate": "suspense_beat_in_clip",
+          "passed": true,
+          "detail": "EP001_B052 (01:15.00-01:18.50) is inside the clip (source: judge)"
+        },
+        {
+          "gate": "outcome_not_resolved",
+          "passed": true,
+          "detail": "outcome at the cut: unresolved"
+        }
+      ],
+      "soft_rejection_codes": [],
+      "dimension_scores": {
+        "hook": 5,
+        "narrative_tension": 4,
+        "cliffhanger": 5,
+        "context_independence": 5,
+        "curiosity_gap": 5,
+        "emotional_impact": 5
+      },
+      "archetype": "betrayal_humiliation",
+      "review_flags": [],
+      "reassessment_status": null,
+      "validation": {
+        "candidate_id": "EP001_C03",
+        "episode_id": "EP001",
+        "validator_version": "1.0.0",
+        "status": "pass",
+        "provisional": false,
+        "start_ms": 39000,
+        "end_ms": 78500,
+        "duration_ms": 39500,
+        "hook_block_id": "EP001_B027",
+        "hook_source": "judge",
+        "hook_offset_ms": 100,
+        "checks": [
+          {
+            "rule": "REFERENCES_VALID",
+            "status": "pass",
+            "message": "all block IDs exist in this episode and have times",
+            "block_ids": [
+              "EP001_B026",
+              "EP001_B052",
+              "EP001_B027"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "BOUNDARY_ORDER",
+            "status": "pass",
+            "message": "00:39.00-01:18.50",
+            "block_ids": [
+              "EP001_B026",
+              "EP001_B052"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "DURATION_RANGE",
+            "status": "pass",
+            "message": "duration 39.50s (allowed 20-60s inclusive)",
+            "block_ids": [],
+            "value_ms": 39500,
+            "repairable": false
+          },
+          {
+            "rule": "HOOK_WINDOW",
+            "status": "pass",
+            "message": "hook starts 0.10s after clip start (limit 3s; hook source: judge)",
+            "block_ids": [
+              "EP001_B027"
+            ],
+            "value_ms": 100,
+            "repairable": false
+          },
+          {
+            "rule": "DIALOGUE_BOUNDARY",
+            "status": "pass",
+            "message": "no dialogue block is cut",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "ENDING_NOT_TRANSITION_ONLY",
+            "status": "pass",
+            "message": "last story beat EP001_B052 ends 0.00s before the cut",
+            "block_ids": [
+              "EP001_B052"
+            ],
+            "value_ms": 0,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_BEAT_IN_CLIP",
+            "status": "pass",
+            "message": "EP001_B052 (01:15.00-01:18.50) is inside the clip (source: judge)",
+            "block_ids": [
+              "EP001_B052"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_BEAT_IS_STORY_BEAT",
+            "status": "pass",
+            "message": "EP001_B052 is a story",
+            "block_ids": [
+              "EP001_B052"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_TAIL_TOLERANCE",
+            "status": "pass",
+            "message": "clip ends 0.00s after the suspense beat (limit 2s)",
+            "block_ids": [
+              "EP001_B052"
+            ],
+            "value_ms": 0,
+            "repairable": false
+          }
+        ],
+        "ending": {
+          "clip_end_ms": 78500,
+          "last_dialogue_block_id": "EP001_B052",
+          "last_dialogue_end_ms": 78500,
+          "last_story_beat_id": "EP001_B052",
+          "last_story_beat_end_ms": 78500,
+          "trailing_after_last_story_ms": 0,
+          "transition_block_ids": [],
+          "score_cue_block_ids": [],
+          "suspense_beat_options": [
+            "EP001_B046",
+            "EP001_B048",
+            "EP001_B049",
+            "EP001_B050",
+            "EP001_B051",
+            "EP001_B052"
+          ],
+          "suspense_beat_id": "EP001_B052",
+          "suspense_beat_source": "judge",
+          "suspense_beat_end_ms": 78500,
+          "trailing_after_suspense_ms": 0,
+          "outcome": "unresolved"
+        }
+      },
+      "judgement_file": "C:\\Users\\DELL\\KukuData\\outputs\\runs\\fullpack-v1-20261106\\judge\\gemini__gemini-3.5-flash-lite\\judgements\\EP001_C03.json",
+      "repaired_from": null,
+      "repair_status": null,
+      "repair_reason": null,
+      "repaired_candidate": null,
+      "note": null
+    },
+    {
+      "candidate_id": "EP001_C04",
+      "episode_id": "EP001",
+      "verdict": "eligible",
+      "eligible": true,
+      "weighted_score": 4.45,
+      "hard_rules": "pass",
+      "hard_rule_failures": [],
+      "gates": [
+        {
+          "gate": "hook_score",
+          "passed": true,
+          "detail": "5 (minimum 3)"
+        },
+        {
+          "gate": "cliffhanger_score",
+          "passed": true,
+          "detail": "4 (minimum 3)"
+        },
+        {
+          "gate": "context_independence_score",
+          "passed": true,
+          "detail": "4 (minimum 3)"
+        },
+        {
+          "gate": "hook_block_in_window",
+          "passed": true,
+          "detail": "hook starts 0.00s after clip start (limit 3s; hook source: judge)"
+        },
+        {
+          "gate": "suspense_beat_in_clip",
+          "passed": true,
+          "detail": "EP001_B077 (01:51.10-01:53.00) is inside the clip (source: judge)"
+        },
+        {
+          "gate": "outcome_not_resolved",
+          "passed": true,
+          "detail": "outcome at the cut: partly_resolved"
+        }
+      ],
+      "soft_rejection_codes": [],
+      "dimension_scores": {
+        "hook": 5,
+        "narrative_tension": 4,
+        "cliffhanger": 4,
+        "context_independence": 4,
+        "curiosity_gap": 5,
+        "emotional_impact": 5
+      },
+      "archetype": "betrayal_humiliation",
+      "review_flags": [],
+      "reassessment_status": null,
+      "validation": {
+        "candidate_id": "EP001_C04",
+        "episode_id": "EP001",
+        "validator_version": "1.0.0",
+        "status": "pass",
+        "provisional": false,
+        "start_ms": 60100,
+        "end_ms": 113000,
+        "duration_ms": 52900,
+        "hook_block_id": "EP001_B041",
+        "hook_source": "judge",
+        "hook_offset_ms": 0,
+        "checks": [
+          {
+            "rule": "REFERENCES_VALID",
+            "status": "pass",
+            "message": "all block IDs exist in this episode and have times",
+            "block_ids": [
+              "EP001_B040",
+              "EP001_B077",
+              "EP001_B041"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "BOUNDARY_ORDER",
+            "status": "pass",
+            "message": "01:00.10-01:53.00",
+            "block_ids": [
+              "EP001_B040",
+              "EP001_B077"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "DURATION_RANGE",
+            "status": "pass",
+            "message": "duration 52.90s (allowed 20-60s inclusive)",
+            "block_ids": [],
+            "value_ms": 52900,
+            "repairable": false
+          },
+          {
+            "rule": "HOOK_WINDOW",
+            "status": "pass",
+            "message": "hook starts 0.00s after clip start (limit 3s; hook source: judge)",
+            "block_ids": [
+              "EP001_B041"
+            ],
+            "value_ms": 0,
+            "repairable": false
+          },
+          {
+            "rule": "DIALOGUE_BOUNDARY",
+            "status": "pass",
+            "message": "no dialogue block is cut",
+            "block_ids": [],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "ENDING_NOT_TRANSITION_ONLY",
+            "status": "pass",
+            "message": "last story beat EP001_B077 ends 0.00s before the cut",
+            "block_ids": [
+              "EP001_B077"
+            ],
+            "value_ms": 0,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_BEAT_IN_CLIP",
+            "status": "pass",
+            "message": "EP001_B077 (01:51.10-01:53.00) is inside the clip (source: judge)",
+            "block_ids": [
+              "EP001_B077"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_BEAT_IS_STORY_BEAT",
+            "status": "pass",
+            "message": "EP001_B077 is a story",
+            "block_ids": [
+              "EP001_B077"
+            ],
+            "value_ms": null,
+            "repairable": false
+          },
+          {
+            "rule": "SUSPENSE_TAIL_TOLERANCE",
+            "status": "pass",
+            "message": "clip ends 0.00s after the suspense beat (limit 2s)",
+            "block_ids": [
+              "EP001_B077"
+            ],
+            "value_ms": 0,
+            "repairable": false
+          }
+        ],
+        "ending": {
+          "clip_end_ms": 113000,
+          "last_dialogue_block_id": "EP001_B077",
+          "last_dialogue_end_ms": 113000,
+          "last_story_beat_id": "EP001_B077",
+          "last_story_beat_end_ms": 113000,
+          "trailing_after_last_story_ms": 0,
+          "transition_block_ids": [],
+          "score_cue_block_ids": [],
+          "suspense_beat_options": [
+            "EP001_B071",
+            "EP001_B072",
+            "EP001_B073",
+            "EP001_B074",
+            "EP001_B075",
+            "EP001_B076",
+            "EP001_B077"
+          ],
+          "suspense_beat_id": "EP001_B077",
+          "suspense_beat_source": "judge",
+          "suspense_beat_end_ms": 113000,
+          "trailing_after_suspense_ms": 0,
+          "outcome": "partly_resolved"
+        }
+      },
+      "judgement_file": "C:\\Users\\DELL\\KukuData\\outputs\\runs\\fullpack-v1-20261106\\judge\\gemini__gemini-3.5-flash-lite\\judgements\\EP001_C04.json",
+      "repaired_from": null,
+      "repair_status": null,
+      "repair_reason": null,
+      "repaired_candidate": null,
+      "note": null
+    }
+  ]
+}

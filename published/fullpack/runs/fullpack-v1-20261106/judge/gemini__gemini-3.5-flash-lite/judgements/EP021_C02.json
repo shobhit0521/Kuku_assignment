@@ -1,0 +1,294 @@
+{
+  "candidate_id": "EP021_C02",
+  "episode_id": "EP021",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "d89a073006389ec962d62fe963356c4eb79798513cc3ace55e96455c5f0458e6",
+  "clip_start_ms": 72000,
+  "clip_end_ms": 114000,
+  "masked_terms": 1,
+  "eligible_hook_ids": [
+    "EP021_B053",
+    "EP021_B052"
+  ],
+  "eligible_beat_ids": [
+    "EP021_B071",
+    "EP021_B073",
+    "EP021_B074",
+    "EP021_B075",
+    "EP021_B076"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Prudence expresses sudden relief that her brother's breathing has stopped rattling, which creates mild curiosity about what was wrong with him.",
+      "evidence": [
+        "EP021_B053"
+      ],
+      "issues": [],
+      "block_id": "EP021_B053",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds as gratitude shifts into a conspiratorial discussion about a wealthy person's mysterious and fatal illness, culminating in a heavy realization.",
+      "evidence": [
+        "EP021_B058",
+        "EP021_B064",
+        "EP021_B072",
+        "EP021_B076"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP021_B058",
+        "EP021_B064",
+        "EP021_B072",
+        "EP021_B076"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "Lady Juliana stares down at her mother's ledger with deep apprehension and resolve, leaving an emotional forward pull regarding the secret illness at the manor.",
+      "evidence": [
+        "EP021_B076",
+        "EP021_B075"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP021_B076",
+      "mechanism": "reaction_hold",
+      "outcome": "unresolved",
+      "open_question": "What connection does Lady Juliana have to the dying Dowager Duchess and her strange illness?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The core dynamic between the healer and the grateful peasant is clear, but the background conflict involving the grand manor and the Dowager Duchess lacks context.",
+      "evidence": [
+        "EP021_B056",
+        "EP021_B059",
+        "EP021_B064",
+        "EP021_B072"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A noblewoman named Lady Juliana cures a poor woman's sick brother using herbal remedies after doctors gave up on him. In gratitude, Prudence reveals that the wealthy Dowager Duchess at the grand manor is suffering from a mysterious, fatal illness.",
+      "confusions": [
+        {
+          "issue": "Who the Dowager Duchess is and why her illness matters to Lady Juliana is not explained.",
+          "block_ids": [
+            "EP021_B068",
+            "EP021_B072"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 3,
+      "valid": true,
+      "reason": "The clip sets up a medical mystery at the manor and a healer's potential involvement, but relies heavily on standard dramatic tropes.",
+      "evidence": [
+        "EP021_B056",
+        "EP021_B072",
+        "EP021_B073"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Lady Juliana can cure illnesses that doctors cannot",
+        "The Dowager Duchess is suffering from a mysterious, fatal illness"
+      ],
+      "withheld": [
+        "What is causing the Duchess's illness",
+        "How Lady Juliana will get involved"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The emotion shifts cleanly from heartfelt relief and gratitude to dark, hushed intrigue regarding the Duchess's illness.",
+      "evidence": [
+        "EP021_B053",
+        "EP021_B058",
+        "EP021_B072",
+        "EP021_B073"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "gratitude and ominous intrigue",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "unclassified",
+      "evidence": [],
+      "note": "archetype 'mystery_relevation' is not in the taxonomy"
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "medium",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP021_B053"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "unclassified",
+      "evidence": [],
+      "note": "emotional trigger 'suspension' is not in the taxonomy"
+    },
+    "stakes": {
+      "value": "A powerful Dowager Duchess is dying of a mysterious illness that doctors cannot stop, while a talented herbalist holds hidden knowledge.",
+      "evidence": [
+        "EP021_B072",
+        "EP021_B073",
+        "EP021_B075"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP021_B076"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "The relationship between Lady Juliana and the occupants of the grand manor"
+    ],
+    "curiosity_revealed": [
+      "Lady Juliana can cure illnesses that doctors cannot",
+      "The Dowager Duchess is suffering from a mysterious, fatal illness"
+    ],
+    "curiosity_withheld": [
+      "What is causing the Duchess's illness",
+      "How Lady Juliana will get involved"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A gifted herbalist cures a dying boy, only to learn that the wealthy Duchess at the grand manor is mysteriously wasting away.",
+    "supporting_block_ids": [
+      "EP021_B053",
+      "EP021_B072",
+      "EP021_B073",
+      "EP021_B075",
+      "EP021_B076"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "WEAK_HOOK",
+      "severity": "minor",
+      "explanation": "The opening line expressing relief over a sick boy's breathing is a mild narrative continuation rather than a sharp, high-stopping hook.",
+      "block_ids": [
+        "EP021_B053"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A noblewoman named Lady Juliana cures a poor woman's sick brother using herbal remedies after doctors gave up on him. In gratitude, Prudence reveals that the wealthy Dowager Duchess at the grand manor is suffering from a mysterious, fatal illness.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who the Dowager Duchess is and why her illness matters to Lady Juliana is not explained.\",\n      \"block_ids\": [\n        \"K18\",\n        \"K21\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Prudence expresses sudden relief that her brother's breathing has stopped rattling, which creates mild curiosity about what was wrong with him.\",\n    \"evidence\": [\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\n      \"K07\",\n      \"K13\",\n      \"K21\",\n      \"K26\"\n    ],\n    \"reason\": \"Tension builds as gratitude shifts into a conspiratorial discussion about a wealthy person's mysterious and fatal illness, culminating in a heavy realization.\",\n    \"evidence\": [\n      \"K07\",\n      \"K13\",\n      \"K21\",\n      \"K26\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K26\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What connection does Lady Juliana have to the dying Dowager Duchess and her strange illness?\",\n    \"score\": 3,\n    \"reason\": \"Lady Juliana stares down at her mother's ledger with deep apprehension and resolve, leaving an emotional forward pull regarding the secret illness at the manor.\",\n    \"evidence\": [\n      \"K25\",\n      \"K26\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The core dynamic between the healer and the grateful peasant is clear, but the background conflict involving the grand manor and the Dowager Duchess lacks context.\",\n    \"evidence\": [\n      \"K05\",\n      \"K09\",\n      \"K13\",\n      \"K21\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Lady Juliana can cure illnesses that doctors cannot\",\n      \"The Dowager Duchess is suffering from a mysterious, fatal illness\"\n    ],\n    \"withheld\": [\n      \"What is causing the Duchess's illness\",\n      \"How Lady Juliana will get involved\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 3,\n    \"reason\": \"The clip sets up a medical mystery at the manor and a healer's potential involvement, but relies heavily on standard dramatic tropes.\",\n    \"evidence\": [\n      \"K05\",\n      \"K21\",\n      \"K23\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"gratitude and ominous intrigue\",\n    \"score\": 3,\n    \"reason\": \"The emotion shifts cleanly from heartfelt relief and gratitude to dark, hushed intrigue regarding the Duchess's illness.\",\n    \"evidence\": [\n      \"K02\",\n      \"K07\",\n      \"K21\",\n      \"K23\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"mystery_relevation\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"medium\",\n      \"evidence\": [\n        \"K21\",\n        \"K23\",\n        \"K26\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspension\",\n      \"evidence\": [\n        \"K21\",\n        \"K26\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A powerful Dowager Duchess is dying of a mysterious illness that doctors cannot stop, while a talented herbalist holds hidden knowledge.\",\n      \"evidence\": [\n        \"K21\",\n        \"K23\",\n        \"K25\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"The relationship between Lady Juliana and the occupants of the grand manor\"\n      ]\n    },\n    \"appeal\": \"A gifted herbalist cures a dying boy, only to learn that the wealthy Duchess at the grand manor is mysteriously wasting away.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"WEAK_HOOK\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The opening line expressing relief over a sick boy's breathing is a mild narrative continuation rather than a sharp, high-stopping hook.\",\n      \"block_ids\": [\n        \"K02\"\n      ]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "b76f22a7fb827c686b81869b63fd6f167d5b124c43682aba2bf3ff2ccd2aca82",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3970,
+      "prompt_tokens": 3112,
+      "completion_tokens": 1225,
+      "total_tokens": 4337,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:57:36.930278+00:00"
+}

@@ -1,0 +1,303 @@
+{
+  "candidate_id": "EP012_C02",
+  "episode_id": "EP012",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "f44876811d755bbb22672e9ef6483b3e3776d7e3e759751d9f50aea15ebd69f1",
+  "clip_start_ms": 0,
+  "clip_end_ms": 46400,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP012_B001",
+    "EP012_B002"
+  ],
+  "eligible_beat_ids": [
+    "EP012_B025",
+    "EP012_B026",
+    "EP012_B027",
+    "EP012_B028",
+    "EP012_B029",
+    "EP012_B030",
+    "EP012_B031",
+    "EP012_B032"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "An immediate accusation of a veteran and the threat of arrest provide a clear, high-stakes opening hook.",
+      "evidence": [
+        "EP012_B002",
+        "EP012_B001"
+      ],
+      "issues": [],
+      "block_id": "EP012_B002",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension escalates from a wrongful arrest to a framing scheme, culminating in a manipulative bargain imposed by a sadistic relative.",
+      "evidence": [
+        "EP012_B002",
+        "EP012_B009",
+        "EP012_B017",
+        "EP012_B024",
+        "EP012_B032"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP012_B002",
+        "EP012_B009",
+        "EP012_B017",
+        "EP012_B024",
+        "EP012_B032"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The final sadistic demand leaves a powerful, high-stakes emotional question hanging right at the cut.",
+      "evidence": [
+        "EP012_B032",
+        "EP012_B031"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP012_B032",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "Will Juliana actually humiliate herself and crawl to save her husband from the false charges?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic of a framed veteran, a loyal wife, and malicious antagonists is completely clear to a first-time viewer.",
+      "evidence": [
+        "EP012_B002",
+        "EP012_B005",
+        "EP012_B011",
+        "EP012_B017",
+        "EP012_B032"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A veteran is wrongfully accused of theft when a stolen watch is found planted in his coat by scheming relatives. His wife fiercely defends him and bargains with her malicious sister to save him.",
+      "confusions": [
+        {
+          "issue": "The exact prior relationship between Juliana, Clarissa, and Gerald is not fully explained beyond a family dynamic.",
+          "block_ids": [
+            "EP012_B011",
+            "EP012_B015",
+            "EP012_B019",
+            "EP012_B024"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It sets up the malicious plot and the immediate price for escape while leaving the ultimate resolution entirely open.",
+      "evidence": [
+        "EP012_B017",
+        "EP012_B028",
+        "EP012_B032"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The watch was planted",
+        "Clarissa and Gerald are behind the scheme",
+        "Clarissa demands Juliana crawl as a condition"
+      ],
+      "withheld": [
+        "Whether Juliana will submit to the demand",
+        "How the framing scheme will ultimately play out"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The blatant injustice of the framing and the cruel arrogance of the antagonists evoke strong viewer indignation and sympathy.",
+      "evidence": [
+        "EP012_B005",
+        "EP012_B017",
+        "EP012_B022",
+        "EP012_B032"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage and humiliation",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "betrayal_humiliation",
+      "evidence": [
+        "EP012_B011",
+        "EP012_B017",
+        "EP012_B024",
+        "EP012_B032"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP012_B002"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP012_B005",
+        "EP012_B017",
+        "EP012_B032"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A wrongly accused veteran faces arrest unless his wife humiliates herself to appease her sadistic sister.",
+      "evidence": [
+        "EP012_B002",
+        "EP012_B024",
+        "EP012_B032"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP012_B032"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "The watch was planted",
+      "Clarissa and Gerald are behind the scheme",
+      "Clarissa demands Juliana crawl as a condition"
+    ],
+    "curiosity_withheld": [
+      "Whether Juliana will submit to the demand",
+      "How the framing scheme will ultimately play out"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a devoted wife fight back against her sadistic family to save her wrongfully accused husband.",
+    "supporting_block_ids": [
+      "EP012_B011",
+      "EP012_B017",
+      "EP012_B024",
+      "EP012_B032",
+      "EP012_B002",
+      "EP012_B005"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A veteran is wrongfully accused of theft when a stolen watch is found planted in his coat by scheming relatives. His wife fiercely defends him and bargains with her malicious sister to save him.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact prior relationship between Juliana, Clarissa, and Gerald is not fully explained beyond a family dynamic.\",\n      \"block_ids\": [\n        \"K11\",\n        \"K14\",\n        \"K19\",\n        \"K23\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"An immediate accusation of a veteran and the threat of arrest provide a clear, high-stakes opening hook.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K02\",\n      \"K09\",\n      \"K16\",\n      \"K23\",\n      \"K32\"\n    ],\n    \"reason\": \"Tension escalates from a wrongful arrest to a framing scheme, culminating in a manipulative bargain imposed by a sadistic relative.\",\n    \"evidence\": [\n      \"K02\",\n      \"K09\",\n      \"K16\",\n      \"K23\",\n      \"K32\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K32\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Juliana actually humiliate herself and crawl to save her husband from the false charges?\",\n    \"score\": 5,\n    \"reason\": \"The final sadistic demand leaves a powerful, high-stakes emotional question hanging right at the cut.\",\n    \"evidence\": [\n      \"K31\",\n      \"K32\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic of a framed veteran, a loyal wife, and malicious antagonists is completely clear to a first-time viewer.\",\n    \"evidence\": [\n      \"K02\",\n      \"K05\",\n      \"K11\",\n      \"K16\",\n      \"K32\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The watch was planted\",\n      \"Clarissa and Gerald are behind the scheme\",\n      \"Clarissa demands Juliana crawl as a condition\"\n    ],\n    \"withheld\": [\n      \"Whether Juliana will submit to the demand\",\n      \"How the framing scheme will ultimately play out\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It sets up the malicious plot and the immediate price for escape while leaving the ultimate resolution entirely open.\",\n    \"evidence\": [\n      \"K16\",\n      \"K28\",\n      \"K32\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage and humiliation\",\n    \"score\": 4,\n    \"reason\": \"The blatant injustice of the framing and the cruel arrogance of the antagonists evoke strong viewer indignation and sympathy.\",\n    \"evidence\": [\n      \"K05\",\n      \"K16\",\n      \"K21\",\n      \"K32\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"betrayal_humiliation\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K11\",\n        \"K16\",\n        \"K23\",\n        \"K32\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\n        \"K05\",\n        \"K16\",\n        \"K32\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A wrongly accused veteran faces arrest unless his wife humiliates herself to appease her sadistic sister.\",\n      \"evidence\": [\n        \"K02\",\n        \"K23\",\n        \"K32\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"Watch a devoted wife fight back against her sadistic family to save her wrongfully accused husband.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "ecc293a851f609eb76da18d6df9b0bb841b4d9c4f6054f15c83b44a20f964c05",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3888,
+      "prompt_tokens": 3284,
+      "completion_tokens": 1138,
+      "total_tokens": 4422,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:54:28.275493+00:00"
+}

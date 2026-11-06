@@ -1,0 +1,308 @@
+{
+  "candidate_id": "EP032_C03",
+  "episode_id": "EP032",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "e1e3fc9cf5a131f0606e4ca2005fbc6501b1fa49ed34430b669984ec99bb4812",
+  "clip_start_ms": 52500,
+  "clip_end_ms": 92600,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP032_B041",
+    "EP032_B042",
+    "EP032_B043",
+    "EP032_B044"
+  ],
+  "eligible_beat_ids": [
+    "EP032_B065",
+    "EP032_B066",
+    "EP032_B067",
+    "EP032_B068",
+    "EP032_B069",
+    "EP032_B070"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "An immediate, intense confrontation with a glowing torture tool and a screaming accusation pulls the viewer in right away.",
+      "evidence": [
+        "EP032_B042",
+        "EP032_B041"
+      ],
+      "issues": [],
+      "block_id": "EP032_B042",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds through verbal sparring and escalating fury from Catherine while Juliana maintains absolute emotional control, though it remains a static dungeon conversation.",
+      "evidence": [
+        "EP032_B042",
+        "EP032_B055",
+        "EP032_B070"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP032_B042",
+        "EP032_B055",
+        "EP032_B070"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "Catherine cuts in sharply with a defensive line just as she tightens her grip on the torture tool, though it lacks a major plot-twist question.",
+      "evidence": [
+        "EP032_B070",
+        "EP032_B069"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP032_B070",
+      "mechanism": "interrupted_action",
+      "outcome": "unresolved",
+      "open_question": "What is Catherine about to do with the branding rod, and what is the true nature of her 'world'?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The core dynamic of an imprisoned, defiant woman defying her cruel torturer is clear, but the background relationships (Gerald, Clarissa, the husband) are completely unknown.",
+      "evidence": [
+        "EP032_B044",
+        "EP032_B051",
+        "EP032_B057"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Juliana is shackled and tortured in a dungeon by Catherine, yet she defiantly claims that losing her former partner Gerald was a blessing and that she has found a true husband who loves her. Despite Catherine's threats and insults about her new partner being a nobody, Juliana remains completely unfazed and proud.",
+      "confusions": [
+        {
+          "issue": "Who are Gerald, Clarissa, and the husband, and what led to Juliana being imprisoned in a dungeon?",
+          "block_ids": [
+            "EP032_B044",
+            "EP032_B046",
+            "EP032_B051",
+            "EP032_B057"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip establishes high-stakes physical abuse and extreme psychological defiance, leaving viewers wanting to know how Juliana escapes or how her 'nobody' husband retaliates.",
+      "evidence": [
+        "EP032_B041",
+        "EP032_B045",
+        "EP032_B057",
+        "EP032_B067",
+        "EP032_B069"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is chained in a dungeon",
+        "Catherine is torturing her or threatening her with a branding iron",
+        "Juliana prefers her new husband over her wealthy ex, Gerald"
+      ],
+      "withheld": [
+        "Why Juliana is imprisoned",
+        "Who the new husband is and what power he holds",
+        "What happens next with the branding iron"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana's calm, smiling liberation in the face of literal torture and Catherine's raging insecurity create a strong sense of emotional empowerment.",
+      "evidence": [
+        "EP032_B044",
+        "EP032_B052",
+        "EP032_B057",
+        "EP032_B066",
+        "EP032_B068"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "triumphant defiance against injustice",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP032_B045",
+        "EP032_B052",
+        "EP032_B057",
+        "EP032_B068"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP032_B042"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP032_B041",
+        "EP032_B045",
+        "EP032_B067"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Physical torture and humiliation versus unyielding emotional freedom and dignity.",
+      "evidence": [
+        "EP032_B041",
+        "EP032_B045",
+        "EP032_B057",
+        "EP032_B067"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "interrupted_action",
+      "evidence": [
+        "EP032_B070"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Identity of Gerald and Clarissa",
+      "Why Juliana was captured and put in chains"
+    ],
+    "curiosity_revealed": [
+      "Juliana is chained in a dungeon",
+      "Catherine is torturing her or threatening her with a branding iron",
+      "Juliana prefers her new husband over her wealthy ex, Gerald"
+    ],
+    "curiosity_withheld": [
+      "Why Juliana is imprisoned",
+      "Who the new husband is and what power he holds",
+      "What happens next with the branding iron"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A shackled woman calmly mocks her tormentor and proudly chooses love over wealth.",
+    "supporting_block_ids": [
+      "EP032_B045",
+      "EP032_B052",
+      "EP032_B057",
+      "EP032_B068",
+      "EP032_B042",
+      "EP032_B041",
+      "EP032_B067",
+      "EP032_B070"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Juliana is shackled and tortured in a dungeon by Catherine, yet she defiantly claims that losing her former partner Gerald was a blessing and that she has found a true husband who loves her. Despite Catherine's threats and insults about her new partner being a nobody, Juliana remains completely unfazed and proud.\",\n  \"confusions\": [\n    {\"issue\": \"Who are Gerald, Clarissa, and the husband, and what led to Juliana being imprisoned in a dungeon?\", \"block_ids\": [\"K04\", \"K06\", \"K11\", \"K17\"]}\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"An immediate, intense confrontation with a glowing torture tool and a screaming accusation pulls the viewer in right away.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K02\", \"K15\", \"K30\"],\n    \"reason\": \"Tension builds through verbal sparring and escalating fury from Catherine while Juliana maintains absolute emotional control, though it remains a static dungeon conversation.\",\n    \"evidence\": [\"K02\", \"K15\", \"K30\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K30\",\n    \"mechanism\": \"interrupted_action\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What is Catherine about to do with the branding rod, and what is the true nature of her 'world'?\",\n    \"score\": 3,\n    \"reason\": \"Catherine cuts in sharply with a defensive line just as she tightens her grip on the torture tool, though it lacks a major plot-twist question.\",\n    \"evidence\": [\"K29\", \"K30\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The core dynamic of an imprisoned, defiant woman defying her cruel torturer is clear, but the background relationships (Gerald, Clarissa, the husband) are completely unknown.\",\n    \"evidence\": [\"K04\", \"K11\", \"K17\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"Juliana is chained in a dungeon\", \"Catherine is torturing her or threatening her with a branding iron\", \"Juliana prefers her new husband over her wealthy ex, Gerald\"],\n    \"withheld\": [\"Why Juliana is imprisoned\", \"Who the new husband is and what power he holds\", \"What happens next with the branding iron\"],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip establishes high-stakes physical abuse and extreme psychological defiance, leaving viewers wanting to know how Juliana escapes or how her 'nobody' husband retaliates.\",\n    \"evidence\": [\"K01\", \"K05\", \"K17\", \"K27\", \"K29\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"triumphant defiance against injustice\",\n    \"score\": 4,\n    \"reason\": \"Juliana's calm, smiling liberation in the face of literal torture and Catherine's raging insecurity create a strong sense of emotional empowerment.\",\n    \"evidence\": [\"K04\", \"K12\", \"K17\", \"K26\", \"K28\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K05\", \"K12\", \"K17\", \"K28\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K01\", \"K05\", \"K27\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Physical torture and humiliation versus unyielding emotional freedom and dignity.\",\n      \"evidence\": [\"K01\", \"K05\", \"K17\", \"K27\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\"Identity of Gerald and Clarissa\", \"Why Juliana was captured and put in chains\"]\n    },\n    \"appeal\": \"A shackled woman calmly mocks her tormentor and proudly chooses love over wealth.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "0d160a2941269bbe90c1535afab623ce5b47246f90072e95ca39b8a1ee00a043",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3933,
+      "prompt_tokens": 3135,
+      "completion_tokens": 1077,
+      "total_tokens": 4212,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:02:31.422941+00:00"
+}

@@ -1,0 +1,311 @@
+{
+  "candidate_id": "EP043_C03",
+  "episode_id": "EP043",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "89fefe6cc33cfe857679faaff7f92dde8ac79f81375119d85b4b9b548657656c",
+  "clip_start_ms": 0,
+  "clip_end_ms": 50800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP043_B001",
+    "EP043_B002",
+    "EP043_B003"
+  ],
+  "eligible_beat_ids": [
+    "EP043_B037",
+    "EP043_B038",
+    "EP043_B039",
+    "EP043_B040",
+    "EP043_B041"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The hysterical shouting 'You're lying!' immediately plunges the viewer into high-conflict drama, though it needs a second to establish context.",
+      "evidence": [
+        "EP043_B002",
+        "EP043_B001",
+        "EP043_B003"
+      ],
+      "issues": [],
+      "block_id": "EP043_B002",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 5,
+      "valid": true,
+      "reason": "Tension steadily escalates from a screaming dispute to the guards defecting in loyalty, culminating in the public reading of a treasonous military report.",
+      "evidence": [
+        "EP043_B005",
+        "EP043_B012",
+        "EP043_B025",
+        "EP043_B041"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP043_B005",
+        "EP043_B012",
+        "EP043_B025",
+        "EP043_B041"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "Cutting right as the official accuses the leak of being deliberate creates a powerful hook for the next scene.",
+      "evidence": [
+        "EP043_B041",
+        "EP043_B039",
+        "EP043_B040"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP043_B041",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "Whose betrayal does the military report expose, and what are the consequences for Rupert?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core conflict—an impostor claim and a power struggle over a title backed by military documents—is clear, even if the precise backstory is unknown.",
+      "evidence": [
+        "EP043_B005",
+        "EP043_B016",
+        "EP043_B025",
+        "EP043_B041"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A frantic nobleman named Rupert is accused of being an imposter by Alexander, but the royal guards refuse Rupert's orders to arrest Alexander, instead saluting Alexander as their Duke. As Alexander produces top-secret documents from the Crown, an official begins reading an intelligence report about a deliberate ambush on the Iberian front three years ago.",
+      "confusions": [
+        {
+          "issue": "The exact relationship and history between Rupert and Alexander are not explained, leaving their rivalry and the identity swap ambiguous.",
+          "block_ids": [
+            "EP043_B002",
+            "EP043_B005",
+            "EP043_B016"
+          ]
+        },
+        {
+          "issue": "Lord Sterling's exact connection to the conspiracy or betrayal is hinted at but not fully explained.",
+          "block_ids": [
+            "EP043_B020",
+            "EP043_B021",
+            "EP043_B031"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip sets up the confrontation and starts exposing the evidence of betrayal right as it cuts away.",
+      "evidence": [
+        "EP043_B029",
+        "EP043_B039",
+        "EP043_B041"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander has returned with secret Crown documents.",
+        "The guards recognize Alexander as the true Duke instead of Rupert."
+      ],
+      "withheld": [
+        "The contents of the rest of the military intelligence report.",
+        "How Rupert managed to steal the position and what punishment awaits him."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The panic of the false noble contrasted with the ice-cold authority of the returning Duke creates strong dramatic satisfaction.",
+      "evidence": [
+        "EP043_B002",
+        "EP043_B008",
+        "EP043_B025",
+        "EP043_B037"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage and suspense",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP043_B005",
+        "EP043_B019",
+        "EP043_B025",
+        "EP043_B041"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "deception_secret_identity",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP043_B002",
+        "EP043_B005"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP043_B002",
+        "EP043_B014",
+        "EP043_B041"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A disgraced or impostor noble faces exposure and ruin as the true Duke returns with military evidence of treason.",
+      "evidence": [
+        "EP043_B005",
+        "EP043_B016",
+        "EP043_B029",
+        "EP043_B041"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP043_B041"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Exact nature of how Rupert usurped Alexander's identity"
+    ],
+    "curiosity_revealed": [
+      "Alexander has returned with secret Crown documents.",
+      "The guards recognize Alexander as the true Duke instead of Rupert."
+    ],
+    "curiosity_withheld": [
+      "The contents of the rest of the military intelligence report.",
+      "How Rupert managed to steal the position and what punishment awaits him."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch the ultimate payback as a fake noble gets exposed by military intelligence and the rightful Duke reclaims his title!",
+    "supporting_block_ids": [
+      "EP043_B005",
+      "EP043_B019",
+      "EP043_B025",
+      "EP043_B041",
+      "EP043_B002",
+      "EP043_B014",
+      "EP043_B016",
+      "EP043_B029"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A frantic nobleman named Rupert is accused of being an imposter by Alexander, but the royal guards refuse Rupert's orders to arrest Alexander, instead saluting Alexander as their Duke. As Alexander produces top-secret documents from the Crown, an official begins reading an intelligence report about a deliberate ambush on the Iberian front three years ago.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact relationship and history between Rupert and Alexander are not explained, leaving their rivalry and the identity swap ambiguous.\",\n      \"block_ids\": [\n        \"K02\",\n        \"K05\",\n        \"K16\"\n      ]\n    },\n    {\n      \"issue\": \"Lord Sterling's exact connection to the conspiracy or betrayal is hinted at but not fully explained.\",\n      \"block_ids\": [\n        \"K20\",\n        \"K21\",\n        \"K31\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"The hysterical shouting 'You're lying!' immediately plunges the viewer into high-conflict drama, though it needs a second to establish context.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\",\n      \"K03\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 5,\n    \"escalation_beats\": [\n      \"K05\",\n      \"K12\",\n      \"K25\",\n      \"K41\"\n    ],\n    \"reason\": \"Tension steadily escalates from a screaming dispute to the guards defecting in loyalty, culminating in the public reading of a treasonous military report.\",\n    \"evidence\": [\n      \"K05\",\n      \"K12\",\n      \"K25\",\n      \"K41\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K41\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Whose betrayal does the military report expose, and what are the consequences for Rupert?\",\n    \"score\": 5,\n    \"reason\": \"Cutting right as the official accuses the leak of being deliberate creates a powerful hook for the next scene.\",\n    \"evidence\": [\n      \"K39\",\n      \"K40\",\n      \"K41\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core conflict—an impostor claim and a power struggle over a title backed by military documents—is clear, even if the precise backstory is unknown.\",\n    \"evidence\": [\n      \"K05\",\n      \"K16\",\n      \"K25\",\n      \"K41\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Alexander has returned with secret Crown documents.\",\n      \"The guards recognize Alexander as the true Duke instead of Rupert.\"\n    ],\n    \"withheld\": [\n      \"The contents of the rest of the military intelligence report.\",\n      \"How Rupert managed to steal the position and what punishment awaits him.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"The clip sets up the confrontation and starts exposing the evidence of betrayal right as it cuts away.\",\n    \"evidence\": [\n      \"K28\",\n      \"K39\",\n      \"K41\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage and suspense\",\n    \"score\": 4,\n    \"reason\": \"The panic of the false noble contrasted with the ice-cold authority of the returning Duke creates strong dramatic satisfaction.\",\n    \"evidence\": [\n      \"K02\",\n      \"K09\",\n      \"K25\",\n      \"K37\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"deception_secret_identity\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K05\",\n        \"K17\",\n        \"K25\",\n        \"K41\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\",\n        \"K05\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\n        \"K02\",\n        \"K14\",\n        \"K41\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A disgraced or impostor noble faces exposure and ruin as the true Duke returns with military evidence of treason.\",\n      \"evidence\": [\n        \"K05\",\n        \"K16\",\n        \"K28\",\n        \"K41\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Exact nature of how Rupert usurped Alexander's identity\"\n      ]\n    },\n    \"appeal\": \"Watch the ultimate payback as a fake noble gets exposed by military intelligence and the rightful Duke reclaims his title!\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "4d1aea1d31223923519f6c39eaf1a6c09c65f4fd4db8f3d3aeaac4a0140bd590",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4356,
+      "prompt_tokens": 3641,
+      "completion_tokens": 1279,
+      "total_tokens": 4920,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:07:38.731565+00:00"
+}

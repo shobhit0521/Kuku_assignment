@@ -1,0 +1,308 @@
+{
+  "candidate_id": "EP002_C01",
+  "episode_id": "EP002",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "04d0646d892c877849dcc98be2370c402d22973d5506d98aea974e38e75c06b9",
+  "clip_start_ms": 69300,
+  "clip_end_ms": 98200,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP002_B051",
+    "EP002_B052"
+  ],
+  "eligible_beat_ids": [
+    "EP002_B063",
+    "EP002_B064",
+    "EP002_B065",
+    "EP002_B066",
+    "EP002_B067",
+    "EP002_B068"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The former groom immediately orders the bride to leave the chapel with dignity, setting up an intense public humiliation and a powerful confrontation.",
+      "evidence": [
+        "EP002_B052",
+        "EP002_B051"
+      ],
+      "issues": [],
+      "block_id": "EP002_B052",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds as Juliana shifts from heartbreak to a defiant, publicly humiliating takedown of the groom, culminating in his frozen silence.",
+      "evidence": [
+        "EP002_B052",
+        "EP002_B055",
+        "EP002_B057",
+        "EP002_B059",
+        "EP002_B064",
+        "EP002_B067",
+        "EP002_B068"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP002_B052",
+        "EP002_B055",
+        "EP002_B057",
+        "EP002_B059",
+        "EP002_B064",
+        "EP002_B067",
+        "EP002_B068"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip cuts on Gerald standing frozen and speechless under her public rebuke, leaving a strong sense of a power shift and anticipation of fallout.",
+      "evidence": [
+        "EP002_B068",
+        "EP002_B067"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP002_B068",
+      "mechanism": "reaction_hold",
+      "outcome": "unresolved",
+      "open_question": "How will Gerald and the wedding guests react to Juliana's devastating public exposure of his character?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip clearly establishes the conflict: a groom has abandoned his bride at the altar for wealth/another woman, and the bride turns the tables by publicly shaming him.",
+      "evidence": [
+        "EP002_B052",
+        "EP002_B057",
+        "EP002_B059",
+        "EP002_B067",
+        "EP002_B068"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A jilted bride named Juliana confronts her former groom Gerald in a cathedral after he abandons her for another woman. Instead of leaving quietly in shame, she delivers a sharp public rebuke that leaves him stunned and speechless.",
+      "confusions": [
+        {
+          "issue": "Clarissa is mentioned as blurred in the background and promising wealth, but her exact identity or relationship to Gerald is not fully explained beyond being the other woman.",
+          "block_ids": [
+            "EP002_B058",
+            "EP002_B059"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "It delivers a satisfying emotional counter-attack while leaving open the broader social and personal fallout of her public denunciation.",
+      "evidence": [
+        "EP002_B064",
+        "EP002_B067",
+        "EP002_B068"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Gerald abandoned Juliana for another woman.",
+        "Juliana refuses to be humiliated and publicly exposes his lack of honor."
+      ],
+      "withheld": [
+        "How the guests and the other woman will respond to her speech.",
+        "What consequences Gerald will face for his betrayal."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana's transformation from a crying jilted bride to a regal, commanding figure who publicly strips away the groom's dignity creates a strong sense of triumphant vindication.",
+      "evidence": [
+        "EP002_B053",
+        "EP002_B054",
+        "EP002_B056",
+        "EP002_B064",
+        "EP002_B067",
+        "EP002_B068"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "triumph",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP002_B052",
+        "EP002_B057",
+        "EP002_B064",
+        "EP002_B067",
+        "EP002_B068"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP002_B052"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "triumph",
+      "evidence": [
+        "EP002_B054",
+        "EP002_B056",
+        "EP002_B064",
+        "EP002_B067"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A jilted bride reclaims her dignity and publicly destroys her faithless groom's reputation in front of all the wedding guests.",
+      "evidence": [
+        "EP002_B052",
+        "EP002_B057",
+        "EP002_B064",
+        "EP002_B067",
+        "EP002_B068"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP002_B068"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "Gerald abandoned Juliana for another woman.",
+      "Juliana refuses to be humiliated and publicly exposes his lack of honor."
+    ],
+    "curiosity_withheld": [
+      "How the guests and the other woman will respond to her speech.",
+      "What consequences Gerald will face for his betrayal."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a jilted bride completely turn the tables on her faithless groom with a devastating public takedown.",
+    "supporting_block_ids": [
+      "EP002_B052",
+      "EP002_B057",
+      "EP002_B064",
+      "EP002_B067",
+      "EP002_B068",
+      "EP002_B054",
+      "EP002_B056"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A jilted bride named Juliana confronts her former groom Gerald in a cathedral after he abandons her for another woman. Instead of leaving quietly in shame, she delivers a sharp public rebuke that leaves him stunned and speechless.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Clarissa is mentioned as blurred in the background and promising wealth, but her exact identity or relationship to Gerald is not fully explained beyond being the other woman.\",\n      \"block_ids\": [\n        \"K08\",\n        \"K09\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"The former groom immediately orders the bride to leave the chapel with dignity, setting up an intense public humiliation and a powerful confrontation.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K02\",\n      \"K05\",\n      \"K07\",\n      \"K09\",\n      \"K14\",\n      \"K17\",\n      \"K18\"\n    ],\n    \"reason\": \"Tension builds as Juliana shifts from heartbreak to a defiant, publicly humiliating takedown of the groom, culminating in his frozen silence.\",\n    \"evidence\": [\n      \"K02\",\n      \"K05\",\n      \"K07\",\n      \"K09\",\n      \"K14\",\n      \"K17\",\n      \"K18\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K18\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Gerald and the wedding guests react to Juliana's devastating public exposure of his character?\",\n    \"score\": 4,\n    \"reason\": \"The clip cuts on Gerald standing frozen and speechless under her public rebuke, leaving a strong sense of a power shift and anticipation of fallout.\",\n    \"evidence\": [\n      \"K17\",\n      \"K18\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 5,\n    \"reason\": \"The clip clearly establishes the conflict: a groom has abandoned his bride at the altar for wealth/another woman, and the bride turns the tables by publicly shaming him.\",\n    \"evidence\": [\n      \"K02\",\n      \"K07\",\n      \"K09\",\n      \"K17\",\n      \"K18\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Gerald abandoned Juliana for another woman.\",\n      \"Juliana refuses to be humiliated and publicly exposes his lack of honor.\"\n    ],\n    \"withheld\": [\n      \"How the guests and the other woman will respond to her speech.\",\n      \"What consequences Gerald will face for his betrayal.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"It delivers a satisfying emotional counter-attack while leaving open the broader social and personal fallout of her public denunciation.\",\n    \"evidence\": [\n      \"K14\",\n      \"K17\",\n      \"K18\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"triumph\",\n    \"score\": 4,\n    \"reason\": \"Juliana's transformation from a crying jilted bride to a regal, commanding figure who publicly strips away the groom's dignity creates a strong sense of triumphant vindication.\",\n    \"evidence\": [\n      \"K03\",\n      \"K04\",\n      \"K06\",\n      \"K14\",\n      \"K17\",\n      \"K18\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K02\",\n        \"K07\",\n        \"K14\",\n        \"K17\",\n        \"K18\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"triumph\",\n      \"evidence\": [\n        \"K04\",\n        \"K06\",\n        \"K14\",\n        \"K17\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A jilted bride reclaims her dignity and publicly destroys her faithless groom's reputation in front of all the wedding guests.\",\n      \"evidence\": [\n        \"K02\",\n        \"K07\",\n        \"K14\",\n        \"K17\",\n        \"K18\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"Watch a jilted bride completely turn the tables on her faithless groom with a devastating public takedown.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "95a2defb268b51bd255d10b1ad8d68866102ef93870db64d6e7ba78eb8f66d6d",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 5846,
+      "prompt_tokens": 2641,
+      "completion_tokens": 1260,
+      "total_tokens": 3901,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T09:59:05.212858+00:00"
+}

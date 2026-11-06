@@ -1,0 +1,297 @@
+{
+  "candidate_id": "EP014_C01",
+  "episode_id": "EP014",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "3a85721f12be14d8bddaf4e08831f8bef2e19749e115b2f6cb07b746f6048ff4",
+  "clip_start_ms": 5600,
+  "clip_end_ms": 38500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP014_B004",
+    "EP014_B005"
+  ],
+  "eligible_beat_ids": [
+    "EP014_B020",
+    "EP014_B021",
+    "EP014_B022",
+    "EP014_B023",
+    "EP014_B024"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana emerges from a briar patch looking battered and states she found the object, but it lacks high-stakes context for a stranger.",
+      "evidence": [
+        "EP014_B005",
+        "EP014_B004"
+      ],
+      "issues": [],
+      "block_id": "EP014_B005",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension rises through her physical exhaustion to free her husband, but resolves immediately upon his release, shifting entirely into emotional melodrama.",
+      "evidence": [
+        "EP014_B004",
+        "EP014_B007",
+        "EP014_B011",
+        "EP014_B013"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP014_B004",
+        "EP014_B007",
+        "EP014_B011",
+        "EP014_B013"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 1,
+      "valid": true,
+      "reason": "The clip ends on a tender, emotional note rather than an unresolved question or pending conflict.",
+      "evidence": [
+        "EP014_B024",
+        "EP014_B022",
+        "EP014_B023"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP014_B024",
+      "mechanism": "none",
+      "outcome": "resolved",
+      "open_question": "",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core relationship (husband and wife) and immediate stakes (she sacrifices her hands to free him) are clear, even if the backstory of his arrest is absent.",
+      "evidence": [
+        "EP014_B007",
+        "EP014_B013",
+        "EP014_B017"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A bloodied and exhausted woman named Juliana emerges from a briar patch holding a ring to secure her husband Alexander's release from police shackles. Once he is freed, Alexander rushes to her, inspects her wounded hands with anguish, and carries her away as she asks to go home.",
+      "confusions": [
+        {
+          "issue": "It is not explained why Alexander was arrested or what the ring represents.",
+          "block_ids": [
+            "EP014_B006",
+            "EP014_B007"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 2,
+      "valid": true,
+      "reason": "The central rescue mission is completed within the clip itself, resolving the immediate conflict.",
+      "evidence": [
+        "EP014_B007",
+        "EP014_B011",
+        "EP014_B023"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is fiercely loyal and willing to endure physical harm to save Alexander."
+      ],
+      "withheld": [
+        "Why Alexander was arrested and what forces put him in shackles."
+      ],
+      "balance": "too_much",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's battered hands and Alexander's anguish create a mild sense of romantic devotion and sympathy.",
+      "evidence": [
+        "EP014_B015",
+        "EP014_B017",
+        "EP014_B024"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Devotion and sympathy",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "romance_devotion",
+      "evidence": [
+        "EP014_B015",
+        "EP014_B017",
+        "EP014_B024"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": null,
+    "archetype_confidence": "medium",
+    "hook_mechanism": {
+      "value": "visual_event",
+      "evidence": [
+        "EP014_B004"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "longing_romance",
+      "evidence": [
+        "EP014_B017",
+        "EP014_B024"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Juliana must endure severe physical injury to free her husband from police custody.",
+      "evidence": [
+        "EP014_B004",
+        "EP014_B007",
+        "EP014_B015"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unclassified",
+      "evidence": [],
+      "note": "no valid suspense beat"
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "The reason for Alexander's arrest."
+    ],
+    "curiosity_revealed": [
+      "Juliana is fiercely loyal and willing to endure physical harm to save Alexander."
+    ],
+    "curiosity_withheld": [
+      "Why Alexander was arrested and what forces put him in shackles."
+    ],
+    "curiosity_balance": "too_much",
+    "appeal": "A fiercely devoted wife goes to painful lengths to rescue her husband from imprisonment.",
+    "supporting_block_ids": [
+      "EP014_B015",
+      "EP014_B017",
+      "EP014_B024",
+      "EP014_B004",
+      "EP014_B007"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "RESOLVED_ENDING",
+      "severity": "major",
+      "explanation": "The primary conflict of freeing the husband is fully resolved by the end of the clip.",
+      "block_ids": [
+        "EP014_B011",
+        "EP014_B023",
+        "EP014_B024"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A bloodied and exhausted woman named Juliana emerges from a briar patch holding a ring to secure her husband Alexander's release from police shackles. Once he is freed, Alexander rushes to her, inspects her wounded hands with anguish, and carries her away as she asks to go home.\",\n  \"confusions\": [\n    {\n      \"issue\": \"It is not explained why Alexander was arrested or what the ring represents.\",\n      \"block_ids\": [\"K03\", \"K04\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Juliana emerges from a briar patch looking battered and states she found the object, but it lacks high-stakes context for a stranger.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K01\", \"K04\", \"K08\", \"K10\"],\n    \"reason\": \"Tension rises through her physical exhaustion to free her husband, but resolves immediately upon his release, shifting entirely into emotional melodrama.\",\n    \"evidence\": [\"K01\", \"K04\", \"K08\", \"K10\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K21\",\n    \"mechanism\": \"none\",\n    \"outcome\": \"resolved\",\n    \"open_question\": \"\",\n    \"score\": 1,\n    \"reason\": \"The clip ends on a tender, emotional note rather than an unresolved question or pending conflict.\",\n    \"evidence\": [\"K19\", \"K20\", \"K21\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core relationship (husband and wife) and immediate stakes (she sacrifices her hands to free him) are clear, even if the backstory of his arrest is absent.\",\n    \"evidence\": [\"K04\", \"K10\", \"K14\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"Juliana is fiercely loyal and willing to endure physical harm to save Alexander.\"],\n    \"withheld\": [\"Why Alexander was arrested and what forces put him in shackles.\"],\n    \"balance\": \"too_much\",\n    \"score\": 2,\n    \"reason\": \"The central rescue mission is completed within the clip itself, resolving the immediate conflict.\",\n    \"evidence\": [\"K04\", \"K08\", \"K20\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Devotion and sympathy\",\n    \"score\": 3,\n    \"reason\": \"Juliana's battered hands and Alexander's anguish create a mild sense of romantic devotion and sympathy.\",\n    \"evidence\": [\"K12\", \"K14\", \"K21\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"romance_devotion\",\n      \"other_label\": null,\n      \"secondary\": \"other\",\n      \"confidence\": \"medium\",\n      \"evidence\": [\"K12\", \"K14\", \"K21\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"visual_event\",\n      \"evidence\": [\"K01\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"longing_romance\",\n      \"evidence\": [\"K14\", \"K21\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Juliana must endure severe physical injury to free her husband from police custody.\",\n      \"evidence\": [\"K01\", \"K04\", \"K12\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\"The reason for Alexander's arrest.\"]\n    },\n    \"appeal\": \"A fiercely devoted wife goes to painful lengths to rescue her husband from imprisonment.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"RESOLVED_ENDING\",\n      \"severity\": \"major\",\n      \"explanation\": \"The primary conflict of freeing the husband is fully resolved by the end of the clip.\",\n      \"block_ids\": [\"K08\", \"K20\", \"K21\"]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "a249f7cbdf4e74be59ee9e3e0d0d03195534f8fb8c3a1be96da11152c3c35d63",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3693,
+      "prompt_tokens": 2747,
+      "completion_tokens": 1008,
+      "total_tokens": 3755,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:54:59.550746+00:00"
+}

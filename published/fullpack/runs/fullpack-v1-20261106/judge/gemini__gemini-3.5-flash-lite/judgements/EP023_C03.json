@@ -1,0 +1,304 @@
+{
+  "candidate_id": "EP023_C03",
+  "episode_id": "EP023",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "3b91e2cec9f91dd23f353ce64315bc55a600667d7b51687793495a3d1de7ef6a",
+  "clip_start_ms": 1800,
+  "clip_end_ms": 46500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP023_B003",
+    "EP023_B002"
+  ],
+  "eligible_beat_ids": [
+    "EP023_B019",
+    "EP023_B020",
+    "EP023_B021",
+    "EP023_B022"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Prudence's urgent warning creates mild intrigue about why they must sneak around, though it lacks an immediate visual shock.",
+      "evidence": [
+        "EP023_B003",
+        "EP023_B002"
+      ],
+      "issues": [],
+      "block_id": "EP023_B003",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds steadily from discovering mysterious symptoms to realizing the physician's diagnosis is wrong, culminating in Juliana's sharp rejection.",
+      "evidence": [
+        "EP023_B006",
+        "EP023_B016",
+        "EP023_B020",
+        "EP023_B022"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP023_B006",
+        "EP023_B016",
+        "EP023_B020"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "Lady Juliana's firm realization shifts the narrative from a sad bedside vigil to a medical mystery or conspiracy, creating a clear hook for what she discovered in her notebook.",
+      "evidence": [
+        "EP023_B022",
+        "EP023_B020",
+        "EP023_B021"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP023_B022",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "If it is not old age, what is actually causing the Duchess's condition, and who is responsible?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core situation—a secret bedside check on a poisoned or sick noblewoman and a suspicious medical diagnosis—is easy to grasp without prior episodes.",
+      "evidence": [
+        "EP023_B006",
+        "EP023_B016",
+        "EP023_B022"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Two women visit a frail, dying Dowager Duchess at night and discover suspicious physical symptoms including dark discoloration under her nails. Lady Juliana rejects the physician's diagnosis of heart failure, concluding that the Duchess is being poisoned or afflicted by something unnatural.",
+      "confusions": [
+        {
+          "issue": "The exact relationship between Lady Juliana, Prudence, and the Dowager Duchess is left unstated.",
+          "block_ids": [
+            "EP023_B003",
+            "EP023_B004",
+            "EP023_B009"
+          ]
+        },
+        {
+          "issue": "It is unclear why their visit must be secretive ('someone will come').",
+          "block_ids": [
+            "EP023_B003"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip effectively establishes the suspicious symptoms and rejects the false cause, withholding the true culprit and Juliana's next move.",
+      "evidence": [
+        "EP023_B006",
+        "EP023_B016",
+        "EP023_B022"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The Duchess has dark discoloration under her nails and laboured breathing",
+        "The physician claims her heart is failing",
+        "Lady Juliana knows this is false"
+      ],
+      "withheld": [
+        "What is written in Juliana's notebook",
+        "Who is poisoning or harming the Duchess",
+        "What Juliana plans to do next"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "Prudence's distress and Juliana's growing skepticism create a steady sense of atmospheric tension and suspicion.",
+      "evidence": [
+        "EP023_B009",
+        "EP023_B016",
+        "EP023_B020"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "mystery_revelation",
+      "evidence": [
+        "EP023_B006",
+        "EP023_B016",
+        "EP023_B022"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "deception_secret_identity",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "in_medias_res",
+      "evidence": [
+        "EP023_B003",
+        "EP023_B002"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP023_B006",
+        "EP023_B020",
+        "EP023_B022"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A dying Duchess is supposedly suffering from heart failure, but a secret midnight inspection reveals signs of foul play.",
+      "evidence": [
+        "EP023_B006",
+        "EP023_B016",
+        "EP023_B022"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP023_B022"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Exact relationships between characters",
+      "Identity of the physician"
+    ],
+    "curiosity_revealed": [
+      "The Duchess has dark discoloration under her nails and laboured breathing",
+      "The physician claims her heart is failing",
+      "Lady Juliana knows this is false"
+    ],
+    "curiosity_withheld": [
+      "What is written in Juliana's notebook",
+      "Who is poisoning or harming the Duchess",
+      "What Juliana plans to do next"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A secret midnight visit exposes a medical cover-up and foul play behind a Duchess's failing health.",
+    "supporting_block_ids": [
+      "EP023_B006",
+      "EP023_B016",
+      "EP023_B022",
+      "EP023_B003",
+      "EP023_B002",
+      "EP023_B020"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Two women visit a frail, dying Dowager Duchess at night and discover suspicious physical symptoms including dark discoloration under her nails. Lady Juliana rejects the physician's diagnosis of heart failure, concluding that the Duchess is being poisoned or afflicted by something unnatural.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact relationship between Lady Juliana, Prudence, and the Dowager Duchess is left unstated.\",\n      \"block_ids\": [\"K01\", \"K03\", \"K07\"]\n    },\n    {\n      \"issue\": \"It is unclear why their visit must be secretive ('someone will come').\",\n      \"block_ids\": [\"K01\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K01\",\n    \"score\": 3,\n    \"reason\": \"Prudence's urgent warning creates mild intrigue about why they must sneak around, though it lacks an immediate visual shock.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\n      \"K05\",\n      \"K15\",\n      \"K19\"\n    ],\n    \"reason\": \"Tension builds steadily from discovering mysterious symptoms to realizing the physician's diagnosis is wrong, culminating in Juliana's sharp rejection.\",\n    \"evidence\": [\n      \"K05\",\n      \"K15\",\n      \"K19\",\n      \"K21\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K21\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"If it is not old age, what is actually causing the Duchess's condition, and who is responsible?\",\n    \"score\": 4,\n    \"reason\": \"Lady Juliana's firm realization shifts the narrative from a sad bedside vigil to a medical mystery or conspiracy, creating a clear hook for what she discovered in her notebook.\",\n    \"evidence\": [\n      \"K19\",\n      \"K20\",\n      \"K21\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core situation—a secret bedside check on a poisoned or sick noblewoman and a suspicious medical diagnosis—is easy to grasp without prior episodes.\",\n    \"evidence\": [\n      \"K05\",\n      \"K15\",\n      \"K21\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The Duchess has dark discoloration under her nails and laboured breathing\",\n      \"The physician claims her heart is failing\",\n      \"Lady Juliana knows this is false\"\n    ],\n    \"withheld\": [\n      \"What is written in Juliana's notebook\",\n      \"Who is poisoning or harming the Duchess\",\n      \"What Juliana plans to do next\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip effectively establishes the suspicious symptoms and rejects the false cause, withholding the true culprit and Juliana's next move.\",\n    \"evidence\": [\n      \"K05\",\n      \"K15\",\n      \"K21\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion\",\n    \"score\": 3,\n    \"reason\": \"Prudence's distress and Juliana's growing skepticism create a steady sense of atmospheric tension and suspicion.\",\n    \"evidence\": [\n      \"K07\",\n      \"K15\",\n      \"K19\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"mystery_revelation\",\n      \"other_label\": null,\n      \"secondary\": \"deception_secret_identity\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K05\",\n        \"K15\",\n        \"K21\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"in_medias_res\",\n      \"evidence\": [\n        \"K01\",\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\n        \"K05\",\n        \"K19\",\n        \"K21\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A dying Duchess is supposedly suffering from heart failure, but a secret midnight inspection reveals signs of foul play.\",\n      \"evidence\": [\n        \"K05\",\n        \"K15\",\n        \"K21\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Exact relationships between characters\",\n        \"Identity of the physician\"\n      ]\n    },\n    \"appeal\": \"A secret midnight visit exposes a medical cover-up and foul play behind a Duchess's failing health.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "edc79275daaae62e8f99afad323588ebf2ed5ffd6682d5a0798ed330ed7ed323",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4234,
+      "prompt_tokens": 2755,
+      "completion_tokens": 1203,
+      "total_tokens": 3958,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:58:08.583601+00:00"
+}

@@ -1,0 +1,293 @@
+{
+  "candidate_id": "EP023_C01",
+  "episode_id": "EP023",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "007f59f0606e56c81a31bb41db8d60c31a3001bc64e51afb968f7d2e86be54a4",
+  "clip_start_ms": 76000,
+  "clip_end_ms": 131500,
+  "masked_terms": 1,
+  "eligible_hook_ids": [
+    "EP023_B038",
+    "EP023_B039",
+    "EP023_B040"
+  ],
+  "eligible_beat_ids": [
+    "EP023_B062",
+    "EP023_B063",
+    "EP023_B064",
+    "EP023_B065",
+    "EP023_B066",
+    "EP023_B067"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Lady Juliana immediately drops a shocking accusation that someone is poisoning someone, which creates instant intrigue.",
+      "evidence": [
+        "EP023_B040"
+      ],
+      "issues": [],
+      "block_id": "EP023_B040",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension rises steadily from the initial poisoning discovery, through the urgent medical preparation, to the imminent threat of an intruder at the door.",
+      "evidence": [
+        "EP023_B040",
+        "EP023_B046",
+        "EP023_B058",
+        "EP023_B067"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP023_B040",
+        "EP023_B046",
+        "EP023_B058",
+        "EP023_B067"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The door is actively opening on a high-stakes medical intervention, leaving an immediate and compelling question open at the cut.",
+      "evidence": [
+        "EP023_B067",
+        "EP023_B066"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP023_B067",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Who is turning the door handle, and will they catch Juliana and save or kill the poisoned Duchess?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The viewer understands the core conflict (someone is being poisoned, an antidote is being made, an intruder is coming), but lacks backstory on who the characters are and who the culprit might be.",
+      "evidence": [
+        "EP023_B040",
+        "EP023_B050",
+        "EP023_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Lady Juliana discovers that the Duchess is being poisoned with arsenic and races to prepare an antidote while Prudence looks on in terror. Just as Juliana is finishing, someone approaches the door and begins entering the room.",
+      "confusions": [
+        {
+          "issue": "The relationship between Juliana, Prudence, and the Duchess is not explained.",
+          "block_ids": [
+            "EP023_B040",
+            "EP023_B043",
+            "EP023_B046"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip sets up a clear life-or-death race against time without revealing who is coming through the door or the outcome.",
+      "evidence": [
+        "EP023_B045",
+        "EP023_B057",
+        "EP023_B067"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The Duchess is being poisoned with arsenic.",
+        "Juliana is attempting to use charcoal to save her.",
+        "Someone is about to enter the room unexpectedly."
+      ],
+      "withheld": [
+        "Who the poisoner is.",
+        "Whether Juliana can administer the cure in time."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The combination of medical emergency and impending intruder creates strong tension and anxiety for the characters.",
+      "evidence": [
+        "EP023_B041",
+        "EP023_B049",
+        "EP023_B062",
+        "EP023_B067"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspense",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "danger_threat",
+      "evidence": [
+        "EP023_B040",
+        "EP023_B045",
+        "EP023_B058",
+        "EP023_B067"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "mystery_revelation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP023_B040"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "unclassified",
+      "evidence": [],
+      "note": "emotional trigger 'suspension' is not in the taxonomy"
+    },
+    "stakes": {
+      "value": "The Duchess's life hangs in the balance as an unknown person attempts to catch Lady Juliana treating the poisoning.",
+      "evidence": [
+        "EP023_B040",
+        "EP023_B046",
+        "EP023_B067"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP023_B067"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Specific character relationships and identities"
+    ],
+    "curiosity_revealed": [
+      "The Duchess is being poisoned with arsenic.",
+      "Juliana is attempting to use charcoal to save her.",
+      "Someone is about to enter the room unexpectedly."
+    ],
+    "curiosity_withheld": [
+      "Who the poisoner is.",
+      "Whether Juliana can administer the cure in time."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A race against time to save a poisoned Duchess before an unknown intruder catches them.",
+    "supporting_block_ids": [
+      "EP023_B040",
+      "EP023_B045",
+      "EP023_B058",
+      "EP023_B067",
+      "EP023_B046"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Lady Juliana discovers that the Duchess is being poisoned with arsenic and races to prepare an antidote while Prudence looks on in terror. Just as Juliana is finishing, someone approaches the door and begins entering the room.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The relationship between Juliana, Prudence, and the Duchess is not explained.\",\n      \"block_ids\": [\"K03\", \"K06\", \"K09\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 4,\n    \"reason\": \"Lady Juliana immediately drops a shocking accusation that someone is poisoning someone, which creates instant intrigue.\",\n    \"evidence\": [\"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K03\", \"K09\", \"K21\", \"K30\"],\n    \"reason\": \"Tension rises steadily from the initial poisoning discovery, through the urgent medical preparation, to the imminent threat of an intruder at the door.\",\n    \"evidence\": [\"K03\", \"K09\", \"K21\", \"K30\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K30\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Who is turning the door handle, and will they catch Juliana and save or kill the poisoned Duchess?\",\n    \"score\": 5,\n    \"reason\": \"The door is actively opening on a high-stakes medical intervention, leaving an immediate and compelling question open at the cut.\",\n    \"evidence\": [\"K29\", \"K30\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The viewer understands the core conflict (someone is being poisoned, an antidote is being made, an intruder is coming), but lacks backstory on who the characters are and who the culprit might be.\",\n    \"evidence\": [\"K03\", \"K12\", \"K26\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The Duchess is being poisoned with arsenic.\",\n      \"Juliana is attempting to use charcoal to save her.\",\n      \"Someone is about to enter the room unexpectedly.\"\n    ],\n    \"withheld\": [\n      \"Who the poisoner is.\",\n      \"Whether Juliana can administer the cure in time.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"The clip sets up a clear life-or-death race against time without revealing who is coming through the door or the outcome.\",\n    \"evidence\": [\"K08\", \"K20\", \"K30\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspense\",\n    \"score\": 4,\n    \"reason\": \"The combination of medical emergency and impending intruder creates strong tension and anxiety for the characters.\",\n    \"evidence\": [\"K05\", \"K13\", \"K25\", \"K30\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"danger_threat\",\n      \"other_label\": null,\n      \"secondary\": \"mystery_revelation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K03\", \"K08\", \"K21\", \"K30\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K03\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspension\",\n      \"evidence\": [\"K25\", \"K30\"]\n    },\n    \"stakes\": {\n      \"summary\": \"The Duchess's life hangs in the balance as an unknown person attempts to catch Lady Juliana treating the poisoning.\",\n      \"evidence\": [\"K03\", \"K09\", \"K30\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\"Specific character relationships and identities\"]\n    },\n    \"appeal\": \"A race against time to save a poisoned Duchess before an unknown intruder catches them.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "ef19b4acfc53f2a682d724a7debbd05498cf5605c656405ec07a38731a03aa35",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3671,
+      "prompt_tokens": 3214,
+      "completion_tokens": 996,
+      "total_tokens": 4210,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:57:52.733302+00:00"
+}

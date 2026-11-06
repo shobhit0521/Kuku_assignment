@@ -1,0 +1,302 @@
+{
+  "candidate_id": "EP043_C01",
+  "episode_id": "EP043",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "72805fb945a89f272368776558f0986a12dfa9105829b5b031546af4bbd8e3ad",
+  "clip_start_ms": 26000,
+  "clip_end_ms": 77600,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP043_B024",
+    "EP043_B025",
+    "EP043_B026",
+    "EP043_B027"
+  ],
+  "eligible_beat_ids": [
+    "EP043_B056",
+    "EP043_B057",
+    "EP043_B058",
+    "EP043_B059",
+    "EP043_B060",
+    "EP043_B061",
+    "EP043_B062",
+    "EP043_B063",
+    "EP043_B064"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Alexander's cold, authoritative command 'Then let the Crown decide.' immediately sets up a high-stakes power confrontation.",
+      "evidence": [
+        "EP043_B025"
+      ],
+      "issues": [],
+      "block_id": "EP043_B025",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 5,
+      "valid": true,
+      "reason": "Tension mounts steadily from the presentation of the dossier to the reading of the military report, the naming of the conspirators, and the final devastating accusation.",
+      "evidence": [
+        "EP043_B029",
+        "EP043_B039",
+        "EP043_B050",
+        "EP043_B057",
+        "EP043_B064"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP043_B029",
+        "EP043_B039",
+        "EP043_B050",
+        "EP043_B057",
+        "EP043_B064"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "Ending on Alexander's venomous delivery of 'You took my title.' leaves the viewer eager to see the immediate fallout and retribution.",
+      "evidence": [
+        "EP043_B064",
+        "EP043_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP043_B064",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "How will Alexander punish the traitors now that his survival and their treason are exposed?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core conflict—a betrayed military leader returning with proof to expose his corrupt family members—is universally understandable.",
+      "evidence": [
+        "EP043_B039",
+        "EP043_B057",
+        "EP043_B064"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Duke Alexander Ashburn presents top-secret War Office documents in a ruined cathedral, proving that Lord Henry Sterling and Rupert Ashburn betrayed his unit to the enemy three years ago. As the crimes and names are read aloud, Alexander confronts Rupert and reveals that they also stole his title.",
+      "confusions": [
+        {
+          "issue": "Exact relationship between Alexander, Rupert, and Lord Henry Sterling is not explicitly detailed beyond the shared family name Ashburn and accusations of betrayal.",
+          "block_ids": [
+            "EP043_B039",
+            "EP043_B050",
+            "EP043_B052",
+            "EP043_B064"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "It delivers a satisfying mid-level payoff of the secret being exposed while withholding the ultimate revenge and punishment.",
+      "evidence": [
+        "EP043_B039",
+        "EP043_B050",
+        "EP043_B064"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander's unit was betrayed on the Iberian front.",
+        "Lord Henry Sterling and Rupert Ashburn were behind the leak.",
+        "They stole Alexander's title believing he was dead."
+      ],
+      "withheld": [
+        "The exact consequences the traitors will face.",
+        "How Alexander survived and obtained the documents."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 5,
+      "valid": true,
+      "reason": "The combination of severe military betrayal, public exposure, and the sheer terror of the guilty parties creates strong audience satisfaction and tension.",
+      "evidence": [
+        "EP043_B039",
+        "EP043_B045",
+        "EP043_B057",
+        "EP043_B064"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Outrage and vindication",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP043_B029",
+        "EP043_B039",
+        "EP043_B057",
+        "EP043_B064"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP043_B025"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP043_B039",
+        "EP043_B057",
+        "EP043_B064"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A presumed-dead Duke returns with royal proof of treason and title theft against his own family members.",
+      "evidence": [
+        "EP043_B029",
+        "EP043_B039",
+        "EP043_B064"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP043_B064"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "Alexander's unit was betrayed on the Iberian front.",
+      "Lord Henry Sterling and Rupert Ashburn were behind the leak.",
+      "They stole Alexander's title believing he was dead."
+    ],
+    "curiosity_withheld": [
+      "The exact consequences the traitors will face.",
+      "How Alexander survived and obtained the documents."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A betrayed war hero returns from the dead with royal proof to destroy the family that stole his life.",
+    "supporting_block_ids": [
+      "EP043_B029",
+      "EP043_B039",
+      "EP043_B057",
+      "EP043_B064",
+      "EP043_B025"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Duke Alexander Ashburn presents top-secret War Office documents in a ruined cathedral, proving that Lord Henry Sterling and Rupert Ashburn betrayed his unit to the enemy three years ago. As the crimes and names are read aloud, Alexander confronts Rupert and reveals that they also stole his title.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Exact relationship between Alexander, Rupert, and Lord Henry Sterling is not explicitly detailed beyond the shared family name Ashburn and accusations of betrayal.\",\n      \"block_ids\": [\"K16\", \"K27\", \"K29\", \"K41\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Alexander's cold, authoritative command 'Then let the Crown decide.' immediately sets up a high-stakes power confrontation.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 5,\n    \"escalation_beats\": [\"K05\", \"K16\", \"K27\", \"K34\", \"K41\"],\n    \"reason\": \"Tension mounts steadily from the presentation of the dossier to the reading of the military report, the naming of the conspirators, and the final devastating accusation.\",\n    \"evidence\": [\"K05\", \"K16\", \"K27\", \"K34\", \"K41\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K41\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Alexander punish the traitors now that his survival and their treason are exposed?\",\n    \"score\": 5,\n    \"reason\": \"Ending on Alexander's venomous delivery of 'You took my title.' leaves the viewer eager to see the immediate fallout and retribution.\",\n    \"evidence\": [\"K40\", \"K41\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core conflict—a betrayed military leader returning with proof to expose his corrupt family members—is universally understandable.\",\n    \"evidence\": [\"K16\", \"K34\", \"K41\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Alexander's unit was betrayed on the Iberian front.\",\n      \"Lord Henry Sterling and Rupert Ashburn were behind the leak.\",\n      \"They stole Alexander's title believing he was dead.\"\n    ],\n    \"withheld\": [\n      \"The exact consequences the traitors will face.\",\n      \"How Alexander survived and obtained the documents.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"It delivers a satisfying mid-level payoff of the secret being exposed while withholding the ultimate revenge and punishment.\",\n    \"evidence\": [\"K16\", \"K27\", \"K41\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Outrage and vindication\",\n    \"score\": 5,\n    \"reason\": \"The combination of severe military betrayal, public exposure, and the sheer terror of the guilty parties creates strong audience satisfaction and tension.\",\n    \"evidence\": [\"K16\", \"K22\", \"K34\", \"K41\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K05\", \"K16\", \"K34\", \"K41\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K16\", \"K34\", \"K41\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A presumed-dead Duke returns with royal proof of treason and title theft against his own family members.\",\n      \"evidence\": [\"K05\", \"K16\", \"K41\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"A betrayed war hero returns from the dead with royal proof to destroy the family that stole his life.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "74d0b45787bfa2a0611923b69f506127aa59ade25f630985ccc6f029c4a1c6ab",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3713,
+      "prompt_tokens": 3610,
+      "completion_tokens": 1056,
+      "total_tokens": 4666,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:07:22.649418+00:00"
+}

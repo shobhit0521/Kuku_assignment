@@ -1,0 +1,300 @@
+{
+  "candidate_id": "EP034_C03",
+  "episode_id": "EP034",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "62fdd214d2817f7ff792a555d508815505daaf010ec3e50023da4bc253dc1f8d",
+  "clip_start_ms": 85200,
+  "clip_end_ms": 142000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP034_B050",
+    "EP034_B049",
+    "EP034_B051",
+    "EP034_B052",
+    "EP034_B053",
+    "EP034_B054"
+  ],
+  "eligible_beat_ids": [
+    "EP034_B084",
+    "EP034_B085",
+    "EP034_B086",
+    "EP034_B087",
+    "EP034_B088",
+    "EP034_B089"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Lady Juliana shouting 'It was not a ritual!' immediately introduces a defensive stance in a trial setting, though it requires a moment of context to understand what is being debated.",
+      "evidence": [
+        "EP034_B050"
+      ],
+      "issues": [],
+      "block_id": "EP034_B050",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily through escalating accusations from witnesses, the lord's smug manipulation, and Lady Juliana's unyielding defense of her actions.",
+      "evidence": [
+        "EP034_B056",
+        "EP034_B064",
+        "EP034_B069",
+        "EP034_B077",
+        "EP034_B087"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP034_B056",
+        "EP034_B064",
+        "EP034_B069",
+        "EP034_B077",
+        "EP034_B087"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The lord points out her unrepentant stance right before the cut, leaving the viewer waiting for the judge's sentencing or the immediate fallout.",
+      "evidence": [
+        "EP034_B089",
+        "EP034_B088"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP034_B089",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "How will the court punish Lady Juliana now that she openly admits to unlicensed treatment without repenting?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core conflict—a woman on trial for practicing unlicensed medicine versus hostile accusers—is clearly communicated within the clip itself.",
+      "evidence": [
+        "EP034_B058",
+        "EP034_B064",
+        "EP034_B077",
+        "EP034_B083"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Lady Juliana is on trial in a courtroom, accused by a lord and townsfolk of poisoning people with herbal remedies instead of healing them. Defiant and cuffed, she admits to treating the sick when no physicians would help, while her accuser pushes for her condemnation.",
+      "confusions": [
+        {
+          "issue": "The background of Lady Juliana, her status, and why the lord is actively prosecuting her are unexplained.",
+          "block_ids": [
+            "EP034_B056",
+            "EP034_B066",
+            "EP034_B089"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip establishes the setup and the stakes of the trial clearly while withholding the verdict and the ultimate consequences of her defiance.",
+      "evidence": [
+        "EP034_B081",
+        "EP034_B085",
+        "EP034_B089"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Lady Juliana is accused of poisoning people with herbal mixtures.",
+        "She admits she treated the sick because no licensed physicians would help them."
+      ],
+      "withheld": [
+        "Whether the court finds her guilty and what her ultimate sentence will be."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Lady Juliana's resolute defense against a stacked courtroom and hostile witnesses creates a strong sense of injustice and sympathy for her character.",
+      "evidence": [
+        "EP034_B077",
+        "EP034_B085",
+        "EP034_B087"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage_injustice",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP034_B056",
+        "EP034_B069",
+        "EP034_B077"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP034_B050"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP034_B064",
+        "EP034_B069",
+        "EP034_B077"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Lady Juliana's life and freedom hang in the balance as she stands trial for practicing healing arts that her accusers frame as dangerous poisoning.",
+      "evidence": [
+        "EP034_B048",
+        "EP034_B069",
+        "EP034_B077",
+        "EP034_B089"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP034_B089"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Prior relationship between the Lord and Lady Juliana"
+    ],
+    "curiosity_revealed": [
+      "Lady Juliana is accused of poisoning people with herbal mixtures.",
+      "She admits she treated the sick because no licensed physicians would help them."
+    ],
+    "curiosity_withheld": [
+      "Whether the court finds her guilty and what her ultimate sentence will be."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A courageous healer on trial for saving lives faces a corrupt court and defiant accusers.",
+    "supporting_block_ids": [
+      "EP034_B056",
+      "EP034_B069",
+      "EP034_B077",
+      "EP034_B050",
+      "EP034_B064",
+      "EP034_B048",
+      "EP034_B089"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Lady Juliana is on trial in a courtroom, accused by a lord and townsfolk of poisoning people with herbal remedies instead of healing them. Defiant and cuffed, she admits to treating the sick when no physicians would help, while her accuser pushes for her condemnation.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The background of Lady Juliana, her status, and why the lord is actively prosecuting her are unexplained.\",\n      \"block_ids\": [\n        \"K09\",\n        \"K19\",\n        \"K42\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Lady Juliana shouting 'It was not a ritual!' immediately introduces a defensive stance in a trial setting, though it requires a moment of context to understand what is being debated.\",\n    \"evidence\": [\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K09\",\n      \"K17\",\n      \"K22\",\n      \"K30\",\n      \"K40\"\n    ],\n    \"reason\": \"Tension builds steadily through escalating accusations from witnesses, the lord's smug manipulation, and Lady Juliana's unyielding defense of her actions.\",\n    \"evidence\": [\n      \"K09\",\n      \"K17\",\n      \"K22\",\n      \"K30\",\n      \"K40\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K42\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will the court punish Lady Juliana now that she openly admits to unlicensed treatment without repenting?\",\n    \"score\": 4,\n    \"reason\": \"The lord points out her unrepentant stance right before the cut, leaving the viewer waiting for the judge's sentencing or the immediate fallout.\",\n    \"evidence\": [\n      \"K41\",\n      \"K42\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core conflict—a woman on trial for practicing unlicensed medicine versus hostile accusers—is clearly communicated within the clip itself.\",\n    \"evidence\": [\n      \"K11\",\n      \"K17\",\n      \"K30\",\n      \"K36\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Lady Juliana is accused of poisoning people with herbal mixtures.\",\n      \"She admits she treated the sick because no licensed physicians would help them.\"\n    ],\n    \"withheld\": [\n      \"Whether the court finds her guilty and what her ultimate sentence will be.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip establishes the setup and the stakes of the trial clearly while withholding the verdict and the ultimate consequences of her defiance.\",\n    \"evidence\": [\n      \"K34\",\n      \"K38\",\n      \"K42\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage_injustice\",\n    \"score\": 4,\n    \"reason\": \"Lady Juliana's resolute defense against a stacked courtroom and hostile witnesses creates a strong sense of injustice and sympathy for her character.\",\n    \"evidence\": [\n      \"K30\",\n      \"K38\",\n      \"K40\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K09\",\n        \"K22\",\n        \"K30\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\n        \"K17\",\n        \"K22\",\n        \"K30\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"Lady Juliana's life and freedom hang in the balance as she stands trial for practicing healing arts that her accusers frame as dangerous poisoning.\",\n      \"evidence\": [\n        \"K01\",\n        \"K22\",\n        \"K30\",\n        \"K42\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Prior relationship between the Lord and Lady Juliana\"\n      ]\n    },\n    \"appeal\": \"A courageous healer on trial for saving lives faces a corrupt court and defiant accusers.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "f280cfb41125e85aad071af60689f70b56702b3e260e5d16877e374d46be7c4e",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4153,
+      "prompt_tokens": 3672,
+      "completion_tokens": 1184,
+      "total_tokens": 4856,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:03:37.087631+00:00"
+}

@@ -1,0 +1,294 @@
+{
+  "candidate_id": "EP024_C01",
+  "episode_id": "EP024",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "fbd3ecf12a3c6057b26bed233c7e656126e87744b18d7485140ab651345725e0",
+  "clip_start_ms": 57800,
+  "clip_end_ms": 92000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP024_B046",
+    "EP024_B045"
+  ],
+  "eligible_beat_ids": [
+    "EP024_B064",
+    "EP024_B065",
+    "EP024_B066",
+    "EP024_B067",
+    "EP024_B068",
+    "EP024_B069"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The noblewoman's venomous opening line instantly establishes a dynamic of abuse and humiliation, pulling the viewer into the conflict.",
+      "evidence": [
+        "EP024_B046"
+      ],
+      "issues": [],
+      "block_id": "EP024_B046",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds from the initial verbal humiliation to physical intimidation of a bystander, culminating in Juliana's internal resolve and preparation for retaliation.",
+      "evidence": [
+        "EP024_B046",
+        "EP024_B052",
+        "EP024_B064",
+        "EP024_B067"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP024_B046",
+        "EP024_B052",
+        "EP024_B064",
+        "EP024_B067"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana's defiant gaze and voiceover vow set up a clear, high-stakes revenge plot, leaving the viewer eager to see her counterattack.",
+      "evidence": [
+        "EP024_B067",
+        "EP024_B064",
+        "EP024_B069"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP024_B067",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "How will Juliana use her hidden remedy journal and medical skills to strike back against her tormentor?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic of an arrogant mistress abusing a servant who is secretly plotting revenge is universally understandable without prior episodes.",
+      "evidence": [
+        "EP024_B046",
+        "EP024_B061",
+        "EP024_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A cruel noblewoman forces a servant named Juliana to brutally scrub a hearth and threatens another servant who tries to intervene. However, Juliana secretly conceals a remedy journal and vows revenge, revealing she is playing a deeper game.",
+      "confusions": [
+        {
+          "issue": "The exact history and grievance between Juliana and the noblewoman are not explained.",
+          "block_ids": [
+            "EP024_B046",
+            "EP024_B063"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip reveals that Juliana is disguising her identity and possesses a secret remedy, but withholds how she plans to execute her revenge.",
+      "evidence": [
+        "EP024_B063",
+        "EP024_B064",
+        "EP024_B069"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "K19",
+        "K20",
+        "K25"
+      ],
+      "withheld": [
+        "K23"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The unjust humiliation and cruelty inflicted by the noblewoman evoke strong sympathy for Juliana and righteous anger.",
+      "evidence": [
+        "EP024_B046",
+        "EP024_B054",
+        "EP024_B061"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage_injustice",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP024_B046",
+        "EP024_B061",
+        "EP024_B069"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP024_B046"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP024_B046",
+        "EP024_B054",
+        "EP024_B061"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A noblewoman forces a disguised healer to endure grueling humiliation, unaware that the servant is plotting a dangerous payback.",
+      "evidence": [
+        "EP024_B046",
+        "EP024_B063",
+        "EP024_B064"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP024_B067"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "The exact past relationship between the noblewoman and Juliana"
+    ],
+    "curiosity_revealed": [
+      "K19",
+      "K20",
+      "K25"
+    ],
+    "curiosity_withheld": [
+      "K23"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a brilliant disguised healer endure brutal abuse and plot a devastating revenge.",
+    "supporting_block_ids": [
+      "EP024_B046",
+      "EP024_B061",
+      "EP024_B069",
+      "EP024_B054",
+      "EP024_B063",
+      "EP024_B064",
+      "EP024_B067"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A cruel noblewoman forces a servant named Juliana to brutally scrub a hearth and threatens another servant who tries to intervene. However, Juliana secretly conceals a remedy journal and vows revenge, revealing she is playing a deeper game.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact history and grievance between Juliana and the noblewoman are not explained.\",\n      \"block_ids\": [\"K01\", \"K19\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K01\",\n    \"score\": 4,\n    \"reason\": \"The noblewoman's venomous opening line instantly establishes a dynamic of abuse and humiliation, pulling the viewer into the conflict.\",\n    \"evidence\": [\"K01\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K01\", \"K08\", \"K20\", \"K23\"],\n    \"reason\": \"Tension builds from the initial verbal humiliation to physical intimidation of a bystander, culminating in Juliana's internal resolve and preparation for retaliation.\",\n    \"evidence\": [\"K01\", \"K08\", \"K20\", \"K23\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K23\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Juliana use her hidden remedy journal and medical skills to strike back against her tormentor?\",\n    \"score\": 4,\n    \"reason\": \"Juliana's defiant gaze and voiceover vow set up a clear, high-stakes revenge plot, leaving the viewer eager to see her counterattack.\",\n    \"evidence\": [\"K20\", \"K23\", \"K25\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic of an arrogant mistress abusing a servant who is secretly plotting revenge is universally understandable without prior episodes.\",\n    \"evidence\": [\"K01\", \"K17\", \"K19\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"K19\", \"K20\", \"K25\"],\n    \"withheld\": [\"K23\"],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip reveals that Juliana is disguising her identity and possesses a secret remedy, but withholds how she plans to execute her revenge.\",\n    \"evidence\": [\"K19\", \"K20\", \"K25\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage_injustice\",\n    \"score\": 4,\n    \"reason\": \"The unjust humiliation and cruelty inflicted by the noblewoman evoke strong sympathy for Juliana and righteous anger.\",\n    \"evidence\": [\"K01\", \"K10\", \"K17\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K01\", \"K17\", \"K25\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K01\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K01\", \"K10\", \"K17\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A noblewoman forces a disguised healer to endure grueling humiliation, unaware that the servant is plotting a dangerous payback.\",\n      \"evidence\": [\"K01\", \"K19\", \"K20\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\"The exact past relationship between the noblewoman and Juliana\"]\n    },\n    \"appeal\": \"Watch a brilliant disguised healer endure brutal abuse and plot a devastating revenge.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "ec4ad68ff6b06005a5f027db9c8ab0fc9870e7c07dbf16ad2ede0b44b6c49336",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3281,
+      "prompt_tokens": 3031,
+      "completion_tokens": 964,
+      "total_tokens": 3995,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:58:21.511879+00:00"
+}

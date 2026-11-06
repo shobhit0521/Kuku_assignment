@@ -1,0 +1,1321 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "endpoint": null,
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "checker_version": "c1",
+  "invocation_id": "0012b70a5d99",
+  "weights": {
+    "hook": 0.3,
+    "cliffhanger": 0.25,
+    "context_independence": 0.3,
+    "emotional_impact": 0.15
+  },
+  "gate_minimums": {
+    "hook": 3,
+    "cliffhanger": 3,
+    "context_independence": 3
+  },
+  "validator_version": "1.0.0",
+  "episodes": {
+    "EP011": [
+      {
+        "candidate_id": "EP011_C01",
+        "verdict": "eligible",
+        "weighted_score": 4.6,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP011_C02",
+        "verdict": "hard_fail",
+        "weighted_score": 4.0,
+        "hard_rules": "fail",
+        "failed_gates": [],
+        "repair": "unrepairable",
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP012": [
+      {
+        "candidate_id": "EP012_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.7,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP012_C02",
+        "verdict": "eligible",
+        "weighted_score": 4.25,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP013": [
+      {
+        "candidate_id": "EP013_C01",
+        "verdict": "hard_fail",
+        "weighted_score": 3.7,
+        "hard_rules": "fail",
+        "failed_gates": [],
+        "repair": "repaired",
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP013_C01_R1",
+        "verdict": "quality_fail",
+        "weighted_score": 2.7,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "context_independence_score"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP013_C02",
+        "verdict": "eligible",
+        "weighted_score": 4.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP014": [
+      {
+        "candidate_id": "EP014_C01",
+        "verdict": "quality_fail",
+        "weighted_score": 2.8,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "cliffhanger_score",
+          "outcome_not_resolved"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP014_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.4,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP014_C03",
+        "verdict": "quality_fail",
+        "weighted_score": 2.45,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "cliffhanger_score",
+          "context_independence_score"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP015": [
+      {
+        "candidate_id": "EP015_C01",
+        "verdict": "hard_fail",
+        "weighted_score": 3.2,
+        "hard_rules": "fail",
+        "failed_gates": [
+          "cliffhanger_score"
+        ],
+        "repair": "repaired",
+        "reassessment": "resolved",
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP015_C01_R1",
+        "verdict": "eligible",
+        "weighted_score": 3.4,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP015_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.7,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      }
+    ],
+    "EP016": [
+      {
+        "candidate_id": "EP016_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.7,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP016_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.3,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP017": [
+      {
+        "candidate_id": "EP017_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.25,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP017_C02",
+        "verdict": "quality_fail",
+        "weighted_score": 2.75,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "cliffhanger_score",
+          "outcome_not_resolved"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP017_C03",
+        "verdict": "hard_fail",
+        "weighted_score": 3.2,
+        "hard_rules": "fail",
+        "failed_gates": [
+          "cliffhanger_score",
+          "outcome_not_resolved"
+        ],
+        "repair": "unrepairable",
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP018": [
+      {
+        "candidate_id": "EP018_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.7,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP018_C02",
+        "verdict": "hard_fail",
+        "weighted_score": 3.15,
+        "hard_rules": "fail",
+        "failed_gates": [],
+        "repair": "repaired",
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP018_C02_R1",
+        "verdict": "eligible",
+        "weighted_score": 3.3,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP018_C03",
+        "verdict": "eligible",
+        "weighted_score": 4.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP019": [
+      {
+        "candidate_id": "EP019_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.7,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP019_C02",
+        "verdict": "quality_fail",
+        "weighted_score": 2.75,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "cliffhanger_score"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP020": [
+      {
+        "candidate_id": "EP020_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.85,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP020_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP020_C03",
+        "verdict": "eligible",
+        "weighted_score": 3.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP021": [
+      {
+        "candidate_id": "EP021_C01",
+        "verdict": "quality_fail",
+        "weighted_score": 2.8,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "cliffhanger_score",
+          "outcome_not_resolved"
+        ],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP021_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP021_C03",
+        "verdict": "quality_fail",
+        "weighted_score": 2.6,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "cliffhanger_score"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP022": [
+      {
+        "candidate_id": "EP022_C01",
+        "verdict": "quality_fail",
+        "weighted_score": 2.95,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "context_independence_score"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP022_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.55,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP022_C03",
+        "verdict": "eligible",
+        "weighted_score": 3.55,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "revision_rejected",
+        "review_flags": 1
+      }
+    ],
+    "EP023": [
+      {
+        "candidate_id": "EP023_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.95,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP023_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.95,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP023_C03",
+        "verdict": "eligible",
+        "weighted_score": 3.25,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      }
+    ],
+    "EP024": [
+      {
+        "candidate_id": "EP024_C01",
+        "verdict": "eligible",
+        "weighted_score": 4.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP024_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.45,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP024_C03",
+        "verdict": "eligible",
+        "weighted_score": 3.45,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      }
+    ],
+    "EP025": [
+      {
+        "candidate_id": "EP025_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.7,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP025_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.7,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP025_C03",
+        "verdict": "eligible",
+        "weighted_score": 3.45,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP026": [
+      {
+        "candidate_id": "EP026_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.95,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP026_C02",
+        "verdict": "quality_fail",
+        "weighted_score": 2.95,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "context_independence_score"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP026_C03",
+        "verdict": "eligible",
+        "weighted_score": 3.25,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP027": [
+      {
+        "candidate_id": "EP027_C01",
+        "verdict": "eligible",
+        "weighted_score": 4.25,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP027_C02",
+        "verdict": "eligible",
+        "weighted_score": 4.25,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP027_C03",
+        "verdict": "eligible",
+        "weighted_score": 4.4,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP028": [
+      {
+        "candidate_id": "EP028_C01",
+        "verdict": "eligible",
+        "weighted_score": 4.25,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP028_C02",
+        "verdict": "eligible",
+        "weighted_score": 4.55,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP028_C03",
+        "verdict": "eligible",
+        "weighted_score": 3.7,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP028_C04",
+        "verdict": "eligible",
+        "weighted_score": 3.7,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP029": [
+      {
+        "candidate_id": "EP029_C01",
+        "verdict": "eligible",
+        "weighted_score": 4.25,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP029_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.7,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP029_C03",
+        "verdict": "quality_fail",
+        "weighted_score": 2.95,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "context_independence_score"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP030": [
+      {
+        "candidate_id": "EP030_C01",
+        "verdict": "eligible",
+        "weighted_score": 4.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP030_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP030_C03",
+        "verdict": "eligible",
+        "weighted_score": 4.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP031": [
+      {
+        "candidate_id": "EP031_C01",
+        "verdict": "eligible",
+        "weighted_score": 4.25,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP031_C02",
+        "verdict": "eligible",
+        "weighted_score": 4.55,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP031_C03",
+        "verdict": "eligible",
+        "weighted_score": 3.7,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP031_C04",
+        "verdict": "eligible",
+        "weighted_score": 3.45,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP032": [
+      {
+        "candidate_id": "EP032_C01",
+        "verdict": "eligible",
+        "weighted_score": 4.25,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP032_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.7,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP032_C03",
+        "verdict": "eligible",
+        "weighted_score": 3.45,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP032_C04",
+        "verdict": "eligible",
+        "weighted_score": 4.3,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP033": [
+      {
+        "candidate_id": "EP033_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.7,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP033_C02",
+        "verdict": "quality_fail",
+        "weighted_score": 3.2,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "cliffhanger_score"
+        ],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP033_C03",
+        "verdict": "eligible",
+        "weighted_score": 3.25,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP034": [
+      {
+        "candidate_id": "EP034_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.3,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP034_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.7,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP034_C03",
+        "verdict": "eligible",
+        "weighted_score": 3.7,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP034_C04",
+        "verdict": "eligible",
+        "weighted_score": 3.7,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      }
+    ],
+    "EP035": [
+      {
+        "candidate_id": "EP035_C01",
+        "verdict": "eligible",
+        "weighted_score": 4.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP035_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.45,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      }
+    ],
+    "EP036": [
+      {
+        "candidate_id": "EP036_C01",
+        "verdict": "eligible",
+        "weighted_score": 4.1,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP036_C02",
+        "verdict": "hard_fail",
+        "weighted_score": 3.95,
+        "hard_rules": "fail",
+        "failed_gates": [],
+        "repair": "repaired",
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP036_C02_R1",
+        "verdict": "eligible",
+        "weighted_score": 4.1,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP036_C03",
+        "verdict": "eligible",
+        "weighted_score": 3.65,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP037": [
+      {
+        "candidate_id": "EP037_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP037_C02",
+        "verdict": "quality_fail",
+        "weighted_score": 2.55,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "context_independence_score"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP037_C03",
+        "verdict": "eligible",
+        "weighted_score": 3.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP037_C04",
+        "verdict": "eligible",
+        "weighted_score": 3.15,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      }
+    ],
+    "EP038": [
+      {
+        "candidate_id": "EP038_C01",
+        "verdict": "quality_fail",
+        "weighted_score": 2.75,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "cliffhanger_score"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP038_C02",
+        "verdict": "quality_fail",
+        "weighted_score": 2.45,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "cliffhanger_score",
+          "context_independence_score"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP038_C03",
+        "verdict": "quality_fail",
+        "weighted_score": 2.7,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "context_independence_score"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP039": [
+      {
+        "candidate_id": "EP039_C01",
+        "verdict": "eligible",
+        "weighted_score": 4.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "revision_rejected",
+        "review_flags": 1
+      },
+      {
+        "candidate_id": "EP039_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.4,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP040": [
+      {
+        "candidate_id": "EP040_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.95,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP040_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.25,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP041": [
+      {
+        "candidate_id": "EP041_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.95,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP041_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP041_C03",
+        "verdict": "eligible",
+        "weighted_score": 3.4,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP042": [
+      {
+        "candidate_id": "EP042_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.95,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP042_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.95,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP043": [
+      {
+        "candidate_id": "EP043_C01",
+        "verdict": "eligible",
+        "weighted_score": 4.4,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP043_C02",
+        "verdict": "eligible",
+        "weighted_score": 4.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP043_C03",
+        "verdict": "eligible",
+        "weighted_score": 3.95,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      }
+    ],
+    "EP044": [
+      {
+        "candidate_id": "EP044_C01",
+        "verdict": "eligible",
+        "weighted_score": 4.1,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP044_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.45,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP045": [
+      {
+        "candidate_id": "EP045_C01",
+        "verdict": "eligible",
+        "weighted_score": 4.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP045_C02",
+        "verdict": "eligible",
+        "weighted_score": 4.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP046": [
+      {
+        "candidate_id": "EP046_C01",
+        "verdict": "eligible",
+        "weighted_score": 4.3,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP046_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.95,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP046_C03",
+        "verdict": "eligible",
+        "weighted_score": 4.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP047": [
+      {
+        "candidate_id": "EP047_C01",
+        "verdict": "quality_fail",
+        "weighted_score": 3.25,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "cliffhanger_score",
+          "outcome_not_resolved"
+        ],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP047_C02",
+        "verdict": "eligible",
+        "weighted_score": 4.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP047_C03",
+        "verdict": "quality_fail",
+        "weighted_score": 2.75,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "cliffhanger_score",
+          "outcome_not_resolved"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP048": [
+      {
+        "candidate_id": "EP048_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.55,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP048_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.0,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP048_C03",
+        "verdict": "quality_fail",
+        "weighted_score": 3.25,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "context_independence_score"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP049": [
+      {
+        "candidate_id": "EP049_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.25,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP049_C02",
+        "verdict": "quality_fail",
+        "weighted_score": 2.95,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "context_independence_score"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP049_C03",
+        "verdict": "quality_fail",
+        "weighted_score": 2.7,
+        "hard_rules": "pass",
+        "failed_gates": [
+          "context_independence_score"
+        ],
+        "repair": null,
+        "reassessment": null,
+        "review_flags": 0
+      }
+    ],
+    "EP050": [
+      {
+        "candidate_id": "EP050_C01",
+        "verdict": "eligible",
+        "weighted_score": 3.95,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      },
+      {
+        "candidate_id": "EP050_C02",
+        "verdict": "eligible",
+        "weighted_score": 3.55,
+        "hard_rules": "pass",
+        "failed_gates": [],
+        "repair": null,
+        "reassessment": "resolved",
+        "review_flags": 0
+      }
+    ]
+  },
+  "stopped_early": null,
+  "requests_made_this_invocation": 11,
+  "cache_hits_this_invocation": 0,
+  "resumed_judgements": 107,
+  "resumed_reassessments": 21,
+  "updated_at": "2026-11-06T11:10:46.891181+00:00"
+}

@@ -1,0 +1,322 @@
+{
+  "candidate_id": "EP029_C03",
+  "episode_id": "EP029",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "5c9b6f4ca47c82f1d23b4ea8129571d037822bddab764685e090868887c39f7d",
+  "clip_start_ms": 83000,
+  "clip_end_ms": 112600,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP029_B052",
+    "EP029_B053",
+    "EP029_B054"
+  ],
+  "eligible_beat_ids": [
+    "EP029_B066",
+    "EP029_B065",
+    "EP029_B067",
+    "EP029_B068",
+    "EP029_B069",
+    "EP029_B071",
+    "EP029_B070"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Guards violently shoving a woman into a dark cell creates mild physical intrigue, though the lack of context limits immediate impact.",
+      "evidence": [
+        "EP029_B053"
+      ],
+      "issues": [],
+      "block_id": "EP029_B053",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension rises from the violent imprisonment to desperate shouting, culminating in a pivot toward a defiant resolve.",
+      "evidence": [
+        "EP029_B053",
+        "EP029_B062",
+        "EP029_B071",
+        "EP029_B070"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP029_B053",
+        "EP029_B062",
+        "EP029_B071"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The shift from helpless despair to steely determination creates a strong forward pull toward her next move.",
+      "evidence": [
+        "EP029_B070",
+        "EP029_B071"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP029_B070",
+      "mechanism": "pending_decision",
+      "outcome": "unresolved",
+      "open_question": "How will Juliana fight back from the dungeon and protect Alexander?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 2,
+      "valid": true,
+      "reason": "The viewer is dropped into a dungeon cell with zero explanation of why Juliana was arrested after saving a Duchess, or who Alexander is.",
+      "evidence": [
+        "EP029_B064",
+        "EP029_B067",
+        "EP029_B071"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A young woman named Juliana is violently thrown into a dark dungeon cell and locked away despite having saved a Duchess. After breaking down in despair and noting that her mother's possessions were stolen, she steels herself with a vow to protect someone named Alexander.",
+      "confusions": [
+        {
+          "issue": "Who the Duchess is and why saving her led to imprisonment is entirely unexplained.",
+          "block_ids": [
+            "EP029_B064",
+            "EP029_B067"
+          ]
+        },
+        {
+          "issue": "Alexander's identity and his relationship to Juliana are completely unknown.",
+          "block_ids": [
+            "EP029_B071"
+          ]
+        },
+        {
+          "issue": "The significance of the mother's ledger and locket is unestablished.",
+          "block_ids": [
+            "EP029_B069",
+            "EP029_B071"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It clearly establishes her wrongful punishment and sets up a revenge or rescue mission without revealing how she will succeed.",
+      "evidence": [
+        "EP029_B067",
+        "EP029_B071",
+        "EP029_B070"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana was unjustly imprisoned after healing the Duchess",
+        "Her mother's belongings were confiscated",
+        "She refuses to let them take Alexander"
+      ],
+      "withheld": [
+        "Who Alexander is",
+        "Why saving the Duchess resulted in an arrest",
+        "How Juliana plans to escape or retaliate"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's transition from helpless sobbing to hardened defiance evokes sympathy and a desire for payback.",
+      "evidence": [
+        "EP029_B058",
+        "EP029_B060",
+        "EP029_B071",
+        "EP029_B070"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Outrage and defiance",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP029_B053",
+        "EP029_B067",
+        "EP029_B070"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "physical_action",
+      "evidence": [
+        "EP029_B053"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP029_B062",
+        "EP029_B067"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An innocent healer is thrown into a dungeon after saving a Duchess, but vows to protect Alexander despite losing everything.",
+      "evidence": [
+        "EP029_B064",
+        "EP029_B067",
+        "EP029_B071"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "pending_decision",
+      "evidence": [
+        "EP029_B070"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Identity of Alexander",
+      "Why saving the Duchess was treated as a crime"
+    ],
+    "curiosity_revealed": [
+      "Juliana was unjustly imprisoned after healing the Duchess",
+      "Her mother's belongings were confiscated",
+      "She refuses to let them take Alexander"
+    ],
+    "curiosity_withheld": [
+      "Who Alexander is",
+      "Why saving the Duchess resulted in an arrest",
+      "How Juliana plans to escape or retaliate"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "An unjustly imprisoned healer swaps despair for steely vengeance to protect someone she loves.",
+    "supporting_block_ids": [
+      "EP029_B053",
+      "EP029_B067",
+      "EP029_B070",
+      "EP029_B062",
+      "EP029_B064",
+      "EP029_B071"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "CONTEXT_DEPENDENT",
+      "severity": "minor",
+      "explanation": "The viewer needs to know who Alexander is and why saving the Duchess caused an arrest to fully appreciate the stakes.",
+      "block_ids": [
+        "EP029_B067",
+        "EP029_B071"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A young woman named Juliana is violently thrown into a dark dungeon cell and locked away despite having saved a Duchess. After breaking down in despair and noting that her mother's possessions were stolen, she steels herself with a vow to protect someone named Alexander.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who the Duchess is and why saving her led to imprisonment is entirely unexplained.\",\n      \"block_ids\": [\n        \"K13\",\n        \"K16\"\n      ]\n    },\n    {\n      \"issue\": \"Alexander's identity and his relationship to Juliana are completely unknown.\",\n      \"block_ids\": [\n        \"K19\"\n      ]\n    },\n    {\n      \"issue\": \"The significance of the mother's ledger and locket is unestablished.\",\n      \"block_ids\": [\n        \"K18\",\n        \"K19\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Guards violently shoving a woman into a dark cell creates mild physical intrigue, though the lack of context limits immediate impact.\",\n    \"evidence\": [\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\n      \"K02\",\n      \"K11\",\n      \"K19\"\n    ],\n    \"reason\": \"Tension rises from the violent imprisonment to desperate shouting, culminating in a pivot toward a defiant resolve.\",\n    \"evidence\": [\n      \"K02\",\n      \"K11\",\n      \"K19\",\n      \"K20\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K20\",\n    \"mechanism\": \"pending_decision\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Juliana fight back from the dungeon and protect Alexander?\",\n    \"score\": 4,\n    \"reason\": \"The shift from helpless despair to steely determination creates a strong forward pull toward her next move.\",\n    \"evidence\": [\n      \"K19\",\n      \"K20\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 2,\n    \"reason\": \"The viewer is dropped into a dungeon cell with zero explanation of why Juliana was arrested after saving a Duchess, or who Alexander is.\",\n    \"evidence\": [\n      \"K13\",\n      \"K16\",\n      \"K19\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana was unjustly imprisoned after healing the Duchess\",\n      \"Her mother's belongings were confiscated\",\n      \"She refuses to let them take Alexander\"\n    ],\n    \"withheld\": [\n      \"Who Alexander is\",\n      \"Why saving the Duchess resulted in an arrest\",\n      \"How Juliana plans to escape or retaliate\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It clearly establishes her wrongful punishment and sets up a revenge or rescue mission without revealing how she will succeed.\",\n    \"evidence\": [\n      \"K16\",\n      \"K19\",\n      \"K20\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Outrage and defiance\",\n    \"score\": 3,\n    \"reason\": \"Juliana's transition from helpless sobbing to hardened defiance evokes sympathy and a desire for payback.\",\n    \"evidence\": [\n      \"K07\",\n      \"K09\",\n      \"K19\",\n      \"K20\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K02\",\n        \"K16\",\n        \"K20\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"physical_action\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\n        \"K11\",\n        \"K16\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"An innocent healer is thrown into a dungeon after saving a Duchess, but vows to protect Alexander despite losing everything.\",\n      \"evidence\": [\n        \"K13\",\n        \"K16\",\n        \"K19\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Identity of Alexander\",\n        \"Why saving the Duchess was treated as a crime\"\n      ]\n    },\n    \"appeal\": \"An unjustly imprisoned healer swaps despair for steely vengeance to protect someone she loves.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"CONTEXT_DEPENDENT\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The viewer needs to know who Alexander is and why saving the Duchess caused an arrest to fully appreciate the stakes.\",\n      \"block_ids\": [\n        \"K16\",\n        \"K19\"\n      ]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "92d8977756a0ac2d38034387e3a4f2a8bb7d7e7fd1475b3f136e5a6df1fbf45a",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3978,
+      "prompt_tokens": 2750,
+      "completion_tokens": 1280,
+      "total_tokens": 4030,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:00:46.732684+00:00"
+}

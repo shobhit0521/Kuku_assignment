@@ -1,4 +1,5 @@
-"""PromoPilot editorial interface. Read-only view of persisted pipeline outputs; run with `python -m promopilot_ui`."""
+"""PromoPilot editorial interface: the 50-episode dashboard (read-only view of persisted pipeline outputs) and the
+upload page that runs the pipeline on a visitor's own screenplays. Run with `python -m promopilot_ui`."""
 import sys
 from pathlib import Path
 
@@ -16,13 +17,28 @@ st.set_page_config(page_title="PromoPilot", page_icon=str(layout.ASSETS / "mark.
 layout.css()
 st.logo(str(layout.ASSETS / "logo.svg"), size="large", icon_image=str(layout.ASSETS / "mark.svg"))
 
-pages = [
-    st.Page("views/shortlist.py", title="Shortlist", icon=":material/format_list_numbered:", default=True),
-    st.Page("views/candidate.py", title="Candidate intelligence", icon=":material/insights:", url_path="candidate"),
-    st.Page("views/attention.py", title="Needs attention", icon=":material/flag:", url_path="attention"),
+dashboard = [st.Page("views/shortlist.py", title="Promos to post first", icon=":material/format_list_numbered:",
+                     default=True)]
+details = [
+    st.Page("views/candidate.py", title="Full candidate analysis", icon=":material/insights:", url_path="candidate"),
+    st.Page("views/attention.py", title="Where it picks badly", icon=":material/flag:", url_path="attention"),
+    st.Page("views/scores.py", title="Scores and ranking rules", icon=":material/leaderboard:", url_path="scores"),
     st.Page("views/repairs.py", title="Repairs", icon=":material/build:", url_path="repairs"),
+    st.Page("views/downloads.py", title="Downloads", icon=":material/download:", url_path="downloads"),
 ]
-nav = st.navigation(pages, position="sidebar")
+upload = st.Page("views/custom.py", title="Analyse your own screenplays", icon=":material/upload_file:",
+                 url_path="analyse")
+nav = st.navigation({"Kuku 50-episode analysis": dashboard, "Details": details,
+                     "Try it on your screenplays": [upload]}, position="sidebar")
+
+if nav.url_path == upload.url_path:
+    # The upload page keeps its own run context and never touches the dashboard's.
+    nav.run()
+    st.stop()
+
+if st.sidebar.button("Analyse your own screenplays", icon=":material/upload_file:", type="primary",
+                     width="stretch", help="Upload episode files and run the full pipeline on them."):
+    st.switch_page(upload)
 
 root = data.output_root()
 runs = data.discover_runs(root)

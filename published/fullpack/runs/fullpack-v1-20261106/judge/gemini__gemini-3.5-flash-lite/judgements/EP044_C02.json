@@ -1,0 +1,308 @@
+{
+  "candidate_id": "EP044_C02",
+  "episode_id": "EP044",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "cb9a5e6cf0056047d60905c3bd46100fc1fab35531697b0f321778d975ca2421",
+  "clip_start_ms": 3200,
+  "clip_end_ms": 38800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP044_B003",
+    "EP044_B004"
+  ],
+  "eligible_beat_ids": [
+    "EP044_B019",
+    "EP044_B020",
+    "EP044_B021",
+    "EP044_B022",
+    "EP044_B023",
+    "EP044_B024",
+    "EP044_B025",
+    "EP044_B026",
+    "EP044_B027"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "An immediate arrest by order of the Crown creates instant authority-based tension.",
+      "evidence": [
+        "EP044_B004"
+      ],
+      "issues": [],
+      "block_id": "EP044_B004",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension shifts from an arrest to an emotional confrontation between a grieving bride and a returned lover, though it resolves into melodrama rather than building a sharp narrative threat.",
+      "evidence": [
+        "EP044_B004",
+        "EP044_B011",
+        "EP044_B026"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP044_B004",
+        "EP044_B011",
+        "EP044_B018",
+        "EP044_B026"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "It ends on an emotional confession and approach rather than an unanswered plot question or imminent danger.",
+      "evidence": [
+        "EP044_B026",
+        "EP044_B027"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP044_B026",
+      "mechanism": "reaction_hold",
+      "outcome": "partly_resolved",
+      "open_question": "How will Alexander respond to Catherine's emotional plea after three years of supposed death?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The viewer understands an arrest is happening and a woman is confronting a man she thought dead, but the political stakes and prior loyalties remain vague.",
+      "evidence": [
+        "EP044_B004",
+        "EP044_B018",
+        "EP044_B026"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Lord Henry Sterling is arrested by the Crown while another noble is forced to his knees by guards. Meanwhile, a weeping bride named Catherine confronts Alexander, a man she believed had died at sea three years ago.",
+      "confusions": [
+        {
+          "issue": "The relationship and history between Catherine, Alexander, and Lord Sterling/Rupert are not fully explained.",
+          "block_ids": [
+            "EP044_B004",
+            "EP044_B011",
+            "EP044_B018",
+            "EP044_B026"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It clearly sets up the dramatic premise of a returned lover interrupting a wedding/event, leaving the core mystery of his absence intact.",
+      "evidence": [
+        "EP044_B004",
+        "EP044_B018",
+        "EP044_B026"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Lord Sterling is arrested by the Crown",
+        "Catherine believed Alexander was dead for three years"
+      ],
+      "withheld": [
+        "Why Lord Sterling was arrested",
+        "Why Alexander stayed away for three years",
+        "What Alexander's true intentions are"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Catherine's tearful confrontation delivers a strong sense of heartbreak over three years of mourning.",
+      "evidence": [
+        "EP044_B020",
+        "EP044_B024",
+        "EP044_B026"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "grief and betrayal",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "reversal",
+      "evidence": [
+        "EP044_B004",
+        "EP044_B018",
+        "EP044_B026"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP044_B004"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "grief",
+      "evidence": [
+        "EP044_B020",
+        "EP044_B024",
+        "EP044_B026"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A noble is arrested by the Crown while a grieving woman confronts the lover she thought was dead for three years.",
+      "evidence": [
+        "EP044_B004",
+        "EP044_B026"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP044_B026"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "The exact nature of Lord Sterling's crime",
+      "Why Alexander abandoned Catherine"
+    ],
+    "curiosity_revealed": [
+      "Lord Sterling is arrested by the Crown",
+      "Catherine believed Alexander was dead for three years"
+    ],
+    "curiosity_withheld": [
+      "Why Lord Sterling was arrested",
+      "Why Alexander stayed away for three years",
+      "What Alexander's true intentions are"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A presumed-dead lover returns to upend a wedding and an arrest by the Crown.",
+    "supporting_block_ids": [
+      "EP044_B004",
+      "EP044_B018",
+      "EP044_B026",
+      "EP044_B020",
+      "EP044_B024"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "RESOLVED_ENDING",
+      "severity": "minor",
+      "explanation": "The clip ends on an emotional dialogue beat rather than a sharp cliffhanger question.",
+      "block_ids": [
+        "EP044_B026",
+        "EP044_B027"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Lord Henry Sterling is arrested by the Crown while another noble is forced to his knees by guards. Meanwhile, a weeping bride named Catherine confronts Alexander, a man she believed had died at sea three years ago.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The relationship and history between Catherine, Alexander, and Lord Sterling/Rupert are not fully explained.\",\n      \"block_ids\": [\"K02\", \"K09\", \"K16\", \"K24\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"An immediate arrest by order of the Crown creates instant authority-based tension.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K02\", \"K09\", \"K16\", \"K24\"],\n    \"reason\": \"Tension shifts from an arrest to an emotional confrontation between a grieving bride and a returned lover, though it resolves into melodrama rather than building a sharp narrative threat.\",\n    \"evidence\": [\"K02\", \"K09\", \"K24\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K24\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"partly_resolved\",\n    \"open_question\": \"How will Alexander respond to Catherine's emotional plea after three years of supposed death?\",\n    \"score\": 3,\n    \"reason\": \"It ends on an emotional confession and approach rather than an unanswered plot question or imminent danger.\",\n    \"evidence\": [\"K24\", \"K25\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The viewer understands an arrest is happening and a woman is confronting a man she thought dead, but the political stakes and prior loyalties remain vague.\",\n    \"evidence\": [\"K02\", \"K16\", \"K24\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Lord Sterling is arrested by the Crown\",\n      \"Catherine believed Alexander was dead for three years\"\n    ],\n    \"withheld\": [\n      \"Why Lord Sterling was arrested\",\n      \"Why Alexander stayed away for three years\",\n      \"What Alexander's true intentions are\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It clearly sets up the dramatic premise of a returned lover interrupting a wedding/event, leaving the core mystery of his absence intact.\",\n    \"evidence\": [\"K02\", \"K16\", \"K24\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"grief and betrayal\",\n    \"score\": 4,\n    \"reason\": \"Catherine's tearful confrontation delivers a strong sense of heartbreak over three years of mourning.\",\n    \"evidence\": [\"K18\", \"K22\", \"K24\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"reversal\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K02\", \"K16\", \"K24\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"grief\",\n      \"evidence\": [\"K18\", \"K22\", \"K24\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A noble is arrested by the Crown while a grieving woman confronts the lover she thought was dead for three years.\",\n      \"evidence\": [\"K02\", \"K24\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"The exact nature of Lord Sterling's crime\",\n        \"Why Alexander abandoned Catherine\"\n      ]\n    },\n    \"appeal\": \"A presumed-dead lover returns to upend a wedding and an arrest by the Crown.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"RESOLVED_ENDING\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The clip ends on an emotional dialogue beat rather than a sharp cliffhanger question.\",\n      \"block_ids\": [\"K24\", \"K25\"]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "28ca0c1de9fc2a557e40a5148b82ac1b83fbf003f4ddab08704f2dc6160cda85",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3515,
+      "prompt_tokens": 2987,
+      "completion_tokens": 1064,
+      "total_tokens": 4051,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:07:59.625443+00:00"
+}

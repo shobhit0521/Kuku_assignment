@@ -1,0 +1,288 @@
+{
+  "candidate_id": "EP046_C01",
+  "episode_id": "EP046",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "66c8c0b1f6f5a0b1f8656589d5533c130d2a5d17bdc3e2bc37db7abc07e4dfcd",
+  "clip_start_ms": 37000,
+  "clip_end_ms": 85500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP046_B023",
+    "EP046_B024"
+  ],
+  "eligible_beat_ids": [
+    "EP046_B042",
+    "EP046_B043",
+    "EP046_B044",
+    "EP046_B045",
+    "EP046_B046"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 5,
+      "valid": true,
+      "reason": "The High Priest immediately drops a harsh, shocking accusation invalidating a marriage and insulting both bride and groom.",
+      "evidence": [
+        "EP046_B024"
+      ],
+      "issues": [],
+      "block_id": "EP046_B024",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily from the priest's formal denunciation and proof of a supposed death proclamation to Juliana's defiant emotional pushback.",
+      "evidence": [
+        "EP046_B024",
+        "EP046_B032",
+        "EP046_B038",
+        "EP046_B046"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP046_B024",
+        "EP046_B032",
+        "EP046_B038",
+        "EP046_B046"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana delivers a sharp, triumphant counter-punch that leaves the religious authority publicly challenged right at the cut.",
+      "evidence": [
+        "EP046_B046"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP046_B046",
+      "mechanism": "revelation",
+      "outcome": "partly_resolved",
+      "open_question": "How will the High Priest and the authorities respond to Juliana's fierce defiance and claim of a higher authority?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core conflict between institutional authority/tradition and personal love/defiance is instantly clear, even if the backstory of Alexander's supposed death is unknown.",
+      "evidence": [
+        "EP046_B024",
+        "EP046_B032",
+        "EP046_B038",
+        "EP046_B046"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A high priest publicly denounces a marriage between Alexander and Juliana, declaring it invalid because the groom was supposedly dead and no proper license was obtained. Juliana fiercely defies him, culminating in a passionate declaration that God married them despite the church's opposition.",
+      "confusions": [
+        {
+          "issue": "Why Alexander Ashburton was considered dead by the Crown and how he returned.",
+          "block_ids": [
+            "EP046_B032",
+            "EP046_B031"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip establishes the high stakes and immediate opposition clearly while leaving the ultimate fate and legitimacy of the marriage entirely open.",
+      "evidence": [
+        "EP046_B032",
+        "EP046_B038",
+        "EP046_B046"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The church is declaring the marriage void due to lack of paperwork and Alexander's supposed prior death."
+      ],
+      "withheld": [
+        "How Alexander survived his supposed death and whether they can overcome the legal and institutional invalidation of their marriage."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana's transition from hurt to righteous fury and fierce defiance creates a strong emotional resonance.",
+      "evidence": [
+        "EP046_B027",
+        "EP046_B033",
+        "EP046_B034",
+        "EP046_B046"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage and defiant passion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP046_B024",
+        "EP046_B032",
+        "EP046_B038",
+        "EP046_B046"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP046_B024"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP046_B024",
+        "EP046_B032",
+        "EP046_B038",
+        "EP046_B046"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "The legitimacy of a marriage and the social survival of a noble couple against a hostile religious establishment.",
+      "evidence": [
+        "EP046_B024",
+        "EP046_B032",
+        "EP046_B038"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP046_B046"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Alexander's War Office proclamation details"
+    ],
+    "curiosity_revealed": [
+      "The church is declaring the marriage void due to lack of paperwork and Alexander's supposed prior death."
+    ],
+    "curiosity_withheld": [
+      "How Alexander survived his supposed death and whether they can overcome the legal and institutional invalidation of their marriage."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a fierce heroine refuse to let oppressive church authorities tear apart her forbidden marriage.",
+    "supporting_block_ids": [
+      "EP046_B024",
+      "EP046_B032",
+      "EP046_B038",
+      "EP046_B046"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A high priest publicly denounces a marriage between Alexander and Juliana, declaring it invalid because the groom was supposedly dead and no proper license was obtained. Juliana fiercely defies him, culminating in a passionate declaration that God married them despite the church's opposition.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Why Alexander Ashburton was considered dead by the Crown and how he returned.\",\n      \"block_ids\": [\"K09\", \"K10\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 5,\n    \"reason\": \"The High Priest immediately drops a harsh, shocking accusation invalidating a marriage and insulting both bride and groom.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K02\", \"K09\", \"K16\", \"K24\"],\n    \"reason\": \"Tension builds steadily from the priest's formal denunciation and proof of a supposed death proclamation to Juliana's defiant emotional pushback.\",\n    \"evidence\": [\"K02\", \"K09\", \"K16\", \"K24\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K24\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"partly_resolved\",\n    \"open_question\": \"How will the High Priest and the authorities respond to Juliana's fierce defiance and claim of a higher authority?\",\n    \"score\": 4,\n    \"reason\": \"Juliana delivers a sharp, triumphant counter-punch that leaves the religious authority publicly challenged right at the cut.\",\n    \"evidence\": [\"K24\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core conflict between institutional authority/tradition and personal love/defiance is instantly clear, even if the backstory of Alexander's supposed death is unknown.\",\n    \"evidence\": [\"K02\", \"K09\", \"K16\", \"K24\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The church is declaring the marriage void due to lack of paperwork and Alexander's supposed prior death.\"\n    ],\n    \"withheld\": [\n      \"How Alexander survived his supposed death and whether they can overcome the legal and institutional invalidation of their marriage.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"The clip establishes the high stakes and immediate opposition clearly while leaving the ultimate fate and legitimacy of the marriage entirely open.\",\n    \"evidence\": [\"K09\", \"K16\", \"K24\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage and defiant passion\",\n    \"score\": 4,\n    \"reason\": \"Juliana's transition from hurt to righteous fury and fierce defiance creates a strong emotional resonance.\",\n    \"evidence\": [\"K05\", \"K11\", \"K12\", \"K24\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K02\", \"K09\", \"K16\", \"K24\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K02\", \"K09\", \"K16\", \"K24\"]\n    },\n    \"stakes\": {\n      \"summary\": \"The legitimacy of a marriage and the social survival of a noble couple against a hostile religious establishment.\",\n      \"evidence\": [\"K02\", \"K09\", \"K16\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Alexander's War Office proclamation details\"\n      ]\n    },\n    \"appeal\": \"Watch a fierce heroine refuse to let oppressive church authorities tear apart her forbidden marriage.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "2c8967b993b78ad5b8471e990450f909d361aeb92749c8aadbc522db1f8b4495",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3888,
+      "prompt_tokens": 2945,
+      "completion_tokens": 1013,
+      "total_tokens": 3958,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:08:28.522003+00:00"
+}

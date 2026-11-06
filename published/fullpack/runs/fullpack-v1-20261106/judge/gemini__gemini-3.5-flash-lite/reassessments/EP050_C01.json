@@ -1,0 +1,81 @@
+{
+  "candidate_id": "EP050_C01",
+  "checker_version": "c1",
+  "judgement_clip_sha256": "0a1a2291c708bf9f6273a669c7136bfd86d1d38590c4d8497d9daf724ad44324",
+  "judgement_prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "status": "resolved",
+  "flags": [
+    {
+      "dimension": "context_independence",
+      "code": "CONFUSIONS_WITH_HIGH_SCORE",
+      "detail": "score 4 with 2 confusing reference(s) listed"
+    }
+  ],
+  "remaining_flags": [],
+  "original_scores": {
+    "context_independence": 4
+  },
+  "revised_scores": {
+    "context_independence": 3
+  },
+  "revised_dimensions": {
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "While the core situation of a forbidden affair is clear, the mention of an ongoing hearing and the broader stakes require external context that the clip does not provide.",
+      "evidence": [
+        "EP050_B023",
+        "EP050_B032"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A priest and a woman named Catherine engage in a secret, passionate affair behind closed doors. Their forbidden liaison is unexpectedly witnessed by a servant named Agnes, who stumbles upon them in horror.",
+      "confusions": [
+        {
+          "issue": "What hearing is taking place and why their relationship matters to it is never explained.",
+          "block_ids": [
+            "EP050_B023"
+          ]
+        },
+        {
+          "issue": "The stakes of a priest engaging in a forbidden affair in this specific setting are implied but never detailed.",
+          "block_ids": [
+            "EP050_B032"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "note": null,
+  "raw_response_text": "{\n  \"blind_summary\": \"A priest and a woman named Catherine engage in a secret, passionate affair behind closed doors. Their forbidden liaison is unexpectedly witnessed by a servant named Agnes, who stumbles upon them in horror.\",\n  \"confusions\": [\n    {\n      \"issue\": \"What hearing is taking place and why their relationship matters to it is never explained.\",\n      \"block_ids\": [\n        \"K08\"\n      ]\n    },\n    {\n      \"issue\": \"The stakes of a priest engaging in a forbidden affair in this specific setting are implied but never detailed.\",\n      \"block_ids\": [\n        \"K17\"\n      ]\n    }\n  ],\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"While the core situation of a forbidden affair is clear, the mention of an ongoing hearing and the broader stakes require external context that the clip does not provide.\",\n    \"evidence\": [\n      \"K08\",\n      \"K17\"\n    ]\n  }\n}",
+  "calls": [
+    {
+      "stage": "reassess",
+      "cache_key": "c6fb23246daeb9f94a062c2612de2042075de29e5cf3cf714e4ce640356c27e0",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 1245,
+      "prompt_tokens": 4330,
+      "completion_tokens": 234,
+      "total_tokens": 4564,
+      "hidden_tokens": 0
+    }
+  ],
+  "invocation_id": "0012b70a5d99",
+  "created_at": "2026-11-06T11:10:28.577596+00:00"
+}

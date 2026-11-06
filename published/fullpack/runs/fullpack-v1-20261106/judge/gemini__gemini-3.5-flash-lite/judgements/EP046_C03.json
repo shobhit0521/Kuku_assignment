@@ -1,0 +1,292 @@
+{
+  "candidate_id": "EP046_C03",
+  "episode_id": "EP046",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "c8512c4516549b39aad8566ad000b39ef148c67bdfaa50c9acc9e53378099e41",
+  "clip_start_ms": 11000,
+  "clip_end_ms": 42500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP046_B007",
+    "EP046_B008",
+    "EP046_B009"
+  ],
+  "eligible_beat_ids": [
+    "EP046_B021",
+    "EP046_B022",
+    "EP046_B023",
+    "EP046_B024"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The High Priest's sudden declaration of a Crown seizure by Royal command immediately establishes high-stakes institutional conflict.",
+      "evidence": [
+        "EP046_B008",
+        "EP046_B007"
+      ],
+      "issues": [],
+      "block_id": "EP046_B008",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds as the High Priest escalates from locking down the chapel to publicly invalidating the couple's marriage based on his new status.",
+      "evidence": [
+        "EP046_B008",
+        "EP046_B012",
+        "EP046_B018",
+        "EP046_B024"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP046_B008",
+        "EP046_B012",
+        "EP046_B018",
+        "EP046_B024"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The High Priest delivers a final, absolute sentence declaring the marriage legally nonexistent, leaving the immediate fate of the couple hanging.",
+      "evidence": [
+        "EP046_B024",
+        "EP046_B023"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP046_B024",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "How will the Duke fight the church and state decree that strips away his marriage?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core conflict—authorities attempting to annul a marriage because one partner's social status changed—is entirely clear, even if the backstory of the characters is unknown.",
+      "evidence": [
+        "EP046_B008",
+        "EP046_B018",
+        "EP046_B022",
+        "EP046_B024"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A High Priest enters a chapel with armed guards to enforce a Royal command, declaring that a marriage between a man who is now a Duke and a woman who was a beggar is invalid. Despite the Priest's public condemnation, the Duke stands by his wife and insists he loves her for who she is.",
+      "confusions": [
+        {
+          "issue": "Who Alexander and Juliana are, and why their marriage is being legally challenged by the High Priest.",
+          "block_ids": [
+            "EP046_B014",
+            "EP046_B016",
+            "EP046_B018"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip clearly sets up the central injustice and conflict while leaving the resolution and consequences entirely unknown.",
+      "evidence": [
+        "EP046_B018",
+        "EP046_B022",
+        "EP046_B024"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The High Priest is annulling Alexander and Juliana's marriage.",
+        "Alexander was a nameless beggar/commoner when they married and is now a Duke."
+      ],
+      "withheld": [
+        "How Alexander became a Duke.",
+        "Whether the couple can legally or physically overcome the Church's decree."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The arrogant dismissal by the High Priest triggers strong sympathy for the couple, reinforced by Alexander's loyal defense.",
+      "evidence": [
+        "EP046_B018",
+        "EP046_B022",
+        "EP046_B024"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Outrage at social snobbery paired with admiration for steadfast loyalty.",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP046_B008",
+        "EP046_B018",
+        "EP046_B022",
+        "EP046_B024"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "romance_devotion",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP046_B008"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP046_B018",
+        "EP046_B024"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An official decree threatens to tear apart a marriage because of a change in social class.",
+      "evidence": [
+        "EP046_B008",
+        "EP046_B018",
+        "EP046_B024"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP046_B024"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Exact background of Alexander's rise to Duke"
+    ],
+    "curiosity_revealed": [
+      "The High Priest is annulling Alexander and Juliana's marriage.",
+      "Alexander was a nameless beggar/commoner when they married and is now a Duke."
+    ],
+    "curiosity_withheld": [
+      "How Alexander became a Duke.",
+      "Whether the couple can legally or physically overcome the Church's decree."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A newly made Duke refuses to let the church invalidate his marriage to the woman who loved him when he was nobody.",
+    "supporting_block_ids": [
+      "EP046_B008",
+      "EP046_B018",
+      "EP046_B022",
+      "EP046_B024"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A High Priest enters a chapel with armed guards to enforce a Royal command, declaring that a marriage between a man who is now a Duke and a woman who was a beggar is invalid. Despite the Priest's public condemnation, the Duke stands by his wife and insists he loves her for who she is.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Alexander and Juliana are, and why their marriage is being legally challenged by the High Priest.\",\n      \"block_ids\": [\"K08\", \"K10\", \"K12\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"The High Priest's sudden declaration of a Crown seizure by Royal command immediately establishes high-stakes institutional conflict.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K02\", \"K06\", \"K12\", \"K18\"],\n    \"reason\": \"Tension builds as the High Priest escalates from locking down the chapel to publicly invalidating the couple's marriage based on his new status.\",\n    \"evidence\": [\"K02\", \"K06\", \"K12\", \"K18\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K18\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will the Duke fight the church and state decree that strips away his marriage?\",\n    \"score\": 4,\n    \"reason\": \"The High Priest delivers a final, absolute sentence declaring the marriage legally nonexistent, leaving the immediate fate of the couple hanging.\",\n    \"evidence\": [\"K17\", \"K18\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core conflict—authorities attempting to annul a marriage because one partner's social status changed—is entirely clear, even if the backstory of the characters is unknown.\",\n    \"evidence\": [\"K02\", \"K12\", \"K16\", \"K18\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The High Priest is annulling Alexander and Juliana's marriage.\",\n      \"Alexander was a nameless beggar/commoner when they married and is now a Duke.\"\n    ],\n    \"withheld\": [\n      \"How Alexander became a Duke.\",\n      \"Whether the couple can legally or physically overcome the Church's decree.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip clearly sets up the central injustice and conflict while leaving the resolution and consequences entirely unknown.\",\n    \"evidence\": [\"K12\", \"K16\", \"K18\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Outrage at social snobbery paired with admiration for steadfast loyalty.\",\n    \"score\": 4,\n    \"reason\": \"The arrogant dismissal by the High Priest triggers strong sympathy for the couple, reinforced by Alexander's loyal defense.\",\n    \"evidence\": [\"K12\", \"K16\", \"K18\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"romance_devotion\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K02\", \"K12\", \"K16\", \"K18\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K12\", \"K18\"]\n    },\n    \"stakes\": {\n      \"summary\": \"An official decree threatens to tear apart a marriage because of a change in social class.\",\n      \"evidence\": [\"K02\", \"K12\", \"K18\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Exact background of Alexander's rise to Duke\"\n      ]\n    },\n    \"appeal\": \"A newly made Duke refuses to let the church invalidate his marriage to the woman who loved him when he was nobody.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "7d61212331cb16c9728e5d930dea73fb5615bbd782acd81dbfca35dc811a78f8",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3927,
+      "prompt_tokens": 2647,
+      "completion_tokens": 1054,
+      "total_tokens": 3701,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:08:49.651850+00:00"
+}

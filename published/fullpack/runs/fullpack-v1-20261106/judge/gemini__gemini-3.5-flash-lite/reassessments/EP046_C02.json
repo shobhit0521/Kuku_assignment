@@ -1,0 +1,86 @@
+{
+  "candidate_id": "EP046_C02",
+  "checker_version": "c1",
+  "judgement_clip_sha256": "87b87e0a07f2a031e5d94ef84094ffbe667e2d05bdbcabb0ffe0fd64fafdd0cc",
+  "judgement_prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "status": "resolved",
+  "flags": [
+    {
+      "dimension": "context_independence",
+      "code": "CONFUSIONS_WITH_HIGH_SCORE",
+      "detail": "score 4 with 2 confusing reference(s) listed"
+    }
+  ],
+  "remaining_flags": [],
+  "original_scores": {
+    "context_independence": 4
+  },
+  "revised_scores": {
+    "context_independence": 3
+  },
+  "revised_dimensions": {
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The general conflict between the priest and the Duke is clear, but key motives, the backstory of the stolen marriage, and Catherine's relationship to the main characters remain unclear without prior context.",
+      "evidence": [
+        "EP046_B055",
+        "EP046_B058",
+        "EP046_B074"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A high priest attempts to invalidate a Duke's marriage using a religious council decree and armed guards, but the Duke defies him, forcing the priest to grant a ten-day trial. Meanwhile, a woman named Catherine watches the confrontation and smiles maliciously, plotting her own move.",
+      "confusions": [
+        {
+          "issue": "What exactly was stolen and what is the nature of the dispute over the Duke's marriage?",
+          "block_ids": [
+            "EP046_B055",
+            "EP046_B058",
+            "EP046_B060"
+          ]
+        },
+        {
+          "issue": "What is Catherine's relationship to Alexander and the High Priest?",
+          "block_ids": [
+            "EP046_B056",
+            "EP046_B074",
+            "EP046_B075"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "note": null,
+  "raw_response_text": "{\n  \"blind_summary\": \"A high priest attempts to invalidate a Duke's marriage using a religious council decree and armed guards, but the Duke defies him, forcing the priest to grant a ten-day trial. Meanwhile, a woman named Catherine watches the confrontation and smiles maliciously, plotting her own move.\",\n  \"confusions\": [\n    {\n      \"issue\": \"What exactly was stolen and what is the nature of the dispute over the Duke's marriage?\",\n      \"block_ids\": [\n        \"K01\",\n        \"K04\",\n        \"K07\"\n      ]\n    },\n    {\n      \"issue\": \"What is Catherine's relationship to Alexander and the High Priest?\",\n      \"block_ids\": [\n        \"K03\",\n        \"K21\",\n        \"K22\"\n      ]\n    }\n  ],\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The general conflict between the priest and the Duke is clear, but key motives, the backstory of the stolen marriage, and Catherine's relationship to the main characters remain unclear without prior context.\",\n    \"evidence\": [\n      \"K01\",\n      \"K04\",\n      \"K21\"\n    ]\n  }\n}",
+  "calls": [
+    {
+      "stage": "reassess",
+      "cache_key": "31ad528c0981c124d7aed9db5489d2556923181c0294bcab2104539dc4007073",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 1474,
+      "prompt_tokens": 4213,
+      "completion_tokens": 289,
+      "total_tokens": 4502,
+      "hidden_tokens": 0
+    }
+  ],
+  "invocation_id": "d586dab690a4",
+  "created_at": "2026-11-06T11:08:36.259459+00:00"
+}

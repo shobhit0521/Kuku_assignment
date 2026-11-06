@@ -284,3 +284,25 @@ a.pp-idlink:hover { text-decoration: underline; }
 .pp-dl--wide { grid-template-columns: 9.5rem 1fr; }
 .st-key-pp-focus .pp-banner { margin: 0; }
 .st-key-pp-cand-links { gap: 1rem; margin: -.3rem 0 .6rem; }
+
+/* upload page: pipeline stages */
+.pp-stages { list-style: none; padding: 0; margin: .6rem 0; }
+.pp-stage { border: 1px solid var(--pp-line); border-radius: 6px; padding: .55rem .8rem; margin: .4rem 0; }
+.pp-stage__head { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+.pp-stage .pp-muted { margin-top: .2rem; font-size: .85rem; }
+.pp-stage__msg { white-space: pre-wrap; font-size: .78rem; background: var(--pp-canvas); border-radius: 4px;
+  padding: .4rem .6rem; margin: .4rem 0 0; }
+
+/* promos to post first: only the brief's fields */
+[class*="st-key-pp-promo-"] { border: 1px solid var(--pp-line); border-radius: 10px; padding: .9rem 1.1rem .6rem;
+  background: #fff; box-shadow: 0 1px 2px rgba(16,24,40,.04); gap: .2rem; margin-bottom: .2rem; }
+.pp-promo__head { display: flex; align-items: center; gap: .55rem; margin-bottom: .55rem; flex-wrap: wrap; }
+.pp-promo__ep { font-weight: 700; color: var(--pp-ink); font-size: 1.05rem; }
+.pp-promo__head .pp-cid { font-size: .8rem; color: var(--pp-muted); font-weight: 500; }
+.pp-promo__dl { display: grid; grid-template-columns: 8.5rem 1fr; gap: .4rem 1rem; font-size: .92rem; margin: 0; }
+.pp-promo__dl dt { color: var(--pp-muted); font-weight: 600; }
+.pp-promo__dl dd { margin: 0; color: var(--pp-ink-2); }
+.pp-bad { border-left: 3px solid var(--pp-line); padding: .2rem 0 .2rem .8rem; margin: .7rem 0; }
+.pp-bad__head { font-size: .95rem; }
+.pp-bad ul { margin: .3rem 0 0; padding-left: 1.1rem; font-size: .88rem; color: var(--pp-ink-2); }
+.pp-bad .pp-cid { font-size: .85rem; margin-right: .3rem; }

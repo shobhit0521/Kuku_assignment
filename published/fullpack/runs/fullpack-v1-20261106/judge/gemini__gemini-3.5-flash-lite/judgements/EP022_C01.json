@@ -1,0 +1,321 @@
+{
+  "candidate_id": "EP022_C01",
+  "episode_id": "EP022",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "066a711eec2eee98b5f0dba7fba34aa84cde49010774fe3942d303d5a8873247",
+  "clip_start_ms": 81800,
+  "clip_end_ms": 131000,
+  "masked_terms": 2,
+  "eligible_hook_ids": [
+    "EP022_B051",
+    "EP022_B052",
+    "EP022_B053",
+    "EP022_B054"
+  ],
+  "eligible_beat_ids": [
+    "EP022_B074",
+    "EP022_B075",
+    "EP022_B076",
+    "EP022_B077",
+    "EP022_B078",
+    "EP022_B079",
+    "EP022_B080",
+    "EP022_B081"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Lady Juliana asking for the location of the West Wing in a hurried whisper creates mild intrigue about where she is going and why.",
+      "evidence": [
+        "EP022_B052",
+        "EP022_B051"
+      ],
+      "issues": [],
+      "block_id": "EP022_B052",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds steadily from sneaking into a forbidden wing to discovering the duchess's mysterious illness and culminating in a medical emergency.",
+      "evidence": [
+        "EP022_B063",
+        "EP022_B069",
+        "EP022_B075",
+        "EP022_B077",
+        "EP022_B081"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP022_B063",
+        "EP022_B069",
+        "EP022_B075",
+        "EP022_B077",
+        "EP022_B081"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip cuts away on a high-stakes medical crisis and the implication of foul play, leaving the identity of the poisoner entirely open.",
+      "evidence": [
+        "EP022_B081",
+        "EP022_B076",
+        "EP022_B080"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP022_B081",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "Who poisoned the Dowager Duchess?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 2,
+      "valid": true,
+      "reason": "A viewer cannot understand why Lady Juliana is working or posing as a servant in this manor, or what her connection to the Duchess is.",
+      "evidence": [
+        "EP022_B051",
+        "EP022_B055",
+        "EP022_B070"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Lady Juliana sneaks into a restricted wing of a grand manor carrying a wash bucket and finds a frail, ailing Dowager Duchess in bed. After examining her, Juliana realizes the sickness is unnatural and desperately asks who has been treating her.",
+      "confusions": [
+        {
+          "issue": "It is unclear why a lady is dressed or acting as a servant carrying a wash bucket into a restricted area.",
+          "block_ids": [
+            "EP022_B051",
+            "EP022_B055",
+            "EP022_B063"
+          ]
+        },
+        {
+          "issue": "The relationship between Lady Juliana, Prudence, and the Dowager Duchess is completely unexplained.",
+          "block_ids": [
+            "EP022_B054",
+            "EP022_B070"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip effectively establishes a medical mystery and foul play while withholding the answer to who is responsible.",
+      "evidence": [
+        "EP022_B076",
+        "EP022_B080",
+        "EP022_B081"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Lady Juliana sneaks into the West Wing to check on the ailing Dowager Duchess.",
+        "Juliana realizes the illness is not a normal fever."
+      ],
+      "withheld": [
+        "Who is poisoning the Duchess?",
+        "Why is Juliana disguised or acting as a servant?"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The discovery of foul play generates a moderate sense of alarm and suspense.",
+      "evidence": [
+        "EP022_B075",
+        "EP022_B076",
+        "EP022_B081"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion and alarm",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "mystery_revelation",
+      "evidence": [
+        "EP022_B076",
+        "EP022_B080",
+        "EP022_B081"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "danger_threat",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "in_medias_res",
+      "evidence": [
+        "EP022_B051",
+        "EP022_B052"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP022_B075",
+        "EP022_B076",
+        "EP022_B081"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "The Dowager Duchess is being secretly poisoned, and Lady Juliana must uncover the culprit before it is too late.",
+      "evidence": [
+        "EP022_B076",
+        "EP022_B080",
+        "EP022_B081"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP022_B081"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Why Lady Juliana is acting as a servant",
+      "The political or familial dynamics inside Ashbury Manor"
+    ],
+    "curiosity_revealed": [
+      "Lady Juliana sneaks into the West Wing to check on the ailing Dowager Duchess.",
+      "Juliana realizes the illness is not a normal fever."
+    ],
+    "curiosity_withheld": [
+      "Who is poisoning the Duchess?",
+      "Why is Juliana disguised or acting as a servant?"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "An undercover noblewoman discovers a dowager is being slowly poisoned in a grand estate.",
+    "supporting_block_ids": [
+      "EP022_B076",
+      "EP022_B080",
+      "EP022_B081",
+      "EP022_B051",
+      "EP022_B052",
+      "EP022_B075"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "CONTEXT_DEPENDENT",
+      "severity": "minor",
+      "explanation": "The viewer is given no backstory on why Juliana is sneaking around as a servant.",
+      "block_ids": [
+        "EP022_B051",
+        "EP022_B055"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Lady Juliana sneaks into a restricted wing of a grand manor carrying a wash bucket and finds a frail, ailing Dowager Duchess in bed. After examining her, Juliana realizes the sickness is unnatural and desperately asks who has been treating her.\",\n  \"confusions\": [\n    {\n      \"issue\": \"It is unclear why a lady is dressed or acting as a servant carrying a wash bucket into a restricted area.\",\n      \"block_ids\": [\"K01\", \"K05\", \"K13\"]\n    },\n    {\n      \"issue\": \"The relationship between Lady Juliana, Prudence, and the Dowager Duchess is completely unexplained.\",\n      \"block_ids\": [\"K04\", \"K20\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Lady Juliana asking for the location of the West Wing in a hurried whisper creates mild intrigue about where she is going and why.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K13\", \"K19\", \"K25\", \"K27\", \"K31\"],\n    \"reason\": \"Tension builds steadily from sneaking into a forbidden wing to discovering the duchess's mysterious illness and culminating in a medical emergency.\",\n    \"evidence\": [\"K13\", \"K19\", \"K25\", \"K27\", \"K31\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K31\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Who poisoned the Dowager Duchess?\",\n    \"score\": 4,\n    \"reason\": \"The clip cuts away on a high-stakes medical crisis and the implication of foul play, leaving the identity of the poisoner entirely open.\",\n    \"evidence\": [\"K26\", \"K30\", \"K31\"]\n  },\n  \"context_independence\": {\n    \"score\": 2,\n    \"reason\": \"A viewer cannot understand why Lady Juliana is working or posing as a servant in this manor, or what her connection to the Duchess is.\",\n    \"evidence\": [\"K01\", \"K05\", \"K20\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Lady Juliana sneaks into the West Wing to check on the ailing Dowager Duchess.\",\n      \"Juliana realizes the illness is not a normal fever.\"\n    ],\n    \"withheld\": [\n      \"Who is poisoning the Duchess?\",\n      \"Why is Juliana disguised or acting as a servant?\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip effectively establishes a medical mystery and foul play while withholding the answer to who is responsible.\",\n    \"evidence\": [\"K26\", \"K30\", \"K31\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion and alarm\",\n    \"score\": 3,\n    \"reason\": \"The discovery of foul play generates a moderate sense of alarm and suspense.\",\n    \"evidence\": [\"K25\", \"K26\", \"K31\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"mystery_revelation\",\n      \"other_label\": null,\n      \"secondary\": \"danger_threat\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K26\", \"K30\", \"K31\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"in_medias_res\",\n      \"evidence\": [\"K01\", \"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\"K25\", \"K26\", \"K31\"]\n    },\n    \"stakes\": {\n      \"summary\": \"The Dowager Duchess is being secretly poisoned, and Lady Juliana must uncover the culprit before it is too late.\",\n      \"evidence\": [\"K26\", \"K30\", \"K31\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Why Lady Juliana is acting as a servant\",\n        \"The political or familial dynamics inside Ashbury Manor\"\n      ]\n    },\n    \"appeal\": \"An undercover noblewoman discovers a dowager is being slowly poisoned in a grand estate.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"CONTEXT_DEPENDENT\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The viewer is given no backstory on why Juliana is sneaking around as a servant.\",\n      \"block_ids\": [\"K01\", \"K05\"]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "1fae20cd13ed1ba1bfc1481c5d90ef2beba4759b9805f8eac5358f37e65dfb2b",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4045,
+      "prompt_tokens": 3343,
+      "completion_tokens": 1147,
+      "total_tokens": 4490,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:57:45.061088+00:00"
+}

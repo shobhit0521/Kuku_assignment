@@ -1,0 +1,6 @@
+# Dependencies for the hosted app (Streamlit Community Cloud reads the requirements file next to the entrypoint
+# first). Keep in step with ../requirements.txt and ../requirements-ui.txt; tests are not needed when hosted.
+pydantic>=2.6,<3
+python-dotenv>=1.0
+openai>=1.40,<3
+streamlit>=1.50,<2

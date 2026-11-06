@@ -1,0 +1,793 @@
+{
+  "pack_name": "I Married a Broken Soldier. He was a Duke",
+  "parser_version": "1.0.0",
+  "episode_count": 50,
+  "scene_count": 100,
+  "block_count": 3727,
+  "block_type_counts": {
+    "ACTION": 372,
+    "CAMERA": 1754,
+    "DIALOGUE": 1487,
+    "SOUND_FX": 114
+  },
+  "anomaly_counts": {
+    "BLOCK_OVERRUNS_SCENE": 1,
+    "FILE_ORDER_NOT_TIME_ORDER": 8,
+    "HEADER_CASE_VARIANT": 1,
+    "LARGE_CAMERA_GAP": 18,
+    "OVERLAPPING_CAMERA": 5,
+    "OVERLAPPING_DIALOGUE": 10,
+    "UNCOVERED_TIME": 4
+  },
+  "pack_anomalies": [],
+  "speakers": {
+    "AGNES": [
+      48
+    ],
+    "ALEXANDER": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      25,
+      35,
+      36,
+      39,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "ALEXANDER'S MOTHER": [
+      35,
+      36,
+      42
+    ],
+    "ARISTOCRATIC WOMAN": [
+      7
+    ],
+    "BALD THUG": [
+      15,
+      16
+    ],
+    "BLOND NOBLEMAN": [
+      2,
+      9,
+      27,
+      28,
+      37,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "BUTLER": [
+      37
+    ],
+    "CART DRIVER": [
+      39
+    ],
+    "CATHERINE": [
+      20,
+      28,
+      29,
+      30,
+      31,
+      32,
+      37,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "CLARISSA": [
+      4,
+      5,
+      12,
+      13
+    ],
+    "CONSPIRATOR": [
+      47
+    ],
+    "CONSTABLE": [
+      11,
+      12
+    ],
+    "CROWN OFFICIAL": [
+      43
+    ],
+    "DOWAGER DUCHESS": [
+      26,
+      27,
+      28,
+      43
+    ],
+    "ELDER NOBLEMAN": [
+      30,
+      40
+    ],
+    "ELDER VILLAGER": [
+      19
+    ],
+    "FATHER THOMAS": [
+      49,
+      50
+    ],
+    "FOOTMAN": [
+      40
+    ],
+    "GERALD": [
+      4,
+      5,
+      7,
+      11,
+      12,
+      13
+    ],
+    "GUARD": [
+      29,
+      38
+    ],
+    "HIGH PRIEST": [
+      45,
+      46
+    ],
+    "HOUSEKEEPER": [
+      22
+    ],
+    "INFORMANT": [
+      19
+    ],
+    "JUDGE": [
+      34
+    ],
+    "JULIANA": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      25,
+      26,
+      27,
+      28,
+      29,
+      31,
+      32,
+      37,
+      38,
+      41,
+      42,
+      45,
+      46,
+      47
+    ],
+    "LADY ASHBOURNE": [
+      47
+    ],
+    "LADY ASHCROFT": [
+      4,
+      5
+    ],
+    "LADY CATHERINE": [
+      27
+    ],
+    "LADY CLARISSA": [
+      37
+    ],
+    "LADY HARRINGTON": [
+      40
+    ],
+    "LADY IN GOLD GOWN": [
+      1,
+      2,
+      3
+    ],
+    "LADY JULIANA": [
+      1,
+      2,
+      3,
+      21,
+      22,
+      23,
+      24,
+      34
+    ],
+    "LORD": [
+      33,
+      34
+    ],
+    "LORD ASHCROFT": [
+      5
+    ],
+    "LORD HARRINGTON": [
+      40
+    ],
+    "LORD STERLING": [
+      44
+    ],
+    "LOYALIST": [
+      39
+    ],
+    "LOYALIST FIGHTER": [
+      39
+    ],
+    "LOYALIST SCOUT": [
+      39
+    ],
+    "MAID": [
+      33
+    ],
+    "MATRIARCH": [
+      1
+    ],
+    "MYSTERIOUS BEARDED MAN": [
+      4,
+      5,
+      6
+    ],
+    "NOBLE MATRIARCH": [
+      3
+    ],
+    "NOBLEMAN": [
+      37,
+      41
+    ],
+    "NOBLEWOMAN": [
+      24,
+      41
+    ],
+    "OFF-SCREEN VOICE": [
+      2
+    ],
+    "OLD WOMAN": [
+      34
+    ],
+    "PEASANT MOTHER": [
+      9
+    ],
+    "POLICE CONSTABLE": [
+      43,
+      44
+    ],
+    "PRIEST": [
+      41
+    ],
+    "PRUDENCE": [
+      21,
+      22,
+      23,
+      24,
+      34
+    ],
+    "ROYAL GUARD": [
+      3,
+      40,
+      42,
+      43
+    ],
+    "ROYAL SENTRY": [
+      39
+    ],
+    "RUPERT": [
+      20,
+      30,
+      45
+    ],
+    "SCARRED BEARDED MAN": [
+      7
+    ],
+    "SEAMUS": [
+      20
+    ],
+    "TALL THUG": [
+      15
+    ],
+    "THE BEARDED STRANGER": [
+      3
+    ],
+    "THE FORMER GROOM": [
+      1,
+      2,
+      3,
+      9
+    ],
+    "THE PRIEST": [
+      4
+    ],
+    "THIRD THUG": [
+      16
+    ],
+    "THUG WITH CAP": [
+      15,
+      16
+    ],
+    "TOWNSMAN": [
+      34
+    ],
+    "VAUGHN": [
+      47
+    ]
+  },
+  "episodes": [
+    {
+      "episode_id": "EP001",
+      "episode_number": 1,
+      "source_file": "episode-001-Episode 1671703.txt",
+      "duration_ms": 138000,
+      "scene_count": 1,
+      "block_count": 95,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP002",
+      "episode_number": 2,
+      "source_file": "episode-002-Episode 1671704.txt",
+      "duration_ms": 110000,
+      "scene_count": 1,
+      "block_count": 74,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP003",
+      "episode_number": 3,
+      "source_file": "episode-003-Episode 1671705.txt",
+      "duration_ms": 145750,
+      "scene_count": 3,
+      "block_count": 118,
+      "anomaly_count": 1
+    },
+    {
+      "episode_id": "EP004",
+      "episode_number": 4,
+      "source_file": "episode-004-Episode 1671706.txt",
+      "duration_ms": 151400,
+      "scene_count": 1,
+      "block_count": 110,
+      "anomaly_count": 1
+    },
+    {
+      "episode_id": "EP005",
+      "episode_number": 5,
+      "source_file": "episode-005-Episode 1671707.txt",
+      "duration_ms": 110500,
+      "scene_count": 1,
+      "block_count": 62,
+      "anomaly_count": 1
+    },
+    {
+      "episode_id": "EP006",
+      "episode_number": 6,
+      "source_file": "episode-006-Episode 1671708.txt",
+      "duration_ms": 115000,
+      "scene_count": 2,
+      "block_count": 97,
+      "anomaly_count": 2
+    },
+    {
+      "episode_id": "EP007",
+      "episode_number": 7,
+      "source_file": "episode-007-Episode 1671709.txt",
+      "duration_ms": 116000,
+      "scene_count": 3,
+      "block_count": 58,
+      "anomaly_count": 1
+    },
+    {
+      "episode_id": "EP008",
+      "episode_number": 8,
+      "source_file": "episode-008-Episode 1671710.txt",
+      "duration_ms": 78000,
+      "scene_count": 1,
+      "block_count": 63,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP009",
+      "episode_number": 9,
+      "source_file": "episode-009-Episode 1671711.txt",
+      "duration_ms": 115500,
+      "scene_count": 2,
+      "block_count": 89,
+      "anomaly_count": 1
+    },
+    {
+      "episode_id": "EP010",
+      "episode_number": 10,
+      "source_file": "episode-010-Episode 1671712.txt",
+      "duration_ms": 94000,
+      "scene_count": 1,
+      "block_count": 60,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP011",
+      "episode_number": 11,
+      "source_file": "episode-011-Episode 1671713.txt",
+      "duration_ms": 112750,
+      "scene_count": 2,
+      "block_count": 85,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP012",
+      "episode_number": 12,
+      "source_file": "episode-012-Episode 1671714.txt",
+      "duration_ms": 87210,
+      "scene_count": 1,
+      "block_count": 55,
+      "anomaly_count": 1
+    },
+    {
+      "episode_id": "EP013",
+      "episode_number": 13,
+      "source_file": "episode-013-Episode 1671715.txt",
+      "duration_ms": 118880,
+      "scene_count": 2,
+      "block_count": 75,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP014",
+      "episode_number": 14,
+      "source_file": "episode-014-Episode 1671716.txt",
+      "duration_ms": 87630,
+      "scene_count": 3,
+      "block_count": 51,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP015",
+      "episode_number": 15,
+      "source_file": "episode-015-Episode 1671717.txt",
+      "duration_ms": 86000,
+      "scene_count": 1,
+      "block_count": 55,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP016",
+      "episode_number": 16,
+      "source_file": "episode-016-Episode 1671718.txt",
+      "duration_ms": 83190,
+      "scene_count": 1,
+      "block_count": 64,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP017",
+      "episode_number": 17,
+      "source_file": "episode-017-Episode 1671719.txt",
+      "duration_ms": 118880,
+      "scene_count": 2,
+      "block_count": 75,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP018",
+      "episode_number": 18,
+      "source_file": "episode-018-Episode 1671720.txt",
+      "duration_ms": 192000,
+      "scene_count": 5,
+      "block_count": 81,
+      "anomaly_count": 8
+    },
+    {
+      "episode_id": "EP019",
+      "episode_number": 19,
+      "source_file": "episode-019-Episode 1671721.txt",
+      "duration_ms": 119630,
+      "scene_count": 3,
+      "block_count": 63,
+      "anomaly_count": 2
+    },
+    {
+      "episode_id": "EP020",
+      "episode_number": 20,
+      "source_file": "episode-020-Episode 1671722.txt",
+      "duration_ms": 114750,
+      "scene_count": 4,
+      "block_count": 68,
+      "anomaly_count": 3
+    },
+    {
+      "episode_id": "EP021",
+      "episode_number": 21,
+      "source_file": "episode-021-Episode 1678574.txt",
+      "duration_ms": 114000,
+      "scene_count": 3,
+      "block_count": 76,
+      "anomaly_count": 3
+    },
+    {
+      "episode_id": "EP022",
+      "episode_number": 22,
+      "source_file": "episode-022-Episode 1678575.txt",
+      "duration_ms": 131000,
+      "scene_count": 4,
+      "block_count": 81,
+      "anomaly_count": 1
+    },
+    {
+      "episode_id": "EP023",
+      "episode_number": 23,
+      "source_file": "episode-023-Episode 1678576.txt",
+      "duration_ms": 131500,
+      "scene_count": 1,
+      "block_count": 67,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP024",
+      "episode_number": 24,
+      "source_file": "episode-024-Episode 1678577.txt",
+      "duration_ms": 92000,
+      "scene_count": 2,
+      "block_count": 69,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP025",
+      "episode_number": 25,
+      "source_file": "episode-025-Episode 1678578.txt",
+      "duration_ms": 168000,
+      "scene_count": 1,
+      "block_count": 95,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP026",
+      "episode_number": 26,
+      "source_file": "episode-026-Episode 1678579.txt",
+      "duration_ms": 120880,
+      "scene_count": 1,
+      "block_count": 51,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP027",
+      "episode_number": 27,
+      "source_file": "episode-027-Episode 1678580.txt",
+      "duration_ms": 150500,
+      "scene_count": 1,
+      "block_count": 95,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP028",
+      "episode_number": 28,
+      "source_file": "episode-028-Episode 1678581.txt",
+      "duration_ms": 138500,
+      "scene_count": 1,
+      "block_count": 96,
+      "anomaly_count": 3
+    },
+    {
+      "episode_id": "EP029",
+      "episode_number": 29,
+      "source_file": "episode-029-Episode 1678582.txt",
+      "duration_ms": 116690,
+      "scene_count": 3,
+      "block_count": 74,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP030",
+      "episode_number": 30,
+      "source_file": "episode-030-Episode 1678583.txt",
+      "duration_ms": 151210,
+      "scene_count": 3,
+      "block_count": 71,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP031",
+      "episode_number": 31,
+      "source_file": "episode-031-Episode 1681364.txt",
+      "duration_ms": 160000,
+      "scene_count": 1,
+      "block_count": 87,
+      "anomaly_count": 1
+    },
+    {
+      "episode_id": "EP032",
+      "episode_number": 32,
+      "source_file": "episode-032-Episode 1681365.txt",
+      "duration_ms": 154380,
+      "scene_count": 1,
+      "block_count": 117,
+      "anomaly_count": 5
+    },
+    {
+      "episode_id": "EP033",
+      "episode_number": 33,
+      "source_file": "episode-033-Episode 1681366.txt",
+      "duration_ms": 174040,
+      "scene_count": 1,
+      "block_count": 99,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP034",
+      "episode_number": 34,
+      "source_file": "episode-034-Episode 1681367.txt",
+      "duration_ms": 190000,
+      "scene_count": 1,
+      "block_count": 116,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP035",
+      "episode_number": 35,
+      "source_file": "episode-035-Episode 1681368.txt",
+      "duration_ms": 157500,
+      "scene_count": 3,
+      "block_count": 72,
+      "anomaly_count": 6
+    },
+    {
+      "episode_id": "EP036",
+      "episode_number": 36,
+      "source_file": "episode-036-Episode 1681369.txt",
+      "duration_ms": 200750,
+      "scene_count": 1,
+      "block_count": 121,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP037",
+      "episode_number": 37,
+      "source_file": "episode-037-Episode 1681370.txt",
+      "duration_ms": 156470,
+      "scene_count": 4,
+      "block_count": 79,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP038",
+      "episode_number": 38,
+      "source_file": "episode-038-Episode 1681371.txt",
+      "duration_ms": 87910,
+      "scene_count": 1,
+      "block_count": 57,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP039",
+      "episode_number": 39,
+      "source_file": "episode-039-Episode 1686799.txt",
+      "duration_ms": 98410,
+      "scene_count": 5,
+      "block_count": 59,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP040",
+      "episode_number": 40,
+      "source_file": "episode-040-Episode 1686800.txt",
+      "duration_ms": 110080,
+      "scene_count": 4,
+      "block_count": 51,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP041",
+      "episode_number": 41,
+      "source_file": "episode-041-Episode 1686801.txt",
+      "duration_ms": 96090,
+      "scene_count": 1,
+      "block_count": 53,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP042",
+      "episode_number": 42,
+      "source_file": "episode-042-Episode 1686802.txt",
+      "duration_ms": 77800,
+      "scene_count": 1,
+      "block_count": 37,
+      "anomaly_count": 2
+    },
+    {
+      "episode_id": "EP043",
+      "episode_number": 43,
+      "source_file": "episode-043-Episode 1686803.txt",
+      "duration_ms": 114960,
+      "scene_count": 1,
+      "block_count": 87,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP044",
+      "episode_number": 44,
+      "source_file": "episode-044-Episode 1686804.txt",
+      "duration_ms": 70500,
+      "scene_count": 2,
+      "block_count": 54,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP045",
+      "episode_number": 45,
+      "source_file": "episode-045-Episode 1686805.txt",
+      "duration_ms": 121750,
+      "scene_count": 3,
+      "block_count": 74,
+      "anomaly_count": 1
+    },
+    {
+      "episode_id": "EP046",
+      "episode_number": 46,
+      "source_file": "episode-046-Episode 1688395.txt",
+      "duration_ms": 143880,
+      "scene_count": 1,
+      "block_count": 75,
+      "anomaly_count": 2
+    },
+    {
+      "episode_id": "EP047",
+      "episode_number": 47,
+      "source_file": "episode-047-Episode 1688396.txt",
+      "duration_ms": 134000,
+      "scene_count": 4,
+      "block_count": 70,
+      "anomaly_count": 2
+    },
+    {
+      "episode_id": "EP048",
+      "episode_number": 48,
+      "source_file": "episode-048-Episode 1688397.txt",
+      "duration_ms": 80000,
+      "scene_count": 2,
+      "block_count": 43,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP049",
+      "episode_number": 49,
+      "source_file": "episode-049-Episode 1688398.txt",
+      "duration_ms": 144750,
+      "scene_count": 1,
+      "block_count": 63,
+      "anomaly_count": 0
+    },
+    {
+      "episode_id": "EP050",
+      "episode_number": 50,
+      "source_file": "episode-050-Episode 1697563.txt",
+      "duration_ms": 80000,
+      "scene_count": 2,
+      "block_count": 40,
+      "anomaly_count": 0
+    }
+  ]
+}

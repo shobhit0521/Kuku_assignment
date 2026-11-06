@@ -1,0 +1,308 @@
+{
+  "candidate_id": "EP028_C04",
+  "episode_id": "EP028",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "62b0357bf5e954eab6170dbb993a8606fcc00bfee3651b9cd744a48ba8062a60",
+  "clip_start_ms": 70500,
+  "clip_end_ms": 115800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP028_B052",
+    "EP028_B053",
+    "EP028_B054",
+    "EP028_B055",
+    "EP028_B056"
+  ],
+  "eligible_beat_ids": [
+    "EP028_B078",
+    "EP028_B079",
+    "EP028_B080",
+    "EP028_B081",
+    "EP028_B082"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The sudden, aggressive physical act of ripping the locket off Juliana immediately establishes conflict and stakes.",
+      "evidence": [
+        "EP028_B053",
+        "EP028_B052",
+        "EP028_B054"
+      ],
+      "issues": [],
+      "block_id": "EP028_B053",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension rises steadily from physical abuse to the exposure of Juliana's secret identity and culminates in her defiant scream.",
+      "evidence": [
+        "EP028_B053",
+        "EP028_B071",
+        "EP028_B073",
+        "EP028_B082"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP028_B053",
+        "EP028_B065",
+        "EP028_B073",
+        "EP028_B082"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana's sudden, explosive defiance cuts off Catherine's taunts right at the end, leaving a sharp emotional hook for retaliation.",
+      "evidence": [
+        "EP028_B082",
+        "EP028_B081"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP028_B082",
+      "mechanism": "interrupted_action",
+      "outcome": "unresolved",
+      "open_question": "How will Juliana and her husband fight back against Catherine now that her identity is exposed?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The core dynamic of a wicked antagonist tormenting a fallen noblewoman is clear, but specific background details about the family feud and husband are missing.",
+      "evidence": [
+        "EP028_B061",
+        "EP028_B077",
+        "EP028_B079"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A cruel noblewoman named Catherine strips a captive girl named Juliana of her mother's locket and condemns her as a witch. Catherine then discovers Juliana's true aristocratic identity in a book and taunts her about her humiliating past until Juliana fiercely defends her husband.",
+      "confusions": [
+        {
+          "issue": "Why Juliana is being held by guards and accused of witchcraft is not explained.",
+          "block_ids": [
+            "EP028_B057",
+            "EP028_B061"
+          ]
+        },
+        {
+          "issue": "The exact history of why Juliana was cast out of her family and who her husband is remains unknown.",
+          "block_ids": [
+            "EP028_B077",
+            "EP028_B079",
+            "EP028_B080"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip successfully exposes a major secret identity while leaving the broader conflict and revenge arc completely open.",
+      "evidence": [
+        "EP028_B073",
+        "EP028_B077",
+        "EP028_B082"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is actually Lady Juliana Ashcroft, a disgraced former noblewoman.",
+        "Catherine knows Juliana's past and is using it to humiliate her."
+      ],
+      "withheld": [
+        "Why Juliana is facing the gallows as a 'witch'.",
+        "How Juliana will escape or retaliate against Catherine."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Catherine's merciless cruelty combined with Juliana's desperate defense of her mother and husband generates strong sympathy and anger.",
+      "evidence": [
+        "EP028_B059",
+        "EP028_B064",
+        "EP028_B082"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage and defiance",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP028_B053",
+        "EP028_B073",
+        "EP028_B082"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "physical_action",
+      "evidence": [
+        "EP028_B052",
+        "EP028_B053"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP028_B056",
+        "EP028_B061",
+        "EP028_B080"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A disgraced noblewoman hiding her identity is unmasked by a ruthless enemy and condemned to face the gallows.",
+      "evidence": [
+        "EP028_B061",
+        "EP028_B073",
+        "EP028_B077"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "interrupted_action",
+      "evidence": [
+        "EP028_B082"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Why Juliana was cast out initially",
+      "The identity of Juliana's husband"
+    ],
+    "curiosity_revealed": [
+      "Juliana is actually Lady Juliana Ashcroft, a disgraced former noblewoman.",
+      "Catherine knows Juliana's past and is using it to humiliate her."
+    ],
+    "curiosity_withheld": [
+      "Why Juliana is facing the gallows as a 'witch'.",
+      "How Juliana will escape or retaliate against Catherine."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a ruthless noblewoman unmask and humiliate her disgraced rival—until the captive fights back.",
+    "supporting_block_ids": [
+      "EP028_B053",
+      "EP028_B073",
+      "EP028_B082",
+      "EP028_B052",
+      "EP028_B056",
+      "EP028_B061",
+      "EP028_B080",
+      "EP028_B077"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A cruel noblewoman named Catherine strips a captive girl named Juliana of her mother's locket and condemns her as a witch. Catherine then discovers Juliana's true aristocratic identity in a book and taunts her about her humiliating past until Juliana fiercely defends her husband.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Why Juliana is being held by guards and accused of witchcraft is not explained.\",\n      \"block_ids\": [\"K06\", \"K10\"]\n    },\n    {\n      \"issue\": \"The exact history of why Juliana was cast out of her family and who her husband is remains unknown.\",\n      \"block_ids\": [\"K26\", \"K28\", \"K29\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"The sudden, aggressive physical act of ripping the locket off Juliana immediately establishes conflict and stakes.\",\n    \"evidence\": [\"K01\", \"K02\", \"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K02\", \"K14\", \"K22\", \"K31\"],\n    \"reason\": \"Tension rises steadily from physical abuse to the exposure of Juliana's secret identity and culminates in her defiant scream.\",\n    \"evidence\": [\"K02\", \"K20\", \"K22\", \"K31\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K31\",\n    \"mechanism\": \"interrupted_action\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Juliana and her husband fight back against Catherine now that her identity is exposed?\",\n    \"score\": 4,\n    \"reason\": \"Juliana's sudden, explosive defiance cuts off Catherine's taunts right at the end, leaving a sharp emotional hook for retaliation.\",\n    \"evidence\": [\"K30\", \"K31\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The core dynamic of a wicked antagonist tormenting a fallen noblewoman is clear, but specific background details about the family feud and husband are missing.\",\n    \"evidence\": [\"K10\", \"K26\", \"K28\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is actually Lady Juliana Ashcroft, a disgraced former noblewoman.\",\n      \"Catherine knows Juliana's past and is using it to humiliate her.\"\n    ],\n    \"withheld\": [\n      \"Why Juliana is facing the gallows as a 'witch'.\",\n      \"How Juliana will escape or retaliate against Catherine.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip successfully exposes a major secret identity while leaving the broader conflict and revenge arc completely open.\",\n    \"evidence\": [\"K22\", \"K26\", \"K31\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage and defiance\",\n    \"score\": 4,\n    \"reason\": \"Catherine's merciless cruelty combined with Juliana's desperate defense of her mother and husband generates strong sympathy and anger.\",\n    \"evidence\": [\"K08\", \"K13\", \"K31\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K02\", \"K22\", \"K31\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"physical_action\",\n      \"evidence\": [\"K01\", \"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K05\", \"K10\", \"K29\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A disgraced noblewoman hiding her identity is unmasked by a ruthless enemy and condemned to face the gallows.\",\n      \"evidence\": [\"K10\", \"K22\", \"K26\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Why Juliana was cast out initially\",\n        \"The identity of Juliana's husband\"\n      ]\n    },\n    \"appeal\": \"Watch a ruthless noblewoman unmask and humiliate her disgraced rival—until the captive fights back.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "9f80393b5a388bf007113322d208311391fa9ff88710e21a4c02a5c03696a790",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3842,
+      "prompt_tokens": 3222,
+      "completion_tokens": 1093,
+      "total_tokens": 4315,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:00:23.194784+00:00"
+}

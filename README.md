@@ -181,7 +181,7 @@ reasons, repairs, the baseline and API usage. Writes
 Promos are single continuous spans of one episode; montages stitched from separate moments are out of
 scope.
 
-## Interface (local only, read-only)
+## Interface
 
 ```
 pip install -r requirements-ui.txt
@@ -189,12 +189,56 @@ python -m promopilot_ui                 # http://localhost:8501
 python -m promopilot_ui --server.port 8601
 ```
 
-A Streamlit app over the persisted outputs in `PROMOPILOT_OUTPUT_DIR`: the Shortlist and a per-candidate
-analysis next to the screenplay lines it covers. It only reads files; it never calls a model, re-ranks
-or writes anywhere. Production pages always use the judge-v1 outputs (the rubric environment variable is
-ignored), and experimental rubric folders are listed but never mixed in. The server binds to localhost
-and usage telemetry is disabled (`.streamlit/config.toml`). The screenplay is confidential: do not
-deploy the app or expose the port. Use "Reload data" after re-running a pipeline step.
+`python -m promopilot_ui` binds to localhost with usage telemetry disabled.
+
+**Kuku 50-episode analysis** (read-only). The default page, "Promos to post first", shows only what the brief
+asks for. Each ranked promo shows its episode, segment timestamps, hook, cliffhanger, one line on why it works, and
+why it holds its rank (from the stored scores and the ranking's own tie-break order). Below the promos is a short
+"where the tool picks badly" summary with real examples. The "Details" pages in the sidebar hold everything else:
+Full candidate analysis, Where it picks badly, Scores and ranking rules, Repairs and Downloads. All of them read the
+persisted outputs in `PROMOPILOT_DASHBOARD_DIR` (default `PROMOPILOT_OUTPUT_DIR`). These pages
+only read files; they never call a model, re-rank or write anywhere. They always use the judge-v1 outputs (the
+rubric environment variable is ignored), and experimental rubric folders are listed but never mixed in. Use
+"Reload data" after re-running a pipeline step.
+
+**Analyse your own screenplays** (`/analyse`): a visitor uploads one or more `.txt` episode files in the same
+format as the pack. Each file is checked with the parser as soon as it is uploaded. "Start analysis" then runs
+the unchanged pipeline (parse, generate, validate, judge with judge-v1, rank) in a background worker
+(`python -m promopilot.live JOBDIR`). The worker uses an isolated job folder under `PROMOPILOT_LIVE_DIR`, so it
+cannot read or write the 50-episode outputs. A stage is marked done only once its output files exist. The
+ranked clips and the full per-candidate analysis appear on the same page, with downloads.
+
+This page makes real model calls on the configured key. Its limits are set with the `PROMOPILOT_LIVE_*`
+settings (see `.env.example`):
+- files per upload;
+- size per file;
+- requests per file for generation and for judging;
+- one analysis at a time;
+- a daily request cap.
+
+The daily cap is a soft limit and is not a billing limit; set a budget alert on the provider account as well.
+Jobs are deleted on "Start over" or after `PROMOPILOT_LIVE_JOB_TTL_MIN` minutes.
+
+### Hosting (Streamlit Community Cloud)
+
+`published/fullpack/` holds a copy of the 50-episode outputs that the hosted dashboard reads: the parsed
+episodes and `runs/fullpack-v1-20261106` without call logs or history. It contains screenplay text and
+quotes, and is published deliberately.
+
+To deploy:
+1. Set the entrypoint to `promopilot_ui/app.py`. Dependencies come from `promopilot_ui/requirements.txt`.
+2. Choose Python 3.12.
+3. Add these secrets:
+
+   ```toml
+   GEMINI_API_KEY = "..."
+   GEMINI_MODEL = "gemini-3.5-flash"
+   LLM_PROVIDER = "gemini"
+   PROMOPILOT_DASHBOARD_DIR = "published/fullpack"
+   ```
+
+Community Cloud forces usage telemetry on. The app sleeps after a period without visitors. A restart removes
+running upload jobs, and the page reports that the job was lost.
 
 Free-tier limits are tight: in testing the Gemini free tier allowed 20 requests per day for the
 flash model, and failed 503 attempts appeared to count against it. A paid model (for example a larger

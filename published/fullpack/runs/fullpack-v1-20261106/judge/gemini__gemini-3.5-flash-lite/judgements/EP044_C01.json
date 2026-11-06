@@ -1,0 +1,311 @@
+{
+  "candidate_id": "EP044_C01",
+  "episode_id": "EP044",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "f873b8b7008c71342409697d081b8b31c967383d3552082404dffb58a3d55b8e",
+  "clip_start_ms": 24400,
+  "clip_end_ms": 70500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP044_B017",
+    "EP044_B018"
+  ],
+  "eligible_beat_ids": [
+    "EP044_B046",
+    "EP044_B047",
+    "EP044_B048",
+    "EP044_B049",
+    "EP044_B050",
+    "EP044_B051",
+    "EP044_B052",
+    "EP044_B054",
+    "EP044_B053"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Catherine addressing a presumed-dead lover immediately establishes high emotional stakes and dramatic irony.",
+      "evidence": [
+        "EP044_B018",
+        "EP044_B017"
+      ],
+      "issues": [],
+      "block_id": "EP044_B018",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily from a heartbreaking plea into outright rejection, culminating in the shocking reveal of Alexander walking toward another woman in chains.",
+      "evidence": [
+        "EP044_B030",
+        "EP044_B037",
+        "EP044_B041",
+        "EP044_B050",
+        "EP044_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP044_B030",
+        "EP044_B037",
+        "EP044_B041",
+        "EP044_B050",
+        "EP044_B053"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The final cut on Catherine's horrified realization creates a potent twist and an immediate question about the power dynamics and history between the characters.",
+      "evidence": [
+        "EP044_B053",
+        "EP044_B050",
+        "EP044_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP044_B053",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "Why is Alexander choosing the shackled Juliana over Catherine, and what is his true relationship to both women?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The core emotional conflict of a returned lover's cold rejection is clear, but the background involving Rupert and the shackled woman requires prior context.",
+      "evidence": [
+        "EP044_B017",
+        "EP044_B034",
+        "EP044_B049"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Catherine mourned Alexander for three years believing he was dead, only for him to return alive and coldly reject her love. Instead of accepting her, he turns his back on her and walks toward a shackled woman named Juliana, leaving Catherine utterly bewildered.",
+      "confusions": [
+        {
+          "issue": "Who Rupert is and why he is held under guard in the background",
+          "block_ids": [
+            "EP044_B017",
+            "EP044_B034"
+          ]
+        },
+        {
+          "issue": "Why Alexander is estranged and resentful, and who Juliana is in relation to them",
+          "block_ids": [
+            "EP044_B037",
+            "EP044_B041",
+            "EP044_B049"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip delivers a clear emotional arc while setting up an intriguing mystery regarding the returned duke's true motivations and allegiances.",
+      "evidence": [
+        "EP044_B026",
+        "EP044_B037",
+        "EP044_B050",
+        "EP044_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander returned after being mourned dead for three years",
+        "He completely rejects Catherine's love and denies she was ever his duchess",
+        "He chooses a shackled woman named Juliana instead"
+      ],
+      "withheld": [
+        "Why Alexander abandoned her and changed so drastically",
+        "What Juliana's role and crime are",
+        "What happens to Rupert"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 5,
+      "valid": true,
+      "reason": "Catherine's raw grief, desperate pleading, and ultimate shock generate a strong sympathetic emotional response.",
+      "evidence": [
+        "EP044_B020",
+        "EP044_B026",
+        "EP044_B039",
+        "EP044_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Heartbreak and outrage",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "betrayal_humiliation",
+      "evidence": [
+        "EP044_B026",
+        "EP044_B037",
+        "EP044_B053"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "romance_devotion",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP044_B018"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP044_B037",
+        "EP044_B053"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Catherine faces public humiliation and heartbreak as the man she mourned for three years rejects her for another woman.",
+      "evidence": [
+        "EP044_B026",
+        "EP044_B037",
+        "EP044_B053"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP044_B053"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "The reason for Alexander's three-year absence",
+      "The identity and situation of Juliana"
+    ],
+    "curiosity_revealed": [
+      "Alexander returned after being mourned dead for three years",
+      "He completely rejects Catherine's love and denies she was ever his duchess",
+      "He chooses a shackled woman named Juliana instead"
+    ],
+    "curiosity_withheld": [
+      "Why Alexander abandoned her and changed so drastically",
+      "What Juliana's role and crime are",
+      "What happens to Rupert"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A grieving woman discovers her returned lover despises her and chooses a chained prisoner instead.",
+    "supporting_block_ids": [
+      "EP044_B026",
+      "EP044_B037",
+      "EP044_B053",
+      "EP044_B018"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Catherine mourned Alexander for three years believing he was dead, only for him to return alive and coldly reject her love. Instead of accepting her, he turns his back on her and walks toward a shackled woman named Juliana, leaving Catherine utterly bewildered.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Rupert is and why he is held under guard in the background\",\n      \"block_ids\": [\"K01\", \"K18\"]\n    },\n    {\n      \"issue\": \"Why Alexander is estranged and resentful, and who Juliana is in relation to them\",\n      \"block_ids\": [\"K21\", \"K24\", \"K33\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Catherine addressing a presumed-dead lover immediately establishes high emotional stakes and dramatic irony.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K14\", \"K21\", \"K24\", \"K34\", \"K38\"],\n    \"reason\": \"Tension builds steadily from a heartbreaking plea into outright rejection, culminating in the shocking reveal of Alexander walking toward another woman in chains.\",\n    \"evidence\": [\"K14\", \"K21\", \"K24\", \"K34\", \"K38\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K38\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Why is Alexander choosing the shackled Juliana over Catherine, and what is his true relationship to both women?\",\n    \"score\": 5,\n    \"reason\": \"The final cut on Catherine's horrified realization creates a potent twist and an immediate question about the power dynamics and history between the characters.\",\n    \"evidence\": [\"K34\", \"K37\", \"K38\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The core emotional conflict of a returned lover's cold rejection is clear, but the background involving Rupert and the shackled woman requires prior context.\",\n    \"evidence\": [\"K01\", \"K18\", \"K33\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Alexander returned after being mourned dead for three years\",\n      \"He completely rejects Catherine's love and denies she was ever his duchess\",\n      \"He chooses a shackled woman named Juliana instead\"\n    ],\n    \"withheld\": [\n      \"Why Alexander abandoned her and changed so drastically\",\n      \"What Juliana's role and crime are\",\n      \"What happens to Rupert\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"The clip delivers a clear emotional arc while setting up an intriguing mystery regarding the returned duke's true motivations and allegiances.\",\n    \"evidence\": [\"K10\", \"K21\", \"K34\", \"K38\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Heartbreak and outrage\",\n    \"score\": 5,\n    \"reason\": \"Catherine's raw grief, desperate pleading, and ultimate shock generate a strong sympathetic emotional response.\",\n    \"evidence\": [\"K04\", \"K10\", \"K23\", \"K38\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"betrayal_humiliation\",\n      \"other_label\": null,\n      \"secondary\": \"romance_devotion\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K10\", \"K21\", \"K38\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\"K21\", \"K38\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Catherine faces public humiliation and heartbreak as the man she mourned for three years rejects her for another woman.\",\n      \"evidence\": [\"K10\", \"K21\", \"K38\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"The reason for Alexander's three-year absence\",\n        \"The identity and situation of Juliana\"\n      ]\n    },\n    \"appeal\": \"A grieving woman discovers her returned lover despises her and chooses a chained prisoner instead.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "ea3b06e4ddb6728d0a80f5f02e2c0db6a507fb82a15066630c33e7b425666897",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3747,
+      "prompt_tokens": 3527,
+      "completion_tokens": 1111,
+      "total_tokens": 4638,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:07:52.113316+00:00"
+}

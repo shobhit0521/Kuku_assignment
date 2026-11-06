@@ -1,0 +1,294 @@
+{
+  "candidate_id": "EP001_C03",
+  "episode_id": "EP001",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "0cee202bd7e650c52b8f3a246a3e8d16dede049ccaa29c25a23812d0b311e717",
+  "clip_start_ms": 39000,
+  "clip_end_ms": 78500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP001_B026",
+    "EP001_B027",
+    "EP001_B028",
+    "EP001_B029"
+  ],
+  "eligible_beat_ids": [
+    "EP001_B046",
+    "EP001_B048",
+    "EP001_B049",
+    "EP001_B050",
+    "EP001_B051",
+    "EP001_B052"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 5,
+      "valid": true,
+      "reason": "The line immediately delivers a devastating betrayal and sets up the central conflict of a wedding theft.",
+      "evidence": [
+        "EP001_B027",
+        "EP001_B026"
+      ],
+      "issues": [],
+      "block_id": "EP001_B027",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds as Juliana uncovers deeper layers of the cruel conspiracy between her fiancé and her sister, escalating from shock to outraged questioning.",
+      "evidence": [
+        "EP001_B032",
+        "EP001_B038",
+        "EP001_B043",
+        "EP001_B050",
+        "EP001_B052"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP001_B032",
+        "EP001_B038",
+        "EP001_B043",
+        "EP001_B050",
+        "EP001_B052"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The final line drops a chilling confirmation of a long-term betrayal, leaving viewers craving justice for Juliana.",
+      "evidence": [
+        "EP001_B052",
+        "EP001_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP001_B052",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "How long has the groom and sister's betrayal been planned, and how will Juliana retaliate?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 5,
+      "valid": true,
+      "reason": "The situation, relationships (sisters, former groom), and high stakes of a stolen wedding are entirely self-evident.",
+      "evidence": [
+        "EP001_B027",
+        "EP001_B032",
+        "EP001_B037",
+        "EP001_B045"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman discovers at her wedding altar that her groom has betrayed her by marrying her sister instead. She confronts them in tears, but they show cold indifference and malicious pride.",
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip provides a clear, highly emotional setup of a vicious betrayal while withholding the extent of the conspiracy and the protagonist's revenge.",
+      "evidence": [
+        "EP001_B037",
+        "EP001_B038",
+        "EP001_B052"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Gerald is marrying Juliana's sister instead of Juliana.",
+        "The sister and groom conspired together.",
+        "Juliana wore her mother's gown to a fake wedding."
+      ],
+      "withheld": [
+        "How long the affair and plot lasted.",
+        "What Juliana will do next to fight back."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 5,
+      "valid": true,
+      "reason": "The combination of the mother's gown, the sister's betrayal, and the groom's coldness generates intense sympathy and righteous anger.",
+      "evidence": [
+        "EP001_B028",
+        "EP001_B032",
+        "EP001_B037",
+        "EP001_B043"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Outrage and heartbreak",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "betrayal_humiliation",
+      "evidence": [
+        "EP001_B027",
+        "EP001_B032",
+        "EP001_B045",
+        "EP001_B052"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP001_B027"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP001_B029",
+        "EP001_B037",
+        "EP001_B043"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A humiliated bride faces public abandonment as her own sister steals her groom at the altar.",
+      "evidence": [
+        "EP001_B027",
+        "EP001_B032",
+        "EP001_B038"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP001_B052"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "Gerald is marrying Juliana's sister instead of Juliana.",
+      "The sister and groom conspired together.",
+      "Juliana wore her mother's gown to a fake wedding."
+    ],
+    "curiosity_withheld": [
+      "How long the affair and plot lasted.",
+      "What Juliana will do next to fight back."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Witness the ultimate betrayal when a sister steals the bride's groom at the altar.",
+    "supporting_block_ids": [
+      "EP001_B027",
+      "EP001_B032",
+      "EP001_B045",
+      "EP001_B052",
+      "EP001_B029",
+      "EP001_B037",
+      "EP001_B043",
+      "EP001_B038"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman discovers at her wedding altar that her groom has betrayed her by marrying her sister instead. She confronts them in tears, but they show cold indifference and malicious pride.\",\n  \"confusions\": [],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 5,\n    \"reason\": \"The line immediately delivers a devastating betrayal and sets up the central conflict of a wedding theft.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K06\",\n      \"K13\",\n      \"K18\",\n      \"K25\",\n      \"K27\"\n    ],\n    \"reason\": \"Tension builds as Juliana uncovers deeper layers of the cruel conspiracy between her fiancé and her sister, escalating from shock to outraged questioning.\",\n    \"evidence\": [\n      \"K06\",\n      \"K13\",\n      \"K18\",\n      \"K25\",\n      \"K27\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K27\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How long has the groom and sister's betrayal been planned, and how will Juliana retaliate?\",\n    \"score\": 5,\n    \"reason\": \"The final line drops a chilling confirmation of a long-term betrayal, leaving viewers craving justice for Juliana.\",\n    \"evidence\": [\n      \"K26\",\n      \"K27\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 5,\n    \"reason\": \"The situation, relationships (sisters, former groom), and high stakes of a stolen wedding are entirely self-evident.\",\n    \"evidence\": [\n      \"K02\",\n      \"K06\",\n      \"K12\",\n      \"K20\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Gerald is marrying Juliana's sister instead of Juliana.\",\n      \"The sister and groom conspired together.\",\n      \"Juliana wore her mother's gown to a fake wedding.\"\n    ],\n    \"withheld\": [\n      \"How long the affair and plot lasted.\",\n      \"What Juliana will do next to fight back.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"The clip provides a clear, highly emotional setup of a vicious betrayal while withholding the extent of the conspiracy and the protagonist's revenge.\",\n    \"evidence\": [\n      \"K12\",\n      \"K13\",\n      \"K27\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Outrage and heartbreak\",\n    \"score\": 5,\n    \"reason\": \"The combination of the mother's gown, the sister's betrayal, and the groom's coldness generates intense sympathy and righteous anger.\",\n    \"evidence\": [\n      \"K03\",\n      \"K06\",\n      \"K12\",\n      \"K18\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"betrayal_humiliation\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K02\",\n        \"K06\",\n        \"K20\",\n        \"K27\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\n        \"K04\",\n        \"K12\",\n        \"K18\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A humiliated bride faces public abandonment as her own sister steals her groom at the altar.\",\n      \"evidence\": [\n        \"K02\",\n        \"K06\",\n        \"K13\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"Witness the ultimate betrayal when a sister steals the bride's groom at the altar.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "86a495f02f303d9e302812a4540ae0b0e8e82cf443e216caf2ebc2c2e48f28da",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 6150,
+      "prompt_tokens": 3030,
+      "completion_tokens": 1078,
+      "total_tokens": 4108,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T09:58:59.333281+00:00"
+}

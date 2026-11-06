@@ -1,0 +1,300 @@
+{
+  "candidate_id": "EP031_C04",
+  "episode_id": "EP031",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "20b9ef682a05f2b5f5a86db0d31fc3404d402fbd76451e90d4048c2cd74a215f",
+  "clip_start_ms": 59000,
+  "clip_end_ms": 91200,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP031_B033",
+    "EP031_B034",
+    "EP031_B035"
+  ],
+  "eligible_beat_ids": [
+    "EP031_B049",
+    "EP031_B050",
+    "EP031_B051",
+    "EP031_B052"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana starts immediately with a sharp, judgmental declaration about someone choosing money, which creates instant intrigue.",
+      "evidence": [
+        "EP031_B034"
+      ],
+      "issues": [],
+      "block_id": "EP031_B034",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "A steady exchange of insults and verbal sparring between a prisoner and her tormentor holding a torture tool, though it lacks physical escalation.",
+      "evidence": [
+        "EP031_B038",
+        "EP031_B042",
+        "EP031_B046",
+        "EP031_B050",
+        "EP031_B052"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP031_B038",
+        "EP031_B042",
+        "EP031_B046",
+        "EP031_B050",
+        "EP031_B052"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "It ends on a strong defiant line and a direct look between the two characters, leaving the immediate physical threat of the iron hanging.",
+      "evidence": [
+        "EP031_B052",
+        "EP031_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP031_B052",
+      "mechanism": "reaction_hold",
+      "outcome": "unresolved",
+      "open_question": "How will Catherine retaliate against Juliana's piercing final retort?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The core dynamic of prisoner versus tormentor is clear, but references to Gerald, Clarissa, and why Juliana is in the dungeon require outside context.",
+      "evidence": [
+        "EP031_B034",
+        "EP031_B035",
+        "EP031_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A defiant prisoner named Juliana sits in a dungeon and calmly trades insults with a mocking woman named Catherine who holds a hot iron. Despite her imprisonment, Juliana remains fiercely proud of her choice in love over wealth.",
+      "confusions": [
+        {
+          "issue": "Who Gerald and Clarissa are and why their choices matter is not explained.",
+          "block_ids": [
+            "EP031_B034",
+            "EP031_B035"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It sets up the ideological conflict and power dynamic clearly while keeping the immediate physical danger unresolved.",
+      "evidence": [
+        "EP031_B043",
+        "EP031_B045",
+        "EP031_B052"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is imprisoned in a dungeon.",
+        "Catherine is mocking her choice of a poor man over wealth.",
+        "Juliana refuses to break or show fear."
+      ],
+      "withheld": [
+        "What crimes or conflicts landed Juliana in the dungeon.",
+        "What Catherine will do with the hot iron."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana's unwavering dignity and sharp comebacks against a tormentor holding a branding iron evoke a strong sense of admiration and defiance.",
+      "evidence": [
+        "EP031_B036",
+        "EP031_B040",
+        "EP031_B044",
+        "EP031_B052"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "defiant pride",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP031_B034",
+        "EP031_B038",
+        "EP031_B044",
+        "EP031_B052"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP031_B034"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP031_B045",
+        "EP031_B050",
+        "EP031_B052"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An imprisoned woman faces torture and mockery from her adversary but refuses to compromise her dignity or her choice of love.",
+      "evidence": [
+        "EP031_B043",
+        "EP031_B045",
+        "EP031_B050",
+        "EP031_B052"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP031_B052"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Identity of Gerald and Clarissa",
+      "The exact reason for Juliana's imprisonment"
+    ],
+    "curiosity_revealed": [
+      "Juliana is imprisoned in a dungeon.",
+      "Catherine is mocking her choice of a poor man over wealth.",
+      "Juliana refuses to break or show fear."
+    ],
+    "curiosity_withheld": [
+      "What crimes or conflicts landed Juliana in the dungeon.",
+      "What Catherine will do with the hot iron."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "An imprisoned woman stares down her tormentor with absolute defiance, choosing love over a life of corrupted wealth.",
+    "supporting_block_ids": [
+      "EP031_B034",
+      "EP031_B038",
+      "EP031_B044",
+      "EP031_B052",
+      "EP031_B045",
+      "EP031_B050",
+      "EP031_B043"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A defiant prisoner named Juliana sits in a dungeon and calmly trades insults with a mocking woman named Catherine who holds a hot iron. Despite her imprisonment, Juliana remains fiercely proud of her choice in love over wealth.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Gerald and Clarissa are and why their choices matter is not explained.\",\n      \"block_ids\": [\"K02\", \"K03\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Juliana starts immediately with a sharp, judgmental declaration about someone choosing money, which creates instant intrigue.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K06\", \"K10\", \"K14\", \"K18\", \"K20\"],\n    \"reason\": \"A steady exchange of insults and verbal sparring between a prisoner and her tormentor holding a torture tool, though it lacks physical escalation.\",\n    \"evidence\": [\"K06\", \"K10\", \"K14\", \"K18\", \"K20\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K20\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Catherine retaliate against Juliana's piercing final retort?\",\n    \"score\": 3,\n    \"reason\": \"It ends on a strong defiant line and a direct look between the two characters, leaving the immediate physical threat of the iron hanging.\",\n    \"evidence\": [\"K19\", \"K20\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The core dynamic of prisoner versus tormentor is clear, but references to Gerald, Clarissa, and why Juliana is in the dungeon require outside context.\",\n    \"evidence\": [\"K02\", \"K03\", \"K18\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is imprisoned in a dungeon.\",\n      \"Catherine is mocking her choice of a poor man over wealth.\",\n      \"Juliana refuses to break or show fear.\"\n    ],\n    \"withheld\": [\n      \"What crimes or conflicts landed Juliana in the dungeon.\",\n      \"What Catherine will do with the hot iron.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It sets up the ideological conflict and power dynamic clearly while keeping the immediate physical danger unresolved.\",\n    \"evidence\": [\"K11\", \"K13\", \"K20\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"defiant pride\",\n    \"score\": 4,\n    \"reason\": \"Juliana's unwavering dignity and sharp comebacks against a tormentor holding a branding iron evoke a strong sense of admiration and defiance.\",\n    \"evidence\": [\"K04\", \"K08\", \"K12\", \"K20\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K02\", \"K06\", \"K12\", \"K20\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K13\", \"K18\", \"K20\"]\n    },\n    \"stakes\": {\n      \"summary\": \"An imprisoned woman faces torture and mockery from her adversary but refuses to compromise her dignity or her choice of love.\",\n      \"evidence\": [\"K11\", \"K13\", \"K18\", \"K20\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Identity of Gerald and Clarissa\",\n        \"The exact reason for Juliana's imprisonment\"\n      ]\n    },\n    \"appeal\": \"An imprisoned woman stares down her tormentor with absolute defiance, choosing love over a life of corrupted wealth.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "72d2d6f2bbdfbfc4239a2a83793f1da4577a22137d588cc9875b04b7fcc1a6dc",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3919,
+      "prompt_tokens": 2661,
+      "completion_tokens": 1041,
+      "total_tokens": 3702,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:02:02.664918+00:00"
+}

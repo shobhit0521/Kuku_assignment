@@ -1,0 +1,297 @@
+{
+  "candidate_id": "EP025_C03",
+  "episode_id": "EP025",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "ac6b666c5b125451123b821e100e4412ba23cb7378b7260e8c305a7d7d29bbe2",
+  "clip_start_ms": 128000,
+  "clip_end_ms": 159200,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP025_B076",
+    "EP025_B077"
+  ],
+  "eligible_beat_ids": [
+    "EP025_B087",
+    "EP025_B089",
+    "EP025_B090",
+    "EP025_B091",
+    "EP025_B092",
+    "EP025_B093"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Starting mid-confrontation with an accusation about poisoning immediately establishes high tension and stakes.",
+      "evidence": [
+        "EP025_B077"
+      ],
+      "issues": [],
+      "block_id": "EP025_B077",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds through Alexander's escalating protective anger and fear, resolving into a partnership when he agrees to let her proceed if she shares information.",
+      "evidence": [
+        "EP025_B077",
+        "EP025_B081",
+        "EP025_B091"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP025_B077",
+        "EP025_B081",
+        "EP025_B091"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "It sets up the transition to her sharing crucial details, creating a forward pull to the next scene.",
+      "evidence": [
+        "EP025_B093",
+        "EP025_B091"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP025_B093",
+      "mechanism": "unanswered_question",
+      "outcome": "partly_resolved",
+      "open_question": "What secrets and details will Juliana reveal about the poisoning?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The emotional dynamic and immediate argument are clear, but the background of the poisoning and who attacked Juliana are unknown.",
+      "evidence": [
+        "EP025_B077",
+        "EP025_B081",
+        "EP025_B088"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A man named Alexander confronts a woman named Juliana for keeping dangerous secrets about someone being poisoned in a house. Despite his fierce worry and demands that she stay away, Juliana insists she cannot abandon the victim, leading Alexander to relent and demand she tell him everything.",
+      "confusions": [
+        {
+          "issue": "Who is being poisoned and who 'struck' Juliana is completely unexplained.",
+          "block_ids": [
+            "EP025_B077",
+            "EP025_B081"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It establishes the personal stakes and dramatic conflict clearly while withholding the mystery details of the plot.",
+      "evidence": [
+        "EP025_B077",
+        "EP025_B081",
+        "EP025_B088"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is hiding in a house where someone is being poisoned",
+        "Alexander deeply cares for her safety and opposes her involvement",
+        "Juliana refuses to abandon the victim"
+      ],
+      "withheld": [
+        "The identity of the poisoned person",
+        "Who is doing the poisoning",
+        "Who struck Juliana"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Alexander's fierce worry and Juliana's steadfast resolve create a strong emotional resonance.",
+      "evidence": [
+        "EP025_B077",
+        "EP025_B081",
+        "EP025_B088",
+        "EP025_B090"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "protective anxiety and romantic devotion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "romance_devotion",
+      "evidence": [
+        "EP025_B080",
+        "EP025_B081",
+        "EP025_B090",
+        "EP025_B091"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP025_B077"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "longing_romance",
+      "evidence": [
+        "EP025_B081",
+        "EP025_B090"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Juliana's physical safety is on the line as she insists on protecting a poisoned victim against Alexander's desperate objections.",
+      "evidence": [
+        "EP025_B077",
+        "EP025_B081",
+        "EP025_B088"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP025_B093"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Identity of the poisoned woman",
+      "Identity of the attackers"
+    ],
+    "curiosity_revealed": [
+      "Juliana is hiding in a house where someone is being poisoned",
+      "Alexander deeply cares for her safety and opposes her involvement",
+      "Juliana refuses to abandon the victim"
+    ],
+    "curiosity_withheld": [
+      "The identity of the poisoned person",
+      "Who is doing the poisoning",
+      "Who struck Juliana"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "An intensely protective man yields to the brave woman he loves, joining her dangerous secret mission.",
+    "supporting_block_ids": [
+      "EP025_B080",
+      "EP025_B081",
+      "EP025_B090",
+      "EP025_B091",
+      "EP025_B077",
+      "EP025_B088",
+      "EP025_B093"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A man named Alexander confronts a woman named Juliana for keeping dangerous secrets about someone being poisoned in a house. Despite his fierce worry and demands that she stay away, Juliana insists she cannot abandon the victim, leading Alexander to relent and demand she tell him everything.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who is being poisoned and who 'struck' Juliana is completely unexplained.\",\n      \"block_ids\": [\n        \"K02\",\n        \"K06\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Starting mid-confrontation with an accusation about poisoning immediately establishes high tension and stakes.\",\n    \"evidence\": [\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\n      \"K02\",\n      \"K06\",\n      \"K16\"\n    ],\n    \"reason\": \"Tension builds through Alexander's escalating protective anger and fear, resolving into a partnership when he agrees to let her proceed if she shares information.\",\n    \"evidence\": [\n      \"K02\",\n      \"K06\",\n      \"K16\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K18\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"partly_resolved\",\n    \"open_question\": \"What secrets and details will Juliana reveal about the poisoning?\",\n    \"score\": 3,\n    \"reason\": \"It sets up the transition to her sharing crucial details, creating a forward pull to the next scene.\",\n    \"evidence\": [\n      \"K16\",\n      \"K18\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The emotional dynamic and immediate argument are clear, but the background of the poisoning and who attacked Juliana are unknown.\",\n    \"evidence\": [\n      \"K02\",\n      \"K06\",\n      \"K13\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is hiding in a house where someone is being poisoned\",\n      \"Alexander deeply cares for her safety and opposes her involvement\",\n      \"Juliana refuses to abandon the victim\"\n    ],\n    \"withheld\": [\n      \"The identity of the poisoned person\",\n      \"Who is doing the poisoning\",\n      \"Who struck Juliana\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It establishes the personal stakes and dramatic conflict clearly while withholding the mystery details of the plot.\",\n    \"evidence\": [\n      \"K02\",\n      \"K06\",\n      \"K13\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"protective anxiety and romantic devotion\",\n    \"score\": 4,\n    \"reason\": \"Alexander's fierce worry and Juliana's steadfast resolve create a strong emotional resonance.\",\n    \"evidence\": [\n      \"K02\",\n      \"K06\",\n      \"K13\",\n      \"K15\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"romance_devotion\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K05\",\n        \"K06\",\n        \"K15\",\n        \"K16\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"longing_romance\",\n      \"evidence\": [\n        \"K06\",\n        \"K15\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"Juliana's physical safety is on the line as she insists on protecting a poisoned victim against Alexander's desperate objections.\",\n      \"evidence\": [\n        \"K02\",\n        \"K06\",\n        \"K13\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Identity of the poisoned woman\",\n        \"Identity of the attackers\"\n      ]\n    },\n    \"appeal\": \"An intensely protective man yields to the brave woman he loves, joining her dangerous secret mission.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "4e4739b7fdb46a3d7d944ffeeb35e7c068635bd77bbc20f799aee55b6d3e6b17",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3364,
+      "prompt_tokens": 2572,
+      "completion_tokens": 1107,
+      "total_tokens": 3679,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:59:05.469278+00:00"
+}

@@ -1,0 +1,84 @@
+{
+  "candidate_id": "EP004_C01",
+  "checker_version": "c1",
+  "judgement_clip_sha256": "e007678e322ad16b584d0f34ab0f4e2dd648c2049127cb4c6a612deb624ff80b",
+  "judgement_prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "status": "resolved",
+  "flags": [
+    {
+      "dimension": "context_independence",
+      "code": "CONFUSIONS_WITH_HIGH_SCORE",
+      "detail": "score 4 with 2 confusing reference(s) listed"
+    }
+  ],
+  "remaining_flags": [],
+  "original_scores": {
+    "context_independence": 4
+  },
+  "revised_scores": {
+    "context_independence": 3
+  },
+  "revised_dimensions": {
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The gist of the emotional conflict is clear, but the underlying relationships and why the mysterious man is stepping forward remain completely unexplained without prior context.",
+      "evidence": [
+        "EP004_B012",
+        "EP004_B022",
+        "EP004_B034"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Clarissa and Gerald publicly mock Juliana as worthless in a chapel, but a mysterious bearded man kneels to offer her a ring and a vow instead of pity. Juliana struggles with her pride and suspicion, wondering why a stranger would defend her against her family.",
+      "confusions": [
+        {
+          "issue": "The exact relationship between Clarissa, Gerald, and Juliana is left unstated beyond family cruelty.",
+          "block_ids": [
+            "EP004_B012",
+            "EP004_B034"
+          ]
+        },
+        {
+          "issue": "The identity and background of the Mysterious Bearded Man are completely unknown.",
+          "block_ids": [
+            "EP004_B016",
+            "EP004_B022"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "note": null,
+  "raw_response_text": "{\n  \"blind_summary\": \"Clarissa and Gerald publicly mock Juliana as worthless in a chapel, but a mysterious bearded man kneels to offer her a ring and a vow instead of pity. Juliana struggles with her pride and suspicion, wondering why a stranger would defend her against her family.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact relationship between Clarissa, Gerald, and Juliana is left unstated beyond family cruelty.\",\n      \"block_ids\": [\"K02\", \"K24\"]\n    },\n    {\n      \"issue\": \"The identity and background of the Mysterious Bearded Man are completely unknown.\",\n      \"block_ids\": [\"K06\", \"K12\"]\n    }\n  ],\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The gist of the emotional conflict is clear, but the underlying relationships and why the mysterious man is stepping forward remain completely unexplained without prior context.\",\n    \"evidence\": [\n      \"K02\",\n      \"K12\",\n      \"K24\"\n    ]\n  }\n}",
+  "calls": [
+    {
+      "stage": "reassess",
+      "cache_key": "5514343f876ccc76ec5b25eecfc4e09d2da25290b2207103bf7bba3b4a2d2333",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 1819,
+      "prompt_tokens": 4789,
+      "completion_tokens": 245,
+      "total_tokens": 5034,
+      "hidden_tokens": 0
+    }
+  ],
+  "invocation_id": "811d7048a6e7",
+  "created_at": "2026-11-06T10:00:01.414284+00:00"
+}

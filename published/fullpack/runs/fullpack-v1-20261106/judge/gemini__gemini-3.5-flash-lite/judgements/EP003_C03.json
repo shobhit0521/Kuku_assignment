@@ -1,0 +1,325 @@
+{
+  "candidate_id": "EP003_C03",
+  "episode_id": "EP003",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "0658542925d9da3ce1ff94a07cd8746f646b0f159cfc71d9fa8a27946fd1d9c2",
+  "clip_start_ms": 103000,
+  "clip_end_ms": 145750,
+  "masked_terms": 1,
+  "eligible_hook_ids": [
+    "EP003_B088",
+    "EP003_B089",
+    "EP003_B090"
+  ],
+  "eligible_beat_ids": [
+    "EP003_B115",
+    "EP003_B116",
+    "EP003_B117",
+    "EP003_B118"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The line sets up an empathetic rescue dynamic, but lacks immediate visual shock or explosive conflict to stop the scroll aggressively.",
+      "evidence": [
+        "EP003_B089",
+        "EP003_B087"
+      ],
+      "issues": [],
+      "block_id": "EP003_B089",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds steadily from the stranger's comforting words to the surprising extraction of a ring and his proposal on one knee, though it's emotional uplift rather than high-stakes danger.",
+      "evidence": [
+        "EP003_B100",
+        "EP003_B111",
+        "EP003_B112",
+        "EP003_B116"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP003_B098",
+        "EP003_B100",
+        "EP003_B111",
+        "EP003_B116"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "It leaves off on an emotional reaction shot right as she is about to respond, creating a gentle forward pull rather than a sharp cliffhanger question.",
+      "evidence": [
+        "EP003_B117",
+        "EP003_B116",
+        "EP003_B118"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP003_B117",
+      "mechanism": "reaction_hold",
+      "outcome": "partly_resolved",
+      "open_question": "Will Lady Juliana accept the stranger's hand in marriage in front of her shocked family?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "A viewer can easily understand the core dynamic (a down-on-her-luck woman being rescued and proposed to by a stranger), but the backstory of why she was dragged from the church remains unknown.",
+      "evidence": [
+        "EP003_B087",
+        "EP003_B101",
+        "EP003_B116"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A mysterious bearded stranger steps in to defend a humiliated woman in a church, offering her a ring and asking her to marry him instead. His grand gesture stuns her family and leaves her moved to tears.",
+      "confusions": [
+        {
+          "issue": "Who the bearded stranger is and why he is intervening is completely unexplained.",
+          "block_ids": [
+            "EP003_B087",
+            "EP003_B089",
+            "EP003_B096",
+            "EP003_B110"
+          ]
+        },
+        {
+          "issue": "The exact relationship between Lady Juliana, her father, and Gerald is unclear beyond a general familial conflict.",
+          "block_ids": [
+            "EP003_B087",
+            "EP003_B097",
+            "EP003_B104",
+            "EP003_B114"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It successfully sets up a high-fantasy/romance trope setup (the unexpected savior) and cuts right before the definitive answer or consequence.",
+      "evidence": [
+        "EP003_B100",
+        "EP003_B116",
+        "EP003_B117"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The stranger steps in to defend Juliana",
+        "He proposes marriage on the spot with a silver ring"
+      ],
+      "withheld": [
+        "Who the stranger is",
+        "How Juliana responds to the proposal",
+        "The fallout with her family"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The transition from public humiliation to a deeply tender, validating rescue evokes strong sympathetic emotion and romantic warmth.",
+      "evidence": [
+        "EP003_B089",
+        "EP003_B091",
+        "EP003_B117",
+        "EP003_B118"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "humiliation_sympathy",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "romance_devotion",
+      "evidence": [
+        "EP003_B100",
+        "EP003_B112",
+        "EP003_B116",
+        "EP003_B117"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP003_B087",
+        "EP003_B089"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP003_B089",
+        "EP003_B091",
+        "EP003_B117"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Lady Juliana's dignity and marital future are salvaged by a mysterious stranger defying her abusive family.",
+      "evidence": [
+        "EP003_B087",
+        "EP003_B101",
+        "EP003_B103",
+        "EP003_B116"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP003_B117"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Exact identity of the bearded stranger",
+      "History between Juliana and Gerald"
+    ],
+    "curiosity_revealed": [
+      "The stranger steps in to defend Juliana",
+      "He proposes marriage on the spot with a silver ring"
+    ],
+    "curiosity_withheld": [
+      "Who the stranger is",
+      "How Juliana responds to the proposal",
+      "The fallout with her family"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A humiliated bride is rescued at the altar by a mysterious stranger offering her a second chance.",
+    "supporting_block_ids": [
+      "EP003_B100",
+      "EP003_B112",
+      "EP003_B116",
+      "EP003_B117",
+      "EP003_B087",
+      "EP003_B089",
+      "EP003_B091",
+      "EP003_B101",
+      "EP003_B103"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "WEAK_CLIFFHANGER",
+      "severity": "minor",
+      "explanation": "The cut relies on an emotional reaction fade rather than a punchy narrative question or unresolved conflict beat.",
+      "block_ids": [
+        "EP003_B117",
+        "EP003_B118"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A mysterious bearded stranger steps in to defend a humiliated woman in a church, offering her a ring and asking her to marry him instead. His grand gesture stuns her family and leaves her moved to tears.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who the bearded stranger is and why he is intervening is completely unexplained.\",\n      \"block_ids\": [\"K01\", \"K03\", \"K10\", \"K24\"]\n    },\n    {\n      \"issue\": \"The exact relationship between Lady Juliana, her father, and Gerald is unclear beyond a general familial conflict.\",\n      \"block_ids\": [\"K01\", \"K11\", \"K18\", \"K28\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 3,\n    \"reason\": \"The line sets up an empathetic rescue dynamic, but lacks immediate visual shock or explosive conflict to stop the scroll aggressively.\",\n    \"evidence\": [\n      \"K01\",\n      \"K03\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\n      \"K12\",\n      \"K14\",\n      \"K25\",\n      \"K30\"\n    ],\n    \"reason\": \"Tension builds steadily from the stranger's comforting words to the surprising extraction of a ring and his proposal on one knee, though it's emotional uplift rather than high-stakes danger.\",\n    \"evidence\": [\n      \"K14\",\n      \"K25\",\n      \"K26\",\n      \"K30\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K31\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"partly_resolved\",\n    \"open_question\": \"Will Lady Juliana accept the stranger's hand in marriage in front of her shocked family?\",\n    \"score\": 3,\n    \"reason\": \"It leaves off on an emotional reaction shot right as she is about to respond, creating a gentle forward pull rather than a sharp cliffhanger question.\",\n    \"evidence\": [\n      \"K30\",\n      \"K31\",\n      \"K32\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"A viewer can easily understand the core dynamic (a down-on-her-luck woman being rescued and proposed to by a stranger), but the backstory of why she was dragged from the church remains unknown.\",\n    \"evidence\": [\n      \"K01\",\n      \"K15\",\n      \"K30\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The stranger steps in to defend Juliana\",\n      \"He proposes marriage on the spot with a silver ring\"\n    ],\n    \"withheld\": [\n      \"Who the stranger is\",\n      \"How Juliana responds to the proposal\",\n      \"The fallout with her family\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It successfully sets up a high-fantasy/romance trope setup (the unexpected savior) and cuts right before the definitive answer or consequence.\",\n    \"evidence\": [\n      \"K14\",\n      \"K30\",\n      \"K31\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"humiliation_sympathy\",\n    \"score\": 4,\n    \"reason\": \"The transition from public humiliation to a deeply tender, validating rescue evokes strong sympathetic emotion and romantic warmth.\",\n    \"evidence\": [\n      \"K03\",\n      \"K05\",\n      \"K31\",\n      \"K32\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"romance_devotion\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K14\",\n        \"K26\",\n        \"K30\",\n        \"K31\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K01\",\n        \"K03\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\n        \"K03\",\n        \"K05\",\n        \"K31\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"Lady Juliana's dignity and marital future are salvaged by a mysterious stranger defying her abusive family.\",\n      \"evidence\": [\n        \"K01\",\n        \"K15\",\n        \"K17\",\n        \"K30\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Exact identity of the bearded stranger\",\n        \"History between Juliana and Gerald\"\n      ]\n    },\n    \"appeal\": \"A humiliated bride is rescued at the altar by a mysterious stranger offering her a second chance.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"WEAK_CLIFFHANGER\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The cut relies on an emotional reaction fade rather than a punchy narrative question or unresolved conflict beat.\",\n      \"block_ids\": [\n        \"K31\",\n        \"K32\"\n      ]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "ae64d0ed82f046ccaffba5bc31357b3fadb6253be411aecd559cd68b276fe197",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4366,
+      "prompt_tokens": 3298,
+      "completion_tokens": 1331,
+      "total_tokens": 4629,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T09:59:56.087376+00:00"
+}

@@ -1,0 +1,82 @@
+{
+  "candidate_id": "EP035_C02",
+  "checker_version": "c1",
+  "judgement_clip_sha256": "b96458ec74a7f0ba57c829b0627afa10a4ee776b5e80bbc534792aad9449a6e2",
+  "judgement_prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "status": "resolved",
+  "flags": [
+    {
+      "dimension": "context_independence",
+      "code": "CONFUSIONS_WITH_HIGH_SCORE",
+      "detail": "score 4 with 2 confusing reference(s) listed"
+    }
+  ],
+  "remaining_flags": [],
+  "original_scores": {
+    "context_independence": 4
+  },
+  "revised_scores": {
+    "context_independence": 3
+  },
+  "revised_dimensions": {
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The gist of the mother-son reunion and the mission context is understandable, but specific narrative elements like who 'they' are and the details of the Iberian front require prior context.",
+      "evidence": [
+        "EP035_B027",
+        "EP035_B029",
+        "EP035_B038"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A mother is shocked to discover her son Alexander, whom she believed died in a destroyed military regiment three years ago, is actually alive. Alexander then begins to explain that his survival stemmed from a classified Crown mission investigating a traitorous British officer.",
+      "confusions": [
+        {
+          "issue": "Who 'they' are who falsely reported Alexander's death and regiment destruction is left unspecified.",
+          "block_ids": [
+            "EP035_B029"
+          ]
+        },
+        {
+          "issue": "The specific identity of the British officer selling secrets is not revealed.",
+          "block_ids": [
+            "EP035_B038"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "note": null,
+  "raw_response_text": "{\n  \"blind_summary\": \"A mother is shocked to discover her son Alexander, whom she believed died in a destroyed military regiment three years ago, is actually alive. Alexander then begins to explain that his survival stemmed from a classified Crown mission investigating a traitorous British officer.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who 'they' are who falsely reported Alexander's death and regiment destruction is left unspecified.\",\n      \"block_ids\": [\"K04\"]\n    },\n    {\n      \"issue\": \"The specific identity of the British officer selling secrets is not revealed.\",\n      \"block_ids\": [\"K13\"]\n    }\n  ],\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The gist of the mother-son reunion and the mission context is understandable, but specific narrative elements like who 'they' are and the details of the Iberian front require prior context.\",\n    \"evidence\": [\"K02\", \"K04\", \"K13\"]\n  }\n}",
+  "calls": [
+    {
+      "stage": "reassess",
+      "cache_key": "fd06dc4eb30e0cdcd191eee515285ab66caf76ff5b8e7aa6ebe261b6d081efc0",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 1606,
+      "prompt_tokens": 3766,
+      "completion_tokens": 230,
+      "total_tokens": 3996,
+      "hidden_tokens": 0
+    }
+  ],
+  "invocation_id": "d586dab690a4",
+  "created_at": "2026-11-06T11:04:07.452311+00:00"
+}

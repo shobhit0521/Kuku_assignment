@@ -1,0 +1,297 @@
+{
+  "candidate_id": "EP033_C03",
+  "episode_id": "EP033",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "b598eec5b988ea250e3fbeec450a0a58c1747c852c0c22135477a70b08788fc3",
+  "clip_start_ms": 0,
+  "clip_end_ms": 40000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP033_B001",
+    "EP033_B002"
+  ],
+  "eligible_beat_ids": [
+    "EP033_B020",
+    "EP033_B022",
+    "EP033_B023",
+    "EP033_B024",
+    "EP033_B025"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The line establishes an immediate power dynamic and medical mystery, though it lacks explosive shock.",
+      "evidence": [
+        "EP033_B002",
+        "EP033_B001"
+      ],
+      "issues": [],
+      "block_id": "EP033_B002",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension steadily builds through a formal interrogation as the lord pushes the maid for specific information about Lady Juliana.",
+      "evidence": [
+        "EP033_B007",
+        "EP033_B015",
+        "EP033_B025"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP033_B007",
+        "EP033_B015",
+        "EP033_B025"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "Ends on a sharp, targeted accusation that raises the stakes regarding a forbidden object.",
+      "evidence": [
+        "EP033_B025",
+        "EP033_B024"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP033_B025",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "Did Lady Juliana use her mother's book, and what are the consequences if she did?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The dynamic of a powerful lord interrogating a subordinate is universally understood, but the specific stakes surrounding Lady Juliana and the book require prior context.",
+      "evidence": [
+        "EP033_B002",
+        "EP033_B009",
+        "EP033_B025"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "An aristocratic lord interrogates a frightened maid about how Lady Juliana used herbs to save her brother's life. The lord presses her for details, culminating in an accusation about whether Juliana used a specific book.",
+      "confusions": [
+        {
+          "issue": "Who Lady Juliana is and her relationship to the Lord and the maid is unstated.",
+          "block_ids": [
+            "EP033_B009",
+            "EP033_B021"
+          ]
+        },
+        {
+          "issue": "The significance of the mother's book is completely unknown to a stranger.",
+          "block_ids": [
+            "EP033_B025"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "Sets up a clear mystery regarding the medical intervention while withholding the implications of the forbidden book.",
+      "evidence": [
+        "EP033_B009",
+        "EP033_B013",
+        "EP033_B025"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Lady Juliana saved the maid's brother using unknown herbs",
+        "The lord is intensely suspicious and is investigating her methods"
+      ],
+      "withheld": [
+        "What the mother's book is and why it matters",
+        "What punishment or danger faces Lady Juliana"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The maid's trembling and tears create a palpable sense of intimidation, though it remains a subdued, quiet scene.",
+      "evidence": [
+        "EP033_B004",
+        "EP033_B012",
+        "EP033_B020"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "fear and intimidation",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP033_B002",
+        "EP033_B015",
+        "EP033_B025"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "mystery_revelation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP033_B002"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP033_B006",
+        "EP033_B014",
+        "EP033_B025"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A lord investigates whether a noblewoman used forbidden knowledge to save a life, threatening her safety.",
+      "evidence": [
+        "EP033_B009",
+        "EP033_B015",
+        "EP033_B025"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP033_B025"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Identity and status of Lady Juliana",
+      "Significance of the mother's book"
+    ],
+    "curiosity_revealed": [
+      "Lady Juliana saved the maid's brother using unknown herbs",
+      "The lord is intensely suspicious and is investigating her methods"
+    ],
+    "curiosity_withheld": [
+      "What the mother's book is and why it matters",
+      "What punishment or danger faces Lady Juliana"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "An intimidating lord interrogates a terrified maid to uncover a noblewoman's secret medical methods.",
+    "supporting_block_ids": [
+      "EP033_B002",
+      "EP033_B015",
+      "EP033_B025",
+      "EP033_B006",
+      "EP033_B014",
+      "EP033_B009"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"An aristocratic lord interrogates a frightened maid about how Lady Juliana used herbs to save her brother's life. The lord presses her for details, culminating in an accusation about whether Juliana used a specific book.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Lady Juliana is and her relationship to the Lord and the maid is unstated.\",\n      \"block_ids\": [\"K09\", \"K21\"]\n    },\n    {\n      \"issue\": \"The significance of the mother's book is completely unknown to a stranger.\",\n      \"block_ids\": [\"K25\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"The line establishes an immediate power dynamic and medical mystery, though it lacks explosive shock.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\n      \"K07\",\n      \"K15\",\n      \"K25\"\n    ],\n    \"reason\": \"Tension steadily builds through a formal interrogation as the lord pushes the maid for specific information about Lady Juliana.\",\n    \"evidence\": [\n      \"K07\",\n      \"K15\",\n      \"K25\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K25\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Did Lady Juliana use her mother's book, and what are the consequences if she did?\",\n    \"score\": 4,\n    \"reason\": \"Ends on a sharp, targeted accusation that raises the stakes regarding a forbidden object.\",\n    \"evidence\": [\n      \"K24\",\n      \"K25\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The dynamic of a powerful lord interrogating a subordinate is universally understood, but the specific stakes surrounding Lady Juliana and the book require prior context.\",\n    \"evidence\": [\n      \"K02\",\n      \"K09\",\n      \"K25\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Lady Juliana saved the maid's brother using unknown herbs\",\n      \"The lord is intensely suspicious and is investigating her methods\"\n    ],\n    \"withheld\": [\n      \"What the mother's book is and why it matters\",\n      \"What punishment or danger faces Lady Juliana\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"Sets up a clear mystery regarding the medical intervention while withholding the implications of the forbidden book.\",\n    \"evidence\": [\n      \"K09\",\n      \"K13\",\n      \"K25\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"fear and intimidation\",\n    \"score\": 3,\n    \"reason\": \"The maid's trembling and tears create a palpable sense of intimidation, though it remains a subdued, quiet scene.\",\n    \"evidence\": [\n      \"K04\",\n      \"K12\",\n      \"K20\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"mystery_revelation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K02\",\n        \"K15\",\n        \"K25\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\n        \"K06\",\n        \"K14\",\n        \"K25\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A lord investigates whether a noblewoman used forbidden knowledge to save a life, threatening her safety.\",\n      \"evidence\": [\n        \"K09\",\n        \"K15\",\n        \"K25\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Identity and status of Lady Juliana\",\n        \"Significance of the mother's book\"\n      ]\n    },\n    \"appeal\": \"An intimidating lord interrogates a terrified maid to uncover a noblewoman's secret medical methods.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "a2dbbcc3de2cdfc103d9a61e70b01f8eb292feddf4adae9bdb41c16040c89048",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3359,
+      "prompt_tokens": 2879,
+      "completion_tokens": 1119,
+      "total_tokens": 3998,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:03:07.609098+00:00"
+}

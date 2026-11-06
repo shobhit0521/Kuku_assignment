@@ -1,0 +1,336 @@
+{
+  "candidate_id": "EP006_C02",
+  "episode_id": "EP006",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "d77f446bfc2f8627dcd5e496c5240f5e57ba69c9025fffe22f9ea2906377d1df",
+  "clip_start_ms": 7100,
+  "clip_end_ms": 47300,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP006_B008",
+    "EP006_B009",
+    "EP006_B010",
+    "EP006_B011"
+  ],
+  "eligible_beat_ids": [
+    "EP006_B034",
+    "EP006_B035",
+    "EP006_B036",
+    "EP006_B037",
+    "EP006_B038",
+    "EP006_B039",
+    "EP006_B040",
+    "EP006_B041",
+    "EP006_B042",
+    "EP006_B043"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The line sets a melancholic, mysterious tone about a fallen noblewoman walking in the rain, but lacks immediate high-stakes urgency.",
+      "evidence": [
+        "EP006_B009"
+      ],
+      "issues": [],
+      "block_id": "EP006_B009",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 2,
+      "valid": true,
+      "reason": "The scene is atmospheric and moody, but conflict is entirely absent; it follows a quiet walk to a shelter rather than an escalating confrontation.",
+      "evidence": [
+        "EP006_B023",
+        "EP006_B031",
+        "EP006_B041"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP006_B023",
+        "EP006_B031",
+        "EP006_B041"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 2,
+      "valid": true,
+      "reason": "The reveal of the bridal dress provides a striking visual note, but it closes out on a quiet, emotional character beat rather than an active question or immediate danger.",
+      "evidence": [
+        "EP006_B043",
+        "EP006_B041",
+        "EP006_B042"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP006_B043",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "How will Juliana adapt to this impoverished life with him after leaving her wedding?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 2,
+      "valid": true,
+      "reason": "A viewer cannot understand why she is in a wedding dress, who the bearded man is, or what tragedy forced her into this situation without prior episodes.",
+      "evidence": [
+        "EP006_B009",
+        "EP006_B029",
+        "EP006_B043"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A mysterious bearded man leads a woman in a bridal dress through a rainy forest to a rustic, barren cottage. Despite the stark change from her comfortable past and the ruined day, she remains resilient and undeterred.",
+      "confusions": [
+        {
+          "issue": "It is unclear why Juliana was wearing a bridal dress in the rain or what specific humiliation she is escaping from.",
+          "block_ids": [
+            "EP006_B009",
+            "EP006_B029",
+            "EP006_B043"
+          ]
+        },
+        {
+          "issue": "The relationship and past history between the mysterious bearded man and Juliana are unexplained.",
+          "block_ids": [
+            "EP006_B009",
+            "EP006_B015",
+            "EP006_B041"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 2,
+      "valid": true,
+      "reason": "The clip is too atmospheric and slow-paced, withholding enough to create a mild mood but failing to establish a compelling narrative hook or pressing question.",
+      "evidence": [
+        "EP006_B009",
+        "EP006_B020",
+        "EP006_B043"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The characters are sheltering in a poor, leaking cabin in the woods.",
+        "Juliana left a life of comfort and a ruined day behind."
+      ],
+      "withheld": [
+        "Why Juliana was wearing a bridal dress in the woods.",
+        "The identity of the bearded man and his past with her."
+      ],
+      "balance": "too_little",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The rain, solemn dialogue, and rustic setting evoke a poignant, melancholic mood, though it remains subdued.",
+      "evidence": [
+        "EP006_B009",
+        "EP006_B015",
+        "EP006_B041"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "melancholy",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "vulnerability",
+      "evidence": [
+        "EP006_B009",
+        "EP006_B041",
+        "EP006_B043"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "romance_devotion",
+    "archetype_confidence": "medium",
+    "hook_mechanism": {
+      "value": "other",
+      "evidence": [
+        "EP006_B009"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP006_B029",
+        "EP006_B041"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A woman leaves her privileged life and wedding behind to live in a barren cabin with a scarred, mysterious man.",
+      "evidence": [
+        "EP006_B029",
+        "EP006_B041",
+        "EP006_B043"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP006_B043"
+      ],
+      "note": null
+    },
+    "context_dependency": "high",
+    "missing_context": [
+      "Backstory of Juliana's ruined wedding",
+      "Identity and past of the bearded man"
+    ],
+    "curiosity_revealed": [
+      "The characters are sheltering in a poor, leaking cabin in the woods.",
+      "Juliana left a life of comfort and a ruined day behind."
+    ],
+    "curiosity_withheld": [
+      "Why Juliana was wearing a bridal dress in the woods.",
+      "The identity of the bearded man and his past with her."
+    ],
+    "curiosity_balance": "too_little",
+    "appeal": "Discover why a runaway bride chose a life of poverty in the woods with a mysterious outcast.",
+    "supporting_block_ids": [
+      "EP006_B009",
+      "EP006_B041",
+      "EP006_B043",
+      "EP006_B029"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "LOW_TENSION",
+      "severity": "major",
+      "explanation": "The entire clip consists of a quiet walk and a conversation in an empty cabin, completely lacking narrative escalation or conflict.",
+      "block_ids": [
+        "EP006_B008",
+        "EP006_B021",
+        "EP006_B031"
+      ],
+      "source": "judge"
+    },
+    {
+      "code": "CONTEXT_DEPENDENT",
+      "severity": "minor",
+      "explanation": "The emotional weight relies entirely on knowing what humiliation Juliana is escaping from and who the man is.",
+      "block_ids": [
+        "EP006_B009",
+        "EP006_B029"
+      ],
+      "source": "judge"
+    },
+    {
+      "code": "WEAK_CLIFFHANGER",
+      "severity": "minor",
+      "explanation": "Ending on the removal of the cloak and reveal of the dress is visually interesting but dramatically flat.",
+      "block_ids": [
+        "EP006_B042",
+        "EP006_B043"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A mysterious bearded man leads a woman in a bridal dress through a rainy forest to a rustic, barren cottage. Despite the stark change from her comfortable past and the ruined day, she remains resilient and undeterred.\",\n  \"confusions\": [\n    {\n      \"issue\": \"It is unclear why Juliana was wearing a bridal dress in the rain or what specific humiliation she is escaping from.\",\n      \"block_ids\": [\"K02\", \"K22\", \"K36\"]\n    },\n    {\n      \"issue\": \"The relationship and past history between the mysterious bearded man and Juliana are unexplained.\",\n      \"block_ids\": [\"K02\", \"K08\", \"K34\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"The line sets a melancholic, mysterious tone about a fallen noblewoman walking in the rain, but lacks immediate high-stakes urgency.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 2,\n    \"escalation_beats\": [\"K16\", \"K24\", \"K34\"],\n    \"reason\": \"The scene is atmospheric and moody, but conflict is entirely absent; it follows a quiet walk to a shelter rather than an escalating confrontation.\",\n    \"evidence\": [\"K16\", \"K24\", \"K34\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K36\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Juliana adapt to this impoverished life with him after leaving her wedding?\",\n    \"score\": 2,\n    \"reason\": \"The reveal of the bridal dress provides a striking visual note, but it closes out on a quiet, emotional character beat rather than an active question or immediate danger.\",\n    \"evidence\": [\"K34\", \"K35\", \"K36\"]\n  },\n  \"context_independence\": {\n    \"score\": 2,\n    \"reason\": \"A viewer cannot understand why she is in a wedding dress, who the bearded man is, or what tragedy forced her into this situation without prior episodes.\",\n    \"evidence\": [\"K02\", \"K22\", \"K36\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The characters are sheltering in a poor, leaking cabin in the woods.\",\n      \"Juliana left a life of comfort and a ruined day behind.\"\n    ],\n    \"withheld\": [\n      \"Why Juliana was wearing a bridal dress in the woods.\",\n      \"The identity of the bearded man and his past with her.\"\n    ],\n    \"balance\": \"too_little\",\n    \"score\": 2,\n    \"reason\": \"The clip is too atmospheric and slow-paced, withholding enough to create a mild mood but failing to establish a compelling narrative hook or pressing question.\",\n    \"evidence\": [\"K02\", \"K13\", \"K36\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"melancholy\",\n    \"score\": 3,\n    \"reason\": \"The rain, solemn dialogue, and rustic setting evoke a poignant, melancholic mood, though it remains subdued.\",\n    \"evidence\": [\"K02\", \"K08\", \"K34\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"vulnerability\",\n      \"other_label\": null,\n      \"secondary\": \"romance_devotion\",\n      \"confidence\": \"medium\",\n      \"evidence\": [\"K02\", \"K34\", \"K36\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"other\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\"K22\", \"K34\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A woman leaves her privileged life and wedding behind to live in a barren cabin with a scarred, mysterious man.\",\n      \"evidence\": [\"K22\", \"K34\", \"K36\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"high\",\n      \"missing_context\": [\n        \"Backstory of Juliana's ruined wedding\",\n        \"Identity and past of the bearded man\"\n      ]\n    },\n    \"appeal\": \"Discover why a runaway bride chose a life of poverty in the woods with a mysterious outcast.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"LOW_TENSION\",\n      \"severity\": \"major\",\n      \"explanation\": \"The entire clip consists of a quiet walk and a conversation in an empty cabin, completely lacking narrative escalation or conflict.\",\n      \"block_ids\": [\"K01\", \"K14\", \"K24\"]\n    },\n    {\n      \"code\": \"CONTEXT_DEPENDENT\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The emotional weight relies entirely on knowing what humiliation Juliana is escaping from and who the man is.\",\n      \"block_ids\": [\"K02\", \"K22\"]\n    },\n    {\n      \"code\": \"WEAK_CLIFFHANGER\",\n      \"severity\": \"minor\",\n      \"explanation\": \"Ending on the removal of the cloak and reveal of the dress is visually interesting but dramatically flat.\",\n      \"block_ids\": [\"K35\", \"K36\"]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "7de25fd9a91c520d348e7da415d23c4233c27b6407d4f498f0f41c5149f89fcd",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4841,
+      "prompt_tokens": 3473,
+      "completion_tokens": 1294,
+      "total_tokens": 4767,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:00:23.556690+00:00"
+}

@@ -1,0 +1,328 @@
+{
+  "candidate_id": "EP038_C03",
+  "episode_id": "EP038",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "5e717ba9d7fbbbf87047161ad6bbbe47a7fd6a33e7de2fd0c8fcfbd6b900fff0",
+  "clip_start_ms": 43200,
+  "clip_end_ms": 64200,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP038_B028",
+    "EP038_B030",
+    "EP038_B029"
+  ],
+  "eligible_beat_ids": [
+    "EP038_B037",
+    "EP038_B036",
+    "EP038_B038",
+    "EP038_B039",
+    "EP038_B040",
+    "EP038_B041",
+    "EP038_B042"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana asks if the viewer knows she was condemned, creating mild curiosity about her imprisonment, though it lacks an immediate narrative target.",
+      "evidence": [
+        "EP038_B028",
+        "EP038_B026"
+      ],
+      "issues": [],
+      "block_id": "EP038_B028",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 2,
+      "valid": true,
+      "reason": "The clip maintains a single emotional pitch of suffering and resolve without a developing conflict or interaction with another character.",
+      "evidence": [
+        "EP038_B031",
+        "EP038_B040",
+        "EP038_B041"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP038_B031",
+        "EP038_B040",
+        "EP038_B041"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "The sudden startled breath on an extreme close-up leaves an open question about what is happening outside her cell, though it is a minor reaction cut.",
+      "evidence": [
+        "EP038_B042"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP038_B042",
+      "mechanism": "interrupted_action",
+      "outcome": "unresolved",
+      "open_question": "What startled Juliana and interrupted her quiet resolve?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 2,
+      "valid": true,
+      "reason": "The viewer lacks any context regarding why Juliana is imprisoned, who condemned her, or who her husband is.",
+      "evidence": [
+        "EP038_B028",
+        "EP038_B034",
+        "EP038_B040"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Juliana is imprisoned in a dungeon cell, facing condemnation and death while worrying about her absent husband's safety. Despite her suffering, she resolves with fierce loyalty that she will never betray him.",
+      "confusions": [
+        {
+          "issue": "Who condemned Juliana and why is she in a dungeon cell?",
+          "block_ids": [
+            "EP038_B028"
+          ]
+        },
+        {
+          "issue": "Who is the husband she is trying to protect, and what danger is he in?",
+          "block_ids": [
+            "EP038_B034",
+            "EP038_B040"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 3,
+      "valid": true,
+      "reason": "It clearly establishes her loyalty and peril while withholding why she is locked up and what happens next.",
+      "evidence": [
+        "EP038_B028",
+        "EP038_B034",
+        "EP038_B040",
+        "EP038_B041"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is imprisoned in a dungeon",
+        "She has been condemned to die",
+        "She refuses to betray her husband"
+      ],
+      "withheld": [
+        "The identity of her captors and accusers",
+        "The crime she was condemned for",
+        "The whereabouts and identity of her husband"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's tearful delivery and fierce declarations convey strong emotional suffering and loyalty, though restricted to a single character monologue.",
+      "evidence": [
+        "EP038_B026",
+        "EP038_B031",
+        "EP038_B040",
+        "EP038_B041"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "anguish and defiant devotion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "romance_devotion",
+      "evidence": [
+        "EP038_B034",
+        "EP038_B040",
+        "EP038_B041"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "vulnerability",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP038_B028"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP038_B026",
+        "EP038_B032"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Juliana faces execution in a dungeon but refuses to give up or betray her husband.",
+      "evidence": [
+        "EP038_B030",
+        "EP038_B040"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "interrupted_action",
+      "evidence": [
+        "EP038_B042"
+      ],
+      "note": null
+    },
+    "context_dependency": "high",
+    "missing_context": [
+      "Why Juliana is in the dungeon",
+      "Who condemned her",
+      "Who her husband is"
+    ],
+    "curiosity_revealed": [
+      "Juliana is imprisoned in a dungeon",
+      "She has been condemned to die",
+      "She refuses to betray her husband"
+    ],
+    "curiosity_withheld": [
+      "The identity of her captors and accusers",
+      "The crime she was condemned for",
+      "The whereabouts and identity of her husband"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A devoted wife endures dungeon torture and condemnation, choosing death over betraying her husband.",
+    "supporting_block_ids": [
+      "EP038_B034",
+      "EP038_B040",
+      "EP038_B041",
+      "EP038_B028",
+      "EP038_B026",
+      "EP038_B032",
+      "EP038_B030",
+      "EP038_B042"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "LOW_TENSION",
+      "severity": "minor",
+      "explanation": "The clip consists entirely of a single character monologue in a cell without interactive conflict or rising stakes.",
+      "block_ids": [
+        "EP038_B026",
+        "EP038_B042"
+      ],
+      "source": "judge"
+    },
+    {
+      "code": "CONTEXT_DEPENDENT",
+      "severity": "minor",
+      "explanation": "A viewer needs prior knowledge of the plot to understand why she is imprisoned and who her husband is.",
+      "block_ids": [
+        "EP038_B028",
+        "EP038_B034",
+        "EP038_B040"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Juliana is imprisoned in a dungeon cell, facing condemnation and death while worrying about her absent husband's safety. Despite her suffering, she resolves with fierce loyalty that she will never betray him.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who condemned Juliana and why is she in a dungeon cell?\",\n      \"block_ids\": [\n        \"K02\"\n      ]\n    },\n    {\n      \"issue\": \"Who is the husband she is trying to protect, and what danger is he in?\",\n      \"block_ids\": [\n        \"K08\",\n        \"K14\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Juliana asks if the viewer knows she was condemned, creating mild curiosity about her imprisonment, though it lacks an immediate narrative target.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 2,\n    \"escalation_beats\": [\n      \"K05\",\n      \"K14\",\n      \"K15\"\n    ],\n    \"reason\": \"The clip maintains a single emotional pitch of suffering and resolve without a developing conflict or interaction with another character.\",\n    \"evidence\": [\n      \"K05\",\n      \"K14\",\n      \"K15\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K16\",\n    \"mechanism\": \"interrupted_action\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What startled Juliana and interrupted her quiet resolve?\",\n    \"score\": 3,\n    \"reason\": \"The sudden startled breath on an extreme close-up leaves an open question about what is happening outside her cell, though it is a minor reaction cut.\",\n    \"evidence\": [\n      \"K16\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 2,\n    \"reason\": \"The viewer lacks any context regarding why Juliana is imprisoned, who condemned her, or who her husband is.\",\n    \"evidence\": [\n      \"K02\",\n      \"K08\",\n      \"K14\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is imprisoned in a dungeon\",\n      \"She has been condemned to die\",\n      \"She refuses to betray her husband\"\n    ],\n    \"withheld\": [\n      \"The identity of her captors and accusers\",\n      \"The crime she was condemned for\",\n      \"The whereabouts and identity of her husband\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 3,\n    \"reason\": \"It clearly establishes her loyalty and peril while withholding why she is locked up and what happens next.\",\n    \"evidence\": [\n      \"K02\",\n      \"K08\",\n      \"K14\",\n      \"K15\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"anguish and defiant devotion\",\n    \"score\": 3,\n    \"reason\": \"Juliana's tearful delivery and fierce declarations convey strong emotional suffering and loyalty, though restricted to a single character monologue.\",\n    \"evidence\": [\n      \"K01\",\n      \"K05\",\n      \"K14\",\n      \"K15\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"romance_devotion\",\n      \"other_label\": null,\n      \"secondary\": \"vulnerability\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K08\",\n        \"K14\",\n        \"K15\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\n        \"K01\",\n        \"K06\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"Juliana faces execution in a dungeon but refuses to give up or betray her husband.\",\n      \"evidence\": [\n        \"K03\",\n        \"K14\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"high\",\n      \"missing_context\": [\n        \"Why Juliana is in the dungeon\",\n        \"Who condemned her\",\n        \"Who her husband is\"\n      ]\n    },\n    \"appeal\": \"A devoted wife endures dungeon torture and condemnation, choosing death over betraying her husband.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"LOW_TENSION\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The clip consists entirely of a single character monologue in a cell without interactive conflict or rising stakes.\",\n      \"block_ids\": [\n        \"K01\",\n        \"K16\"\n      ]\n    },\n    {\n      \"code\": \"CONTEXT_DEPENDENT\",\n      \"severity\": \"minor\",\n      \"explanation\": \"A viewer needs prior knowledge of the plot to understand why she is imprisoned and who her husband is.\",\n      \"block_ids\": [\n        \"K02\",\n        \"K08\",\n        \"K14\"\n      ]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "f0f122a95794c90a2b4c8e96ebb62554f9cbbf83659b91168903e94cdf8c635b",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4124,
+      "prompt_tokens": 2513,
+      "completion_tokens": 1303,
+      "total_tokens": 3816,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:05:53.053902+00:00"
+}

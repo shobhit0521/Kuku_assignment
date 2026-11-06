@@ -1,0 +1,300 @@
+{
+  "candidate_id": "EP001_C04",
+  "episode_id": "EP001",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "78ce122bc2ecc482e10a525ad77a5940ea0f0b91b135f8cbcbdcd8f1ed9983ff",
+  "clip_start_ms": 60100,
+  "clip_end_ms": 113000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP001_B041",
+    "EP001_B040",
+    "EP001_B042"
+  ],
+  "eligible_beat_ids": [
+    "EP001_B071",
+    "EP001_B072",
+    "EP001_B073",
+    "EP001_B074",
+    "EP001_B075",
+    "EP001_B076",
+    "EP001_B077"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 5,
+      "valid": true,
+      "reason": "The groom's cold, callous statement immediately sets up a high-stakes public humiliation and betrayal at the altar.",
+      "evidence": [
+        "EP001_B041",
+        "EP001_B040",
+        "EP001_B043"
+      ],
+      "issues": [],
+      "block_id": "EP001_B041",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily through escalating layers of betrayal: the groom leaves her, her sister/rival admits to the plot, her father refuses to help, and the matriarch insults her.",
+      "evidence": [
+        "EP001_B043",
+        "EP001_B052",
+        "EP001_B061",
+        "EP001_B075",
+        "EP001_B077"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP001_B043",
+        "EP001_B050",
+        "EP001_B060",
+        "EP001_B075"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The final gloating line cuts off sharply while Juliana absorbs the devastating blow, leaving the viewer wanting to see her fight back.",
+      "evidence": [
+        "EP001_B077",
+        "EP001_B076"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP001_B077",
+      "mechanism": "revelation",
+      "outcome": "partly_resolved",
+      "open_question": "How will Juliana retaliate against this ultimate humiliation by her family and former fiancé?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core situation—a wedding betrayal and family abandonment—is universal and easily understood, even if minor background details are omitted.",
+      "evidence": [
+        "EP001_B041",
+        "EP001_B043",
+        "EP001_B056",
+        "EP001_B075"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A groom abruptly calls off his wedding at the altar, revealing a conspiracy with another woman while the bride's own family abandons and humiliates her. The discarded bride is left devastated as the perpetrators gloat and her father refuses to defend her.",
+      "confusions": [
+        {
+          "issue": "The exact familial and social relationships between the Matriarch, Clarissa (Lady in Gold), Gerald, and Juliana are implied rather than explicitly established.",
+          "block_ids": [
+            "EP001_B045",
+            "EP001_B064",
+            "EP001_B069"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip brilliantly sets up the absolute rock-bottom humiliation of the protagonist, creating a strong desire to see her turn the tables.",
+      "evidence": [
+        "EP001_B052",
+        "EP001_B061",
+        "EP001_B075",
+        "EP001_B077"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The groom is dumping Juliana for another woman in a coordinated plot.",
+        "Her family and father refuse to support her."
+      ],
+      "withheld": [
+        "How Juliana's story continues and whether she seeks revenge or redemption."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 5,
+      "valid": true,
+      "reason": "The sheer cruelty of the groom, the rival woman, and the complete abandonment by her own father evoke intense emotional sympathy.",
+      "evidence": [
+        "EP001_B042",
+        "EP001_B043",
+        "EP001_B060",
+        "EP001_B076"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Outrage and profound sympathy for the humiliated bride",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "betrayal_humiliation",
+      "evidence": [
+        "EP001_B041",
+        "EP001_B043",
+        "EP001_B061",
+        "EP001_B075",
+        "EP001_B077"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP001_B041"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP001_B043",
+        "EP001_B060",
+        "EP001_B076"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A disgraced bride loses her marriage, her social standing, and her family's protection all at once.",
+      "evidence": [
+        "EP001_B041",
+        "EP001_B061",
+        "EP001_B075"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP001_B077"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "The groom is dumping Juliana for another woman in a coordinated plot.",
+      "Her family and father refuse to support her."
+    ],
+    "curiosity_withheld": [
+      "How Juliana's story continues and whether she seeks revenge or redemption."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a brutally betrayed bride hit rock bottom and face the ultimate public humiliation.",
+    "supporting_block_ids": [
+      "EP001_B041",
+      "EP001_B043",
+      "EP001_B061",
+      "EP001_B075",
+      "EP001_B077",
+      "EP001_B060",
+      "EP001_B076"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A groom abruptly calls off his wedding at the altar, revealing a conspiracy with another woman while the bride's own family abandons and humiliates her. The discarded bride is left devastated as the perpetrators gloat and her father refuses to defend her.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact familial and social relationships between the Matriarch, Clarissa (Lady in Gold), Gerald, and Juliana are implied rather than explicitly established.\",\n      \"block_ids\": [\"K06\", \"K25\", \"K30\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K01\",\n    \"score\": 5,\n    \"reason\": \"The groom's cold, callous statement immediately sets up a high-stakes public humiliation and betrayal at the altar.\",\n    \"evidence\": [\"K01\", \"K02\", \"K04\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K04\", \"K11\", \"K20\", \"K36\"],\n    \"reason\": \"Tension builds steadily through escalating layers of betrayal: the groom leaves her, her sister/rival admits to the plot, her father refuses to help, and the matriarch insults her.\",\n    \"evidence\": [\"K04\", \"K13\", \"K22\", \"K36\", \"K38\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K38\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"partly_resolved\",\n    \"open_question\": \"How will Juliana retaliate against this ultimate humiliation by her family and former fiancé?\",\n    \"score\": 4,\n    \"reason\": \"The final gloating line cuts off sharply while Juliana absorbs the devastating blow, leaving the viewer wanting to see her fight back.\",\n    \"evidence\": [\"K37\", \"K38\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core situation—a wedding betrayal and family abandonment—is universal and easily understood, even if minor background details are omitted.\",\n    \"evidence\": [\"K01\", \"K04\", \"K18\", \"K36\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The groom is dumping Juliana for another woman in a coordinated plot.\",\n      \"Her family and father refuse to support her.\"\n    ],\n    \"withheld\": [\n      \"How Juliana's story continues and whether she seeks revenge or redemption.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"The clip brilliantly sets up the absolute rock-bottom humiliation of the protagonist, creating a strong desire to see her turn the tables.\",\n    \"evidence\": [\"K13\", \"K22\", \"K36\", \"K38\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Outrage and profound sympathy for the humiliated bride\",\n    \"score\": 5,\n    \"reason\": \"The sheer cruelty of the groom, the rival woman, and the complete abandonment by her own father evoke intense emotional sympathy.\",\n    \"evidence\": [\"K03\", \"K04\", \"K20\", \"K37\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"betrayal_humiliation\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K01\", \"K04\", \"K22\", \"K36\", \"K38\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K01\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\"K04\", \"K20\", \"K37\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A disgraced bride loses her marriage, her social standing, and her family's protection all at once.\",\n      \"evidence\": [\"K01\", \"K22\", \"K36\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"Watch a brutally betrayed bride hit rock bottom and face the ultimate public humiliation.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "49a055a7dd744abf14b2a4d136ce304538a294081ac21dbeff2ae15958abd7d6",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4175,
+      "prompt_tokens": 3499,
+      "completion_tokens": 1056,
+      "total_tokens": 4555,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T09:58:59.340807+00:00"
+}

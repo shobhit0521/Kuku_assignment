@@ -1,0 +1,70 @@
+{
+  "candidate_id": "EP039_C01",
+  "checker_version": "c1",
+  "judgement_clip_sha256": "d4328e251dd2a3e999956d740dddbf2662c76bc503f52bb246c773ba3df358a6",
+  "judgement_prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "status": "revision_rejected",
+  "flags": [
+    {
+      "dimension": "context_independence",
+      "code": "CONFUSIONS_WITH_HIGH_SCORE",
+      "detail": "score 4 with 2 confusing reference(s) listed"
+    }
+  ],
+  "remaining_flags": [],
+  "original_scores": {
+    "context_independence": 4
+  },
+  "revised_scores": {
+    "context_independence": 5
+  },
+  "revised_dimensions": {
+    "context_independence": {
+      "name": "context_independence",
+      "score": 5,
+      "valid": true,
+      "reason": "The core premise is entirely self-evident with zero missing background knowledge needed: a powerful, scarred man thought to be dead is returning to reclaim his status, his estate, and his wife.",
+      "evidence": [
+        "EP039_B041",
+        "EP039_B045",
+        "EP039_B055",
+        "EP039_B058"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A scarred man named Alexander reclaims his identity as a duke after being buried for three years, ordering his men to secure a chapel as he marches to take back his house and his wife. The clip ends on his fierce vow before cutting to black.",
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "note": "context_independence: revision raised the score 4->5 instead of resolving the contradiction",
+  "raw_response_text": "{\n  \"blind_summary\": \"A scarred man named Alexander reclaims his identity as a duke after being buried for three years, ordering his men to secure a chapel as he marches to take back his house and his wife. The clip ends on his fierce vow before cutting to black.\",\n  \"confusions\": [],\n  \"context_independence\": {\n    \"score\": 5,\n    \"reason\": \"The core premise is entirely self-evident with zero missing background knowledge needed: a powerful, scarred man thought to be dead is returning to reclaim his status, his estate, and his wife.\",\n    \"evidence\": [\"K04\", \"K08\", \"K18\", \"K20\"]\n  }\n}",
+  "calls": [
+    {
+      "stage": "reassess",
+      "cache_key": "f8ef94850c944cb0309a3ecb962c3cd40091a9a29f4721431b9499c2a4d0e281",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 1474,
+      "prompt_tokens": 3978,
+      "completion_tokens": 156,
+      "total_tokens": 4134,
+      "hidden_tokens": 0
+    }
+  ],
+  "invocation_id": "d586dab690a4",
+  "created_at": "2026-11-06T11:06:00.185772+00:00"
+}

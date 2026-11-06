@@ -1,0 +1,298 @@
+{
+  "candidate_id": "EP012_C01",
+  "episode_id": "EP012",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "0457e565e98bfc66e1cbe26495fba8f465107f84ce981b433ac5f6478f6c78bb",
+  "clip_start_ms": 32400,
+  "clip_end_ms": 87210,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP012_B024",
+    "EP012_B023",
+    "EP012_B025",
+    "EP012_B026"
+  ],
+  "eligible_beat_ids": [
+    "EP012_B049",
+    "EP012_B052",
+    "EP012_B053",
+    "EP012_B054",
+    "EP012_B055"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Opening with an immediate bribe and accusation grabs attention, though it benefits from a beat to understand the dynamic.",
+      "evidence": [
+        "EP012_B024",
+        "EP012_B026"
+      ],
+      "issues": [],
+      "block_id": "EP012_B024",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension steadily escalates from a petty insult to a brutal physical ultimatum, culminating in Juliana's sacrificial choice.",
+      "evidence": [
+        "EP012_B032",
+        "EP012_B045",
+        "EP012_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP012_B032",
+        "EP012_B039",
+        "EP012_B045",
+        "EP012_B051",
+        "EP012_B054"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "Ending right as Juliana accepts the horrific terms leaves a strong, suspenseful question about what happens next.",
+      "evidence": [
+        "EP012_B055",
+        "EP012_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP012_B055",
+      "mechanism": "pending_decision",
+      "outcome": "unresolved",
+      "open_question": "Will Juliana survive the brutal ordeal in the thorns, and will Clarissa actually spare her husband afterwards?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core conflict—cruel blackmail to save a loved one—is instantly clear, even if exact background details are unknown.",
+      "evidence": [
+        "EP012_B032",
+        "EP012_B045",
+        "EP012_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Clarissa maliciously blackmails Juliana, demanding she tear her hands apart in frozen thorns to save her husband from the gallows. Despite Alexander's desperate pleas, Juliana resolves to sacrifice herself and demands to know where to go.",
+      "confusions": [
+        {
+          "issue": "The nature of the charges against the husband and the presence of the magistrate are unexplained.",
+          "block_ids": [
+            "EP012_B039",
+            "EP012_B043",
+            "EP012_B045"
+          ]
+        },
+        {
+          "issue": "The exact familial or social relationship between Juliana and Clarissa (\"sister\") is introduced without backstory.",
+          "block_ids": [
+            "EP012_B032"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "Sets up a high-stakes impossible choice cleanly without giving away the outcome of the trial.",
+      "evidence": [
+        "EP012_B045",
+        "EP012_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Clarissa is blackmailing Juliana.",
+        "The price to save Juliana's husband from hanging is destroying her hands in frozen thorns."
+      ],
+      "withheld": [
+        "Whether Juliana can successfully retrieve the ring without breaking her promise or dying",
+        "What the underlying grudge between the women is"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The cruel injustice inflicted by Clarissa paired with Juliana's fierce loyalty evokes strong sympathy and tension.",
+      "evidence": [
+        "EP012_B032",
+        "EP012_B045",
+        "EP012_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Outrage and sacrificial devotion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "betrayal_humiliation",
+      "evidence": [
+        "EP012_B032",
+        "EP012_B039",
+        "EP012_B045"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP012_B024"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP012_B032",
+        "EP012_B045"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A woman must mutilate her own hands in freezing briars or watch her husband hang from the gallows.",
+      "evidence": [
+        "EP012_B039",
+        "EP012_B045"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "pending_decision",
+      "evidence": [
+        "EP012_B055"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Why the husband is facing the gallows",
+      "The origin of the sisterly animosity"
+    ],
+    "curiosity_revealed": [
+      "Clarissa is blackmailing Juliana.",
+      "The price to save Juliana's husband from hanging is destroying her hands in frozen thorns."
+    ],
+    "curiosity_withheld": [
+      "Whether Juliana can successfully retrieve the ring without breaking her promise or dying",
+      "What the underlying grudge between the women is"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a devoted wife endure agonizing torture to save her husband from execution.",
+    "supporting_block_ids": [
+      "EP012_B032",
+      "EP012_B039",
+      "EP012_B045",
+      "EP012_B024",
+      "EP012_B055"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Clarissa maliciously blackmails Juliana, demanding she tear her hands apart in frozen thorns to save her husband from the gallows. Despite Alexander's desperate pleas, Juliana resolves to sacrifice herself and demands to know where to go.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The nature of the charges against the husband and the presence of the magistrate are unexplained.\",\n      \"block_ids\": [\"K17\", \"K21\", \"K23\"]\n    },\n    {\n      \"issue\": \"The exact familial or social relationship between Juliana and Clarissa (\\\"sister\\\") is introduced without backstory.\",\n      \"block_ids\": [\"K10\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K01\",\n    \"score\": 4,\n    \"reason\": \"Opening with an immediate bribe and accusation grabs attention, though it benefits from a beat to understand the dynamic.\",\n    \"evidence\": [\"K01\", \"K04\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K10\", \"K17\", \"K23\", \"K29\", \"K32\"],\n    \"reason\": \"Tension steadily escalates from a petty insult to a brutal physical ultimatum, culminating in Juliana's sacrificial choice.\",\n    \"evidence\": [\"K10\", \"K23\", \"K32\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K33\",\n    \"mechanism\": \"pending_decision\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Juliana survive the brutal ordeal in the thorns, and will Clarissa actually spare her husband afterwards?\",\n    \"score\": 4,\n    \"reason\": \"Ending right as Juliana accepts the horrific terms leaves a strong, suspenseful question about what happens next.\",\n    \"evidence\": [\"K32\", \"K33\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core conflict—cruel blackmail to save a loved one—is instantly clear, even if exact background details are unknown.\",\n    \"evidence\": [\"K10\", \"K23\", \"K29\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Clarissa is blackmailing Juliana.\",\n      \"The price to save Juliana's husband from hanging is destroying her hands in frozen thorns.\"\n    ],\n    \"withheld\": [\n      \"Whether Juliana can successfully retrieve the ring without breaking her promise or dying\",\n      \"What the underlying grudge between the women is\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"Sets up a high-stakes impossible choice cleanly without giving away the outcome of the trial.\",\n    \"evidence\": [\"K23\", \"K32\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Outrage and sacrificial devotion\",\n    \"score\": 4,\n    \"reason\": \"The cruel injustice inflicted by Clarissa paired with Juliana's fierce loyalty evokes strong sympathy and tension.\",\n    \"evidence\": [\"K10\", \"K23\", \"K29\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"betrayal_humiliation\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K10\", \"K17\", \"K23\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K01\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K10\", \"K23\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A woman must mutilate her own hands in freezing briars or watch her husband hang from the gallows.\",\n      \"evidence\": [\"K17\", \"K23\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Why the husband is facing the gallows\",\n        \"The origin of the sisterly animosity\"\n      ]\n    },\n    \"appeal\": \"Watch a devoted wife endure agonizing torture to save her husband from execution.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "313db762146cdae48dad2372f944facffb6e0414d759457a1cbfbcd6edc8f9a8",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3967,
+      "prompt_tokens": 3370,
+      "completion_tokens": 1040,
+      "total_tokens": 4410,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:54:14.665684+00:00"
+}

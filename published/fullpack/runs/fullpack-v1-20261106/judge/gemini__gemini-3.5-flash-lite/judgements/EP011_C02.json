@@ -1,0 +1,294 @@
+{
+  "candidate_id": "EP011_C02",
+  "episode_id": "EP011",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "c75ca6b8088bdd77a62b94498275ed0f18f4869af4a9b10d8fec71f03522c11f",
+  "clip_start_ms": 71500,
+  "clip_end_ms": 112750,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP011_B062",
+    "EP011_B063"
+  ],
+  "eligible_beat_ids": [
+    "EP011_B083",
+    "EP011_B084",
+    "EP011_B085"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana immediately fires back with a sharp accusation of a planted frame-up, creating instant emotional stakes.",
+      "evidence": [
+        "EP011_B063"
+      ],
+      "issues": [],
+      "block_id": "EP011_B063",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily from Gerald's provocation of Alexander, through the physical restraint by the constable, to the shocking discovery of the planted watch.",
+      "evidence": [
+        "EP011_B069",
+        "EP011_B073",
+        "EP011_B078",
+        "EP011_B082"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP011_B069",
+        "EP011_B073",
+        "EP011_B078",
+        "EP011_B082"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The dangling watch and Gerald's triumphant grin leave the characters cornered by the false accusation as the clip freezes.",
+      "evidence": [
+        "EP011_B085",
+        "EP011_B084"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP011_B085",
+      "mechanism": "reaction_hold",
+      "outcome": "unresolved",
+      "open_question": "How will Alexander and Juliana escape this malicious frame-up and defeat Gerald?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The dynamic of a malicious ex or rival framing a couple with the help of corrupt authorities is easy to follow.",
+      "evidence": [
+        "EP011_B063",
+        "EP011_B069",
+        "EP011_B078"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Gerald accuses Juliana of being a thief and plants stolen evidence in Alexander's coat with the help of a constable. Alexander is restrained from defending her, leaving Juliana and Alexander framed and Gerald triumphant.",
+      "confusions": [
+        {
+          "issue": "The exact past relationship between Gerald, Juliana, and Alexander is not explained.",
+          "block_ids": [
+            "EP011_B063",
+            "EP011_B069"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip shows the trap closing completely while leaving viewers eager to see the tables turn.",
+      "evidence": [
+        "EP011_B074",
+        "EP011_B078",
+        "EP011_B085"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Gerald planted the evidence",
+        "The constable is complicit",
+        "Alexander is holding back to protect Juliana"
+      ],
+      "withheld": [
+        "How Alexander will retaliate",
+        "Whether they can prove their innocence"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Watching a smug villain successfully frame innocent people while a corrupt officer assists evokes strong anger and sympathy.",
+      "evidence": [
+        "EP011_B063",
+        "EP011_B078",
+        "EP011_B080",
+        "EP011_B083"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "betrayal_humiliation",
+      "evidence": [
+        "EP011_B063",
+        "EP011_B069",
+        "EP011_B078",
+        "EP011_B083"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP011_B063"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP011_B078",
+        "EP011_B080",
+        "EP011_B083"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An innocent couple is framed for theft by a vindictive antagonist backed by the law, threatening their freedom and dignity.",
+      "evidence": [
+        "EP011_B063",
+        "EP011_B073",
+        "EP011_B078"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP011_B085"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Prior history between Gerald and Juliana"
+    ],
+    "curiosity_revealed": [
+      "Gerald planted the evidence",
+      "The constable is complicit",
+      "Alexander is holding back to protect Juliana"
+    ],
+    "curiosity_withheld": [
+      "How Alexander will retaliate",
+      "Whether they can prove their innocence"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch an innocent couple trapped by a corrupt frame-up fight back against a smug villain.",
+    "supporting_block_ids": [
+      "EP011_B063",
+      "EP011_B069",
+      "EP011_B078",
+      "EP011_B083",
+      "EP011_B080",
+      "EP011_B073",
+      "EP011_B085"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Gerald accuses Juliana of being a thief and plants stolen evidence in Alexander's coat with the help of a constable. Alexander is restrained from defending her, leaving Juliana and Alexander framed and Gerald triumphant.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact past relationship between Gerald, Juliana, and Alexander is not explained.\",\n      \"block_ids\": [\"K03\", \"K09\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 4,\n    \"reason\": \"Juliana immediately fires back with a sharp accusation of a planted frame-up, creating instant emotional stakes.\",\n    \"evidence\": [\"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K09\", \"K13\", \"K18\", \"K22\"],\n    \"reason\": \"Tension builds steadily from Gerald's provocation of Alexander, through the physical restraint by the constable, to the shocking discovery of the planted watch.\",\n    \"evidence\": [\"K09\", \"K13\", \"K18\", \"K22\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K25\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Alexander and Juliana escape this malicious frame-up and defeat Gerald?\",\n    \"score\": 4,\n    \"reason\": \"The dangling watch and Gerald's triumphant grin leave the characters cornered by the false accusation as the clip freezes.\",\n    \"evidence\": [\"K24\", \"K25\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The dynamic of a malicious ex or rival framing a couple with the help of corrupt authorities is easy to follow.\",\n    \"evidence\": [\"K03\", \"K09\", \"K18\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Gerald planted the evidence\",\n      \"The constable is complicit\",\n      \"Alexander is holding back to protect Juliana\"\n    ],\n    \"withheld\": [\n      \"How Alexander will retaliate\",\n      \"Whether they can prove their innocence\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip shows the trap closing completely while leaving viewers eager to see the tables turn.\",\n    \"evidence\": [\"K14\", \"K18\", \"K25\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage\",\n    \"score\": 4,\n    \"reason\": \"Watching a smug villain successfully frame innocent people while a corrupt officer assists evokes strong anger and sympathy.\",\n    \"evidence\": [\"K03\", \"K18\", \"K20\", \"K23\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"betrayal_humiliation\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K03\", \"K09\", \"K18\", \"K23\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K03\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K18\", \"K20\", \"K23\"]\n    },\n    \"stakes\": {\n      \"summary\": \"An innocent couple is framed for theft by a vindictive antagonist backed by the law, threatening their freedom and dignity.\",\n      \"evidence\": [\"K03\", \"K13\", \"K18\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Prior history between Gerald and Juliana\"\n      ]\n    },\n    \"appeal\": \"Watch an innocent couple trapped by a corrupt frame-up fight back against a smug villain.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "d3aed39ae8cb4c2add8f0ff5e46dc2e5dd7b78547647df8bfdbb9c14753b3410",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3863,
+      "prompt_tokens": 3008,
+      "completion_tokens": 978,
+      "total_tokens": 3986,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:54:06.687296+00:00"
+}

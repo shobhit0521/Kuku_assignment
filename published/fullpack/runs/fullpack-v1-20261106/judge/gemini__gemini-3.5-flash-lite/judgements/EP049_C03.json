@@ -1,0 +1,306 @@
+{
+  "candidate_id": "EP049_C03",
+  "episode_id": "EP049",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "0012b70a5d99",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "f510233ccaeb502c728ab49c05c2b2710735e8ec5a77bd54f09db5783b177882",
+  "clip_start_ms": 113000,
+  "clip_end_ms": 144750,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP049_B047",
+    "EP049_B048"
+  ],
+  "eligible_beat_ids": [
+    "EP049_B055",
+    "EP049_B056",
+    "EP049_B057",
+    "EP049_B058",
+    "EP049_B059",
+    "EP049_B060",
+    "EP049_B061",
+    "EP049_B062",
+    "EP049_B063"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The line opens in medias res with a secretive instruction about hiding something from an unknown man, providing mild intrigue.",
+      "evidence": [
+        "EP049_B048"
+      ],
+      "issues": [],
+      "block_id": "EP049_B048",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds from a verbal warning about treason into a direct bargain and physical pact, though it remains a quiet conversation rather than a high-stakes action sequence.",
+      "evidence": [
+        "EP049_B050",
+        "EP049_B054",
+        "EP049_B060",
+        "EP049_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP049_B050",
+        "EP049_B054",
+        "EP049_B060",
+        "EP049_B063"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "The clip ends on an intimate, suspenseful physical touch between a priest and a duchess forming a conspiracy, leaving an atmospheric hook.",
+      "evidence": [
+        "EP049_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP049_B063",
+      "mechanism": "interrupted_action",
+      "outcome": "partly_resolved",
+      "open_question": "What are the immediate consequences of this treasonous pact, and how will they avoid being caught by the Duke?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 2,
+      "valid": true,
+      "reason": "A viewer cannot understand why a religious man is engaging in treason with a Duchess, or who the Duke is, without knowing prior episodes.",
+      "evidence": [
+        "EP049_B050",
+        "EP049_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Catherine pressures a man addressed as Father Thomas into an illicit conspiracy involving treason against a Duke. The scene concludes with the two sealing their dangerous pact with a physical touch and tender gesture.",
+      "confusions": [
+        {
+          "issue": "The identity of the Duke and the nature of the crime/treason are entirely unexplained.",
+          "block_ids": [
+            "EP049_B050"
+          ]
+        },
+        {
+          "issue": "The prior history or existing relationship between a religious figure (Father Thomas) and a Duchess (Catherine) is left completely unexplained.",
+          "block_ids": [
+            "EP049_B050",
+            "EP049_B054",
+            "EP049_B062"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 3,
+      "valid": true,
+      "reason": "It clearly establishes a dangerous illicit agreement, but lacks enough foundational context to make the viewer fully understand the stakes.",
+      "evidence": [
+        "EP049_B050",
+        "EP049_B054",
+        "EP049_B057"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Catherine is a Duchess involved in treasonous plots.",
+        "Father Thomas is willing to conspire with her for a promise of reward."
+      ],
+      "withheld": [
+        "What the specific crime or plot against the Duke is.",
+        "The full extent of the past relationship between Catherine and Father Thomas."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The secretive dialogue and dangerous undertones create a mood of suspense and dark intrigue.",
+      "evidence": [
+        "EP049_B050",
+        "EP049_B054"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "deception_secret_identity",
+      "evidence": [
+        "EP049_B050",
+        "EP049_B054",
+        "EP049_B063"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "romance_devotion",
+    "archetype_confidence": "medium",
+    "hook_mechanism": {
+      "value": "in_medias_res",
+      "evidence": [
+        "EP049_B048"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP049_B050",
+        "EP049_B054"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Committing treason against a newly restored Duke under the guise of a secret pact.",
+      "evidence": [
+        "EP049_B050",
+        "EP049_B054"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "interrupted_action",
+      "evidence": [
+        "EP049_B063"
+      ],
+      "note": null
+    },
+    "context_dependency": "high",
+    "missing_context": [
+      "Who the Duke is",
+      "The nature of Father Thomas and Catherine's relationship"
+    ],
+    "curiosity_revealed": [
+      "Catherine is a Duchess involved in treasonous plots.",
+      "Father Thomas is willing to conspire with her for a promise of reward."
+    ],
+    "curiosity_withheld": [
+      "What the specific crime or plot against the Duke is.",
+      "The full extent of the past relationship between Catherine and Father Thomas."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A forbidden conspiracy unfolds between a duchess and a brooding cleric.",
+    "supporting_block_ids": [
+      "EP049_B050",
+      "EP049_B054",
+      "EP049_B063",
+      "EP049_B048"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "CONTEXT_DEPENDENT",
+      "severity": "minor",
+      "explanation": "The reference to a restored Duke and treason requires prior knowledge of the show's political landscape.",
+      "block_ids": [
+        "EP049_B050"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Catherine pressures a man addressed as Father Thomas into an illicit conspiracy involving treason against a Duke. The scene concludes with the two sealing their dangerous pact with a physical touch and tender gesture.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The identity of the Duke and the nature of the crime/treason are entirely unexplained.\",\n      \"block_ids\": [\"K04\"]\n    },\n    {\n      \"issue\": \"The prior history or existing relationship between a religious figure (Father Thomas) and a Duchess (Catherine) is left completely unexplained.\",\n      \"block_ids\": [\"K04\", \"K08\", \"K16\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"The line opens in medias res with a secretive instruction about hiding something from an unknown man, providing mild intrigue.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K04\", \"K08\", \"K14\", \"K17\"],\n    \"reason\": \"Tension builds from a verbal warning about treason into a direct bargain and physical pact, though it remains a quiet conversation rather than a high-stakes action sequence.\",\n    \"evidence\": [\"K04\", \"K08\", \"K14\", \"K17\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K17\",\n    \"mechanism\": \"interrupted_action\",\n    \"outcome\": \"partly_resolved\",\n    \"open_question\": \"What are the immediate consequences of this treasonous pact, and how will they avoid being caught by the Duke?\",\n    \"score\": 3,\n    \"reason\": \"The clip ends on an intimate, suspenseful physical touch between a priest and a duchess forming a conspiracy, leaving an atmospheric hook.\",\n    \"evidence\": [\"K17\"]\n  },\n  \"context_independence\": {\n    \"score\": 2,\n    \"reason\": \"A viewer cannot understand why a religious man is engaging in treason with a Duchess, or who the Duke is, without knowing prior episodes.\",\n    \"evidence\": [\"K04\", \"K08\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Catherine is a Duchess involved in treasonous plots.\",\n      \"Father Thomas is willing to conspire with her for a promise of reward.\"\n    ],\n    \"withheld\": [\n      \"What the specific crime or plot against the Duke is.\",\n      \"The full extent of the past relationship between Catherine and Father Thomas.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 3,\n    \"reason\": \"It clearly establishes a dangerous illicit agreement, but lacks enough foundational context to make the viewer fully understand the stakes.\",\n    \"evidence\": [\"K04\", \"K08\", \"K11\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion\",\n    \"score\": 3,\n    \"reason\": \"The secretive dialogue and dangerous undertones create a mood of suspense and dark intrigue.\",\n    \"evidence\": [\"K04\", \"K08\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"deception_secret_identity\",\n      \"other_label\": null,\n      \"secondary\": \"romance_devotion\",\n      \"confidence\": \"medium\",\n      \"evidence\": [\"K04\", \"K08\", \"K17\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"in_medias_res\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\"K04\", \"K08\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Committing treason against a newly restored Duke under the guise of a secret pact.\",\n      \"evidence\": [\"K04\", \"K08\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"high\",\n      \"missing_context\": [\n        \"Who the Duke is\",\n        \"The nature of Father Thomas and Catherine's relationship\"\n      ]\n    },\n    \"appeal\": \"A forbidden conspiracy unfolds between a duchess and a brooding cleric.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"CONTEXT_DEPENDENT\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The reference to a restored Duke and treason requires prior knowledge of the show's political landscape.\",\n      \"block_ids\": [\"K04\"]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "ec4853e5385a37f140ec3e26504db1045ce775a8408b30c91dd67f967257952b",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3329,
+      "prompt_tokens": 2597,
+      "completion_tokens": 1099,
+      "total_tokens": 3696,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:10:20.741187+00:00"
+}

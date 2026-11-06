@@ -1,0 +1,304 @@
+{
+  "candidate_id": "EP042_C02",
+  "episode_id": "EP042",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "2d8eaadaf773efb49f5372fbe0aa91c01641a00f6dad04be4fa7436ac195d82e",
+  "clip_start_ms": 11200,
+  "clip_end_ms": 33800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP042_B003",
+    "EP042_B004"
+  ],
+  "eligible_beat_ids": [
+    "EP042_B013",
+    "EP042_B015",
+    "EP042_B016",
+    "EP042_B017",
+    "EP042_B018",
+    "EP042_B019",
+    "EP042_B020",
+    "EP042_B021"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The blond nobleman's shocked and trembling question 'Who are you?' immediately establishes confrontation and mystery.",
+      "evidence": [
+        "EP042_B003"
+      ],
+      "issues": [],
+      "block_id": "EP042_B003",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension escalates as the authority figure's commands are openly defied by his own guards, leading to his frantic realization that Alexander is alive.",
+      "evidence": [
+        "EP042_B010",
+        "EP042_B012",
+        "EP042_B014",
+        "EP042_B017",
+        "EP042_B021"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP042_B010",
+        "EP042_B012",
+        "EP042_B014",
+        "EP042_B017",
+        "EP042_B021"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "Ending on the dramatic declaration that Alexander supposedly died leaves a massive hook about his resurrection and vengeance.",
+      "evidence": [
+        "EP042_B021"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP042_B021",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "How has Alexander returned from the dead, and what will happen to Rupert and the wedding now that his identity is known?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "Viewers understand the power dynamic shift and the immediate conflict, but lack context on why Juliana is in chains and why Alexander's return is so terrifying to Rupert.",
+      "evidence": [
+        "EP042_B005",
+        "EP042_B021"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A mysterious man named Alexander interrupts a cathedral wedding or ceremony where a noblewoman named Juliana is manacled and distressed. When the blond nobleman Rupert commands the guards to arrest Alexander, the royal guards refuse because they recognize him, reducing Rupert to panic and disbelief.",
+      "confusions": [
+        {
+          "issue": "Unclear why Juliana is manacled and what relationship Alexander has to her and Rupert.",
+          "block_ids": [
+            "EP042_B005",
+            "EP042_B006",
+            "EP042_B008"
+          ]
+        },
+        {
+          "issue": "Unexplained backstory regarding Alexander's supposed death and true identity.",
+          "block_ids": [
+            "EP042_B021"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip successfully shows the explosive power shift while keeping the backstory and ultimate fallout completely mysterious.",
+      "evidence": [
+        "EP042_B012",
+        "EP042_B017",
+        "EP042_B021"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander has returned despite everyone believing he was dead.",
+        "The guards refuse to obey Rupert because they know Alexander's true identity."
+      ],
+      "withheld": [
+        "How Alexander survived.",
+        "What crimes or past events led to Juliana being manacled at what appears to be a wedding."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Watching an arrogant antagonist lose control as his guards turn on him and his rival returns provides a strong sense of poetic justice.",
+      "evidence": [
+        "EP042_B010",
+        "EP042_B012",
+        "EP042_B014",
+        "EP042_B021"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage and vindication",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP042_B010",
+        "EP042_B012",
+        "EP042_B017",
+        "EP042_B021"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "reversal",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP042_B003"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP042_B010",
+        "EP042_B014",
+        "EP042_B021"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A presumed-dead man returns to crash a ceremony, stripping an abusive noble of his authority and control over the guards.",
+      "evidence": [
+        "EP042_B010",
+        "EP042_B012",
+        "EP042_B021"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP042_B021"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Exact nature of Juliana's imprisonment",
+      "Prior history between Rupert and Alexander"
+    ],
+    "curiosity_revealed": [
+      "Alexander has returned despite everyone believing he was dead.",
+      "The guards refuse to obey Rupert because they know Alexander's true identity."
+    ],
+    "curiosity_withheld": [
+      "How Alexander survived.",
+      "What crimes or past events led to Juliana being manacled at what appears to be a wedding."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "The man they thought was dead just walked back in—and even the guards refuse to stop him.",
+    "supporting_block_ids": [
+      "EP042_B010",
+      "EP042_B012",
+      "EP042_B017",
+      "EP042_B021",
+      "EP042_B003",
+      "EP042_B014"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A mysterious man named Alexander interrupts a cathedral wedding or ceremony where a noblewoman named Juliana is manacled and distressed. When the blond nobleman Rupert commands the guards to arrest Alexander, the royal guards refuse because they recognize him, reducing Rupert to panic and disbelief.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Unclear why Juliana is manacled and what relationship Alexander has to her and Rupert.\",\n      \"block_ids\": [\"K03\", \"K04\", \"K06\"]\n    },\n    {\n      \"issue\": \"Unexplained backstory regarding Alexander's supposed death and true identity.\",\n      \"block_ids\": [\"K19\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K01\",\n    \"score\": 4,\n    \"reason\": \"The blond nobleman's shocked and trembling question 'Who are you?' immediately establishes confrontation and mystery.\",\n    \"evidence\": [\"K01\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K08\", \"K10\", \"K12\", \"K15\", \"K19\"],\n    \"reason\": \"Tension escalates as the authority figure's commands are openly defied by his own guards, leading to his frantic realization that Alexander is alive.\",\n    \"evidence\": [\"K08\", \"K10\", \"K12\", \"K15\", \"K19\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K19\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How has Alexander returned from the dead, and what will happen to Rupert and the wedding now that his identity is known?\",\n    \"score\": 5,\n    \"reason\": \"Ending on the dramatic declaration that Alexander supposedly died leaves a massive hook about his resurrection and vengeance.\",\n    \"evidence\": [\"K19\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"Viewers understand the power dynamic shift and the immediate conflict, but lack context on why Juliana is in chains and why Alexander's return is so terrifying to Rupert.\",\n    \"evidence\": [\"K03\", \"K19\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Alexander has returned despite everyone believing he was dead.\",\n      \"The guards refuse to obey Rupert because they know Alexander's true identity.\"\n    ],\n    \"withheld\": [\n      \"How Alexander survived.\",\n      \"What crimes or past events led to Juliana being manacled at what appears to be a wedding.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"The clip successfully shows the explosive power shift while keeping the backstory and ultimate fallout completely mysterious.\",\n    \"evidence\": [\"K10\", \"K15\", \"K19\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage and vindication\",\n    \"score\": 4,\n    \"reason\": \"Watching an arrogant antagonist lose control as his guards turn on him and his rival returns provides a strong sense of poetic justice.\",\n    \"evidence\": [\"K08\", \"K10\", \"K12\", \"K19\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"reversal\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K08\", \"K10\", \"K15\", \"K19\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K01\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K08\", \"K12\", \"K19\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A presumed-dead man returns to crash a ceremony, stripping an abusive noble of his authority and control over the guards.\",\n      \"evidence\": [\"K08\", \"K10\", \"K19\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Exact nature of Juliana's imprisonment\",\n        \"Prior history between Rupert and Alexander\"\n      ]\n    },\n    \"appeal\": \"The man they thought was dead just walked back in—and even the guards refuse to stop him.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "a0283a274c406c94eb234069ccf81586bf8f1e8f423d3d2619322836ce466992",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4252,
+      "prompt_tokens": 2643,
+      "completion_tokens": 1084,
+      "total_tokens": 3727,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:07:14.933679+00:00"
+}

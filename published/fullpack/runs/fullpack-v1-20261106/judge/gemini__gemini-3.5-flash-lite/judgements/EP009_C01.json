@@ -1,0 +1,280 @@
+{
+  "candidate_id": "EP009_C01",
+  "episode_id": "EP009",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "c75b263e362326d5507c51704769a68957e592eae90fa3ad8a239c34d6ae2981",
+  "clip_start_ms": 5500,
+  "clip_end_ms": 54000,
+  "masked_terms": 1,
+  "eligible_hook_ids": [
+    "EP009_B008",
+    "EP009_B009"
+  ],
+  "eligible_beat_ids": [
+    "EP009_B037",
+    "EP009_B038",
+    "EP009_B039",
+    "EP009_B040",
+    "EP009_B041",
+    "EP009_B042"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "A desperate mother begs for help for her burning child, creating immediate emotional stakes, though the setup is a standard medical melodrama trope.",
+      "evidence": [
+        "EP009_B009"
+      ],
+      "issues": [],
+      "block_id": "EP009_B009",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds through the preparation of the remedy and the administration of the medicine, culminating in the mother's panic when immediate results are not seen.",
+      "evidence": [
+        "EP009_B009",
+        "EP009_B034",
+        "EP009_B042"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP009_B009",
+        "EP009_B022",
+        "EP009_B034",
+        "EP009_B042"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip cuts on the mother's desperate outburst questioning why the treatment isn't working, leaving the fate of the child hanging.",
+      "evidence": [
+        "EP009_B042",
+        "EP009_B041"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP009_B042",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "Will the boy survive, or is the herbal remedy going to fail?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The situation is self-contained: a sick child, a desperate mother, and healers trying to save him. Only minor background details about the characters are missing.",
+      "evidence": [
+        "EP009_B009",
+        "EP009_B015",
+        "EP009_B042"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A frantic mother brings her severely ill, feverish boy to a woodland cottage seeking a healer named Juliana. Juliana and Alexander work together to prepare an herbal remedy and administer it, but the mother panics when the boy does not immediately recover.",
+      "confusions": [
+        {
+          "issue": "The relationship between Juliana and Alexander is not explained.",
+          "block_ids": [
+            "EP009_B016",
+            "EP009_B026"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 3,
+      "valid": true,
+      "reason": "The medical emergency provides a clear question, but it's a standard procedural beat rather than a deeply compelling serialized hook.",
+      "evidence": [
+        "EP009_B024",
+        "EP009_B037",
+        "EP009_B042"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana and Alexander attempt to treat the child with an herbal concoction of feverfew, chamomile, and willow bark."
+      ],
+      "withheld": [
+        "Whether the treatment ultimately works and saves the child's life."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The mother's weeping and panic evoke standard sympathetic concern for a sick child.",
+      "evidence": [
+        "EP009_B009",
+        "EP009_B017",
+        "EP009_B042"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "anxiety and sympathy",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "vulnerability",
+      "evidence": [
+        "EP009_B009",
+        "EP009_B042"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": null,
+    "archetype_confidence": "medium",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP009_B009"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP009_B009",
+        "EP009_B042"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A mother's dying child's life hangs in the balance as healers race to prepare a remedy.",
+      "evidence": [
+        "EP009_B009",
+        "EP009_B042"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP009_B042"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Background of the healers"
+    ],
+    "curiosity_revealed": [
+      "Juliana and Alexander attempt to treat the child with an herbal concoction of feverfew, chamomile, and willow bark."
+    ],
+    "curiosity_withheld": [
+      "Whether the treatment ultimately works and saves the child's life."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Can a remote healer's herbal remedy save a dying child before it's too late?",
+    "supporting_block_ids": [
+      "EP009_B009",
+      "EP009_B042"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A frantic mother brings her severely ill, feverish boy to a woodland cottage seeking a healer named Juliana. Juliana and Alexander work together to prepare an herbal remedy and administer it, but the mother panics when the boy does not immediately recover.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The relationship between Juliana and Alexander is not explained.\",\n      \"block_ids\": [\"K10\", \"K20\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 3,\n    \"reason\": \"A desperate mother begs for help for her burning child, creating immediate emotional stakes, though the setup is a standard medical melodrama trope.\",\n    \"evidence\": [\n      \"K03\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\n      \"K03\",\n      \"K16\",\n      \"K28\",\n      \"K36\"\n    ],\n    \"reason\": \"Tension builds through the preparation of the remedy and the administration of the medicine, culminating in the mother's panic when immediate results are not seen.\",\n    \"evidence\": [\n      \"K03\",\n      \"K28\",\n      \"K36\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K36\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will the boy survive, or is the herbal remedy going to fail?\",\n    \"score\": 4,\n    \"reason\": \"The clip cuts on the mother's desperate outburst questioning why the treatment isn't working, leaving the fate of the child hanging.\",\n    \"evidence\": [\n      \"K35\",\n      \"K36\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The situation is self-contained: a sick child, a desperate mother, and healers trying to save him. Only minor background details about the characters are missing.\",\n    \"evidence\": [\n      \"K03\",\n      \"K09\",\n      \"K36\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana and Alexander attempt to treat the child with an herbal concoction of feverfew, chamomile, and willow bark.\"\n    ],\n    \"withheld\": [\n      \"Whether the treatment ultimately works and saves the child's life.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 3,\n    \"reason\": \"The medical emergency provides a clear question, but it's a standard procedural beat rather than a deeply compelling serialized hook.\",\n    \"evidence\": [\n      \"K18\",\n      \"K31\",\n      \"K36\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"anxiety and sympathy\",\n    \"score\": 3,\n    \"reason\": \"The mother's weeping and panic evoke standard sympathetic concern for a sick child.\",\n    \"evidence\": [\n      \"K03\",\n      \"K11\",\n      \"K36\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"vulnerability\",\n      \"other_label\": null,\n      \"secondary\": null,\n      \"confidence\": \"medium\",\n      \"evidence\": [\n        \"K03\",\n        \"K36\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K03\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\n        \"K03\",\n        \"K36\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A mother's dying child's life hangs in the balance as healers race to prepare a remedy.\",\n      \"evidence\": [\n        \"K03\",\n        \"K36\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Background of the healers\"\n      ]\n    },\n    \"appeal\": \"Can a remote healer's herbal remedy save a dying child before it's too late?\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "ff849f8b0c0fed4e71aa324c388f2d2c80f983bc14cd8af1a287ef783d6a3c4d",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3616,
+      "prompt_tokens": 3447,
+      "completion_tokens": 1056,
+      "total_tokens": 4503,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:01:10.004140+00:00"
+}

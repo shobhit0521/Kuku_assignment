@@ -1,0 +1,309 @@
+{
+  "candidate_id": "EP013_C01_R1",
+  "episode_id": "EP013",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "a5cd6db30f4a49e82ddf04257c8a092c94ace3d3a06e5df73fde7d459d3aa108",
+  "clip_start_ms": 5400,
+  "clip_end_ms": 39800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP013_B005",
+    "EP013_B006"
+  ],
+  "eligible_beat_ids": [
+    "EP013_B017",
+    "EP013_B018",
+    "EP013_B019",
+    "EP013_B020",
+    "EP013_B021"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Alexander's plea about thorns creates mild intrigue, but lacks immediate context as to why it matters.",
+      "evidence": [
+        "EP013_B005"
+      ],
+      "issues": [],
+      "block_id": "EP013_B005",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds as Alexander desperately tries to stop Juliana and she resolutely walks toward the dangerous briars, though the stakes remain emotionally narrow.",
+      "evidence": [
+        "EP013_B010",
+        "EP013_B014",
+        "EP013_B019"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP013_B010",
+        "EP013_B014",
+        "EP013_B019"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "It cuts right as she walks toward the dangerous briars and Clarissa mocks her, leaving the immediate physical consequence open.",
+      "evidence": [
+        "EP013_B020",
+        "EP013_B019",
+        "EP013_B021"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP013_B020",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "What will happen to Juliana as she enters the briar thicket?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 2,
+      "valid": true,
+      "reason": "A stranger can see mutual devotion and outside hostility, but has no idea why Alexander is in handcuffs or what entering the briars will achieve.",
+      "evidence": [
+        "EP013_B003",
+        "EP013_B005",
+        "EP013_B018"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A handcuffed man pleads with a woman named Juliana not to go near a dangerous thorn garden for him, while onlookers mock them from above. Juliana insists on sacrificing herself because he stood by her in the past, walking toward the briars as he is held back.",
+      "confusions": [
+        {
+          "issue": "Why Alexander is in handcuffs and why Juliana has to approach the briars is entirely unexplained.",
+          "block_ids": [
+            "EP013_B003",
+            "EP013_B005"
+          ]
+        },
+        {
+          "issue": "The exact relationship between Gerald, Clarissa, Alexander, and Juliana is unknown, though Gerald and Clarissa are clearly hostile.",
+          "block_ids": [
+            "EP013_B011",
+            "EP013_B016",
+            "EP013_B021"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 3,
+      "valid": true,
+      "reason": "The emotional stakes are clear, but the narrative setup is too opaque to drive strong curiosity without prior context.",
+      "evidence": [
+        "EP013_B003",
+        "EP013_B016",
+        "EP013_B018"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is fiercely loyal to Alexander",
+        "Gerald and Clarissa take sadistic pleasure in their suffering"
+      ],
+      "withheld": [
+        "The crime Alexander is accused of",
+        "Why Juliana must face the briars"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The actors portray deep sacrifice and despair, though the emotional weight relies on unearned backstory.",
+      "evidence": [
+        "EP013_B010",
+        "EP013_B014",
+        "EP013_B018"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "devotion and anguish",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "romance_devotion",
+      "evidence": [
+        "EP013_B018",
+        "EP013_B016",
+        "EP013_B011"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "medium",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP013_B005"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "longing_romance",
+      "evidence": [
+        "EP013_B018"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Juliana is walking into a dangerous briar patch to save or appease authorities on behalf of the handcuffed Alexander, while enemies watch with amusement.",
+      "evidence": [
+        "EP013_B003",
+        "EP013_B005",
+        "EP013_B019"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP013_B020"
+      ],
+      "note": null
+    },
+    "context_dependency": "high",
+    "missing_context": [
+      "Why Alexander is arrested",
+      "What entering the briars accomplishes"
+    ],
+    "curiosity_revealed": [
+      "Juliana is fiercely loyal to Alexander",
+      "Gerald and Clarissa take sadistic pleasure in their suffering"
+    ],
+    "curiosity_withheld": [
+      "The crime Alexander is accused of",
+      "Why Juliana must face the briars"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Witness a fiercely loyal woman risk bodily harm to save the man who stood by her.",
+    "supporting_block_ids": [
+      "EP013_B018",
+      "EP013_B016",
+      "EP013_B011",
+      "EP013_B005",
+      "EP013_B003",
+      "EP013_B019",
+      "EP013_B020"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "CONTEXT_DEPENDENT",
+      "severity": "minor",
+      "explanation": "The viewer is dropped into the middle of a punishment without knowing the charges or background.",
+      "block_ids": [
+        "EP013_B003",
+        "EP013_B005"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A handcuffed man pleads with a woman named Juliana not to go near a dangerous thorn garden for him, while onlookers mock them from above. Juliana insists on sacrificing herself because he stood by her in the past, walking toward the briars as he is held back.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Why Alexander is in handcuffs and why Juliana has to approach the briars is entirely unexplained.\",\n      \"block_ids\": [\n        \"K01\",\n        \"K03\"\n      ]\n    },\n    {\n      \"issue\": \"The exact relationship between Gerald, Clarissa, Alexander, and Juliana is unknown, though Gerald and Clarissa are clearly hostile.\",\n      \"block_ids\": [\n        \"K09\",\n        \"K14\",\n        \"K19\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 3,\n    \"reason\": \"Alexander's plea about thorns creates mild intrigue, but lacks immediate context as to why it matters.\",\n    \"evidence\": [\n      \"K03\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\n      \"K08\",\n      \"K12\",\n      \"K17\"\n    ],\n    \"reason\": \"Tension builds as Alexander desperately tries to stop Juliana and she resolutely walks toward the dangerous briars, though the stakes remain emotionally narrow.\",\n    \"evidence\": [\n      \"K08\",\n      \"K12\",\n      \"K17\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K18\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What will happen to Juliana as she enters the briar thicket?\",\n    \"score\": 3,\n    \"reason\": \"It cuts right as she walks toward the dangerous briars and Clarissa mocks her, leaving the immediate physical consequence open.\",\n    \"evidence\": [\n      \"K17\",\n      \"K18\",\n      \"K19\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 2,\n    \"reason\": \"A stranger can see mutual devotion and outside hostility, but has no idea why Alexander is in handcuffs or what entering the briars will achieve.\",\n    \"evidence\": [\n      \"K01\",\n      \"K03\",\n      \"K16\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is fiercely loyal to Alexander\",\n      \"Gerald and Clarissa take sadistic pleasure in their suffering\"\n    ],\n    \"withheld\": [\n      \"The crime Alexander is accused of\",\n      \"Why Juliana must face the briars\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 3,\n    \"reason\": \"The emotional stakes are clear, but the narrative setup is too opaque to drive strong curiosity without prior context.\",\n    \"evidence\": [\n      \"K01\",\n      \"K14\",\n      \"K16\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"devotion and anguish\",\n    \"score\": 3,\n    \"reason\": \"The actors portray deep sacrifice and despair, though the emotional weight relies on unearned backstory.\",\n    \"evidence\": [\n      \"K08\",\n      \"K12\",\n      \"K16\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"romance_devotion\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"medium\",\n      \"evidence\": [\n        \"K16\",\n        \"K14\",\n        \"K09\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K03\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"longing_romance\",\n      \"evidence\": [\n        \"K16\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"Juliana is walking into a dangerous briar patch to save or appease authorities on behalf of the handcuffed Alexander, while enemies watch with amusement.\",\n      \"evidence\": [\n        \"K01\",\n        \"K03\",\n        \"K17\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"high\",\n      \"missing_context\": [\n        \"Why Alexander is arrested\",\n        \"What entering the briars accomplishes\"\n      ]\n    },\n    \"appeal\": \"Witness a fiercely loyal woman risk bodily harm to save the man who stood by her.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"CONTEXT_DEPENDENT\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The viewer is dropped into the middle of a punishment without knowing the charges or background.\",\n      \"block_ids\": [\n        \"K01\",\n        \"K03\"\n      ]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "91abacae78a771e242e1a9ef51d31f9d5b023ae0289fc4eb28260f832ea33ed8",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4012,
+      "prompt_tokens": 2713,
+      "completion_tokens": 1239,
+      "total_tokens": 3952,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:54:44.059857+00:00"
+}

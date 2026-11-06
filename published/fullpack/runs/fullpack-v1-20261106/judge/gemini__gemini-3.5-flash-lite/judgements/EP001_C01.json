@@ -1,0 +1,288 @@
+{
+  "candidate_id": "EP001_C01",
+  "episode_id": "EP001",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "8c68febabdf1de6dc96655f804b0001aa3f1729db1c50b7a1cb0a53c997eb388",
+  "clip_start_ms": 11000,
+  "clip_end_ms": 41200,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP001_B007",
+    "EP001_B008",
+    "EP001_B009"
+  ],
+  "eligible_beat_ids": [
+    "EP001_B021",
+    "EP001_B022",
+    "EP001_B023",
+    "EP001_B024",
+    "EP001_B025",
+    "EP001_B026",
+    "EP001_B027"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The cold command to turn around immediately establishes conflict and halts the bride mid-aisle.",
+      "evidence": [
+        "EP001_B008",
+        "EP001_B007"
+      ],
+      "issues": [],
+      "block_id": "EP001_B008",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily from the initial warning through the shocking discovery at the altar to the final gloating betrayal.",
+      "evidence": [
+        "EP001_B013",
+        "EP001_B017",
+        "EP001_B024",
+        "EP001_B027"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP001_B013",
+        "EP001_B017",
+        "EP001_B024",
+        "EP001_B027"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The rival's gloating declaration leaves an explosive confrontation hanging right at the cut.",
+      "evidence": [
+        "EP001_B027",
+        "EP001_B026"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP001_B027",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "How will Juliana react to being publicly replaced and betrayed at her own wedding?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 5,
+      "valid": true,
+      "reason": "The basic premise of a wedding day betrayal and public humiliation is universally understandable.",
+      "evidence": [
+        "EP001_B011",
+        "EP001_B024",
+        "EP001_B027"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "As Lady Juliana walks down the aisle for her wedding, a stern matriarch blocks her path and tells her that Gerald is no longer waiting for her. Juliana discovers Gerald holding hands with another woman at the altar, who proudly announces that she is marrying him instead.",
+      "confusions": [
+        {
+          "issue": "The exact relationship between the matriarch, Gerald, and Juliana is not established.",
+          "block_ids": [
+            "EP001_B008",
+            "EP001_B011",
+            "EP001_B013"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip sets up the painful core conflict clearly while leaving the aftermath completely open.",
+      "evidence": [
+        "EP001_B024",
+        "EP001_B027"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The bride is betrayed at the altar by her groom marrying someone else."
+      ],
+      "withheld": [
+        "The motives behind the betrayal and Juliana's retaliation."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana's confusion and subsequent heartbreak upon seeing another woman take her place create strong empathetic sympathy.",
+      "evidence": [
+        "EP001_B015",
+        "EP001_B024",
+        "EP001_B025"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "humiliation and heartbreak",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "betrayal_humiliation",
+      "evidence": [
+        "EP001_B013",
+        "EP001_B024",
+        "EP001_B027"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP001_B008"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP001_B014",
+        "EP001_B024"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A bride faces public humiliation and the loss of her groom to another woman at the altar.",
+      "evidence": [
+        "EP001_B011",
+        "EP001_B024",
+        "EP001_B027"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP001_B027"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "The bride is betrayed at the altar by her groom marrying someone else."
+    ],
+    "curiosity_withheld": [
+      "The motives behind the betrayal and Juliana's retaliation."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Will a humiliated bride let her groom marry her rival, or will she fight back?",
+    "supporting_block_ids": [
+      "EP001_B013",
+      "EP001_B024",
+      "EP001_B027",
+      "EP001_B008",
+      "EP001_B014",
+      "EP001_B011"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"As Lady Juliana walks down the aisle for her wedding, a stern matriarch blocks her path and tells her that Gerald is no longer waiting for her. Juliana discovers Gerald holding hands with another woman at the altar, who proudly announces that she is marrying him instead.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact relationship between the matriarch, Gerald, and Juliana is not established.\",\n      \"block_ids\": [\n        \"K02\",\n        \"K05\",\n        \"K07\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"The cold command to turn around immediately establishes conflict and halts the bride mid-aisle.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K07\",\n      \"K11\",\n      \"K18\",\n      \"K21\"\n    ],\n    \"reason\": \"Tension builds steadily from the initial warning through the shocking discovery at the altar to the final gloating betrayal.\",\n    \"evidence\": [\n      \"K07\",\n      \"K11\",\n      \"K18\",\n      \"K21\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K21\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Juliana react to being publicly replaced and betrayed at her own wedding?\",\n    \"score\": 5,\n    \"reason\": \"The rival's gloating declaration leaves an explosive confrontation hanging right at the cut.\",\n    \"evidence\": [\n      \"K20\",\n      \"K21\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 5,\n    \"reason\": \"The basic premise of a wedding day betrayal and public humiliation is universally understandable.\",\n    \"evidence\": [\n      \"K05\",\n      \"K18\",\n      \"K21\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The bride is betrayed at the altar by her groom marrying someone else.\"\n    ],\n    \"withheld\": [\n      \"The motives behind the betrayal and Juliana's retaliation.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"The clip sets up the painful core conflict clearly while leaving the aftermath completely open.\",\n    \"evidence\": [\n      \"K18\",\n      \"K21\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"humiliation and heartbreak\",\n    \"score\": 4,\n    \"reason\": \"Juliana's confusion and subsequent heartbreak upon seeing another woman take her place create strong empathetic sympathy.\",\n    \"evidence\": [\n      \"K09\",\n      \"K18\",\n      \"K19\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"betrayal_humiliation\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K07\",\n        \"K18\",\n        \"K21\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\n        \"K08\",\n        \"K18\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A bride faces public humiliation and the loss of her groom to another woman at the altar.\",\n      \"evidence\": [\n        \"K05\",\n        \"K18\",\n        \"K21\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"Will a humiliated bride let her groom marry her rival, or will she fight back?\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "b3dec7251011838b8089dc74fe117ac46d56a8167949d5f6c5ee955c2fdda84e",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3933,
+      "prompt_tokens": 2762,
+      "completion_tokens": 1038,
+      "total_tokens": 3800,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T09:58:59.310744+00:00"
+}

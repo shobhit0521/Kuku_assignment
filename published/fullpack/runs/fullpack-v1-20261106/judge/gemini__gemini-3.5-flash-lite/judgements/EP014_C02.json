@@ -1,0 +1,279 @@
+{
+  "candidate_id": "EP014_C02",
+  "episode_id": "EP014",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "ac7f38b41edcb76db4bc052260cf87465407a9b1993dae076e5e8ae8b94c7628",
+  "clip_start_ms": 47000,
+  "clip_end_ms": 87630,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP014_B031",
+    "EP014_B032"
+  ],
+  "eligible_beat_ids": [
+    "EP014_B046",
+    "EP014_B047",
+    "EP014_B048",
+    "EP014_B049",
+    "EP014_B050"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Alexander's line expresses immediate concern over hand injuries, establishing a tender dynamic, though without initial high stakes or action.",
+      "evidence": [
+        "EP014_B032"
+      ],
+      "issues": [],
+      "block_id": "EP014_B032",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension starts low and tender, but steadily builds from a loving embrace into a dark, threatening vow of vengeance.",
+      "evidence": [
+        "EP014_B047",
+        "EP014_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP014_B047",
+        "EP014_B050"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The shift from tender care to a tight, angry fist clenched beside a bucket of blood creates a strong promise of retaliation.",
+      "evidence": [
+        "EP014_B050",
+        "EP014_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP014_B050",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Whom is Alexander going to exact violent vengeance upon for hurting Juliana?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The viewer understands the immediate emotional connection and protectiveness, but lacks context on the background conflict or who caused the injuries.",
+      "evidence": [
+        "EP014_B034",
+        "EP014_B047"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A scarred man named Alexander tends to the injured hands of a tearful woman named Juliana by a fireside, expressing deep remorse. He then vows that no one will ever hurt her for protecting him again, ending with a menacing clench of his fist over a bucket of bloody water.",
+      "confusions": [
+        {
+          "issue": "It is unclear how Juliana injured her hands or what she protected Alexander from earlier.",
+          "block_ids": [
+            "EP014_B032",
+            "EP014_B034",
+            "EP014_B042",
+            "EP014_B047"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It establishes the emotional stakes clearly while leaving the impending conflict and violent retribution entirely opaque.",
+      "evidence": [
+        "EP014_B047",
+        "EP014_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander and Juliana share a deep, protective bond and he blames himself for her injuries."
+      ],
+      "withheld": [
+        "Who caused the injuries, what Juliana protected him from, and how he plans to retaliate."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The transition from tender, tearful comfort to a dark, menacing vow effectively elicits suspense and sympathy.",
+      "evidence": [
+        "EP014_B034",
+        "EP014_B047",
+        "EP014_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "protective devotion shifting to brewing outrage",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "romance_devotion",
+      "evidence": [
+        "EP014_B034",
+        "EP014_B047",
+        "EP014_B050"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP014_B032"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "longing_romance",
+      "evidence": [
+        "EP014_B034",
+        "EP014_B047"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Protecting a loved one from harm and delivering brutal vengeance against those who hurt them.",
+      "evidence": [
+        "EP014_B047",
+        "EP014_B050"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP014_B050"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Prior events leading to Juliana's hand injuries"
+    ],
+    "curiosity_revealed": [
+      "Alexander and Juliana share a deep, protective bond and he blames himself for her injuries."
+    ],
+    "curiosity_withheld": [
+      "Who caused the injuries, what Juliana protected him from, and how he plans to retaliate."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A tender romance turns dark and lethal as a scarred protector vows violent vengeance.",
+    "supporting_block_ids": [
+      "EP014_B034",
+      "EP014_B047",
+      "EP014_B050",
+      "EP014_B032"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A scarred man named Alexander tends to the injured hands of a tearful woman named Juliana by a fireside, expressing deep remorse. He then vows that no one will ever hurt her for protecting him again, ending with a menacing clench of his fist over a bucket of bloody water.\",\n  \"confusions\": [\n    {\n      \"issue\": \"It is unclear how Juliana injured her hands or what she protected Alexander from earlier.\",\n      \"block_ids\": [\"K03\", \"K05\", \"K12\", \"K18\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 3,\n    \"reason\": \"Alexander's line expresses immediate concern over hand injuries, establishing a tender dynamic, though without initial high stakes or action.\",\n    \"evidence\": [\"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K18\", \"K21\"],\n    \"reason\": \"Tension starts low and tender, but steadily builds from a loving embrace into a dark, threatening vow of vengeance.\",\n    \"evidence\": [\"K18\", \"K21\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K21\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Whom is Alexander going to exact violent vengeance upon for hurting Juliana?\",\n    \"score\": 4,\n    \"reason\": \"The shift from tender care to a tight, angry fist clenched beside a bucket of blood creates a strong promise of retaliation.\",\n    \"evidence\": [\"K21\", \"K22\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The viewer understands the immediate emotional connection and protectiveness, but lacks context on the background conflict or who caused the injuries.\",\n    \"evidence\": [\"K05\", \"K18\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"Alexander and Juliana share a deep, protective bond and he blames himself for her injuries.\"],\n    \"withheld\": [\"Who caused the injuries, what Juliana protected him from, and how he plans to retaliate.\"],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It establishes the emotional stakes clearly while leaving the impending conflict and violent retribution entirely opaque.\",\n    \"evidence\": [\"K18\", \"K21\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"protective devotion shifting to brewing outrage\",\n    \"score\": 4,\n    \"reason\": \"The transition from tender, tearful comfort to a dark, menacing vow effectively elicits suspense and sympathy.\",\n    \"evidence\": [\"K05\", \"K18\", \"K21\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"romance_devotion\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K05\", \"K18\", \"K21\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K03\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"longing_romance\",\n      \"evidence\": [\"K05\", \"K18\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Protecting a loved one from harm and delivering brutal vengeance against those who hurt them.\",\n      \"evidence\": [\"K18\", \"K21\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\"Prior events leading to Juliana's hand injuries\"]\n    },\n    \"appeal\": \"A tender romance turns dark and lethal as a scarred protector vows violent vengeance.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "d5d891e23c2a4ecb790d2b76e0a91375fe5762d8d5d941324841c4a106150d76",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3438,
+      "prompt_tokens": 2831,
+      "completion_tokens": 933,
+      "total_tokens": 3764,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:55:06.987566+00:00"
+}

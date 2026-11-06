@@ -1,0 +1,290 @@
+{
+  "candidate_id": "EP045_C02",
+  "episode_id": "EP045",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "44ae87096b5e466dad0e93eace2bf0cd012cef687c669d0e0cce2fe3d0c2226d",
+  "clip_start_ms": 86500,
+  "clip_end_ms": 121750,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP045_B058",
+    "EP045_B057",
+    "EP045_B059",
+    "EP045_B060"
+  ],
+  "eligible_beat_ids": [
+    "EP045_B071",
+    "EP045_B072",
+    "EP045_B073",
+    "EP045_B074"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The slamming doors paired with a commanding command immediately establish an interruption of an event, creating strong curiosity.",
+      "evidence": [
+        "EP045_B060",
+        "EP045_B058",
+        "EP045_B057"
+      ],
+      "issues": [],
+      "block_id": "EP045_B060",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension escalates steadily from the initial interruption to the formal accusation invalidating the marriage, culminating in a rival's vindictive reaction.",
+      "evidence": [
+        "EP045_B060",
+        "EP045_B064",
+        "EP045_B070",
+        "EP045_B074"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP045_B064",
+        "EP045_B070",
+        "EP045_B074"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The cut to Catherine's triumphant smile leaves open how the couple will handle the destruction of their marriage status.",
+      "evidence": [
+        "EP045_B074",
+        "EP045_B073"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP045_B074",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "How will Alexander and Juliana fight back against this royal annulment, and what will Catherine do with her victory?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The viewer easily understands that a wedding is being forcefully invalidated by religious and state authority, even if Catherine's specific identity requires context.",
+      "evidence": [
+        "EP045_B064",
+        "EP045_B070",
+        "EP045_B074"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A high-ranking priest and a Crown officer dramatically interrupt a wedding ceremony to declare it illegal and invalidate the bride's title. The clip ends with a veiled woman smiling triumphantly at the sudden disaster.",
+      "confusions": [
+        {
+          "issue": "Who Catherine is and her relationship to Alexander and Juliana is unexplained.",
+          "block_ids": [
+            "EP045_B073",
+            "EP045_B074"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It clearly shows the disaster striking the couple while leaving the aftermath and Catherine's plot entirely unanswered.",
+      "evidence": [
+        "EP045_B070",
+        "EP045_B074"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The wedding is being declared illegal by the Crown and High Priest.",
+        "Catherine is thrilled by the outcome."
+      ],
+      "withheld": [
+        "Whether the marriage can be legally defended",
+        "Catherine's exact role in orchestrating the interruption"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The sudden invalidation of a marriage right at the altar creates a sharp emotional punch of injustice and panic.",
+      "evidence": [
+        "EP045_B071",
+        "EP045_B072"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "shock and outrage",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP045_B064",
+        "EP045_B070",
+        "EP045_B074"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "in_medias_res",
+      "evidence": [
+        "EP045_B058",
+        "EP045_B060"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP045_B070",
+        "EP045_B072"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A couple's marriage and social standing are publicly stripped away by royal decree.",
+      "evidence": [
+        "EP045_B064",
+        "EP045_B070"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP045_B074"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Catherine's background relationship to the groom"
+    ],
+    "curiosity_revealed": [
+      "The wedding is being declared illegal by the Crown and High Priest.",
+      "Catherine is thrilled by the outcome."
+    ],
+    "curiosity_withheld": [
+      "Whether the marriage can be legally defended",
+      "Catherine's exact role in orchestrating the interruption"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A grand wedding is brutally halted by royal decree, exposing a devastating plot.",
+    "supporting_block_ids": [
+      "EP045_B064",
+      "EP045_B070",
+      "EP045_B074",
+      "EP045_B058",
+      "EP045_B060",
+      "EP045_B072"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A high-ranking priest and a Crown officer dramatically interrupt a wedding ceremony to declare it illegal and invalidate the bride's title. The clip ends with a veiled woman smiling triumphantly at the sudden disaster.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Catherine is and her relationship to Alexander and Juliana is unexplained.\",\n      \"block_ids\": [\n        \"K17\",\n        \"K18\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K04\",\n    \"score\": 4,\n    \"reason\": \"The slamming doors paired with a commanding command immediately establish an interruption of an event, creating strong curiosity.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\",\n      \"K04\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K08\",\n      \"K14\",\n      \"K18\"\n    ],\n    \"reason\": \"Tension escalates steadily from the initial interruption to the formal accusation invalidating the marriage, culminating in a rival's vindictive reaction.\",\n    \"evidence\": [\n      \"K04\",\n      \"K08\",\n      \"K14\",\n      \"K18\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K18\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Alexander and Juliana fight back against this royal annulment, and what will Catherine do with her victory?\",\n    \"score\": 4,\n    \"reason\": \"The cut to Catherine's triumphant smile leaves open how the couple will handle the destruction of their marriage status.\",\n    \"evidence\": [\n      \"K17\",\n      \"K18\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The viewer easily understands that a wedding is being forcefully invalidated by religious and state authority, even if Catherine's specific identity requires context.\",\n    \"evidence\": [\n      \"K08\",\n      \"K14\",\n      \"K18\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The wedding is being declared illegal by the Crown and High Priest.\",\n      \"Catherine is thrilled by the outcome.\"\n    ],\n    \"withheld\": [\n      \"Whether the marriage can be legally defended\",\n      \"Catherine's exact role in orchestrating the interruption\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It clearly shows the disaster striking the couple while leaving the aftermath and Catherine's plot entirely unanswered.\",\n    \"evidence\": [\n      \"K14\",\n      \"K18\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"shock and outrage\",\n    \"score\": 4,\n    \"reason\": \"The sudden invalidation of a marriage right at the altar creates a sharp emotional punch of injustice and panic.\",\n    \"evidence\": [\n      \"K15\",\n      \"K16\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K08\",\n        \"K14\",\n        \"K18\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"in_medias_res\",\n      \"evidence\": [\n        \"K01\",\n        \"K04\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\n        \"K14\",\n        \"K16\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A couple's marriage and social standing are publicly stripped away by royal decree.\",\n      \"evidence\": [\n        \"K08\",\n        \"K14\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Catherine's background relationship to the groom\"\n      ]\n    },\n    \"appeal\": \"A grand wedding is brutally halted by royal decree, exposing a devastating plot.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "d9e942d151c7fda9565f817b21c3408449d5d957cbb62264aa86e1473bab5221",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3622,
+      "prompt_tokens": 2670,
+      "completion_tokens": 1077,
+      "total_tokens": 3747,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:08:20.631617+00:00"
+}

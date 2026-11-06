@@ -1,0 +1,304 @@
+{
+  "candidate_id": "EP033_C02",
+  "episode_id": "EP033",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "479584ffbeefb6acf4460dee20a4221a4d39acbc8cc658daac571a2cfc197eb5",
+  "clip_start_ms": 123500,
+  "clip_end_ms": 164500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP033_B074",
+    "EP033_B075"
+  ],
+  "eligible_beat_ids": [
+    "EP033_B093",
+    "EP033_B094",
+    "EP033_B095",
+    "EP033_B096",
+    "EP033_B097",
+    "EP033_B098"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The Lord's cold accusation 'That is witchcraft' immediately establishes a high-stakes conflict.",
+      "evidence": [
+        "EP033_B075"
+      ],
+      "issues": [],
+      "block_id": "EP033_B075",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension steadily escalates as the Lord corners the maid, stripping away her options until she collapses in defeat.",
+      "evidence": [
+        "EP033_B079",
+        "EP033_B083",
+        "EP033_B088",
+        "EP033_B092",
+        "EP033_B093"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP033_B079",
+        "EP033_B083",
+        "EP033_B088",
+        "EP033_B092"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "The cold dismissal leaves an impending sense of dread about the upcoming trial, though the scene itself concludes its immediate beat.",
+      "evidence": [
+        "EP033_B097",
+        "EP033_B098"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP033_B097",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Will the maid actually go through with the false testimony against Lady Juliana at the trial?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic of coercion, blackmail, and injustice is instantly clear, even if specific backstory names are unknown.",
+      "evidence": [
+        "EP033_B075",
+        "EP033_B079",
+        "EP033_B088",
+        "EP033_B092"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A powerful Lord coerces a desperate maid into giving false testimony accusing another woman of witchcraft in order to save her brother. Despite her agony and protests, the Lord forces her to submit to his fabricated story.",
+      "confusions": [
+        {
+          "issue": "Who Lady Juliana is and why she is being targeted by the Lord is not explained.",
+          "block_ids": [
+            "EP033_B095"
+          ]
+        },
+        {
+          "issue": "The exact relationship between the Lord, the maid, and Toby is missing background context.",
+          "block_ids": [
+            "EP033_B077"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It clearly sets up the villain's cruelty and the victim's helpless trap, making the viewer want to see justice or further developments.",
+      "evidence": [
+        "EP033_B088",
+        "EP033_B092",
+        "EP033_B095"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The Lord is forcing the maid to commit perjury.",
+        "The maid's brother Toby's life is being used as leverage."
+      ],
+      "withheld": [
+        "What happens at the trial",
+        "Lady Juliana's true nature and connection to them"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The maid's visceral grief and the Lord's chilling ruthlessness effectively generate strong audience sympathy and indignation.",
+      "evidence": [
+        "EP033_B077",
+        "EP033_B085",
+        "EP033_B084",
+        "EP033_B093"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Outrage and sympathy",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "betrayal_humiliation",
+      "evidence": [
+        "EP033_B079",
+        "EP033_B088",
+        "EP033_B092",
+        "EP033_B093"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP033_B075"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP033_B084",
+        "EP033_B093",
+        "EP033_B095"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A maid is forced to frame an innocent woman for witchcraft or lose her brother.",
+      "evidence": [
+        "EP033_B077",
+        "EP033_B088",
+        "EP033_B092"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP033_B097"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Lady Juliana's identity"
+    ],
+    "curiosity_revealed": [
+      "The Lord is forcing the maid to commit perjury.",
+      "The maid's brother Toby's life is being used as leverage."
+    ],
+    "curiosity_withheld": [
+      "What happens at the trial",
+      "Lady Juliana's true nature and connection to them"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a ruthless lord blackmail a desperate maid into framing an innocent woman to save her brother.",
+    "supporting_block_ids": [
+      "EP033_B079",
+      "EP033_B088",
+      "EP033_B092",
+      "EP033_B093",
+      "EP033_B075",
+      "EP033_B084",
+      "EP033_B095",
+      "EP033_B077",
+      "EP033_B097"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A powerful Lord coerces a desperate maid into giving false testimony accusing another woman of witchcraft in order to save her brother. Despite her agony and protests, the Lord forces her to submit to his fabricated story.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Lady Juliana is and why she is being targeted by the Lord is not explained.\",\n      \"block_ids\": [\"K22\"]\n    },\n    {\n      \"issue\": \"The exact relationship between the Lord, the maid, and Toby is missing background context.\",\n      \"block_ids\": [\"K03\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"The Lord's cold accusation 'That is witchcraft' immediately establishes a high-stakes conflict.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K06\", \"K10\", \"K15\", \"K19\"],\n    \"reason\": \"Tension steadily escalates as the Lord corners the maid, stripping away her options until she collapses in defeat.\",\n    \"evidence\": [\"K06\", \"K10\", \"K15\", \"K19\", \"K20\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K24\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will the maid actually go through with the false testimony against Lady Juliana at the trial?\",\n    \"score\": 3,\n    \"reason\": \"The cold dismissal leaves an impending sense of dread about the upcoming trial, though the scene itself concludes its immediate beat.\",\n    \"evidence\": [\"K24\", \"K25\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic of coercion, blackmail, and injustice is instantly clear, even if specific backstory names are unknown.\",\n    \"evidence\": [\"K02\", \"K06\", \"K15\", \"K19\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The Lord is forcing the maid to commit perjury.\",\n      \"The maid's brother Toby's life is being used as leverage.\"\n    ],\n    \"withheld\": [\n      \"What happens at the trial\",\n      \"Lady Juliana's true nature and connection to them\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It clearly sets up the villain's cruelty and the victim's helpless trap, making the viewer want to see justice or further developments.\",\n    \"evidence\": [\"K15\", \"K19\", \"K22\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Outrage and sympathy\",\n    \"score\": 4,\n    \"reason\": \"The maid's visceral grief and the Lord's chilling ruthlessness effectively generate strong audience sympathy and indignation.\",\n    \"evidence\": [\"K03\", \"K11\", \"K12\", \"K20\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"betrayal_humiliation\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K06\", \"K15\", \"K19\", \"K20\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\"K12\", \"K20\", \"K22\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A maid is forced to frame an innocent woman for witchcraft or lose her brother.\",\n      \"evidence\": [\"K03\", \"K15\", \"K19\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Lady Juliana's identity\"\n      ]\n    },\n    \"appeal\": \"Watch a ruthless lord blackmail a desperate maid into framing an innocent woman to save her brother.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "84fb4de48605d3ce3ce2691ae2f1232ebd27e8dfa142132e62579c330c417960",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3700,
+      "prompt_tokens": 2899,
+      "completion_tokens": 1037,
+      "total_tokens": 3936,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:02:54.621797+00:00"
+}

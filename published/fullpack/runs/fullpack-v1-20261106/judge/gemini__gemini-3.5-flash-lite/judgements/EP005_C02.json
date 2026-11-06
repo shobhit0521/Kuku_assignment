@@ -1,0 +1,304 @@
+{
+  "candidate_id": "EP005_C02",
+  "episode_id": "EP005",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "ec076c9339e0fb5fbcbb31afb7b43e08a4bdb9c64b7464be7d938bd2c824d511",
+  "clip_start_ms": 46800,
+  "clip_end_ms": 100800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP005_B027",
+    "EP005_B028"
+  ],
+  "eligible_beat_ids": [
+    "EP005_B054",
+    "EP005_B056",
+    "EP005_B057",
+    "EP005_B058"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Starts mid-conflict with a hostile line, but lacks broader context to make the viewer fully understand the stakes instantly.",
+      "evidence": [
+        "EP005_B027"
+      ],
+      "issues": [],
+      "block_id": "EP005_B027",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily from the cruel destruction of the book, through Juliana's humiliation, to the sudden shift in power when the stranger issues a lethal threat.",
+      "evidence": [
+        "EP005_B031",
+        "EP005_B032",
+        "EP005_B039",
+        "EP005_B054",
+        "EP005_B058"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP005_B031",
+        "EP005_B039",
+        "EP005_B054",
+        "EP005_B058"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The cut lands right on a cold, menacing threat from a capable-looking stranger, leaving Gerald's arrogant grin wavering and creating high anticipation.",
+      "evidence": [
+        "EP005_B058",
+        "EP005_B057"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP005_B058",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "What will the Mysterious Bearded Man do to Gerald after his chilling warning?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The viewer understands the core dynamic—abusive antagonists bullying a helpless bride—even if specific familial connections and character names require earlier context.",
+      "evidence": [
+        "EP005_B027",
+        "EP005_B030",
+        "EP005_B036",
+        "EP005_B056"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A bride named Juliana is humiliated and has her mother's keepsake thrown into the mud by Lady Ashcroft and Gerald on the cathedral steps. A mysterious man steps in to comfort her and issues a lethal warning to Gerald.",
+      "confusions": [
+        {
+          "issue": "The exact relationship between Juliana, Lady Ashcroft, Clarissa, and Gerald is not fully explained.",
+          "block_ids": [
+            "EP005_B027",
+            "EP005_B036",
+            "EP005_B037"
+          ]
+        },
+        {
+          "issue": "The identity and background of the Mysterious Bearded Man are completely unknown.",
+          "block_ids": [
+            "EP005_B041",
+            "EP005_B045",
+            "EP005_B058"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It sets up clear emotional stakes and victimization, provides a satisfying micro-resolution with the stranger's comfort, and leaves the ultimate revenge/confrontation open.",
+      "evidence": [
+        "EP005_B039",
+        "EP005_B044",
+        "EP005_B058"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is being cruelly cast out and humiliated by her peers/family on her wedding day.",
+        "A mysterious stranger steps in to protect and defend her."
+      ],
+      "withheld": [
+        "Who the Mysterious Bearded Man actually is.",
+        "How Juliana and the stranger will retaliate against Gerald and Lady Ashcroft."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The relentless cruelty shown toward Juliana in her bridal gown naturally evokes strong sympathy, followed by a cathartic shift toward tension when the stranger defends her.",
+      "evidence": [
+        "EP005_B032",
+        "EP005_B036",
+        "EP005_B039",
+        "EP005_B058"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage and sympathy",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP005_B032",
+        "EP005_B039",
+        "EP005_B056",
+        "EP005_B058"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP005_B027"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP005_B032",
+        "EP005_B039",
+        "EP005_B056"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A humiliated bride is cast aside by her tormentors, but a powerful stranger steps in to back her up against her abusers.",
+      "evidence": [
+        "EP005_B039",
+        "EP005_B053",
+        "EP005_B058"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP005_B058"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "The exact identity of the mysterious man",
+      "The history behind Lady Ashcroft and Gerald's hatred toward Juliana"
+    ],
+    "curiosity_revealed": [
+      "Juliana is being cruelly cast out and humiliated by her peers/family on her wedding day.",
+      "A mysterious stranger steps in to protect and defend her."
+    ],
+    "curiosity_withheld": [
+      "Who the Mysterious Bearded Man actually is.",
+      "How Juliana and the stranger will retaliate against Gerald and Lady Ashcroft."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A humiliated bride finds an unexpected, dangerous protector against her cruel abusers.",
+    "supporting_block_ids": [
+      "EP005_B032",
+      "EP005_B039",
+      "EP005_B056",
+      "EP005_B058",
+      "EP005_B027",
+      "EP005_B053"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A bride named Juliana is humiliated and has her mother's keepsake thrown into the mud by Lady Ashcroft and Gerald on the cathedral steps. A mysterious man steps in to comfort her and issues a lethal warning to Gerald.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact relationship between Juliana, Lady Ashcroft, Clarissa, and Gerald is not fully explained.\",\n      \"block_ids\": [\"K02\", \"K11\", \"K12\"]\n    },\n    {\n      \"issue\": \"The identity and background of the Mysterious Bearded Man are completely unknown.\",\n      \"block_ids\": [\"K16\", \"K20\", \"K33\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Starts mid-conflict with a hostile line, but lacks broader context to make the viewer fully understand the stakes instantly.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K06\", \"K14\", \"K29\", \"K33\"],\n    \"reason\": \"Tension builds steadily from the cruel destruction of the book, through Juliana's humiliation, to the sudden shift in power when the stranger issues a lethal threat.\",\n    \"evidence\": [\"K06\", \"K07\", \"K14\", \"K29\", \"K33\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K33\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What will the Mysterious Bearded Man do to Gerald after his chilling warning?\",\n    \"score\": 5,\n    \"reason\": \"The cut lands right on a cold, menacing threat from a capable-looking stranger, leaving Gerald's arrogant grin wavering and creating high anticipation.\",\n    \"evidence\": [\"K32\", \"K33\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The viewer understands the core dynamic—abusive antagonists bullying a helpless bride—even if specific familial connections and character names require earlier context.\",\n    \"evidence\": [\"K02\", \"K05\", \"K11\", \"K31\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is being cruelly cast out and humiliated by her peers/family on her wedding day.\",\n      \"A mysterious stranger steps in to protect and defend her.\"\n    ],\n    \"withheld\": [\n      \"Who the Mysterious Bearded Man actually is.\",\n      \"How Juliana and the stranger will retaliate against Gerald and Lady Ashcroft.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It sets up clear emotional stakes and victimization, provides a satisfying micro-resolution with the stranger's comfort, and leaves the ultimate revenge/confrontation open.\",\n    \"evidence\": [\"K14\", \"K19\", \"K33\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage and sympathy\",\n    \"score\": 4,\n    \"reason\": \"The relentless cruelty shown toward Juliana in her bridal gown naturally evokes strong sympathy, followed by a cathartic shift toward tension when the stranger defends her.\",\n    \"evidence\": [\"K07\", \"K11\", \"K14\", \"K33\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K07\", \"K14\", \"K31\", \"K33\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\"K07\", \"K14\", \"K31\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A humiliated bride is cast aside by her tormentors, but a powerful stranger steps in to back her up against her abusers.\",\n      \"evidence\": [\"K14\", \"K28\", \"K33\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"The exact identity of the mysterious man\",\n        \"The history behind Lady Ashcroft and Gerald's hatred toward Juliana\"\n      ]\n    },\n    \"appeal\": \"A humiliated bride finds an unexpected, dangerous protector against her cruel abusers.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "14b163351800d97ec38c7765928ae85cf0bda2b2df5f2351b41e5453b065980f",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4145,
+      "prompt_tokens": 3394,
+      "completion_tokens": 1130,
+      "total_tokens": 4524,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:00:23.536679+00:00"
+}

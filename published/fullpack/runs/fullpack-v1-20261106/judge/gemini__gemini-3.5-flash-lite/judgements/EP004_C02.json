@@ -1,0 +1,299 @@
+{
+  "candidate_id": "EP004_C02",
+  "episode_id": "EP004",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "da656b968b287501821de208defa72682c431ac4d9ba5258ca3a5d1bb20b5bda",
+  "clip_start_ms": 114800,
+  "clip_end_ms": 138800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP004_B086",
+    "EP004_B087",
+    "EP004_B088",
+    "EP004_B089"
+  ],
+  "eligible_beat_ids": [
+    "EP004_B096",
+    "EP004_B097",
+    "EP004_B098",
+    "EP004_B099",
+    "EP004_B100",
+    "EP004_B101"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "An enraged accusation right at the start makes the viewer instantly curious about what choice was made and who is fighting.",
+      "evidence": [
+        "EP004_B087",
+        "EP004_B086"
+      ],
+      "issues": [],
+      "block_id": "EP004_B087",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension escalates from Gerald's initial outburst to Juliana's cutting rejection and finally Lady Ashcroft's formal disownment.",
+      "evidence": [
+        "EP004_B087",
+        "EP004_B093",
+        "EP004_B099"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP004_B087",
+        "EP004_B093",
+        "EP004_B099"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "The clip ends on Juliana's tearful yet resolute face following her disownment, offering an emotional button rather than an active plot question.",
+      "evidence": [
+        "EP004_B101"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP004_B101",
+      "mechanism": "reaction_hold",
+      "outcome": "unresolved",
+      "open_question": "How will Juliana and her new husband survive now that she has been officially disowned and cast out?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The family conflict, rebellion against an arranged or expected match, and subsequent disownment are universally clear.",
+      "evidence": [
+        "EP004_B087",
+        "EP004_B093",
+        "EP004_B099",
+        "EP004_B101"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A furious man named Gerald loudly berates Juliana for choosing a penniless nobody over him, but Juliana calmly defies him and walks away with her husband. In response, Lady Ashcroft banishes Juliana and disowns her in front of the congregation.",
+      "confusions": [
+        {
+          "issue": "The exact prior relationship between Gerald and Juliana is unstated.",
+          "block_ids": [
+            "EP004_B087",
+            "EP004_B089"
+          ]
+        },
+        {
+          "issue": "The identity of Lady Ashcroft and her relation to Juliana is only implied by the surname.",
+          "block_ids": [
+            "EP004_B097",
+            "EP004_B099"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It clearly establishes the rebellion and the harsh consequence while leaving the future trajectory of the couple unknown.",
+      "evidence": [
+        "EP004_B089",
+        "EP004_B093",
+        "EP004_B099",
+        "EP004_B101"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana defied her family/group to marry or choose someone poor.",
+        "She is officially disowned by Lady Ashcroft."
+      ],
+      "withheld": [
+        "Who the husband is and how Juliana will cope with poverty.",
+        "What repercussions follow the disownment."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana's brave defiance against harsh public humiliation and disownment generates strong sympathetic tension.",
+      "evidence": [
+        "EP004_B091",
+        "EP004_B093",
+        "EP004_B101"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "defiance and humiliation",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP004_B087",
+        "EP004_B093",
+        "EP004_B099"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP004_B087"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP004_B099",
+        "EP004_B101"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Choosing true love over family wealth and status results in being completely disowned and cast out.",
+      "evidence": [
+        "EP004_B089",
+        "EP004_B099",
+        "EP004_B101"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP004_B101"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Exact identity of the husband"
+    ],
+    "curiosity_revealed": [
+      "Juliana defied her family/group to marry or choose someone poor.",
+      "She is officially disowned by Lady Ashcroft."
+    ],
+    "curiosity_withheld": [
+      "Who the husband is and how Juliana will cope with poverty.",
+      "What repercussions follow the disownment."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a brave woman reject a toxic elite family to choose her own path, even if it costs her everything.",
+    "supporting_block_ids": [
+      "EP004_B087",
+      "EP004_B093",
+      "EP004_B099",
+      "EP004_B101",
+      "EP004_B089"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A furious man named Gerald loudly berates Juliana for choosing a penniless nobody over him, but Juliana calmly defies him and walks away with her husband. In response, Lady Ashcroft banishes Juliana and disowns her in front of the congregation.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact prior relationship between Gerald and Juliana is unstated.\",\n      \"block_ids\": [\"K03\", \"K05\"]\n    },\n    {\n      \"issue\": \"The identity of Lady Ashcroft and her relation to Juliana is only implied by the surname.\",\n      \"block_ids\": [\"K13\", \"K15\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 4,\n    \"reason\": \"An enraged accusation right at the start makes the viewer instantly curious about what choice was made and who is fighting.\",\n    \"evidence\": [\"K02\", \"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K03\", \"K09\", \"K15\"],\n    \"reason\": \"Tension escalates from Gerald's initial outburst to Juliana's cutting rejection and finally Lady Ashcroft's formal disownment.\",\n    \"evidence\": [\"K03\", \"K09\", \"K15\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K17\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Juliana and her new husband survive now that she has been officially disowned and cast out?\",\n    \"score\": 3,\n    \"reason\": \"The clip ends on Juliana's tearful yet resolute face following her disownment, offering an emotional button rather than an active plot question.\",\n    \"evidence\": [\"K17\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The family conflict, rebellion against an arranged or expected match, and subsequent disownment are universally clear.\",\n    \"evidence\": [\"K03\", \"K09\", \"K15\", \"K17\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana defied her family/group to marry or choose someone poor.\",\n      \"She is officially disowned by Lady Ashcroft.\"\n    ],\n    \"withheld\": [\n      \"Who the husband is and how Juliana will cope with poverty.\",\n      \"What repercussions follow the disownment.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It clearly establishes the rebellion and the harsh consequence while leaving the future trajectory of the couple unknown.\",\n    \"evidence\": [\"K05\", \"K09\", \"K15\", \"K17\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"defiance and humiliation\",\n    \"score\": 4,\n    \"reason\": \"Juliana's brave defiance against harsh public humiliation and disownment generates strong sympathetic tension.\",\n    \"evidence\": [\"K07\", \"K09\", \"K17\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K03\", \"K09\", \"K15\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K03\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\"K15\", \"K17\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Choosing true love over family wealth and status results in being completely disowned and cast out.\",\n      \"evidence\": [\"K05\", \"K15\", \"K17\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Exact identity of the husband\"\n      ]\n    },\n    \"appeal\": \"Watch a brave woman reject a toxic elite family to choose her own path, even if it costs her everything.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "e0ce59614bf67719739da81d078e25af8095fdeebca5a4cfad3fb2d4ce5211da",
+      "cache_hit": true,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 9172,
+      "prompt_tokens": 2532,
+      "completion_tokens": 1038,
+      "total_tokens": 3570,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:00:01.435896+00:00"
+}

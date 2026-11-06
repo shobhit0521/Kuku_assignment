@@ -1,0 +1,1113 @@
+{
+  "validator_version": "1.0.0",
+  "settings": {
+    "min_clip_ms": 20000,
+    "max_clip_ms": 60000,
+    "hook_window_ms": 3000,
+    "suspense_tail_ms": 2000,
+    "ending_window_ms": 8000
+  },
+  "preview_generator_beats": false,
+  "episodes": {
+    "EP001": [
+      {
+        "candidate_id": "EP001_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP001_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP001_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP001_C04",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP002": [
+      {
+        "candidate_id": "EP002_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP002_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP002_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP003": [
+      {
+        "candidate_id": "EP003_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP003_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP003_C03",
+        "status": "fail",
+        "failed": [
+          "DIALOGUE_BOUNDARY"
+        ],
+        "repair": "unrepairable",
+        "repaired_status": "fail"
+      }
+    ],
+    "EP004": [
+      {
+        "candidate_id": "EP004_C01",
+        "status": "fail",
+        "failed": [
+          "DIALOGUE_BOUNDARY"
+        ],
+        "repair": "repaired",
+        "repaired_status": "pending"
+      },
+      {
+        "candidate_id": "EP004_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP004_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP004_C04",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP005": [
+      {
+        "candidate_id": "EP005_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP005_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP006": [
+      {
+        "candidate_id": "EP006_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP006_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP006_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP007": [
+      {
+        "candidate_id": "EP007_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP007_C02",
+        "status": "fail",
+        "failed": [
+          "DIALOGUE_BOUNDARY"
+        ],
+        "repair": "repaired",
+        "repaired_status": "pending"
+      }
+    ],
+    "EP008": [
+      {
+        "candidate_id": "EP008_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP008_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP009": [
+      {
+        "candidate_id": "EP009_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP009_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP009_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP010": [
+      {
+        "candidate_id": "EP010_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP010_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP010_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP011": [
+      {
+        "candidate_id": "EP011_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP011_C02",
+        "status": "fail",
+        "failed": [
+          "DIALOGUE_BOUNDARY"
+        ],
+        "repair": "unrepairable",
+        "repaired_status": "fail"
+      }
+    ],
+    "EP012": [
+      {
+        "candidate_id": "EP012_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP012_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP013": [
+      {
+        "candidate_id": "EP013_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP013_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP014": [
+      {
+        "candidate_id": "EP014_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP014_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP014_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP015": [
+      {
+        "candidate_id": "EP015_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP015_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP016": [
+      {
+        "candidate_id": "EP016_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP016_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP017": [
+      {
+        "candidate_id": "EP017_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP017_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP017_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP018": [
+      {
+        "candidate_id": "EP018_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP018_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP018_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP019": [
+      {
+        "candidate_id": "EP019_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP019_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP020": [
+      {
+        "candidate_id": "EP020_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP020_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP020_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP021": [
+      {
+        "candidate_id": "EP021_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP021_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP021_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP022": [
+      {
+        "candidate_id": "EP022_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP022_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP022_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP023": [
+      {
+        "candidate_id": "EP023_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP023_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP023_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP024": [
+      {
+        "candidate_id": "EP024_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP024_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP024_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP025": [
+      {
+        "candidate_id": "EP025_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP025_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP025_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP026": [
+      {
+        "candidate_id": "EP026_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP026_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP026_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP027": [
+      {
+        "candidate_id": "EP027_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP027_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP027_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP028": [
+      {
+        "candidate_id": "EP028_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP028_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP028_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP028_C04",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP029": [
+      {
+        "candidate_id": "EP029_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP029_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP029_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP030": [
+      {
+        "candidate_id": "EP030_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP030_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP030_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP031": [
+      {
+        "candidate_id": "EP031_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP031_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP031_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP031_C04",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP032": [
+      {
+        "candidate_id": "EP032_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP032_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP032_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP032_C04",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP033": [
+      {
+        "candidate_id": "EP033_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP033_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP033_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP034": [
+      {
+        "candidate_id": "EP034_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP034_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP034_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP034_C04",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP035": [
+      {
+        "candidate_id": "EP035_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP035_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP036": [
+      {
+        "candidate_id": "EP036_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP036_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP036_C03",
+        "status": "fail",
+        "failed": [
+          "HOOK_WINDOW"
+        ],
+        "repair": "unrepairable",
+        "repaired_status": null
+      }
+    ],
+    "EP037": [
+      {
+        "candidate_id": "EP037_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP037_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP037_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP037_C04",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP038": [
+      {
+        "candidate_id": "EP038_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP038_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP038_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP039": [
+      {
+        "candidate_id": "EP039_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP039_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP040": [
+      {
+        "candidate_id": "EP040_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP040_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP041": [
+      {
+        "candidate_id": "EP041_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP041_C02",
+        "status": "fail",
+        "failed": [
+          "HOOK_WINDOW"
+        ],
+        "repair": "unrepairable",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP041_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP042": [
+      {
+        "candidate_id": "EP042_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP042_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP043": [
+      {
+        "candidate_id": "EP043_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP043_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP043_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP044": [
+      {
+        "candidate_id": "EP044_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP044_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP045": [
+      {
+        "candidate_id": "EP045_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP045_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP046": [
+      {
+        "candidate_id": "EP046_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP046_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP046_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP047": [
+      {
+        "candidate_id": "EP047_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP047_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP047_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP048": [
+      {
+        "candidate_id": "EP048_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP048_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP048_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP049": [
+      {
+        "candidate_id": "EP049_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP049_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP049_C03",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ],
+    "EP050": [
+      {
+        "candidate_id": "EP050_C01",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      },
+      {
+        "candidate_id": "EP050_C02",
+        "status": "pending",
+        "failed": [],
+        "repair": "not_needed",
+        "repaired_status": null
+      }
+    ]
+  },
+  "updated_at": "2026-11-06T10:53:33.159590+00:00"
+}

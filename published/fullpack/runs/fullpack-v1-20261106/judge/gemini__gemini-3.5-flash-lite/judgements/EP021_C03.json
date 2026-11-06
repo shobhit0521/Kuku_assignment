@@ -1,0 +1,318 @@
+{
+  "candidate_id": "EP021_C03",
+  "episode_id": "EP021",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "2b4e93f5744a1e4e421d90b14b5bc54793dd4a8c6f4a69a76c97b966d674817d",
+  "clip_start_ms": 45500,
+  "clip_end_ms": 70400,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP021_B030",
+    "EP021_B031",
+    "EP021_B032"
+  ],
+  "eligible_beat_ids": [
+    "EP021_B043",
+    "EP021_B044",
+    "EP021_B045",
+    "EP021_B047",
+    "EP021_B046",
+    "EP021_B049",
+    "EP021_B048"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Lady Juliana notes the boy's burning fever, creating mild medical urgency.",
+      "evidence": [
+        "EP021_B032"
+      ],
+      "issues": [],
+      "block_id": "EP021_B032",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 2,
+      "valid": true,
+      "reason": "The scene shows medical care being administered, but lacks genuine conflict or escalating danger beyond a standard caretaking routine.",
+      "evidence": [
+        "EP021_B033",
+        "EP021_B041",
+        "EP021_B049"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP021_B033",
+        "EP021_B041",
+        "EP021_B049"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 2,
+      "valid": true,
+      "reason": "The clip cuts off mid-treatment while Toby is still breathing the steam, but it feels more like a routine scene transition than a high-stakes cliffhanger.",
+      "evidence": [
+        "EP021_B048",
+        "EP021_B049"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP021_B048",
+      "mechanism": "interrupted_action",
+      "outcome": "partly_resolved",
+      "open_question": "Will Toby recover from his severe fever?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The immediate medical emergency is easy to follow, though the personal stakes and background of the characters are completely missing.",
+      "evidence": [
+        "EP021_B032",
+        "EP021_B035",
+        "EP021_B040"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Lady Juliana urgently uses a ledger of her mother's herbal remedies to treat a sick, feverish boy named Toby with the help of Prudence. Together, they administer steam and herbs to help him breathe.",
+      "confusions": [
+        {
+          "issue": "Who Toby is and why he is sick remains unexplained.",
+          "block_ids": [
+            "EP021_B032",
+            "EP021_B033"
+          ]
+        },
+        {
+          "issue": "The background relationship between Lady Juliana, Prudence, and Toby is not specified.",
+          "block_ids": [
+            "EP021_B034",
+            "EP021_B035"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 2,
+      "valid": true,
+      "reason": "Caretaking without external conflict or high-stakes peril offers little mystery to drive curiosity.",
+      "evidence": [
+        "EP021_B032",
+        "EP021_B040",
+        "EP021_B049"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Lady Juliana possesses herbal knowledge from her mother",
+        "A boy named Toby is sick with a fever"
+      ],
+      "withheld": [
+        "Whether the remedy actually works",
+        "Who Toby is to them"
+      ],
+      "balance": "too_little",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 2,
+      "valid": true,
+      "reason": "There is a mild sense of tender care and worry, but it is low-key and therapeutic rather than emotionally gripping.",
+      "evidence": [
+        "EP021_B040",
+        "EP021_B047",
+        "EP021_B049"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "concern",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "vulnerability",
+      "evidence": [
+        "EP021_B032",
+        "EP021_B033",
+        "EP021_B040"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": null,
+    "archetype_confidence": "medium",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP021_B032"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "fear",
+      "evidence": [
+        "EP021_B032",
+        "EP021_B033"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A sick boy's health hangs in the balance while caregivers rush to treat his fever.",
+      "evidence": [
+        "EP021_B032",
+        "EP021_B033",
+        "EP021_B040"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "interrupted_action",
+      "evidence": [
+        "EP021_B048"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Character identities and relationships"
+    ],
+    "curiosity_revealed": [
+      "Lady Juliana possesses herbal knowledge from her mother",
+      "A boy named Toby is sick with a fever"
+    ],
+    "curiosity_withheld": [
+      "Whether the remedy actually works",
+      "Who Toby is to them"
+    ],
+    "curiosity_balance": "too_little",
+    "appeal": "Medical crisis in a historical setting featuring herbal remedies.",
+    "supporting_block_ids": [
+      "EP021_B032",
+      "EP021_B033",
+      "EP021_B040",
+      "EP021_B048"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "LOW_TENSION",
+      "severity": "major",
+      "explanation": "The clip depicts medical caregiving without any antagonist, obstacle, or escalating conflict.",
+      "block_ids": [
+        "EP021_B033",
+        "EP021_B041",
+        "EP021_B049"
+      ],
+      "source": "judge"
+    },
+    {
+      "code": "WEAK_CLIFFHANGER",
+      "severity": "minor",
+      "explanation": "Ending on an ongoing medical treatment lacks a sharp, suspenseful question.",
+      "block_ids": [
+        "EP021_B049",
+        "EP021_B048"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Lady Juliana urgently uses a ledger of her mother's herbal remedies to treat a sick, feverish boy named Toby with the help of Prudence. Together, they administer steam and herbs to help him breathe.\",\n  \"confusions\": [\n    {\"issue\": \"Who Toby is and why he is sick remains unexplained.\", \"block_ids\": [\"K03\", \"K04\"]},\n    {\"issue\": \"The background relationship between Lady Juliana, Prudence, and Toby is not specified.\", \"block_ids\": [\"K05\", \"K06\"]}\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 3,\n    \"reason\": \"Lady Juliana notes the boy's burning fever, creating mild medical urgency.\",\n    \"evidence\": [\"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 2,\n    \"escalation_beats\": [\"K04\", \"K12\", \"K19\"],\n    \"reason\": \"The scene shows medical care being administered, but lacks genuine conflict or escalating danger beyond a standard caretaking routine.\",\n    \"evidence\": [\"K04\", \"K12\", \"K19\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K20\",\n    \"mechanism\": \"interrupted_action\",\n    \"outcome\": \"partly_resolved\",\n    \"open_question\": \"Will Toby recover from his severe fever?\",\n    \"score\": 2,\n    \"reason\": \"The clip cuts off mid-treatment while Toby is still breathing the steam, but it feels more like a routine scene transition than a high-stakes cliffhanger.\",\n    \"evidence\": [\"K19\", \"K20\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The immediate medical emergency is easy to follow, though the personal stakes and background of the characters are completely missing.\",\n    \"evidence\": [\"K03\", \"K06\", \"K11\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"Lady Juliana possesses herbal knowledge from her mother\", \"A boy named Toby is sick with a fever\"],\n    \"withheld\": [\"Whether the remedy actually works\", \"Who Toby is to them\"],\n    \"balance\": \"too_little\",\n    \"score\": 2,\n    \"reason\": \"Caretaking without external conflict or high-stakes peril offers little mystery to drive curiosity.\",\n    \"evidence\": [\"K03\", \"K11\", \"K19\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"concern\",\n    \"score\": 2,\n    \"reason\": \"There is a mild sense of tender care and worry, but it is low-key and therapeutic rather than emotionally gripping.\",\n    \"evidence\": [\"K11\", \"K17\", \"K19\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"vulnerability\",\n      \"other_label\": null,\n      \"secondary\": null,\n      \"confidence\": \"medium\",\n      \"evidence\": [\"K03\", \"K04\", \"K11\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K03\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"fear\",\n      \"evidence\": [\"K03\", \"K04\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A sick boy's health hangs in the balance while caregivers rush to treat his fever.\",\n      \"evidence\": [\"K03\", \"K04\", \"K11\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\"Character identities and relationships\"]\n    },\n    \"appeal\": \"Medical crisis in a historical setting featuring herbal remedies.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"LOW_TENSION\",\n      \"severity\": \"major\",\n      \"explanation\": \"The clip depicts medical caregiving without any antagonist, obstacle, or escalating conflict.\",\n      \"block_ids\": [\"K04\", \"K12\", \"K19\"]\n    },\n    {\n      \"code\": \"WEAK_CLIFFHANGER\",\n      \"severity\": \"minor\",\n      \"explanation\": \"Ending on an ongoing medical treatment lacks a sharp, suspenseful question.\",\n      \"block_ids\": [\"K19\", \"K20\"]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "1e7b493a59b17ce4f18225ff8d0eb7695e99b01f95d369bbb28f9647628d20c4",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4116,
+      "prompt_tokens": 2800,
+      "completion_tokens": 1061,
+      "total_tokens": 3861,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:57:45.046047+00:00"
+}

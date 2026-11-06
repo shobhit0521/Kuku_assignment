@@ -1,0 +1,276 @@
+{
+  "candidate_id": "EP026_C03",
+  "episode_id": "EP026",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "005d131bfd159c96ca1597444e638e9d038b0e8080ea2f3ceb2af09e90c82f94",
+  "clip_start_ms": 14200,
+  "clip_end_ms": 47000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP026_B008",
+    "EP026_B007"
+  ],
+  "eligible_beat_ids": [
+    "EP026_B016",
+    "EP026_B017",
+    "EP026_B018",
+    "EP026_B019",
+    "EP026_B020",
+    "EP026_B021"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The Duchess asking a stranger who she is provides mild intrigue, though it lacks immediate high-stakes shock.",
+      "evidence": [
+        "EP026_B008"
+      ],
+      "issues": [],
+      "block_id": "EP026_B008",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds slightly from the intimate medical tending toward the final whispering warning about the guards, but the overall conflict remains static.",
+      "evidence": [
+        "EP026_B015",
+        "EP026_B021"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP026_B015",
+        "EP026_B021"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The whisper about imminent death if caught creates a clear, high-stakes question right at the cut.",
+      "evidence": [
+        "EP026_B021"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP026_B021",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Will Juliana and the Duchess be discovered by the guards?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The core action of caring for a sick noblewoman under threat is clear, but references to Catherine and why they are hiding require prior context.",
+      "evidence": [
+        "EP026_B015",
+        "EP026_B021"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Juliana administers an antidote to a frail Dowager Duchess who recognizes her from a previous incident. As Juliana tends to the Duchess, she whispers a warning that they will both die if guards hear them.",
+      "confusions": [
+        {
+          "issue": "Who is Catherine and what is the context of taking her whip?",
+          "block_ids": [
+            "EP026_B015"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It establishes the immediate danger and secret alliance while leaving the broader political or personal conflict nicely hidden.",
+      "evidence": [
+        "EP026_B010",
+        "EP026_B021"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is secretly helping the Dowager Duchess with an antidote.",
+        "They are hiding from guards under threat of death."
+      ],
+      "withheld": [
+        "Why Juliana must hide",
+        "Who Catherine is and what the whip incident means"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's quiet dedication and the risk of execution evoke modest sympathy and tension.",
+      "evidence": [
+        "EP026_B010",
+        "EP026_B017",
+        "EP026_B021"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspense and sympathetic loyalty",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "danger_threat",
+      "evidence": [
+        "EP026_B010",
+        "EP026_B021"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "deception_secret_identity",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP026_B008"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "unclassified",
+      "evidence": [],
+      "note": "emotional trigger 'suspension' is not in the taxonomy"
+    },
+    "stakes": {
+      "value": "Life and death in secret: administering an antidote while avoiding deadly guards.",
+      "evidence": [
+        "EP026_B010",
+        "EP026_B021"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP026_B021"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Catherine's identity",
+      "Why Juliana is operating in secret"
+    ],
+    "curiosity_revealed": [
+      "Juliana is secretly helping the Dowager Duchess with an antidote.",
+      "They are hiding from guards under threat of death."
+    ],
+    "curiosity_withheld": [
+      "Why Juliana must hide",
+      "Who Catherine is and what the whip incident means"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A loyal servant risks her life administering a secret antidote to a captive duchess while guards close in.",
+    "supporting_block_ids": [
+      "EP026_B010",
+      "EP026_B021",
+      "EP026_B008"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Juliana administers an antidote to a frail Dowager Duchess who recognizes her from a previous incident. As Juliana tends to the Duchess, she whispers a warning that they will both die if guards hear them.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who is Catherine and what is the context of taking her whip?\",\n      \"block_ids\": [\"K08\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K01\",\n    \"score\": 3,\n    \"reason\": \"The Duchess asking a stranger who she is provides mild intrigue, though it lacks immediate high-stakes shock.\",\n    \"evidence\": [\"K01\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K08\", \"K15\"],\n    \"reason\": \"Tension builds slightly from the intimate medical tending toward the final whispering warning about the guards, but the overall conflict remains static.\",\n    \"evidence\": [\"K08\", \"K15\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K15\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Juliana and the Duchess be discovered by the guards?\",\n    \"score\": 4,\n    \"reason\": \"The whisper about imminent death if caught creates a clear, high-stakes question right at the cut.\",\n    \"evidence\": [\"K15\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The core action of caring for a sick noblewoman under threat is clear, but references to Catherine and why they are hiding require prior context.\",\n    \"evidence\": [\"K08\", \"K15\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is secretly helping the Dowager Duchess with an antidote.\",\n      \"They are hiding from guards under threat of death.\"\n    ],\n    \"withheld\": [\n      \"Why Juliana must hide\",\n      \"Who Catherine is and what the whip incident means\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It establishes the immediate danger and secret alliance while leaving the broader political or personal conflict nicely hidden.\",\n    \"evidence\": [\"K04\", \"K15\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspense and sympathetic loyalty\",\n    \"score\": 3,\n    \"reason\": \"Juliana's quiet dedication and the risk of execution evoke modest sympathy and tension.\",\n    \"evidence\": [\"K04\", \"K11\", \"K15\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"danger_threat\",\n      \"other_label\": null,\n      \"secondary\": \"deception_secret_identity\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K04\", \"K15\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K01\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspension\",\n      \"evidence\": [\"K15\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Life and death in secret: administering an antidote while avoiding deadly guards.\",\n      \"evidence\": [\"K04\", \"K15\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Catherine's identity\",\n        \"Why Juliana is operating in secret\"\n      ]\n    },\n    \"appeal\": \"A loyal servant risks her life administering a secret antidote to a captive duchess while guards close in.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "18d3e2e476873c926fdee00350a27aed8efe35e4bbcd84c652be1705144d4ddd",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3463,
+      "prompt_tokens": 2527,
+      "completion_tokens": 905,
+      "total_tokens": 3432,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:59:28.602038+00:00"
+}

@@ -1,0 +1,289 @@
+{
+  "candidate_id": "EP047_C01",
+  "episode_id": "EP047",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "b4088dd87edaf957eeef58950b69fe97ef6ebea9ff81bca69b5e5cd448b81d77",
+  "clip_start_ms": 56800,
+  "clip_end_ms": 101000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP047_B027",
+    "EP047_B026"
+  ],
+  "eligible_beat_ids": [
+    "EP047_B048",
+    "EP047_B049",
+    "EP047_B050",
+    "EP047_B051",
+    "EP047_B052",
+    "EP047_B053"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Lady Ashbourne immediately delivers a sharp, contemptuous accusation to a kneeling woman in the mud, creating instant dramatic conflict.",
+      "evidence": [
+        "EP047_B027",
+        "EP047_B026"
+      ],
+      "issues": [],
+      "block_id": "EP047_B027",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension rises from the immediate threat of being cast out, peaks with Alexander's eager command to throw her out, and shifts abruptly when Juliana halts the guards and imposes a humiliating punishment.",
+      "evidence": [
+        "EP047_B033",
+        "EP047_B037",
+        "EP047_B041",
+        "EP047_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP047_B033",
+        "EP047_B037",
+        "EP047_B041",
+        "EP047_B053"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "The punchline of her new role lands cleanly, providing a satisfying thematic turn rather than a cliffhanger question.",
+      "evidence": [
+        "EP047_B053",
+        "EP047_B052"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP047_B053",
+      "mechanism": "revelation",
+      "outcome": "resolved",
+      "open_question": "How will Catherine survive working as a scullery maid for the person she tried to destroy?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The power dynamics, the betrayal/poisoning accusation, and the reversal of fortune are all clear from the visual staging and dialogue.",
+      "evidence": [
+        "EP047_B027",
+        "EP047_B033",
+        "EP047_B043",
+        "EP047_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A disgraced woman named Catherine is cast out and ordered to be thrown into the road by Lady Ashbourne and Alexander for trying to poison someone. However, Juliana intervenes and forces Catherine to stay as a lowly scullery maid instead.",
+      "confusions": [
+        {
+          "issue": "The exact nature of Catherine's poisoning plot against Juliana is not explained.",
+          "block_ids": [
+            "EP047_B033",
+            "EP047_B043"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip tells a complete micro-story of humiliation and power reversal while leaving open how the new dynamic plays out.",
+      "evidence": [
+        "EP047_B033",
+        "EP047_B049",
+        "EP047_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Catherine tried to poison Juliana and has been abandoned by her family.",
+        "Juliana spares her from exile only to subject her to servitude."
+      ],
+      "withheld": [
+        "How Catherine's servitude will unfold and how Alexander will react to Juliana's decision long-term."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Catherine goes from begging for mercy to receiving a deeply humiliating punishment of becoming a servant under the person she tried to harm.",
+      "evidence": [
+        "EP047_B029",
+        "EP047_B039",
+        "EP047_B051",
+        "EP047_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "humiliation",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP047_B027",
+        "EP047_B033",
+        "EP047_B053"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP047_B027"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP047_B029",
+        "EP047_B053"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A failed poisoner begs for shelter and is forced into humiliating servitude instead of exile.",
+      "evidence": [
+        "EP047_B033",
+        "EP047_B053"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP047_B053"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Details of the past poisoning attempt"
+    ],
+    "curiosity_revealed": [
+      "Catherine tried to poison Juliana and has been abandoned by her family.",
+      "Juliana spares her from exile only to subject her to servitude."
+    ],
+    "curiosity_withheld": [
+      "How Catherine's servitude will unfold and how Alexander will react to Juliana's decision long-term."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A malicious plotter is forced to serve as a lowly scullery maid to the woman she tried to destroy.",
+    "supporting_block_ids": [
+      "EP047_B027",
+      "EP047_B033",
+      "EP047_B053",
+      "EP047_B029"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A disgraced woman named Catherine is cast out and ordered to be thrown into the road by Lady Ashbourne and Alexander for trying to poison someone. However, Juliana intervenes and forces Catherine to stay as a lowly scullery maid instead.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact nature of Catherine's poisoning plot against Juliana is not explained.\",\n      \"block_ids\": [\"K08\", \"K18\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K01\",\n    \"score\": 4,\n    \"reason\": \"Lady Ashbourne immediately delivers a sharp, contemptuous accusation to a kneeling woman in the mud, creating instant dramatic conflict.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K08\", \"K12\", \"K16\", \"K28\"],\n    \"reason\": \"Tension rises from the immediate threat of being cast out, peaks with Alexander's eager command to throw her out, and shifts abruptly when Juliana halts the guards and imposes a humiliating punishment.\",\n    \"evidence\": [\"K08\", \"K12\", \"K16\", \"K28\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K28\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"resolved\",\n    \"open_question\": \"How will Catherine survive working as a scullery maid for the person she tried to destroy?\",\n    \"score\": 3,\n    \"reason\": \"The punchline of her new role lands cleanly, providing a satisfying thematic turn rather than a cliffhanger question.\",\n    \"evidence\": [\"K27\", \"K28\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The power dynamics, the betrayal/poisoning accusation, and the reversal of fortune are all clear from the visual staging and dialogue.\",\n    \"evidence\": [\"K01\", \"K08\", \"K18\", \"K28\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Catherine tried to poison Juliana and has been abandoned by her family.\",\n      \"Juliana spares her from exile only to subject her to servitude.\"\n    ],\n    \"withheld\": [\n      \"How Catherine's servitude will unfold and how Alexander will react to Juliana's decision long-term.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip tells a complete micro-story of humiliation and power reversal while leaving open how the new dynamic plays out.\",\n    \"evidence\": [\"K08\", \"K24\", \"K28\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"humiliation\",\n    \"score\": 4,\n    \"reason\": \"Catherine goes from begging for mercy to receiving a deeply humiliating punishment of becoming a servant under the person she tried to harm.\",\n    \"evidence\": [\"K04\", \"K14\", \"K26\", \"K28\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K01\", \"K08\", \"K28\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K01\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\"K04\", \"K28\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A failed poisoner begs for shelter and is forced into humiliating servitude instead of exile.\",\n      \"evidence\": [\"K08\", \"K28\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Details of the past poisoning attempt\"\n      ]\n    },\n    \"appeal\": \"A malicious plotter is forced to serve as a lowly scullery maid to the woman she tried to destroy.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "881e9f5dc3c444450f68dd9c7d1fb18c1ef4b068b119a2c75b35674603757056",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3464,
+      "prompt_tokens": 3108,
+      "completion_tokens": 1017,
+      "total_tokens": 4125,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:08:57.116442+00:00"
+}

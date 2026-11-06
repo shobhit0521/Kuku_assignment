@@ -1,0 +1,68 @@
+{
+  "candidate_id": "EP021_C01",
+  "checker_version": "c1",
+  "judgement_clip_sha256": "d9aeeff7386902309542ea89cd640bb232403124a7fef7b5ada1b9054a7a48e0",
+  "judgement_prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "status": "resolved",
+  "flags": [
+    {
+      "dimension": "cliffhanger",
+      "code": "RESOLVED_OUTCOME_PASSING_SCORE",
+      "detail": "outcome is resolved but the score is 3"
+    }
+  ],
+  "remaining_flags": [],
+  "original_scores": {
+    "cliffhanger": 3
+  },
+  "revised_scores": {
+    "cliffhanger": 1
+  },
+  "revised_dimensions": {
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 1,
+      "valid": true,
+      "reason": "The scene resolves its immediate question by showing Lady Juliana take her book and lead the way out to save the boy, leaving no open suspense at the cut.",
+      "evidence": [
+        "EP021_B024",
+        "EP021_B025"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP021_B024",
+      "mechanism": "interrupted_action",
+      "outcome": "resolved",
+      "open_question": "Can Lady Juliana save the dying boy with only her coltsfoot and ledger?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "note": null,
+  "raw_response_text": "{\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K23\",\n    \"mechanism\": \"interrupted_action\",\n    \"outcome\": \"resolved\",\n    \"open_question\": \"Can Lady Juliana save the dying boy with only her coltsfoot and ledger?\",\n    \"score\": 1,\n    \"reason\": \"The scene resolves its immediate question by showing Lady Juliana take her book and lead the way out to save the boy, leaving no open suspense at the cut.\",\n    \"evidence\": [\"K22\", \"K23\"]\n  }\n}",
+  "calls": [
+    {
+      "stage": "reassess",
+      "cache_key": "4620f8b8acd10f28ee4a3683bff5c5a717e4855d4e6e8385d7f06a92de561cfb",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 1387,
+      "prompt_tokens": 4175,
+      "completion_tokens": 131,
+      "total_tokens": 4306,
+      "hidden_tokens": 0
+    }
+  ],
+  "invocation_id": "908af1dbeed7",
+  "created_at": "2026-11-06T10:57:23.569612+00:00"
+}

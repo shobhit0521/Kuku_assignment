@@ -1,0 +1,295 @@
+{
+  "candidate_id": "EP028_C02",
+  "episode_id": "EP028",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "d37373a8b591fa0690527c0f48764d4c4900476f88fb5b1c99395e84b135dff6",
+  "clip_start_ms": 37700,
+  "clip_end_ms": 70200,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP028_B030",
+    "EP028_B031",
+    "EP028_B032"
+  ],
+  "eligible_beat_ids": [
+    "EP028_B047",
+    "EP028_B048",
+    "EP028_B049",
+    "EP028_B050",
+    "EP028_B051"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 5,
+      "valid": true,
+      "reason": "The Dowager Duchess immediately drops a shocking, direct accusation of murder ('I was poisoned!'), grabbing attention right at the start.",
+      "evidence": [
+        "EP028_B031",
+        "EP028_B032"
+      ],
+      "issues": [],
+      "block_id": "EP028_B031",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension escalates as the victim tries to expose her poisoners, gets silenced by gaslighting and physical restraint, and the villains take control of the situation.",
+      "evidence": [
+        "EP028_B031",
+        "EP028_B036",
+        "EP028_B037",
+        "EP028_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP028_B031",
+        "EP028_B036",
+        "EP028_B037",
+        "EP028_B051"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip cuts abruptly on a sinister, authoritative command to seize Juliana, leaving her fate and the villains' next move hanging in the balance.",
+      "evidence": [
+        "EP028_B051",
+        "EP028_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP028_B051",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "What will happen to Juliana now that she is ordered to be taken away under a false accusation of poisoning?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The roles of victim, conspiring villains, and restricted helper are instantly clear, though the backstory of how the poisoning happened is left out.",
+      "evidence": [
+        "EP028_B031",
+        "EP028_B034",
+        "EP028_B038",
+        "EP028_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A bedridden Dowager Duchess accuses Rupert and Catherine of poisoning her and knowing about the plot, but the villains dismiss her claims as the delusions of a sick mind. Meanwhile, guards restrain Juliana while Rupert and Catherine prepare to silence or remove anyone who knows the truth.",
+      "confusions": [
+        {
+          "issue": "The exact prior relationship and conspiracy between Rupert and Catherine remain unstated.",
+          "block_ids": [
+            "EP028_B032",
+            "EP028_B034"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip sets up a clear life-or-death power struggle and gaslighting plot while cutting off right before the antagonists' next cruel action.",
+      "evidence": [
+        "EP028_B031",
+        "EP028_B042",
+        "EP028_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The Dowager Duchess was poisoned",
+        "Rupert and Catherine are involved",
+        "Juliana is trying to help and protect the Duchess"
+      ],
+      "withheld": [
+        "Whether anyone will believe the Duchess before it's too late",
+        "What happens to Juliana after being dragged away"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Watching a helpless, poisoned matriarch gaslit and silenced while her loyal helper is dragged away creates strong feelings of injustice and frustration.",
+      "evidence": [
+        "EP028_B034",
+        "EP028_B037",
+        "EP028_B042",
+        "EP028_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Outrage and helplessness",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP028_B031",
+        "EP028_B032",
+        "EP028_B042",
+        "EP028_B051"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP028_B031"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP028_B034",
+        "EP028_B042",
+        "EP028_B051"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A poisoned duchess tries to expose her murderers, but the conspirators gaslight her and move to silence anyone who knows the truth.",
+      "evidence": [
+        "EP028_B031",
+        "EP028_B042",
+        "EP028_B051"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP028_B051"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "The Dowager Duchess was poisoned",
+      "Rupert and Catherine are involved",
+      "Juliana is trying to help and protect the Duchess"
+    ],
+    "curiosity_withheld": [
+      "Whether anyone will believe the Duchess before it's too late",
+      "What happens to Juliana after being dragged away"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a desperate poisoned duchess try to expose her ruthless murderers before they silence her and her allies forever.",
+    "supporting_block_ids": [
+      "EP028_B031",
+      "EP028_B032",
+      "EP028_B042",
+      "EP028_B051",
+      "EP028_B034"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A bedridden Dowager Duchess accuses Rupert and Catherine of poisoning her and knowing about the plot, but the villains dismiss her claims as the delusions of a sick mind. Meanwhile, guards restrain Juliana while Rupert and Catherine prepare to silence or remove anyone who knows the truth.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact prior relationship and conspiracy between Rupert and Catherine remain unstated.\",\n      \"block_ids\": [\"K03\", \"K05\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 5,\n    \"reason\": \"The Dowager Duchess immediately drops a shocking, direct accusation of murder ('I was poisoned!'), grabbing attention right at the start.\",\n    \"evidence\": [\"K02\", \"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K02\", \"K07\", \"K08\", \"K22\"],\n    \"reason\": \"Tension escalates as the victim tries to expose her poisoners, gets silenced by gaslighting and physical restraint, and the villains take control of the situation.\",\n    \"evidence\": [\"K02\", \"K07\", \"K08\", \"K22\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K22\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What will happen to Juliana now that she is ordered to be taken away under a false accusation of poisoning?\",\n    \"score\": 5,\n    \"reason\": \"The clip cuts abruptly on a sinister, authoritative command to seize Juliana, leaving her fate and the villains' next move hanging in the balance.\",\n    \"evidence\": [\"K21\", \"K22\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The roles of victim, conspiring villains, and restricted helper are instantly clear, though the backstory of how the poisoning happened is left out.\",\n    \"evidence\": [\"K02\", \"K05\", \"K09\", \"K22\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The Dowager Duchess was poisoned\",\n      \"Rupert and Catherine are involved\",\n      \"Juliana is trying to help and protect the Duchess\"\n    ],\n    \"withheld\": [\n      \"Whether anyone will believe the Duchess before it's too late\",\n      \"What happens to Juliana after being dragged away\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"The clip sets up a clear life-or-death power struggle and gaslighting plot while cutting off right before the antagonists' next cruel action.\",\n    \"evidence\": [\"K02\", \"K13\", \"K22\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Outrage and helplessness\",\n    \"score\": 4,\n    \"reason\": \"Watching a helpless, poisoned matriarch gaslit and silenced while her loyal helper is dragged away creates strong feelings of injustice and frustration.\",\n    \"evidence\": [\"K05\", \"K08\", \"K13\", \"K22\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K02\", \"K03\", \"K13\", \"K22\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K05\", \"K13\", \"K22\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A poisoned duchess tries to expose her murderers, but the conspirators gaslight her and move to silence anyone who knows the truth.\",\n      \"evidence\": [\"K02\", \"K13\", \"K22\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"Watch a desperate poisoned duchess try to expose her ruthless murderers before they silence her and her allies forever.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "d6e6ff8cd4df6cdbea87413f974462676cd702235641c5b1edfc869da646da08",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3580,
+      "prompt_tokens": 2821,
+      "completion_tokens": 1054,
+      "total_tokens": 3875,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:00:07.309543+00:00"
+}

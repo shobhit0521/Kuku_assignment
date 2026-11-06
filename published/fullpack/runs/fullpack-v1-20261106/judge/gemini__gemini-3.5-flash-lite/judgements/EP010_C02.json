@@ -1,0 +1,294 @@
+{
+  "candidate_id": "EP010_C02",
+  "episode_id": "EP010",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "895e0ae106c7d9aecf856dffb5cb3477b39c51dc98de8bf32990d50b69294cd2",
+  "clip_start_ms": 25500,
+  "clip_end_ms": 68400,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP010_B024",
+    "EP010_B025"
+  ],
+  "eligible_beat_ids": [
+    "EP010_B046",
+    "EP010_B047",
+    "EP010_B048",
+    "EP010_B049",
+    "EP010_B050"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's sarcastic and challenging demand for him to remove his shirt sparks mild intrigue about their dynamic, though it lacks immediate high-stakes shock.",
+      "evidence": [
+        "EP010_B024"
+      ],
+      "issues": [],
+      "block_id": "EP010_B024",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds steadily from the visual shock of his scars through the intimate medical tending phase, culminating in a charged moment of romantic eye contact and a cryptic final line.",
+      "evidence": [
+        "EP010_B027",
+        "EP010_B032",
+        "EP010_B046",
+        "EP010_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP010_B027",
+        "EP010_B032",
+        "EP010_B046",
+        "EP010_B050"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "The clip cuts off right after Alexander delivers a loaded, sincere response about why he is staring at her, leaving a soft romantic tension hanging.",
+      "evidence": [
+        "EP010_B050",
+        "EP010_B049"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP010_B050",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "What does Alexander's intense, pointed gaze mean for their developing relationship?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "While their exact background is unknown, the immediate situation (tending to a wounded man) and the emotional shift from defiance to intimacy are completely self-evident.",
+      "evidence": [
+        "EP010_B024",
+        "EP010_B027",
+        "EP010_B039"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Juliana challenges a wounded, scarred man named Alexander to remove his shirt, and as she tends to his bleeding cuts, an intimate and tense connection develops between them. Alexander responds to her tender care with an intense, lingering gaze.",
+      "confusions": [
+        {
+          "issue": "The backstory behind Alexander's severe battle scars and how Juliana came to be tending to him in a woodland cottage is entirely unknown.",
+          "block_ids": [
+            "EP010_B027",
+            "EP010_B031"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It successfully establishes an intimate character dynamic and showcases striking visuals (the scars) without giving away how their relationship evolves.",
+      "evidence": [
+        "EP010_B027",
+        "EP010_B045",
+        "EP010_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander's body is severely scarred from battle",
+        "Juliana is tending to his wounds with gentle care",
+        "A romantic or deeply emotional tension is building between them"
+      ],
+      "withheld": [
+        "Who these characters are to one another",
+        "Where they are and what battles Alexander fought"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The transition from horror and pity at his scars to tender care and romantic tension creates a moderate, grounded emotional resonance.",
+      "evidence": [
+        "EP010_B029",
+        "EP010_B032",
+        "EP010_B048"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "tender intimacy / awe",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "romance_devotion",
+      "evidence": [
+        "EP010_B027",
+        "EP010_B032",
+        "EP010_B048",
+        "EP010_B050"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "vulnerability",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP010_B024"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "longing_romance",
+      "evidence": [
+        "EP010_B048",
+        "EP010_B050"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An emotionally guarded, severely wounded warrior finds unexpected solace and intimacy under the care of a defiant woman.",
+      "evidence": [
+        "EP010_B023",
+        "EP010_B027",
+        "EP010_B050"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP010_B050"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Alexander's history of combat",
+      "The setting's broader political or social context"
+    ],
+    "curiosity_revealed": [
+      "Alexander's body is severely scarred from battle",
+      "Juliana is tending to his wounds with gentle care",
+      "A romantic or deeply emotional tension is building between them"
+    ],
+    "curiosity_withheld": [
+      "Who these characters are to one another",
+      "Where they are and what battles Alexander fought"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A gritty, scarred warrior reveals his wounds to a sharp-tongued woman, sparking unexpected romantic tension.",
+    "supporting_block_ids": [
+      "EP010_B027",
+      "EP010_B032",
+      "EP010_B048",
+      "EP010_B050",
+      "EP010_B024",
+      "EP010_B023"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Juliana challenges a wounded, scarred man named Alexander to remove his shirt, and as she tends to his bleeding cuts, an intimate and tense connection develops between them. Alexander responds to her tender care with an intense, lingering gaze.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The backstory behind Alexander's severe battle scars and how Juliana came to be tending to him in a woodland cottage is entirely unknown.\",\n      \"block_ids\": [\"K05\", \"K09\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Juliana's sarcastic and challenging demand for him to remove his shirt sparks mild intrigue about their dynamic, though it lacks immediate high-stakes shock.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K05\", \"K10\", \"K24\", \"K28\"],\n    \"reason\": \"Tension builds steadily from the visual shock of his scars through the intimate medical tending phase, culminating in a charged moment of romantic eye contact and a cryptic final line.\",\n    \"evidence\": [\"K05\", \"K10\", \"K24\", \"K28\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K28\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What does Alexander's intense, pointed gaze mean for their developing relationship?\",\n    \"score\": 3,\n    \"reason\": \"The clip cuts off right after Alexander delivers a loaded, sincere response about why he is staring at her, leaving a soft romantic tension hanging.\",\n    \"evidence\": [\"K27\", \"K28\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"While their exact background is unknown, the immediate situation (tending to a wounded man) and the emotional shift from defiance to intimacy are completely self-evident.\",\n    \"evidence\": [\"K02\", \"K05\", \"K17\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Alexander's body is severely scarred from battle\",\n      \"Juliana is tending to his wounds with gentle care\",\n      \"A romantic or deeply emotional tension is building between them\"\n    ],\n    \"withheld\": [\n      \"Who these characters are to one another\",\n      \"Where they are and what battles Alexander fought\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It successfully establishes an intimate character dynamic and showcases striking visuals (the scars) without giving away how their relationship evolves.\",\n    \"evidence\": [\"K05\", \"K23\", \"K28\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"tender intimacy / awe\",\n    \"score\": 3,\n    \"reason\": \"The transition from horror and pity at his scars to tender care and romantic tension creates a moderate, grounded emotional resonance.\",\n    \"evidence\": [\"K07\", \"K10\", \"K26\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"romance_devotion\",\n      \"other_label\": null,\n      \"secondary\": \"vulnerability\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K05\", \"K10\", \"K26\", \"K28\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"longing_romance\",\n      \"evidence\": [\"K26\", \"K28\"]\n    },\n    \"stakes\": {\n      \"summary\": \"An emotionally guarded, severely wounded warrior finds unexpected solace and intimacy under the care of a defiant woman.\",\n      \"evidence\": [\"K01\", \"K05\", \"K28\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Alexander's history of combat\",\n        \"The setting's broader political or social context\"\n      ]\n    },\n    \"appeal\": \"A gritty, scarred warrior reveals his wounds to a sharp-tongued woman, sparking unexpected romantic tension.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "65ac53b7d23d9f368fcd8619bca71bae753de78bfb74b3d2fdb0ffaafec45a63",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3788,
+      "prompt_tokens": 3056,
+      "completion_tokens": 1051,
+      "total_tokens": 4107,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:01:46.280142+00:00"
+}

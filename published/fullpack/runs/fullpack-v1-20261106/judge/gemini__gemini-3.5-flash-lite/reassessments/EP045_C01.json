@@ -1,0 +1,86 @@
+{
+  "candidate_id": "EP045_C01",
+  "checker_version": "c1",
+  "judgement_clip_sha256": "605c6c081fa8f2c621e41315c010083188c26af16eb1adfb2ac1e09a513b6eba",
+  "judgement_prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "status": "resolved",
+  "flags": [
+    {
+      "dimension": "context_independence",
+      "code": "CONFUSIONS_WITH_HIGH_SCORE",
+      "detail": "score 4 with 2 confusing reference(s) listed"
+    }
+  ],
+  "remaining_flags": [],
+  "original_scores": {
+    "context_independence": 4
+  },
+  "revised_scores": {
+    "context_independence": 3
+  },
+  "revised_dimensions": {
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "While the broad strokes of a public accusation and status reversal are clear, a stranger lacks crucial context regarding who Catherine, Rupert, and Mary are to the main characters and the background of the alleged poisoning and torture.",
+      "evidence": [
+        "EP045_B040",
+        "EP045_B047",
+        "EP045_B054",
+        "EP045_B055"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Alexander accuses Catherine of poisoning his mother and torturing his wife before a congregation in a cathedral. He then publicly declares Lady Juliana Ashcroft to be his true wife and the Duchess of Ashburton, leaving Catherine and bystanders in shock.",
+      "confusions": [
+        {
+          "issue": "The exact nature of Catherine's relationship to Alexander and why she targeted his mother and wife is not explained.",
+          "block_ids": [
+            "EP045_B040",
+            "EP045_B042",
+            "EP045_B043"
+          ]
+        },
+        {
+          "issue": "The identities and stakes surrounding Rupert and Mary's horrified reaction are unknown.",
+          "block_ids": [
+            "EP045_B054",
+            "EP045_B055"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "note": null,
+  "raw_response_text": "{\n  \"blind_summary\": \"Alexander accuses Catherine of poisoning his mother and torturing his wife before a congregation in a cathedral. He then publicly declares Lady Juliana Ashcroft to be his true wife and the Duchess of Ashburton, leaving Catherine and bystanders in shock.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact nature of Catherine's relationship to Alexander and why she targeted his mother and wife is not explained.\",\n      \"block_ids\": [\"K02\", \"K03\", \"K05\"]\n    },\n    {\n      \"issue\": \"The identities and stakes surrounding Rupert and Mary's horrified reaction are unknown.\",\n      \"block_ids\": [\"K16\", \"K17\"]\n    }\n  ],\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"While the broad strokes of a public accusation and status reversal are clear, a stranger lacks crucial context regarding who Catherine, Rupert, and Mary are to the main characters and the background of the alleged poisoning and torture.\",\n    \"evidence\": [\"K02\", \"K09\", \"K16\", \"K17\"]\n  }\n}",
+  "calls": [
+    {
+      "stage": "reassess",
+      "cache_key": "a3315c55fbbbd7f09e46592d42cb1ef1dd37c535320c5f9a7dec4bad09c3ce59",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 1812,
+      "prompt_tokens": 3753,
+      "completion_tokens": 259,
+      "total_tokens": 4012,
+      "hidden_tokens": 0
+    }
+  ],
+  "invocation_id": "d586dab690a4",
+  "created_at": "2026-11-06T11:08:07.193340+00:00"
+}

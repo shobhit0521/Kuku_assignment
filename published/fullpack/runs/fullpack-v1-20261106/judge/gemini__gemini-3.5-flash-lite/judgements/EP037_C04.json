@@ -1,0 +1,296 @@
+{
+  "candidate_id": "EP037_C04",
+  "episode_id": "EP037",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "3d63bb0e011daaadd4ee4e7ec0b25912e26fe508be91a0f611a9678acef58b79",
+  "clip_start_ms": 95500,
+  "clip_end_ms": 116200,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP037_B053",
+    "EP037_B054"
+  ],
+  "eligible_beat_ids": [
+    "EP037_B057",
+    "EP037_B060",
+    "EP037_B061",
+    "EP037_B062",
+    "EP037_B063"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "A close-up of a tear-stained, dirty face establishes suffering immediately, but lacks specific context or dialogue until the whisper.",
+      "evidence": [
+        "EP037_B053",
+        "EP037_B054"
+      ],
+      "issues": [],
+      "block_id": "EP037_B053",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds physically as Juliana drags herself up and grips the iron ring with mounting resolve, though there is no opposing character present to raise immediate stakes.",
+      "evidence": [
+        "EP037_B055",
+        "EP037_B057",
+        "EP037_B062",
+        "EP037_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP037_B055",
+        "EP037_B057",
+        "EP037_B062"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "It leaves an inspiring emotional button with a forward pull, but lacks a precise plot-based question about immediate danger.",
+      "evidence": [
+        "EP037_B063",
+        "EP037_B062"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP037_B063",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "How will Juliana survive or fight back against her captors from inside the dungeon?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "We know the protagonist is imprisoned and defiant, but we lack any information about who imprisoned her, why, or what she is expected to surrender.",
+      "evidence": [
+        "EP037_B054",
+        "EP037_B061"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A captive named Juliana endures harsh dungeon conditions while refusing to surrender to her unnamed tormentors. Despite physical agony, hunger, and heavy chains, she maintains fierce defiance and declares that her identity cannot be taken from her.",
+      "confusions": [
+        {
+          "issue": "Who 'they' are and what specific conflict or surrender they demand remains completely unknown.",
+          "block_ids": [
+            "EP037_B054",
+            "EP037_B056",
+            "EP037_B061"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It creates strong sympathy and curiosity about her backstory and eventual escape without spoiling the plot.",
+      "evidence": [
+        "EP037_B054",
+        "EP037_B061",
+        "EP037_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is imprisoned in a harsh dungeon",
+        "She is starving and chained",
+        "She refuses to surrender or beg"
+      ],
+      "withheld": [
+        "Who her captors are",
+        "What they want her to surrender",
+        "How she plans to escape"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana's transition from tears of agony to fierce, unyielding resolve creates a powerful sense of triumph and sympathy.",
+      "evidence": [
+        "EP037_B053",
+        "EP037_B055",
+        "EP037_B061",
+        "EP037_B063"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "defiant resilience",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "vulnerability",
+      "evidence": [
+        "EP037_B053",
+        "EP037_B057",
+        "EP037_B063"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "visual_event",
+      "evidence": [
+        "EP037_B053"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP037_B053",
+        "EP037_B054",
+        "EP037_B061"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Juliana's survival, freedom, and personal identity against an unseen captor's attempt to break her spirit.",
+      "evidence": [
+        "EP037_B054",
+        "EP037_B061",
+        "EP037_B063"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP037_B063"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Identity of the captors",
+      "The reason for her imprisonment"
+    ],
+    "curiosity_revealed": [
+      "Juliana is imprisoned in a harsh dungeon",
+      "She is starving and chained",
+      "She refuses to surrender or beg"
+    ],
+    "curiosity_withheld": [
+      "Who her captors are",
+      "What they want her to surrender",
+      "How she plans to escape"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Witness an unbreakable captive rise up against her tormentors and refuse to surrender.",
+    "supporting_block_ids": [
+      "EP037_B053",
+      "EP037_B057",
+      "EP037_B063",
+      "EP037_B054",
+      "EP037_B061"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A captive named Juliana endures harsh dungeon conditions while refusing to surrender to her unnamed tormentors. Despite physical agony, hunger, and heavy chains, she maintains fierce defiance and declares that her identity cannot be taken from her.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who 'they' are and what specific conflict or surrender they demand remains completely unknown.\",\n      \"block_ids\": [\n        \"K02\",\n        \"K04\",\n        \"K09\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K01\",\n    \"score\": 3,\n    \"reason\": \"A close-up of a tear-stained, dirty face establishes suffering immediately, but lacks specific context or dialogue until the whisper.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\n      \"K03\",\n      \"K05\",\n      \"K10\"\n    ],\n    \"reason\": \"Tension builds physically as Juliana drags herself up and grips the iron ring with mounting resolve, though there is no opposing character present to raise immediate stakes.\",\n    \"evidence\": [\n      \"K03\",\n      \"K05\",\n      \"K10\",\n      \"K11\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K11\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Juliana survive or fight back against her captors from inside the dungeon?\",\n    \"score\": 3,\n    \"reason\": \"It leaves an inspiring emotional button with a forward pull, but lacks a precise plot-based question about immediate danger.\",\n    \"evidence\": [\n      \"K10\",\n      \"K11\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"We know the protagonist is imprisoned and defiant, but we lack any information about who imprisoned her, why, or what she is expected to surrender.\",\n    \"evidence\": [\n      \"K02\",\n      \"K09\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is imprisoned in a harsh dungeon\",\n      \"She is starving and chained\",\n      \"She refuses to surrender or beg\"\n    ],\n    \"withheld\": [\n      \"Who her captors are\",\n      \"What they want her to surrender\",\n      \"How she plans to escape\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It creates strong sympathy and curiosity about her backstory and eventual escape without spoiling the plot.\",\n    \"evidence\": [\n      \"K02\",\n      \"K09\",\n      \"K11\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"defiant resilience\",\n    \"score\": 4,\n    \"reason\": \"Juliana's transition from tears of agony to fierce, unyielding resolve creates a powerful sense of triumph and sympathy.\",\n    \"evidence\": [\n      \"K01\",\n      \"K03\",\n      \"K09\",\n      \"K11\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"vulnerability\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K01\",\n        \"K05\",\n        \"K11\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"visual_event\",\n      \"evidence\": [\n        \"K01\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\n        \"K01\",\n        \"K02\",\n        \"K09\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"Juliana's survival, freedom, and personal identity against an unseen captor's attempt to break her spirit.\",\n      \"evidence\": [\n        \"K02\",\n        \"K09\",\n        \"K11\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Identity of the captors\",\n        \"The reason for her imprisonment\"\n      ]\n    },\n    \"appeal\": \"Witness an unbreakable captive rise up against her tormentors and refuse to surrender.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "7914aee0364457616aaba05885fa2194ab2cffcf2196a3084ae63418029b5f90",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4056,
+      "prompt_tokens": 2318,
+      "completion_tokens": 1126,
+      "total_tokens": 3444,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:05:22.559115+00:00"
+}

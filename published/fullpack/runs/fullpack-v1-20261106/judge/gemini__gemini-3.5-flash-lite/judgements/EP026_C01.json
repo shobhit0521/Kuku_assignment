@@ -1,0 +1,287 @@
+{
+  "candidate_id": "EP026_C01",
+  "episode_id": "EP026",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "f532c434ffb6fd1818823cf9ee3a1ab28af9024e098de3c7e9cd4a86ee52d035",
+  "clip_start_ms": 79600,
+  "clip_end_ms": 120880,
+  "masked_terms": 1,
+  "eligible_hook_ids": [
+    "EP026_B032",
+    "EP026_B033"
+  ],
+  "eligible_beat_ids": [
+    "EP026_B048",
+    "EP026_B049",
+    "EP026_B050",
+    "EP026_B051"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana's declaration of being cast out and clinging only to her honor creates immediate dramatic intrigue.",
+      "evidence": [
+        "EP026_B033"
+      ],
+      "issues": [],
+      "block_id": "EP026_B033",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds effectively from a calm, proud statement to a physical reaction, culminating in the Duchess's frantic demand about the ring.",
+      "evidence": [
+        "EP026_B036",
+        "EP026_B040",
+        "EP026_B047",
+        "EP026_B049",
+        "EP026_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP026_B036",
+        "EP026_B040",
+        "EP026_B047",
+        "EP026_B049"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip cuts abruptly on a powerful physical hold and musical chord while the Duchess's demand for the ring's origin hangs completely unanswered.",
+      "evidence": [
+        "EP026_B051",
+        "EP026_B049"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP026_B051",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "What is the secret connection between the Dowager Duchess, Juliana, and the signet ring?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The viewer understands the immediate dynamic—an elder noblewoman recognizing a vital symbol on a younger woman—but lacks background on the family feud or the ring's true identity.",
+      "evidence": [
+        "EP026_B033",
+        "EP026_B049"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "Juliana asserts to the Dowager Duchess that her family cast her out and she has nothing left but her honor. Upon seeing a distinctive signet ring on Juliana's hand, the Duchess reacts in stunned shock and desperately demands to know where she got it.",
+      "confusions": [
+        {
+          "issue": "The reasons behind Juliana being cast out by her family and her exact relationship to the Dowager Duchess are not explained.",
+          "block_ids": [
+            "EP026_B033",
+            "EP026_B049"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "It clearly establishes a high-stakes mystery regarding the ring while keeping the payoff entirely hidden.",
+      "evidence": [
+        "EP026_B035",
+        "EP026_B037",
+        "EP026_B049",
+        "EP026_B051"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana wears a unique signet ring",
+        "The Dowager Duchess recognizes the ring and is intensely desperate to know its origin"
+      ],
+      "withheld": [
+        "Where Juliana actually got the ring",
+        "Why the Duchess is so deeply shaken by it"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The rapid shift from quiet dignity to the Duchess's overwhelming urgency and tearful demand engages the viewer emotionally.",
+      "evidence": [
+        "EP026_B033",
+        "EP026_B037",
+        "EP026_B048",
+        "EP026_B049"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Suspense and intrigue",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "unclassified",
+      "evidence": [],
+      "note": "archetype 'mystery_relevation' is not in the taxonomy"
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP026_B033"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP026_B037",
+        "EP026_B049"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A mysterious signet ring threatens to uncover a hidden past or identity, turning a dismissed outcast into someone of critical importance.",
+      "evidence": [
+        "EP026_B033",
+        "EP026_B035",
+        "EP026_B049"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP026_B051"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Exact identity of Juliana's family",
+      "The historical significance of the signet ring"
+    ],
+    "curiosity_revealed": [
+      "Juliana wears a unique signet ring",
+      "The Dowager Duchess recognizes the ring and is intensely desperate to know its origin"
+    ],
+    "curiosity_withheld": [
+      "Where Juliana actually got the ring",
+      "Why the Duchess is so deeply shaken by it"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Discover the secret behind the mysterious ring that brought a powerful Duchess to tears.",
+    "supporting_block_ids": [
+      "EP026_B033",
+      "EP026_B037",
+      "EP026_B049",
+      "EP026_B035",
+      "EP026_B051"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"Juliana asserts to the Dowager Duchess that her family cast her out and she has nothing left but her honor. Upon seeing a distinctive signet ring on Juliana's hand, the Duchess reacts in stunned shock and desperately demands to know where she got it.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The reasons behind Juliana being cast out by her family and her exact relationship to the Dowager Duchess are not explained.\",\n      \"block_ids\": [\n        \"K02\",\n        \"K18\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Juliana's declaration of being cast out and clinging only to her honor creates immediate dramatic intrigue.\",\n    \"evidence\": [\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K05\",\n      \"K09\",\n      \"K16\",\n      \"K18\"\n    ],\n    \"reason\": \"Tension builds effectively from a calm, proud statement to a physical reaction, culminating in the Duchess's frantic demand about the ring.\",\n    \"evidence\": [\n      \"K05\",\n      \"K09\",\n      \"K16\",\n      \"K18\",\n      \"K20\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K20\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What is the secret connection between the Dowager Duchess, Juliana, and the signet ring?\",\n    \"score\": 5,\n    \"reason\": \"The clip cuts abruptly on a powerful physical hold and musical chord while the Duchess's demand for the ring's origin hangs completely unanswered.\",\n    \"evidence\": [\n      \"K18\",\n      \"K20\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The viewer understands the immediate dynamic—an elder noblewoman recognizing a vital symbol on a younger woman—but lacks background on the family feud or the ring's true identity.\",\n    \"evidence\": [\n      \"K02\",\n      \"K18\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana wears a unique signet ring\",\n      \"The Dowager Duchess recognizes the ring and is intensely desperate to know its origin\"\n    ],\n    \"withheld\": [\n      \"Where Juliana actually got the ring\",\n      \"Why the Duchess is so deeply shaken by it\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"It clearly establishes a high-stakes mystery regarding the ring while keeping the payoff entirely hidden.\",\n    \"evidence\": [\n      \"K04\",\n      \"K06\",\n      \"K18\",\n      \"K20\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Suspense and intrigue\",\n    \"score\": 4,\n    \"reason\": \"The rapid shift from quiet dignity to the Duchess's overwhelming urgency and tearful demand engages the viewer emotionally.\",\n    \"evidence\": [\n      \"K02\",\n      \"K06\",\n      \"K17\",\n      \"K18\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"mystery_relevation\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K02\",\n        \"K06\",\n        \"K18\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\n        \"K06\",\n        \"K18\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A mysterious signet ring threatens to uncover a hidden past or identity, turning a dismissed outcast into someone of critical importance.\",\n      \"evidence\": [\n        \"K02\",\n        \"K04\",\n        \"K18\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Exact identity of Juliana's family\",\n        \"The historical significance of the signet ring\"\n      ]\n    },\n    \"appeal\": \"Discover the secret behind the mysterious ring that brought a powerful Duchess to tears.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "f212d11a685bf7e7f8a5d3f50c5546b82d6fae153a4f8b38d6ad8b85794608a2",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3890,
+      "prompt_tokens": 2791,
+      "completion_tokens": 1145,
+      "total_tokens": 3936,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:59:13.361164+00:00"
+}

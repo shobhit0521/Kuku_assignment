@@ -1,0 +1,294 @@
+{
+  "candidate_id": "EP030_C01",
+  "episode_id": "EP030",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "307442e5fee5581223d8ea245fca5eb896468930d1c1127e0c3e44638322ee36",
+  "clip_start_ms": 7500,
+  "clip_end_ms": 47300,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP030_B006",
+    "EP030_B007"
+  ],
+  "eligible_beat_ids": [
+    "EP030_B017",
+    "EP030_B019",
+    "EP030_B020",
+    "EP030_B021",
+    "EP030_B022",
+    "EP030_B023"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "The elder nobleman opens with a striking, metaphorical accusation about a rat in the cellar, immediately setting up a conspiracy.",
+      "evidence": [
+        "EP030_B007"
+      ],
+      "issues": [],
+      "block_id": "EP030_B007",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension steadily escalates from a warning about gossip to physical intimidation with a cane, culminating in a sinister final order.",
+      "evidence": [
+        "EP030_B007",
+        "EP030_B011",
+        "EP030_B018",
+        "EP030_B023"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP030_B007",
+        "EP030_B011",
+        "EP030_B018",
+        "EP030_B023"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The elder nobleman's chilling final line leaves open the dangerous fate of the prisoner as he turns away.",
+      "evidence": [
+        "EP030_B023",
+        "EP030_B022"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP030_B023",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "What does stopping the hiding of the prisoner entail?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core dynamic between the dominant conspirator and the panicking subordinate is clear, even if past details like the Duchess's poisoning are unknown.",
+      "evidence": [
+        "EP030_B007",
+        "EP030_B009",
+        "EP030_B019"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "An older nobleman confronts Rupert about a secret prisoner locked in his cellar who knows about a poisoning. The nobleman aggressively demands that Rupert burn out this problem instead of hiding her.",
+      "confusions": [
+        {
+          "issue": "Who is the Ashcroft girl and why was the Duchess poisoned?",
+          "block_ids": [
+            "EP030_B009",
+            "EP030_B013"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It clearly establishes the stakes of a hidden prisoner and a cover-up, while cutting off right before the execution of the new plan.",
+      "evidence": [
+        "EP030_B009",
+        "EP030_B013",
+        "EP030_B023"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Rupert is holding someone named the Ashcroft girl in his cellar",
+        "The prisoner knows about the Duchess being poisoned",
+        "The elder nobleman wants her eliminated"
+      ],
+      "withheld": [
+        "What action will be taken against the prisoner",
+        "Whether Rupert will actually go through with it"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The cold menace of the elder nobleman and Rupert's mounting panic create a palpable atmosphere of dread and suspicion.",
+      "evidence": [
+        "EP030_B007",
+        "EP030_B012",
+        "EP030_B019"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP030_B007",
+        "EP030_B018",
+        "EP030_B019"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "deception_secret_identity",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP030_B007"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP030_B011",
+        "EP030_B013"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A high-society murder cover-up is at risk of exposure because a captive witness is being noticed.",
+      "evidence": [
+        "EP030_B009",
+        "EP030_B011",
+        "EP030_B013"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP030_B023"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Exact identity of the Duchess or the Ashcroft girl"
+    ],
+    "curiosity_revealed": [
+      "Rupert is holding someone named the Ashcroft girl in his cellar",
+      "The prisoner knows about the Duchess being poisoned",
+      "The elder nobleman wants her eliminated"
+    ],
+    "curiosity_withheld": [
+      "What action will be taken against the prisoner",
+      "Whether Rupert will actually go through with it"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A ruthless nobleman pressures an accomplice to silence a captive witness before their dark secret is exposed.",
+    "supporting_block_ids": [
+      "EP030_B007",
+      "EP030_B018",
+      "EP030_B019",
+      "EP030_B011",
+      "EP030_B013",
+      "EP030_B009",
+      "EP030_B023"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"An older nobleman confronts Rupert about a secret prisoner locked in his cellar who knows about a poisoning. The nobleman aggressively demands that Rupert burn out this problem instead of hiding her.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who is the Ashcroft girl and why was the Duchess poisoned?\",\n      \"block_ids\": [\n        \"K05\",\n        \"K09\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 4,\n    \"reason\": \"The elder nobleman opens with a striking, metaphorical accusation about a rat in the cellar, immediately setting up a conspiracy.\",\n    \"evidence\": [\n      \"K03\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K03\",\n      \"K07\",\n      \"K13\",\n      \"K19\"\n    ],\n    \"reason\": \"Tension steadily escalates from a warning about gossip to physical intimidation with a cane, culminating in a sinister final order.\",\n    \"evidence\": [\n      \"K03\",\n      \"K07\",\n      \"K13\",\n      \"K19\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K19\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What does stopping the hiding of the prisoner entail?\",\n    \"score\": 4,\n    \"reason\": \"The elder nobleman's chilling final line leaves open the dangerous fate of the prisoner as he turns away.\",\n    \"evidence\": [\n      \"K18\",\n      \"K19\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core dynamic between the dominant conspirator and the panicking subordinate is clear, even if past details like the Duchess's poisoning are unknown.\",\n    \"evidence\": [\n      \"K03\",\n      \"K05\",\n      \"K15\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Rupert is holding someone named the Ashcroft girl in his cellar\",\n      \"The prisoner knows about the Duchess being poisoned\",\n      \"The elder nobleman wants her eliminated\"\n    ],\n    \"withheld\": [\n      \"What action will be taken against the prisoner\",\n      \"Whether Rupert will actually go through with it\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It clearly establishes the stakes of a hidden prisoner and a cover-up, while cutting off right before the execution of the new plan.\",\n    \"evidence\": [\n      \"K05\",\n      \"K09\",\n      \"K19\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion\",\n    \"score\": 4,\n    \"reason\": \"The cold menace of the elder nobleman and Rupert's mounting panic create a palpable atmosphere of dread and suspicion.\",\n    \"evidence\": [\n      \"K03\",\n      \"K08\",\n      \"K15\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"deception_secret_identity\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K03\",\n        \"K13\",\n        \"K15\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K03\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\n        \"K07\",\n        \"K09\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A high-society murder cover-up is at risk of exposure because a captive witness is being noticed.\",\n      \"evidence\": [\n        \"K05\",\n        \"K07\",\n        \"K09\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Exact identity of the Duchess or the Ashcroft girl\"\n      ]\n    },\n    \"appeal\": \"A ruthless nobleman pressures an accomplice to silence a captive witness before their dark secret is exposed.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "08899fc712f7088a5a395c5601f7f8abf20a3f642d30ec64fe66fda86f34a934",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3404,
+      "prompt_tokens": 2722,
+      "completion_tokens": 1091,
+      "total_tokens": 3813,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:00:54.126979+00:00"
+}

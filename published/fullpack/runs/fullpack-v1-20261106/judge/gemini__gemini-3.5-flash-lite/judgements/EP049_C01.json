@@ -1,0 +1,290 @@
+{
+  "candidate_id": "EP049_C01",
+  "episode_id": "EP049",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "0012b70a5d99",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "b8a2f06d201cc649603da3495773f45f1375bd1c2c953d44395a37cc58f93c32",
+  "clip_start_ms": 77000,
+  "clip_end_ms": 124500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP049_B034",
+    "EP049_B035"
+  ],
+  "eligible_beat_ids": [
+    "EP049_B047",
+    "EP049_B048",
+    "EP049_B049",
+    "EP049_B050"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Catherine immediately lays out calculated demands to manipulate a hearing, establishing her ambition, but lacks immediate, shocking context for a casual scroller.",
+      "evidence": [
+        "EP049_B035"
+      ],
+      "issues": [],
+      "block_id": "EP049_B035",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds as the stakes shift from a political favor to an explicit risk of treason and hanging, though the scene remains a static conversation.",
+      "evidence": [
+        "EP049_B046",
+        "EP049_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP049_B046",
+        "EP049_B050"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The final line drops the heavy word 'treason' and the threat of hanging right at the cut, leaving the priest's decision hanging.",
+      "evidence": [
+        "EP049_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP049_B050",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Will Father Thomas agree to commit treason and help Catherine, or will his fear of the Duke override her demands?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "Viewers understand that a woman is trying to subvert a council through a priest, but the specific stakes, who the Duke is, and what 'she' did to get humiliated require prior knowledge.",
+      "evidence": [
+        "EP049_B037",
+        "EP049_B044",
+        "EP049_B046",
+        "EP049_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Catherine demands that a priest named Father Thomas secretly delay a council hearing and leak information to her about an impending decision involving a Duke. The priest hesitates, pointing out the mortal danger of committing treason against a powerful Duke, leading to a tense final warning.",
+      "confusions": [
+        {
+          "issue": "Who 'she' is and what specific hearing or humiliation is being referenced is entirely unexplained.",
+          "block_ids": [
+            "EP049_B037",
+            "EP049_B044"
+          ]
+        },
+        {
+          "issue": "The exact relationship and political standing between the Duke, the King, and the Church are unclear to a first-time viewer.",
+          "block_ids": [
+            "EP049_B046",
+            "EP049_B050"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip sets up a clear dangerous conspiracy between two characters without revealing whether the priest actually takes the deal.",
+      "evidence": [
+        "EP049_B046",
+        "EP049_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Catherine is ruthless and wants to subvert a church-backed council hearing.",
+        "Father Thomas is considering helping her despite the risk of treason."
+      ],
+      "withheld": [
+        "Whether Father Thomas will take the risk.",
+        "What the ultimate fallout with the Duke will be."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The secretive plotting and warnings of treason create a mood of tense suspicion, though it relies on dialogue rather than visceral emotional outbursts.",
+      "evidence": [
+        "EP049_B046",
+        "EP049_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP049_B035",
+        "EP049_B041",
+        "EP049_B046",
+        "EP049_B050"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "deception_secret_identity",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP049_B035"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP049_B046",
+        "EP049_B050"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A noblewoman attempts to recruit a priest into a treasonous conspiracy against a powerful Duke, risking execution.",
+      "evidence": [
+        "EP049_B041",
+        "EP049_B046",
+        "EP049_B050"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP049_B050"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "The identity of the woman the council is judging",
+      "The background of Catherine's recent humiliation by the church"
+    ],
+    "curiosity_revealed": [
+      "Catherine is ruthless and wants to subvert a church-backed council hearing.",
+      "Father Thomas is considering helping her despite the risk of treason."
+    ],
+    "curiosity_withheld": [
+      "Whether Father Thomas will take the risk.",
+      "What the ultimate fallout with the Duke will be."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A cunning woman coerces a terrified priest into committing treason against a dangerous Duke.",
+    "supporting_block_ids": [
+      "EP049_B035",
+      "EP049_B041",
+      "EP049_B046",
+      "EP049_B050"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Catherine demands that a priest named Father Thomas secretly delay a council hearing and leak information to her about an impending decision involving a Duke. The priest hesitates, pointing out the mortal danger of committing treason against a powerful Duke, leading to a tense final warning.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who 'she' is and what specific hearing or humiliation is being referenced is entirely unexplained.\",\n      \"block_ids\": [\"K04\", \"K11\"]\n    },\n    {\n      \"issue\": \"The exact relationship and political standing between the Duke, the King, and the Church are unclear to a first-time viewer.\",\n      \"block_ids\": [\"K13\", \"K17\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Catherine immediately lays out calculated demands to manipulate a hearing, establishing her ambition, but lacks immediate, shocking context for a casual scroller.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K13\", \"K17\"],\n    \"reason\": \"Tension builds as the stakes shift from a political favor to an explicit risk of treason and hanging, though the scene remains a static conversation.\",\n    \"evidence\": [\"K13\", \"K17\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K17\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Father Thomas agree to commit treason and help Catherine, or will his fear of the Duke override her demands?\",\n    \"score\": 4,\n    \"reason\": \"The final line drops the heavy word 'treason' and the threat of hanging right at the cut, leaving the priest's decision hanging.\",\n    \"evidence\": [\"K17\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"Viewers understand that a woman is trying to subvert a council through a priest, but the specific stakes, who the Duke is, and what 'she' did to get humiliated require prior knowledge.\",\n    \"evidence\": [\"K04\", \"K11\", \"K13\", \"K17\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Catherine is ruthless and wants to subvert a church-backed council hearing.\",\n      \"Father Thomas is considering helping her despite the risk of treason.\"\n    ],\n    \"withheld\": [\n      \"Whether Father Thomas will take the risk.\",\n      \"What the ultimate fallout with the Duke will be.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip sets up a clear dangerous conspiracy between two characters without revealing whether the priest actually takes the deal.\",\n    \"evidence\": [\"K13\", \"K17\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion\",\n    \"score\": 3,\n    \"reason\": \"The secretive plotting and warnings of treason create a mood of tense suspicion, though it relies on dialogue rather than visceral emotional outbursts.\",\n    \"evidence\": [\"K13\", \"K17\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"deception_secret_identity\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K02\", \"K08\", \"K13\", \"K17\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\"K13\", \"K17\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A noblewoman attempts to recruit a priest into a treasonous conspiracy against a powerful Duke, risking execution.\",\n      \"evidence\": [\"K08\", \"K13\", \"K17\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"The identity of the woman the council is judging\",\n        \"The background of Catherine's recent humiliation by the church\"\n      ]\n    },\n    \"appeal\": \"A cunning woman coerces a terrified priest into committing treason against a dangerous Duke.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "842f5e6e3006e0e8dd42c79a123bc57933357afc40ab2528c29b6cbef40827de",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3495,
+      "prompt_tokens": 2647,
+      "completion_tokens": 1078,
+      "total_tokens": 3725,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:10:05.652872+00:00"
+}

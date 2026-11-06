@@ -1,0 +1,292 @@
+{
+  "candidate_id": "EP048_C01",
+  "episode_id": "EP048",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "0012b70a5d99",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "7b1ea3a4c97348ac729532a201ea13a7823951f0978ffa04a92beebf09d9bc78",
+  "clip_start_ms": 2400,
+  "clip_end_ms": 51300,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP048_B003",
+    "EP048_B004"
+  ],
+  "eligible_beat_ids": [
+    "EP048_B026",
+    "EP048_B027",
+    "EP048_B028",
+    "EP048_B029"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Catherine opens with a sharp, vindictive threat about a crown rolling back into the gutter, immediately establishing her malicious persona.",
+      "evidence": [
+        "EP048_B003"
+      ],
+      "issues": [],
+      "block_id": "EP048_B003",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds through Catherine's escalating threats against Alexander and her secretive plotting with the maid, though the conflict remains internal and conversational rather than erupting into immediate physical confrontation.",
+      "evidence": [
+        "EP048_B013",
+        "EP048_B025",
+        "EP048_B029"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP048_B013",
+        "EP048_B025",
+        "EP048_B029"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "Catherine's defiant declaration that she is going back into the house despite the heavy surveillance leaves a strong, suspenseful question about her next dangerous move.",
+      "evidence": [
+        "EP048_B029",
+        "EP048_B027"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP048_B029",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "How will Catherine manage to return to the house undetected while the Duke's bailiffs are watching every road?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The viewer understands Catherine's villainous motives and her control over the maid, but background details like the chapel incident and Alexander's identity require prior context.",
+      "evidence": [
+        "EP048_B003",
+        "EP048_B023"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A calculating noblewoman named Catherine plots revenge against a rival named Alexander and schemes to manipulate her maid Agnes to infiltrate a household. Despite being watched by the Duke's bailiffs, Catherine chillingly declares she plans to return to the house.",
+      "confusions": [
+        {
+          "issue": "Who Alexander is and what the healer's crown refers to remain unexplained.",
+          "block_ids": [
+            "EP048_B003",
+            "EP048_B013"
+          ]
+        },
+        {
+          "issue": "The specific nature of Catherine's humiliation earlier in the chapel is not shown.",
+          "block_ids": [
+            "EP048_B023"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip effectively establishes the villain's dangerous plot and her upcoming infiltration, leaving the viewer wondering how she will execute it.",
+      "evidence": [
+        "EP048_B011",
+        "EP048_B027",
+        "EP048_B029"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Catherine's vindictive personality",
+        "Her ten-day timeline for revenge",
+        "Her plan to use the maid and return to the house"
+      ],
+      "withheld": [
+        "How she plans to overcome the Duke's bailiffs",
+        "What specifically happened in the chapel"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "Catherine's cold calculations and Agnes's nervous anxiety create an atmosphere of dark suspense, though it evokes intrigue rather than deep emotional resonance.",
+      "evidence": [
+        "EP048_B003",
+        "EP048_B027"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "deception_secret_identity",
+      "evidence": [
+        "EP048_B013",
+        "EP048_B029"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP048_B003"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP048_B025",
+        "EP048_B027"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Catherine plots a dangerous return to a hostile household to undo a decree and exact revenge within ten days.",
+      "evidence": [
+        "EP048_B011",
+        "EP048_B029"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP048_B029"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Alexander's identity",
+      "The chapel humiliation"
+    ],
+    "curiosity_revealed": [
+      "Catherine's vindictive personality",
+      "Her ten-day timeline for revenge",
+      "Her plan to use the maid and return to the house"
+    ],
+    "curiosity_withheld": [
+      "How she plans to overcome the Duke's bailiffs",
+      "What specifically happened in the chapel"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch a ruthless mastermind execute a chilling plan to infiltrate her enemies right under their noses.",
+    "supporting_block_ids": [
+      "EP048_B013",
+      "EP048_B029",
+      "EP048_B003",
+      "EP048_B025",
+      "EP048_B027",
+      "EP048_B011"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A calculating noblewoman named Catherine plots revenge against a rival named Alexander and schemes to manipulate her maid Agnes to infiltrate a household. Despite being watched by the Duke's bailiffs, Catherine chillingly declares she plans to return to the house.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Alexander is and what the healer's crown refers to remain unexplained.\",\n      \"block_ids\": [\"K03\", \"K13\"]\n    },\n    {\n      \"issue\": \"The specific nature of Catherine's humiliation earlier in the chapel is not shown.\",\n      \"block_ids\": [\"K23\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 4,\n    \"reason\": \"Catherine opens with a sharp, vindictive threat about a crown rolling back into the gutter, immediately establishing her malicious persona.\",\n    \"evidence\": [\"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K13\", \"K25\", \"K29\"],\n    \"reason\": \"Tension builds through Catherine's escalating threats against Alexander and her secretive plotting with the maid, though the conflict remains internal and conversational rather than erupting into immediate physical confrontation.\",\n    \"evidence\": [\"K13\", \"K25\", \"K29\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K29\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Catherine manage to return to the house undetected while the Duke's bailiffs are watching every road?\",\n    \"score\": 4,\n    \"reason\": \"Catherine's defiant declaration that she is going back into the house despite the heavy surveillance leaves a strong, suspenseful question about her next dangerous move.\",\n    \"evidence\": [\"K27\", \"K29\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The viewer understands Catherine's villainous motives and her control over the maid, but background details like the chapel incident and Alexander's identity require prior context.\",\n    \"evidence\": [\"K03\", \"K23\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"Catherine's vindictive personality\", \"Her ten-day timeline for revenge\", \"Her plan to use the maid and return to the house\"],\n    \"withheld\": [\"How she plans to overcome the Duke's bailiffs\", \"What specifically happened in the chapel\"],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip effectively establishes the villain's dangerous plot and her upcoming infiltration, leaving the viewer wondering how she will execute it.\",\n    \"evidence\": [\"K11\", \"K27\", \"K29\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion\",\n    \"score\": 3,\n    \"reason\": \"Catherine's cold calculations and Agnes's nervous anxiety create an atmosphere of dark suspense, though it evokes intrigue rather than deep emotional resonance.\",\n    \"evidence\": [\"K03\", \"K27\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"deception_secret_identity\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K13\", \"K29\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K03\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\"K25\", \"K27\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Catherine plots a dangerous return to a hostile household to undo a decree and exact revenge within ten days.\",\n      \"evidence\": [\"K11\", \"K29\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Alexander's identity\",\n        \"The chapel humiliation\"\n      ]\n    },\n    \"appeal\": \"Watch a ruthless mastermind execute a chilling plan to infiltrate her enemies right under their noses.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "23ba7b755f0f255197839968f60216bead38e616b61674e06cd9a30b579c3582",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3602,
+      "prompt_tokens": 3236,
+      "completion_tokens": 1024,
+      "total_tokens": 4260,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:09:42.200381+00:00"
+}

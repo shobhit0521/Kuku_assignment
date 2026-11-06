@@ -1,0 +1,302 @@
+{
+  "candidate_id": "EP027_C02",
+  "episode_id": "EP027",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "a947467214805f6e7e7ac7b9b087431d9bedba2465ec677233ec540c2d5bcc99",
+  "clip_start_ms": 64000,
+  "clip_end_ms": 119800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP027_B038",
+    "EP027_B039",
+    "EP027_B040",
+    "EP027_B041"
+  ],
+  "eligible_beat_ids": [
+    "EP027_B067",
+    "EP027_B069",
+    "EP027_B070",
+    "EP027_B071",
+    "EP027_B072",
+    "EP027_B073",
+    "EP027_B074",
+    "EP027_B075"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "An immediate harsh command directed at the protagonist creates instant confrontation and grabs attention.",
+      "evidence": [
+        "EP027_B039",
+        "EP027_B038"
+      ],
+      "issues": [],
+      "block_id": "EP027_B039",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily through the interrogation as the maid is cornered by authority figures, escalating from an unauthorized action to the shocking accusation of poison.",
+      "evidence": [
+        "EP027_B043",
+        "EP027_B048",
+        "EP027_B056",
+        "EP027_B062",
+        "EP027_B073"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP027_B043",
+        "EP027_B048",
+        "EP027_B056",
+        "EP027_B062",
+        "EP027_B073"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The final cut lands on the chilling repetition of the word 'Poison' and the nobleman's dark, frozen scowl, leaving high stakes and an immediate question hanging.",
+      "evidence": [
+        "EP027_B074",
+        "EP027_B073",
+        "EP027_B075"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP027_B074",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "How will the noblemen react to the maid's claim that the duchess is being poisoned?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core conflict—a maid caught administering unauthorized substances to a sick noblewoman and being interrogated by hostile superiors—is completely clear to a first-time viewer.",
+      "evidence": [
+        "EP027_B046",
+        "EP027_B048",
+        "EP027_B056",
+        "EP027_B073"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A new maid named Juliana is caught by Lady Catherine and a blond nobleman holding an unauthorized amber bottle by the bed of a failing duchess. When interrogated, Juliana defianty claims she administered medicine because the duchess was dying, culminating in a tense revelation that the substance is an antidote to poison.",
+      "confusions": [
+        {
+          "issue": "The exact relationship between the Blond Nobleman, Lady Catherine, and the ailing Duchess is not explicitly defined beyond 'my aunt'.",
+          "block_ids": [
+            "EP027_B060"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "It sets up the immediate accusation and reveals a massive secret (poisoning), while cutting off right before the consequences or proof are shown.",
+      "evidence": [
+        "EP027_B052",
+        "EP027_B073",
+        "EP027_B074"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "The maid gave unauthorized medicine to the dying Duchess.",
+        "The medicine is claimed to be an antidote to poison."
+      ],
+      "withheld": [
+        "Who is actually poisoning the Duchess?",
+        "What will happen to Juliana now that she has made this dangerous accusation?"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "The hostile interrogation and the revelation of a dark plot effectively evoke a strong sense of suspicion and high-stakes danger.",
+      "evidence": [
+        "EP027_B048",
+        "EP027_B056",
+        "EP027_B073",
+        "EP027_B074"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP027_B039",
+        "EP027_B048",
+        "EP027_B056",
+        "EP027_B073"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "danger_threat",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP027_B039",
+        "EP027_B041"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP027_B048",
+        "EP027_B056",
+        "EP027_B073"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A brave maid accused of foul play must defend herself against powerful nobles while a duchess's life hangs in the balance.",
+      "evidence": [
+        "EP027_B048",
+        "EP027_B054",
+        "EP027_B073"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP027_B074"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "The maid gave unauthorized medicine to the dying Duchess.",
+      "The medicine is claimed to be an antidote to poison."
+    ],
+    "curiosity_withheld": [
+      "Who is actually poisoning the Duchess?",
+      "What will happen to Juliana now that she has made this dangerous accusation?"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A courageous maid trapped by hostile nobles drops a terrifying truth about a royal poisoning.",
+    "supporting_block_ids": [
+      "EP027_B039",
+      "EP027_B048",
+      "EP027_B056",
+      "EP027_B073",
+      "EP027_B041",
+      "EP027_B054",
+      "EP027_B074"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A new maid named Juliana is caught by Lady Catherine and a blond nobleman holding an unauthorized amber bottle by the bed of a failing duchess. When interrogated, Juliana defianty claims she administered medicine because the duchess was dying, culminating in a tense revelation that the substance is an antidote to poison.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The exact relationship between the Blond Nobleman, Lady Catherine, and the ailing Duchess is not explicitly defined beyond 'my aunt'.\",\n      \"block_ids\": [\n        \"K23\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"An immediate harsh command directed at the protagonist creates instant confrontation and grabs attention.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K06\",\n      \"K11\",\n      \"K19\",\n      \"K25\",\n      \"K36\"\n    ],\n    \"reason\": \"Tension builds steadily through the interrogation as the maid is cornered by authority figures, escalating from an unauthorized action to the shocking accusation of poison.\",\n    \"evidence\": [\n      \"K06\",\n      \"K11\",\n      \"K19\",\n      \"K25\",\n      \"K36\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K37\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will the noblemen react to the maid's claim that the duchess is being poisoned?\",\n    \"score\": 5,\n    \"reason\": \"The final cut lands on the chilling repetition of the word 'Poison' and the nobleman's dark, frozen scowl, leaving high stakes and an immediate question hanging.\",\n    \"evidence\": [\n      \"K36\",\n      \"K37\",\n      \"K38\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core conflict—a maid caught administering unauthorized substances to a sick noblewoman and being interrogated by hostile superiors—is completely clear to a first-time viewer.\",\n    \"evidence\": [\n      \"K09\",\n      \"K11\",\n      \"K19\",\n      \"K36\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"The maid gave unauthorized medicine to the dying Duchess.\",\n      \"The medicine is claimed to be an antidote to poison.\"\n    ],\n    \"withheld\": [\n      \"Who is actually poisoning the Duchess?\",\n      \"What will happen to Juliana now that she has made this dangerous accusation?\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"It sets up the immediate accusation and reveals a massive secret (poisoning), while cutting off right before the consequences or proof are shown.\",\n    \"evidence\": [\n      \"K15\",\n      \"K36\",\n      \"K37\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion\",\n    \"score\": 4,\n    \"reason\": \"The hostile interrogation and the revelation of a dark plot effectively evoke a strong sense of suspicion and high-stakes danger.\",\n    \"evidence\": [\n      \"K11\",\n      \"K19\",\n      \"K36\",\n      \"K37\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"danger_threat\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K02\",\n        \"K11\",\n        \"K19\",\n        \"K36\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\",\n        \"K04\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\n        \"K11\",\n        \"K19\",\n        \"K36\"\n    ]\n    },\n    \"stakes\": {\n      \"summary\": \"A brave maid accused of foul play must defend herself against powerful nobles while a duchess's life hangs in the balance.\",\n      \"evidence\": [\n        \"K11\",\n        \"K16\",\n        \"K36\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"A courageous maid trapped by hostile nobles drops a terrifying truth about a royal poisoning.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "43dd5e362fb7d8b9ca9336fc74145501faedeafd48cd7cd030e2a3764d06f5da",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3759,
+      "prompt_tokens": 3538,
+      "completion_tokens": 1183,
+      "total_tokens": 4721,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:59:44.282005+00:00"
+}

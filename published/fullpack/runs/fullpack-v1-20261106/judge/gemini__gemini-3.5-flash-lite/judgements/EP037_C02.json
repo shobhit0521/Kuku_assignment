@@ -1,0 +1,307 @@
+{
+  "candidate_id": "EP037_C02",
+  "episode_id": "EP037",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "c54783392e5757e9dfbeb465b777022fbb2180b28f8aaa753ec26c6afbd380b8",
+  "clip_start_ms": 116500,
+  "clip_end_ms": 148000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP037_B064",
+    "EP037_B065"
+  ],
+  "eligible_beat_ids": [
+    "EP037_B073",
+    "EP037_B074",
+    "EP037_B075",
+    "EP037_B076",
+    "EP037_B077",
+    "EP037_B078"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The question about an impending execution creates mild initial intrigue, though it lacks immediate visual or visceral punch.",
+      "evidence": [
+        "EP037_B065"
+      ],
+      "issues": [],
+      "block_id": "EP037_B065",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 2,
+      "valid": true,
+      "reason": "The scene consists entirely of villains gloating in a parlor without active conflict, external pressure, or a rising threat against them.",
+      "evidence": [
+        "EP037_B074",
+        "EP037_B076"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP037_B074",
+        "EP037_B076"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "The final shot focuses on the execution clause document, leaving a forward-looking question about the victim, but it is a static graphic shot rather than a high-stakes dramatic cliffhanger.",
+      "evidence": [
+        "EP037_B078"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP037_B078",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "Whose execution is detailed in the execution clause, and will she survive?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 2,
+      "valid": true,
+      "reason": "The viewer has no idea who 'she' is, why Clarissa hates her so bitterly, or what the county conflict is about without prior episodes.",
+      "evidence": [
+        "EP037_B067",
+        "EP037_B071",
+        "EP037_B074"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A noblewoman named Clarissa and a nobleman calmly discuss the impending execution of another woman whom Clarissa despises. Clarissa gloats over the woman's downfall and drinks wine while celebrating her upcoming punishment.",
+      "confusions": [
+        {
+          "issue": "Who is the woman facing execution, and what specific accusation or past event led to this situation?",
+          "block_ids": [
+            "EP037_B065",
+            "EP037_B067",
+            "EP037_B071",
+            "EP037_B074"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 2,
+      "valid": true,
+      "reason": "Without knowing who the victim is or why we should care about her, the villains' gloating feels disconnected and lacks narrative stakes.",
+      "evidence": [
+        "EP037_B067",
+        "EP037_B074"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Clarissa is vindictive and welcomes another woman's execution",
+        "The target woman married a nobody and helped peasants"
+      ],
+      "withheld": [
+        "The identity of the condemned woman",
+        "The true nature of the accusations against her"
+      ],
+      "balance": "too_little",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 2,
+      "valid": true,
+      "reason": "Clarissa's cold cruelty elicits a mild sense of injustice, but since the target is entirely abstract, the emotional weight is low.",
+      "evidence": [
+        "EP037_B074",
+        "EP037_B076"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "disgust",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP037_B074",
+        "EP037_B076"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "low",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP037_B065"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP037_B074",
+        "EP037_B076"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An anonymous woman faces execution while her ruthless rival celebrates.",
+      "evidence": [
+        "EP037_B067",
+        "EP037_B076"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP037_B078"
+      ],
+      "note": null
+    },
+    "context_dependency": "high",
+    "missing_context": [
+      "Identity of the woman facing execution",
+      "Backstory of Clarissa's rivalry with her"
+    ],
+    "curiosity_revealed": [
+      "Clarissa is vindictive and welcomes another woman's execution",
+      "The target woman married a nobody and helped peasants"
+    ],
+    "curiosity_withheld": [
+      "The identity of the condemned woman",
+      "The true nature of the accusations against her"
+    ],
+    "curiosity_balance": "too_little",
+    "appeal": "Watch a cold villainess gloat over her rival's death sentence.",
+    "supporting_block_ids": [
+      "EP037_B074",
+      "EP037_B076",
+      "EP037_B065",
+      "EP037_B067",
+      "EP037_B078"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "CONTEXT_DEPENDENT",
+      "severity": "major",
+      "explanation": "A stranger has no context for who the condemned woman is, making it difficult to feel invested in her fate.",
+      "block_ids": [
+        "EP037_B067",
+        "EP037_B071",
+        "EP037_B074"
+      ],
+      "source": "judge"
+    },
+    {
+      "code": "LOW_TENSION",
+      "severity": "major",
+      "explanation": "The clip features only static conversation and gloating without any active conflict or rising danger.",
+      "block_ids": [
+        "EP037_B067",
+        "EP037_B074",
+        "EP037_B076"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A noblewoman named Clarissa and a nobleman calmly discuss the impending execution of another woman whom Clarissa despises. Clarissa gloats over the woman's downfall and drinks wine while celebrating her upcoming punishment.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who is the woman facing execution, and what specific accusation or past event led to this situation?\",\n      \"block_ids\": [\"K02\", \"K04\", \"K08\", \"K11\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"The question about an impending execution creates mild initial intrigue, though it lacks immediate visual or visceral punch.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 2,\n    \"escalation_beats\": [\"K11\", \"K13\"],\n    \"reason\": \"The scene consists entirely of villains gloating in a parlor without active conflict, external pressure, or a rising threat against them.\",\n    \"evidence\": [\"K11\", \"K13\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K15\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Whose execution is detailed in the execution clause, and will she survive?\",\n    \"score\": 3,\n    \"reason\": \"The final shot focuses on the execution clause document, leaving a forward-looking question about the victim, but it is a static graphic shot rather than a high-stakes dramatic cliffhanger.\",\n    \"evidence\": [\"K15\"]\n  },\n  \"context_independence\": {\n    \"score\": 2,\n    \"reason\": \"The viewer has no idea who 'she' is, why Clarissa hates her so bitterly, or what the county conflict is about without prior episodes.\",\n    \"evidence\": [\"K04\", \"K08\", \"K11\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Clarissa is vindictive and welcomes another woman's execution\",\n      \"The target woman married a nobody and helped peasants\"\n    ],\n    \"withheld\": [\n      \"The identity of the condemned woman\",\n      \"The true nature of the accusations against her\"\n    ],\n    \"balance\": \"too_little\",\n    \"score\": 2,\n    \"reason\": \"Without knowing who the victim is or why we should care about her, the villains' gloating feels disconnected and lacks narrative stakes.\",\n    \"evidence\": [\"K04\", \"K11\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"disgust\",\n    \"score\": 2,\n    \"reason\": \"Clarissa's cold cruelty elicits a mild sense of injustice, but since the target is entirely abstract, the emotional weight is low.\",\n    \"evidence\": [\"K11\", \"K13\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"low\",\n      \"evidence\": [\"K11\", \"K13\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K11\", \"K13\"]\n    },\n    \"stakes\": {\n      \"summary\": \"An anonymous woman faces execution while her ruthless rival celebrates.\",\n      \"evidence\": [\"K04\", \"K13\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"high\",\n      \"missing_context\": [\n        \"Identity of the woman facing execution\",\n        \"Backstory of Clarissa's rivalry with her\"\n      ]\n    },\n    \"appeal\": \"Watch a cold villainess gloat over her rival's death sentence.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"CONTEXT_DEPENDENT\",\n      \"severity\": \"major\",\n      \"explanation\": \"A stranger has no context for who the condemned woman is, making it difficult to feel invested in her fate.\",\n      \"block_ids\": [\"K04\", \"K08\", \"K11\"]\n    },\n    {\n      \"code\": \"LOW_TENSION\",\n      \"severity\": \"major\",\n      \"explanation\": \"The clip features only static conversation and gloating without any active conflict or rising danger.\",\n      \"block_ids\": [\"K04\", \"K11\", \"K13\"]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "b04b9e768cd094648f658e569a0f58e1965d013d9013fd735c31b430ff46d7d2",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3789,
+      "prompt_tokens": 2581,
+      "completion_tokens": 1123,
+      "total_tokens": 3704,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:05:06.347090+00:00"
+}

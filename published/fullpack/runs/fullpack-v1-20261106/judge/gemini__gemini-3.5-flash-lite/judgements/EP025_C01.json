@@ -1,0 +1,295 @@
+{
+  "candidate_id": "EP025_C01",
+  "episode_id": "EP025",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "5864523f7fc7fd478219f056c8e3230306863154dfdd6dc026db6e8437bee2a8",
+  "clip_start_ms": 18800,
+  "clip_end_ms": 62500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP025_B014",
+    "EP025_B015"
+  ],
+  "eligible_beat_ids": [
+    "EP025_B035",
+    "EP025_B036",
+    "EP025_B037",
+    "EP025_B038",
+    "EP025_B039"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "A close-up of a fresh, bloody laceration immediately establishes physical abuse and creates instant curiosity about who inflicted it.",
+      "evidence": [
+        "EP025_B015",
+        "EP025_B014"
+      ],
+      "issues": [],
+      "block_id": "EP025_B015",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension builds steadily through a series of sharp interrogations as Alexander pushes for deeper secrets, culminating in a major revelation.",
+      "evidence": [
+        "EP025_B017",
+        "EP025_B024",
+        "EP025_B032",
+        "EP025_B037",
+        "EP025_B038"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP025_B017",
+        "EP025_B024",
+        "EP025_B032",
+        "EP025_B037"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "Alexander's face freezing in shock at the mention of the Dowager Duchess leaves a strong hook for what this name means for them.",
+      "evidence": [
+        "EP025_B038",
+        "EP025_B039"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP025_B038",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "Why is helping the Dowager Duchess such a shocking and dangerous secret to Alexander?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The immediate dynamic of interrogation and injury is clear, but the identity of the figures and the significance of Ashburg Manor require prior knowledge.",
+      "evidence": [
+        "EP025_B024",
+        "EP025_B032",
+        "EP025_B037"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A man named Alexander discovers a bloody wound on a woman named Juliana's shoulder and demands to know who caused it. After questioning her, he learns she was secretly inside Ashburg Manor helping the Dowager Duchess, leaving him completely stunned.",
+      "confusions": [
+        {
+          "issue": "Who Lady Catherine and the Dowager Duchess are and why Juliana was sneaking into Ashburg Manor.",
+          "block_ids": [
+            "EP025_B024",
+            "EP025_B032",
+            "EP025_B037"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It answers the immediate question of who hurt her while introducing a much bigger mystery regarding the Dowager Duchess.",
+      "evidence": [
+        "EP025_B024",
+        "EP025_B037",
+        "EP025_B038"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana was whipped by Lady Catherine.",
+        "Juliana was secretly inside Ashburg Manor to help the Dowager Duchess."
+      ],
+      "withheld": [
+        "Why helping the Dowager Duchess caused such a stunned reaction.",
+        "What consequences will follow."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Alexander's volatile fury and protective questioning create a strong sense of impending retaliation and shared danger.",
+      "evidence": [
+        "EP025_B016",
+        "EP025_B020",
+        "EP025_B032",
+        "EP025_B038"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion and protective fury",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "mystery_revelation",
+      "evidence": [
+        "EP025_B024",
+        "EP025_B037",
+        "EP025_B038"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "visual_event",
+      "evidence": [
+        "EP025_B015"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP025_B015",
+        "EP025_B017"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Uncovering secret trespasses inside a dangerous manor that result in brutal physical punishment.",
+      "evidence": [
+        "EP025_B015",
+        "EP025_B028",
+        "EP025_B037"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP025_B038"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Relationship between Alexander and Juliana",
+      "Significance of Ashburg Manor and the Dowager Duchess"
+    ],
+    "curiosity_revealed": [
+      "Juliana was whipped by Lady Catherine.",
+      "Juliana was secretly inside Ashburg Manor to help the Dowager Duchess."
+    ],
+    "curiosity_withheld": [
+      "Why helping the Dowager Duchess caused such a stunned reaction.",
+      "What consequences will follow."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A brutal wound uncovers a forbidden secret inside a dangerous manor.",
+    "supporting_block_ids": [
+      "EP025_B024",
+      "EP025_B037",
+      "EP025_B038",
+      "EP025_B015",
+      "EP025_B017",
+      "EP025_B028"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A man named Alexander discovers a bloody wound on a woman named Juliana's shoulder and demands to know who caused it. After questioning her, he learns she was secretly inside Ashburg Manor helping the Dowager Duchess, leaving him completely stunned.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Lady Catherine and the Dowager Duchess are and why Juliana was sneaking into Ashburg Manor.\",\n      \"block_ids\": [\"K11\", \"K19\", \"K24\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"A close-up of a fresh, bloody laceration immediately establishes physical abuse and creates instant curiosity about who inflicted it.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K04\", \"K11\", \"K19\", \"K24\"],\n    \"reason\": \"Tension builds steadily through a series of sharp interrogations as Alexander pushes for deeper secrets, culminating in a major revelation.\",\n    \"evidence\": [\"K04\", \"K11\", \"K19\", \"K24\", \"K25\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K25\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Why is helping the Dowager Duchess such a shocking and dangerous secret to Alexander?\",\n    \"score\": 4,\n    \"reason\": \"Alexander's face freezing in shock at the mention of the Dowager Duchess leaves a strong hook for what this name means for them.\",\n    \"evidence\": [\"K25\", \"K26\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The immediate dynamic of interrogation and injury is clear, but the identity of the figures and the significance of Ashburg Manor require prior knowledge.\",\n    \"evidence\": [\"K11\", \"K19\", \"K24\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana was whipped by Lady Catherine.\",\n      \"Juliana was secretly inside Ashburg Manor to help the Dowager Duchess.\"\n    ],\n    \"withheld\": [\n      \"Why helping the Dowager Duchess caused such a stunned reaction.\",\n      \"What consequences will follow.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It answers the immediate question of who hurt her while introducing a much bigger mystery regarding the Dowager Duchess.\",\n    \"evidence\": [\"K11\", \"K24\", \"K25\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion and protective fury\",\n    \"score\": 4,\n    \"reason\": \"Alexander's volatile fury and protective questioning create a strong sense of impending retaliation and shared danger.\",\n    \"evidence\": [\"K03\", \"K07\", \"K19\", \"K25\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"mystery_revelation\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K11\", \"K24\", \"K25\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"visual_event\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K02\", \"K04\"]\n    },\n    \"stakes\": {\n      \"summary\": \"Uncovering secret trespasses inside a dangerous manor that result in brutal physical punishment.\",\n      \"evidence\": [\"K02\", \"K14\", \"K24\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Relationship between Alexander and Juliana\",\n        \"Significance of Ashburg Manor and the Dowager Duchess\"\n      ]\n    },\n    \"appeal\": \"A brutal wound uncovers a forbidden secret inside a dangerous manor.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "faecc1a57f51869da091c7aafe55524ecd98efa49a28f04246396903c8a4c146",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3619,
+      "prompt_tokens": 2896,
+      "completion_tokens": 1014,
+      "total_tokens": 3910,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:58:50.785791+00:00"
+}

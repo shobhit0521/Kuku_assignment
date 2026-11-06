@@ -1,0 +1,296 @@
+{
+  "candidate_id": "EP032_C04",
+  "episode_id": "EP032",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "0450d3829bc9aef2da304c9094a605e12066845e3da142af7f5a92f6722a9be4",
+  "clip_start_ms": 92800,
+  "clip_end_ms": 125200,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP032_B071",
+    "EP032_B072"
+  ],
+  "eligible_beat_ids": [
+    "EP032_B088",
+    "EP032_B089",
+    "EP032_B090",
+    "EP032_B091",
+    "EP032_B093",
+    "EP032_B092",
+    "EP032_B094",
+    "EP032_B095",
+    "EP032_B096"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Juliana delivers a cold, knowing statement about elite values while sitting in chains, immediately establishing a dynamic of psychological superiority.",
+      "evidence": [
+        "EP032_B072",
+        "EP032_B071"
+      ],
+      "issues": [],
+      "block_id": "EP032_B072",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension steadily builds through Juliana's escalating psychological jabs until Catherine snaps into physical violence and hysteria, culminating in the hot branding poker dropping toward the floor.",
+      "evidence": [
+        "EP032_B074",
+        "EP032_B079",
+        "EP032_B084",
+        "EP032_B089",
+        "EP032_B091",
+        "EP032_B096"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP032_B074",
+        "EP032_B079",
+        "EP032_B084",
+        "EP032_B089",
+        "EP032_B091",
+        "EP032_B096"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip cuts away right as the steaming, red-hot branding tip trails across the floor during Catherine's violent outburst, leaving Juliana's immediate physical safety in question.",
+      "evidence": [
+        "EP032_B096",
+        "EP032_B090",
+        "EP032_B091"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP032_B096",
+      "mechanism": "imminent_danger",
+      "outcome": "unresolved",
+      "open_question": "Will Catherine use the red-hot branding poker on Juliana?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 5,
+      "valid": true,
+      "reason": "The power dynamic, setting, characters' visual contrast, and conflict are entirely self-evident. No prior backstory is needed to understand that a captive is mentally breaking her wealthy tormentor.",
+      "evidence": [
+        "EP032_B071",
+        "EP032_B078",
+        "EP032_B085",
+        "EP032_B090"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A chained woman named Juliana calmly dismantles and insults a richly dressed woman named Catherine in a dungeon cell, accusing her of lacking genuine love despite her status. Catherine snaps under the psychological attack, screaming in rage and raising a branding poker as Juliana defiantly talks back.",
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip delivers a satisfying, intense psychological exchange while cutting off right before the physical violence reaches its peak, making viewers eager to see how Juliana survives.",
+      "evidence": [
+        "EP032_B071",
+        "EP032_B089",
+        "EP032_B096"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is imprisoned and chains do not break her spirit",
+        "Catherine relies on status and superficial wealth",
+        "Juliana possesses deep psychological leverage over Catherine"
+      ],
+      "withheld": [
+        "Why Juliana is imprisoned",
+        "What happens immediately after the branding poker is raised",
+        "The ultimate outcome of this confrontation"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 4,
+      "valid": true,
+      "reason": "Viewers feel a strong sense of triumphant satisfaction watching the captive outwit and rattle her arrogant captor, driving the captor to desperate rage.",
+      "evidence": [
+        "EP032_B072",
+        "EP032_B089",
+        "EP032_B091",
+        "EP032_B095"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "triumph and outrage",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "confrontation_power_shift",
+      "evidence": [
+        "EP032_B072",
+        "EP032_B089",
+        "EP032_B091"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP032_B072"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "triumph",
+      "evidence": [
+        "EP032_B089",
+        "EP032_B095"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A captive woman uses psychological warfare to break the ego of her wealthy tormentor, risking physical torture in the process.",
+      "evidence": [
+        "EP032_B071",
+        "EP032_B089",
+        "EP032_B096"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "imminent_danger",
+      "evidence": [
+        "EP032_B096"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [],
+    "curiosity_revealed": [
+      "Juliana is imprisoned and chains do not break her spirit",
+      "Catherine relies on status and superficial wealth",
+      "Juliana possesses deep psychological leverage over Catherine"
+    ],
+    "curiosity_withheld": [
+      "Why Juliana is imprisoned",
+      "What happens immediately after the branding poker is raised",
+      "The ultimate outcome of this confrontation"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A captive prisoner completely destroys her wealthy tormentor's ego with cold hard truths, driving her to violent rage.",
+    "supporting_block_ids": [
+      "EP032_B072",
+      "EP032_B089",
+      "EP032_B091",
+      "EP032_B095",
+      "EP032_B071",
+      "EP032_B096"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A chained woman named Juliana calmly dismantles and insults a richly dressed woman named Catherine in a dungeon cell, accusing her of lacking genuine love despite her status. Catherine snaps under the psychological attack, screaming in rage and raising a branding poker as Juliana defiantly talks back.\",\n  \"confusions\": [],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Juliana delivers a cold, knowing statement about elite values while sitting in chains, immediately establishing a dynamic of psychological superiority.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\n      \"K04\",\n      \"K09\",\n      \"K14\",\n      \"K19\",\n      \"K21\",\n      \"K26\"\n    ],\n    \"reason\": \"Tension steadily builds through Juliana's escalating psychological jabs until Catherine snaps into physical violence and hysteria, culminating in the hot branding poker dropping toward the floor.\",\n    \"evidence\": [\n      \"K04\",\n      \"K09\",\n      \"K14\",\n      \"K19\",\n      \"K21\",\n      \"K26\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K26\",\n    \"mechanism\": \"imminent_danger\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Catherine use the red-hot branding poker on Juliana?\",\n    \"score\": 4,\n    \"reason\": \"The clip cuts away right as the steaming, red-hot branding tip trails across the floor during Catherine's violent outburst, leaving Juliana's immediate physical safety in question.\",\n    \"evidence\": [\n      \"K20\",\n      \"K21\",\n      \"K26\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 5,\n    \"reason\": \"The power dynamic, setting, characters' visual contrast, and conflict are entirely self-evident. No prior backstory is needed to understand that a captive is mentally breaking her wealthy tormentor.\",\n    \"evidence\": [\n      \"K01\",\n      \"K08\",\n      \"K15\",\n      \"K20\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is imprisoned and chains do not break her spirit\",\n      \"Catherine relies on status and superficial wealth\",\n      \"Juliana possesses deep psychological leverage over Catherine\"\n    ],\n    \"withheld\": [\n      \"Why Juliana is imprisoned\",\n      \"What happens immediately after the branding poker is raised\",\n      \"The ultimate outcome of this confrontation\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"The clip delivers a satisfying, intense psychological exchange while cutting off right before the physical violence reaches its peak, making viewers eager to see how Juliana survives.\",\n    \"evidence\": [\n      \"K01\",\n      \"K19\",\n      \"K26\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"triumph and outrage\",\n    \"score\": 4,\n    \"reason\": \"Viewers feel a strong sense of triumphant satisfaction watching the captive outwit and rattle her arrogant captor, driving the captor to desperate rage.\",\n    \"evidence\": [\n      \"K02\",\n      \"K19\",\n      \"K21\",\n      \"K25\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"confrontation_power_shift\",\n      \"other_label\": null,\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K02\",\n        \"K19\",\n        \"K21\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"triumph\",\n      \"evidence\": [\n        \"K19\",\n        \"K25\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A captive woman uses psychological warfare to break the ego of her wealthy tormentor, risking physical torture in the process.\",\n      \"evidence\": [\n        \"K01\",\n        \"K19\",\n        \"K26\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": []\n    },\n    \"appeal\": \"A captive prisoner completely destroys her wealthy tormentor's ego with cold hard truths, driving her to violent rage.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "45fdac51894cff1d09d6a3a21888ef5f757cd4735a7d96af5b40e140b1152006",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3863,
+      "prompt_tokens": 2928,
+      "completion_tokens": 1154,
+      "total_tokens": 4082,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:02:39.284002+00:00"
+}

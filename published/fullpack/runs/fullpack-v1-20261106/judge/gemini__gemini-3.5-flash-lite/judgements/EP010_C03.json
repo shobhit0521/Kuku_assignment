@@ -1,0 +1,292 @@
+{
+  "candidate_id": "EP010_C03",
+  "episode_id": "EP010",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "21bbc2d3bd493ddb4b1974dac5a49c27cc89e831c46b6654b8edf8244f6d77a1",
+  "clip_start_ms": 63900,
+  "clip_end_ms": 94000,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP010_B048",
+    "EP010_B049",
+    "EP010_B050"
+  ],
+  "eligible_beat_ids": [
+    "EP010_B058",
+    "EP010_B060"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's softly spoken question establishes an immediate intimate dynamic, though it lacks high-stakes conflict.",
+      "evidence": [
+        "EP010_B048"
+      ],
+      "issues": [],
+      "block_id": "EP010_B048",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 2,
+      "valid": true,
+      "reason": "The emotional and physical closeness steadily escalates from casual tending to an intimate romantic confession, but without external conflict or high stakes.",
+      "evidence": [
+        "EP010_B054",
+        "EP010_B056",
+        "EP010_B059"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP010_B054",
+        "EP010_B056",
+        "EP010_B059"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 2,
+      "valid": true,
+      "reason": "It captures a tender, lingering reaction shot that leaves the romantic moment open-ended, though it lacks a high-stakes narrative question.",
+      "evidence": [
+        "EP010_B060"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP010_B060",
+      "mechanism": "reaction_hold",
+      "outcome": "unresolved",
+      "open_question": "How will Juliana respond to Alexander's intense romantic confession?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "The core romantic dynamic and immediate interaction between the two characters are clear, even if the backstory of his injury is unknown.",
+      "evidence": [
+        "EP010_B048",
+        "EP010_B050",
+        "EP010_B059"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A woman named Juliana applies salve to a man named Alexander in a woodland cottage at night, and an intense, romantic tension builds between them as he confesses that her touch eases his pain. The clip ends with Juliana looking captivated and overwhelmed by his confession.",
+      "confusions": [
+        {
+          "issue": "The nature of Alexander's pain and why Juliana is treating him with salve is not explained.",
+          "block_ids": [
+            "EP010_B051",
+            "EP010_B059"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 3,
+      "valid": true,
+      "reason": "It sets up a tender romantic moment and leaves the emotional follow-through for the viewer to discover.",
+      "evidence": [
+        "EP010_B059",
+        "EP010_B060"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander has deep feelings for Juliana and finds comfort in her touch.",
+        "Juliana is flustered and captivated by him."
+      ],
+      "withheld": [
+        "Whether they will act on their mutual attraction and how their relationship develops further."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The whispered dialogue and close-up direction successfully create a warm, intimate atmosphere, though it relies on standard romantic tropes.",
+      "evidence": [
+        "EP010_B056",
+        "EP010_B059"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "romantic longing and tenderness",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "romance_devotion",
+      "evidence": [
+        "EP010_B050",
+        "EP010_B056",
+        "EP010_B059"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": null,
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP010_B048"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "longing_romance",
+      "evidence": [
+        "EP010_B056",
+        "EP010_B059"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An intimate emotional and physical connection between two characters in a secluded cottage.",
+      "evidence": [
+        "EP010_B057",
+        "EP010_B059"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "reaction_hold",
+      "evidence": [
+        "EP010_B060"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Prior history between Alexander and Juliana"
+    ],
+    "curiosity_revealed": [
+      "Alexander has deep feelings for Juliana and finds comfort in her touch.",
+      "Juliana is flustered and captivated by him."
+    ],
+    "curiosity_withheld": [
+      "Whether they will act on their mutual attraction and how their relationship develops further."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Will these two give in to their undeniable romantic chemistry?",
+    "supporting_block_ids": [
+      "EP010_B050",
+      "EP010_B056",
+      "EP010_B059",
+      "EP010_B048",
+      "EP010_B057",
+      "EP010_B060"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "LOW_TENSION",
+      "severity": "minor",
+      "explanation": "The scene focuses purely on romantic escalation without dramatic conflict or high stakes.",
+      "block_ids": [
+        "EP010_B051",
+        "EP010_B057",
+        "EP010_B059"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A woman named Juliana applies salve to a man named Alexander in a woodland cottage at night, and an intense, romantic tension builds between them as he confesses that her touch eases his pain. The clip ends with Juliana looking captivated and overwhelmed by his confession.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The nature of Alexander's pain and why Juliana is treating him with salve is not explained.\",\n      \"block_ids\": [\"K05\", \"K13\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Juliana's softly spoken question establishes an immediate intimate dynamic, though it lacks high-stakes conflict.\",\n    \"evidence\": [\"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 2,\n    \"escalation_beats\": [\"K08\", \"K10\", \"K13\"],\n    \"reason\": \"The emotional and physical closeness steadily escalates from casual tending to an intimate romantic confession, but without external conflict or high stakes.\",\n    \"evidence\": [\"K08\", \"K10\", \"K13\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K14\",\n    \"mechanism\": \"reaction_hold\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"How will Juliana respond to Alexander's intense romantic confession?\",\n    \"score\": 2,\n    \"reason\": \"It captures a tender, lingering reaction shot that leaves the romantic moment open-ended, though it lacks a high-stakes narrative question.\",\n    \"evidence\": [\"K14\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"The core romantic dynamic and immediate interaction between the two characters are clear, even if the backstory of his injury is unknown.\",\n    \"evidence\": [\"K02\", \"K04\", \"K13\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Alexander has deep feelings for Juliana and finds comfort in her touch.\",\n      \"Juliana is flustered and captivated by him.\"\n    ],\n    \"withheld\": [\n      \"Whether they will act on their mutual attraction and how their relationship develops further.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 3,\n    \"reason\": \"It sets up a tender romantic moment and leaves the emotional follow-through for the viewer to discover.\",\n    \"evidence\": [\"K13\", \"K14\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"romantic longing and tenderness\",\n    \"score\": 3,\n    \"reason\": \"The whispered dialogue and close-up direction successfully create a warm, intimate atmosphere, though it relies on standard romantic tropes.\",\n    \"evidence\": [\"K10\", \"K13\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"romance_devotion\",\n      \"other_label\": null,\n      \"secondary\": null,\n      \"confidence\": \"high\",\n      \"evidence\": [\"K04\", \"K10\", \"K13\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"longing_romance\",\n      \"evidence\": [\"K10\", \"K13\"]\n    },\n    \"stakes\": {\n      \"summary\": \"An intimate emotional and physical connection between two characters in a secluded cottage.\",\n      \"evidence\": [\"K11\", \"K13\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Prior history between Alexander and Juliana\"\n      ]\n    },\n    \"appeal\": \"Will these two give in to their undeniable romantic chemistry?\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"LOW_TENSION\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The scene focuses purely on romantic escalation without dramatic conflict or high stakes.\",\n      \"block_ids\": [\"K05\", \"K11\", \"K13\"]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "56fb7d6bdc1a8a3c1d71af6b3d83a86a16f4d6f436a1b7fcb85e8518d8843df1",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3391,
+      "prompt_tokens": 2431,
+      "completion_tokens": 1004,
+      "total_tokens": 3435,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:01:53.669930+00:00"
+}

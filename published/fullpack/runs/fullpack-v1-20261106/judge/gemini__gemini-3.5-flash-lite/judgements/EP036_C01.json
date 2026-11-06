@@ -1,0 +1,296 @@
+{
+  "candidate_id": "EP036_C01",
+  "episode_id": "EP036",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "6a140bb4288adc3909999c08c12624fab8bc90de5e419d0943d5a53586824784",
+  "clip_start_ms": 99000,
+  "clip_end_ms": 138800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP036_B061",
+    "EP036_B062"
+  ],
+  "eligible_beat_ids": [
+    "EP036_B079",
+    "EP036_B080",
+    "EP036_B081",
+    "EP036_B082",
+    "EP036_B083",
+    "EP036_B084",
+    "EP036_B085"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Starting immediately with a wailing accusation that someone was arrested instantly grabs attention and sets a high-stakes dramatic tone.",
+      "evidence": [
+        "EP036_B062",
+        "EP036_B061"
+      ],
+      "issues": [],
+      "block_id": "EP036_B062",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 4,
+      "valid": true,
+      "reason": "Tension escalates rapidly through a series of increasingly devastating revelations: from false accusations of poisoning to a kangaroo court, and finally a death sentence.",
+      "evidence": [
+        "EP036_B066",
+        "EP036_B074",
+        "EP036_B082",
+        "EP036_B085"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP036_B066",
+        "EP036_B074",
+        "EP036_B082",
+        "EP036_B085"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip cuts on the shocking, definitive sentence of execution for an innocent woman, leaving an urgent and high-stakes question hanging.",
+      "evidence": [
+        "EP036_B085",
+        "EP036_B084"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP036_B085",
+      "mechanism": "revelation",
+      "outcome": "unresolved",
+      "open_question": "Will Alexander be able to reach and save Juliana before her execution?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 4,
+      "valid": true,
+      "reason": "While specific character backstories (Rupert, Catherine) are unknown, the core conflict—an innocent savior wrongfully condemned by villains—is universally easy to follow and care about.",
+      "evidence": [
+        "EP036_B066",
+        "EP036_B074",
+        "EP036_B085"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A distraught mother tells her son Alexander that a woman named Juliana, who saved the mother's life, has been falsely accused of poisoning her by Rupert and Catherine. Alexander reels in horror as his mother reveals that Juliana has been condemned to death.",
+      "confusions": [
+        {
+          "issue": "Who Rupert and Catherine are and why they have the authority to accuse or condemn Juliana is not explained.",
+          "block_ids": [
+            "EP036_B066"
+          ]
+        },
+        {
+          "issue": "The exact relationship between Alexander and Juliana is only implied as a wife later in the clip, with no prior context on how the situation escalated.",
+          "block_ids": [
+            "EP036_B076"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 5,
+      "valid": true,
+      "reason": "The clip provides a complete, devastating narrative arc while leaving the ultimate rescue and revenge completely open.",
+      "evidence": [
+        "EP036_B066",
+        "EP036_B085"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana saved Alexander's mother.",
+        "Rupert and Catherine framed Juliana for poisoning.",
+        "Juliana has been condemned to be executed."
+      ],
+      "withheld": [
+        "How Alexander will react and fight back against the execution.",
+        "Whether Alexander can prove Juliana's innocence in time."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 5,
+      "valid": true,
+      "reason": "The combination of grief-stricken wailing, betrayal by secondary characters, and a brutal death sentence for an innocent person creates strong feelings of injustice and outrage.",
+      "evidence": [
+        "EP036_B062",
+        "EP036_B066",
+        "EP036_B074",
+        "EP036_B085"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "outrage and horror",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "unclassified",
+      "evidence": [],
+      "note": "archetype 'injustice' is not in the taxonomy"
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "betrayal_humiliation",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "shocking_line",
+      "evidence": [
+        "EP036_B062"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "outrage_injustice",
+      "evidence": [
+        "EP036_B066",
+        "EP036_B074",
+        "EP036_B085"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An innocent woman who saved a life is wrongfully condemned to execution by treacherous conspirators, and her husband must rush to save her.",
+      "evidence": [
+        "EP036_B066",
+        "EP036_B076",
+        "EP036_B085"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "revelation",
+      "evidence": [
+        "EP036_B085"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "Identity of Rupert and Catherine"
+    ],
+    "curiosity_revealed": [
+      "Juliana saved Alexander's mother.",
+      "Rupert and Catherine framed Juliana for poisoning.",
+      "Juliana has been condemned to be executed."
+    ],
+    "curiosity_withheld": [
+      "How Alexander will react and fight back against the execution.",
+      "Whether Alexander can prove Juliana's innocence in time."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "An innocent life is on the line after a malicious framing. Can he save her in time?",
+    "supporting_block_ids": [
+      "EP036_B062",
+      "EP036_B066",
+      "EP036_B074",
+      "EP036_B085",
+      "EP036_B076"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A distraught mother tells her son Alexander that a woman named Juliana, who saved the mother's life, has been falsely accused of poisoning her by Rupert and Catherine. Alexander reels in horror as his mother reveals that Juliana has been condemned to death.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Rupert and Catherine are and why they have the authority to accuse or condemn Juliana is not explained.\",\n      \"block_ids\": [\"K06\"]\n    },\n    {\n      \"issue\": \"The exact relationship between Alexander and Juliana is only implied as a wife later in the clip, with no prior context on how the situation escalated.\",\n      \"block_ids\": [\"K16\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 4,\n    \"reason\": \"Starting immediately with a wailing accusation that someone was arrested instantly grabs attention and sets a high-stakes dramatic tone.\",\n    \"evidence\": [\"K01\", \"K02\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 4,\n    \"escalation_beats\": [\"K06\", \"K14\", \"K22\", \"K25\"],\n    \"reason\": \"Tension escalates rapidly through a series of increasingly devastating revelations: from false accusations of poisoning to a kangaroo court, and finally a death sentence.\",\n    \"evidence\": [\"K06\", \"K14\", \"K22\", \"K25\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K25\",\n    \"mechanism\": \"revelation\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Alexander be able to reach and save Juliana before her execution?\",\n    \"score\": 5,\n    \"reason\": \"The clip cuts on the shocking, definitive sentence of execution for an innocent woman, leaving an urgent and high-stakes question hanging.\",\n    \"evidence\": [\"K24\", \"K25\"]\n  },\n  \"context_independence\": {\n    \"score\": 4,\n    \"reason\": \"While specific character backstories (Rupert, Catherine) are unknown, the core conflict—an innocent savior wrongfully condemned by villains—is universally easy to follow and care about.\",\n    \"evidence\": [\"K06\", \"K14\", \"K25\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana saved Alexander's mother.\",\n      \"Rupert and Catherine framed Juliana for poisoning.\",\n      \"Juliana has been condemned to be executed.\"\n    ],\n    \"withheld\": [\n      \"How Alexander will react and fight back against the execution.\",\n      \"Whether Alexander can prove Juliana's innocence in time.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 5,\n    \"reason\": \"The clip provides a complete, devastating narrative arc while leaving the ultimate rescue and revenge completely open.\",\n    \"evidence\": [\"K06\", \"K25\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"outrage and horror\",\n    \"score\": 5,\n    \"reason\": \"The combination of grief-stricken wailing, betrayal by secondary characters, and a brutal death sentence for an innocent person creates strong feelings of injustice and outrage.\",\n    \"evidence\": [\"K02\", \"K06\", \"K14\", \"K25\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"injustice\",\n      \"other_label\": \"false accusation and impending execution\",\n      \"secondary\": \"betrayal_humiliation\",\n      \"confidence\": \"high\",\n      \"evidence\": [\"K06\", \"K14\", \"K25\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"shocking_line\",\n      \"evidence\": [\"K02\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"outrage_injustice\",\n      \"evidence\": [\"K06\", \"K14\", \"K25\"]\n    },\n    \"stakes\": {\n      \"summary\": \"An innocent woman who saved a life is wrongfully condemned to execution by treacherous conspirators, and her husband must rush to save her.\",\n      \"evidence\": [\"K06\", \"K16\", \"K25\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"Identity of Rupert and Catherine\"\n      ]\n    },\n    \"appeal\": \"An innocent life is on the line after a malicious framing. Can he save her in time?\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "696150db18eea551cd93cea8a0976283ccba09f37cdbd934688bf56b7b072efb",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4080,
+      "prompt_tokens": 2868,
+      "completion_tokens": 1084,
+      "total_tokens": 3952,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:04:21.134386+00:00"
+}

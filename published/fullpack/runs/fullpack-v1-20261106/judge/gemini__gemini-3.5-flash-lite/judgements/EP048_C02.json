@@ -1,0 +1,292 @@
+{
+  "candidate_id": "EP048_C02",
+  "episode_id": "EP048",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "0012b70a5d99",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "d567e54efe1650cc269e6cb6614801630d2ddb8790a736c74fb1bb90905a7274",
+  "clip_start_ms": 34200,
+  "clip_end_ms": 73400,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP048_B023"
+  ],
+  "eligible_beat_ids": [
+    "EP048_B035",
+    "EP048_B037",
+    "EP048_B038",
+    "EP048_B039",
+    "EP048_B040",
+    "EP048_B041"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Catherine opens by stating she was humiliated in the chapel, offering mild intrigue about a conflict, but lacks immediate visceral context.",
+      "evidence": [
+        "EP048_B023"
+      ],
+      "issues": [],
+      "block_id": "EP048_B023",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension rises through the logistical risks of smuggling the priest past the Duke's bailiffs, though the scene is mostly conversational scheming.",
+      "evidence": [
+        "EP048_B027",
+        "EP048_B034",
+        "EP048_B040"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP048_B027",
+        "EP048_B032",
+        "EP048_B040"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "The clip ends on a firm command to execute a dangerous, covert mission, leaving open whether they will be caught.",
+      "evidence": [
+        "EP048_B041",
+        "EP048_B040"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP048_B041",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "Will Agnes successfully smuggle the priest past the bailiffs without anyone noticing?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The dynamic between the mastermind mistress and her fearful servant is clear, but specific background details like the Duke, the chapel incident, and the hearing require prior context.",
+      "evidence": [
+        "EP048_B023",
+        "EP048_B027",
+        "EP048_B032"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A scheming noblewoman named Catherine plots to exploit a household's grief and manipulates her reluctant servant Agnes into secretly smuggling a corrupt priest to her. Despite a duke's bailiffs watching the roads, Catherine intends to re-enter the house and use the priest for her own malicious ends.",
+      "confusions": [
+        {
+          "issue": "The nature of Catherine's recent public humiliation in the chapel and what role Father Thomas played are completely unexplained.",
+          "block_ids": [
+            "EP048_B023",
+            "EP048_B031"
+          ]
+        },
+        {
+          "issue": "It is unclear what specific hearing is convening or what stakes are tied to it.",
+          "block_ids": [
+            "EP048_B032"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "The clip establishes a clear illicit plot while leaving the execution and ultimate conspiracy entirely unknown.",
+      "evidence": [
+        "EP048_B029",
+        "EP048_B032",
+        "EP048_B041"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Catherine's intention to sneak back into the house and use Father Thomas secretly."
+      ],
+      "withheld": [
+        "What Catherine plans to do with the priest and how Agnes will evade the Duke's bailiffs."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The atmosphere is tense and calculating, evoking a sense of watchful suspicion through Catherine's predatory scheming and Agnes's nervous compliance.",
+      "evidence": [
+        "EP048_B025",
+        "EP048_B027",
+        "EP048_B034"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "deception_secret_identity",
+      "evidence": [
+        "EP048_B025",
+        "EP048_B036",
+        "EP048_B041"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP048_B023"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP048_B025",
+        "EP048_B034"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A ruthless woman plotting a secret conspiracy right under her enemies' noses while avoiding capture by the Duke's bailiffs.",
+      "evidence": [
+        "EP048_B025",
+        "EP048_B027",
+        "EP048_B041"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP048_B041"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Prior events in the chapel",
+      "The nature of the upcoming hearing",
+      "The conflict with the Duke"
+    ],
+    "curiosity_revealed": [
+      "Catherine's intention to sneak back into the house and use Father Thomas secretly."
+    ],
+    "curiosity_withheld": [
+      "What Catherine plans to do with the priest and how Agnes will evade the Duke's bailiffs."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A cunning schemer plots a dangerous, covert operation right under her enemies' noses.",
+    "supporting_block_ids": [
+      "EP048_B025",
+      "EP048_B036",
+      "EP048_B041",
+      "EP048_B023",
+      "EP048_B034",
+      "EP048_B027"
+    ]
+  },
+  "soft_rejections": [],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A scheming noblewoman named Catherine plots to exploit a household's grief and manipulates her reluctant servant Agnes into secretly smuggling a corrupt priest to her. Despite a duke's bailiffs watching the roads, Catherine intends to re-enter the house and use the priest for her own malicious ends.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The nature of Catherine's recent public humiliation in the chapel and what role Father Thomas played are completely unexplained.\",\n      \"block_ids\": [\n        \"K03\",\n        \"K11\"\n      ]\n    },\n    {\n      \"issue\": \"It is unclear what specific hearing is convening or what stakes are tied to it.\",\n      \"block_ids\": [\n        \"K12\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 3,\n    \"reason\": \"Catherine opens by stating she was humiliated in the chapel, offering mild intrigue about a conflict, but lacks immediate visceral context.\",\n    \"evidence\": [\n      \"K03\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\n      \"K07\",\n      \"K12\",\n      \"K20\"\n    ],\n    \"reason\": \"Tension rises through the logistical risks of smuggling the priest past the Duke's bailiffs, though the scene is mostly conversational scheming.\",\n    \"evidence\": [\n      \"K07\",\n      \"K14\",\n      \"K20\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K21\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Agnes successfully smuggle the priest past the bailiffs without anyone noticing?\",\n    \"score\": 3,\n    \"reason\": \"The clip ends on a firm command to execute a dangerous, covert mission, leaving open whether they will be caught.\",\n    \"evidence\": [\n      \"K20\",\n      \"K21\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The dynamic between the mastermind mistress and her fearful servant is clear, but specific background details like the Duke, the chapel incident, and the hearing require prior context.\",\n    \"evidence\": [\n      \"K03\",\n      \"K07\",\n      \"K12\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Catherine's intention to sneak back into the house and use Father Thomas secretly.\"\n    ],\n    \"withheld\": [\n      \"What Catherine plans to do with the priest and how Agnes will evade the Duke's bailiffs.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"The clip establishes a clear illicit plot while leaving the execution and ultimate conspiracy entirely unknown.\",\n    \"evidence\": [\n      \"K09\",\n      \"K12\",\n      \"K21\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion\",\n    \"score\": 3,\n    \"reason\": \"The atmosphere is tense and calculating, evoking a sense of watchful suspicion through Catherine's predatory scheming and Agnes's nervous compliance.\",\n    \"evidence\": [\n      \"K05\",\n      \"K07\",\n      \"K14\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"deception_secret_identity\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K05\",\n        \"K16\",\n        \"K21\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\n        \"K03\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\n        \"K05\",\n        \"K14\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"A ruthless woman plotting a secret conspiracy right under her enemies' noses while avoiding capture by the Duke's bailiffs.\",\n      \"evidence\": [\n        \"K05\",\n        \"K07\",\n        \"K21\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"Prior events in the chapel\",\n        \"The nature of the upcoming hearing\",\n        \"The conflict with the Duke\"\n      ]\n    },\n    \"appeal\": \"A cunning schemer plots a dangerous, covert operation right under her enemies' noses.\"\n  },\n  \"soft_rejections\": []\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "b435daa1077f0b7d58b43db013075cf5d562eab8786c8870567d07684b92d2c0",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3989,
+      "prompt_tokens": 2788,
+      "completion_tokens": 1161,
+      "total_tokens": 3949,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:09:50.185819+00:00"
+}

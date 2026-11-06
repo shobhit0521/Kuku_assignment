@@ -1,0 +1,323 @@
+{
+  "candidate_id": "EP038_C01",
+  "episode_id": "EP038",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "d586dab690a4",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "8e32c1ab9e0ad6bdc08036ee0575df42620e31d34b45c23752d725bd308e7538",
+  "clip_start_ms": 16000,
+  "clip_end_ms": 50500,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP038_B011",
+    "EP038_B013",
+    "EP038_B012"
+  ],
+  "eligible_beat_ids": [
+    "EP038_B026",
+    "EP038_B027",
+    "EP038_B028",
+    "EP038_B030",
+    "EP038_B029",
+    "EP038_B031",
+    "EP038_B032"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's bewildered question opens the clip with mild intrigue about why she is crawling toward food, though it lacks high-stakes urgency.",
+      "evidence": [
+        "EP038_B011",
+        "EP038_B010"
+      ],
+      "issues": [],
+      "block_id": "EP038_B011",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 2,
+      "valid": true,
+      "reason": "Tension is very low, moving from a brief stealth moment with the guard into a prolonged sequence of weeping and monologuing about an absent person.",
+      "evidence": [
+        "EP038_B014",
+        "EP038_B020",
+        "EP038_B031"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP038_B013",
+        "EP038_B020",
+        "EP038_B031"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 2,
+      "valid": true,
+      "reason": "It leaves an emotional, heartbroken question open at the cut, but it functions more as an emotional button than a driving narrative suspense hook.",
+      "evidence": [
+        "EP038_B031",
+        "EP038_B032"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP038_B031",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "Will Juliana ever escape or see Alexander again before she dies in the dungeon?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "A viewer can easily understand she is a starving prisoner in a dungeon, but why she is there and who Alexander is remain completely unknown.",
+      "evidence": [
+        "EP038_B010",
+        "EP038_B023",
+        "EP038_B028"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A starving, imprisoned woman named Juliana receives a secret piece of bread from a compassionate guard in a dungeon. Alone and in despair, she weeps while eating and agonizes over whether a man named Alexander knows of her fate or will ever see her again.",
+      "confusions": [
+        {
+          "issue": "Who Alexander is and why Juliana is imprisoned and condemned.",
+          "block_ids": [
+            "EP038_B023",
+            "EP038_B025",
+            "EP038_B028"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 2,
+      "valid": true,
+      "reason": "The clip lingers too long on emotional processing and weeping rather than building an active plot mystery or driving conflict.",
+      "evidence": [
+        "EP038_B020",
+        "EP038_B022",
+        "EP038_B026"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Juliana is imprisoned and starving.",
+        "A guard secretly helps her.",
+        "She deeply misses someone named Alexander."
+      ],
+      "withheld": [
+        "Why she was condemned.",
+        "Who Alexander is and if he will rescue her."
+      ],
+      "balance": "too_little",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "Juliana's hunger and grief evoke sympathy, but the prolonged melodrama becomes somewhat repetitive.",
+      "evidence": [
+        "EP038_B019",
+        "EP038_B022",
+        "EP038_B031"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "Heartbreak and despair",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "vulnerability",
+      "evidence": [
+        "EP038_B010",
+        "EP038_B020",
+        "EP038_B025"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "romance_devotion",
+    "archetype_confidence": "medium",
+    "hook_mechanism": {
+      "value": "in_medias_res",
+      "evidence": [
+        "EP038_B010",
+        "EP038_B011"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP038_B018",
+        "EP038_B022",
+        "EP038_B031"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Juliana faces starvation and death alone in a damp dungeon cell after being wrongfully condemned.",
+      "evidence": [
+        "EP038_B020",
+        "EP038_B028",
+        "EP038_B030"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP038_B031"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "The reason for her condemnation",
+      "Her relationship to Alexander"
+    ],
+    "curiosity_revealed": [
+      "Juliana is imprisoned and starving.",
+      "A guard secretly helps her.",
+      "She deeply misses someone named Alexander."
+    ],
+    "curiosity_withheld": [
+      "Why she was condemned.",
+      "Who Alexander is and if he will rescue her."
+    ],
+    "curiosity_balance": "too_little",
+    "appeal": "Witness a wrongfully imprisoned woman's desperate struggle for survival and her heartbreaking devotion to a lost love.",
+    "supporting_block_ids": [
+      "EP038_B010",
+      "EP038_B020",
+      "EP038_B025",
+      "EP038_B011",
+      "EP038_B018",
+      "EP038_B022",
+      "EP038_B031",
+      "EP038_B028",
+      "EP038_B030"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "LOW_TENSION",
+      "severity": "major",
+      "explanation": "After the guard leaves, the clip stalls into a static sequence of weeping and talking to herself, lacking active plot escalation.",
+      "block_ids": [
+        "EP038_B017",
+        "EP038_B021",
+        "EP038_B026"
+      ],
+      "source": "judge"
+    },
+    {
+      "code": "WEAK_CLIFFHANGER",
+      "severity": "minor",
+      "explanation": "The final beat is an emotional lament rather than a sharp narrative cliffhanger, offering little forward momentum.",
+      "block_ids": [
+        "EP038_B031",
+        "EP038_B032"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A starving, imprisoned woman named Juliana receives a secret piece of bread from a compassionate guard in a dungeon. Alone and in despair, she weeps while eating and agonizes over whether a man named Alexander knows of her fate or will ever see her again.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who Alexander is and why Juliana is imprisoned and condemned.\",\n      \"block_ids\": [\n        \"K14\",\n        \"K16\",\n        \"K19\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"Juliana's bewildered question opens the clip with mild intrigue about why she is crawling toward food, though it lacks high-stakes urgency.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 2,\n    \"escalation_beats\": [\n      \"K03\",\n      \"K11\",\n      \"K22\"\n    ],\n    \"reason\": \"Tension is very low, moving from a brief stealth moment with the guard into a prolonged sequence of weeping and monologuing about an absent person.\",\n    \"evidence\": [\n      \"K05\",\n      \"K11\",\n      \"K22\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K22\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"Will Juliana ever escape or see Alexander again before she dies in the dungeon?\",\n    \"score\": 2,\n    \"reason\": \"It leaves an emotional, heartbroken question open at the cut, but it functions more as an emotional button than a driving narrative suspense hook.\",\n    \"evidence\": [\n      \"K22\",\n      \"K23\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"A viewer can easily understand she is a starving prisoner in a dungeon, but why she is there and who Alexander is remain completely unknown.\",\n    \"evidence\": [\n      \"K01\",\n      \"K14\",\n      \"K19\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Juliana is imprisoned and starving.\",\n      \"A guard secretly helps her.\",\n      \"She deeply misses someone named Alexander.\"\n    ],\n    \"withheld\": [\n      \"Why she was condemned.\",\n      \"Who Alexander is and if he will rescue her.\"\n    ],\n    \"balance\": \"too_little\",\n    \"score\": 2,\n    \"reason\": \"The clip lingers too long on emotional processing and weeping rather than building an active plot mystery or driving conflict.\",\n    \"evidence\": [\n      \"K11\",\n      \"K13\",\n      \"K17\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"Heartbreak and despair\",\n    \"score\": 3,\n    \"reason\": \"Juliana's hunger and grief evoke sympathy, but the prolonged melodrama becomes somewhat repetitive.\",\n    \"evidence\": [\n      \"K10\",\n      \"K13\",\n      \"K22\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"vulnerability\",\n      \"other_label\": null,\n      \"secondary\": \"romance_devotion\",\n      \"confidence\": \"medium\",\n      \"evidence\": [\n        \"K01\",\n        \"K11\",\n        \"K16\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"in_medias_res\",\n      \"evidence\": [\n        \"K01\",\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\n        \"K09\",\n        \"K13\",\n        \"K22\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"Juliana faces starvation and death alone in a damp dungeon cell after being wrongfully condemned.\",\n      \"evidence\": [\n        \"K11\",\n        \"K19\",\n        \"K20\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"The reason for her condemnation\",\n        \"Her relationship to Alexander\"\n      ]\n    },\n    \"appeal\": \"Witness a wrongfully imprisoned woman's desperate struggle for survival and her heartbreaking devotion to a lost love.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"LOW_TENSION\",\n      \"severity\": \"major\",\n      \"explanation\": \"After the guard leaves, the clip stalls into a static sequence of weeping and talking to herself, lacking active plot escalation.\",\n      \"block_ids\": [\n        \"K08\",\n        \"K12\",\n        \"K17\"\n      ]\n    },\n    {\n      \"code\": \"WEAK_CLIFFHANGER\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The final beat is an emotional lament rather than a sharp narrative cliffhanger, offering little forward momentum.\",\n      \"block_ids\": [\n        \"K22\",\n        \"K23\"\n      ]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "72269b60978b80e36a319531c142237d68813fea6b4119793c4a63ce68bf0c6a",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 4094,
+      "prompt_tokens": 2863,
+      "completion_tokens": 1289,
+      "total_tokens": 4152,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:05:36.282882+00:00"
+}

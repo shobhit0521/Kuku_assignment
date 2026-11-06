@@ -1,0 +1,300 @@
+{
+  "candidate_id": "EP008_C01",
+  "episode_id": "EP008",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "811d7048a6e7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "8298ccfdce2e5615c51b625234fa34b7f4d4e8e8b98ad00f59dc2a74bbe99b24",
+  "clip_start_ms": 28100,
+  "clip_end_ms": 64200,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP008_B025",
+    "EP008_B026"
+  ],
+  "eligible_beat_ids": [
+    "EP008_B047",
+    "EP008_B046",
+    "EP008_B048",
+    "EP008_B049",
+    "EP008_B050",
+    "EP008_B051",
+    "EP008_B052",
+    "EP008_B053"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 2,
+      "valid": true,
+      "reason": "The opening is a quiet, domestic character moment with no immediate hook or tension to grab a scrolling stranger.",
+      "evidence": [
+        "EP008_B026",
+        "EP008_B025"
+      ],
+      "issues": [],
+      "block_id": "EP008_B026",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 1,
+      "valid": true,
+      "reason": "The clip consists of calm, affectionate domestic banter and herb lore with virtually no conflict or rising tension.",
+      "evidence": [
+        "EP008_B045",
+        "EP008_B047"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 2,
+      "valid": true,
+      "reason": "The final line is a quiet, understated answer rather than a suspenseful cliffhanger, failing to leave a burning question.",
+      "evidence": [
+        "EP008_B053",
+        "EP008_B052"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP008_B053",
+      "mechanism": "unanswered_question",
+      "outcome": "partly_resolved",
+      "open_question": "What caused the rest of Alexander's scars if not the war?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The scene is a straightforward domestic interaction, though the backstory of the characters remains unknown.",
+      "evidence": [
+        "EP008_B051",
+        "EP008_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A man and a woman share a quiet, domestic moment in a woodland cottage, discussing herbs and past scars. When she asks if his scars are from the war, he quietly admits that some are.",
+      "confusions": [
+        {
+          "issue": "The relationship between Alexander and Juliana and their past is entirely unexplained.",
+          "block_ids": [
+            "EP008_B025",
+            "EP008_B051"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 2,
+      "valid": true,
+      "reason": "The clip is too low-key and cozy to generate a strong curiosity gap for a dramatic short-form platform.",
+      "evidence": [
+        "EP008_B052",
+        "EP008_B053"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Alexander has scars from the war and elsewhere."
+      ],
+      "withheld": [
+        "The full history of Alexander's scars and his background."
+      ],
+      "balance": "too_little",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 2,
+      "valid": true,
+      "reason": "It evokes a mild sense of warmth and tenderness, but lacks the dramatic punch needed for high emotional impact.",
+      "evidence": [
+        "EP008_B034",
+        "EP008_B050"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "tender",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "romance_devotion",
+      "evidence": [
+        "EP008_B026",
+        "EP008_B042"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": null,
+    "archetype_confidence": "medium",
+    "hook_mechanism": {
+      "value": "other",
+      "evidence": [
+        "EP008_B026"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "longing_romance",
+      "evidence": [
+        "EP008_B034",
+        "EP008_B050"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "Maintaining a gentle, peaceful dynamic in a secluded woodland setting despite past trauma.",
+      "evidence": [
+        "EP008_B051",
+        "EP008_B053"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP008_B053"
+      ],
+      "note": null
+    },
+    "context_dependency": "low",
+    "missing_context": [
+      "How they came to live in the cottage",
+      "Alexander's full past"
+    ],
+    "curiosity_revealed": [
+      "Alexander has scars from the war and elsewhere."
+    ],
+    "curiosity_withheld": [
+      "The full history of Alexander's scars and his background."
+    ],
+    "curiosity_balance": "too_little",
+    "appeal": "A tender, quiet moment between two people finding solace together in a woodland cottage.",
+    "supporting_block_ids": [
+      "EP008_B026",
+      "EP008_B042",
+      "EP008_B034",
+      "EP008_B050",
+      "EP008_B051",
+      "EP008_B053"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "LOW_TENSION",
+      "severity": "major",
+      "explanation": "The clip features zero conflict or escalation, remaining a flat, cozy domestic scene throughout.",
+      "block_ids": [
+        "EP008_B045",
+        "EP008_B048"
+      ],
+      "source": "judge"
+    },
+    {
+      "code": "WEAK_HOOK",
+      "severity": "major",
+      "explanation": "Starting with a mundane hair-trimming gesture fails to stop a user from scrolling.",
+      "block_ids": [
+        "EP008_B025",
+        "EP008_B026"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A man and a woman share a quiet, domestic moment in a woodland cottage, discussing herbs and past scars. When she asks if his scars are from the war, he quietly admits that some are.\",\n  \"confusions\": [\n    {\n      \"issue\": \"The relationship between Alexander and Juliana and their past is entirely unexplained.\",\n      \"block_ids\": [\n        \"K01\",\n        \"K27\"\n      ]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 2,\n    \"reason\": \"The opening is a quiet, domestic character moment with no immediate hook or tension to grab a scrolling stranger.\",\n    \"evidence\": [\n      \"K01\",\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 1,\n    \"escalation_beats\": [],\n    \"reason\": \"The clip consists of calm, affectionate domestic banter and herb lore with virtually no conflict or rising tension.\",\n    \"evidence\": [\n      \"K21\",\n      \"K22\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K29\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"partly_resolved\",\n    \"open_question\": \"What caused the rest of Alexander's scars if not the war?\",\n    \"score\": 2,\n    \"reason\": \"The final line is a quiet, understated answer rather than a suspenseful cliffhanger, failing to leave a burning question.\",\n    \"evidence\": [\n      \"K28\",\n      \"K29\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The scene is a straightforward domestic interaction, though the backstory of the characters remains unknown.\",\n    \"evidence\": [\n      \"K27\",\n      \"K29\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Alexander has scars from the war and elsewhere.\"\n    ],\n    \"withheld\": [\n      \"The full history of Alexander's scars and his background.\"\n    ],\n    \"balance\": \"too_little\",\n    \"score\": 2,\n    \"reason\": \"The clip is too low-key and cozy to generate a strong curiosity gap for a dramatic short-form platform.\",\n    \"evidence\": [\n      \"K28\",\n      \"K29\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"tender\",\n    \"score\": 2,\n    \"reason\": \"It evokes a mild sense of warmth and tenderness, but lacks the dramatic punch needed for high emotional impact.\",\n    \"evidence\": [\n      \"K10\",\n      \"K26\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"romance_devotion\",\n      \"other_label\": null,\n      \"secondary\": null,\n      \"confidence\": \"medium\",\n      \"evidence\": [\n        \"K02\",\n        \"K18\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"other\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"longing_romance\",\n      \"evidence\": [\n        \"K10\",\n        \"K26\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"Maintaining a gentle, peaceful dynamic in a secluded woodland setting despite past trauma.\",\n      \"evidence\": [\n        \"K27\",\n        \"K29\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"low\",\n      \"missing_context\": [\n        \"How they came to live in the cottage\",\n        \"Alexander's full past\"\n      ]\n    },\n    \"appeal\": \"A tender, quiet moment between two people finding solace together in a woodland cottage.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"LOW_TENSION\",\n      \"severity\": \"major\",\n      \"explanation\": \"The clip features zero conflict or escalation, remaining a flat, cozy domestic scene throughout.\",\n      \"block_ids\": [\n        \"K21\",\n        \"K24\"\n      ]\n    },\n    {\n      \"code\": \"WEAK_HOOK\",\n      \"severity\": \"major\",\n      \"explanation\": \"Starting with a mundane hair-trimming gesture fails to stop a user from scrolling.\",\n      \"block_ids\": [\n        \"K01\",\n        \"K02\"\n      ]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "85f38971b053f4fce76f9b4c0725fad4834a4c44bb8d8499b3c68805d734338c",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3709,
+      "prompt_tokens": 3080,
+      "completion_tokens": 1114,
+      "total_tokens": 4194,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:00:54.451063+00:00"
+}

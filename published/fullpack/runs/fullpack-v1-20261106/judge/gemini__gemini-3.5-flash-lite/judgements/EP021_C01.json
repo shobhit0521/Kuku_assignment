@@ -1,0 +1,316 @@
+{
+  "candidate_id": "EP021_C01",
+  "episode_id": "EP021",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "908af1dbeed7",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "d9aeeff7386902309542ea89cd640bb232403124a7fef7b5ada1b9054a7a48e0",
+  "clip_start_ms": 3500,
+  "clip_end_ms": 40400,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP021_B003",
+    "EP021_B004",
+    "EP021_B005"
+  ],
+  "eligible_beat_ids": [
+    "EP021_B020",
+    "EP021_B022",
+    "EP021_B021",
+    "EP021_B023",
+    "EP021_B025",
+    "EP021_B024"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 4,
+      "valid": true,
+      "reason": "Prudence rushes in weeping and immediately states that Toby is dying, establishing high emotional stakes right away.",
+      "evidence": [
+        "EP021_B005"
+      ],
+      "issues": [],
+      "block_id": "EP021_B005",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds as the reason for the medical denial is revealed (no money/silver), culminating in Lady Juliana's resolute decision to act.",
+      "evidence": [
+        "EP021_B005",
+        "EP021_B014",
+        "EP021_B016",
+        "EP021_B022",
+        "EP021_B025"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP021_B005",
+        "EP021_B014",
+        "EP021_B016",
+        "EP021_B022",
+        "EP021_B025"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 3,
+      "valid": true,
+      "reason": "It successfully launches the rescue mission, though it feels more like a scene transition than an unresolved question.",
+      "evidence": [
+        "EP021_B024",
+        "EP021_B025"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP021_B024",
+      "mechanism": "interrupted_action",
+      "outcome": "resolved",
+      "open_question": "Can Lady Juliana save the dying boy with only her coltsfoot and ledger?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 3,
+      "valid": true,
+      "reason": "The immediate medical emergency and the cruelty of the local apothecary/doctor are clear, but Lady Juliana's background (burnt cottage, bandaged hands) lacks context.",
+      "evidence": [
+        "EP021_B005",
+        "EP021_B014",
+        "EP021_B016",
+        "EP021_B018",
+        "EP021_B019"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A frantic young girl named Prudence begs Lady Juliana to save her dying younger brother after local medical professionals refused to help them due to poverty. Lady Juliana resolves to take her herbal ledger and go help the boy.",
+      "confusions": [
+        {
+          "issue": "Why Lady Juliana's cottage is in ashes and her clinic is gone",
+          "block_ids": [
+            "EP021_B018",
+            "EP021_B019"
+          ]
+        },
+        {
+          "issue": "Why Lady Juliana has bandaged hands",
+          "block_ids": [
+            "EP021_B006",
+            "EP021_B017"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 3,
+      "valid": true,
+      "reason": "The clip shows a complete mini-arc of deciding to help, leaving the actual outcome of the medical crisis unknown.",
+      "evidence": [
+        "EP021_B014",
+        "EP021_B019",
+        "EP021_B025"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "A sick child is denied medical help because of poverty",
+        "Lady Juliana steps up to help despite having lost her clinic"
+      ],
+      "withheld": [
+        "Whether they can reach the boy in time and if the herbal remedy will work"
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "Prudence's desperation and the cruelty of the apothecary evoke sympathy, though it leans heavily on standard melodrama.",
+      "evidence": [
+        "EP021_B005",
+        "EP021_B010",
+        "EP021_B014",
+        "EP021_B016"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "sympathy and urgency",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "vulnerability",
+      "evidence": [
+        "EP021_B005",
+        "EP021_B014",
+        "EP021_B025"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "medium",
+    "hook_mechanism": {
+      "value": "accusation_or_question",
+      "evidence": [
+        "EP021_B005"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "humiliation_sympathy",
+      "evidence": [
+        "EP021_B005",
+        "EP021_B014",
+        "EP021_B016"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "A seven-year-old boy's life is at risk while corrupt medical authorities refuse to treat the poor.",
+      "evidence": [
+        "EP021_B010",
+        "EP021_B014",
+        "EP021_B016",
+        "EP021_B022"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "interrupted_action",
+      "evidence": [
+        "EP021_B024"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "Background of Lady Juliana's injuries and lost clinic"
+    ],
+    "curiosity_revealed": [
+      "A sick child is denied medical help because of poverty",
+      "Lady Juliana steps up to help despite having lost her clinic"
+    ],
+    "curiosity_withheld": [
+      "Whether they can reach the boy in time and if the herbal remedy will work"
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "A compassionate lady defies corrupt elites to save a poor dying child.",
+    "supporting_block_ids": [
+      "EP021_B005",
+      "EP021_B014",
+      "EP021_B025",
+      "EP021_B016",
+      "EP021_B010",
+      "EP021_B022",
+      "EP021_B024"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "RESOLVED_ENDING",
+      "severity": "minor",
+      "explanation": "The clip resolves the immediate question of whether Lady Juliana will help, as she grabs her ledger and heads out.",
+      "block_ids": [
+        "EP021_B025",
+        "EP021_B024"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A frantic young girl named Prudence begs Lady Juliana to save her dying younger brother after local medical professionals refused to help them due to poverty. Lady Juliana resolves to take her herbal ledger and go help the boy.\",\n  \"confusions\": [\n    {\"issue\": \"Why Lady Juliana's cottage is in ashes and her clinic is gone\", \"block_ids\": [\"K16\", \"K17\"]},\n    {\"issue\": \"Why Lady Juliana has bandaged hands\", \"block_ids\": [\"K04\", \"K15\"]}\n  ],\n  \"hook\": {\n    \"block_id\": \"K03\",\n    \"score\": 4,\n    \"reason\": \"Prudence rushes in weeping and immediately states that Toby is dying, establishing high emotional stakes right away.\",\n    \"evidence\": [\"K03\"]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\"K03\", \"K11\", \"K14\", \"K19\", \"K22\"],\n    \"reason\": \"Tension builds as the reason for the medical denial is revealed (no money/silver), culminating in Lady Juliana's resolute decision to act.\",\n    \"evidence\": [\"K03\", \"K11\", \"K14\", \"K19\", \"K22\"]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K23\",\n    \"mechanism\": \"interrupted_action\",\n    \"outcome\": \"resolved\",\n    \"open_question\": \"Can Lady Juliana save the dying boy with only her coltsfoot and ledger?\",\n    \"score\": 3,\n    \"reason\": \"It successfully launches the rescue mission, though it feels more like a scene transition than an unresolved question.\",\n    \"evidence\": [\"K22\", \"K23\"]\n  },\n  \"context_independence\": {\n    \"score\": 3,\n    \"reason\": \"The immediate medical emergency and the cruelty of the local apothecary/doctor are clear, but Lady Juliana's background (burnt cottage, bandaged hands) lacks context.\",\n    \"evidence\": [\"K03\", \"K11\", \"K14\", \"K16\", \"K17\"]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\"A sick child is denied medical help because of poverty\", \"Lady Juliana steps up to help despite having lost her clinic\"],\n    \"withheld\": [\"Whether they can reach the boy in time and if the herbal remedy will work\"],\n    \"balance\": \"balanced\",\n    \"score\": 3,\n    \"reason\": \"The clip shows a complete mini-arc of deciding to help, leaving the actual outcome of the medical crisis unknown.\",\n    \"evidence\": [\"K11\", \"K17\", \"K22\"]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"sympathy and urgency\",\n    \"score\": 3,\n    \"reason\": \"Prudence's desperation and the cruelty of the apothecary evoke sympathy, though it leans heavily on standard melodrama.\",\n    \"evidence\": [\"K03\", \"K07\", \"K11\", \"K14\"]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"vulnerability\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"medium\",\n      \"evidence\": [\"K03\", \"K11\", \"K22\"]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"accusation_or_question\",\n      \"evidence\": [\"K03\"]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"humiliation_sympathy\",\n      \"evidence\": [\"K03\", \"K11\", \"K14\"]\n    },\n    \"stakes\": {\n      \"summary\": \"A seven-year-old boy's life is at risk while corrupt medical authorities refuse to treat the poor.\",\n      \"evidence\": [\"K07\", \"K11\", \"K14\", \"K19\"]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\"Background of Lady Juliana's injuries and lost clinic\"]\n    },\n    \"appeal\": \"A compassionate lady defies corrupt elites to save a poor dying child.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"RESOLVED_ENDING\",\n      \"severity\": \"minor\",\n      \"explanation\": \"The clip resolves the immediate question of whether Lady Juliana will help, as she grabs her ledger and heads out.\",\n      \"block_ids\": [\"K22\", \"K23\"]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "c7eccda53d8815371b1626e5ba99acef3aff9281d060ee34566186ea7b6cdca3",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3971,
+      "prompt_tokens": 2975,
+      "completion_tokens": 1090,
+      "total_tokens": 4065,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T10:57:23.566623+00:00"
+}

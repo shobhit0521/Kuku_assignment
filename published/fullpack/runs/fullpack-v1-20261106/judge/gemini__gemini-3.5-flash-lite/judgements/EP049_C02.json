@@ -1,0 +1,305 @@
+{
+  "candidate_id": "EP049_C02",
+  "episode_id": "EP049",
+  "status": "valid",
+  "invalid_reasons": [],
+  "failure_kind": null,
+  "invocation_id": "0012b70a5d99",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "judge-v1",
+  "prompt_sha256": "4551348a26010933d968ca781b5546dca38dfeb7d1352a057594d49cf5412aa4",
+  "clip_sha256": "4c2858e774cdbe6e875e5bbc8cbefa5ac1f06c23d35f420f0b7f544a2c4c60f0",
+  "clip_start_ms": 33200,
+  "clip_end_ms": 76800,
+  "masked_terms": 0,
+  "eligible_hook_ids": [
+    "EP049_B017",
+    "EP049_B018"
+  ],
+  "eligible_beat_ids": [
+    "EP049_B030",
+    "EP049_B031",
+    "EP049_B032",
+    "EP049_B033"
+  ],
+  "dimensions": {
+    "hook": {
+      "name": "hook",
+      "score": 3,
+      "valid": true,
+      "reason": "The line sets up an illicit clandestine meeting between a priest and a disgraced bride, providing mild intrigue about their relationship.",
+      "evidence": [
+        "EP049_B018"
+      ],
+      "issues": [],
+      "block_id": "EP049_B018",
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "narrative_tension": {
+      "name": "narrative_tension",
+      "score": 3,
+      "valid": true,
+      "reason": "Tension builds through their plotting and mutual manipulation, culminating in the priest pressing Catherine to drop the games and state her true demand.",
+      "evidence": [
+        "EP049_B023",
+        "EP049_B031",
+        "EP049_B033"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [
+        "EP049_B023",
+        "EP049_B031",
+        "EP049_B033"
+      ],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "cliffhanger": {
+      "name": "cliffhanger",
+      "score": 4,
+      "valid": true,
+      "reason": "The final direct question cuts right as the core demand is about to be revealed, creating a clear narrative forward pull.",
+      "evidence": [
+        "EP049_B033"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": "EP049_B033",
+      "mechanism": "unanswered_question",
+      "outcome": "unresolved",
+      "open_question": "What does Catherine actually need from Father Thomas?",
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "context_independence": {
+      "name": "context_independence",
+      "score": 2,
+      "valid": true,
+      "reason": "The clip relies heavily on backstory regarding who these characters are, why a priest is collaborating with a bride, and what court humiliation took place.",
+      "evidence": [
+        "EP049_B018",
+        "EP049_B023",
+        "EP049_B031"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": "A priest and a disgraced bride meet secretly before dawn in an abandoned room to discuss their successful scheme of humiliating someone at court. They acknowledge their mutual exploitation, and the clip ends as the priest impatiently demands to know what Catherine actually needs from him.",
+      "confusions": [
+        {
+          "issue": "Who is the 'disgraced bride' and who did she and the priest humiliate at court?",
+          "block_ids": [
+            "EP049_B018",
+            "EP049_B023"
+          ]
+        },
+        {
+          "issue": "What is the significance of the 'ten days' the council needs to remember something?",
+          "block_ids": [
+            "EP049_B031"
+          ]
+        }
+      ],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "curiosity_gap": {
+      "name": "curiosity_gap",
+      "score": 4,
+      "valid": true,
+      "reason": "It clearly establishes that they are scheming conspirators, but cuts off right before the audience learns what she actually needs him to do.",
+      "evidence": [
+        "EP049_B029",
+        "EP049_B031",
+        "EP049_B033"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [
+        "Catherine and Father Thomas are secretly allied in a plot to humiliate someone at court.",
+        "They have a history of using each other."
+      ],
+      "withheld": [
+        "What Catherine's ultimate goal or true demand is.",
+        "The full nature of their past relationship."
+      ],
+      "balance": "balanced",
+      "emotion": null,
+      "review": false,
+      "review_reasons": []
+    },
+    "emotional_impact": {
+      "name": "emotional_impact",
+      "score": 3,
+      "valid": true,
+      "reason": "The dialogue evokes a cold, calculating atmosphere of intrigue and mutual distrust, though it remains intellectually engaging rather than deeply moving.",
+      "evidence": [
+        "EP049_B020",
+        "EP049_B029",
+        "EP049_B033"
+      ],
+      "issues": [],
+      "block_id": null,
+      "suspense_beat_id": null,
+      "mechanism": null,
+      "outcome": null,
+      "open_question": null,
+      "escalation_beats": [],
+      "blind_summary": null,
+      "confusions": [],
+      "revealed": [],
+      "withheld": [],
+      "balance": null,
+      "emotion": "suspicion",
+      "review": false,
+      "review_reasons": []
+    }
+  },
+  "promo_dna": {
+    "archetype": {
+      "value": "deception_secret_identity",
+      "evidence": [
+        "EP049_B018",
+        "EP049_B023",
+        "EP049_B029"
+      ],
+      "note": null
+    },
+    "archetype_other_label": null,
+    "archetype_secondary": "confrontation_power_shift",
+    "archetype_confidence": "high",
+    "hook_mechanism": {
+      "value": "in_medias_res",
+      "evidence": [
+        "EP049_B018"
+      ],
+      "note": null
+    },
+    "emotional_trigger": {
+      "value": "suspicion",
+      "evidence": [
+        "EP049_B020",
+        "EP049_B029",
+        "EP049_B033"
+      ],
+      "note": null
+    },
+    "stakes": {
+      "value": "An alliance between a priest and a noblewoman carrying out a clandestine plot against the court.",
+      "evidence": [
+        "EP049_B018",
+        "EP049_B023",
+        "EP049_B031"
+      ],
+      "note": null
+    },
+    "cliffhanger_mechanism": {
+      "value": "unanswered_question",
+      "evidence": [
+        "EP049_B033"
+      ],
+      "note": null
+    },
+    "context_dependency": "medium",
+    "missing_context": [
+      "The identity of the person they humiliated",
+      "The backstory of why a priest is involved in a bride's schemes"
+    ],
+    "curiosity_revealed": [
+      "Catherine and Father Thomas are secretly allied in a plot to humiliate someone at court.",
+      "They have a history of using each other."
+    ],
+    "curiosity_withheld": [
+      "What Catherine's ultimate goal or true demand is.",
+      "The full nature of their past relationship."
+    ],
+    "curiosity_balance": "balanced",
+    "appeal": "Watch two calculating conspirators plot against the court in secret.",
+    "supporting_block_ids": [
+      "EP049_B018",
+      "EP049_B023",
+      "EP049_B029",
+      "EP049_B020",
+      "EP049_B033",
+      "EP049_B031"
+    ]
+  },
+  "soft_rejections": [
+    {
+      "code": "CONTEXT_DEPENDENT",
+      "severity": "minor",
+      "explanation": "A stranger lacks context regarding the court humiliation and the nature of the priest and bride's relationship.",
+      "block_ids": [
+        "EP049_B018",
+        "EP049_B023"
+      ],
+      "source": "judge"
+    }
+  ],
+  "dropped_rejections": [],
+  "response_errors": [],
+  "raw_response_text": "{\n  \"blind_summary\": \"A priest and a disgraced bride meet secretly before dawn in an abandoned room to discuss their successful scheme of humiliating someone at court. They acknowledge their mutual exploitation, and the clip ends as the priest impatiently demands to know what Catherine actually needs from him.\",\n  \"confusions\": [\n    {\n      \"issue\": \"Who is the 'disgraced bride' and who did she and the priest humiliate at court?\",\n      \"block_ids\": [\"K02\", \"K07\"]\n    },\n    {\n      \"issue\": \"What is the significance of the 'ten days' the council needs to remember something?\",\n      \"block_ids\": [\"K15\"]\n    }\n  ],\n  \"hook\": {\n    \"block_id\": \"K02\",\n    \"score\": 3,\n    \"reason\": \"The line sets up an illicit clandestine meeting between a priest and a disgraced bride, providing mild intrigue about their relationship.\",\n    \"evidence\": [\n      \"K02\"\n    ]\n  },\n  \"narrative_tension\": {\n    \"score\": 3,\n    \"escalation_beats\": [\n      \"K07\",\n      \"K15\",\n      \"K17\"\n    ],\n    \"reason\": \"Tension builds through their plotting and mutual manipulation, culminating in the priest pressing Catherine to drop the games and state her true demand.\",\n    \"evidence\": [\n      \"K07\",\n      \"K15\",\n      \"K17\"\n    ]\n  },\n  \"cliffhanger\": {\n    \"suspense_beat_id\": \"K17\",\n    \"mechanism\": \"unanswered_question\",\n    \"outcome\": \"unresolved\",\n    \"open_question\": \"What does Catherine actually need from Father Thomas?\",\n    \"score\": 4,\n    \"reason\": \"The final direct question cuts right as the core demand is about to be revealed, creating a clear narrative forward pull.\",\n    \"evidence\": [\n      \"K17\"\n    ]\n  },\n  \"context_independence\": {\n    \"score\": 2,\n    \"reason\": \"The clip relies heavily on backstory regarding who these characters are, why a priest is collaborating with a bride, and what court humiliation took place.\",\n    \"evidence\": [\n      \"K02\",\n      \"K07\",\n      \"K15\"\n    ]\n  },\n  \"curiosity_gap\": {\n    \"revealed\": [\n      \"Catherine and Father Thomas are secretly allied in a plot to humiliate someone at court.\",\n      \"They have a history of using each other.\"\n    ],\n    \"withheld\": [\n      \"What Catherine's ultimate goal or true demand is.\",\n      \"The full nature of their past relationship.\"\n    ],\n    \"balance\": \"balanced\",\n    \"score\": 4,\n    \"reason\": \"It clearly establishes that they are scheming conspirators, but cuts off right before the audience learns what she actually needs him to do.\",\n    \"evidence\": [\n      \"K13\",\n      \"K15\",\n      \"K17\"\n    ]\n  },\n  \"emotional_impact\": {\n    \"emotion\": \"suspicion\",\n    \"score\": 3,\n    \"reason\": \"The dialogue evokes a cold, calculating atmosphere of intrigue and mutual distrust, though it remains intellectually engaging rather than deeply moving.\",\n    \"evidence\": [\n      \"K04\",\n      \"K13\",\n      \"K17\"\n    ]\n  },\n  \"promo_dna\": {\n    \"archetype\": {\n      \"primary\": \"deception_secret_identity\",\n      \"other_label\": null,\n      \"secondary\": \"confrontation_power_shift\",\n      \"confidence\": \"high\",\n      \"evidence\": [\n        \"K02\",\n        \"K07\",\n        \"K13\"\n      ]\n    },\n    \"hook_mechanism\": {\n      \"type\": \"in_medias_res\",\n      \"evidence\": [\n        \"K02\"\n      ]\n    },\n    \"emotional_trigger\": {\n      \"type\": \"suspicion\",\n      \"evidence\": [\n        \"K04\",\n        \"K13\",\n        \"K17\"\n      ]\n    },\n    \"stakes\": {\n      \"summary\": \"An alliance between a priest and a noblewoman carrying out a clandestine plot against the court.\",\n      \"evidence\": [\n        \"K02\",\n        \"K07\",\n        \"K15\"\n      ]\n    },\n    \"context_dependency\": {\n      \"level\": \"medium\",\n      \"missing_context\": [\n        \"The identity of the person they humiliated\",\n        \"The backstory of why a priest is involved in a bride's schemes\"\n      ]\n    },\n    \"appeal\": \"Watch two calculating conspirators plot against the court in secret.\"\n  },\n  \"soft_rejections\": [\n    {\n      \"code\": \"CONTEXT_DEPENDENT\",\n      \"severity\": \"minor\",\n      \"explanation\": \"A stranger lacks context regarding the court humiliation and the nature of the priest and bride's relationship.\",\n      \"block_ids\": [\n        \"K02\",\n        \"K07\"\n      ]\n    }\n  ]\n}",
+  "calls": [
+    {
+      "stage": "judge",
+      "cache_key": "99df3ed4c93b8b10f2bc4a7688c72c80aeee9a6cb52f79c488537a3342a376af",
+      "cache_hit": false,
+      "retries": 0,
+      "model": "gemini-3.5-flash-lite",
+      "reported_model": "gemini-3.5-flash-lite",
+      "finish_reason": "stop",
+      "latency_ms": 3763,
+      "prompt_tokens": 2637,
+      "completion_tokens": 1216,
+      "total_tokens": 3853,
+      "hidden_tokens": 0
+    }
+  ],
+  "judged_at": "2026-11-06T11:10:13.415412+00:00"
+}
