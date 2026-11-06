@@ -1,0 +1,19 @@
+# Secrets and local config (API keys live only in .env)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# Confidential: screenplay input and anything derived from it
+data/
+outputs/
+*.txt
+!requirements*.txt
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

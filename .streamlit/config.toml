@@ -1,0 +1,21 @@
+# Local-only: the screenplay pack is confidential. Do not deploy this app to any public host.
+[server]
+address = "localhost"
+headless = true
+runOnSave = false
+
+[browser]
+serverAddress = "localhost"
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "type"
+
+[theme]
+base = "light"
+primaryColor = "#1F4E79"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F6F8"
+textColor = "#17202A"
+font = "sans serif"
