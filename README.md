@@ -8,9 +8,9 @@ Kuku AI Generalist assignment · Problem 1: *Find the Promos*
 | | |
 |---|---|
 | **Live app** | https://kukuassignment-sbnsjpfqxidpfavgvm79kp.streamlit.app/analyse|
-| **Solution document** | _add the link to the 2-page PDF here_ |
+| **Solution document** | https://github.com/shobhit0521/Kuku_assignment/blob/main/docs/solution/PromoPilot_Solution.pdf|
 | **Raw outputs** | [`published/fullpack/runs/fullpack-v1-20261106/`](published/fullpack/runs/fullpack-v1-20261106/) (unedited output of the full 50-episode run) |
-| **Walkthrough video** | _add the link here_ |
+| **Walkthrough video** |https://www.loom.com/share/702bff2162d949bdb5d39cb22a6fc741|
 | **Full command reference** | [docs/REFERENCE.md](docs/REFERENCE.md) |
 
 ---
