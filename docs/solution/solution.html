@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>PromoPilot: Solution document</title>
+<style>
+  @page { size: A4; margin: 11mm 12mm 10mm; }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { margin: 0; font: 8.55pt/1.38 "Segoe UI", Arial, sans-serif; color: #1f2430; }
+  h1 { font-size: 19pt; margin: 0; letter-spacing: -0.3px; color: #14182b; }
+  h2 { font-size: 9.6pt; margin: 7px 0 3px; color: #3b2fa0; text-transform: uppercase; letter-spacing: 0.5px;
+       border-bottom: 1.2px solid #e3e0f5; padding-bottom: 1.5px; }
+  p { margin: 0 0 4px; }
+  ul { margin: 0 0 4px; padding-left: 13px; }
+  li { margin: 0 0 1.6px; }
+  b { color: #14182b; }
+  .muted { color: #5c6275; }
+  .page { page-break-after: always; }
+  .page:last-child { page-break-after: auto; }
+
+  .head { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px;
+          border-bottom: 2.5px solid #3b2fa0; padding-bottom: 5px; }
+  .tag { font-size: 9.6pt; color: #3d4256; margin-top: 2px; }
+  .meta { text-align: right; font-size: 7.8pt; color: #5c6275; line-height: 1.45; white-space: nowrap; }
+  .meta a { color: #3b2fa0; text-decoration: none; font-weight: 600; }
+
+  .idea { margin: 6px 0 5px; background: #f3f1ff; border-left: 4px solid #3b2fa0; padding: 5px 9px; border-radius: 3px; }
+  .idea b { color: #3b2fa0; }
+
+  .stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 5px; margin: 5px 0 2px; }
+  .stat { border: 1px solid #e3e0f5; border-radius: 4px; padding: 3px 6px; background: #fff; }
+  .stat .n { font-size: 14pt; font-weight: 700; color: #3b2fa0; line-height: 1.1; }
+  .stat .l { font-size: 7.4pt; color: #5c6275; line-height: 1.25; }
+
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
+  .span { grid-column: 1 / -1; }
+
+  .flow { display: flex; align-items: stretch; gap: 3px; margin: 3px 0 4px; }
+  .step { flex: 1; border-radius: 4px; padding: 3px 5px; font-size: 7.5pt; line-height: 1.28; }
+  .step b { display: block; font-size: 8pt; }
+  .step.code { background: #e8f5f1; border: 1px solid #a9dccb; }
+  .step.code b { color: #0f6b52; }
+  .step.ai { background: #f1edff; border: 1px solid #c9bdf7; }
+  .step.ai b { color: #4b33b5; }
+  .arrow { align-self: center; color: #9aa0b4; font-size: 9pt; }
+  .legend { font-size: 7.3pt; color: #5c6275; margin: 0 0 3px; }
+  .chip { display: inline-block; width: 8px; height: 8px; border-radius: 2px; vertical-align: -0.5px; margin: 0 2px 0 6px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 7.7pt; line-height: 1.3; margin: 2px 0 4px; }
+  th { text-align: left; background: #f3f1ff; color: #2b2380; font-weight: 600; padding: 2.5px 4px; }
+  td { padding: 2.5px 4px; border-bottom: 1px solid #eceaf6; vertical-align: top; }
+  td.num, th.num { text-align: right; white-space: nowrap; }
+  .nowrap { white-space: nowrap; }
+
+  .card { border: 1px solid #c9bdf7; border-radius: 5px; padding: 4px 8px; margin: 3px 0 5px; background: #fcfbff; }
+  .card dl { display: grid; grid-template-columns: 74px 1fr; gap: 1px 8px; margin: 0; font-size: 7.9pt; }
+  .card dt { color: #5c6275; font-weight: 600; }
+  .card dd { margin: 0; }
+  .card .t { font-weight: 700; color: #3b2fa0; font-size: 8.3pt; margin-bottom: 2px; }
+
+  .box { border-radius: 4px; padding: 4px 8px; margin: 3px 0 4px; }
+  .box.warn { background: #fff7ea; border: 1px solid #f1d3a1; }
+  .box.ok { background: #eef8f4; border: 1px solid #b9e1d2; }
+  @media screen {
+    body { background: #e9e9ef; padding: 12px 0; }
+    .page { width: 186mm; height: 276mm; margin: 0 auto 12px; background: #fff; outline: 12mm solid #fff;
+            box-shadow: 0 0 0 calc(12mm + 1px) #ccc; margin-bottom: 30mm; }
+  }
+  .foot { margin-top: 5px; font-size: 7.2pt; color: #7a8093; border-top: 1px solid #eceaf6; padding-top: 3px; }
+</style>
+</head>
+<body>
+
+<!-- ============================== PAGE 1 ============================== -->
+<section class="page">
+  <div class="head">
+    <div>
+      <h1>PromoPilot</h1>
+      <div class="tag">Reads microdrama screenplays, finds the promo moments worth posting, and ranks them, with every
+        pick checked in code.</div>
+    </div>
+    <div class="meta">
+      Kuku AI Generalist assignment · <b>Problem 1: Find the Promos</b><br>
+      Live app: <a href="#">[add Streamlit link]</a> · Code: <a href="https://github.com/shobhit0521/Kuku_assignment">github.com/shobhit0521/Kuku_assignment</a><br>
+      Raw outputs: <a href="#">[add Drive link]</a> · Video: <a href="#">[add link]</a>
+    </div>
+  </div>
+
+  <div class="idea"><b>The key idea: the model points, the code measures.</b> Gemini makes the judgement calls (which
+    moment grips, which line hooks). It can only <i>point</i> at screenplay lines by ID, and Python computes every
+    timestamp and enforces every rule. So the tool cannot invent a moment or break a rule, and every rejection
+    comes with a reason.</div>
+
+  <div class="stats">
+    <div class="stat"><div class="n">50</div><div class="l">episodes read, the full input pack</div></div>
+    <div class="stat"><div class="n">147</div><div class="l">candidate clips proposed and checked</div></div>
+    <div class="stat"><div class="n">37</div><div class="l">rejected by the checks, each with a reason</div></div>
+    <div class="stat"><div class="n">110</div><div class="l">passed every check (full catalogue)</div></div>
+    <div class="stat"><div class="n">25</div><div class="l">ranked promos in posting order</div></div>
+  </div>
+
+  <div class="cols">
+    <div>
+      <h2>1 · The problem and why I picked it</h2>
+      <p>An editor watches every episode and picks promo moments by hand, and Kuku releases new shows every week, so
+        the manual step does not scale. I picked Problem 1 because the input is concrete and <b>most of the output is
+        checkable</b>: a clip is either 20–60 s or it is not, and the hook either lands in the first 3 s or it does not.
+        That let me split the work cleanly: rules a computer can verify, and taste a model has to judge.</p>
+
+      <h2>2 · Assumptions where the brief was silent</h2>
+      <ul>
+        <li><b>Screenplay times match the final cut</b>, so clip timestamps transfer directly to the video.</li>
+        <li><b>One continuous segment per promo.</b> Stitched promos are out of scope for this version (see §8).</li>
+        <li><b>Hook</b> = a line starting ≤ 3 s into the clip. <b>Cliffhanger</b> = the last story beat, with ≤ 2 s
+          after it, left unresolved.</li>
+        <li><b>A clip never cuts through a line of dialogue</b>, and never ends on a bare transition.</li>
+        <li><b>"Makes sense on its own"</b> is tested by a judge that sees only the clip, never the episode.</li>
+        <li><b>A posting feed needs variety:</b> at most one promo per episode and three per story type.</li>
+      </ul>
+
+      <h2>3 · How it works</h2>
+      <div class="legend"><span class="chip" style="background:#a9dccb"></span>Python, deterministic
+        <span class="chip" style="background:#c9bdf7"></span>AI model call</div>
+      <div class="flow">
+        <div class="step code"><b>Parse</b>Scenes and timed lines, each with an ID (EP001_B027)</div>
+        <div class="arrow">›</div>
+        <div class="step ai"><b>Generate</b>Gemini 3.5 Flash proposes ≤ 5 clips per episode, as line IDs only</div>
+        <div class="arrow">›</div>
+        <div class="step code"><b>Validate</b>Hard rules; one automatic repair</div>
+        <div class="arrow">›</div>
+        <div class="step ai"><b>Blind judge</b>Flash Lite scores 6 dimensions, citing lines</div>
+        <div class="arrow">›</div>
+        <div class="step code"><b>Check + rank</b>Verify citations, re-run rules, gates, rank</div>
+      </div>
+      <ul>
+        <li><b>Hard rules (code, final):</b> 20–60 s, hook ≤ 3 s, no dialogue cut, no transition-only ending, cut ≤ 2 s
+          after the suspense beat. A failing clip gets one repair (e.g. extend to finish a line) and is checked again
+          from scratch. The judge cannot override a hard-rule failure.</li>
+        <li><b>Blind judge:</b> sees only the clip's lines under neutral IDs, never the generator's reasoning, so it
+          cannot just agree with it and it reads like a first-time viewer. Every score must cite lines; Python
+          verifies each citation.</li>
+        <li><b>Quality gates:</b> hook, cliffhanger and stand-alone context ≥ 3/5, and the ending must be unresolved.</li>
+        <li><b>The judge is checked too:</b> if a score contradicts the judge's own notes, it gets one reassessment.
+          If the contradiction remains, the original is kept and the clip is flagged for a human.</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>4 · Who does what</h2>
+      <table>
+        <tr><th>AI (Gemini)</th><th>Code (Python)</th><th>Human (editor)</th></tr>
+        <tr><td>Proposes clips as line IDs</td><td>Owns every timestamp and duration</td><td>Approves the shortlist before posting</td></tr>
+        <tr><td>Scores clips blind, citing lines</td><td>Enforces hard rules and gates</td><td>Decides the 3 flagged clips</td></tr>
+        <tr><td>Writes the one-line pitch</td><td>Verifies citations, ranks, removes near-duplicates</td><td>Sets the weights and gates</td></tr>
+      </table>
+
+      <h2>5 · Ranking: which to post first, and why</h2>
+      <p><b>Score</b> = hook 30% + stand-alone context 30% + cliffhanger 25% + emotional impact 15%. A promo is shown
+        to strangers, so <b>stopping the scroll</b> and <b>making sense cold</b> weigh most; the cliffhanger is what
+        turns a view into a tap. Ties go to the stronger cliffhanger, then hook, then context. The shortlist then keeps
+        the feed varied: one promo per episode, ≤ 3 per story type, and clips overlapping &gt; 50% removed.</p>
+
+      <div class="card">
+        <div class="t">Post first: #1 · Episode 1 · score 5.00 of 5</div>
+        <dl>
+          <dt>Segment</dt><dd>00:39.00 → 01:18.50 (39.5 s, one continuous stretch)</dd>
+          <dt>Hook</dt><dd>00:39.10 · <i>"Because he is marrying me."</i> (0.1 s in)</dd>
+          <dt>Cliffhanger</dt><dd>01:15.00 · <i>"Long enough to know he was never going to marry you."</i></dd>
+          <dt>Why it works</dt><dd>"Witness the ultimate betrayal when a sister steals the bride's groom at the altar." (tool's line)</dd>
+          <dt>Why first</dt><dd>Top score on every weighted dimension, and it comes from Episode 1, so a viewer who taps
+            lands at the start of the show.</dd>
+        </dl>
+      </div>
+
+      <table>
+        <tr><th>#</th><th>Clip</th><th>Segment</th><th class="num">Score</th><th>Opens on (hook)</th></tr>
+        <tr><td>1</td><td class="nowrap">EP001_C03</td><td class="nowrap">00:39.0–01:18.5</td><td class="num">5.00</td><td>"Because he is marrying me."</td></tr>
+        <tr><td>2</td><td class="nowrap">EP011_C01</td><td class="nowrap">00:16.8–00:53.6</td><td class="num">4.60</td><td>"Your husband stole my gold pocket watch!"</td></tr>
+        <tr><td>3</td><td class="nowrap">EP028_C02</td><td class="nowrap">00:37.7–01:10.2</td><td class="num">4.55</td><td>"I was poisoned!"</td></tr>
+        <tr><td>4</td><td class="nowrap">EP031_C02</td><td class="nowrap">00:10.5–00:58.8</td><td class="num">4.55</td><td>"The great Lady Juliana Ashcroft."</td></tr>
+        <tr><td>5</td><td class="nowrap">EP002_C02</td><td class="nowrap">00:00.0–00:44.7</td><td class="num">4.45</td><td>"I cannot marry you, Juliana."</td></tr>
+      </table>
+      <p class="muted" style="font-size:7.5pt">All 25 promos, with hook and cliffhanger timestamps, verbatim lines and
+        the reason for each, are in <code>shortlist.csv</code> and the live app. Every promo is one segment, 20.7–57.5 s.</p>
+
+      <h2>6 · The prototype</h2>
+      <p>The <b>Top promos</b> page shows exactly what the brief asks for, plus where the tool picks badly; the
+        sidebar holds every clip's evidence and rejections. <b>Analyse your own screenplays</b> runs the same pipeline
+        live on uploaded <code>.txt</code> or <code>.zip</code> episodes (the interview re-run). <b>The model is a
+        setting:</b> one OpenAI-compatible client, so a stronger model plugs in through environment variables.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== PAGE 2 ============================== -->
+<section class="page">
+  <div class="cols">
+    <div>
+      <h2>7 · How I know it's good</h2>
+      <table>
+        <tr><th>Outcome of all 147 clips</th><th class="num">Clips</th></tr>
+        <tr><td><b>Eligible:</b> passed every hard rule and quality gate</td><td class="num"><b>110</b></td></tr>
+        <tr><td><b>Too weak to post:</b> failed a quality gate (cliffhanger &lt; 3 ×19, context &lt; 3 ×13, ending resolved ×8, hook &lt; 3 ×1)</td><td class="num">28</td></tr>
+        <tr><td><b>Broke a hard rule:</b> cut a line of dialogue (4), ran on too long after the suspense beat (5)</td><td class="num">9</td></tr>
+        <tr><td><b>Not judged or invalid judge output</b></td><td class="num">0</td></tr>
+      </table>
+      <ul>
+        <li><b>Rules are facts, not opinions.</b> Every shortlisted promo is verified in code against the
+          screenplay's own timestamps. No moment is invented, because the model can only cite existing line IDs.</li>
+        <li><b>Automatic repair worked:</b> 6 clips that broke a rule were repaired and re-judged from scratch, and
+          5 became eligible.</li>
+        <li><b>No forced picks:</b> in EP006 and EP038 every candidate failed a gate, so the tool reports "no strong
+          promo" instead of filling the slot. 48 of 50 episodes have one.</li>
+        <li><b>The ranking is stable:</b> re-ranking with equal weights keeps 24 of the 25 shortlisted promos, with a
+          rank correlation of 0.97 across all 110 eligible clips.</li>
+        <li><b>The judge's contradictions are caught:</b> 33 reassessments were run, and 3 clips stayed contradictory
+          and are flagged for a human (none is shortlisted).</li>
+        <li><b>413 automated tests</b> cover the parser, the rules, repairs, the judge checks, the ranking and the app.</li>
+      </ul>
+
+      <h2>8 · Where it picks badly</h2>
+      <div class="box warn">
+        <ul style="margin:0">
+          <li><b>AI judged AI.</b> The scores are one model's opinion, from the same family as the generator. They
+            cluster at 3–4 (median 3.7), a 5.0 is probably lenient, and gaps under ~0.5 are noise. There is no
+            human-labelled set and no baseline comparison yet, so I claim no accuracy figure.</li>
+          <li><b>#2 depends on the weights:</b> with equal weights, EP011_C01 drops out and EP043_C01 takes its place.</li>
+          <li><b>The one-line pitches read like ad copy</b> and are unreviewed. #2's is a question ("Will the framed
+            husband's dangerous calm expose the accuser…?"), not a reason.</li>
+          <li><b>Recaps:</b> clips that start at 00:00, such as #5 (EP002_C02), may open on a recap of the previous
+            episode, which a script-only judge cannot tell apart.</li>
+          <li><b>Camera beats:</b> a suspense beat can be a camera shot that the clip cuts before it finishes
+            (EP003_C02).</li>
+          <li><b>Early episodes dominate:</b> EP001 has 4 eligible clips, two of them overlapping. The diversity rules
+            fix the shortlist, not the catalogue.</li>
+          <li><b>Single segments only:</b> no promos stitched from several moments or episodes.</li>
+          <li><b>Screenplay, not footage:</b> it cannot judge acting, pacing or music.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <h2>9 · Scale and cost, for every show Kuku makes</h2>
+      <ul>
+        <li><b>Per episode:</b> 1 generation call and about 3–4 judge calls, roughly <b>23k tokens</b> and
+          <b>38 s</b> of model time. The whole 50-episode show used ≈ 1.17 M live tokens (0.53 M generation, of which
+          0.26 M was hidden reasoning, and 0.64 M judging), with 31 min of model time in total.</li>
+        <li><b>Cost per show</b> = tokens × the chosen model's price, growing linearly with episodes. Episodes are
+          independent, so with more quota they can run in parallel instead of one after another.</li>
+        <li><b>Robust at volume:</b> every model reply is cached (re-runs are free), runs resume after errors, request
+          budgets cap spending, and a quota error stops cleanly. In this run, 6 server errors (HTTP 503) were retried
+          and one quota stop (HTTP 429) was resumed with nothing lost.</li>
+        <li><b>Free tier, honestly:</b> the run hit Gemini's free limit of 20 Flash requests a day, so I enabled
+          billing on the same project to finish within the deadline. Nothing paid-only is used; on the free tier the
+          same run just takes several daily resets.</li>
+        <li><b>Editor time</b> shifts from watching 50–100 minutes of footage to reviewing 25 cards with evidence. A
+          new show is just a new input folder and run name.</li>
+      </ul>
+
+      <h2>10 · AI tools used, and one place they got it wrong</h2>
+      <p><b>Tools:</b> Cursor (AI coding assistant) to build, test and review the code; Gemini 3.5 Flash (generator)
+        and Gemini 3.5 Flash Lite (blind judge) at runtime, through Gemini's OpenAI-compatible API.</p>
+      <div class="box ok">
+        <p style="margin:0"><b>Where AI got it wrong:</b> for EP036_C03 the generator named a hook line that starts
+          <b>3.9 s</b> into its own clip, breaking the 3-second rule it had been given. Because models only cite line
+          IDs and Python computes every offset, the validator caught it at once and marked the clip as failing. It
+          became eligible only after the blind judge, which never saw that choice, picked a line <b>1.1 s</b> in and
+          Python re-checked the rule. The judge was wrong too: in 3 reassessments it simply <i>raised</i> a disputed
+          score instead of fixing the contradiction. Python rejected those changes and flagged the clips. <b>This is
+          why the rules live in code, not in the prompt.</b></p>
+      </div>
+
+      <h2>11 · How I'd know it works with a real team</h2>
+      <ul>
+        <li><b>Editor agreement:</b> log each accept or reject, the share posted unchanged, and boundary edits.</li>
+        <li><b>Audience results:</b> 3-second hold rate (did the hook work?), watch-through, and taps into the app
+          (did the cliffhanger work?).</li>
+        <li><b>Close the loop:</b> those labels become the ground truth that calibrates the judge and the weights.</li>
+      </ul>
+
+      <h2>12 · What I'd build next</h2>
+      <ul>
+        <li>A <b>hand-checked set</b> (e.g. 20 picks and rejections) to measure how often the judge agrees with an
+          editor.</li>
+        <li>A <b>naive baseline</b> ("the last 30 s of each episode") scored by the same judge, to prove the tool
+          beats the obvious. The code for it exists; it has not been run.</li>
+        <li><b>Stitched promos</b> joining 2–3 moments, reusing the same rule checks per segment.</li>
+        <li>A <b>judge from a different model family</b>, for a more independent second opinion.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot">All figures are from run <code>fullpack-v1-20261106</code> (6 Nov 2026), whose unedited outputs are
+    in the raw-outputs folder. Scores are an AI model's assessment, not measured audience performance.</div>
+</section>
+
+</body>
+</html>

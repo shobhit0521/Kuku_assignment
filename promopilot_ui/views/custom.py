@@ -13,7 +13,7 @@ from promopilot_ui.components.layout import badge
 from promopilot_ui.status import lane, selection_note
 
 JOB_KEY = "pp_live_job"
-RESULT_VIEWS = ("Promos to post first", "Full candidate analysis", "Where it picks badly", "Scores and ranking",
+RESULT_VIEWS = ("Top promos", "Full candidate analysis", "Where it picks badly", "Scores and ranking",
                 "Processing log", "Downloads")
 SETTINGS = config.live_settings()
 RUNNING = ("queued", "starting", "running")

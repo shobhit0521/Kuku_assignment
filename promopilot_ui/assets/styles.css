@@ -26,12 +26,26 @@ footer { visibility: hidden; }
 .stElementContainer:has(> .stHtml style) { display: none; }
 
 /* type */
-.pp-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 1.5rem;
-  padding-bottom: 1rem; margin-bottom: .4rem; border-bottom: 1px solid var(--pp-line); }
+.pp-header { display: flex; justify-content: space-between; align-items: flex-start; gap: .6rem 1.5rem;
+  flex-wrap: wrap; padding-bottom: 1rem; margin-bottom: .4rem; border-bottom: 1px solid var(--pp-line); }
+.pp-header > div:first-child { flex: 1 1 24rem; min-width: 0; }
 .pp-title { font-size: 1.65rem; font-weight: 650; letter-spacing: -.01em; color: var(--pp-ink); margin: 0; padding: 0; }
 .pp-subtitle { margin: .3rem 0 0; color: var(--pp-muted); font-size: .95rem; }
 .pp-header__right { padding-top: .35rem; }
 .pp-disclaimer { color: var(--pp-muted); font-size: .85rem; margin: .2rem 0 .4rem; }
+.pp-lede { color: var(--pp-ink-2); font-size: 1.02rem; line-height: 1.55; max-width: 52rem; margin: .4rem 0 .2rem; }
+.pp-hero { padding: .4rem 0 .6rem; }
+.pp-hero__title { font-size: 2rem; font-weight: 700; letter-spacing: -.015em; color: var(--pp-ink);
+  margin: .3rem 0 .1rem; padding: 0; line-height: 1.2; }
+.pp-hero .pp-subtitle { font-size: 1.05rem; margin: 0 0 .9rem; }
+.pp-models { color: var(--pp-muted); font-size: .9rem; margin: .5rem 0 0; }
+.pp-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .7rem;
+  margin: 1.1rem 0 .3rem; max-width: 52rem; }
+@media (max-width: 640px) { .pp-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.pp-stat { background: var(--pp-canvas); border: 1px solid var(--pp-line-2); border-radius: 10px; padding: .7rem .9rem; }
+.pp-stat b { display: block; font-size: 1.6rem; font-weight: 700; color: var(--pp-ink); line-height: 1.1;
+  font-variant-numeric: tabular-nums; }
+.pp-stat span { font-size: .82rem; color: var(--pp-muted); }
 .pp-section-title { display: flex; align-items: baseline; gap: .9rem; margin: 1.6rem 0 .4rem; }
 .pp-section-title h2 { font-size: 1.05rem; font-weight: 650; margin: 0; padding: 0; color: var(--pp-ink);
   text-transform: none; }

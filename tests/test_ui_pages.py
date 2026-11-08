@@ -48,7 +48,13 @@ def test_shell_shows_dataset_rubric_and_freshness(built, monkeypatch):
 def test_default_page_shows_only_the_briefs_fields(built, monkeypatch):
     at = render(built, monkeypatch)
     page = "\n".join(b for b in (h.proto.body for h in at.get("html")) if not b.startswith("<style>"))
-    assert "Promos to post first" in page and "Ranked promos" in page
+    assert "PromoPilot</h1>" in page and "An AI-powered tool that reads screenplays" in page
+    assert "Ranked promos" in page and "pp-disclaimer" not in page.split("Where the tool picks badly", 1)[0]
+    assert re.search(r"Candidate clips are generated with .+, then evaluated separately by .+ against a fixed "
+                     r"quality rubric, without seeing the generator's reasoning\. Scores represent an AI model's "
+                     r"assessment, not measured audience performance\.", page)
+    assert re.search(r'<b>\d+</b><span>promos ranked</span>', page)
+    assert "pp-rubric" not in page.split("Ranked promos", 1)[0]
     promo = page.split('<article class="pp-promo">', 1)[1].split("</article>", 1)[0]
     labels = re.findall(r"<dt>([^<]+)</dt>", promo)
     assert labels == ["Segment 1", "Hook", "Cliffhanger", "Why it works", "Why this rank"]

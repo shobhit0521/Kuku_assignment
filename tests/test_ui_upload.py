@@ -73,7 +73,7 @@ def test_results_page_shows_ranked_clips_and_full_analysis_without_dashboard_lin
 
 
 def custom_views():
-    return ("Promos to post first", "Full candidate analysis", "Where it picks badly", "Scores and ranking",
+    return ("Top promos", "Full candidate analysis", "Where it picks badly", "Scores and ranking",
             "Processing log", "Downloads")
 
 
@@ -88,7 +88,10 @@ def test_dashboard_offers_the_upload_page(built_fixture, monkeypatch):
     at.query_params["run"] = fx.RUN
     at.run()
     assert not at.exception
-    assert "Analyse your own screenplays" in [b.label for b in at.sidebar.button]
+    assert "Try it on your own screenplays" in [b.label for b in at.main.button]
+    assert "Analyse your own screenplays" not in [b.label for b in at.sidebar.button]
+    next(b for b in at.main.button if b.label == "Try it on your own screenplays").click().run()
+    assert not at.exception and "No files yet" in html(at)
 
 
 @pytest.fixture(scope="module")

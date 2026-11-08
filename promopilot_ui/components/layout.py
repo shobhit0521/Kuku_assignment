@@ -150,19 +150,23 @@ def _default_run(runs: list[data.RunRef]) -> data.RunRef:
     return max(runs, key=ranked_at)
 
 
-def select_run(runs: list[data.RunRef]) -> data.RunRef:
+def select_run(runs: list[data.RunRef], sb=None) -> data.RunRef:
     names = [r.name for r in runs]
     wanted = st.query_params.get("run")
     default = wanted if wanted in names else _default_run(runs).name
-    choice = st.sidebar.selectbox("Run", names, index=names.index(default),
-                                  help="Folders under the configured output directory's runs/ folder.")
+    if len(names) == 1:
+        choice = names[0]
+    else:
+        choice = (sb or st.sidebar).selectbox("Run", names, index=names.index(default),
+                                              help="Folders under the configured output directory's runs/ folder.")
     if st.query_params.get("run") != choice:
         st.query_params["run"] = choice
     return runs[names.index(choice)]
 
 
-def sidebar(ctx: data.RunData) -> None:
-    sb = st.sidebar
+def sidebar(ctx: data.RunData, sb=None) -> None:
+    """Dataset, rubric and freshness details, written into `sb` (the sidebar by default)."""
+    sb = sb or st.sidebar
     pack = ctx.pack or {}
     dataset = escape(pack.get("pack_name") or "Unknown dataset")
     eps = pack.get("episode_count")
@@ -185,8 +189,8 @@ def sidebar(ctx: data.RunData) -> None:
         st.rerun()
     warn = data.output_location_warning(ctx.output_root)
     if warn:
-        sb.warning(warn)
+        st.sidebar.warning(warn)
     if ctx.issues:
-        with sb.expander(f"Data issues ({len(ctx.issues)})"):
+        with st.sidebar.expander(f"Data issues ({len(ctx.issues)})"):
             for i in ctx.issues:
                 st.markdown(f"- `{i.path}`: {i.problem}")

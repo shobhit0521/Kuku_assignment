@@ -17,7 +17,7 @@ st.set_page_config(page_title="PromoPilot", page_icon=str(layout.ASSETS / "mark.
 layout.css()
 st.logo(str(layout.ASSETS / "logo.svg"), size="large", icon_image=str(layout.ASSETS / "mark.svg"))
 
-dashboard = [st.Page("views/shortlist.py", title="Promos to post first", icon=":material/format_list_numbered:",
+dashboard = [st.Page("views/shortlist.py", title="Top promos", icon=":material/format_list_numbered:",
                      default=True)]
 details = [
     st.Page("views/candidate.py", title="Full candidate analysis", icon=":material/insights:", url_path="candidate"),
@@ -36,10 +36,6 @@ if nav.url_path == upload.url_path:
     nav.run()
     st.stop()
 
-if st.sidebar.button("Analyse your own screenplays", icon=":material/upload_file:", type="primary",
-                     width="stretch", help="Upload episode files and run the full pipeline on them."):
-    st.switch_page(upload)
-
 root = data.output_root()
 runs = data.discover_runs(root)
 if not runs:
@@ -53,8 +49,9 @@ if not runs:
         layout.banner("review", warn)
     st.stop()
 
-run = layout.select_run(runs)
+data_details = st.sidebar.expander("Data details", icon=":material/info:")
+run = layout.select_run(runs, data_details)
 ctx = layout.load_run(run, root)
 layout.set_context(ctx)
-layout.sidebar(ctx)
+layout.sidebar(ctx, data_details)
 nav.run()

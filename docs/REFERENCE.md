@@ -188,7 +188,7 @@ python -m promopilot_ui --server.port 8601
 
 `python -m promopilot_ui` binds to localhost with usage telemetry disabled.
 
-**Kuku 50-episode analysis** (read-only). The default page, "Promos to post first", shows only what the brief
+**Kuku 50-episode analysis** (read-only). The default page, "Top promos", shows only what the brief
 asks for. Each ranked promo shows its episode, segment timestamps, hook, cliffhanger, one line on why it works, and
 why it holds its rank (from the stored scores and the ranking's own tie-break order). Below the promos is a short
 "where the tool picks badly" summary with real examples. The "Details" pages in the sidebar hold everything else:
